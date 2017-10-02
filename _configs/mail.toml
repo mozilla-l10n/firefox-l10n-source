@@ -95,6 +95,9 @@ locales = [
 [[includes]]
     path = "_configs/toolkit.toml"
 
+[[paths]]
+    reference = "/devtools/shim/**"
+    l10n = "{l}{mozilla}/devtools/shim/**"
 
 # ignore MOZ_LANGPACK_CONTRIBUTORS
 [[filters]]
