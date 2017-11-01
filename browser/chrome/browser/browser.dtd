@@ -355,7 +355,6 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY appMenuCustomize.tooltip "Customize the Menu and Toolbars">
 <!ENTITY appMenuCustomizeExit.label "Exit Customize">
 <!ENTITY appMenuCustomizeExit.tooltip "Finish Customizing">
-
 <!ENTITY appMenuHistory.showAll.label "Show All History">
 <!ENTITY appMenuHistory.clearRecent.label "Clear Recent History…">
 <!ENTITY appMenuHistory.restoreSession.label "Restore Previous Session">
