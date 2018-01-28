@@ -101,6 +101,9 @@ locales = [
 [[includes]]
     path = "_configs/toolkit.toml"
 
+[[includes]]
+    path = "_configs/calendar.toml"
+
 [[paths]]
     reference = "devtools/startup/**"
     l10n = "{l}devtools/startup/**"
