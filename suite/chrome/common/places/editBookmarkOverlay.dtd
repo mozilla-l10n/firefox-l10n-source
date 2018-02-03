@@ -11,6 +11,7 @@
 <!ENTITY editBookmarkOverlay.siteLocation.label              "Site Location:">
 <!ENTITY editBookmarkOverlay.siteLocation.accesskey          "S">
 <!ENTITY editBookmarkOverlay.folder.label                    "Folder:">
+<!ENTITY editBookmarkOverlay.folder.accesskey                "F">
 <!ENTITY editBookmarkOverlay.foldersExpanderDown.tooltip     "Show all the bookmarks folders">
 <!ENTITY editBookmarkOverlay.expanderUp.tooltip              "Hide">
 <!ENTITY editBookmarkOverlay.tags.label                      "Tags:">
@@ -26,3 +27,4 @@
 <!ENTITY editBookmarkOverlay.choose.label                    "Choose…">
 <!ENTITY editBookmarkOverlay.newFolderButton.label           "New Folder">
 <!ENTITY editBookmarkOverlay.newFolderButton.accesskey       "o">
+<!ENTITY editBookmarkOverlay.newFolderButton.tooltip         "Create new folder">
