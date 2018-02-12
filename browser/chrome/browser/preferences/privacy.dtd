@@ -51,6 +51,15 @@
 
 <!ENTITY  acceptThirdParty2.pre.label     "Accept third-party cookies">
 <!ENTITY  acceptThirdParty2.pre.accesskey "y">
+
+<!ENTITY  acceptCookies3.label          "Accept cookies and site data from websites">
+<!ENTITY  acceptCookies3.accesskey      "A">
+
+<!ENTITY  blockCookies.label            "Block cookies and site data (may cause websites to break)">
+<!ENTITY  blockCookies.accesskey        "B">
+
+<!ENTITY  acceptThirdParty3.pre.label     "Accept third-party cookies and site data">
+<!ENTITY  acceptThirdParty3.pre.accesskey "y">
 <!ENTITY  acceptThirdParty.always.label   "Always">
 <!ENTITY  acceptThirdParty.never.label    "Never">
 <!ENTITY  acceptThirdParty.visited.label  "From visited">
