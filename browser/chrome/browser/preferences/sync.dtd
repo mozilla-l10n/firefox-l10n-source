@@ -70,11 +70,6 @@ both, to better adapt this sentence to their language.
 <!ENTITY verifiedManage.accesskey     "o">
 <!ENTITY disconnect3.label            "Disconnect…">
 <!ENTITY disconnect3.accesskey        "D">
-<!ENTITY verify.label                "Verify email">
-<!ENTITY verify.accesskey            "V">
-<!ENTITY forget.label                "Forget this email">
-<!ENTITY forget.accesskey            "F">
-
 <!ENTITY resendVerification.label     "Resend Verification">
 <!ENTITY resendVerification.accesskey "d">
 <!ENTITY cancelSetup.label            "Cancel Setup">
