@@ -5,6 +5,8 @@
 <!ENTITY     window.title                  "Settings - Site Data">
 
 <!ENTITY     window1.title                 "Settings - Cookies and Site Data">
+
+<!ENTITY     window2.title                 "Manage Cookies and Site Data">
 <!ENTITY     hostCol.label                 "Site">
 <!ENTITY     statusCol.label               "Status">
 <!ENTITY     cookiesCol.label              "Cookies">
