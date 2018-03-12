@@ -120,26 +120,10 @@
 <!-- Reorder Attachment Panel -->
 <!ENTITY reorderAttachmentsPanel.label "Reorder Attachments">
 <!ENTITY moveAttachmentTopPanelBtn.label "Move to Top">
-<!ENTITY moveAttachmentTopPanelBtn.accesskey "T">
 <!ENTITY moveAttachmentUpPanelBtn.label "Move Up">
-<!ENTITY moveAttachmentUpPanelBtn.accesskey "U">
 <!ENTITY moveAttachmentBundleUpPanelBtn.label "Move together">
-<!ENTITY moveAttachmentBundleUpPanelBtn.accesskey "v">
 <!ENTITY moveAttachmentDownPanelBtn.label "Move Down">
-<!ENTITY moveAttachmentDownPanelBtn.accesskey "D">
 <!ENTITY moveAttachmentBottomPanelBtn.label "Move to Bottom">
-<!ENTITY moveAttachmentBottomPanelBtn.accesskey "B">
-<!-- LOCALIZATION NOTE (sortAttachmentsTogglePanelBtn.AZ.label):
-     Please ensure that this translation matches
-     sortAttachmentsTogglePanelBtn.ZA.label, except for the sort direction. -->
-<!ENTITY sortAttachmentsTogglePanelBtn.AZ.label "Sort Selection: A - Z">
-<!-- LOCALIZATION NOTE (sortAttachmentsTogglePanelBtn.AZ.accesskey):
-     This accesskey should be the same like
-     sortAttachmentsTogglePanelBtn.ZA.accesskey, and it should be taken from
-     the "Sort Selection:" part of the label, not from the sort direction part. -->
-<!ENTITY sortAttachmentsTogglePanelBtn.AZ.accesskey "o">
-<!ENTITY sortAttachmentsTogglePanelBtn.ZA.label "Sort Selection: Z - A">
-<!ENTITY sortAttachmentsTogglePanelBtn.ZA.accesskey "o">
 
 <!-- LOCALIZATION NOTE (sortAttachmentsPanelBtn.Sort.AZ.label):
      Please ensure that this translation matches
