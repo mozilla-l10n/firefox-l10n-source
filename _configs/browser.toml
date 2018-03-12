@@ -145,8 +145,8 @@ locales = [
     path = "_configs/devtools-client.toml"
 
 [[paths]]
-    reference = "devtools/shim/**"
-    l10n = "{l}devtools/shim/**"
+    reference = "devtools/startup/**"
+    l10n = "{l}devtools/startup/**"
 
 # Filters
 # The filters below are evaluated one after the other, in the given order.
