@@ -984,8 +984,6 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 
 <!ENTITY newTabControlled.message "An extension has changed the page you see when you open a New Tab. You can restore your settings if you do not want this change.">
 
-<!ENTITY newTabControlled.header.message2 "Your New Tab has changed.">
-
 <!ENTITY newTabControlled.header.message "Your New Tab has changed.">
 <!ENTITY newTabControlled.keepButton.label "Keep Changes">
 <!ENTITY newTabControlled.keepButton.accesskey "K">
