@@ -13,6 +13,7 @@
 -->
 
 <!ENTITY  browsingProtection.label        "Deceptive Content and Dangerous Software Protection">
+
 <!ENTITY  enableSafeBrowsing.label        "Block dangerous and deceptive content">
 <!ENTITY  enableSafeBrowsing.accesskey    "B">
 
