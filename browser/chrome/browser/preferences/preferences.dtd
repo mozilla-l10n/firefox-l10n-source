@@ -23,6 +23,7 @@
 <!ENTITY  paneSearch.title              "Search">
 <!ENTITY  paneFilesApplications.title   "Files &amp; Applications">
 <!ENTITY  panePrivacySecurity.title     "Privacy &amp; Security">
+
 <!ENTITY  paneContainers.title          "Container Tabs">
 <!ENTITY  paneUpdates.title             "Updates">
 
