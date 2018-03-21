@@ -49,8 +49,8 @@ locales = [
     l10n = "{l}editor/ui/**"
 
 [[paths]]
-    reference = "devtools/shim/**"
-    l10n = "{l}devtools/shim/**"
+    reference = "devtools/startup/**"
+    l10n = "{l}devtools/startup/**"
 
 [[paths]]
     reference = "services/sync/**"

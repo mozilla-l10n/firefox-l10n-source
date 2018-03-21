@@ -102,8 +102,8 @@ locales = [
     path = "_configs/toolkit.toml"
 
 [[paths]]
-    reference = "/devtools/shim/**"
-    l10n = "{l}/devtools/shim/**"
+    reference = "/devtools/startup/**"
+    l10n = "{l}/devtools/startup/**"
 
 # ignore MOZ_LANGPACK_CONTRIBUTORS
 [[filters]]
