@@ -49,6 +49,11 @@ locales = [
     l10n = "{l}editor/ui/**"
 
 [[paths]]
+    reference = "devtools/startup/**"
+    l10n = "{l}devtools/startup/**"
+
+# for Gecko 60 and older and cross-channel
+[[paths]]
     reference = "devtools/shim/**"
     l10n = "{l}devtools/shim/**"
 

@@ -102,8 +102,13 @@ locales = [
     path = "_configs/toolkit.toml"
 
 [[paths]]
-    reference = "/devtools/shim/**"
-    l10n = "{l}/devtools/shim/**"
+    reference = "devtools/startup/**"
+    l10n = "{l}devtools/startup/**"
+
+# for Gecko 60 and older and cross-channel
+[[paths]]
+    reference = "devtools/shim/**"
+    l10n = "{l}devtools/shim/**"
 
 # ignore MOZ_LANGPACK_CONTRIBUTORS
 [[filters]]
