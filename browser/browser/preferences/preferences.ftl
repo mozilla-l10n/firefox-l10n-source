@@ -131,6 +131,10 @@ startup-blank-page =
 startup-prev-session =
     .label = Show your windows and tabs from last time
 
+startup-restore-previous-session =
+    .label = Restore previous session
+    .accesskey = s
+
 disable-extension =
     .label = Disable Extension
 
