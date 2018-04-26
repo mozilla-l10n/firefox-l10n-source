@@ -129,7 +129,6 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY showAllTabsCmd.label "Show All Tabs">
 <!ENTITY showAllTabsCmd.accesskey "A">
 <!ENTITY toggleReaderMode.key "R">
-
 <!ENTITY toggleReaderMode.win.keycode "VK_F9">
 
 <!ENTITY fxaSignIn.label "Sign in to &syncBrand.shortName.label;">
@@ -189,10 +188,6 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY otherBookmarksCmd.label "Other Bookmarks">
 <!ENTITY mobileBookmarksCmd.label "Mobile Bookmarks">
 <!ENTITY bookmarksToolbarChevron.tooltip "Show more bookmarks">
-<!ENTITY showRecentlyBookmarked.label     "Show Recently Bookmarked">
-<!ENTITY showRecentlyBookmarked.accesskey "h">
-<!ENTITY hideRecentlyBookmarked.label     "Hide Recently Bookmarked">
-<!ENTITY hideRecentlyBookmarked.accesskey "H">
 
 <!ENTITY backCmd.label                "Back">
 <!ENTITY backCmd.accesskey            "B">
@@ -234,7 +229,6 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY urlbar.translateNotificationAnchor.tooltip       "Translate this page">
 <!ENTITY urlbar.translatedNotificationAnchor.tooltip      "Manage page translation">
 <!ENTITY urlbar.emeNotificationAnchor.tooltip             "Manage use of DRM software">
-
 <!ENTITY urlbar.midiNotificationAnchor.tooltip            "Open MIDI panel">
 
 <!ENTITY urlbar.cameraBlocked.tooltip            "You have blocked your camera for this website.">
@@ -245,7 +239,6 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY urlbar.persistentStorageBlocked.tooltip "You have blocked persistent storage for this website.">
 <!ENTITY urlbar.popupBlocked.tooltip             "You have blocked pop-ups for this website.">
 <!ENTITY urlbar.canvasBlocked.tooltip            "You have blocked canvas data extraction for this website.">
-
 <!ENTITY urlbar.flashPluginBlocked.tooltip       "You have blocked this website from using the Adobe Flash plugin.">
 <!ENTITY urlbar.midiBlocked.tooltip              "You have blocked MIDI access for this website.">
 
@@ -395,7 +388,6 @@ These should match what Safari and other Apple applications use on OS X Lion. --
      when Sync is configured but this appears to be the only device attached to
      the account. We also show links to download Firefox for android/ios. -->
 <!ENTITY appMenuRemoteTabs.noclients.subtitle "Want to see your tabs from other devices here?">
-<!ENTITY appMenuRemoteTabs.openprefs.label "Sync Preferences">
 <!ENTITY appMenuRemoteTabs.opensyncprefs.label "Open Sync Preferences">
 <!ENTITY appMenuRemoteTabs.notsignedin.label "Sign in to view a list of tabs from your other devices.">
 <!ENTITY appMenuRemoteTabs.unverified.label "Your account needs to be verified.">
@@ -987,14 +979,9 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY updateRestart.cancelButton.accesskey "N">
 <!ENTITY updateRestart.panelUI.label2 "Restart to update &brandShorterName;">
 
-<!ENTITY newTabControlled.message "An extension has changed the page you see when you open a New Tab. You can restore your settings if you do not want this change.">
-
 <!ENTITY newTabControlled.header.message "Your New Tab has changed.">
 <!ENTITY newTabControlled.keepButton.label "Keep Changes">
 <!ENTITY newTabControlled.keepButton.accesskey "K">
-<!ENTITY newTabControlled.restoreButton.label "Restore Settings">
-<!ENTITY newTabControlled.restoreButton.accesskey "R">
-
 <!ENTITY newTabControlled.disableButton.label "Disable Extension">
 <!ENTITY newTabControlled.disableButton.accesskey "D">
 
