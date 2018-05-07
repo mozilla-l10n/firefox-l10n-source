@@ -178,8 +178,6 @@
 <!ENTITY calendar.context.attendance.menu.label                 "Attendance">
 <!ENTITY calendar.context.attendance.menu.accesskey             "d">
 <!ENTITY calendar.context.attendance.occurrence.label           "This Occurrence">
-<!ENTITY calendar.context.attendance.all.label        "All Occurrences" >
-
 <!ENTITY calendar.context.attendance.all2.label                 "Complete Series">
 <!ENTITY calendar.context.attendance.send.label                 "Send a notification now">
 <!ENTITY calendar.context.attendance.send.accesskey             "S">
