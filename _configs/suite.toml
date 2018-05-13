@@ -49,6 +49,19 @@ locales = [
     l10n = "{l}editor/ui/**"
 
 [[paths]]
+    reference = "services/sync/**"
+    l10n = "{l}services/sync/**"
+
+[[includes]]
+    path = "_configs/toolkit.toml"
+
+[[includes]]
+    path = "_configs/calendar.toml"
+
+[[includes]]
+    path = "_configs/devtools-client.toml"
+
+[[paths]]
     reference = "devtools/startup/**"
     l10n = "{l}devtools/startup/**"
 
@@ -57,23 +70,13 @@ locales = [
     reference = "devtools/shim/**"
     l10n = "{l}devtools/shim/**"
 
-[[paths]]
-    reference = "services/sync/**"
-    l10n = "{l}services/sync/**"
-
-[[includes]]
-    path = "_configs/devtools-client.toml"
-
-[[includes]]
-    path = "_configs/toolkit.toml"
-
 # ignore MOZ_LANGPACK_CONTRIBUTORS
 [[filters]]
     path = "{l}suite/defines.inc"
     key = "MOZ_LANGPACK_CONTRIBUTORS"
     action = "ignore"
 
-# defines.inc and all-l10n.js can be missing completely
+# defines.inc and suite-l10n.js can be missing completely
 [[filters]]
     path = [
         "{l}suite/defines.inc",
