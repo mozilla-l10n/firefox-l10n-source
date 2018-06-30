@@ -1073,6 +1073,8 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 
 <!ENTITY pageAction.shareUrl.label "Share">
 
+<!ENTITY pageAction.shareMore.label "More…">
+
 <!ENTITY libraryButton.tooltip "View history, saved bookmarks, and more">
 
 <!-- LOCALIZATION NOTE: (accessibilityIndicator.tooltip): This is used to
