@@ -10,6 +10,8 @@
 <!ENTITY returnToPreviousPage.label "Go Back">
 <!ENTITY advanced.label "Advanced">
 
+<!ENTITY continue.label "Continue">
+
 <!-- Specific error messages -->
 
 <!ENTITY connectionFailure.title "Unable to connect">
