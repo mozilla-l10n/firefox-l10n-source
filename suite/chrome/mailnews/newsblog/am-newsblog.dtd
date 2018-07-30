@@ -4,6 +4,7 @@
 
 <!ENTITY loginAtStartup.label "Check for new articles at startup">
 <!ENTITY loginAtStartup.accesskey "C">
+
 <!ENTITY biffAll.label "Enable updates for all feeds">
 <!ENTITY biffAll.accesskey "E">
 
