@@ -407,6 +407,8 @@ browsing-search-on-start-typing =
 
 network-proxy-title = Network Proxy
 
+network-settings-title = Network Settings
+
 network-proxy-connection-description = Configure how { -brand-short-name } connects to the internet.
 
 network-proxy-connection-learn-more = Learn More
