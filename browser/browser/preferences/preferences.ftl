@@ -863,6 +863,12 @@ content-blocking-tracking-protection-option-pbm =
   .label = Block only in private windows
 content-blocking-tracking-protection-option-disabled =
   .label = Never block
+content-blocking-tracking-protection-option-always =
+  .label = Always
+  .accesskey = A
+content-blocking-tracking-protection-option-private =
+  .label = Only in private windows
+  .accesskey = p
 content-blocking-tracking-protection-change-blocklist = Change Block List…
 
 content-blocking-reject-trackers-label = Third-Party Cookies
