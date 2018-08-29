@@ -6,6 +6,8 @@ do-not-track-description = Send websites a “Do Not Track” signal that you do
 do-not-track-learn-more = Learn more
 do-not-track-option-default =
     .label = Only when using Tracking Protection
+do-not-track-option-default-content-blocking =
+    .label = Only when { -brand-short-name } is set to block Detected Trackers
 do-not-track-option-always =
     .label = Always
 
@@ -863,7 +865,37 @@ content-blocking-tracking-protection-option-pbm =
   .label = Block only in private windows
 content-blocking-tracking-protection-option-disabled =
   .label = Never block
+content-blocking-tracking-protection-option-always =
+  .label = Always
+  .accesskey = A
+content-blocking-tracking-protection-option-private =
+  .label = Only in private windows
+  .accesskey = p
 content-blocking-tracking-protection-change-blocklist = Change Block List…
+
+content-blocking-reject-trackers-label = Third-Party Cookies
+  .accesskey = C
+content-blocking-reject-trackers-description = Block all third-party cookies or just those set by trackers.
+# This is a warning message shown next to a yellow warning icon when the Third-Party Cookies subsection
+# of the Content Blocking UI in Preferences has been disabled due to the "All cookies" option
+# being selected in the Cookies and Site Data section of the UI.
+content-blocking-reject-trackers-warning-all-cookies-blocked = All cookies are currently blocked.
+# This is a warning message shown next to a yellow warning icon when the Third-Party Cookies subsection
+# of the Content Blocking UI in Preferences has been disabled due to the "Cookies from unvisited websites"
+# option being selected in the Cookies and Site Data section of the UI.
+content-blocking-reject-trackers-warning-from-unvisited-cookies-blocked = Cookies from unvisited websites are currently blocked.
+content-blocking-change-cookie-settings =
+  .label = Change Cookie Settings
+  .accesskey = S
+content-blocking-reject-trackers-block-trackers-option-recommended =
+  .label = Trackers (recommended)
+  .accesskey = k
+content-blocking-reject-trackers-block-trackers-option =
+  .label = Trackers
+  .accesskey = k
+content-blocking-reject-trackers-all-third-parties-option =
+  .label = All third-party cookies (may cause websites to break)
+  .accesskey = A
 
 ## Privacy Section - Tracking
 
