@@ -1110,6 +1110,7 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY pageAction.manageExtension.label "Manage Extension…">
 
 <!ENTITY pageAction.sendTabToDevice.label "Send Tab to Device">
+
 <!ENTITY sendToDevice.syncNotReady.label "Syncing Devices…">
 
 <!ENTITY pageAction.shareUrl.label "Share">
