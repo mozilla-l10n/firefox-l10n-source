@@ -416,8 +416,6 @@ browsing-search-on-start-typing =
 
 ## General Section - Proxy
 
-network-proxy-title = Network Proxy
-
 network-settings-title = Network Settings
 
 network-proxy-connection-description = Configure how { -brand-short-name } connects to the internet.
@@ -748,14 +746,6 @@ sitedata-total-size = Your stored cookies, site data and cache are currently usi
 
 sitedata-learn-more = Learn more
 
-sitedata-accept-cookies-option =
-    .label = Accept cookies and site data from websites (recommended)
-    .accesskey = A
-
-sitedata-block-cookies-option =
-    .label = Block cookies and site data (may cause websites to break)
-    .accesskey = B
-
 sitedata-keep-until = Keep until
     .accesskey = u
 
@@ -763,16 +753,6 @@ sitedata-keep-until-expire =
     .label = They expire
 sitedata-keep-until-closed =
     .label = { -brand-short-name } is closed
-
-sitedata-accept-third-party-desc = Accept third-party cookies and site data
-    .accesskey = y
-
-sitedata-accept-third-party-always-option =
-    .label = Always
-sitedata-accept-third-party-visited-option =
-    .label = From visited
-sitedata-accept-third-party-never-option =
-    .label = Never
 
 sitedata-allow-cookies-option =
     .label = Accept cookies and site data
@@ -917,11 +897,6 @@ tracking-mode-private =
 tracking-mode-never =
     .label = Never
     .accesskey = N
-
-# This string is displayed if privacy.trackingprotection.ui.enabled is set to false.
-# This currently happens on the release and beta channel.
-tracking-pbm-label = Use Tracking Protection in Private Browsing to block known trackers
-    .accesskey = v
 
 tracking-exceptions =
     .label = Exceptions…
