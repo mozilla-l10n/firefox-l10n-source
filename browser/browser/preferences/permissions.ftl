@@ -68,11 +68,6 @@ permissions-exceptions-tracking-protection-window =
     .style = { permissions-window.style }
 permissions-exceptions-tracking-protection-desc = You have disabled Tracking Protection on these websites.
 
-permissions-exceptions-content-blocking-window =
-    .title = Exceptions - Content Blocking
-    .style = { permissions-window.style }
-permissions-exceptions-content-blocking-desc = You have disabled Content Blocking on these websites.
-
 ## Exceptions - Cookies
 
 permissions-exceptions-cookie-window =
