@@ -87,6 +87,14 @@
 <!ENTITY cmd.preferencesUnix.label            "Preferences">
 <!ENTITY cmd.preferencesUnix.accesskey        "P">
 
+
+
+
+
+
+
+
+
 <!ENTITY cmd.enableAddon.label                "Enable">
 <!ENTITY cmd.enableAddon.accesskey            "E">
 <!ENTITY cmd.disableAddon.label               "Disable">
@@ -95,6 +103,10 @@
 <!ENTITY cmd.enableTheme.accesskey            "W">
 <!ENTITY cmd.disableTheme.label               "Stop Wearing Theme">
 <!ENTITY cmd.disableTheme.accesskey           "W">
+
+
+
+
 <!ENTITY cmd.askToActivate.label              "Ask to Activate">
 <!ENTITY cmd.askToActivate.tooltip            "Ask to use this add-on each time">
 <!ENTITY cmd.alwaysActivate.label             "Always Activate">
@@ -104,6 +116,8 @@
 <!ENTITY cmd.stateMenu.tooltip                "Change when this add-on runs">
 <!ENTITY cmd.installAddon.label               "Install">
 <!ENTITY cmd.installAddon.accesskey           "I">
+
+
 <!ENTITY cmd.uninstallAddon.label             "Remove">
 <!ENTITY cmd.uninstallAddon.accesskey         "R">
 <!ENTITY cmd.showPreferencesWin.label         "Options">
@@ -113,6 +127,9 @@
 <!ENTITY cmd.contribute.label                 "Contribute">
 <!ENTITY cmd.contribute.accesskey             "C">
 <!ENTITY cmd.contribute.tooltip               "Contribute to the development of this add-on">
+
+
+
 
 <!ENTITY cmd.showReleaseNotes.label           "Show Release Notes">
 <!ENTITY cmd.showReleaseNotes.tooltip         "Show the release notes for this update">
@@ -163,11 +180,15 @@
 <!-- ratings -->
 <!ENTITY rating2.label                        "Rating">
 
+
 <!-- download/install progress -->
 <!ENTITY progress.pause.tooltip               "Pause">
+
 <!ENTITY progress.cancel.tooltip              "Cancel">
 
 <!ENTITY addon.homepage                       "Homepage">
+
+
 <!ENTITY addon.details.label                  "More">
 <!ENTITY addon.details.tooltip                "Show more details about this add-on">
 <!ENTITY addon.unknownDate                    "Unknown">
@@ -189,6 +210,7 @@
 <!ENTITY addon.undoRemove.label               "Undo">
 <!ENTITY addon.undoRemove.tooltip             "Keep this add-on installed">
 <!ENTITY addon.restartNow.label               "Restart now">
+
 <!ENTITY addon.install.label                  "Install">
 <!ENTITY addon.install.tooltip                "Install this add-on">
 <!ENTITY addon.updateNow.label                "Update Now">
