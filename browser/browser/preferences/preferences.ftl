@@ -853,6 +853,7 @@ content-blocking-fastblock-slow-loading-trackers-label =
   .label = Slow-Loading Trackers
   .accesskey = S
 content-blocking-fastblock-new-description = Block just the trackers that keep pages from loading quickly.
+
 content-blocking-tracking-protection-trackers-label =
   .label = Trackers
   .accesskey = T
