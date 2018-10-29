@@ -764,6 +764,10 @@ sitedata-keep-until-expire =
 sitedata-keep-until-closed =
     .label = { -brand-short-name } is closed
 
+sitedata-delete-on-close =
+    .label = Delete cookies and site data when { -brand-short-name } is closed
+    .accesskey = c
+
 sitedata-allow-cookies-option =
     .label = Accept cookies and site data
     .accesskey = A
