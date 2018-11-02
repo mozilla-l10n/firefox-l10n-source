@@ -186,6 +186,10 @@ warn-on-close-multiple-tabs =
     .label = Warn you when closing multiple tabs
     .accesskey = m
 
+warn-on-quit-close-multiple-tabs =
+    .label = Warn you when quitting and closing multiple tabs
+    .accesskey = m
+
 warn-on-open-many-tabs =
     .label = Warn you when opening multiple tabs might slow down { -brand-short-name }
     .accesskey = d
