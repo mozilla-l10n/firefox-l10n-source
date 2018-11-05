@@ -5,6 +5,9 @@
 ### This file contains the entities needed for the 'edit' menu
 ### It's currently only used for the Browser Console
 
+### This file contains the entities needed for the 'edit' menu
+### It's currently only used for the Browser Console and Developer Toolbox
+
 editmenu-undo =
     .label = Undo
     .accesskey = U
