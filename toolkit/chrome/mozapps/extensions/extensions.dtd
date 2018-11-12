@@ -87,6 +87,7 @@
 <!ENTITY cmd.preferencesUnix.label            "Preferences">
 <!ENTITY cmd.preferencesUnix.accesskey        "P">
 
+<!-- addon actions -->
 <!ENTITY cmd.enableAddon.label                "Enable">
 <!ENTITY cmd.enableAddon.accesskey            "E">
 <!ENTITY cmd.disableAddon.label               "Disable">
@@ -167,6 +168,8 @@
 
 <!-- download/install progress -->
 <!ENTITY progress.pause.tooltip               "Pause">
+
+<!-- download/install progress -->
 <!ENTITY progress.cancel.tooltip              "Cancel">
 
 <!ENTITY addon.homepage                       "Homepage">
