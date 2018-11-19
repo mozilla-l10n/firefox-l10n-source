@@ -819,6 +819,10 @@ sitedata-cookies-exceptions =
 # Cookies and Site Data section.
 sitedata-warning-your-settings-prevent-changes = Your settings in Content Blocking are preventing changes to Cookies and Site Data settings.
 
+sitedata-cookies-permissions =
+    .label = Manage Permissions…
+    .accesskey = P
+
 ## Privacy Section - Address Bar
 
 addressbar-header = Address Bar
@@ -842,6 +846,8 @@ addressbar-suggestions-settings = Change preferences for search engine suggestio
 content-blocking-header = Content Blocking
 
 content-blocking-desc = Block third-party content, like ads or code, that can slow your browsing and track you around the web. Customize your settings for the best balance of protection and performance.
+
+content-blocking-description = Block third-party content that tracks you around the web. Control how much of your online activity gets stored and shared between websites.
 
 content-blocking-learn-more = Learn more
 content-blocking-restore-defaults =
@@ -867,6 +873,29 @@ content-blocking-fastblock-slow-loading-trackers-label =
   .label = Slow-Loading Trackers
   .accesskey = S
 content-blocking-fastblock-new-description = Block just the trackers that keep pages from loading quickly.
+
+content-blocking-setting-standard =
+  .label = Standard
+  .accesskey = d
+content-blocking-setting-strict =
+  .label = Strict
+  .accesskey = r
+content-blocking-setting-custom =
+  .label = Custom
+  .accesskey = C
+
+content-blocking-standard-desc = Balanced for protection and performance. Allows some trackers so websites function properly.
+content-blocking-strict-desc = Blocks all trackers { -brand-short-name } detects. May cause some sites to break.
+content-blocking-custom-desc = Choose what to block.
+
+content-blocking-private-trackers = Known trackers only in Private Windows
+content-blocking-third-party-cookies = Third-party tracking cookies
+content-blocking-all-windows-trackers = Known trackers in all windows
+content-blocking-all-third-party-cookies = All third-party cookies
+
+content-blocking-warning-title = Heads up!
+content-blocking-warning-desc = Blocking cookies and trackers can cause some websites to break. It’s easy to disable blocking for sites you trust.
+content-blocking-learn-how = Learn how
 
 content-blocking-tracking-protection-trackers-label =
   .label = Trackers
@@ -905,6 +934,10 @@ content-blocking-reject-trackers-all-third-parties-option =
   .label = All third-party cookies (may cause websites to break)
   .accesskey = A
 
+content-blocking-cookies-label =
+  .label = Cookies
+  .accesskey = C
+
 ## Privacy Section - Tracking
 
 tracking-header = Tracking Protection
@@ -930,6 +963,10 @@ tracking-exceptions =
 tracking-change-block-list =
     .label = Change Block List…
     .accesskey = C
+
+tracking-manage-exceptions =
+    .label = Manage Exceptions…
+    .accesskey = x
 
 ## Privacy Section - Permissions
 
