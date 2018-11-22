@@ -908,8 +908,11 @@ content-blocking-tracking-protection-new-description = Block all known trackers.
 content-blocking-tracking-protection-option-always =
   .label = Always
   .accesskey = A
+content-blocking-tracking-protection-option-all-windows =
+  .label = In all windows
+  .accesskey = A
 content-blocking-tracking-protection-option-private =
-  .label = Only in private windows
+  .label = Only in Private Windows
   .accesskey = p
 content-blocking-tracking-protection-change-block-list = Change block list
 
