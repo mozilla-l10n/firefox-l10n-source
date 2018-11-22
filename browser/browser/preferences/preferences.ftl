@@ -793,6 +793,7 @@ sitedata-block-desc = Type blocked
 
 sitedata-block-trackers-option-recommended =
     .label = Third-party trackers (recommended)
+
 sitedata-block-trackers-option =
     .label = Third-party trackers
 sitedata-block-unvisited-option =
