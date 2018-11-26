@@ -875,6 +875,8 @@ content-blocking-fastblock-slow-loading-trackers-label =
   .accesskey = S
 content-blocking-fastblock-new-description = Block just the trackers that keep pages from loading quickly.
 
+# The terminology used to refer to categories of Content Blocking is also used in chrome/browser/browser.properties and should be translated consistently.
+# "Standard" in this case is an adjective, meaning "default" or "normal".
 content-blocking-setting-standard =
   .label = Standard
   .accesskey = d
