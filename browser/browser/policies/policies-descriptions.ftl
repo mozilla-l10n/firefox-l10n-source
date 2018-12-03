@@ -23,8 +23,6 @@ policy-BlockAboutSupport = Block access to the about:support page.
 
 policy-Bookmarks = Create bookmarks in the Bookmarks toolbar, Bookmarks menu, or a specified folder inside them.
 
-policy-Certificates = Whether or not to use built-in certificates. This policy is Windows only at this time.
-
 policy-CertificatesDescription = Add certificates or use built-in certificates.
 
 policy-Cookies = Allow or deny websites to set cookies.
@@ -61,8 +59,6 @@ policy-DisableProfileRefresh = Disable the Refresh { -brand-short-name } button 
 policy-DisableSafeMode = Disable the feature to restart in Safe Mode. Note: the Shift key to enter Safe Mode can only be disabled on Windows using Group Policy.
 
 policy-DisableSecurityBypass = Prevent the user from bypassing certain security warnings.
-
-policy-DisableSetDesktopBackground = Disable the menu command Set Image as Desktop Background.
 
 policy-DisableSetAsDesktopBackground = Disable the menu command Set as Desktop Background for images.
 
