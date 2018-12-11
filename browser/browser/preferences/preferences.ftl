@@ -8,6 +8,8 @@ do-not-track-option-default =
     .label = Only when using Tracking Protection
 do-not-track-option-default-content-blocking =
     .label = Only when { -brand-short-name } is set to block Detected Trackers
+do-not-track-option-default-content-blocking-known =
+    .label = Only when { -brand-short-name } is set to block known trackers
 do-not-track-option-always =
     .label = Always
 
