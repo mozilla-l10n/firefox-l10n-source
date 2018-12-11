@@ -186,10 +186,6 @@ open-new-link-as-tabs =
     .label = Open links in tabs instead of new windows
     .accesskey = w
 
-warn-on-quit-close-multiple-tabs =
-    .label = Warn you when quitting and closing multiple tabs
-    .accesskey = m
-
 warn-on-close-multiple-tabs =
     .label = Warn you when closing multiple tabs
     .accesskey = m
