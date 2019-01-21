@@ -9,7 +9,6 @@ about-performance-title = Task Manager
 column-name = Name
 column-type = Type
 column-energy-impact = Energy Impact
-
 column-memory = Memory
 
 ## Special values for the Name column

@@ -12,11 +12,6 @@ findbar-previous =
 findbar-find-button-close =
     .tooltiptext = Close find bar
 
-findbar-highlight-all =
-    .label = Highlight All
-    .accesskey = l
-    .tooltiptext = Highlight all occurrences of the phrase
-
 findbar-highlight-all2 =
     .label = Highlight All
     .accesskey = { PLATFORM() ->
