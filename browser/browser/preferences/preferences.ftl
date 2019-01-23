@@ -904,6 +904,10 @@ permissions-block-autoplay-media =
 
 permissions-block-autoplay-media-menu = For websites that autoplay sound
 
+permissions-block-autoplay-media2 =
+    .label = Block websites from automatically playing sound
+    .accesskey = B
+
 permissions-block-autoplay-media-exceptions =
     .label = Exceptions…
     .accesskey = E
