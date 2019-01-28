@@ -278,9 +278,6 @@ extensions-updates-update-selected =
 
 ## Extension shortcut management
 
-shortcuts-manage =
-  .label = Keyboard Shortcuts
-
 manage-extensions-shortcuts =
     .label = Manage Extension Shortcuts
     .accesskey = S
