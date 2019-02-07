@@ -302,6 +302,7 @@ manage-extensions-shortcuts =
     .accesskey = S
 shortcuts-empty-message = There are no shortcuts for this extension.
 shortcuts-no-addons = You don’t have any extensions enabled.
+shortcuts-no-commands = The following extensions do not have shortcuts:
 shortcuts-input =
   .placeholder = Type a shortcut
 
