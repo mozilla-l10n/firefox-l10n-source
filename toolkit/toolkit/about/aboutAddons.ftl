@@ -325,3 +325,11 @@ shortcuts-card-collapse-button = Show Less
 
 go-back-button =
     .tooltiptext = Go back
+
+## Add-on actions
+remove-addon-button = Remove
+disable-addon-button = Disable
+enable-addon-button = Enable
+
+addons-enabled-heading = Enabled
+addons-disabled-heading = Disabled
