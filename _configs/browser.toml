@@ -129,6 +129,10 @@ locales = [
     l10n = "{l}browser/extensions/formautofill/**"
 
 [[paths]]
+    reference = "browser/extensions/fxmonitor/**"
+    l10n = "{l}browser/extensions/fxmonitor/**"
+
+[[paths]]
     reference = "browser/extensions/webcompat-reporter/**"
     l10n = "{l}browser/extensions/webcompat-reporter/**"
 
