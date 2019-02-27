@@ -25,7 +25,7 @@
 <!ENTITY for.placeholder                     "Name or Email">
 <!ENTITY addressMessageTo.label              "Address message to:"> 
 
-<!-- Tooltips items -->  
+<!-- Tooltips items -->
 <!ENTITY addressPickerNewButton.tooltip      "Create a new address book card"> 
 <!ENTITY addressPickerEditButton.tooltip     "Edit the selected card"> 
 
