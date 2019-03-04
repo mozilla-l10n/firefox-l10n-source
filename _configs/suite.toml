@@ -48,6 +48,10 @@ locales = [
     l10n = "{l}editor/ui/**"
 
 [[paths]]
+    reference = "suite/branding/seamonkey/**"
+    l10n = "{l}suite/branding/seamonkey/**"
+
+[[paths]]
     reference = "services/sync/**"
     l10n = "{l}services/sync/**"
 
