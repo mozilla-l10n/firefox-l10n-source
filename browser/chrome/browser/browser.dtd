@@ -1137,6 +1137,9 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY addonPostInstall.incognito.label "Allow this extension to run in Private Windows.">
 <!ENTITY addonPostInstall.incognito.accesskey "A">
 
+<!ENTITY addonPostInstall.incognito.checkbox.label "Allow this extension to run in Private Windows">
+<!ENTITY addonPostInstall.incognito.checkbox.accesskey "A">
+
 <!ENTITY addonPrivateBrowsing.header2.label "Change to extensions in Private Windows">
 <!ENTITY addonPrivateBrowsing.body2.label "Any new extensions you add to &brandShorterName; won’t work in Private Windows unless you allow this in the settings.">
 <!ENTITY addonPrivateBrowsing.learnMore.label "Learn how to manage extension settings.">
