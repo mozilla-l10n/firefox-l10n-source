@@ -865,6 +865,11 @@ content-blocking-warning-desc = Blocking cookies and trackers can cause some web
 content-blocking-warning-description = Blocking content can cause some websites to break. It’s easy to disable blocking for sites you trust.
 content-blocking-learn-how = Learn how
 
+content-blocking-reload-description = You will need to reload your tabs to apply these changes.
+content-blocking-reload-tabs-button =
+  .label = Reload All Tabs
+  .accesskey = R
+
 content-blocking-trackers-label =
   .label = Trackers
   .accesskey = T
