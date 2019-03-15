@@ -332,5 +332,7 @@ remove-addon-button = Remove
 disable-addon-button = Disable
 enable-addon-button = Enable
 
+expand-addon-button = More Options
+
 addons-enabled-heading = Enabled
 addons-disabled-heading = Disabled
