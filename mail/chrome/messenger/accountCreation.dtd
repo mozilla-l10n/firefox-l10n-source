@@ -18,7 +18,6 @@
 <!ENTITY password.text                   "Optional, will only be used to validate the username">
 <!ENTITY rememberPassword.label          "Remember password">
 <!ENTITY rememberPassword.accesskey      "m">
-
 <!ENTITY usernameEx.label                "Your login:">
 <!ENTITY usernameEx.accesskey            "l">
 <!-- LOCALIZATION NOTE(usernameEx.placeholder): YOURDOMAIN refers to the Windows domain in ActiveDirectory. yourusername refers to the user's account name in Windows. -->
