@@ -10,6 +10,8 @@ about-config-warning-button = I accept the risk
 
 about-config-title = about:config
 
+about-config2-title = Advanced Configurations
+
 about-config-search-input =
     .placeholder = Search
 about-config-show-all = Show All
