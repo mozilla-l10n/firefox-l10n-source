@@ -1107,6 +1107,7 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY updateAvailable.acceptButton.accesskey "D">
 <!ENTITY updateAvailable.cancelButton.label "Not Now">
 <!ENTITY updateAvailable.cancelButton.accesskey "N">
+
 <!ENTITY updateAvailable.panelUI.label "Download &brandShorterName; update">
 
 <!ENTITY updateManual.message "Download a fresh copy of &brandShorterName; and we’ll help you to install it.">
