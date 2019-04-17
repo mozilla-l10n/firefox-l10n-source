@@ -61,6 +61,11 @@ containers-color-pink =
 containers-color-purple =
     .label = Purple
 
+containers-color-toolbar =
+    .label = Match toolbar
+
+containers-icon-fence =
+    .label = Fence
 containers-icon-fingerprint =
     .label = Fingerprint
 containers-icon-briefcase =
