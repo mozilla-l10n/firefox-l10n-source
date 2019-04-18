@@ -836,6 +836,8 @@ content-blocking-header = Content Blocking
 
 content-blocking-description = Block third-party content that tracks you around the web. Control how much of your online activity gets stored and shared between websites.
 
+content-blocking-section-description = Protect your privacy while you browse. Block invisible content that tracks the sites you visit and profiles you. Blocking some of this content may make pages load faster.
+
 content-blocking-learn-more = Learn more
 
 # The terminology used to refer to categories of Content Blocking is also used in chrome/browser/browser.properties and should be translated consistently.
