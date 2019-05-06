@@ -346,6 +346,7 @@ go-back-button =
     .tooltiptext = Go back
 
 ## Add-on actions
+report-addon-button = Report
 remove-addon-button = Remove
 disable-addon-button = Disable
 enable-addon-button = Enable
