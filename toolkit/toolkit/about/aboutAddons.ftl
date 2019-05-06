@@ -227,6 +227,10 @@ extensions-view-discover =
     .name = Get Add-ons
     .tooltiptext = { extensions-view-discover.name }
 
+extensions-view-discopane =
+    .name = Recommendations
+    .tooltiptext = { extensions-view-discopane.name }
+
 extensions-view-recent-updates =
     .name = Recent Updates
     .tooltiptext = { extensions-view-recent-updates.name }
