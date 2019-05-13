@@ -60,7 +60,6 @@ containers-color-pink =
     .label = Pink
 containers-color-purple =
     .label = Purple
-
 containers-color-toolbar =
     .label = Match toolbar
 

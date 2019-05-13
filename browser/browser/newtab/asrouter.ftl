@@ -3,7 +3,6 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 cfr-doorhanger-extension-heading = Recommended Extension
-
 cfr-doorhanger-pintab-heading = Try This: Pin Tab
 
 cfr-doorhanger-extension-sumo-link =
@@ -14,7 +13,6 @@ cfr-doorhanger-extension-cancel-button = Not Now
 
 cfr-doorhanger-extension-ok-button = Add Now
   .accesskey = A
-
 cfr-doorhanger-pintab-ok-button = Pin This Tab
   .accesskey = P
 

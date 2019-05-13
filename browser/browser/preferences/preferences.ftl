@@ -54,11 +54,6 @@ pane-privacy-title = Privacy & Security
 category-privacy =
     .tooltiptext = { pane-privacy-title }
 
-# The word "account" can be translated, do not translate or transliterate "Firefox".
-pane-sync-title = Firefox Account
-category-sync =
-    .tooltiptext = { pane-sync-title }
-
 pane-sync-title2 = { -sync-brand-short-name }
 category-sync2 =
     .tooltiptext = { pane-sync-title2 }
@@ -429,7 +424,6 @@ browsing-search-on-start-typing =
 browsing-cfr-recommendations =
     .label = Recommend extensions as you browse
     .accesskey = R
-
 browsing-cfr-features =
     .label = Recommend features as you browse
     .accesskey = f
@@ -672,10 +666,6 @@ sync-device-name-save =
     .label = Save
     .accesskey = v
 
-sync-mobilepromo-single = Connect another device
-
-sync-mobilepromo-multi = Manage devices
-
 sync-connect-another-device = Connect another device
 
 sync-manage-devices = Manage devices
@@ -870,7 +860,6 @@ content-blocking-cryptominers = Cryptominers
 content-blocking-fingerprinters = Fingerprinters
 
 content-blocking-warning-title = Heads up!
-content-blocking-warning-desc = Blocking cookies and trackers can cause some websites to break. It’s easy to disable blocking for sites you trust.
 content-blocking-warning-description = Blocking content can cause some websites to break. It’s easy to disable blocking for sites you trust.
 content-blocking-learn-how = Learn how
 
