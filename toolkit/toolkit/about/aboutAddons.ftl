@@ -395,8 +395,6 @@ preferences-addon-button =
         [windows] Options
        *[other] Preferences
     }
-details-addon-button = Details
-release-notes-addon-button = Release Notes
 
 addons-enabled-heading = Enabled
 addons-disabled-heading = Disabled
@@ -455,6 +453,3 @@ addon-detail-private-browsing-disallow = Don’t Allow
 
 available-updates-heading = Available Updates
 recent-updates-heading = Recent Updates
-
-release-notes-loading = Loading…
-release-notes-error = Sorry, but there was an error loading the release notes.
