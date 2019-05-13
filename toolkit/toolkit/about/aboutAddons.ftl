@@ -390,6 +390,12 @@ disable-addon-button = Disable
 enable-addon-button = Enable
 expand-addon-button = More Options
 
+preferences-addon-button =
+    { PLATFORM() ->
+        [windows] Options
+       *[other] Preferences
+    }
+
 addons-enabled-heading = Enabled
 addons-disabled-heading = Disabled
 
