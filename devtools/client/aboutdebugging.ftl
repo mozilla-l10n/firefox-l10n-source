@@ -101,10 +101,6 @@ about-debugging-setup-title = Setup
 # Introduction text in the Setup page to explain how to configure remote debugging.
 about-debugging-setup-intro = Configure the connection method you wish to remotely debug your device with.
 
-# Link displayed in the Setup page that leads to MDN page with list of supported devices.
-# Temporarily leads to https://support.mozilla.org/en-US/kb/will-firefox-work-my-mobile-device#w_android-devices
-about-debugging-setup-link-android-devices = View list of supported Android devices
-
 # Explanatory text in the Setup page about what the 'This Firefox' page is for
 about-debugging-setup-this-firefox = Use <a>{ about-debugging-this-firefox-runtime-name }</a> to debug tabs, extensions and service workers on this version of { -brand-shorter-name }.
 
@@ -132,15 +128,6 @@ about-debugging-setup-usb-updating-button = Updating…
 about-debugging-setup-usb-status-enabled = Enabled
 about-debugging-setup-usb-status-disabled = Disabled
 about-debugging-setup-usb-status-updating = Updating…
-
-# USB section step by step guide
-about-debugging-setup-usb-step-enable-dev-menu = Enable Developer menu on your Android device. <a>Learn how</a>
-
-# USB section step by step guide
-about-debugging-setup-usb-step-enable-debug = Enable USB Debugging in the Android Developer Menu. <a>Learn how</a>
-
-# USB section step by step guide
-about-debugging-setup-usb-step-enable-debug-firefox = Enable USB Debugging in Firefox on the Android device. <a>Learn how</a>
 
 # USB section step by step guide
 about-debugging-setup-usb-step-enable-dev-menu2 = Enable Developer menu on your Android device.
