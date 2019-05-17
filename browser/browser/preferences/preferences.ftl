@@ -38,6 +38,8 @@ policies-notice =
        *[other] Your organization has disabled the ability to change some preferences.
     }
 
+managed-notice = Your browser is being managed by your organization.
+
 pane-general-title = General
 category-general =
     .tooltiptext = { pane-general-title }
