@@ -395,7 +395,6 @@ preferences-addon-button =
         [windows] Options
        *[other] Preferences
     }
-
 details-addon-button = Details
 release-notes-addon-button = Release Notes
 permissions-addon-button = Permissions
