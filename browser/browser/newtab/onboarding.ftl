@@ -2,8 +2,6 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-## UI strings for the simplified onboarding modal
-
 ### UI strings for the simplified onboarding modal / about:welcome
 ### Various strings use a non-breaking space to avoid a single dangling /
 ### widowed word, so test on various window sizes if you also want this.
@@ -71,24 +69,11 @@ onboarding-ghostery-text = Browse faster, smarter, or safer with extensions like
 onboarding-fxa-title = Sync
 onboarding-fxa-text = Sign up for a { -fxaccount-brand-name } and sync your bookmarks, passwords, and open tabs everywhere you use { -brand-short-name }.
 
-onboarding-tracking-protection-title = Control How You’re Tracked
-onboarding-tracking-protection-text = Don’t like when ads follow you around? { -brand-short-name } helps you control how advertisers track your activity online.
-# "Update" is a verb, as in "Update the existing settings", not "Options about
-# updates".
-onboarding-tracking-protection-button = { PLATFORM() ->
-  [windows] Update Options
- *[other] Update Preferences
-}
-
 onboarding-tracking-protection-title2 = Protection From Tracking
 onboarding-tracking-protection-text2 = { -brand-short-name } helps stop websites from tracking you online, making it harder for ads to follow you around the web.
 onboarding-tracking-protection-button2 = How it Works
 
 onboarding-data-sync-title = Take Your Settings with You
-# "Sync" is short for synchronize.
-onboarding-data-sync-text = Sync your bookmarks and passwords everywhere you use { -brand-product-name }.
-onboarding-data-sync-button = Turn on { -sync-brand-short-name }
-
 # "Sync" is short for synchronize.
 onboarding-data-sync-text2 = Sync your bookmarks, passwords, and more everywhere you use { -brand-product-name }.
 onboarding-data-sync-button2 = Sign in to { -sync-brand-short-name }
@@ -102,7 +87,6 @@ onboarding-browse-privately-text = Private Browsing clears your search and brows
 onboarding-browse-privately-button = Open a Private Window
 
 onboarding-firefox-send-title = Keep Your Shared Files Private
-onboarding-firefox-send-text = { -send-brand-name } protects the files you share with end-to-end encryption and a link that automatically expires.
 onboarding-firefox-send-text2 = Upload your files to { -send-brand-name } to share them with end-to-end encryption and a link that automatically expires.
 onboarding-firefox-send-button = Try { -send-brand-name }
 
@@ -119,20 +103,14 @@ onboarding-send-tabs-text = Send Tabs instantly shares pages between your device
 onboarding-send-tabs-button = Start Using Send Tabs
 
 onboarding-pocket-anywhere-title = Read and Listen Anywhere
-# "downtime" refers to the user's free/spare time.
-onboarding-pocket-anywhere-text = { -pocket-brand-name } saves your favorite stories so you can read, listen, and watch during your downtime, even if you’re offline.
 onboarding-pocket-anywhere-text2 = Save your favorite content offline with the { -pocket-brand-name } App and read, listen, and watch whenever it’s convenient for you.
 onboarding-pocket-anywhere-button = Try { -pocket-brand-name }
 
 onboarding-lockwise-passwords-title = Take Your Passwords Everywhere
-onboarding-lockwise-passwords-text = { -lockwise-brand-name } saves your passwords in a secure place so you can easily log in to your accounts.
-onboarding-lockwise-passwords-button = Get { -lockwise-brand-name }
-
 onboarding-lockwise-passwords-text2 = Keep the passwords you save secure and easily log in to your accounts with { -lockwise-brand-name }.
 onboarding-lockwise-passwords-button2 = Get the App
 
 onboarding-facebook-container-title = Set Boundaries with Facebook
-onboarding-facebook-container-text = { -facebook-container-brand-name } keeps your Facebook identity separate from everything else, making it harder to track you across the web.
 onboarding-facebook-container-text2 = { -facebook-container-brand-name } keeps your profile separate from everything else, making it harder for Facebook to target you with ads.
 onboarding-facebook-container-button = Add the Extension
 
