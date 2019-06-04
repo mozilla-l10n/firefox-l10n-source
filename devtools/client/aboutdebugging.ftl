@@ -104,6 +104,9 @@ about-debugging-setup-intro = Configure the connection method you wish to remote
 # Explanatory text in the Setup page about what the 'This Firefox' page is for
 about-debugging-setup-this-firefox = Use <a>{ about-debugging-this-firefox-runtime-name }</a> to debug tabs, extensions and service workers on this version of { -brand-shorter-name }.
 
+# Explanatory text in the Setup page about what the 'This Firefox' page is for
+about-debugging-setup-this-firefox2 = Use <a>{ about-debugging-this-firefox-runtime-name }</a> to debug extensions and service workers on this version of { -brand-shorter-name }.
+
 # Title of the heading Connect section of the Setup page.
 about-debugging-setup-connect-heading = Connect a Device
 
