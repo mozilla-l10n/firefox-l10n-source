@@ -56,7 +56,7 @@
 
 <!ENTITY  genericBackgroundError.label    "&brandShortName; is unable to determine if there is an update available. Please
                                            make sure that you have the latest version of &brandShortName; from:">
-
+                                           
 <!ENTITY  finishedPage.title              "Update Ready to Install">
 <!ENTITY  finishedPage.text               "The update will be installed the next time &brandShortName; starts. You 
                                            can restart &brandShortName; now, or continue working and restart later.">
@@ -67,6 +67,7 @@
 <!-- LOCALIZATION NOTE (finishedBackground.more): This string describes the button labels defined by restartNowButton and restartLaterButton in updates.properties. -->
 <!ENTITY  finishedBackground.more         "The update will be installed the next time &brandShortName; starts. You
                                            can restart &brandShortName; now, or continue working and restart later.">
+<!-- LOCALIZATION NOTE (finishedBackground.more): This string describes the button labels defined by restartNowButton and restartLaterButton in updates.properties. -->
 <!ENTITY  finishedBackground.moreElevated "This update requires administrator privileges. The update will be
                                            installed the next time &brandShortName; starts. You can restart
                                            &brandShortName; now, continue working and restart later, or decline this
