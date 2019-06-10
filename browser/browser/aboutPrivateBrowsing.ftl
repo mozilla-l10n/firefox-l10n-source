@@ -4,6 +4,7 @@
 
 about-private-browsing-learn-more = Learn more about <a data-l10n-name="learn-more">Private Browsing</a>.
 about-private-browsing-info-visited = visited pages
+
 privatebrowsingpage-open-private-window-label = Open a Private Window
     .accesskey = P
 about-private-browsing-info-notsaved = When you browse in a Private Window, { -brand-short-name } <strong>does not save</strong>:
