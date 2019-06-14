@@ -21,8 +21,6 @@
 <!ENTITY firstrun_data_message "Less data, more savings">
 <!ENTITY firstrun_data_subtext2 "Turn off images to spend less data on every site you visit.">
 <!ENTITY firstrun_sync_title "Sync">
-<!-- Localization note (firstrun_devices_title): This is a casual way of addressing the user, somewhat referring to their online identity (which would include other devices, Firefox usage, accounts, etc). -->
-<!ENTITY firstrun_account_title "You">
 <!ENTITY firstrun_sync_message2 "Pick up where you left off.">
 <!ENTITY firstrun_sync_subtext2 "Use Sync to find the bookmarks, passwords, and other things you save to &brandShortName; on all your devices.">
 <!ENTITY newfirstrun_sync_subtext "Sync the things you save on mobile to Firefox for desktop, privately and securely.">
@@ -42,6 +40,8 @@
 <!ENTITY firstrun_readerview_message "Lose the clutter">
 <!ENTITY firstrun_readerview_subtext "Use Reader View to make articles nicer to read \u2014 even offline.">
 
+<!-- Localization note (firstrun_devices_title): This is a casual way of addressing the user, somewhat referring to their online identity (which would include other devices, Firefox usage, accounts, etc). -->
+<!ENTITY firstrun_account_title "You">
 <!ENTITY firstrun_account_message "Have &brandShortName; on another device?">
 
 <!ENTITY  onboard_start_restricted1 "Stay safe and in control with this simplified version of &brandShortName;.">
