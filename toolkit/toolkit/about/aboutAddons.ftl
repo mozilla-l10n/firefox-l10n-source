@@ -223,10 +223,6 @@ private-browsing-description2 =
     there. We’ve made this change to keep your private browsing private.
     <label data-l10n-name="private-browsing-learn-more">Learn how to manage extension settings</label>
 
-extensions-view-discover =
-    .name = Get Add-ons
-    .tooltiptext = { extensions-view-discover.name }
-
 extensions-view-discopane =
     .name = Recommendations
     .tooltiptext = { extensions-view-discopane.name }
@@ -332,7 +328,6 @@ shortcuts-modifier-other = Include Ctrl or Alt
 shortcuts-invalid = Invalid combination
 shortcuts-letter = Type a letter
 shortcuts-system = Can’t override a { -brand-short-name } shortcut
-
 # String displayed when a keyboard shortcut is already used by another add-on
 # Variables:
 #   $addon (string) - Name of the add-on
@@ -389,7 +384,6 @@ remove-addon-button = Remove
 disable-addon-button = Disable
 enable-addon-button = Enable
 expand-addon-button = More Options
-
 preferences-addon-button =
     { PLATFORM() ->
         [windows] Options

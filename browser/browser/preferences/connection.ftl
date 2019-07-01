@@ -86,13 +86,6 @@ connection-dns-over-https =
     .label = Enable DNS over HTTPS
     .accesskey = b
 
-# Variables:
-#   $url (String) - URL for the DNS over HTTPS provider
-connection-dns-over-https-url-default =
-    .label = Use default ({ $url })
-    .accesskey = U
-    .tooltiptext = Use the default URL for resolving DNS over HTTPS
-
 connection-dns-over-https-url-resolver = Use Provider
     .accesskey = P
 

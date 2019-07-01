@@ -62,7 +62,6 @@ app-basics-service-workers = Registered Service Workers
 app-basics-profiles = Profiles
 app-basics-launcher-process-status = Launcher Process
 app-basics-multi-process-support = Multiprocess Windows
-app-basics-process-count = Web Content Processes
 app-basics-remote-processes-count = Remote Processes
 app-basics-enterprise-policies = Enterprise Policies
 app-basics-location-service-key-google = Google Location Service Key
@@ -255,7 +254,6 @@ uses-tiling = Uses Tiling
 content-uses-tiling = Uses Tiling (Content)
 off-main-thread-paint-enabled = Off Main Thread Painting Enabled
 off-main-thread-paint-worker-count = Off Main Thread Painting Worker Count
-low-end-machine = Detected less performant machine
 target-frame-rate = Target Frame Rate
 
 audio-backend = Audio Backend
