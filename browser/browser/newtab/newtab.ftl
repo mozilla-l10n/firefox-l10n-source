@@ -49,6 +49,8 @@ newtab-topsites-add-button = Add
 
 ## Top Sites - Delete history confirmation dialog. 
 
+## Top Sites - Delete history confirmation dialog.
+
 newtab-confirm-delete-history-p1 = Are you sure you want to delete every instance of this page from your history?
 # "This action" refers to deleting a page from history.
 newtab-confirm-delete-history-p2 = This action cannot be undone.
@@ -92,6 +94,9 @@ newtab-menu-bookmark = Bookmark
 ## Context Menu - Downloaded Menu. "Download" in these cases is not a verb, 
 ## it is a noun. As in, "Copy the link that belongs to this downloaded item".
 
+## Context Menu - Downloaded Menu. "Download" in these cases is not a verb,
+## it is a noun. As in, "Copy the link that belongs to this downloaded item".
+
 newtab-menu-copy-download-link = Copy Download Link
 newtab-menu-go-to-download-page = Go to Download Page
 newtab-menu-remove-download = Remove from History
@@ -120,6 +125,9 @@ newtab-label-download = Downloaded
 ## Section Menu: These strings are displayed in the section context menu and are 
 ## meant as a call to action for the given section.
 
+## Section Menu: These strings are displayed in the section context menu and are
+## meant as a call to action for the given section.
+
 newtab-section-menu-remove-section = Remove Section
 newtab-section-menu-collapse-section = Collapse Section
 newtab-section-menu-expand-section = Expand Section
@@ -130,6 +138,13 @@ newtab-section-menu-add-search-engine = Add Search Engine
 newtab-section-menu-move-up = Move Up
 newtab-section-menu-move-down = Move Down
 newtab-section-menu-privacy-notice = Privacy Notice
+
+## Section aria-labels
+
+newtab-section-collapse-section-label =
+    .aria-label = Collapse Section
+newtab-section-expand-section-label =
+    .aria-label = Expand Section
 
 ## Section Headers.
 
