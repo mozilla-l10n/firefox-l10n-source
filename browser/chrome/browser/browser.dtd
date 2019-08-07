@@ -945,6 +945,8 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 
 <!ENTITY contentBlocking.trackingProtection3.label "Trackers">
 
+<!ENTITY contentBlocking.trackingProtection4.label "Tracking Content">
+
 <!ENTITY contentBlocking.manageSettings.label "Manage Content Blocking">
 <!ENTITY contentBlocking.manageSettings.accesskey "M">
 
