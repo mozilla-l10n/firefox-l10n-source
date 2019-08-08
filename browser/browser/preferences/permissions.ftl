@@ -84,11 +84,6 @@ permissions-exceptions-content-blocking-window =
     .style = { permissions-window.style }
 permissions-exceptions-content-blocking-desc = You have disabled content blocking on these websites.
 
-permissions-exceptions-etp-window =
-    .title = Exceptions for Enhanced Tracking Protection
-    .style = { permissions-window.style }
-permissions-exceptions-etp-desc = You’ve turned off protections on these websites.
-
 ## Exceptions - Cookies
 
 permissions-exceptions-cookie-window =
