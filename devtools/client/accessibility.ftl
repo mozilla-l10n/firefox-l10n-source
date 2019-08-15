@@ -37,6 +37,8 @@ accessibility-text-label-issue-fieldset = <code>fieldset</code> elements must be
 
 accessibility-text-label-issue-fieldset-legend = Use <code>legend</code> element to label <span>fieldset</span> elements. <a>Learn more</a>
 
+accessibility-text-label-issue-fieldset-legend2 = Use a <code>legend</code> element to label a <span>fieldset</span>. <a>Learn more</a>
+
 accessibility-text-label-issue-form = Form elements must be labeled. <a>Learn more</a>
 
 accessibility-text-label-issue-form-visible = Form elements should have a visible text label. <a>Learn more</a>
@@ -56,5 +58,7 @@ accessibility-text-label-issue-image = Content with images must be labeled. <a>L
 accessibility-text-label-issue-interactive = Interactive elements must be labeled. <a>Learn more</a>
 
 accessibility-text-label-issue-optgroup-label = Use <code>label</code> attribute to label <span>optgroup</span> elements. <a>Learn more</a>
+
+accessibility-text-label-issue-optgroup-label2 = Use a <code>label</code> attribute to label an <span>optgroup</span>. <a>Learn more</a>
 
 accessibility-text-label-issue-toolbar = Toolbars must be labeled when there is more than one toolbar. <a>Learn more</a>
