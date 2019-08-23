@@ -893,6 +893,8 @@ activity_stream_signin_prompt, activity_stream_signin_prompt_button):
 <!ENTITY activity_stream_signin_title "Welcome to &brandShortName;">
 <!ENTITY activity_stream_signin_description "Start syncing bookmarks, passwords, and more with your Firefox account.">
 <!ENTITY activity_stream_signin_button "Sign in">
+<!-- LOCALIZATION NOTE (activity_stream_signin_title & activity_stream_signin_description & activity_stream_signin_button):
+These labels are shown in the Activity Stream recommending the user to sign in. -->
 
 <!ENTITY activity_stream_signup_button "Sign up">
 <!ENTITY activity_stream_signin_prompt "Already have an account?">
