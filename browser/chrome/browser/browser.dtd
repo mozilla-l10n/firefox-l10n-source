@@ -250,6 +250,8 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY urlbar.emeNotificationAnchor.tooltip             "Manage use of DRM software">
 <!ENTITY urlbar.midiNotificationAnchor.tooltip            "Open MIDI panel">
 
+<!ENTITY urlbar.permissionsGranted.tooltip       "You have granted this website additional permissions.">
+
 <!ENTITY urlbar.cameraBlocked.tooltip            "You have blocked your camera for this website.">
 <!ENTITY urlbar.microphoneBlocked.tooltip        "You have blocked your microphone for this website.">
 <!ENTITY urlbar.screenBlocked.tooltip            "You have blocked this website from sharing your screen.">
@@ -862,6 +864,8 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 
 <!-- LOCALIZATION NOTE (identity.permissions2): "set" as in "configured for this website" -->
 <!ENTITY identity.permissions2 "Permissions Set">
+
+<!ENTITY identity.permissions3 "Permissions">
 <!ENTITY identity.permissionsEmpty "You have not granted this site any special permissions.">
 <!ENTITY identity.permissionsReloadHint "You may need to reload the page for changes to apply.">
 <!ENTITY identity.permissionsPreferences.tooltip "Open Permissions Preferences">
