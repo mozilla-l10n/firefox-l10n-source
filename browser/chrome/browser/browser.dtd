@@ -875,6 +875,7 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY protections.etpMoreInfo.label "More information about Enhanced Tracking Protection">
 <!ENTITY protections.settings.label "Protection Settings">
 <!ENTITY protections.report.label "Show Full Report">
+<!ENTITY protections.showreport.label "Show Report">
 <!-- LOCALIZATION NOTE:
      protections.siteNotWorking.label: The link to be clicked to open the sub-panel view
      protections.siteNotWorkingView.title: The heading/title of the sub-panel view -->
