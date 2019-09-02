@@ -14,16 +14,6 @@ graph-week-summary =
 #   $count (Number) - Number of tracking events blocked.
 #   $earliestDate (Number) - Unix timestamp in ms, representing a date. The
 # earliest date recorded in the database.
-graph-total-summary =
-  { $count ->
-     [one] { $count } tracker blocked since { DATETIME($earliestDate, day: "numeric", month: "long", year: "numeric") }
-    *[other] { $count } trackers blocked since { DATETIME($earliestDate, day: "numeric", month: "long", year: "numeric") }
-  }
-
-# Variables:
-#   $count (Number) - Number of tracking events blocked.
-#   $earliestDate (Number) - Unix timestamp in ms, representing a date. The
-# earliest date recorded in the database.
 graph-total-tracker-summary =
   { $count ->
      [one] <b>{ $count }</b> tracker blocked since { DATETIME($earliestDate, day: "numeric", month: "long", year: "numeric") }
@@ -56,8 +46,6 @@ cookie-tab-title = Cross-Site Tracking Cookies
 cookie-tab-content = These cookies follow you from site to site to gather data about what you do online. They are set by third parties such as advertisers and analytics companies. Blocking cross-site tracking cookies reduces the number of ads that follow you around. <a data-l10n-name="learn-more-link">Learn more</a>
 
 tracker-tab-title = Tracking Content
-tracker-tab-content = Websites may load external ads, videos, and other content that contain tracking code. Blocking tracking content can help sites load faster, but some buttons, forms, and login fields might not work. <a data-l10n-name="learn-more-link">Learn more</a>
-
 tracker-tab-description = Websites may load external ads, videos, and other content with tracking code. Blocking tracking content can help sites load faster, but some buttons, forms, and login fields might not work. <a data-l10n-name="learn-more-link">Learn more</a>
 
 fingerprinter-tab-title = Fingerprinters
@@ -94,45 +82,14 @@ lockwise-sync-status =
      [one] Syncing to { $count } other device
     *[other] Syncing to { $count } other devices
   }
-lockwise-sync-not-syncing = Not syncing to other devices.
-
 lockwise-sync-not-syncing-devices = Not syncing to other devices
 
 monitor-title = Look out for data breaches
 monitor-link = How it works
-monitor-header-content = Check { -monitor-brand-name } to see if you’ve been part of a data breach and get alerts about new breaches.
-monitor-header-content-logged-in = { -monitor-brand-name } warns you if your info has appeared in a known data breach
 monitor-header-content-no-account = Check { -monitor-brand-name } to see if you’ve been part of a known data breach, and get alerts about new breaches.
 monitor-header-content-signed-in = { -monitor-brand-name } warns you if your info has appeared in a known data breach.
 monitor-sign-up = Sign Up for Breach Alerts
 auto-scan = Automatically scanned today
-
-# This string is displayed after a large numeral that indicates the total number
-# of email addresses being monitored. Don’t add $count to
-# your localization, because it would result in the number showing twice.
-info-monitored-addresses =
-  { $count ->
-     [one] Email address being monitored.
-    *[other] Email addresses being monitored.
-  }
-
-# This string is displayed after a large numeral that indicates the total number
-# of known data breaches. Don’t add $count to
-# your localization, because it would result in the number showing twice.
-info-known-breaches =
-  { $count ->
-     [one] Known data breach has exposed your information.
-    *[other] Known data breaches have exposed your information.
-  }
-
-# This string is displayed after a large numeral that indicates the total number
-# of exposed passwords. Don’t add $count to
-# your localization, because it would result in the number showing twice.
-info-exposed-passwords =
-  { $count ->
-     [one] Password exposed across all breaches.
-    *[other] Passwords exposed across all breaches.
-  }
 
 # This string is displayed after a large numeral that indicates the total number
 # of email addresses being monitored. Don’t add $count to
