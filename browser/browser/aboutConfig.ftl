@@ -12,6 +12,9 @@ about-config2-title = Advanced Configurations
 
 about-config-search-input =
     .placeholder = Search
+
+about-config-search-input1 =
+    .placeholder = Search preference name
 about-config-show-all = Show All
 
 about-config-pref-add = Add
