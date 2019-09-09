@@ -66,6 +66,10 @@ login-list-item-title-new-login = New Login
 login-list-item-subtitle-new-login = Enter your login credentials
 login-list-item-subtitle-missing-username = (no username)
 
+about-logins-list-item-warning-icon = 
+  .alt = Warning icon
+  .title = Breached website
+
 ## Introduction screen
 
 login-intro-heading = Looking for your saved logins? Set up { -sync-brand-short-name }.
