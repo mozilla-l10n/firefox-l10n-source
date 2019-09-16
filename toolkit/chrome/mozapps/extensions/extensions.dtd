@@ -68,4 +68,6 @@
 <!ENTITY addon.createdBy.label                "By ">
 
 <!ENTITY settings.path.button.label           "Browse…">
+
+<!-- addon actions -->
 <!ENTITY setting.learnmore "Learn More…">
