@@ -113,6 +113,8 @@
 <!ENTITY  securityView.identity.domain   "Website:">
 <!ENTITY  securityView.identity.verifier "Verified by:">
 
+<!ENTITY  securityView.identity.validity "Expires on:">
+
 <!ENTITY  securityView.privacy.header                   "Privacy &amp; History">
 <!ENTITY  securityView.privacy.history                  "Have I visited this website before today?">
 <!ENTITY  securityView.privacy.cookies                  "Is this website storing information (cookies) on my computer?">
