@@ -69,6 +69,9 @@ about-logins-list-item-warning-icon =
   .alt = Warning icon
   .title = Breached website
 
+about-logins-list-item-breach-icon =
+  .title = Breached website
+
 ## Introduction screen
 
 login-intro-heading = Looking for your saved logins? Set up { -sync-brand-short-name }.
