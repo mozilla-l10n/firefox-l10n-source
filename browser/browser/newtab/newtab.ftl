@@ -47,8 +47,6 @@ newtab-topsites-save-button = Save
 newtab-topsites-preview-button = Preview
 newtab-topsites-add-button = Add
 
-## Top Sites - Delete history confirmation dialog. 
-
 ## Top Sites - Delete history confirmation dialog.
 
 newtab-confirm-delete-history-p1 = Are you sure you want to delete every instance of this page from your history?
@@ -106,9 +104,6 @@ newtab-menu-remove-bookmark = Remove Bookmark
 # Bookmark is a verb here.
 newtab-menu-bookmark = Bookmark
 
-## Context Menu - Downloaded Menu. "Download" in these cases is not a verb, 
-## it is a noun. As in, "Copy the link that belongs to this downloaded item".
-
 ## Context Menu - Downloaded Menu. "Download" in these cases is not a verb,
 ## it is a noun. As in, "Copy the link that belongs to this downloaded item".
 
@@ -137,9 +132,6 @@ newtab-label-removed-bookmark = Bookmark removed
 newtab-label-recommended = Trending
 newtab-label-saved = Saved to { -pocket-brand-name }
 newtab-label-download = Downloaded
-
-## Section Menu: These strings are displayed in the section context menu and are 
-## meant as a call to action for the given section.
 
 ## Section Menu: These strings are displayed in the section context menu and are
 ## meant as a call to action for the given section.

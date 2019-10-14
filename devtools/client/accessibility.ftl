@@ -37,8 +37,6 @@ accessibility-text-label-issue-figure = Figures with optional captions should be
 
 accessibility-text-label-issue-fieldset = <code>fieldset</code> elements must be labeled. <a>Learn more</a>
 
-accessibility-text-label-issue-fieldset-legend = Use <code>legend</code> element to label <span>fieldset</span> elements. <a>Learn more</a>
-
 accessibility-text-label-issue-fieldset-legend2 = Use a <code>legend</code> element to label a <span>fieldset</span>. <a>Learn more</a>
 
 accessibility-text-label-issue-form = Form elements must be labeled. <a>Learn more</a>
@@ -58,8 +56,6 @@ accessibility-text-label-issue-iframe = Use <code>title</code> attribute to desc
 accessibility-text-label-issue-image = Content with images must be labeled. <a>Learn more</a>
 
 accessibility-text-label-issue-interactive = Interactive elements must be labeled. <a>Learn more</a>
-
-accessibility-text-label-issue-optgroup-label = Use <code>label</code> attribute to label <span>optgroup</span> elements. <a>Learn more</a>
 
 accessibility-text-label-issue-optgroup-label2 = Use a <code>label</code> attribute to label an <span>optgroup</span>. <a>Learn more</a>
 
