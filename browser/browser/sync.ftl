@@ -4,7 +4,6 @@
 
 fxa-toolbar-sync-now =
     .label = Sync Now
-
 fxa-toolbar-sync-syncing =
     .label = Syncing…
 fxa-toolbar-sync-syncing-tabs =
