@@ -48,6 +48,9 @@ urlbar-persistent-storage-notification-anchor =
 urlbar-addons-notification-anchor =
     .tooltiptext = Open add-on installation message panel
 
+urlbar-tip-help-icon =
+    .title = Get help
+
 ## Page Action Context Menu
 
 page-action-add-to-urlbar =
