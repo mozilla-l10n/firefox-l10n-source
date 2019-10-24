@@ -291,6 +291,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY urlbar.midiBlocked.tooltip              "You have blocked MIDI access for this website.">
 <!ENTITY urlbar.installBlocked.tooltip           "You have blocked add-on installation for this website.">
 
+
 <!ENTITY urlbar.openHistoryPopup.tooltip                "Show history">
 
 <!ENTITY searchItem.title             "Search">
