@@ -91,6 +91,16 @@ lockwise-sync-status =
   }
 lockwise-sync-not-syncing-devices = Not syncing to other devices
 
+manage-connected-devices = Manage devices…
+
+# Variables:
+#   $count (Number) - Number of devices connected with sync.
+lockwise-connected-device-status =
+  { $count ->
+     [one] Connected to { $count } device
+    *[other] Connected to { $count } devices
+  }
+
 monitor-title = Look out for data breaches
 monitor-link = How it works
 monitor-header-content-no-account = Check { -monitor-brand-name } to see if you’ve been part of a known data breach, and get alerts about new breaches.
