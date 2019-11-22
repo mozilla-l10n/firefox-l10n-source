@@ -167,6 +167,10 @@ onboarding-facebook-container-text2 = { -facebook-container-brand-name } keeps y
 onboarding-facebook-container-button = Add the Extension
 
 
+onboarding-import-browser-settings-title = Import Your Bookmarks, Passwords, and More
+onboarding-import-browser-settings-text = Dive right in—easily bring your Chrome sites and settings with you.
+onboarding-import-browser-settings-button = Import Chrome Data
+
 ## Message strings belonging to the Return to AMO flow
 
 return-to-amo-sub-header = Great, you’ve got { -brand-short-name }
