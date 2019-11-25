@@ -83,7 +83,6 @@ newtab-menu-delete-history = Delete from History
 newtab-menu-save-to-pocket = Save to { -pocket-brand-name }
 newtab-menu-delete-pocket = Delete from { -pocket-brand-name }
 newtab-menu-archive-pocket = Archive in { -pocket-brand-name }
-
 newtab-menu-show-privacy-info = Our sponsors & your privacy
 
 ## Message displayed in a modal window to explain privacy and provide context for sponsored content.
