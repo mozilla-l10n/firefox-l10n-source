@@ -1195,11 +1195,6 @@ permissions-location-settings =
     .label = Settings…
     .accesskey = t
 
-permissions-xr = Virtual Reality
-permissions-xr-settings =
-    .label = Settings…
-    .accesskey = t
-
 permissions-camera = Camera
 permissions-camera-settings =
     .label = Settings…
