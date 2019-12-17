@@ -8,6 +8,7 @@
 
 crash-reports-title = Crash Reports
 
+submit-all-button-label = Submit All
 delete-button-label = Clear All
 delete-confirm-title = Are you sure?
 delete-unsubmitted-description = This will delete all unsubmitted crash reports and cannot be undone.
