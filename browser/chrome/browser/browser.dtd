@@ -173,6 +173,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY fxa.menu.account.label "Account">
 <!ENTITY fxa.menu.settings.label "Settings">
 <!ENTITY fxa.menu.accountSettings.label "Account Settings">
+<!ENTITY fxa.menu.manageAccount2.label "Manage Account">
 <!ENTITY fxa.menu.signOut.label "Sign Out…">
 <!ENTITY fxa.menu.deviceSettings.label "Device Settings">
 <!ENTITY fxa.menu.setupSync.label "Set Up &syncBrand.shortName.label;…">
