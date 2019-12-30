@@ -70,14 +70,12 @@ login-intro-description = If you saved your logins to { -brand-product-name } on
 login-intro-instruction-fxa = Create or sign in to your { -fxaccount-brand-name } on the device where your logins are saved
 login-intro-instruction-fxa-settings = Make sure you’ve selected the Logins checkbox in { -sync-brand-short-name } Settings
 about-logins-intro-instruction-help = Visit <a data-l10n-name="help-link">{ -lockwise-brand-short-name } Support</a> for more help
-
 about-logins-intro-import = If your logins are saved in another browser, you can <a data-l10n-name="import-link">import them into { -lockwise-brand-short-name }</a>
 
 ## Login
 
 login-item-new-login-title = Create New Login
 login-item-edit-button = Edit
-login-item-delete-button = Delete
 about-logins-login-item-remove-button = Remove
 login-item-origin-label = Website address
 login-item-origin =
@@ -124,8 +122,6 @@ enable-password-sync-preferences-button =
        *[other] Visit { -sync-brand-short-name } Preferences
     }
   .accesskey = V
-
-confirm-delete-dialog-title = Delete this login?
 about-logins-enable-password-sync-dont-ask-again-button =
   .label = Don’t ask me again
   .accesskey = D
@@ -138,8 +134,6 @@ confirmation-dialog-dismiss-button =
 
 about-logins-confirm-remove-dialog-title = Remove this login?
 confirm-delete-dialog-message = This action cannot be undone.
-confirm-delete-dialog-confirm-button = Delete
-
 about-logins-confirm-remove-dialog-confirm-button = Remove
 
 confirm-discard-changes-dialog-title = Discard unsaved changes?

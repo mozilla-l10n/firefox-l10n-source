@@ -34,7 +34,6 @@ protection-report-content-title = Privacy Protections
 
 etp-card-title = Enhanced Tracking Protection
 etp-card-content = Trackers follow you around online to collect information about your browsing habits and interests. { -brand-short-name } blocks many of these trackers and other malicious scripts.
-
 protection-report-etp-card-content-custom-not-blocking = All protections are currently turned off. Choose which trackers to block by managing your { -brand-short-name } protections settings.
 protection-report-manage-protections = Manage Settings
 
@@ -79,17 +78,6 @@ lockwise-passwords-stored =
 
 turn-on-sync = Turn on { -sync-brand-short-name }…
   .title = Go to sync preferences
-
-manage-devices = Manage devices
-
-# Variables:
-#   $count (Number) - Number of devices connected with sync.
-lockwise-sync-status =
-  { $count ->
-     [one] Syncing to { $count } other device
-    *[other] Syncing to { $count } other devices
-  }
-lockwise-sync-not-syncing-devices = Not syncing to other devices
 
 manage-connected-devices = Manage devices…
 
