@@ -94,6 +94,11 @@ newtab-privacy-modal-paragraph =
     highly-vetted content from select sponsors. Rest assured, your browsing
     data never leaves your personal copy of { -brand-product-name } — we don’t see it, and our
     sponsors don’t either.
+newtab-privacy-modal-paragraph-2 =
+    In addition to dishing up captivating stories, we also show you relevant,
+    highly-vetted content from select sponsors. Rest assured, <strong>your browsing
+    data never leaves your personal copy of { -brand-product-name }</strong> — we don’t see it, and our
+    sponsors don’t either.
 newtab-privacy-modal-link = Learn how privacy works on the new tab
 
 ##
