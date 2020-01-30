@@ -222,6 +222,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 
 <!ENTITY bookmarkThisPageCmd.label "Bookmark This Page">
 <!ENTITY editThisBookmarkCmd.label "Edit This Bookmark">
+
 <!ENTITY bookmarkThisPageCmd.commandkey "d">
 
 <!ENTITY addCurPagesCmd.label "Bookmark All Tabs…">
