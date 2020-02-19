@@ -8,6 +8,8 @@
 
 <!ENTITY accountManagerTitle.label "Account Settings">
 
+<!ENTITY  accountManagerCloseButton.label "Close">
+
 <!ENTITY accountActionsButton.label "Account Actions">
 <!ENTITY accountActionsButton.accesskey "A">
 <!ENTITY addMailAccountButton.label "Add Mail Account…">
