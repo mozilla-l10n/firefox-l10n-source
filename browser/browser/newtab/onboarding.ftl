@@ -27,6 +27,7 @@ onboarding-welcome-modal-family-learn-more = Learn about the { -brand-product-na
 onboarding-welcome-form-header = Start Here
 
 onboarding-join-form-header = Join { -brand-product-name }
+
 onboarding-join-form-body = Enter your email address to get started.
 onboarding-join-form-email =
     .placeholder = Enter email
@@ -73,12 +74,14 @@ onboarding-sync-form-sub-header = to continue to { -sync-brand-name }
 ## description.
 
 onboarding-benefit-products-title = Useful Products
+
 onboarding-benefit-products-text = Get things done with a family of tools that respects your privacy across your devices.
 
 onboarding-benefit-knowledge-title = Practical Knowledge
 onboarding-benefit-knowledge-text = Learn everything you need to know to stay smarter and safer online.
 
 onboarding-benefit-privacy-title = True Privacy
+
 # "Personal Data Promise" is a concept that should be translated consistently
 # across the product. It refers to a concept shown elsewhere to the user: "The
 # Firefox Personal Data Promise is the way we honor your data in everything we
