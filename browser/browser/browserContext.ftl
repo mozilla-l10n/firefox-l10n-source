@@ -68,10 +68,6 @@ toolbar-button-page-save =
 
 ## Simple menu items
 
-main-context-menu-bookmark-page =
-    .aria-label = Bookmark This Page
-    .accesskey = m
-
 main-context-menu-bookmark-add =
     .aria-label = Bookmark This Page
     .accesskey = m
