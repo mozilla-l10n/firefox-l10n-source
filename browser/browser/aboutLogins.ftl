@@ -29,6 +29,8 @@ menu =
   .title = Open menu
 # This menuitem is only visible on Windows
 menu-menuitem-import = Import Passwords…
+# This menuitem is only visible on Windows and macOS
+about-logins-menu-menuitem-import-from-another-browser = Import from Another Browser…
 menu-menuitem-preferences =
   { PLATFORM() ->
       [windows] Options
