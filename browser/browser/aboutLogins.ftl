@@ -65,6 +65,9 @@ login-list-item-subtitle-missing-username = (no username)
 about-logins-list-item-breach-icon =
   .title = Breached website
 
+about-logins-list-item-vulnerable-password-icon =
+  .title = Vulnerable password
+
 ## Introduction screen
 
 login-intro-heading = Looking for your saved logins? Set up { -sync-brand-short-name }.
