@@ -178,6 +178,10 @@ breach-alert-dismiss =
     .title = Close this alert
 
 about-logins-breach-alert-date = This breach occurred on { DATETIME($date, day: "numeric", month: "long", year: "numeric") }
+# Variables:
+#   $hostname (String) - The hostname of the website associated with the login, e.g. "example.com"
+about-logins-breach-alert-link = Go to { $hostname }
+about-logins-breach-alert-learn-more-link = Learn more
 
 ## Vulnerable Password notification
 
@@ -186,6 +190,7 @@ about-logins-vulnerable-alert-text = This password was leaked or stolen in anoth
 # Variables:
 #   $hostname (String) - The hostname of the website associated with the login, e.g. "example.com"
 about-logins-vulnerable-alert-link = Go to { $hostname }
+about-logins-vulnerable-alert-learn-more-link = Learn more
 
 ## Error Messages
 
