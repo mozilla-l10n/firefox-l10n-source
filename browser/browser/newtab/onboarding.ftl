@@ -20,13 +20,12 @@ onboarding-welcome-header = Welcome to { -brand-short-name }
 onboarding-welcome-body = You’ve got the browser.<br/>Meet the rest of { -brand-product-name }.
 onboarding-welcome-learn-more = Learn more about the benefits.
 
+onboarding-join-form-header = Join { -brand-product-name }
 onboarding-welcome-modal-get-body = You’ve got the browser.<br/>Now get the most out of { -brand-product-name }.
 onboarding-welcome-modal-supercharge-body = Supercharge your privacy protection.
 onboarding-welcome-modal-privacy-body = You’ve got the browser. Let’s add more privacy protection.
 onboarding-welcome-modal-family-learn-more = Learn about the { -brand-product-name } family of products.
 onboarding-welcome-form-header = Start Here
-
-onboarding-join-form-header = Join { -brand-product-name }
 
 onboarding-join-form-body = Enter your email address to get started.
 onboarding-join-form-email =
