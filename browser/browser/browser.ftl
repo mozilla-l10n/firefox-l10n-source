@@ -43,6 +43,7 @@ browser-main-window-content-title-private = { PLATFORM() ->
    *[other] { $title } - { -brand-full-name } (Private Browsing)
 }
 
+##
 
 urlbar-identity-button =
     .aria-label = View site information
@@ -106,8 +107,6 @@ urlbar-tip-icon-description =
 ##  $engineName (String): The name of the user's default search engine. e.g. "Google" or "DuckDuckGo".
 urlbar-search-tips-onboard = Type less, find more: Search { $engineName } right from your address bar.
 urlbar-search-tips-redirect-2 = Start your search in the address bar to see suggestions from { $engineName } and your browsing history.
-
-##
 
 ##
 
