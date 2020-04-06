@@ -336,6 +336,8 @@ drag-enabled = scrollbar drag enabled
 keyboard-enabled = keyboard enabled
 autoscroll-enabled = autoscroll enabled
 
+zooming-enabled = smooth pinch-zoom enabled
+
 ## Variables
 ## $preferenceKey (string) - String ID of preference
 wheel-warning = async wheel input disabled due to unsupported pref: { $preferenceKey }
