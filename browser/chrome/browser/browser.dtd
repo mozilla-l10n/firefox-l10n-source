@@ -289,6 +289,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 
 <!ENTITY urlbar.openHistoryPopup.tooltip                "Show history">
 
+
 <!ENTITY searchItem.title             "Search">
 
 <!-- Toolbar items -->
