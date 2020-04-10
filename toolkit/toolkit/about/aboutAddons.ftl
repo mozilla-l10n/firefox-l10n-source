@@ -273,7 +273,6 @@ addon-category-available-updates = Available Updates
 addon-category-available-updates-title =
     .title = Available Updates
 addon-category-recent-updates = Recent Updates
-
 addon-category-recent-updates-title =
     .title = Recent Updates
 
