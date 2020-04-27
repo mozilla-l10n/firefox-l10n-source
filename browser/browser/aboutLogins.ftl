@@ -50,7 +50,6 @@ login-list-count =
 login-list-sort-label-text = Sort by:
 login-list-name-option = Name (A-Z)
 login-list-name-reverse-option = Name (Z-A)
-login-list-breached-option = Breached Websites
 about-logins-login-list-alerts-option = Alerts
 login-list-last-changed-option = Last Modified
 login-list-last-used-option = Last Used
@@ -63,7 +62,6 @@ login-list-item-subtitle-new-login = Enter your login credentials
 login-list-item-subtitle-missing-username = (no username)
 about-logins-list-item-breach-icon =
   .title = Breached website
-
 about-logins-list-item-vulnerable-password-icon =
   .title = Vulnerable password
 
@@ -171,10 +169,6 @@ confirm-discard-changes-dialog-confirm-button = Discard
 
 about-logins-breach-alert-title = Website Breach
 breach-alert-text = Passwords were leaked or stolen from this website since you last updated your login details. Change your password to protect your account.
-breach-alert-link = Learn more about this breach.
-breach-alert-dismiss =
-    .title = Close this alert
-
 about-logins-breach-alert-date = This breach occurred on { DATETIME($date, day: "numeric", month: "long", year: "numeric") }
 # Variables:
 #   $hostname (String) - The hostname of the website associated with the login, e.g. "example.com"
