@@ -67,6 +67,10 @@ cryptominer-tab-content = Cryptominers use your system’s computing power to mi
 protections-close-button =
   .aria-label = Close
 
+protections-close-button2 =
+  .aria-label = Close
+  .title = Close
+  
 mobile-app-title = Block ad trackers across more devices
 mobile-app-card-content = Use the mobile browser with built-in protection against ad tracking. 
 mobile-app-links = { -brand-product-name } Browser for <a data-l10n-name="android-mobile-inline-link">Android</a> and <a data-l10n-name="ios-mobile-inline-link">iOS</a>
