@@ -292,7 +292,7 @@ translate-exceptions =
     .label = Exceptions…
     .accesskey = x
 
-# Variables: 
+# Variables:
 #    $localeName (string) - Localized name of the locale to be used.
 use-system-locale = 
    .label = Use your operating system settings for “{ $localeName }” to format dates, times, numbers, and measurements.
@@ -358,6 +358,14 @@ applications-use-app =
 applications-use-app-default =
     .label = Use { $app-name } (default)
 
+applications-use-os-default =
+    .label =
+        { PLATFORM() ->
+            [macos] Use macOS default application
+            [windows] Use Windows default application
+           *[other] Use system default application
+        }
+
 applications-use-other =
     .label = Use other…
 applications-select-helper = Select Helper Application
@@ -389,6 +397,9 @@ applications-use-plugin-in =
 applications-preview-inapp =
     .label = Preview in { -brand-short-name }
 
+applications-open-inapp =
+    .label = Open in { -brand-short-name }
+
 ## The strings in this group are used to populate
 ## selected label element based on the string from
 ## the selected menu item.
@@ -404,6 +415,9 @@ applications-use-app-label =
 
 applications-preview-inapp-label =
     .value = { applications-preview-inapp.label }
+
+applications-open-inapp-label =
+    .value = { applications-open-inapp.label }
 
 applications-always-ask-label =
     .value = { applications-always-ask.label }
