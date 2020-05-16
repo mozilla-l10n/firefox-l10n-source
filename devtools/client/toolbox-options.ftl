@@ -116,6 +116,9 @@ options-enable-remote-label = Enable remote debugging
 options-enable-remote-tooltip =
     .title = Turning this option on will allow the developer tools to debug a remote instance like Firefox OS
 
+options-enable-remote-tooltip2 =
+    .title = Turning this option on will allow to debug this browser instance remotely
+
 # The label for checkbox that toggles the service workers testing over HTTP on or off.
 options-enable-service-workers-http-label = Enable Service Workers over HTTP (when toolbox is open)
 options-enable-service-workers-http-tooltip =
