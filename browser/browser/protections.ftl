@@ -77,9 +77,6 @@ fingerprinter-tab-content = Fingerprinters collect settings from your browser an
 cryptominer-tab-title = Cryptominers
 cryptominer-tab-content = Cryptominers use your system’s computing power to mine digital money. Cryptomining scripts drain your battery, slow down your computer, and can increase your energy bill. <a data-l10n-name="learn-more-link">Learn more</a>
 
-protections-close-button =
-  .aria-label = Close
-
 protections-close-button2 =
   .aria-label = Close
   .title = Close
