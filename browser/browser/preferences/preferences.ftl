@@ -706,6 +706,8 @@ search-show-suggestions-private-windows =
 
 suggestions-addressbar-settings = Change preferences for browsing history, bookmarks, and tab suggestions
 
+suggestions-addressbar-settings-generic = Change preferences for other address bar suggestions
+
 search-suggestions-cant-show = Search suggestions will not be shown in location bar results because you have configured { -brand-short-name } to never remember history.
 
 search-one-click-header = One-Click Search Engines
@@ -1129,6 +1131,10 @@ addressbar-locbar-bookmarks-option =
 addressbar-locbar-openpage-option =
     .label = Open tabs
     .accesskey = O
+
+addressbar-locbar-topsites-option =
+    .label = Top sites
+    .accesskey = T
 
 addressbar-suggestions-settings = Change preferences for search engine suggestions
 
