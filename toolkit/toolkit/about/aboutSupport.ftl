@@ -128,6 +128,7 @@ max-audio-channels = Max Channels
 channel-layout = Preferred Channel Layout
 sample-rate = Preferred Sample Rate
 
+roundtrip-latency = Roundtrip latency (standard deviation)
 media-title = Media
 media-output-devices-title = Output Devices
 media-input-devices-title = Input Devices
