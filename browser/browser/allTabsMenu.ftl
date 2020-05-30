@@ -5,6 +5,13 @@
 all-tabs-menu-undo-close-tab =
   .label = Undo Close Tab
 
+all-tabs-menu-undo-close-tabs =
+  .label =
+      { $tabCount ->
+          [1] Undo Close Tab
+         *[other] Undo Close Tabs
+      }
+
 # "Search" is a verb, as in "Search through tabs".
 all-tabs-menu-search-tabs =
   .label = Search Tabs
