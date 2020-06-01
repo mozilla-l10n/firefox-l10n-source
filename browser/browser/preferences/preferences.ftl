@@ -1120,6 +1120,10 @@ sitedata-cookies-permissions =
     .label = Manage Permissions…
     .accesskey = P
 
+sitedata-cookies-exceptions =
+    .label = Manage Exceptions…
+    .accesskey = x
+
 ## Privacy Section - Address Bar
 
 addressbar-header = Address Bar
