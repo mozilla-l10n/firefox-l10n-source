@@ -9,14 +9,6 @@ remove-address-row-type = Remove the { $type } field
 
 #   $type (String) - the type of the addressing row
 #   $count (Number) - the number of address pills currently present in the addressing row
-address-input-type = { $count ->
-    [0]     Empty { $type } input field
-    [one]   { $type } input field with one address
-    *[other] { $type } input field with { $count } addresses
-}
-
-#   $type (String) - the type of the addressing row
-#   $count (Number) - the number of address pills currently present in the addressing row
 address-input-type-aria-label = { $count ->
     [0]     { $type }
     [one]   { $type } with one address, use left arrow key to focus on it.
