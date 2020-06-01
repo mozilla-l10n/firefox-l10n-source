@@ -189,13 +189,13 @@ minimize-to-tray-label =
     .accesskey = m
 
 new-message-arrival = When new messages arrive:
-play-sound-label =
+mail-play-sound-label =
     .label = { PLATFORM() ->
         [macos] Play the following sound file:
         *[other] Play a sound
     }
     .accesskey = d
-play-button =
+mail-play-button =
     .label = Play
     .accesskey = P
 
@@ -217,13 +217,13 @@ tray-icon-label =
     .label = Show a tray icon
     .accesskey = t
 
-system-sound-label =
+mail-system-sound-label =
     .label = Default system sound for new mail
     .accesskey = D
-custom-sound-label =
+mail-custom-sound-label =
     .label = Use the following sound file
     .accesskey = U
-browse-sound-label =
+mail-browse-sound-button =
     .label = Browse…
     .accesskey = B
 
@@ -821,11 +821,23 @@ notification-type-label =
         *[other] F
     }
 
-sound-label =
+chat-play-sound-label =
     .label = Play a sound
     .accesskey = d
 
-browse-sound-button =
+chat-play-button =
+    .label = Play
+    .accesskey = P
+
+chat-system-sound-label =
+    .label = Default system sound for new mail
+    .accesskey = D
+
+chat-custom-sound-label =
+    .label = Use the following sound file
+    .accesskey = U
+
+chat-browse-sound-button =
     .label = Browse…
     .accesskey = B
 
