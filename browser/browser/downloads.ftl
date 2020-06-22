@@ -34,7 +34,7 @@ downloads-cmd-cancel-panel =
 downloads-cmd-show-menuitem =
   .label = Open Containing Folder
   .accesskey = F
-  
+
 # This message is only displayed on macOS devices
 downloads-cmd-show-menuitem-mac =
   .label = Show In Finder

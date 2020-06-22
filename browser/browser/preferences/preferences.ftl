@@ -641,7 +641,6 @@ home-prefs-topsites-description = The sites you visit most
 
 home-prefs-recommended-by-header =
     .label = Recommended by { $provider }
-home-prefs-recommended-by-description = Great content from around the web, personalized for you
 home-prefs-recommended-by-description-update = Exceptional content from across the web, curated by { $provider }
 ##
 
@@ -713,8 +712,6 @@ search-show-suggestions-above-history-option =
 
 search-show-suggestions-private-windows =
     .label = Show search suggestions in Private Windows
-
-suggestions-addressbar-settings = Change preferences for browsing history, bookmarks, and tab suggestions
 
 suggestions-addressbar-settings-generic = Change preferences for other address bar suggestions
 

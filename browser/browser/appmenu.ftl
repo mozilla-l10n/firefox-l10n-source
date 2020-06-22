@@ -4,10 +4,6 @@
 
 ## App Menu
 
-appmenuitem-protection-report-title = Privacy Protections
-appmenuitem-protection-report-tooltip =
-    .tooltiptext = Go to your privacy report
-
 appmenuitem-protection-dashboard-title = Protections Dashboard
 appmenuitem-customize-mode =
     .label = Customize…
