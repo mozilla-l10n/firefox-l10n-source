@@ -894,3 +894,6 @@ search-results-empty-message = { PLATFORM() ->
 }
 
 search-results-help-link = Need help? Visit <a data-l10n-name="url">{ -brand-short-name } Support</a>
+
+## Preferences UI Search Results
+
