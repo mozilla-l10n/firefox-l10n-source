@@ -2,7 +2,6 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-
 close-button =
     .aria-label = Close
 
@@ -63,8 +62,6 @@ privacy-main-header = Privacy
 privacy-passwords-header = Passwords
 
 privacy-junk-header = Junk
-
-privacy-data-collection-header = Data Collection and Use
 
 collection-header = { -brand-short-name } Data Collection and Use
 
@@ -140,9 +137,6 @@ update-in-progress-cancel-button = &Continue
 addons-button = Extensions & Themes
 
 ## OS Authentication dialog
-
-# This message can be seen by trying to add a Master Password.
-master-password-os-auth-dialog-message = Verify your identity to create a Master Password.
 
 # This message can be seen by trying to add a Master Password.
 master-password-os-auth-dialog-message-win = To create a Master Password, enter your Windows login credentials. This helps protect the security of your accounts.
