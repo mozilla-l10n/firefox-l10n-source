@@ -284,6 +284,10 @@ blocklisted-bug = Blocklisted due to known issues
 bug-link = bug { $bugNumber }
 
 # Variables
+#   $bugNumber (string) - Bug number on Bugzilla
+support-blocklisted-bug = Blocklisted due to known issues: <a data-l10n-name="bug-link">bug { $bugNumber }</a>
+
+# Variables
 # $failureCode (string) - String that can be searched in the source tree.
 unknown-failure = Blocklisted; failure code { $failureCode }
 
