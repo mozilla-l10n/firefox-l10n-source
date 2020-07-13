@@ -64,6 +64,7 @@
 <!ENTITY technologyOpenPGP.label "Prefer OpenPGP">
 
 <!ENTITY openpgpKeys.label "OpenPGP">
+
 <!ENTITY manageKeys.label "Manage OpenPGP Keys">
 <!ENTITY manageKeys.accesskey "K">
 
