@@ -9,6 +9,9 @@ password-quality-meter = Password quality meter
 change-password-window =
   .title = Change Master Password
 
+change-device-password-window =
+  .title = Change Password
+
 # Variables:
 # $tokenName (String) - Security device of the change password dialog
 change-password-token = Security Device: { $tokenName }
@@ -21,9 +24,17 @@ change-password-reenter = New password (again):
 reset-password-window =
   .title = Reset Master Password
   .style = width: 40em
+
+## Reset Primary Password dialog
+
+reset-primary-password-window =
+  .title = Reset Primary Password
+  .style = width: 40em
 reset-password-button-label =
   .label = Reset
 reset-password-text = If you reset your master password, all your stored web and e-mail passwords, form data, personal certificates, and private keys will be forgotten. Are you sure you want to reset your master password?
+
+reset-primary-password-text = If you reset your Primary Password, all your stored web and e-mail passwords, personal certificates, and private keys will be forgotten. Are you sure you want to reset your Primary Password?
 
 ## Downloading cert dialog
 
