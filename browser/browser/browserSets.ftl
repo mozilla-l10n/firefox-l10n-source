@@ -150,6 +150,10 @@ bookmark-show-sidebar-shortcut =
 ## If shift key is needed with your locale popular keyboard for them,
 ## you can use these alternative items. Otherwise, their values should be empty.
 
+# If in keyboard layouts popular for your locale you need to use the shift key
+# to access the original shortcuts, the following shortcuts can be used.
+# Otherwise their values should remain empty.
+
 full-zoom-reduce-shortcut =
     .key = -
 
@@ -157,6 +161,12 @@ full-zoom-reduce-shortcut =
 # to access the original shortcuts, the following shortcuts can be used.
 # Otherwise their values should remain empty.
 full-zoom-reduce-shortcut-alt =
+    .key = {""}
+
+full-zoom-reduce-shortcut-alt-a =
+    .key = _
+
+full-zoom-reduce-shortcut-alt-b =
     .key = {""}
 
 full-zoom-enlarge-shortcut =
