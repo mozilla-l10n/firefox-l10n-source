@@ -14,7 +14,6 @@
 <!ENTITY encryptionCert.message "Use this certificate to encrypt &amp; decrypt messages sent to you:">
 
 <!ENTITY e2eTitle.label "End-To-End Encryption">
-<!ENTITY e2eIntro.description "To send encrypted or digitally signed messages, you need to configure an encryption technology, either OpenPGP or S/MIME.">
 <!ENTITY e2eLearnMore.label "Learn more">
 
 <!ENTITY e2eEnc.description "Without end-to-end encryption the contents of messages are easily exposed to your email provider and to mass surveillance.">
@@ -64,9 +63,6 @@
 <!ENTITY technologyOpenPGP.label "Prefer OpenPGP">
 
 <!ENTITY openpgpKeys.label "OpenPGP">
-
-<!ENTITY manageKeys.label "Manage OpenPGP Keys">
-<!ENTITY manageKeys.accesskey "K">
 
 <!-- Strings for the cert picker dialog -->
 <!ENTITY certPicker.title "Select Certificate">
