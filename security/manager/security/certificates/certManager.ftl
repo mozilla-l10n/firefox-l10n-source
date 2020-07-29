@@ -277,9 +277,6 @@ cert-not-verified-ca-invalid = Could not verify this certificate because the CA 
 cert-not-verified_algorithm-disabled = Could not verify this certificate because it was signed using a signature algorithm that was disabled because that algorithm is not secure.
 cert-not-verified-unknown = Could not verify this certificate for unknown reasons.
 
-# Used to indicate that the user chose not to send a client authentication certificate to a server that requested one in a TLS handshake.
-send-no-client-certificate = Send no client certificate
-
 ## Add Security Exception dialog
 add-exception-branded-warning = You are about to override how { -brand-short-name } identifies this site.
 add-exception-invalid-header = This site attempts to identify itself with invalid information.
