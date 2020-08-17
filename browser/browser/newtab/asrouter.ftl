@@ -7,7 +7,6 @@
 cfr-doorhanger-extension-heading = Recommended Extension
 cfr-doorhanger-feature-heading = Recommended Feature
 cfr-doorhanger-pintab-heading = Try This: Pin Tab
-
 ##
 
 cfr-doorhanger-extension-sumo-link =
@@ -37,7 +36,6 @@ cfr-doorhanger-extension-author = by { $name }
 # This is a notification displayed in the address bar.
 # When clicked it opens a panel with a message for the user.
 cfr-doorhanger-extension-notification = Recommendation
-
 cfr-doorhanger-extension-notification2 = Recommendation
   .tooltiptext = Extension recommendation
   .a11y-announcement = Extension recommendation available

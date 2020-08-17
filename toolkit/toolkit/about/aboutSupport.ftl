@@ -108,8 +108,6 @@ graphics-desktop-environment = Desktop Environment
 place-database-title = Places Database
 place-database-integrity = Integrity
 place-database-verify-integrity = Verify Integrity
-js-title = JavaScript
-js-incremental-gc = Incremental GC
 a11y-title = Accessibility
 a11y-activated = Activated
 a11y-force-disabled = Prevent Accessibility
@@ -140,9 +138,7 @@ restart-button-label = Restart
 
 audio-backend = Audio Backend
 max-audio-channels = Max Channels
-channel-layout = Preferred Channel Layout
 sample-rate = Preferred Sample Rate
-
 roundtrip-latency = Roundtrip latency (standard deviation)
 media-title = Media
 media-output-devices-title = Output Devices
@@ -293,10 +289,8 @@ unknown-failure = Blocklisted; failure code { $failureCode }
 
 d3d11layers-crash-guard = D3D11 Compositor
 d3d11video-crash-guard = D3D11 Video Decoder
-d3d9video-crash-buard = D3D9 Video Decoder
 d3d9video-crash-guard = D3D9 Video Decoder
 glcontext-crash-guard = OpenGL
-
 wmfvpxvideo-crash-guard = WMF VPX Video Decoder
 
 reset-on-next-restart = Reset on Next Restart
@@ -356,7 +350,6 @@ touch-enabled = touch input enabled
 drag-enabled = scrollbar drag enabled
 keyboard-enabled = keyboard enabled
 autoscroll-enabled = autoscroll enabled
-
 zooming-enabled = smooth pinch-zoom enabled
 
 ## Variables
