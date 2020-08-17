@@ -20,7 +20,6 @@
 <!ENTITY textonlyRadio.accesskey                "x">
 <!ENTITY showHideTooltips.label                 "Show Tooltips">
 <!ENTITY showHideTooltips.accesskey             "T">
-
 <!ENTITY showHideGrippies.label                 "Hide Toolbar Grippies">
 <!ENTITY showHideGrippies.accesskey             "G">
 

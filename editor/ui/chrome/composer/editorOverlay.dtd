@@ -11,8 +11,6 @@
 <!ENTITY pasteNoFormatting.label "Paste Without Formatting">
 <!ENTITY pasteNoFormatting.accesskey "n">
 <!ENTITY pasteNoFormatting.key "V">
-<!ENTITY pasteAs.label "Paste As">
-<!ENTITY pasteAs.accesskey "a">
 <!ENTITY pasteAsQuotationCmd.label "Paste As Quotation">
 <!ENTITY pasteAsQuotationCmd.accesskey "Q">
 <!ENTITY pasteAsQuotationCmd.key "o">
@@ -294,8 +292,6 @@
 <!ENTITY cutToolbarCmd.tooltip "Cut">
 <!ENTITY copyToolbarCmd.tooltip "Copy">
 <!ENTITY pasteToolbarCmd.tooltip "Paste">
-<!ENTITY printToolbarCmd.label "Print">
-<!ENTITY printToolbarCmd.tooltip "Print this page">
 <!ENTITY findToolbarCmd.label "Find">
 <!ENTITY findToolbarCmd.tooltip "Find text in page">
 <!ENTITY spellToolbarCmd.label "Spell">
@@ -313,7 +309,6 @@
 <!ENTITY colorButtons.title "Colors">
 <!ENTITY TextColorButton.tooltip "Choose color for text">
 <!ENTITY BackgroundColorButton.tooltip "Choose color for background">
-<!ENTITY throbber.tooltip "Go to the &vendorShortName; home page">
 <!ENTITY HighlightColorButton.label "Highlighter">
 <!ENTITY HighlightColorButton.tooltip "Choose highlight color for text">
 

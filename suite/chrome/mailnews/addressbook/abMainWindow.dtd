@@ -4,9 +4,6 @@
 
 <!-- Title -->
 <!ENTITY addressbookWindow.title                        "Address Book">
-
-<!-- Menus:  the . means that the menu item isn't implemented yet -->
-
 <!ENTITY blankResultsPaneMessage.label                  "This address book shows contacts only after a search">
 <!ENTITY localResultsOnlyMessage.label                  "Contacts from remote address books are not shown until you search">
 <!-- File Menu -->
@@ -60,7 +57,6 @@
 <!ENTITY lastFirstCmd.accesskey                         "L">
 <!ENTITY displayNameCmd.label                           "Display Name">
 <!ENTITY displayNameCmd.accesskey                       "D">
-
 <!-- LOCALIZATION NOTE (toggleDirectoryPaneCmd.key): This is only used on the
      mac platform, other platforms use VK_F9. -->
 <!ENTITY toggleDirectoryPaneCmd.key                     "S">
@@ -98,7 +94,6 @@
 <!ENTITY newIM.tooltip                                  "Send an instant message or chat">
 <!ENTITY printButton.tooltip                            "Print selected item">
 <!ENTITY deleteItemButton.tooltip                       "Delete selected item">
-<!ENTITY throbber.tooltip                               "Go to the &vendorShortName; home page">
 <!ENTITY advancedButton.tooltip                         "Advanced address search">
 
 <!-- Dir Tree header -->

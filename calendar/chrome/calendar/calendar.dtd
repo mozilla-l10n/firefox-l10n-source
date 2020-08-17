@@ -9,8 +9,6 @@
 <!ENTITY calendar.newevent.button.tooltip         "Create a new event" >
 <!ENTITY calendar.newtask.button.tooltip          "Create a new task" >
 
-<!ENTITY calendar.unifinder.todoitems.label       "Tasks" >
-
 <!ENTITY calendar.unifinder.showcompletedtodos.label "Show completed Tasks">
 
 <!ENTITY calendar.today.button.label          "Today">
@@ -355,7 +353,6 @@
 <!ENTITY calendarproperties.color.label                    "Color:">
 <!ENTITY calendarproperties.webdav.label                   "iCalendar (ICS)">
 <!ENTITY calendarproperties.caldav.label                   "CalDAV">
-<!ENTITY calendarproperties.wcap.label                     "Sun Java System Calendar Server (WCAP)">
 <!ENTITY calendarproperties.format.label                   "Format:">
 <!ENTITY calendarproperties.location.label                 "Location:">
 <!ENTITY calendarproperties.refreshInterval.label          "Refresh Calendar:">
@@ -364,7 +361,6 @@
 <!ENTITY calendarproperties.readonly.label                 "Read Only">
 <!ENTITY calendarproperties.firealarms.label               "Show Reminders">
 <!ENTITY calendarproperties.cache3.label                   "Offline Support">
-<!ENTITY calendarproperties.enabled.label                  "Switch this calendar on">
 <!ENTITY calendarproperties.enabled2.label                 "Enable This Calendar">
 <!ENTITY calendarproperties.forceDisabled.label            "The provider for this calendar could not be found. This often happens if you have disabled or uninstalled certain addons.">
 <!ENTITY calendarproperties.unsubscribe.label              "Unsubscribe">

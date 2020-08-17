@@ -108,12 +108,6 @@ manage-messenger-languages-button =
 confirm-messenger-language-change-description = Restart { -brand-short-name } to apply these changes
 confirm-messenger-language-change-button = Apply and Restart
 
-update-pref-write-failure-title = Write Failure
-
-# Variables:
-#   $path (String) - Path to the configuration file
-update-pref-write-failure-message = Unable to save preference. Could not write to file: { $path }
-
 update-setting-write-failure-title = Error saving Update preferences
 
 # Variables:
