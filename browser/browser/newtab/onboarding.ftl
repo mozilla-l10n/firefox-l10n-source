@@ -120,6 +120,54 @@ onboarding-multistage-theme-tooltip-alpenglow =
     menus, and windows.
   .aria-label = { onboarding-multistage-theme-tooltip-alpenglow.title }
 
+# Tooltip displayed on hover of automatic theme
+onboarding-multistage-theme-tooltip-automatic-2 =
+  .title =
+    Inherit the appearance of your operating
+    system for buttons, menus, and windows.
+
+# Input description for automatic theme
+onboarding-multistage-theme-description-automatic-2 =
+  .aria-description =
+    Inherit the appearance of your operating
+    system for buttons, menus, and windows.
+
+# Tooltip displayed on hover of light theme
+onboarding-multistage-theme-tooltip-light-2 =
+  .title =
+    Use a light appearance for buttons,
+    menus, and windows.
+
+# Input description for light theme
+onboarding-multistage-theme-description-light =
+  .aria-description =
+    Use a light appearance for buttons,
+    menus, and windows.
+
+# Tooltip displayed on hover of dark theme
+onboarding-multistage-theme-tooltip-dark-2 =
+  .title =
+    Use a dark appearance for buttons,
+    menus, and windows.
+
+# Input description for dark theme
+onboarding-multistage-theme-description-dark =
+  .aria-description =
+    Use a dark appearance for buttons,
+    menus, and windows.
+
+# Tooltip displayed on hover of Alpenglow theme
+onboarding-multistage-theme-tooltip-alpenglow-2 =
+  .title =
+    Use a colorful appearance for buttons,
+    menus, and windows.
+
+# Input description for Alpenglow theme
+onboarding-multistage-theme-description-alpenglow =
+  .aria-description =
+    Use a colorful appearance for buttons,
+    menus, and windows.
+
 ## Welcome full page string
 
 onboarding-fullpage-welcome-subheader = Let’s start exploring everything you can do.
