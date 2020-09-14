@@ -3,7 +3,6 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 printui-title = Print
-
 # Dialog title to prompt the user for a filename to save print to PDF.
 printui-save-to-pdf-title = Save As
 
@@ -22,7 +21,6 @@ printui-page-range-picker =
   .aria-label = Pick page range
 printui-page-custom-range =
   .aria-label = Enter custom page range
-
 # This label is displayed before the first input field indicating
 # the start of the range to print.
 printui-range-start = From
@@ -39,7 +37,6 @@ printui-portrait = Portrait
 
 # Section title for the printer or destination device to target
 printui-destination-label = Destination
-
 printui-destination-pdf-label = Save to PDF
 
 printui-more-settings = More settings
@@ -49,7 +46,6 @@ printui-paper-size-label = Paper size
 
 # Section title (noun) for the print scaling options
 printui-scale = Scale
-printui-scale-fit-to-page = Fit to page
 printui-scale-fit-to-page-width = Fit to page width
 # Label for input control where user can set the scale percentage
 printui-scale-pcent = Scale
