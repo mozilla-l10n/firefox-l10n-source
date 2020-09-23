@@ -705,6 +705,8 @@ search-suggestions-cant-show = Search suggestions will not be shown in location 
 
 search-one-click-header = One-Click Search Engines
 
+search-one-click-header2 = Search Shortcuts
+
 search-one-click-desc = Choose the alternative search engines that appear below the address bar and search bar when you start to enter a keyword.
 
 search-choose-engine-column =
