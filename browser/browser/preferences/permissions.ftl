@@ -46,6 +46,10 @@ permissions-button-ok =
     .label = Save Changes
     .accesskey = S
 
+permission-dialog =
+    .buttonlabelaccept = Save Changes
+    .buttonaccesskeyaccept = S
+
 permissions-autoplay-menu = Default for all websites:
 
 permissions-searchbox =
