@@ -22,5 +22,9 @@ add-engine-ok =
     .label = Add Engine
     .accesskey = A
 
+add-engine-dialog=
+    .buttonlabelaccept = Add Engine
+    .buttonaccesskeyaccept = A
+
 engine-name-exists = An engine with that name already exists
 engine-alias-exists = An engine with that alias already exists
