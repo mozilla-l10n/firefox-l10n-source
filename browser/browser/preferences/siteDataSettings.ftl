@@ -38,6 +38,10 @@ site-data-button-save =
     .label = Save Changes
     .accesskey = a
 
+site-data-settings-dialog =
+    .buttonlabelaccept = Save Changes
+    .buttonaccesskeyaccept = a
+
 # Variables:
 #   $value (Number) - Value of the unit (for example: 4.6, 500)
 #   $unit (String) - Name of the unit (for example: "bytes", "KB")
