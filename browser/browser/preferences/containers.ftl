@@ -44,6 +44,10 @@ containers-button-done =
     .label = Done
     .accesskey = D
 
+containers-dialog =
+    .buttonlabelaccept = Done
+    .buttonaccesskeyaccept = D
+
 containers-color-blue =
     .label = Blue
 containers-color-turquoise =
