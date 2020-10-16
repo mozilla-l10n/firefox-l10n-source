@@ -43,6 +43,7 @@ onboarding-join-form-signin-label = Already have an account?
 onboarding-join-form-signin = Sign In
 
 onboarding-start-browsing-button-label = Start Browsing
+onboarding-not-now-button-label = Not now
 onboarding-cards-dismiss =
     .title = Dismiss
     .aria-label = Dismiss
