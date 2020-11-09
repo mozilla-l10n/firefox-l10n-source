@@ -67,7 +67,6 @@ printui-margins = Margins
 printui-margins-default = Default
 printui-margins-min = Minimum
 printui-margins-none = None
-
 printui-margins-custom = Custom
 printui-margins-custom-top = Top
 printui-margins-custom-bottom = Bottom
@@ -106,7 +105,6 @@ printui-paper-tabloid = Tabloid
 ## Error messages shown when a user has an invalid input
 
 printui-error-invalid-scale = Scale must be a number between 10 and 200.
-
 printui-error-invalid-margin = Please enter a valid margin for the selected paper size.
 
 # Variables
