@@ -79,6 +79,8 @@ printui-primary-button = Print
 printui-primary-button-save = Save
 printui-cancel-button = Cancel
 
+printui-close-button = Close
+
 printui-loading = Preparing Preview
 
 # Reported by screen readers and other accessibility tools to indicate that
