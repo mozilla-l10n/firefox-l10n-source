@@ -28,6 +28,10 @@ printui-range-start = From
 # the start and end page of the range to print.
 printui-range-end = to
 
+printui-page-custom-range-input =
+  .aria-label = Enter custom page range
+  .placeholder = e.g. 2-6, 9, 12-16
+
 # Section title for the number of copies to print
 printui-copies-label = Copies
 
