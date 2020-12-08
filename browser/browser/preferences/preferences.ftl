@@ -654,7 +654,6 @@ home-prefs-recommended-by-option-sponsored-stories =
 
 home-prefs-highlights-header =
     .label = Highlights
-
 home-prefs-recent-activity-header =
     .label = Recent activity
 home-prefs-highlights-description = A selection of sites that you’ve saved or visited
