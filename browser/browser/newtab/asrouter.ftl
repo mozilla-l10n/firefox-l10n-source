@@ -145,6 +145,9 @@ cfr-whatsnew-lockwise-take-link-text = Get the app
 
 cfr-whatsnew-searchbar-title = Type less, find more with the address bar
 cfr-whatsnew-searchbar-body-topsites = Now, just select the address bar, and a box will expand with links to your top sites.
+
+## Search bar
+
 cfr-whatsnew-searchbar-icon-alt-text = Magnifying glass icon
 
 ## Picture-in-Picture
