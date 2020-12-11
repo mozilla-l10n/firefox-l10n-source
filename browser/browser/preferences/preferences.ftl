@@ -1156,6 +1156,10 @@ addressbar-locbar-topsites-option =
     .label = Top sites
     .accesskey = T
 
+addressbar-locbar-engines-option =
+    .label = Search engines
+    .accesskey = a
+
 addressbar-suggestions-settings = Change preferences for search engine suggestions
 
 ## Privacy Section - Content Blocking
