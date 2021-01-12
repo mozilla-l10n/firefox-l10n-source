@@ -136,6 +136,8 @@ policy-ManagedBookmarks = Configures a list of bookmarks managed by an administr
 
 policy-MasterPassword = Require or prevent using a master password.
 
+policy-ManualAppUpdateOnly = Allow manual updates only and do not notify the user about updates.
+
 policy-PrimaryPassword = Require or prevent using a Primary Password.
 
 policy-NetworkPrediction = Enable or disable network prediction (DNS prefetching).
