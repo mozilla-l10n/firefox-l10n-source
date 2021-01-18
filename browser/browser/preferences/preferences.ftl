@@ -639,7 +639,6 @@ home-prefs-topsites-description = The sites you visit most
 
 home-prefs-topsites-by-option-sponsored =
     .label = Sponsored Top Sites
-
 home-prefs-shortcuts-header =
     .label = Shortcuts
 home-prefs-shortcuts-description = Sites you save or visit
