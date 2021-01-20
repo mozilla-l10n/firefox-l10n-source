@@ -14,6 +14,12 @@
 <!ENTITY prefCheckDefaultClient.label     "Check default application settings on startup">
 <!ENTITY prefCheckDefaultClient.accesskey "C">
 
+<!ENTITY printing.label                   "Printing">
+<!ENTITY useNativePrintDialog.label       "Use Native Print Dialog (where supported)">
+<!ENTITY useNativePrintDialog.accesskey   "U">
+<!ENTITY useGlobalPrintSettings.label     "Use Global Print Settings">
+<!ENTITY useGlobalPrintSettings.accesskey "G">
+
 <!ENTITY crashReports.caption             "Crash Reporter">
 <!ENTITY submitCrashes.label              "Submit crash reports">
 <!ENTITY submitCrashes.accesskey          "S">
