@@ -21,6 +21,19 @@ navbar-tooltip-back =
 toolbar-button-back =
     .label = { main-context-menu-back.aria-label }
 
+# Variables
+#   $shortcut (String) - A keyboard shortcut for the Go Back command.
+main-context-menu-back-2 =
+    .tooltiptext = Go back one page ({ $shortcut })
+    .aria-label = Back
+    .accesskey = B
+
+navbar-tooltip-back-2 =
+    .value = { main-context-menu-back-2.tooltiptext }
+
+toolbar-button-back-2 =
+    .label = { main-context-menu-back-2.aria-label }
+
 ## Forward
 
 main-context-menu-forward =
@@ -33,6 +46,19 @@ navbar-tooltip-forward =
 
 toolbar-button-forward =
     .label = { main-context-menu-forward.aria-label }
+
+# Variables
+#   $shortcut (String) - A keyboard shortcut for the Go Forward command.
+main-context-menu-forward-2 =
+    .tooltiptext = Go forward one page ({ $shortcut })
+    .aria-label = Forward
+    .accesskey = F
+
+navbar-tooltip-forward-2 =
+    .value = { main-context-menu-forward-2.tooltiptext }
+
+toolbar-button-forward-2 =
+    .label = { main-context-menu-forward-2.aria-label }
 
 ## Reload
 
