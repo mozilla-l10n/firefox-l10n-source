@@ -4,6 +4,7 @@
 
 addons-window =
     .title = Add-ons Manager
+
 addons-page-title = Add-ons Manager
 
 search-header =
