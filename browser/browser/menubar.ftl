@@ -210,6 +210,9 @@ menu-history-undo-menu =
 menu-history-undo-window-menu =
     .label = Recently Closed Windows
 
+menu-history-reopen-all-tabs = Reopen All Tabs
+menu-history-reopen-all-windows = Reopen All Windows
+
 ## Bookmarks Menu
 
 menu-bookmarks-menu =
