@@ -179,3 +179,10 @@ appmenu-help-not-deceptive =
 
 appmenu-help-check-for-update =
     .label = Check for Updates…
+
+## More Tools
+
+appmenu-customizetoolbar =
+    .label = Customize Toolbar…
+
+appmenu-developer-tools-subheader = Browser Tools
