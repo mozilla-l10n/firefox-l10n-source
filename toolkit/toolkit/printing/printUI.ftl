@@ -59,7 +59,6 @@ printui-two-sided-printing-top-edge = Flip on top edge
 printui-options = Options
 printui-headers-footers-checkbox = Print headers and footers
 printui-backgrounds-checkbox = Print backgrounds
-
 printui-selection-checkbox = Print selection only
 
 printui-color-mode-label = Color mode
