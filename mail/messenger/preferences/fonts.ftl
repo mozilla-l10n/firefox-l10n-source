@@ -97,6 +97,10 @@ font-size-label =
     .value = Size:
     .accesskey = e
 
+font-size-proportional-label =
+    .value = Size:
+    .accesskey = e
+
 font-size-monospace-label =
     .value = Size:
     .accesskey = i
