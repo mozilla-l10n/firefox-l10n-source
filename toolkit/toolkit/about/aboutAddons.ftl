@@ -367,6 +367,7 @@ addon-options-button =
     .aria-label = More Options
 
 ## Add-on actions
+
 report-addon-button = Report
 remove-addon-button = Remove
 # The link will always be shown after the other text.

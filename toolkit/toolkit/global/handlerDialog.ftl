@@ -29,6 +29,7 @@ permission-dialog-description-file-app =
 ## Please keep the emphasis around the hostname and scheme (ie the
 ## `<strong>` HTML tags). Please also keep the hostname as close to the start
 ## of the sentence as your language's grammar allows.
+
 permission-dialog-remember =
   Always allow <strong>{ $host }</strong> to open <strong>{ $scheme }</strong> links
 

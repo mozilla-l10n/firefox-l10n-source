@@ -7,6 +7,7 @@
 cfr-doorhanger-extension-heading = Recommended Extension
 cfr-doorhanger-feature-heading = Recommended Feature
 cfr-doorhanger-pintab-heading = Try This: Pin Tab
+
 ##
 
 cfr-doorhanger-extension-sumo-link =
@@ -265,6 +266,9 @@ cfr-whatsnew-pip-fullscreen-header = Take picture-in-picture fullscreen
 cfr-whatsnew-pip-fullscreen-body = When you pop a video into a floating window, you can now double-click on that window to go fullscreen.
 cfr-whatsnew-pip-fullscreen-icon-alt = Picture-in-picture icon
 
+## Protections Dashboard message
+
+## What’s New Panel Content for Firefox 76
 ## Protections Dashboard message
 
 cfr-whatsnew-protections-header = Protections at a glance
