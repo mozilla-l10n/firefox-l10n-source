@@ -48,11 +48,18 @@ toolbar-context-menu-pin-to-overflow-menu =
 toolbar-context-menu-auto-hide-downloads-button =
     .label = Auto-Hide in Toolbar
     .accesskey = A
+toolbar-context-menu-auto-hide-downloads-button-2 =
+    .label = Hide Button When Empty
+    .accesskey = H
 toolbar-context-menu-remove-from-toolbar =
     .label = Remove from Toolbar
     .accesskey = R
 toolbar-context-menu-view-customize-toolbar =
     .label = Customize…
+    .accesskey = C
+
+toolbar-context-menu-view-customize-toolbar-2 =
+    .label = Customize Toolbar…
     .accesskey = C
 
 toolbar-context-menu-bookmarks-toolbar-always-show-2 =
