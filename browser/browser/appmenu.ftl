@@ -188,6 +188,16 @@ appmenu-help-safe-mode-with-addons =
     .label = Restart With Add-ons Enabled
     .accesskey = R
 
+## appmenu-help-enter-troubleshoot-mode and appmenu-help-exit-troubleshoot-mode
+## are mutually exclusive, so it's possible to use the same accesskey for both.
+
+appmenu-help-enter-troubleshoot-mode =
+    .label = Troubleshoot Mode
+    .accesskey = M
+appmenu-help-exit-troubleshoot-mode =
+    .label = Turn Troubleshoot Mode Off
+    .accesskey = M
+
 ## appmenu-help-report-deceptive-site and appmenu-help-not-deceptive
 ## are mutually exclusive, so it's possible to use the same accesskey for both.
 
