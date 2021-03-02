@@ -25,6 +25,14 @@ toolbar-context-menu-undo-close-tabs =
         }
     .accesskey = U
 
+toolbar-context-menu-reopen-closed-tabs =
+    .label =
+        { $tabCount ->
+            [1] Reopen Closed Tab
+           *[other] Reopen Closed Tabs
+        }
+    .accesskey = o
+
 toolbar-context-menu-manage-extension =
     .label = Manage Extension
     .accesskey = E
