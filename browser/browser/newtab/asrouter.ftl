@@ -287,8 +287,6 @@ cfr-doorhanger-doh-body = Your privacy matters. { -brand-short-name } now secure
 cfr-doorhanger-doh-header = More secure, encrypted DNS lookups
 cfr-doorhanger-doh-primary-button = OK, Got it
   .accesskey = O
-cfr-doorhanger-doh-primary-button-2 = Okay
-  .accesskey = O
 cfr-doorhanger-doh-secondary-button = Disable
   .accesskey = D
 
