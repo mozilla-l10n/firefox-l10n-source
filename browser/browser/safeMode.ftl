@@ -9,7 +9,7 @@ start-safe-mode =
     .label = Start in Safe Mode
 
 troubleshoot-mode-window =
-    .title = Open { -brand-full-name } in Troubleshoot Mode?
+    .title = Open { -brand-short-name } in Troubleshoot Mode?
     .style = max-width: 400px
 start-troubleshoot-mode =
     .label = Open
