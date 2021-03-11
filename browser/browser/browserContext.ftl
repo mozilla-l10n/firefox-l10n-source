@@ -271,6 +271,14 @@ main-context-menu-video-view =
     .label = View Video
     .accesskey = i
 
+main-context-menu-image-view-new-tab =
+    .label = Open Image in New Tab
+    .accesskey = I
+
+main-context-menu-video-view-new-tab =
+    .label = Open Video in New Tab
+    .accesskey = i
+
 main-context-menu-image-copy =
     .label = Copy Image
     .accesskey = y
