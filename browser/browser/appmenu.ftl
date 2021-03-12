@@ -55,9 +55,7 @@ appmenuitem-fullscreen =
 fxa-toolbar-sync-now =
     .label = Sync Now
 
-appmenuitem-fxa-toolbar-sync-now =
-    .label = Sync Now
-    .value = Sync Now
+appmenuitem-fxa-toolbar-sync-now2 = Sync Now
 appmenuitem-fxa-manage-account = Manage Account
 appmenu-fxa-header =
     .title = { -fxaccount-brand-name }
