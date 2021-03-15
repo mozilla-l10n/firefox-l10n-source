@@ -50,7 +50,6 @@ permission-dialog-unset-description = You’ll need to choose an application.
 
 permission-dialog-set-change-app-link = Choose a different application.
 
-
 ## Chooser dialog
 ## Variables:
 ##  $scheme - the type of link that's being opened.

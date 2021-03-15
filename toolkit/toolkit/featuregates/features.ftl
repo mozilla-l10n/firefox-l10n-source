@@ -29,28 +29,6 @@ experimental-features-web-api-inputmode-description = Our implementation of the 
 
 # The title of the experiment should be kept in English as it may be referenced
 # by various online articles and is technical in nature.
-experimental-features-web-api-link-preload =
-    .label = Web API: <link rel="preload">
-# Do not translate "rel", "preload" or "link" here, as they are all HTML spec
-# values that do not get translated.
-experimental-features-web-api-link-preload-description = The <a data-l10n-name="rel">rel</a> attribute with value <code>"preload"</code> on a <a data-l10n-name="link">&lt;link&gt;</a> element is intended to help provide performance gains by letting you download resources earlier in the page lifecycle, ensuring that they’re available earlier and are less likely to block page rendering. Read <a data-l10n-name="readmore">“Preloading content with <code>rel="preload"</code>”</a> or see <a data-l10n-name="bugzilla">bug 1583604</a> for more details.
-
-# The title of the experiment should be kept in English as it may be referenced
-# by various online articles and is technical in nature.
-experimental-features-css-focus-visible =
-    .label = CSS: Pseudo-class: :focus-visible
-experimental-features-css-focus-visible-description = Allows focus styles to be applied to elements like buttons and form controls, only when they are focused using the keyboard (e.g. when tabbing between elements), and not when they are focused using a mouse or other pointing device. See <a data-l10n-name="bugzilla">bug 1617600</a> for more details.
-
-# The title of the experiment should be kept in English as it may be referenced
-# by various online articles and is technical in nature.
-experimental-features-web-api-beforeinput =
-    .label = Web API: beforeinput Event
-# The terms "beforeinput", "input", "textarea", and "contenteditable" are technical terms
-# and shouldn't be translated.
-experimental-features-web-api-beforeinput-description = The global <a data-l10n-name="mdn-beforeinput">beforeinput</a> event is fired on an <a data-l10n-name="mdn-input">&lt;input&gt;</a> and <a data-l10n-name="mdn-textarea">&lt;textarea&gt;</a> elements, or any element whose <a data-l10n-name="mdn-contenteditable">contenteditable</a> attribute is enabled, immediately before the element’s value changes. The event allows web apps to override the browser’s default behavior for user interaction, e.g., web apps can cancel user input only for specific characters or can modify pasting styled text only with approved styles.
-
-# The title of the experiment should be kept in English as it may be referenced
-# by various online articles and is technical in nature.
 experimental-features-css-constructable-stylesheets =
     .label = CSS: Constructable Stylesheets
 experimental-features-css-constructable-stylesheets-description = The addition of a constructor to the <a data-l10n-name="mdn-cssstylesheet">CSSStyleSheet</a> interface as well as a variety of related changes makes it possible to directly create new stylesheets without having to add the sheet to the HTML. This makes it much easier to create reusable stylesheets for use with <a data-l10n-name="mdn-shadowdom">Shadow DOM</a>. See <a data-l10n-name="bugzilla">bug 1520690</a> for more details.
@@ -82,10 +60,6 @@ experimental-features-cookie-samesite-none-requires-secure2-description = Cookie
 experimental-features-abouthome-startup-cache =
     .label = about:home startup cache
 experimental-features-abouthome-startup-cache-description = A cache for the initial about:home document that is loaded by default at startup. The purpose of the cache is to improve startup performance.
-
-experimental-features-print-preview-tab-modal =
-    .label = Print Preview Redesign
-experimental-features-print-preview-tab-modal-description = Introduces the redesigned print preview and makes print preview available on macOS. This potentially introduces breakage and does not include all print-related settings. To access all print-related settings, select “Print using the system dialog…” from within the Print panel.
 
 # The title of the experiment should be kept in English as it may be referenced
 # by various online articles and is technical in nature.

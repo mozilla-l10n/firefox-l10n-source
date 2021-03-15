@@ -16,7 +16,6 @@ appmenuitem-new-window =
     .label = New Window
 appmenuitem-new-private-window =
     .label = New Private Window
-
 appmenuitem-passwords =
     .label = Passwords
 appmenuitem-extensions-and-themes =
@@ -154,18 +153,6 @@ appmenu-help-header =
 appmenu-about =
     .label = About { -brand-shorter-name }
     .accesskey = A
-appmenu-help-product =
-    .label = { -brand-shorter-name } Help
-    .accesskey = H
-appmenu-help-show-tour =
-    .label = { -brand-shorter-name } Tour
-    .accesskey = o
-appmenu-help-import-from-another-browser =
-    .label = Import From Another Browser…
-    .accesskey = I
-appmenu-help-keyboard-shortcuts =
-    .label = Keyboard Shortcuts
-    .accesskey = K
 appmenu-get-help =
     .label = Get Help
     .accesskey = H
@@ -212,11 +199,6 @@ appmenu-help-report-deceptive-site =
 appmenu-help-not-deceptive =
     .label = This Isn’t a Deceptive Site…
     .accesskey = D
-
-##
-
-appmenu-help-check-for-update =
-    .label = Check for Updates…
 
 ## More Tools
 

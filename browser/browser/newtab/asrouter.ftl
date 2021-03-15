@@ -243,9 +243,6 @@ cfr-doorhanger-milestone-heading2 =
 cfr-doorhanger-milestone-ok-button = See All
   .accesskey = S
 
-cfr-doorhanger-milestone-close-button = Close
-  .accesskey = C
-
 ## What’s New Panel Content for Firefox 76
 
 ## Lockwise message
@@ -267,6 +264,9 @@ cfr-whatsnew-pip-fullscreen-body = When you pop a video into a floating window, 
 cfr-whatsnew-pip-fullscreen-icon-alt = Picture-in-picture icon
 
 ## Protections Dashboard message
+
+cfr-doorhanger-milestone-close-button = Close
+  .accesskey = C
 
 ## What’s New Panel Content for Firefox 76
 ## Protections Dashboard message

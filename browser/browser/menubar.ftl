@@ -313,14 +313,6 @@ menu-window-bring-all-to-front =
 # NOTE: For Engineers, any additions or changes to Help menu strings should
 # also be reflected in the related strings in appmenu.ftl. Those strings, by
 # convention, will have the same ID as these, but prefixed with "app".
-# Example: appmenu-help-product
-#
-# These strings are duplicated to allow for different casing depending on
-# where the strings appear.
-
-# NOTE: For Engineers, any additions or changes to Help menu strings should
-# also be reflected in the related strings in appmenu.ftl. Those strings, by
-# convention, will have the same ID as these, but prefixed with "app".
 # Example: appmenu-get-help
 #
 # These strings are duplicated to allow for different casing depending on
@@ -336,7 +328,7 @@ menu-help-show-tour =
     .label = { -brand-shorter-name } Tour
     .accesskey = o
 menu-help-import-from-another-browser =
-    .label = Import From Another Browser…
+    .label = Import from Another Browser…
     .accesskey = I
 menu-help-keyboard-shortcuts =
     .label = Keyboard Shortcuts
@@ -377,6 +369,3 @@ menu-help-report-deceptive-site =
 menu-help-not-deceptive =
     .label = This Isn’t a Deceptive Site…
     .accesskey = D
-menu-help-check-for-update =
-    .label = Check for Updates…
-    .accesskey = C

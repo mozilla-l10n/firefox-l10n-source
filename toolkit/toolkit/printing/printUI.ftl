@@ -47,8 +47,6 @@ printui-scale-pcent = Scale
 
 # Section title (noun) for the two-sided print options
 printui-two-sided-printing = Two-sided printing
-printui-duplex-checkbox = Print on both sides
-
 printui-two-sided-printing-off = Off
 # Flip the sheet as if it were bound along its long edge.
 printui-two-sided-printing-long-edge = Flip on long edge
@@ -126,7 +124,6 @@ printui-paper-tabloid = Tabloid
 
 printui-error-invalid-scale = Scale must be a number between 10 and 200.
 printui-error-invalid-margin = Please enter a valid margin for the selected paper size.
-
 printui-error-invalid-copies = Copies must be a number between 1 and 10000.
 
 # Variables
