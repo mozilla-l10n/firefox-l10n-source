@@ -128,10 +128,6 @@ main-context-menu-open-link-new-tab =
 
 main-context-menu-open-link-container-tab =
     .label = Open Link in New Container Tab
-    .accesskey = b
-
-main-context-menu-open-link-container =
-    .label = Open Link in New Container
     .accesskey = w
 
 main-context-menu-open-link-new-window =
