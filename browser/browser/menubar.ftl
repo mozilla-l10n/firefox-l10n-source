@@ -279,6 +279,13 @@ menu-tools-page-source =
 menu-tools-page-info =
     .label = Page Info
     .accesskey = I
+menu-settings =
+    .label = Settings
+    .accesskey =
+        { PLATFORM() ->
+            [windows] S
+           *[other] n
+        }
 menu-preferences =
     .label =
         { PLATFORM() ->
@@ -288,13 +295,6 @@ menu-preferences =
     .accesskey =
         { PLATFORM() ->
             [windows] O
-           *[other] n
-        }
-menu-settings =
-    .label = Settings
-    .accesskey =
-        { PLATFORM() ->
-            [windows] S
            *[other] n
         }
 menu-tools-layout-debugger =
