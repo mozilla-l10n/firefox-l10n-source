@@ -6,6 +6,14 @@
 
 appmenuitem-update-banner =
     .label-update-downloading = Downloading { -brand-shorter-name } update
+
+appmenuitem-update-banner2 =
+    .label-update-downloading = Downloading { -brand-shorter-name } update
+    .label-update-available = Update available — download now
+    .label-update-manual = Update available — download now
+    .label-update-unsupported = Unable to update
+    .label-update-restart = Update available — restart now
+
 appmenuitem-protection-dashboard-title = Protections Dashboard
 appmenuitem-customize-mode =
     .label = Customize…
