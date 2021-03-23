@@ -669,6 +669,12 @@ library-bookmarks-menu =
 library-recent-activity-title =
   .value = Recent Activity
 
+## Pocket toolbar button
+
+save-to-pocket-button =
+  .label = Save to { -pocket-brand-name }
+  .tooltiptext = Save to { -pocket-brand-name }
+
 ## More items
 
 more-menu-go-offline =
