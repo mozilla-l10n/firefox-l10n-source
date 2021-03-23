@@ -601,6 +601,7 @@ crashed-subframe-submit =
 
 bookmarks-show-all-bookmarks =
   .label = Show All Bookmarks
+
 bookmarks-manage-bookmarks =
   .label = Manage Bookmarks
 bookmarks-recent-bookmarks-panel =
