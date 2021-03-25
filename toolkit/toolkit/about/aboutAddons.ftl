@@ -45,6 +45,10 @@ sidebar-preferences-button-title =
            *[other] { -brand-short-name } Preferences
         }
 
+addons-settings-button = { -brand-short-name } Settings
+sidebar-settings-button-title =
+    .title = { -brand-short-name } Settings
+
 show-unsigned-extensions-button =
     .label = Some extensions could not be verified
 
