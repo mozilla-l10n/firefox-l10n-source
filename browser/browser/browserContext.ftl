@@ -456,6 +456,10 @@ main-context-menu-manage-logins =
     .label = Manage Logins…
     .accesskey = M
 
+main-context-menu-manage-logins2 =
+    .label = Manage Logins
+    .accesskey = M
+
 main-context-menu-keyword =
     .label = Add a Keyword for this Search…
     .accesskey = K
