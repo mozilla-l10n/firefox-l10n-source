@@ -13,6 +13,17 @@ bookmark-overlay-location =
 bookmark-overlay-folder =
   .value = Folder:
 
+bookmark-overlay-name-2 =
+  .value = Name
+  .accesskey = N
+
+bookmark-overlay-url =
+  .value = URL
+  .accesskey = U
+
+bookmark-overlay-location-2 =
+  .value = Location
+
 bookmark-overlay-choose =
   .label = Choose…
 
@@ -29,6 +40,10 @@ bookmark-overlay-tags =
   .value = Tags:
   .accesskey = T
 
+bookmark-overlay-tags-2 =
+  .value = Tags
+  .accesskey = T
+
 bookmark-overlay-tags-empty-description =
   .placeholder = Separate tags with commas
 
@@ -39,4 +54,8 @@ bookmark-overlay-tags-expander =
 
 bookmark-overlay-keyword =
   .value = Keyword:
+  .accesskey = K
+
+bookmark-overlay-keyword-2 =
+  .value = Keyword
   .accesskey = K
