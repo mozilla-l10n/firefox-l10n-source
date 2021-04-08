@@ -14,6 +14,13 @@ appmenuitem-update-banner2 =
     .label-update-unsupported = Unable to update
     .label-update-restart = Update available — restart now
 
+appmenuitem-update-banner3 =
+    .label-update-downloading = Downloading { -brand-shorter-name } update
+    .label-update-available = Update available — download now
+    .label-update-manual = Update available — download now
+    .label-update-unsupported = Unable to update — system incompatible
+    .label-update-restart = Update available — restart now
+
 appmenuitem-protection-dashboard-title = Protections Dashboard
 appmenuitem-customize-mode =
     .label = Customize…
