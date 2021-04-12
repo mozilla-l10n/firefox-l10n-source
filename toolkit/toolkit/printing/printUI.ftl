@@ -80,7 +80,6 @@ printui-margins-custom-left-inches = Left (inches)
 printui-margins-custom-left-mm = Left (mm)
 printui-margins-custom-right = Right
 printui-margins-custom-right-inches = Right (inches)
-
 printui-margins-custom-right-mm = Right (mm)
 
 printui-system-dialog-link = Print using the system dialog…

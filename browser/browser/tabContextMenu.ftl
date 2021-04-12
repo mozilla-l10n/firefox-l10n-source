@@ -69,16 +69,6 @@ move-to-new-window =
 tab-context-close-multiple-tabs =
     .label = Close Multiple Tabs
     .accesskey = M
-
-tab-context-share-url =
-    .label = Share
-    .accesskey = h
-tab-context-share-more =
-    .label = More…
-
-## Variables:
-##  $tabCount (Number): the number of tabs that are affected by the action.
-
 tab-context-undo-close-tabs =
     .label =
         { $tabCount ->
@@ -98,6 +88,14 @@ move-tabs =
 move-tab =
     .label = Move Tab
     .accesskey = v
+tab-context-share-url =
+    .label = Share
+    .accesskey = h
+tab-context-share-more =
+    .label = More…
+
+## Variables:
+##  $tabCount (Number): the number of tabs that are affected by the action.
 
 tab-context-reopen-closed-tabs =
     .label =

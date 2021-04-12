@@ -4,9 +4,6 @@
 
 ## App Menu
 
-appmenuitem-update-banner =
-    .label-update-downloading = Downloading { -brand-shorter-name } update
-
 appmenuitem-update-banner2 =
     .label-update-downloading = Downloading { -brand-shorter-name } update
     .label-update-available = Update available — download now
@@ -33,8 +30,6 @@ appmenuitem-new-private-window =
     .label = New Private Window
 appmenuitem-passwords =
     .label = Passwords
-appmenuitem-extensions-and-themes =
-    .label = Extensions and Themes
 appmenuitem-addons-and-themes =
     .label = Add-ons and Themes
 appmenuitem-find-in-page =
@@ -43,7 +38,6 @@ appmenuitem-more-tools =
     .label = More Tools
 appmenuitem-exit =
     .label = Exit
-
 appmenu-menu-button-closed =
     .tooltiptext = Open Application Menu
     .label = { -brand-shorter-name }
@@ -193,11 +187,6 @@ appmenu-about =
 appmenu-get-help =
     .label = Get Help
     .accesskey = H
-appmenu-help-troubleshooting-info =
-    .label = Troubleshooting Information
-    .accesskey = T
-appmenu-help-taskmanager =
-    .label = Task Manager
 appmenu-help-more-troubleshooting-info =
     .label = More Troubleshooting Information
     .accesskey = T
@@ -206,16 +195,6 @@ appmenu-help-report-site-issue =
 appmenu-help-feedback-page =
     .label = Submit Feedback…
     .accesskey = S
-
-## appmenu-help-safe-mode-without-addons and appmenu-help-safe-mode-without-addons
-## are mutually exclusive, so it's possible to use the same accesskey for both.
-
-appmenu-help-safe-mode-without-addons =
-    .label = Restart With Add-ons Disabled…
-    .accesskey = R
-appmenu-help-safe-mode-with-addons =
-    .label = Restart With Add-ons Enabled
-    .accesskey = R
 
 ## appmenu-help-enter-troubleshoot-mode and appmenu-help-exit-troubleshoot-mode
 ## are mutually exclusive, so it's possible to use the same accesskey for both.
@@ -241,7 +220,6 @@ appmenu-help-not-deceptive =
 
 appmenu-customizetoolbar =
     .label = Customize Toolbar…
-
 appmenu-taskmanager =
     .label = Task Manager
 

@@ -68,7 +68,6 @@ toolbar-context-menu-remove-from-toolbar =
 toolbar-context-menu-view-customize-toolbar =
     .label = Customize…
     .accesskey = C
-
 toolbar-context-menu-view-customize-toolbar-2 =
     .label = Customize Toolbar…
     .accesskey = C

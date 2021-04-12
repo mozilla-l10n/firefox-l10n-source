@@ -613,9 +613,6 @@ pointerlock-warning-no-domain = This document has control of your pointer. Press
 ## Subframe crash notification
 
 crashed-subframe-message = <strong>Part of this page crashed.</strong> To let { -brand-product-name } know about this issue and get it fixed faster, please submit a report.
-crashed-subframe-learnmore =
-  .label = Learn More
-  .accesskey = L
 crashed-subframe-learnmore-link =
   .value = Learn more
 crashed-subframe-submit =
@@ -629,8 +626,6 @@ bookmarks-show-all-bookmarks =
 
 bookmarks-manage-bookmarks =
   .label = Manage Bookmarks
-bookmarks-recent-bookmarks-panel =
-  .value = Recent Bookmarks
 bookmarks-recent-bookmarks-panel-subheader = Recent Bookmarks
 bookmarks-toolbar-chevron =
   .tooltiptext = Show more bookmarks
