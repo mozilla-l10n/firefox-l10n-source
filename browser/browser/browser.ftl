@@ -162,6 +162,7 @@ urlbar-star-add-bookmark =
 
 page-action-add-to-urlbar =
     .label = Add to Address Bar
+
 page-action-manage-extension =
     .label = Manage Extension…
 page-action-remove-from-urlbar =
