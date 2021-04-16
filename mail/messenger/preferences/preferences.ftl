@@ -422,13 +422,12 @@ quoted-text-color =
 search-input =
     .placeholder = Search
 
-type-column-label =
-    .label = Content Type
-    .accesskey = T
+search-handler-table =
+    .placeholder = Filter content types and actions
 
-action-column-label =
-    .label = Action
-    .accesskey = A
+type-column-label = Content Type
+
+action-column-label = Action
 
 save-to-label =
     .label = Save files to
