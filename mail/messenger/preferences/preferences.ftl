@@ -134,9 +134,9 @@ update-in-progress-ok-button = &Discard
 # method of closing the UI will not discard the update.
 update-in-progress-cancel-button = &Continue
 
-account-button = Account Settings
 addons-button = Extensions & Themes
 
+account-button = Account Settings
 open-addons-sidebar-button = Add-ons and Themes
 
 ## OS Authentication dialog
