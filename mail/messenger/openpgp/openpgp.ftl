@@ -718,5 +718,7 @@ dlg-button-skip = &Skip
 
 # Strings used in enigmailCommon.js
 enig-error = OpenPGP Error
+
+# Strings used in enigmailMsgBox.js
 enig-alert-title =
     .title = OpenPGP Alert
