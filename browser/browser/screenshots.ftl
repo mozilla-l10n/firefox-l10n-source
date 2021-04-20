@@ -9,6 +9,7 @@ screenshot-toolbarbutton =
   .tooltiptext = Take a screenshot
 
 screenshots-my-shots-button = My Shots
+
 screenshots-instructions = Drag or click on the page to select a region. Press ESC to cancel.
 screenshots-cancel-button = Cancel
 screenshots-save-visible-button = Save visible
