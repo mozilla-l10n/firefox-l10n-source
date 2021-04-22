@@ -513,6 +513,7 @@ key-ring-sign-sub-keys-expired = All signing-subkeys of key { $userId } (key ID 
 key-ring-sign-sub-keys-unusable = All signing-subkeys of key { $userId } (key ID { $keyId }) are revoked, expired or otherwise unusable.
 key-ring-enc-sub-keys-revoked = All encryption subkeys of key { $userId } (key ID { $keyId }) are revoked.
 key-ring-enc-sub-keys-expired = All encryption subkeys of key { $userId } (key ID { $keyId }) have expired.
+
 key-ring-enc-sub-keys-unusable = All encryption subkeys of key { $userId } (key ID { $keyId }) are revoked, expired or otherwise unusable.
 
 # Strings in gnupg-keylist.jsm
