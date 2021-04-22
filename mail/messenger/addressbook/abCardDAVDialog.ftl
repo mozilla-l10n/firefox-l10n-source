@@ -37,7 +37,14 @@ carddav-remember-password =
     .label = Remember password
     .accesskey = m
 
+carddav-location-label =
+    .value = Location:
+    .accesskey = L
+carddav-location =
+    .default-placeholder = URL or host name of the address book server
+
 carddav-loading = Looking up configuration…
+carddav-known-incompatible = { $url } is known to be incompatible with { -brand-short-name }.
 carddav-connection-error = Failed to connect.
 carddav-none-found = Found no address books to add for the specified account.
 carddav-already-added = All address books for the specified account have already been added.
