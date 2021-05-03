@@ -1417,6 +1417,9 @@ collection-backlogged-crash-reports =
     .accesskey = c
 collection-backlogged-crash-reports-link = Learn more
 
+collection-backlogged-crash-reports-with-link = Allow { -brand-short-name } to send backlogged crash reports on your behalf <a data-l10n-name="crash-reports-link">Learn more</a>
+    .accesskey = c
+
 ## Privacy Section - Security
 ##
 ## It is important that wording follows the guidelines outlined on this page:
