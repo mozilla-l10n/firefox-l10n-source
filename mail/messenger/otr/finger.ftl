@@ -10,6 +10,9 @@ finger-intro = OTR key fingerprints from previous end-to-end encrypted conversat
 
 finger-screenName =
     .label = Contact
+
+finger-screen-name =
+    .label = Contact
 finger-verified =
     .label = Verification Status
 finger-fingerprint =
