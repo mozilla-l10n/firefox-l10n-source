@@ -12,6 +12,9 @@ newtab-personalize-button-label = Personalize
     .title = Personalize new tab
     .aria-label = Personalize new tab
 
+newtab-personalize-dialog-label =
+    .aria-label = Personalize
+
 ## Search box component.
 
 # "Search" is a verb/action
