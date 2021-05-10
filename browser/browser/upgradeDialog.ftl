@@ -23,6 +23,10 @@ upgrade-dialog-new-primary-pin-button = Pin { -brand-short-name } to my taskbar
 upgrade-dialog-new-primary-theme-button = Choose a theme
 upgrade-dialog-new-secondary-button = Not now
 
+# This string is only shown on Windows 7, where we intentionally suppress the
+# theme selection screen.
+upgrade-dialog-new-primary-win7-button = Okay, got it!
+
 ## Theme selection screen
 
 # This title can be explicitly wrapped to control which words are on which line.
