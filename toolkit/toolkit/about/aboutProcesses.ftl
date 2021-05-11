@@ -55,6 +55,41 @@ about-processes-unknown-process-name = Other ({ $type }, process { $pid })
 #   $pid (String) The process id of this process, assigned by the OS.
 about-processes-process-name = Process { $pid }: { $name }
 
+## Process names
+## Variables:
+##    $pid (String) The process id of this process, assigned by the OS.
+
+about-processes-browser-process = { -brand-short-name } ({ $pid })
+about-processes-web-process = Shared Web Process ({ $pid })
+about-processes-file-process = Files ({ $pid })
+about-processes-extension-process = Extensions ({ $pid })
+about-processes-privilegedabout-process = About pages ({ $pid })
+about-processes-plugin-process = Plugins ({ $pid })
+about-processes-privilegedmozilla-process = { -vendor-short-name } sites ({ $pid })
+about-processes-gmp-plugin-process = Gecko Media Plugins ({ $pid })
+about-processes-gpu-process = GPU ({ $pid })
+about-processes-vr-process = VR ({ $pid })
+about-processes-rdd-process = Data Decoder ({ $pid })
+about-processes-socket-process = Network ({ $pid })
+about-processes-remote-sandbox-broker-process = Remote Sandbox Broker ({ $pid })
+about-processes-fork-server-process = Fork Server ({ $pid })
+about-processes-preallocated-process = Preallocated ({ $pid })
+
+# Unknown process names
+# Variables:
+#    $pid (String) The process id of this process, assigned by the OS.
+#    $type (String) The raw type for this process.
+about-processes-unknown-process = Other: { $type } ({ $pid })
+
+## Isolated process names
+## Variables:
+##    $pid (String) The process id of this process, assigned by the OS.
+##    $origin (String) The domain name for this process.
+
+about-processes-web-isolated-process = { $origin } ({ $pid })
+about-processes-web-large-allocation-process = { $origin } ({ $pid }, large)
+about-processes-with-coop-coep-process = { $origin } ({ $pid }, cross-origin isolated)
+
 ## Details within processes
 
 # Single-line summary of threads
