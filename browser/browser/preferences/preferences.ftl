@@ -226,6 +226,10 @@ switch-links-to-new-tabs =
     .label = When you open a link in a new tab, switch to it immediately
     .accesskey = h
 
+switch-to-new-tabs =
+    .label = When you open a link, image or media in a new tab, switch to it immediately
+    .accesskey = h
+
 show-tabs-in-taskbar =
     .label = Show tab previews in the Windows taskbar
     .accesskey = k
