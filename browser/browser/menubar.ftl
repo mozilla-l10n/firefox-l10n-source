@@ -257,15 +257,15 @@ menu-tools-addons =
 menu-tools-fxa-sign-in =
     .label = Sign In To { -brand-product-name }…
     .accesskey = g
+menu-tools-turn-on-sync =
+    .label = Turn on { -sync-brand-short-name }…
+    .accesskey = n
 menu-tools-addons-and-themes =
     .label = Add-ons and Themes
     .accesskey = A
 menu-tools-fxa-sign-in2 =
     .label = Sign In
     .accesskey = g
-menu-tools-turn-on-sync =
-    .label = Turn on { -sync-brand-short-name }…
-    .accesskey = n
 menu-tools-turn-on-sync2 =
     .label = Turn on Sync…
     .accesskey = n
@@ -290,13 +290,6 @@ menu-tools-page-source =
 menu-tools-page-info =
     .label = Page Info
     .accesskey = I
-menu-settings =
-    .label = Settings
-    .accesskey =
-        { PLATFORM() ->
-            [windows] S
-           *[other] n
-        }
 menu-preferences =
     .label =
         { PLATFORM() ->
@@ -306,6 +299,13 @@ menu-preferences =
     .accesskey =
         { PLATFORM() ->
             [windows] O
+           *[other] n
+        }
+menu-settings =
+    .label = Settings
+    .accesskey =
+        { PLATFORM() ->
+            [windows] S
            *[other] n
         }
 menu-tools-layout-debugger =

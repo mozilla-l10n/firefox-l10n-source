@@ -7,9 +7,9 @@ fxa-toolbar-sync-syncing =
 fxa-toolbar-sync-syncing-tabs =
     .label = Syncing Tabs…
 
-fxa-toolbar-sync-syncing2 = Syncing…
-
 sync-disconnect-dialog-title = Disconnect { -sync-brand-short-name }?
+
+fxa-toolbar-sync-syncing2 = Syncing…
 
 sync-disconnect-dialog-title2 = Disconnect?
 sync-disconnect-dialog-body = { -brand-product-name } will stop syncing your account but won’t delete any of your browsing data on this device.

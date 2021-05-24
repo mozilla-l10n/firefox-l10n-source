@@ -74,8 +74,6 @@ about-logins-list-item-vulnerable-password-icon =
 
 login-intro-heading = Looking for your saved logins? Set up { -sync-brand-short-name }.
 
-about-logins-login-intro-heading-logged-out = Looking for your saved logins? Set up { -sync-brand-short-name } or Import Them.
-
 about-logins-login-intro-heading-logged-out2 = Looking for your saved logins? Turn on sync or import them.
 about-logins-login-intro-heading-logged-in = No synced logins found.
 login-intro-description = If you saved your logins to { -brand-product-name } on a different device, here’s how to get them here:
@@ -334,7 +332,6 @@ about-logins-import-dialog-error-unable-to-read-title = Unable to Parse File
 about-logins-import-dialog-error-unable-to-read-description = Make sure you selected a CSV or TSV file.
 about-logins-import-dialog-error-no-logins-imported = No logins have been imported
 about-logins-import-dialog-error-learn-more = Learn more
-about-logins-import-dialog-error-try-again = Try Again…
 about-logins-import-dialog-error-try-import-again = Try Import Again…
 about-logins-import-dialog-error-cancel = Cancel
 

@@ -184,8 +184,6 @@ page-action-send-tabs-urlbar =
       [1] Send Tab to Device
      *[other] Send { $tabCount } Tabs to Device
   }
-page-action-pocket-panel =
-  .label = Save Page to { -pocket-brand-name }
 page-action-copy-url-panel =
   .label = Copy Link
 page-action-copy-url-urlbar =
@@ -351,7 +349,6 @@ identity-https-only-info-no-upgrade = Unable to upgrade connection from HTTP.
 
 identity-permissions-storage-access-header = Cross-site cookies
 identity-permissions-storage-access-hint = These parties can use cross-site cookies and site data while you are on this site.
-
 identity-permissions-storage-access-learn-more = Learn more
 
 identity-permissions-reload-hint = You may need to reload the page for changes to apply.
@@ -604,7 +601,6 @@ urlbar-result-action-tabtosearch-web = Search with { $engine } directly from the
 #  $engine (String): the name of a search engine that searches a specific site
 #  (e.g. Amazon).
 urlbar-result-action-tabtosearch-other-engine = Search { $engine } directly from the address bar
-
 # Action text for copying to clipboard.
 urlbar-result-action-copy-to-clipboard = Copy
 # Shows the result of a formula expression being calculated, the last = sign will be shown
@@ -650,9 +646,6 @@ crashed-subframe-submit =
   .accesskey = S
 
 ## Bookmarks panels, menus and toolbar
-
-bookmarks-show-all-bookmarks =
-  .label = Show All Bookmarks
 
 bookmarks-manage-bookmarks =
   .label = Manage Bookmarks
