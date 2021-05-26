@@ -176,10 +176,6 @@ menu-view-charset =
     .label = Text Encoding
     .accesskey = c
 
-menu-view-repair-text-encoding =
-    .label = Repair Text Encoding
-    .accesskey = c
-
 ## These should match what Safari and other Apple applications
 ## use on macOS.
 
