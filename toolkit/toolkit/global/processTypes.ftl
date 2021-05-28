@@ -4,8 +4,6 @@
 
 process-type-web = Web Content
 
-process-type-browser = Main
-
 # process used to run privileged about pages,
 # such as about:home
 process-type-privilegedabout = Privileged About
@@ -36,6 +34,3 @@ process-type-socket = Socket
 
 # process preallocated; may change to other types
 process-type-prealloc = Preallocated
-
-# process used to decode media
-process-type-rdd = RDD
