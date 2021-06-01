@@ -330,3 +330,10 @@ cfr-whatsnew-bookmarking-body = It’s easier to keep track of your favorite sit
 
 cfr-whatsnew-cross-site-tracking-header = Comprehensive protection from cross-site cookie tracking
 cfr-whatsnew-cross-site-tracking-body = You can now opt in to better protection from cookie tracking. { -brand-short-name} can isolate your activities and data to the site you’re currently on so information stored in the browser isn’t shared between websites.
+
+## Full Video Support CFR message
+
+cfr-doorhanger-video-support-body = Videos on this site may not play correctly on this version of { -brand-short-name }. For full video support, update { -brand-short-name } now.
+cfr-doorhanger-video-support-header = Update { -brand-short-name } to play video
+cfr-doorhanger-video-support-primary-button = Update Now
+  .accesskey = U
