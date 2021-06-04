@@ -9,6 +9,10 @@ remove-address-row-type = Remove the { $type } field
 
 #   $type (String) - the type of the addressing row
 remove-address-row-type-label =
+    .tooltiptext = Remove the { $type } field
+
+#   $type (String) - the type of the addressing row
+remove-address-row-button =
     .title = Remove the { $type } field
 
 #   $type (String) - the type of the addressing row
