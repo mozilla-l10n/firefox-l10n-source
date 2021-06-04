@@ -232,6 +232,7 @@ search-one-offs-with-title = This time, search with:
 # consider translating it as if it said only "Search Settings".
 search-one-offs-change-settings-button =
     .label = Change Search Settings
+
 search-one-offs-change-settings-compact-button =
     .tooltiptext = Change search settings
 
