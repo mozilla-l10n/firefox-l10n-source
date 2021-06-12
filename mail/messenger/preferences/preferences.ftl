@@ -11,9 +11,6 @@ preferences-title =
         *[other] Preferences
     }
 
-preferences-tab-title =
-    .title = Preferences
-
 preferences-doc-title = Preferences
 
 category-list =
