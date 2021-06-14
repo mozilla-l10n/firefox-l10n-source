@@ -152,8 +152,6 @@ account-setup-forum-help = Support forum
 
 ## Results area
 
-account-setup-protocol-title = Select the protocol
-
 # Variables:
 #  $count (Number) - Number of available protocols.
 account-setup-results-area-title =
