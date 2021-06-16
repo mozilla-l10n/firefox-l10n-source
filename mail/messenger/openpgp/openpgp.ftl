@@ -301,6 +301,9 @@ openpgp-selection-status = { $count ->
 }
 
 #   $key (String) - the currently selected OpenPGP key
+openpgp-selection-status-have-key = Your current configuration uses key ID <b>{ $key }</b>
+
+#   $key (String) - the currently selected OpenPGP key
 openpgp-selection-status-error = Your current configuration uses the key <b>{ $key }</b>, which has expired.
 
 openpgp-add-key-button =
@@ -337,6 +340,12 @@ openpgp-radio-key-expired = Expired on: { $date }
 
 openpgp-key-expired-image =
     .tooltiptext = Key expired
+
+openpgp-key-expires-within-6-months-icon =
+    .title = Key is expiring in less than 6 months
+
+openpgp-key-has-expired-icon =
+    .title = Key expired
 
 openpgp-key-expand-section =
   .tooltiptext = More information
