@@ -27,6 +27,14 @@ addons-and-themes-button =
     .label = Add-ons and Themes
     .tooltip = Manage your add-ons
 
+addons-and-themes-toolbarbutton =
+    .label = Add-ons and Themes
+    .tooltiptext = Manage your add-ons
+
+quick-filter-toolbarbutton =
+    .label = Quick Filter
+    .tooltiptext = Filter messages
+
 redirect-msg-button =
     .label = Redirect
     .tooltiptext = Redirect selected message
