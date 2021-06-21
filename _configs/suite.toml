@@ -65,6 +65,9 @@ locales = [
 [[includes]]
     path = "_configs/devtools-client.toml"
 
+[[includes]]
+    path = "_configs/suite-chatzilla.toml"
+
 [[paths]]
     reference = "devtools/startup/**"
     l10n = "{l}devtools/startup/**"
@@ -86,6 +89,12 @@ locales = [
         "{l}suite/defines.inc",
         "{l}suite/suite-l10n.js",
     ]
+    action = "ignore"
+
+# ignore MOZ_LANGPACK_CONTRIBUTORS
+[[filters]]
+    path = "{l}suite/chatzilla/defines.inc"
+    key = "MOZ_LANGPACK_CONTRIBUTORS"
     action = "ignore"
 
 # search prefs don't have the same number for all locales
