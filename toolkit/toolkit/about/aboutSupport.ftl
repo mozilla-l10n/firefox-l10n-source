@@ -403,6 +403,8 @@ fission-status-enabled-by-user-pref = Enabled by user
 fission-status-disabled-by-user-pref = Disabled by user
 fission-status-disabled-by-e10s-other = E10s disabled
 
+fission-status-enabled-by-rollout = Enabled by phased rollout
+
 async-pan-zoom = Asynchronous Pan/Zoom
 apz-none = none
 wheel-enabled = wheel input enabled

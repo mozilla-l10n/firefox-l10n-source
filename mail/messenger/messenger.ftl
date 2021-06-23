@@ -23,10 +23,6 @@ content-tab-security-broken-icon =
 
 ## Toolbar
 
-addons-and-themes-button =
-    .label = Add-ons and Themes
-    .tooltip = Manage your add-ons
-
 addons-and-themes-toolbarbutton =
     .label = Add-ons and Themes
     .tooltiptext = Manage your add-ons
