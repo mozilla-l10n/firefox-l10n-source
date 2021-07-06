@@ -4,11 +4,11 @@
 
 screenshots-context-menu = Take a Screenshot
 
+screenshots-my-shots-button = My Shots
+
 screenshot-toolbarbutton =
   .label = Screenshot
   .tooltiptext = Take a screenshot
-
-screenshots-my-shots-button = My Shots
 
 screenshots-instructions = Drag or click on the page to select a region. Press ESC to cancel.
 screenshots-cancel-button = Cancel
