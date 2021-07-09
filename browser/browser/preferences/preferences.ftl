@@ -1069,6 +1069,11 @@ forms-primary-pw-former-name = Formerly known as Master Password
 forms-primary-pw-fips-title = You are currently in FIPS mode. FIPS requires a non-empty Primary Password.
 forms-master-pw-fips-desc = Password Change Failed
 
+forms-windows-sso =
+    .label = Allow Windows single sign-on for Microsoft, work, and school accounts
+forms-windows-sso-learn-more-link = Learn more
+forms-windows-sso-desc = Manage accounts in your device settings
+
 ## OS Authentication dialog
 
 # This message can be seen by trying to add a Master Password.

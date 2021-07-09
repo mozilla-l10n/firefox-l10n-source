@@ -99,6 +99,9 @@ perftools-thread-dns-resolver =
 perftools-thread-js-helper =
   .title = JS engine background work such as off-main-thread compiles
 
+perftools-thread-task-controller =
+  .title = TaskController thread pool threads
+
 ##
 
 perftools-record-all-registered-threads =
