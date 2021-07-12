@@ -8,10 +8,6 @@ about-addressbook-title = Address Book
 
 about-addressbook-toolbar-new-address-book =
   .label = New Address Book
-about-addressbook-toolbar-new-carddav-address-book =
-  .label = New CardDAV Address Book
-about-addressbook-toolbar-new-ldap-address-book =
-  .label = New LDAP Address Book
 about-addressbook-toolbar-add-carddav-address-book =
   .label = Add CardDAV Address Book
 about-addressbook-toolbar-add-ldap-address-book =
@@ -33,7 +29,6 @@ about-addressbook-books-context-print =
   .label = Print…
 about-addressbook-books-context-delete =
   .label = Delete
-
 about-addressbook-books-context-remove =
   .label = Remove
 
