@@ -9,3 +9,5 @@ thunderbird-import-name = Thunderbird
 thunderbird-import-description = Import mail from a Thunderbird profile directory.
 
 import-select-profile-dir-or-zip = Select a profile directory or a zipped profile directory
+
+import-select-profile-zip = Select a zipped profile directory
