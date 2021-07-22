@@ -57,6 +57,7 @@ printui-two-sided-printing-short-edge = Flip on short edge
 printui-options = Options
 printui-headers-footers-checkbox = Print headers and footers
 printui-backgrounds-checkbox = Print backgrounds
+
 printui-selection-checkbox = Print selection only
 
 ## The "Format" section, select a version of the website to print. Radio
