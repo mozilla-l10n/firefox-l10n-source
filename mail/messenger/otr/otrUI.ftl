@@ -55,13 +55,19 @@ state-not_private = The current conversation is not private.
 
 state-not-private = The current conversation is not private.
 
+state-generic-not-private = The current conversation is not private.
+
 # Variables:
 #   $name (String) - the screen name of a chat contact person
 state-unverified = The current conversation is encrypted but not private, since the identity of { $name } has not yet been verified.
 
+state-generic-unverified = The current conversation is encrypted but not private, since some identities have not yet been verified.
+
 # Variables:
 #   $name (String) - the screen name of a chat contact person
 state-private = The identity of { $name } has been verified. The current conversation is encrypted and private.
+
+state-generic-private = The current conversation is encrypted and private.
 
 # Variables:
 #   $name (String) - the screen name of a chat contact person
