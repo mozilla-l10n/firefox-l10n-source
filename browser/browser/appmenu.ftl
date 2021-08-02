@@ -158,7 +158,6 @@ appmenu-manage-history =
     .label = Manage history
 appmenu-reopen-all-tabs = Reopen all tabs
 appmenu-reopen-all-windows = Reopen all windows
-
 appmenu-restore-session =
     .label = Restore previous session
 appmenu-clear-history =
