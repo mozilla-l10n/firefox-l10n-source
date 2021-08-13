@@ -72,6 +72,13 @@ about-logins-list-item-breach-icon =
 about-logins-list-item-vulnerable-password-icon =
   .title = Vulnerable password
 
+about-logins-list-section-breach = Breached websites
+about-logins-list-section-vulnerable = Vulnerable passwords
+about-logins-list-section-nothing = No alert
+about-logins-list-section-today = Today
+about-logins-list-section-yesterday = Yesterday
+about-logins-list-section-week = Last 7 days
+
 ## Introduction screen
 
 login-intro-heading = Looking for your saved logins? Set up { -sync-brand-short-name }.
