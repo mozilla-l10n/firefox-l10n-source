@@ -185,6 +185,11 @@ bcc-compose-show-address-row-label =
 #   $count (Number) - the count of addresses in the "To" and "Cc" fields.
 many-public-recipients-info = The {$count} recipients in To and Cc will see each other’s address. You can avoid disclosing recipients by using Bcc instead.
 
+#   $count (Number) - the count of addresses in the "To" and "Cc" fields.
+many-public-recipients-notice = { $count ->
+  [one] Your message has a public recipient. You can avoid disclosing recipients by using Bcc instead.
+  *[other] The { $count } recipients in To and Cc will see each other’s address. You can avoid disclosing recipients by using Bcc instead.
+}
 many-public-recipients-bcc =
   .label = Use Bcc Instead
   .accesskey = U
@@ -192,6 +197,17 @@ many-public-recipients-bcc =
 many-public-recipients-ignore =
   .label = Keep Recipients Public
   .accesskey  = K
+
+many-public-recipients-prompt-title = Too Many Public Recipients
+
+#   $count (Number) - the count of addresses in the public recipients fields.
+many-public-recipients-prompt-msg = { $count -> 
+  [one] Your message has a public recipient. This may be a privacy concern. You can avoid this by moving the recipient from To/Cc to Bcc instead.
+  *[other] Your message has { $count } public recipients, who will be able to see each other’s addresses. This may be a privacy concern. You can avoid disclosing recipients by moving recipients from To/Cc to Bcc instead.
+}
+
+many-public-recipients-prompt-cancel = Cancel Sending
+many-public-recipients-prompt-send = Send Anyway
 
 ## Notifications
 
