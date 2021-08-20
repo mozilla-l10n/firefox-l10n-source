@@ -53,6 +53,7 @@ this container is a toolbar. This avoids double-speaking. -->
 <!ENTITY fxa.menu.connectAnotherDevice2.label "Connect Another Device…">
 <!ENTITY fxa.menu.firefoxAccount "&syncBrand.fxAccount.label;">
 
+
 <!-- LOCALIZATION NOTE (fxa.menu) Used to define the different labels
      for the Firefox Account toolbar menu screen. The `Signed in as` text is
      followed by the user's email. -->
@@ -241,6 +242,7 @@ this container is a toolbar. This avoids double-speaking. -->
 <!ENTITY quitApplicationCmdMac2.label   "Quit &brandShorterName;">
 
 <!ENTITY allowPopups.accesskey "p">
+
 <!-- On Windows we use the term "Options" to describe settings, but
      on Linux and Mac OS X we use "Preferences" - carry that distinction
      over into this string, which is used in the "popup blocked" info bar . -->
@@ -264,6 +266,7 @@ this container is a toolbar. This avoids double-speaking. -->
 
 
 <!ENTITY uiTour.infoPanel.close "Close">
+
 
 <!ENTITY panicButton.thankyou.msg1                "Your recent history is cleared.">
 <!ENTITY panicButton.thankyou.msg2                "Safe browsing!">
