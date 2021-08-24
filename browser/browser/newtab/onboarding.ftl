@@ -19,6 +19,10 @@ onboarding-button-label-get-started = Get Started
 ### Various strings use a non-breaking space to avoid a single dangling /
 ### widowed word, so test on various window sizes if you also want this.
 
+### UI strings for the MR1 onboarding / multistage about:welcome
+### Various strings use a non-breaking space to avoid a single dangling /
+### widowed word, so test on various window sizes if you also want this.
+
 ## Welcome page strings
 
 onboarding-welcome-header = Welcome to { -brand-short-name }
@@ -213,6 +217,8 @@ onboarding-multistage-import-secondary-button-label = Not now
 # This supports welcome screen showing top sites imported from the user's default browser.
 onboarding-import-sites-disclaimer = The sites listed here were found on this device. { -brand-short-name } does not save or sync data from another browser unless you choose to import it.
 
+## Multistage onboarding strings (about:welcome pages)
+
 # Aria-label to make the "steps" of multistage onboarding visible to screen readers.
 # Variables:
 #   $current (Int) - Number of the current page
@@ -234,61 +240,6 @@ onboarding-multistage-theme-label-light = Light
 onboarding-multistage-theme-label-dark = Dark
 # "Firefox Alpenglow" here is the name of the theme, and should be kept in English.
 onboarding-multistage-theme-label-alpenglow = Firefox Alpenglow
-
-## Please make sure to split the content of the title attribute into lines whose
-## width corresponds to about 40 Latin characters, to ensure that the tooltip
-## doesn't become too long. Line breaks will be preserved when displaying the
-## tooltip.
-
-# Tooltip displayed on hover of automatic theme
-onboarding-multistage-theme-tooltip-automatic-2 =
-  .title =
-    Inherit the appearance of your operating
-    system for buttons, menus, and windows.
-
-# Input description for automatic theme
-onboarding-multistage-theme-description-automatic-2 =
-  .aria-description =
-    Inherit the appearance of your operating
-    system for buttons, menus, and windows.
-
-# Tooltip displayed on hover of light theme
-onboarding-multistage-theme-tooltip-light-2 =
-  .title =
-    Use a light appearance for buttons,
-    menus, and windows.
-
-# Input description for light theme
-onboarding-multistage-theme-description-light =
-  .aria-description =
-    Use a light appearance for buttons,
-    menus, and windows.
-
-# Tooltip displayed on hover of dark theme
-onboarding-multistage-theme-tooltip-dark-2 =
-  .title =
-    Use a dark appearance for buttons,
-    menus, and windows.
-
-# Input description for dark theme
-onboarding-multistage-theme-description-dark =
-  .aria-description =
-    Use a dark appearance for buttons,
-    menus, and windows.
-
-# Tooltip displayed on hover of Alpenglow theme
-onboarding-multistage-theme-tooltip-alpenglow-2 =
-  .title =
-    Use a colorful appearance for buttons,
-    menus, and windows.
-
-# Input description for Alpenglow theme
-onboarding-multistage-theme-description-alpenglow =
-  .aria-description =
-    Use a colorful appearance for buttons,
-    menus, and windows.
-
-## Multistage MR1 onboarding strings (MR1 about:welcome pages)
 
 # "Hero Text" displayed on left side of welcome screen.
 # The "Fire" in "Fire starts here" plays on the "Fire" in "Firefox".
@@ -382,6 +333,61 @@ mr1-onboarding-theme-label-alpenglow = Alpenglow
 ## width corresponds to about 40 Latin characters, to ensure that the tooltip
 ## doesn't become too long. Line breaks will be preserved when displaying the
 ## tooltip.
+
+## Please make sure to split the content of the title attribute into lines whose
+## width corresponds to about 40 Latin characters, to ensure that the tooltip
+## doesn't become too long. Line breaks will be preserved when displaying the
+## tooltip.
+
+# Tooltip displayed on hover of automatic theme
+onboarding-multistage-theme-tooltip-automatic-2 =
+  .title =
+    Inherit the appearance of your operating
+    system for buttons, menus, and windows.
+
+# Input description for automatic theme
+onboarding-multistage-theme-description-automatic-2 =
+  .aria-description =
+    Inherit the appearance of your operating
+    system for buttons, menus, and windows.
+
+# Tooltip displayed on hover of light theme
+onboarding-multistage-theme-tooltip-light-2 =
+  .title =
+    Use a light appearance for buttons,
+    menus, and windows.
+
+# Input description for light theme
+onboarding-multistage-theme-description-light =
+  .aria-description =
+    Use a light appearance for buttons,
+    menus, and windows.
+
+# Tooltip displayed on hover of dark theme
+onboarding-multistage-theme-tooltip-dark-2 =
+  .title =
+    Use a dark appearance for buttons,
+    menus, and windows.
+
+# Input description for dark theme
+onboarding-multistage-theme-description-dark =
+  .aria-description =
+    Use a dark appearance for buttons,
+    menus, and windows.
+
+# Tooltip displayed on hover of Alpenglow theme
+onboarding-multistage-theme-tooltip-alpenglow-2 =
+  .title =
+    Use a colorful appearance for buttons,
+    menus, and windows.
+
+# Input description for Alpenglow theme
+onboarding-multistage-theme-description-alpenglow =
+  .aria-description =
+    Use a colorful appearance for buttons,
+    menus, and windows.
+
+## Multistage MR1 onboarding strings (MR1 about:welcome pages)
 
 # Tooltip displayed on hover of system theme
 mr1-onboarding-theme-tooltip-system =

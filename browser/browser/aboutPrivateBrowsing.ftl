@@ -27,6 +27,12 @@ about-private-browsing-info-description = { -brand-short-name } clears your sear
 about-private-browsing-need-more-privacy = Need more privacy?
 about-private-browsing-turn-on-vpn = Try { -mozilla-vpn-brand-name }
 
+about-private-browsing-info-description-simplified = { -brand-short-name } clears your search and browsing history when you close all private windows, but this doesn’t make you anonymous.
+about-private-browsing-learn-more-link = Learn more
+
+about-private-browsing-hide-activity = Hide your activity and location, everywhere you browse
+about-private-browsing-prominent-cta = Stay private with { -mozilla-vpn-brand-name }
+
 # This string is the title for the banner for search engine selection
 # in a private window.
 # Variables:
