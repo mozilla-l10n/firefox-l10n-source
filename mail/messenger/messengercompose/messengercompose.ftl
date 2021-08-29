@@ -76,6 +76,11 @@ add-attachment-notification-reminder =
     .label = Add Attachment…
     .tooltiptext = { toolbar-button-add-attachment.tooltiptext }
 
+add-attachment-notification-reminder2 =
+    .label = Add Attachment…
+    .accesskey = A
+    .tooltiptext = { toolbar-button-add-attachment.tooltiptext }
+
 menuitem-attach-files =
     .label = File(s)…
     .accesskey = F
@@ -263,7 +268,7 @@ many-public-recipients-ignore =
 many-public-recipients-prompt-title = Too Many Public Recipients
 
 #   $count (Number) - the count of addresses in the public recipients fields.
-many-public-recipients-prompt-msg = { $count -> 
+many-public-recipients-prompt-msg = { $count ->
   [one] Your message has a public recipient. This may be a privacy concern. You can avoid this by moving the recipient from To/Cc to Bcc instead.
   *[other] Your message has { $count } public recipients, who will be able to see each other’s addresses. This may be a privacy concern. You can avoid disclosing recipients by moving recipients from To/Cc to Bcc instead.
 }

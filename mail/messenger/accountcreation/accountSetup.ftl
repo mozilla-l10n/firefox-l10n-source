@@ -56,6 +56,12 @@ account-provisioner-button = Get a new email address
 account-setup-password-toggle =
     .title = Show/hide password
 
+account-setup-password-toggle-show =
+    .title = Show password in clear text
+
+account-setup-password-toggle-hide =
+    .title = Hide password
+
 account-setup-remember-password = Remember password
     .accesskey = m
 
