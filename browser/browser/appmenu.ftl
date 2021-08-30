@@ -31,6 +31,8 @@ appmenuitem-find-in-page =
     .label = Find in page…
 appmenuitem-more-tools =
     .label = More tools
+appmenuitem-help =
+    .label = Help
 appmenuitem-exit2 =
     .label =
         { PLATFORM() ->
@@ -68,6 +70,34 @@ appmenu-remote-tabs-sign-into-sync =
   .label = Sign in to sync…
 appmenu-remote-tabs-turn-on-sync =
   .label = Turn on sync…
+
+# This is shown after the tabs list if we can show all the remaining tabs by clicking on the button
+appmenu-remote-tabs-showall =
+  .label = Show All
+  .tooltiptext = Show all tabs from this device
+
+# This is shown after the tabs list if we can display more tabs by clicking on the button
+appmenu-remote-tabs-showmore =
+  .label = Show More Tabs
+  .tooltiptext = Show more tabs from this device
+
+# This is shown beneath the name of a device when that device has no open tabs
+appmenu-remote-tabs-notabs = No open tabs
+
+# This is shown when Sync is configured but syncing tabs is disabled.
+appmenu-remote-tabs-tabsnotsyncing = Turn on tab syncing to view a list of tabs from your other devices.
+
+appmenu-remote-tabs-opensettings =
+  .label = Settings
+
+# This is shown when Sync is configured but this appears to be the only device attached to
+# the account. We also show links to download Firefox for android/ios.
+appmenu-remote-tabs-noclients = Want to see your tabs from other devices here?
+
+appmenu-remote-tabs-connectdevice =
+  .label = Connect Another Device
+appmenu-remote-tabs-welcome = View a list of tabs from your other devices.
+appmenu-remote-tabs-unverified = Your account needs to be verified.
 
 appmenuitem-fxa-toolbar-sync-now2 = Sync now
 appmenuitem-fxa-manage-account = Manage account
