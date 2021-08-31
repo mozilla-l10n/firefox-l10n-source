@@ -267,7 +267,6 @@ this container is a toolbar. This avoids double-speaking. -->
 
 <!ENTITY uiTour.infoPanel.close "Close">
 
-
 <!ENTITY panicButton.thankyou.msg1                "Your recent history is cleared.">
 <!ENTITY panicButton.thankyou.msg2                "Safe browsing!">
 <!ENTITY panicButton.thankyou.buttonlabel         "Thanks!">
