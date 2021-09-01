@@ -109,6 +109,17 @@ places-remove-folder =
       }
   .accesskey = m
 
+places-edit-folder2 =
+  .label = Edit Folder…
+  .accesskey = i
+places-delete-folder =
+  .label =
+      { $count ->
+          [1] Delete Folder
+         *[other] Delete Folders
+      }
+  .accesskey = D
+
 # Managed bookmarks are created by an administrator and cannot be changed by the user.
 managed-bookmarks =
   .label = Managed bookmarks
@@ -129,6 +140,16 @@ places-remove-bookmark =
          *[other] Remove Bookmarks
       }
   .accesskey = e
+
+# Variables:
+# $count (number) - The number of elements being selected for removal.
+places-delete-bookmark =
+  .label =
+      { $count ->
+          [1] Delete Bookmark
+         *[other] Delete Bookmarks
+      }
+  .accesskey = D
 
 places-manage-bookmarks =
   .label = Manage Bookmarks

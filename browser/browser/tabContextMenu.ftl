@@ -132,4 +132,4 @@ tab-context-send-tabs-to-device =
             [1] Send Tab to Device
            *[other] Send { $tabCount } Tabs to Device
         }
-    .accessKey = n
+    .accesskey = n
