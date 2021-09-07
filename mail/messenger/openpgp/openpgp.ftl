@@ -4,9 +4,7 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 e2e-intro-description = To send encrypted or digitally signed messages, you need to configure an encryption technology, either OpenPGP or S/MIME.
-
 e2e-intro-description-more = Select your personal key to enable the use of OpenPGP, or your personal certificate to enable the use of S/MIME. For a personal key or certificate you own the corresponding secret key.
-
 e2e-advanced-section = Advanced settings
 e2e-attach-key =
     .label = Attach my public key when adding an OpenPGP digital signature
@@ -129,10 +127,6 @@ openpgp-key-send-key =
     .label = Send Public Key Via Email
     .accesskey = S
 
-openpgp-key-man-copy-to-clipbrd =
-    .label = Copy Public Key(s) To Clipboard
-    .accesskey = C
-
 openpgp-key-man-copy-key-ids =
     .label = { $count ->
                [one] Copy Key ID To Clipboard
@@ -156,8 +150,6 @@ openpgp-key-man-copy-to-clipboard =
 
 openpgp-key-man-ctx-expor-to-file-label =
     .label = Export Keys To File
-openpgp-key-man-ctx-copy-to-clipbrd-label =
-    .label = Copy Public Keys To Clipboard
 
 openpgp-key-man-ctx-copy =
     .label = Copy
@@ -305,13 +297,6 @@ openpgp-description = { $count ->
    *[other] Thunderbird found { $count } personal OpenPGP keys associated with <b>{ $identity }</b>
 }
 
-#   $count (Number) - the number of configured keys associated with the current identity
-#   $key (String) - the currently selected OpenPGP key
-openpgp-selection-status = { $count ->
-    [0]     Select a valid key to enable the OpenPGP protocol.
-   *[other] Your current configuration uses key ID <b>{ $key }</b>
-}
-
 #   $key (String) - the currently selected OpenPGP key
 openpgp-selection-status-have-key = Your current configuration uses key ID <b>{ $key }</b>
 
@@ -344,14 +329,8 @@ openpgp-radio-key-not-found = This key could not be found! If you want to use it
 #   $key (String) - the expiration date of the OpenPGP key
 openpgp-radio-key-expires = Expires on: { $date }
 
-openpgp-key-expires-image =
-    .tooltiptext = Key is expiring in less than 6 months
-
 #   $key (String) - the expiration date of the OpenPGP key
 openpgp-radio-key-expired = Expired on: { $date }
-
-openpgp-key-expired-image =
-    .tooltiptext = Key expired
 
 openpgp-key-expires-within-6-months-icon =
     .title = Key is expiring in less than 6 months
@@ -675,7 +654,6 @@ quoted-printable-warn =
 minimal-line-wrapping =
     You have set line wrapping to { $width } characters. For correct encryption and/or signing, this value needs to be at least 68.
     Do you wish to change line wrapping to 68 characters now?
-sending-hidden-rcpt = BCC (blind copy) recipients cannot be used when sending an encrypted message. To send this encrypted message, either remove the BCC recipients or move them to the CC field.
 sending-news =
     Encrypted send operation aborted.
     This message cannot be encrypted because there are newsgroup recipients. Please re-send the message without encryption.
@@ -742,9 +720,6 @@ enig-info = OpenPGP Information
 # Strings used in persistentCrypto.jsm
 dlg-button-retry = &Retry
 dlg-button-skip = &Skip
-
-# Strings used in enigmailCommon.js
-enig-error = OpenPGP Error
 
 # Strings used in enigmailMsgBox.js
 enig-alert-title =

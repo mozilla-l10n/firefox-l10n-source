@@ -7,7 +7,6 @@
 newtab-page-title = New Tab
 newtab-settings-button =
     .title = Customize your New Tab page
-
 newtab-personalize-icon-label =
     .title = Personalize new tab
     .aria-label = Personalize new tab
@@ -20,8 +19,6 @@ newtab-personalize-dialog-label =
 newtab-search-box-search-button =
     .title = Search
     .aria-label = Search
-
-newtab-search-box-search-the-web-text = Search the Web
 
 # Variables
 #  $engine (String): the name of the user's default search engine
@@ -219,7 +216,6 @@ newtab-empty-section-highlights = Start browsing, and we’ll show some of the g
 # Variables:
 #  $provider (String): Name of the content provider for this section, e.g "Pocket".
 newtab-empty-section-topstories = You’ve caught up. Check back later for more top stories from { $provider }. Can’t wait? Select a popular topic to find more great stories from around the web.
-
 
 ## Empty Section (Content Discovery Experience). These show when there are no more stories or when some stories fail to load.
 

@@ -60,8 +60,6 @@
 <!ENTITY itemPasswordsS.accesskey         "v">
 <!ENTITY itemSessions.label               "Authenticated Sessions">
 <!ENTITY itemSessions.accesskey           "S">
-
-<!ENTITY sanitizeButton.label            "Clear Private Data Now">
 <!ENTITY itemSessionsS.accesskey          "u">
 <!ENTITY itemSitePreferences.label        "Site Preferences">
 <!ENTITY itemSitePreferences.accesskey    "P">

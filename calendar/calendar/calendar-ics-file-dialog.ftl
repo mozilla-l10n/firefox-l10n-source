@@ -12,7 +12,6 @@ calendar-ics-file-dialog-2 =
   .buttonlabelaccept = Import All
 
 calendar-ics-file-accept-button-ok-label = OK
-
 calendar-ics-file-cancel-button-close-label = Close
 
 calendar-ics-file-dialog-message-2 = Import from file:

@@ -10,17 +10,6 @@ navbar-tooltip-instruction =
 
 ## Back
 
-main-context-menu-back =
-    .tooltiptext = Go back one page
-    .aria-label = Back
-    .accesskey = B
-
-navbar-tooltip-back = 
-    .value = { main-context-menu-back.tooltiptext }
-
-toolbar-button-back =
-    .label = { main-context-menu-back.aria-label }
-
 # Variables
 #   $shortcut (String) - A keyboard shortcut for the Go Back command.
 main-context-menu-back-2 =
@@ -40,17 +29,6 @@ toolbar-button-back-2 =
     .label = { main-context-menu-back-2.aria-label }
 
 ## Forward
-
-main-context-menu-forward =
-    .tooltiptext = Go forward one page
-    .aria-label = Forward
-    .accesskey = F
-
-navbar-tooltip-forward =
-    .value = { main-context-menu-forward.tooltiptext } 
-
-toolbar-button-forward =
-    .label = { main-context-menu-forward.aria-label }
 
 # Variables
 #   $shortcut (String) - A keyboard shortcut for the Go Forward command.
@@ -115,9 +93,6 @@ main-context-menu-page-save =
     .label = Save Page As…
     .accesskey = P
 
-toolbar-button-page-save =
-    .label = { main-context-menu-page-save.label }
-
 ## Simple menu items
 
 main-context-menu-bookmark-add =
@@ -178,10 +153,6 @@ main-context-menu-open-link-new-private-window =
     .label = Open Link in New Private Window
     .accesskey = P
 
-main-context-menu-bookmark-this-link =
-    .label = Bookmark This Link
-    .accesskey = L
-
 main-context-menu-bookmark-link =
     .label = Bookmark Link
     .accesskey = B
@@ -194,10 +165,6 @@ main-context-menu-save-link-to-pocket =
     .label = Save Link to { -pocket-brand-name }
     .accesskey = o
 
-## The access keys for "Copy Link Location" and "Copy Email Address"
-## should be the same if possible; the two context menu items
-## are mutually exclusive.
-
 ## The access keys for "Copy Link" and "Copy Email Address"
 ## should be the same if possible; the two context menu items
 ## are mutually exclusive.
@@ -205,10 +172,6 @@ main-context-menu-save-link-to-pocket =
 main-context-menu-copy-email =
     .label = Copy Email Address
     .accesskey = l
-
-main-context-menu-copy-link =
-    .label = Copy Link Location
-    .accesskey = a
 
 main-context-menu-copy-link-simple =
     .label = Copy Link
@@ -237,32 +200,6 @@ main-context-menu-media-mute =
 main-context-menu-media-unmute =
     .label = Unmute
     .accesskey = m
-
-main-context-menu-media-play-speed =
-    .label = Play Speed
-    .accesskey = d
-
-main-context-menu-media-play-speed-slow =
-    .label = Slow (0.5×)
-    .accesskey = S
-
-main-context-menu-media-play-speed-normal =
-    .label = Normal
-    .accesskey = N
-
-main-context-menu-media-play-speed-fast =
-    .label = Fast (1.25×)
-    .accesskey = F
-
-main-context-menu-media-play-speed-faster =
-    .label = Faster (1.5×)
-    .accesskey = a
-
-# "Ludicrous" is a reference to the movie "Space Balls" and is meant
-# to say that this speed is very fast.
-main-context-menu-media-play-speed-fastest =
-    .label = Ludicrous (2×)
-    .accesskey = L
 
 main-context-menu-media-play-speed-2 =
     .label = Speed
@@ -310,12 +247,6 @@ main-context-menu-media-video-leave-fullscreen =
 
 # This is used when right-clicking on a video in the
 # content area when the Picture-in-Picture feature is enabled.
-main-context-menu-media-pip =
-    .label = Picture-in-Picture
-    .accesskey = u
-
-# This is used when right-clicking on a video in the
-# content area when the Picture-in-Picture feature is enabled.
 main-context-menu-media-watch-pip =
     .label = Watch in Picture-in-Picture
     .accesskey = u
@@ -323,14 +254,6 @@ main-context-menu-media-watch-pip =
 main-context-menu-image-reload =
     .label = Reload Image
     .accesskey = R
-
-main-context-menu-image-view =
-    .label = View Image
-    .accesskey = I
-
-main-context-menu-video-view =
-    .label = View Video
-    .accesskey = i
 
 main-context-menu-image-view-new-tab =
     .label = Open Image in New Tab
@@ -343,18 +266,6 @@ main-context-menu-video-view-new-tab =
 main-context-menu-image-copy =
     .label = Copy Image
     .accesskey = y
-
-main-context-menu-image-copy-location =
-    .label = Copy Image Location
-    .accesskey = o
-
-main-context-menu-video-copy-location =
-    .label = Copy Video Location
-    .accesskey = o
-
-main-context-menu-audio-copy-location =
-    .label = Copy Audio Location
-    .accesskey = o
 
 main-context-menu-image-copy-link =
     .label = Copy Image Link
@@ -376,10 +287,6 @@ main-context-menu-image-email =
     .label = Email Image…
     .accesskey = g
 
-main-context-menu-image-set-as-background =
-    .label = Set As Desktop Background…
-    .accesskey = S
-
 main-context-menu-image-set-image-as-background =
     .label = Set Image as Desktop Background…
     .accesskey = S
@@ -399,10 +306,6 @@ main-context-menu-video-save-as =
 main-context-menu-audio-save-as =
     .label = Save Audio As…
     .accesskey = v
-
-main-context-menu-video-image-save-as =
-    .label = Save Snapshot As…
-    .accesskey = S
 
 main-context-menu-video-take-snapshot =
     .label = Take Snapshot…
@@ -431,14 +334,6 @@ main-context-menu-save-to-pocket =
 main-context-menu-send-to-device =
     .label = Send Page to Device
     .accesskey = n
-
-main-context-menu-view-background-image =
-    .label = View Background Image
-    .accesskey = w
-
-main-context-menu-generate-new-password =
-    .label = Use Generated Password…
-    .accesskey = G
 
 ## The access keys for "Use Saved Login" and "Use Saved Password"
 ## should be the same if possible; the two context menu items
@@ -530,10 +425,6 @@ main-context-menu-view-page-source =
     .label = View Page Source
     .accesskey = V
 
-main-context-menu-view-page-info =
-    .label = View Page Info
-    .accesskey = I
-
 main-context-menu-bidi-switch-text =
     .label = Switch Text Direction
     .accesskey = w
@@ -541,10 +432,6 @@ main-context-menu-bidi-switch-text =
 main-context-menu-bidi-switch-page =
     .label = Switch Page Direction
     .accesskey = D
-
-main-context-menu-inspect-element =
-    .label = Inspect Element
-    .accesskey = Q
 
 main-context-menu-inspect =
     .label = Inspect

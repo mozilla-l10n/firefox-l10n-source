@@ -23,7 +23,6 @@ checkbox-newsgroups-label =
 checkbox-feeds-label =
     .label = Feeds
     .tooltiptext = { unset-default-tooltip }
-
 checkbox-calendar-label =
     .label = Calendar
     .tooltiptext = { unset-default-tooltip }

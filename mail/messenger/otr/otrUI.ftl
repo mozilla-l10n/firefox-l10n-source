@@ -8,20 +8,15 @@ auth-label = Verify your contact’s identity
 reauth-label = Reverify your contact’s identity
 
 auth-cancel = Cancel
-auth-cancelAccessKey = C
-
 auth-cancel-access-key = C
 
 auth-error = An error occurred while verifying the identity of your contact.
 auth-success = Verifying your contact’s identity completed successfully.
-auth-successThem = Your contact has successfully verified your identity. You may want to verify their identity as well by asking your own question.
 auth-success-them = Your contact has successfully verified your identity. You may want to verify their identity as well by asking your own question.
 auth-fail = Failed to verify the identity of your contact.
 auth-waiting = Waiting for the contact to complete the verification…
 
 finger-verify = Verify
-finger-verify-accessKey = V
-
 finger-verify-access-key = V
 
 # Do not translate 'OTR' (name of an encryption protocol)
@@ -37,10 +32,6 @@ alert-refresh = Attempting to refresh the encrypted conversation with { $name }.
 
 # Variables:
 #   $name (String) - the screen name of a chat contact person
-alert-gone_insecure = The encrypted conversation with { $name } ended.
-
-# Variables:
-#   $name (String) - the screen name of a chat contact person
 alert-gone-insecure = The encrypted conversation with { $name } ended.
 
 # Variables:
@@ -50,8 +41,6 @@ finger-unseen = The identity of { $name } has not been verified yet. Casual eave
 # Variables:
 #   $name (String) - the screen name of a chat contact person
 finger-seen={ $name } is contacting you from an unrecognized computer. Casual eavesdropping is not possible, but with some effort someone could be listening in. Prevent surveillance by verifying this contact’s identity.
-
-state-not_private = The current conversation is not private.
 
 state-not-private = The current conversation is not private.
 
@@ -73,8 +62,6 @@ state-generic-private = The current conversation is encrypted and private.
 #   $name (String) - the screen name of a chat contact person
 state-finished = { $name } has ended their encrypted conversation with you; you should do the same.
 
-state-not_private-label = Insecure
-
 state-not-private-label = Insecure
 state-unverified-label = Unverified
 state-private-label = Private
@@ -95,7 +82,6 @@ afterauth-unverified = The identity of { $name } has not been verified.
 verify-title = Verify your contact’s identity
 error-title = Error
 success-title = End to End Encryption
-successThem-title = Verify your contact's identity
 success-them-title = Verify your contact’s identity
 fail-title = Unable to verify
 waiting-title = Verification request sent

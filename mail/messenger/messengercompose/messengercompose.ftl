@@ -5,9 +5,6 @@
 # Addressing widget
 
 #   $type (String) - the type of the addressing row
-remove-address-row-type = Remove the { $type } field
-
-#   $type (String) - the type of the addressing row
 remove-address-row-button =
     .title = Remove the { $type } field
 
@@ -96,17 +93,6 @@ attachment-bucket-count = { $count ->
     [1]      { $count } Attachment
     *[other] { $count } Attachments
 }
-
-#   $count (Number) - the number of attachments in the attachment bucket
-attachments-placeholder-tooltip =
-    .tooltiptext = { $count ->
-        [1]      { $count } Attachment
-        *[other] { $count } Attachments
-    }
-
-#   { attachment-bucket-count.accesskey } - Do not localize this message.
-key-toggle-attachment-pane =
-    .key = { attachment-bucket-count.accesskey }
 
 expand-attachment-pane-tooltip =
     .tooltiptext = Show the attachment pane ({ ctrl-cmd-shift-pretty-prefix }{ toggle-attachment-pane-key })

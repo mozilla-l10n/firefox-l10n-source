@@ -13,11 +13,6 @@ crashes-id = Report ID
 crashes-send-date = Submitted
 crashes-all-reports = All Crash Reports
 crashes-no-config = This application has not been configured to display crash reports.
-extensions-title = Extensions
-extensions-name = Name
-extensions-enabled = Enabled
-extensions-version = Version
-extensions-id = ID
 support-addons-title = Add-ons
 support-addons-name = Name
 support-addons-type = Type
@@ -134,9 +129,6 @@ sandbox-sys-call-tid = TID
 sandbox-sys-call-proc-type = Process Type
 sandbox-sys-call-number = Syscall
 sandbox-sys-call-args = Arguments
-safe-mode-title = Try Safe Mode
-restart-in-safe-mode-label = Restart with Add-ons Disabled…
-
 troubleshoot-mode-title = Diagnose issues
 restart-in-troubleshoot-mode-label = Troubleshoot Mode…
 clear-startup-cache-title = Try clearing the startup cache
@@ -288,11 +280,6 @@ webgl2-renderer = WebGL 2 Driver Renderer
 webgl2-version = WebGL 2 Driver Version
 webgl2-driver-extensions = WebGL 2 Driver Extensions
 webgl2-extensions = WebGL 2 Extensions
-blocklisted-bug = Blocklisted due to known issues
-
-# Variables
-# $bugNumber (string) - String of bug number from Bugzilla
-bug-link = bug { $bugNumber }
 
 # Variables
 #   $bugNumber (string) - Bug number on Bugzilla
@@ -303,8 +290,6 @@ support-blocklisted-bug = Blocklisted due to known issues: <a data-l10n-name="bu
 unknown-failure = Blocklisted; failure code { $failureCode }
 
 d3d11layers-crash-guard = D3D11 Compositor
-d3d11video-crash-guard = D3D11 Video Decoder
-d3d9video-crash-guard = D3D9 Video Decoder
 glcontext-crash-guard = OpenGL
 wmfvpxvideo-crash-guard = WMF VPX Video Decoder
 
@@ -350,15 +335,6 @@ launcher-process-status-unknown = Unknown status
 # $remoteWindows (integer) - Number of remote windows
 # $totalWindows (integer) - Number of total windows
 multi-process-windows = { $remoteWindows }/{ $totalWindows }
-multi-process-status-0 = Enabled by user
-multi-process-status-1 = Enabled by default
-multi-process-status-2 = Disabled
-multi-process-status-4 = Disabled by accessibility tools
-multi-process-status-6 = Disabled by unsupported text input
-multi-process-status-7 = Disabled by add-ons
-multi-process-status-8 = Disabled forcibly
-multi-process-status-unknown = Unknown status
-
 # Variables
 # $fissionWindows (integer) - Number of remote windows
 # $totalWindows (integer) - Number of total windows

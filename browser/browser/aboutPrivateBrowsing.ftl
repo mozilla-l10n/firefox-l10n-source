@@ -7,8 +7,6 @@ privatebrowsingpage-open-private-window-label = Open a Private Window
 about-private-browsing-search-placeholder = Search the web
 about-private-browsing-info-title = You’re in a Private Window
 about-private-browsing-info-myths = Common myths about private browsing
-about-private-browsing =
-    .title = Search the Web
 about-private-browsing-search-btn =
     .title = Search the web
 # Variables

@@ -2,7 +2,6 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-
 ## Settings
 
 site-data-settings-window =
@@ -29,14 +28,6 @@ site-data-local-file-host = (local file)
 site-data-remove-selected =
     .label = Remove Selected
     .accesskey = R
-
-site-data-button-cancel =
-    .label = Cancel
-    .accesskey = C
-
-site-data-button-save =
-    .label = Save Changes
-    .accesskey = a
 
 site-data-settings-dialog =
     .buttonlabelaccept = Save Changes

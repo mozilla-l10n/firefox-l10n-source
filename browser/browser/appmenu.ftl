@@ -12,10 +12,6 @@ appmenuitem-update-banner3 =
     .label-update-restart = Update available — restart now
 
 appmenuitem-protection-dashboard-title = Protections dashboard
-appmenuitem-customize-mode =
-    .label = Customize…
-
-## Zoom Controls
 
 appmenuitem-new-tab =
     .label = New tab
@@ -57,14 +53,10 @@ appmenuitem-zoom-enlarge =
   .label = Zoom in
 appmenuitem-zoom-reduce =
   .label = Zoom out
-
 appmenuitem-fullscreen =
   .label = Full screen
 
 ## Firefox Account toolbar button and Sync panel in App menu.
-
-fxa-toolbar-sync-now =
-    .label = Sync Now
 
 appmenu-remote-tabs-sign-into-sync =
   .label = Sign in to sync…

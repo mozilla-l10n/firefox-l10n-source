@@ -36,11 +36,6 @@ abuse-report-goback-button = Go back
 abuse-report-submit-button = Submit
 
 ## Message bars descriptions.
-
-## Variables:
-##   $addon-name (string) - Name of the add-on
-
-## Message bars descriptions.
 ##
 ## Variables:
 ##   $addon-name (string) - Name of the add-on
@@ -102,4 +97,3 @@ abuse-report-unwanted-reason-v2 = I never wanted it and don’t know how to get 
 abuse-report-unwanted-example = Example: An application installed it without my permission
 
 abuse-report-other-reason = Something else
-

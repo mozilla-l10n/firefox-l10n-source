@@ -11,8 +11,6 @@
 <!--LOCALIZATION NOTE (.label): Preferences categories that appear on the left of the preferences dialog -->
 <!ENTITY prefWindow.title "Preferences">
 <!ENTITY prefWindow.size "width: 102ch; height: 44em;">
-<!ENTITY prefWindowMac.size "width: 62em; height: 41em;">
-<!ENTITY prefWindowWin.size "width: 115ch; height: 43em;">
 <!ENTITY prefWindowMac2.size "width: 70em; height: 41em;">
 <!ENTITY prefWindowWin2.size "width: 125ch; height: 44em;">
 <!ENTITY categoryHeader "Category">
@@ -56,7 +54,6 @@
 <!ENTITY httpnetworking.label "HTTP Networking">
 <!ENTITY smart.label "Software Installation">
 <!ENTITY mousewheel.label "Mouse Wheel">
-
 <!ENTITY debugging.label "Debugging">
 
 <!ENTITY focusSearch.key "f">

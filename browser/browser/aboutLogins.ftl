@@ -5,22 +5,12 @@
 
 about-logins-page-title = Logins & Passwords
 
-# "Google Play" and "App Store" are both branding and should not be translated
-
-login-app-promo-title = Take your passwords everywhere
-login-app-promo-subtitle = Get the free { -lockwise-brand-name } app
-login-app-promo-android =
-  .alt = Get it on Google Play
-login-app-promo-apple =
-  .alt = Download on the App Store
-
 login-filter =
   .placeholder = Search Logins
 
 create-login-button = Create New Login
 
 fxaccounts-sign-in-text = Get your passwords on your other devices
-fxaccounts-sign-in-button = Sign in to { -sync-brand-short-name }
 fxaccounts-sign-in-sync-button = Sign in to sync
 fxaccounts-avatar-button =
   .title = Manage account
@@ -40,8 +30,6 @@ menu-menuitem-preferences =
      *[other] Preferences
   }
 about-logins-menu-menuitem-help = Help
-menu-menuitem-android-app = { -lockwise-brand-short-name } for Android
-menu-menuitem-iphone-app = { -lockwise-brand-short-name } for iPhone and iPad
 
 ## Login List
 
@@ -81,19 +69,13 @@ about-logins-list-section-week = Last 7 days
 
 ## Introduction screen
 
-login-intro-heading = Looking for your saved logins? Set up { -sync-brand-short-name }.
-
 about-logins-login-intro-heading-logged-out2 = Looking for your saved logins? Turn on sync or import them.
 about-logins-login-intro-heading-logged-in = No synced logins found.
 login-intro-description = If you saved your logins to { -brand-product-name } on a different device, here’s how to get them here:
-login-intro-instruction-fxa = Create or sign in to your { -fxaccount-brand-name } on the device where your logins are saved
-login-intro-instruction-fxa-settings = Make sure you’ve selected the Logins checkbox in { -sync-brand-short-name } Settings
-about-logins-intro-instruction-help = Visit <a data-l10n-name="help-link">{ -lockwise-brand-short-name } Support</a> for more help
 login-intro-instructions-fxa = Create or sign in to your { -fxaccount-brand-name(capitalization: "sentence") } on the device where your logins are saved.
 login-intro-instructions-fxa-settings = Go to Settings > Sync > Turn on syncing… Select the Logins and passwords checkbox.
 login-intro-instructions-fxa-help = Visit <a data-l10n-name="help-link">{ -lockwise-brand-short-name } Support</a> for more help.
 about-logins-intro-import = If your logins are saved in another browser, you can <a data-l10n-name="import-link">import them into { -lockwise-brand-short-name }</a>
-
 about-logins-intro-import2 = If your logins are saved outside of { -brand-product-name }, you can <a data-l10n-name="import-browser-link">import them from another browser</a> or <a data-l10n-name="import-file-link">from a file</a>
 
 ## Login
@@ -148,10 +130,6 @@ about-logins-copy-password-os-auth-dialog-message-win = To copy your password, e
 # On MacOS, only provide the reason that account verification is needed. Do not put a complete sentence here.
 about-logins-copy-password-os-auth-dialog-message-macosx = copy the saved password
 
-## Master Password notification
-
-master-password-notification-message = Please enter your master password to view saved logins & passwords
-
 # This message can be seen when attempting to export a password in about:logins on Windows.
 about-logins-export-password-os-auth-dialog-message-win = To export your logins, enter your Windows login credentials. This helps protect the security of your accounts.
 # This message can be seen when attempting to export a password in about:logins
@@ -164,24 +142,6 @@ about-logins-primary-password-notification-message = Please enter your Primary P
 master-password-reload-button =
   .label = Log in
   .accesskey = L
-
-## Password Sync notification
-
-enable-password-sync-notification-message =
-  { PLATFORM() ->
-      [windows] Want your logins everywhere you use { -brand-product-name }? Go to your { -sync-brand-short-name } Options and select the Logins checkbox.
-     *[other] Want your logins everywhere you use { -brand-product-name }? Go to your { -sync-brand-short-name } Preferences and select the Logins checkbox.
-  }
-enable-password-sync-preferences-button =
-  .label =
-    { PLATFORM() ->
-        [windows] Visit { -sync-brand-short-name } Options
-       *[other] Visit { -sync-brand-short-name } Preferences
-    }
-  .accesskey = V
-about-logins-enable-password-sync-dont-ask-again-button =
-  .label = Don’t ask me again
-  .accesskey = D
 
 ## Dialogs
 
@@ -267,7 +227,6 @@ about-logins-error-message-duplicate-login-with-link = An entry for { $loginTitl
 
 # This is a generic error message.
 about-logins-error-message-default = An error occurred while trying to save this password.
-
 
 ## Login Export Dialog
 
