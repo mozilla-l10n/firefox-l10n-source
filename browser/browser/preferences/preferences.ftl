@@ -647,6 +647,7 @@ home-prefs-recommended-by-option-sponsored-stories =
 home-prefs-highlights-header =
     .label = Highlights
 home-prefs-highlights-description = A selection of sites that you’ve saved or visited
+
 home-prefs-highlights-option-visited-pages =
     .label = Visited Pages
 home-prefs-highlights-options-bookmarks =
