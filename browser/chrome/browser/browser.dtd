@@ -45,6 +45,8 @@ this container is a toolbar. This avoids double-speaking. -->
 <!ENTITY homeButton.label             "Home">
 <!ENTITY homeButton.defaultPage.tooltip "&brandShortName; Home Page">
 
+<!-- Toolbar items -->
+
 <!ENTITY historyButton.label            "History">
 
 <!ENTITY downloads.label              "Downloads">

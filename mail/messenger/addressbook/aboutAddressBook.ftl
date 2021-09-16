@@ -17,6 +17,9 @@ about-addressbook-toolbar-new-contact =
 about-addressbook-toolbar-new-list =
   .label = New List
 
+about-addressbook-toolbar-import =
+  .label = Import
+
 ## Books
 
 all-address-books = All Address Books
@@ -27,10 +30,15 @@ about-addressbook-books-context-synchronize =
   .label = Synchronize
 about-addressbook-books-context-print =
   .label = Print…
+about-addressbook-books-context-export =
+  .label = Export…
 about-addressbook-books-context-delete =
   .label = Delete
 about-addressbook-books-context-remove =
   .label = Remove
+
+about-addressbook-books-context-startup-default =
+  .label = Default startup directory
 
 about-addressbook-confirm-delete-book-title = Delete Address Book
 # Variables:
