@@ -5,6 +5,8 @@
 about-httpsonly-title-alert = HTTPS-Only Mode Alert
 about-httpsonly-title-connection-not-available = Secure Connection Not Available
 
+about-httpsonly-title-site-not-available = Secure Site Not Available
+
 # Variables:
 #   $websiteUrl (String) - Url of the website that failed to load. Example: www.example.com
 about-httpsonly-explanation-unavailable2 = You’ve enabled HTTPS-Only Mode for enhanced security, and a HTTPS version of <em>{ $websiteUrl }</em> is not available.
