@@ -315,6 +315,8 @@ install-theme-button = Install Theme
 manage-addon-button = Manage
 find-more-addons = Find more add-ons
 
+find-more-themes = Find more themes
+
 # This is a label for the button to open the "more options" menu, it is only
 # used for screen readers.
 addon-options-button =
@@ -346,6 +348,9 @@ extension-disabled-heading = Disabled
 
 theme-enabled-heading = Enabled
 theme-disabled-heading = Disabled
+
+theme-monochromatic-heading = Colorways
+theme-monochromatic-subheading = Vibrant new colorways from { -brand-product-name }. Available for a limited time.
 
 plugin-enabled-heading = Enabled
 plugin-disabled-heading = Disabled

@@ -244,6 +244,10 @@ newtab-pocket-cta-text = Save the stories you love in { -pocket-brand-name }, an
 
 newtab-pocket-pocket-firefox-family = { -pocket-brand-name } is part of the { -brand-product-name } family
 
+# A save to Pocket button that shows over the card thumbnail on hover.
+newtab-pocket-save-to-pocket = Save to { -pocket-brand-name }
+newtab-pocket-saved-to-pocket = Saved to { -pocket-brand-name }
+
 # This is a button shown at the bottom of the Pocket section that loads more stories when clicked.
 newtab-pocket-load-more-stories-button = Load more stories
 
