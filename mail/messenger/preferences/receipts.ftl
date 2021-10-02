@@ -5,23 +5,11 @@
 receipts-dialog-window =
     .title = Return Receipts
 
-return-receipt-checkbox =
-    .label = When sending messages, always request a return receipt
-    .accesskey = W
-
 return-receipt-checkbox-control =
     .label = When sending messages, always request a return receipt
     .accesskey = W
 
 receipt-arrive-label = When a receipt arrives:
-
-receipt-leave-radio =
-    .label = Leave it in my Inbox
-    .accesskey = i
-
-receipt-move-radio =
-    .label = Move it to my “Sent” folder
-    .accesskey = m
 
 receipt-leave-radio-control =
     .label = Leave it in my Inbox
@@ -32,18 +20,6 @@ receipt-move-radio-control =
     .accesskey = m
 
 receipt-request-label = When I receive a request for a return receipt:
-
-receipt-return-never-radio =
-    .label = Never send a return receipt
-    .accesskey = n
-
-receipt-return-some-radio =
-    .label = Allow return receipts for some messages
-    .accesskey = r
-
-receipt-not-to-cc =
-    .value = If I’m not in the To or Cc of the message:
-    .accesskey = f
 
 receipt-return-never-radio-control =
     .label = Never send a return receipt
@@ -65,14 +41,6 @@ receipt-send-always-label =
 
 receipt-send-ask-label =
     .label = Ask me
-
-sender-outside-domain =
-    .value = If the sender is outside my domain:
-    .accesskey = t
-
-other-cases-label =
-    .value = In all other cases:
-    .accesskey = a
 
 sender-outside-domain-label =
     .value = If the sender is outside my domain:
