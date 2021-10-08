@@ -130,6 +130,10 @@ soon-label =
     .value = The Upcoming section shows:
     .accesskey = U
 
+agenda-days =
+    .value = The agenda shows:
+    .accesskey = g
+
 event-task-legend = Events and Tasks
 
 default-length-label =
