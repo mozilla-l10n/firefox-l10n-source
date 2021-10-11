@@ -47,6 +47,8 @@ newsgroups-description = { -brand-short-name } lets you connect to all the newsg
 import-title = Import from Another Program
 import-paragraph = { -brand-short-name } lets you import mail messages, address book entries, feed subscriptions, preferences, and/or filters from other mail programs and common address book formats.
 
+import-paragraph2 = { -brand-short-name } lets you import mail messages, address book entries, feed subscriptions, settings, and/or filters from other mail programs and common address book formats.
+
 import-label = Import
     .aria-label = Import data from other programs
 

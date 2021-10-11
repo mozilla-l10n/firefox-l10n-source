@@ -56,6 +56,15 @@ rights-webservices =
     how to disable a particular feature or Service may be found
     <a data-l10n-name="mozilla-disable-service-link">here</a>. Other features
     and Services can be disabled in the application preferences.
+rights-webservices2 =
+    { -brand-full-name } uses web-based information services (“Services”) to
+    provide some of the features provided for your use with this binary version
+    of { -brand-short-name } under the terms described below. If you do not
+    want to use one or more of the Services or the terms below are
+    unacceptable, you may disable the feature or Service(s). Instructions on
+    how to disable a particular feature or Service may be found
+    <a data-l10n-name="mozilla-disable-service-link">here</a>. Other features
+    and Services can be disabled in the application settings.
 rights-locationawarebrowsing =
     <strong>Location Aware Browsing: </strong>is always opt-in. No location
     information is ever sent without your permission. If you wish to disable

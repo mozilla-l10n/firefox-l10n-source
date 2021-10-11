@@ -142,6 +142,15 @@ about-processes-cpu-user-and-kernel-not-ready = (measuring)
 about-processes-cpu-idle = idle
     .title = Total CPU time: { NUMBER($total, maximumFractionDigits: 2) }{ $unit }
 
+# Special case: process or thread is almost idle (using less than 0.1% of a CPU core).
+# This case only occurs on Windows where the precision of the CPU times is low.
+about-processes-cpu-almost-idle = < 0.1%
+    .title = Total CPU time: { NUMBER($total, maximumFractionDigits: 0) }{ $unit }
+
+# Special case: process or thread is currently idle.
+about-processes-cpu-fully-idle = idle
+    .title = Total CPU time: { NUMBER($total, maximumFractionDigits: 0) }{ $unit }
+
 ## Displaying Memory (total and delta)
 ## Variables:
 ##    $total (Number) The amount of memory currently used by the process.
