@@ -170,9 +170,18 @@ default-search-engine = Default Search Engine
 add-search-engine =
     .label = Add from file
     .accesskey = A
+add-web-search-engine =
+    .label = Add…
+    .accesskey = A
 remove-search-engine =
     .label = Remove
     .accesskey = v
+
+add-opensearch-provider-title = Add OpenSearch Provider
+add-opensearch-provider-text = Enter the URL of the OpenSearch provider to add. Either use the direct URL of the OpenSearch Description file, or a URL where it can be auto-discovered.
+
+adding-opensearch-provider-failed-title = Adding OpenSearch Provider Failed
+adding-opensearch-provider-failed-text = Could not add OpenSearch Provider for { $url }.
 
 minimize-to-tray-label =
     .label = When { -brand-short-name } is minimized, move it to the tray
@@ -899,6 +908,12 @@ search-results-header = Search Results
 
 # `<span data-l10n-name="query"></span>` will be replaced by the search term.
 search-results-empty-message = { PLATFORM() ->
+    [windows] Sorry! There are no results in Options for “<span data-l10n-name="query"></span>”.
+    *[other] Sorry! There are no results in Preferences for “<span data-l10n-name="query"></span>”.
+}
+
+# `<span data-l10n-name="query"></span>` will be replaced by the search term.
+search-results-empty-message2 = { PLATFORM() ->
     [windows] Sorry! There are no results in Options for “<span data-l10n-name="query"></span>”.
     *[other] Sorry! There are no results in Settings for “<span data-l10n-name="query"></span>”.
 }
