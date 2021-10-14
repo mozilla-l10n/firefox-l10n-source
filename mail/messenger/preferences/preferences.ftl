@@ -422,6 +422,10 @@ type-column-label = Content Type
 
 action-column-label = Action
 
+type-column-header = Content Type
+
+action-column-header = Action
+
 save-to-label =
     .label = Save files to
     .accesskey = S
