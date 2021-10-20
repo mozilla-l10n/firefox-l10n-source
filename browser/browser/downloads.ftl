@@ -45,6 +45,13 @@ downloads-cmd-show-menuitem-mac =
   .label = Show In Finder
   .accesskey = F
 
+downloads-cmd-show-menuitem-2 =
+  .label = { PLATFORM() ->
+      [macos] Show in Finder
+     *[other] Show in Folder
+  }
+  .accesskey = F
+
 downloads-cmd-use-system-default =
   .label = Open In System Viewer
   .accesskey = V
@@ -68,6 +75,23 @@ downloads-cmd-show-description =
   .value = { PLATFORM() ->
       [macos] Show In Finder
      *[other] Open Containing Folder
+  }
+
+downloads-cmd-show-button-2 =
+  .tooltiptext = { PLATFORM() ->
+      [macos] Show in Finder
+     *[other] Show in Folder
+  }
+
+downloads-cmd-show-panel-2 =
+  .aria-label = { PLATFORM() ->
+      [macos] Show in Finder
+     *[other] Show in Folder
+  }
+downloads-cmd-show-description-2 =
+  .value = { PLATFORM() ->
+      [macos] Show in Finder
+     *[other] Show in Folder
   }
 
 downloads-cmd-show-downloads =
