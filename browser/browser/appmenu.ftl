@@ -13,6 +13,21 @@ appmenuitem-update-banner3 =
 
 appmenuitem-protection-dashboard-title = Protections dashboard
 
+appmenuitem-banner-update-downloading =
+    .label = Downloading { -brand-shorter-name } update
+
+appmenuitem-banner-update-available =
+    .label = Update available — download now
+
+appmenuitem-banner-update-manual =
+    .label = Update available — download now
+
+appmenuitem-banner-update-unsupported =
+    .label = Unable to update — system incompatible
+
+appmenuitem-banner-update-restart =
+    .label = Update available — restart now
+
 appmenuitem-new-tab =
     .label = New tab
 appmenuitem-new-window =
