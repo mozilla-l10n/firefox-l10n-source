@@ -125,6 +125,7 @@ about-webrtc-discarded-packets-label = Discarded packets:
 about-webrtc-decoder-label = Decoder
 about-webrtc-encoder-label = Encoder
 about-webrtc-show-tab-label = Show tab
+about-webrtc-current-framerate-label = Framerate
 about-webrtc-width-px = Width (px)
 about-webrtc-height-px = Height (px)
 about-webrtc-consecutive-frames = Consecutive Frames
