@@ -167,9 +167,6 @@ restore-default-label =
     .accesskey = R
 
 default-search-engine = Default Search Engine
-add-search-engine =
-    .label = Add from file
-    .accesskey = A
 add-web-search-engine =
     .label = Add…
     .accesskey = A
