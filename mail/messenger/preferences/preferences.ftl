@@ -415,10 +415,6 @@ quoted-text-color =
 search-handler-table =
     .placeholder = Filter content types and actions
 
-type-column-label = Content Type
-
-action-column-label = Action
-
 type-column-header = Content Type
 
 action-column-header = Action
