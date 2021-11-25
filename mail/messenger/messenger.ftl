@@ -119,16 +119,24 @@ appmenu-redirect-msg =
 context-menu-redirect-msg =
     .label = Redirect
 
+mail-context-delete-messages =
+  .label = { $count ->
+     [one] Delete message
+    *[other] Delete selected messages
+  }
+
 ## Message header pane
 
 other-action-redirect-msg =
     .label = Redirect
 
-message-header-msg-is-flagged =
-    .title = Star marked message
+message-header-msg-flagged =
+    .title = Starred
+    .aria-label = Starred
 
 message-header-msg-not-flagged =
-    .title = Not star marked message
+    .title = Not starred
+    .aria-label = Not starred
 
 ## Action Button Context Menu
 
