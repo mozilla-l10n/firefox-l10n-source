@@ -25,6 +25,9 @@ screenshots-copy-button-title =
 screenshots-cancel-button-title =
   .title = Cancel
 
+screenshots-retry-button-title =
+  .title = Retry screenshot
+
 screenshots-meta-key = {
   PLATFORM() ->
     [macos] ⌘

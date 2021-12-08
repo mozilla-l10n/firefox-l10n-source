@@ -172,6 +172,9 @@ downloading-file-opens-in-minutes-and-seconds = Opening in { $minutes }m { $seco
 downloading-file-opens-in-seconds = Opening in { $seconds }s…
 downloading-file-opens-in-some-time = Opening when completed…
 
+downloading-file-click-to-open =
+  .value = Open when completed
+
 ##
 
 # Displayed when hovering a download which is able to be retried by users,
