@@ -19,6 +19,9 @@ auth-waiting = Waiting for the contact to complete the verification…
 finger-verify = Verify
 finger-verify-access-key = V
 
+finger-ignore = Ignore
+finger-ignore-access-key = I
+
 # Do not translate 'OTR' (name of an encryption protocol)
 buddycontextmenu-label = Add OTR Fingerprint
 
