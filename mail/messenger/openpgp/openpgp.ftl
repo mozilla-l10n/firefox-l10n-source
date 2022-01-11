@@ -383,6 +383,8 @@ window-locked = Compose window is locked; send cancelled
 
 # Strings in mimeDecrypt.jsm
 mime-decrypt-encrypted-part-attachment-label = Encrypted message part
+
+# Strings in mimeDecrypt.jsm
 mime-decrypt-encrypted-part-concealed-data = This is an encrypted message part. You need to open it in a separate window by clicking on the attachment.
 
 # Strings in keyserver.jsm
