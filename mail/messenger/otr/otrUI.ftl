@@ -82,13 +82,6 @@ afterauth-private = You have verified the identity of { $name }.
 #   $name (String) - the screen name of a chat contact person
 afterauth-unverified = The identity of { $name } has not been verified.
 
-verify-title = Verify your contact’s identity
-error-title = Error
-success-title = End to End Encryption
-success-them-title = Verify your contact’s identity
-fail-title = Unable to verify
-waiting-title = Verification request sent
-
 # Do not translate 'OTR' (name of an encryption protocol)
 # Variables:
 #   $error (String) - contains an error message that describes the cause of the failure
