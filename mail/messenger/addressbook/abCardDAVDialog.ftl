@@ -5,6 +5,8 @@
 carddav-window =
     .title = New CardDAV Address Book
 
+carddav-window-title = New CardDAV Address Book
+
 carddav-dialog =
     .buttonlabelaccept = Continue
     .buttonaccesskeyaccept = C
