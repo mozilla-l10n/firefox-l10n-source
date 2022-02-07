@@ -298,13 +298,6 @@ cloud-file-count-header = { $count ->
 }
 
 # A text used in a footer, instructing the reader where to find additional
-# information about the used service providers.
-cloud-file-service-provider-footer = { $count ->
-  [one] Learn more about { $lastLink }.
-  *[other] Learn more about { $firstLinks } and { $lastLink }.
-}
-
-# A text used in a footer, instructing the reader where to find additional
 # information about the used service provider.
 # $link (string) - html a-tag for a link pointing to the web page of the provider
 cloud-file-service-provider-footer-single = Learn more about { $link }.
