@@ -100,6 +100,12 @@ expand-attachment-pane-tooltip =
 collapse-attachment-pane-tooltip =
     .tooltiptext = Hide the attachment pane ({ ctrl-cmd-shift-pretty-prefix }{ toggle-attachment-pane-key })
 
+#   $count (Number) - the number of attachments in the attachment bucket
+attachment-bucket-count-value = { $count ->
+    [1]      { $count } Attachment
+    *[other] { $count } Attachments
+}
+
 attachment-area-show =
     .title = Show the attachment pane ({ ctrl-cmd-shift-pretty-prefix }{ toggle-attachment-pane-key })
 
