@@ -5,6 +5,8 @@
 otr-add-finger =
     .title = Add OTR Key Fingerprint
 
+otr-add-finger-title = Add OTR Key Fingerprint
+
 # Variables:
 #   $name (String) - name of a chat contact person
 # Do not translate 'OTR' (name of an encryption protocol)
