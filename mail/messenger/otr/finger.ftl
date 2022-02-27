@@ -6,6 +6,8 @@ otr-finger =
     .buttonlabelaccept = Close
     .title = Previously Seen OTR Fingerprints
 
+otr-finger-title = Previously Seen OTR Fingerprints
+
 finger-intro = OTR key fingerprints from previous end-to-end encrypted conversations.
 
 finger-screen-name =
