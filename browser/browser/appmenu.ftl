@@ -176,13 +176,13 @@ profiler-popup-settings =
 # This link takes the user to about:profiling, and is only visible with the Custom preset.
 profiler-popup-edit-settings = Edit Settings…
 
-# This link takes the user to about:profiling, and is only visible with the Custom preset.
-profiler-popup-edit-settings-button =
-  .label = Edit Settings…
-
 profiler-popup-disabled =
   The profiler is currently disabled, most likely due to a Private Browsing window
   being open.
+
+# This link takes the user to about:profiling, and is only visible with the Custom preset.
+profiler-popup-edit-settings-button =
+  .label = Edit Settings…
 
 profiler-popup-recording-screen = Recording…
 
