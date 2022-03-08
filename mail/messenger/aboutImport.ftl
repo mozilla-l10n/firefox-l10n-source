@@ -46,8 +46,6 @@ profile-file-picker-zip = Select a zip file (smaller than 2GB)
 
 items-pane-title = Select what to import
 
-items-pane-desc = Import from
-
 items-pane-source = Source location:
 
 items-pane-checkbox-accounts = Accounts and Settings

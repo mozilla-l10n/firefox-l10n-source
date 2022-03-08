@@ -291,8 +291,6 @@ encrypted-bcc-ignore-button = Understood
 compose-tool-button-remove-text-styling =
   .tooltiptext = Remove Text Styling
 
-## FileLink
-
 ## Filelink
 
 # A text used in a tooltip of Filelink attachments, whose account has been
@@ -336,15 +334,6 @@ cloud-file-service-provider-footer-multiple = Learn more about { $firstLinks } a
 
 # Tooltip for an icon, indicating that the link is protected by a password.
 cloud-file-tooltip-password-protected-link = Password protected link
-
-# Used in a list of stats about a specific file
-# Service - the used service provider to host the file (CloudFile Service: BOX.com)
-# Size - the size of the file (Size: 4.2 MB)
-# Link - the link to the file (Link: https://some.provider.com)
-# Expiry Date - stating the date the link will expire (Expiry Date: 12.12.2022)
-# Download Limit - stating the maximum allowed downloads, before the link becomes invalid
-#                  (Download Limit: 6)
-cloud-file-template-service = CloudFile Service:
 
 # Used in a list of stats about a specific file
 # Service - the used service provider to host the file (Filelink Service: BOX.com)
