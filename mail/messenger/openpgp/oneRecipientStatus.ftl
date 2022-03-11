@@ -27,4 +27,6 @@ openpgp-key-unverified = Accepted (unverifed)
 openpgp-key-undecided = Not accepted (undecided)
 openpgp-key-rejected = Not accepted (rejected)
 
+openpgp-key-expired = Expired
+
 openpgp-intro = Available public keys for { $key }

@@ -53,6 +53,7 @@ perftools-devtools-settings-label = Settings
 perftools-status-private-browsing-notice =
   The profiler is disabled when Private Browsing is enabled.
   Close all Private Windows to re-enable the profiler
+
 perftools-status-recording-stopped-by-another-tool = The recording was stopped by another tool.
 perftools-status-restart-required = The browser must be restarted to enable this feature.
 
