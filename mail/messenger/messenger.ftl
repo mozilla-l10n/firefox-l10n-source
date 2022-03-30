@@ -225,6 +225,11 @@ spaces-toolbar-button-collapse =
 spaces-toolbar-button-reveal =
     .title = Show the spaces toolbar
 
+spaces-toolbar-element =
+    .toolbarname = Spaces Toolbar
+    .aria-label = Spaces Toolbar
+    .aria-description = Vertical toolbar for switching between different spaces. Use the arrow keys to navigate the available buttons.
+
 spaces-toolbar-button-mail2 =
     .title = Mail
 
