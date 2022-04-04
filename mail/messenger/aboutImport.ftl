@@ -103,8 +103,6 @@ calendar-import-into-new-calendar = Create a new calendar
 
 ## Import dialog
 
-progress-pane-title = Importing
-
 progress-pane-importing = Importing
 
 progress-pane-exporting = Exporting
