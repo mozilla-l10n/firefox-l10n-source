@@ -9,12 +9,14 @@
 <!ENTITY e2eeReqWarning.description "If you require encryption, to send a message you must have the public key or certificate of every recipient.">
 
 <!ENTITY e2eSigning.description "A digital signature allows recipients to verify the message was sent by you, and that the content has not been changed.">
+
 <!ENTITY e2eTechPref.description "Preferred encryption technology:">
 
 <!ENTITY doNotEncrypt.label "Do not enable encryption by default">
 <!ENTITY doNotEncrypt.accesskey "N">
 <!ENTITY requireEncryptMessage.label "Require encryption by default">
 <!ENTITY requireEncryptMessage.accesskey "u">
+
 <!ENTITY encryptionCert2.message "Personal certificate for encryption:">
 <!ENTITY digitalSign.certificate.button "Select…">
 <!ENTITY digitalSign.certificate.accesskey "S">
