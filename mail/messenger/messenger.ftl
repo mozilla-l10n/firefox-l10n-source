@@ -153,6 +153,27 @@ message-header-msg-not-flagged =
     .title = Not starred
     .aria-label = Not starred
 
+## Message header cutomize panel
+
+message-header-customize-panel-title = Message Header Settings
+
+message-header-customize-button-style =
+    .value = Button style
+    .accesskey = B
+
+message-header-button-style-default =
+    .label = Icons and text
+
+message-header-button-style-text =
+    .label = Text
+
+message-header-button-style-icons =
+    .label = Icons
+
+message-header-large-subject =
+    .label = Large subject
+    .accesskey = s
+
 ## Action Button Context Menu
 
 toolbar-context-menu-manage-extension =
@@ -289,6 +310,9 @@ chat-button-unread-messages = { $count }
 spaces-context-customize =
     .label = Customize…
 
+menuitem-customize-label =
+    .label = Customize…
+
 spaces-customize-panel-title = Spaces Toolbar Settings
 
 spaces-customize-background-color = Background color
@@ -307,4 +331,7 @@ spaces-customize-button-restore = Restore Defaults
     .accesskey = R
 
 spaces-customize-button-save = Done
+    .accesskey = D
+
+customize-panel-button-save = Done
     .accesskey = D
