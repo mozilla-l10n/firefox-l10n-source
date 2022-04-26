@@ -323,6 +323,16 @@ openpgp-description = { $count ->
    *[other] Thunderbird found { $count } personal OpenPGP keys associated with <b>{ $identity }</b>
 }
 
+#   $identity (String) - the email address of the currently selected identity
+openpgp-description-no-key = { -brand-short-name } doesn’t have a personal OpenPGP key for <b>{ $identity }</b>
+
+#   $count (Number) - the number of configured keys associated with the current identity
+#   $identity (String) - the email address of the currently selected identity
+openpgp-description-has-keys = { $count ->
+    [one]   { -brand-short-name } found { $count } personal OpenPGP key associated with <b>{ $identity }</b>
+   *[other] { -brand-short-name } found { $count } personal OpenPGP keys associated with <b>{ $identity }</b>
+}
+
 #   $key (String) - the currently selected OpenPGP key
 openpgp-selection-status-have-key = Your current configuration uses key ID <b>{ $key }</b>
 

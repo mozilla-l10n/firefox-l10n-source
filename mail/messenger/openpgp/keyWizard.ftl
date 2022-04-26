@@ -129,6 +129,12 @@ openpgp-import-key-list-amount = { $count ->
    *[other] Thunderbird found { $count } keys that can be imported.
 }
 
+#   $count (Number) - the number of keys found in the selected files
+openpgp-import-key-list-amount-2 = { $count ->
+    [one]   { -brand-short-name } found one key that can be imported.
+   *[other] { -brand-short-name } found { $count } keys that can be imported.
+}
+
 openpgp-import-key-list-description = Confirm which keys may be treated as your personal keys. Only keys that you created yourself and that show your own identity should be used as personal keys. You can change this option later in the Key Properties dialog.
 
 openpgp-import-key-list-caption = Keys marked to be treated as Personal Keys will be listed in the End-To-End Encryption section. The others will be available inside the Key Manager.
