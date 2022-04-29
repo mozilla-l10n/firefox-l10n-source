@@ -377,6 +377,9 @@ download-save-to =
     .label = Save files to
     .accesskey = v
 
+download-save-where = Save files to
+    .accesskey = v
+
 download-choose-folder =
     .label =
         { PLATFORM() ->
