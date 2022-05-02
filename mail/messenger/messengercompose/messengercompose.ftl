@@ -173,11 +173,6 @@ button-return-receipt =
 
 ## Encryption
 
-message-to-be-signed-icon =
-    .alt = Sign message
-message-to-be-encrypted-icon =
-    .alt = Encrypt message
-
 encryption-menu =
   .label = Security
   .accesskey = c
