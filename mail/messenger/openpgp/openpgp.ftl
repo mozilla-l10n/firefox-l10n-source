@@ -202,6 +202,9 @@ openpgp-key-man-reload =
 openpgp-key-man-change-expiry =
     .label = Change Expiration Date
     .accesskey = E
+openpgp-key-man-refresh-online =
+    .label = Refresh Online
+    .accesskey = R
 openpgp-key-man-ignored-ids =
     .label = Email addresses
 openpgp-key-man-del-key =
@@ -271,7 +274,17 @@ openpgp-key-details-id-label =
 openpgp-key-details-key-type-label = Type
 openpgp-key-details-key-part-label =
     .label = Key Part
+
 openpgp-key-details-attr-ignored = Warning: This key might not work as expected, because some of its properties are unsafe and might be ignored.
+openpgp-key-details-attr-upgrade-sec = You should upgrade the unsafe properties.
+openpgp-key-details-attr-upgrade-pub = You should ask the owner of this key to upgrade the unsafe properties.
+
+openpgp-key-details-upgrade-unsafe =
+    .label = Upgrade Unsafe Properties
+    .accesskey = P
+
+openpgp-key-details-upgrade-ok = The key was successfully upgraded. You should share the upgraded public key with your correspondents.
+
 openpgp-key-details-algorithm-label =
     .label = Algorithm
 openpgp-key-details-size-label =
@@ -609,6 +622,10 @@ need-online = The function you have selected is not available in offline mode. P
 
 # Strings used in keyRing.jsm & keyLookupHelper.jsm
 no-key-found = We could not find any key matching the specified search criteria.
+
+# Strings used in keyRing.jsm & keyLookupHelper.jsm
+no-key-found2 = We couldn’t find any usable key matching the specified search criteria.
+no-update-found = You already have the keys that were discovered online.
 
 # Strings used in keyRing.jsm & GnuPGCryptoAPI.jsm
 fail-key-extract = Error - key extraction command failed
