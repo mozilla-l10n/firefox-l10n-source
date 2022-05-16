@@ -271,6 +271,15 @@ settings-context-open-account-settings-item =
 settings-context-open-addons-item =
     .label = Open Add-ons and Themes
 
+settings-context-open-settings-item2 =
+    .label = Settings
+
+settings-context-open-account-settings-item2 =
+    .label = Account Settings
+
+settings-context-open-addons-item2 =
+    .label = Add-ons and Themes
+
 ## Spaces toolbar pinned tab menupopup
 
 spaces-toolbar-pinned-tab-button =
