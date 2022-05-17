@@ -8,7 +8,6 @@
 <!ENTITY prefCheckDefault.caption         "System Integration">
 <!ENTITY prefCheckDefaultClient.label     "Check default application settings on startup">
 <!ENTITY prefCheckDefaultClient.accesskey "C">
-
 <!ENTITY defaultClientFor.description     "Make &brandShortName; the default application for:">
 <!ENTITY setDefaultBrowser.label          "Browser">
 <!ENTITY setDefaultBrowser.accesskey      "B">

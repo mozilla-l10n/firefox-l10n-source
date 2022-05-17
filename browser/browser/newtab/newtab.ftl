@@ -35,11 +35,6 @@ newtab-search-box-handoff-input-no-engine =
     .title = Search or enter address
     .aria-label = Search or enter address
 
-newtab-search-box-search-the-web-input =
-    .placeholder = Search the Web
-    .title = Search the Web
-    .aria-label = Search the Web
-
 newtab-search-box-text = Search the web
 newtab-search-box-input =
     .placeholder = Search the web
@@ -48,7 +43,6 @@ newtab-search-box-input =
 ## Top Sites - General form dialog.
 
 newtab-topsites-add-search-engine-header = Add Search Engine
-newtab-topsites-add-topsites-header = New Top Site
 newtab-topsites-add-shortcut-header = New Shortcut
 newtab-topsites-edit-topsites-header = Edit Top Site
 newtab-topsites-edit-shortcut-header = Edit Shortcut
@@ -208,7 +202,6 @@ newtab-section-expand-section-label =
 ## Section Headers.
 
 newtab-section-header-topsites = Top Sites
-newtab-section-header-highlights = Highlights
 newtab-section-header-recent-activity = Recent activity
 # Variables:
 #  $provider (String): Name of the corresponding content provider.
@@ -241,7 +234,6 @@ newtab-pocket-more-recommendations = More Recommendations
 newtab-pocket-learn-more = Learn more
 newtab-pocket-cta-button = Get { -pocket-brand-name }
 newtab-pocket-cta-text = Save the stories you love in { -pocket-brand-name }, and fuel your mind with fascinating reads.
-
 newtab-pocket-pocket-firefox-family = { -pocket-brand-name } is part of the { -brand-product-name } family
 
 # A save to Pocket button that shows over the card thumbnail on hover.

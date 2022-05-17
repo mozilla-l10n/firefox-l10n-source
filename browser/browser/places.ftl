@@ -76,17 +76,6 @@ places-edit-bookmark =
 places-edit-generic =
   .label = Edit…
   .accesskey = E
-places-edit-folder =
-  .label = Rename Folder…
-  .accesskey = e
-places-remove-folder =
-  .label =
-      { $count ->
-          [1] Remove Folder
-         *[other] Remove Folders
-      }
-  .accesskey = m
-
 places-edit-folder2 =
   .label = Edit Folder…
   .accesskey = E
@@ -108,16 +97,6 @@ managed-bookmarks-subfolder =
 # This label is used for the "Other Bookmarks" folder that appears in the bookmarks toolbar.
 other-bookmarks-folder =
   .label = Other Bookmarks
-
-# Variables:
-# $count (number) - The number of elements being selected for removal.
-places-remove-bookmark =
-  .label =
-      { $count ->
-          [1] Remove Bookmark
-         *[other] Remove Bookmarks
-      }
-  .accesskey = e
 
 places-show-in-folder =
   .label = Show in Folder

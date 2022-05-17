@@ -2,9 +2,6 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-import-ab-csv-window =
-    .title = Import Address Book from Text File
-
 import-ab-csv-dialog-title = Import Address Book from Text File
 
 #   $recordNumber (Number) - The current record number of the preview data.

@@ -5,8 +5,6 @@
 close-button =
     .aria-label = Close
 
-preferences-doc-title = Preferences
-
 preferences-doc-title2 = Settings
 
 category-list =
@@ -200,8 +198,6 @@ app-icon-options =
     .label = App Icon Options…
     .accesskey = n
 
-notification-settings = Alerts and the default sound can be disabled on the Notification pane of System Preferences.
-
 notification-settings2 = Alerts and the default sound can be disabled on the Notification pane of System Settings.
 
 animated-alert-label =
@@ -257,7 +253,6 @@ autoscroll-label =
 smooth-scrolling-label =
     .label = Use smooth scrolling
     .accesskey = m
-
 browsing-gtk-use-non-overlay-scrollbars =
     .label = Always show scrollbars
     .accesskey = c
@@ -578,12 +573,6 @@ default-format-label =
     .label = Use Paragraph format instead of Body Text by default
     .accesskey = P
 
-format-description = Configure text format behavior
-
-send-options-label =
-    .label = Send Options…
-    .accesskey = S
-
 compose-send-format-title = Sending Format
 
 compose-send-automatic-option =
@@ -884,9 +873,6 @@ theme-label =
     .value = Theme:
     .accesskey = T
 
-style-thunderbird =
-    .label = Thunderbird
-
 style-mail =
     .label = { -brand-short-name }
 style-bubbles =
@@ -914,20 +900,6 @@ chat-variant-label =
 # Notice: The value of the `.style` attribute is a CSS string, and the `width`
 # is the name of the CSS property. It is intended only to adjust the element's width.
 # Do not translate.
-search-preferences-input =
-    .style = width: 15.4em
-    .placeholder = Find in Preferences
-
-## Preferences UI Search Results
-
-# This is used to determine the width of the search field in about:preferences,
-# in order to make the entire placeholder string visible
-#
-# Please keep the placeholder string short to avoid truncation.
-#
-# Notice: The value of the `.style` attribute is a CSS string, and the `width`
-# is the name of the CSS property. It is intended only to adjust the element's width.
-# Do not translate.
 search-preferences-input2 =
     .style = width: 15.4em
     .placeholder = Find in Settings
@@ -935,12 +907,6 @@ search-preferences-input2 =
 ## Settings UI Search Results
 
 search-results-header = Search Results
-
-# `<span data-l10n-name="query"></span>` will be replaced by the search term.
-search-results-empty-message = { PLATFORM() ->
-    [windows] Sorry! There are no results in Options for “<span data-l10n-name="query"></span>”.
-    *[other] Sorry! There are no results in Preferences for “<span data-l10n-name="query"></span>”.
-}
 
 # `<span data-l10n-name="query"></span>` will be replaced by the search term.
 search-results-empty-message2 = { PLATFORM() ->

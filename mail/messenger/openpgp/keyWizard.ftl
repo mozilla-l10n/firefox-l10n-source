@@ -124,12 +124,6 @@ openpgp-import-key-description = You may import personal keys that were created 
 openpgp-import-key-info = Other software might describe a personal key using alternative terms such as your own key, secret key, private key or key pair.
 
 #   $count (Number) - the number of keys found in the selected files
-openpgp-import-key-list-amount = { $count ->
-    [one]   Thunderbird found one key that can be imported.
-   *[other] Thunderbird found { $count } keys that can be imported.
-}
-
-#   $count (Number) - the number of keys found in the selected files
 openpgp-import-key-list-amount-2 = { $count ->
     [one]   { -brand-short-name } found one key that can be imported.
    *[other] { -brand-short-name } found { $count } keys that can be imported.

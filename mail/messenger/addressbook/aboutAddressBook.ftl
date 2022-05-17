@@ -16,7 +16,6 @@ about-addressbook-toolbar-new-contact =
   .label = New Contact
 about-addressbook-toolbar-new-list =
   .label = New List
-
 about-addressbook-toolbar-import =
   .label = Import
 
@@ -36,7 +35,6 @@ about-addressbook-books-context-delete =
   .label = Delete
 about-addressbook-books-context-remove =
   .label = Remove
-
 about-addressbook-books-context-startup-default =
   .label = Default startup directory
 
@@ -137,6 +135,8 @@ about-addressbook-confirm-delete-contacts =
 ## Details
 
 about-addressbook-write-action-button = Write
+about-addressbook-event-action-button = Event
+about-addressbook-search-action-button = Search
 
 about-addressbook-begin-edit-contact-button = Edit
 about-addressbook-delete-edit-contact-button = Delete

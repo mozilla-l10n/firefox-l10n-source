@@ -29,16 +29,6 @@ downloads-cmd-cancel =
 downloads-cmd-cancel-panel =
     .aria-label = Cancel
 
-# This message is only displayed on Windows and Linux devices
-downloads-cmd-show-menuitem =
-  .label = Open Containing Folder
-  .accesskey = F
-
-# This message is only displayed on macOS devices
-downloads-cmd-show-menuitem-mac =
-  .label = Show In Finder
-  .accesskey = F
-
 downloads-cmd-show-menuitem-2 =
   .label = { PLATFORM() ->
       [macos] Show in Finder
@@ -54,7 +44,6 @@ downloads-cmd-show-menuitem-2 =
 downloads-cmd-use-system-default =
   .label = Open In System Viewer
   .accesskey = I
-
 # This version is shown when the download's mime type has a valid file handler.
 downloads-cmd-use-system-default-named =
   .label = Open In { $handler }
@@ -65,24 +54,6 @@ downloads-cmd-use-system-default-named =
 downloads-cmd-always-use-system-default =
   .label = Always Open In System Viewer
   .accesskey = w
-
-downloads-cmd-show-button =
-  .tooltiptext = { PLATFORM() ->
-      [macos] Show In Finder
-     *[other] Open Containing Folder
-  }
-
-downloads-cmd-show-panel =
-  .aria-label = { PLATFORM() ->
-      [macos] Show In Finder
-     *[other] Open Containing Folder
-  }
-downloads-cmd-show-description =
-  .value = { PLATFORM() ->
-      [macos] Show In Finder
-     *[other] Open Containing Folder
-  }
-
 # We can use the same accesskey as downloads-cmd-always-open-similar-files.
 # Both should not be visible in the downloads context menu at the same time.
 # This version is shown when the download's mime type has a valid file handler.
@@ -136,7 +107,6 @@ downloads-cmd-clear-list =
 downloads-cmd-clear-downloads =
     .label = Clear Downloads
     .accesskey = C
-
 downloads-cmd-delete-file =
     .label = Delete
     .accesskey = D
@@ -194,7 +164,6 @@ downloading-file-opens-in-minutes = Opening in { $minutes }m…
 downloading-file-opens-in-minutes-and-seconds = Opening in { $minutes }m { $seconds }s…
 downloading-file-opens-in-seconds = Opening in { $seconds }s…
 downloading-file-opens-in-some-time = Opening when completed…
-
 downloading-file-click-to-open =
   .value = Open when completed
 

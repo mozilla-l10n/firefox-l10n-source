@@ -89,26 +89,6 @@ restart-later = Restart Later
 
 # This string is shown to notify the user that the password manager setting
 # is being controlled by an extension
-extension-controlled-password-saving = An extension, <img data-l10n-name="icon"/> { $name }, is controlling this setting.
-
-# This string is shown to notify the user that their notifications permission
-# is being controlled by an extension.
-extension-controlled-web-notifications= An extension, <img data-l10n-name="icon"/> { $name }, is controlling this setting.
-
-# This string is shown to notify the user that Container Tabs
-# are being enabled by an extension.
-extension-controlled-privacy-containers = An extension, <img data-l10n-name="icon"/> { $name }, requires Container Tabs.
-
-# This string is shown to notify the user that their content blocking "All Detected Trackers"
-# preferences are being controlled by an extension.
-extension-controlled-websites-content-blocking-all-trackers = An extension, <img data-l10n-name="icon"/> { $name }, is controlling this setting.
-
-# This string is shown to notify the user that their proxy configuration preferences
-# are being controlled by an extension.
-extension-controlled-proxy-config = An extension, <img data-l10n-name="icon"/> { $name }, is controlling how { -brand-short-name } connects to the internet.
-
-# This string is shown to notify the user that the password manager setting
-# is being controlled by an extension
 extension-controlling-password-saving = <img data-l10n-name="icon"/> <strong>{ $name }</strong> controls this setting.
 
 # This string is shown to notify the user that their notifications permission
@@ -159,10 +139,6 @@ set-as-my-default-browser =
     .label = Make Default…
     .accesskey = D
 
-startup-restore-previous-session =
-    .label = Restore previous session
-    .accesskey = s
-
 startup-restore-windows-and-tabs =
     .label = Open previous windows and tabs
     .accesskey = s
@@ -182,10 +158,6 @@ ctrl-tab-recently-used-order =
 open-new-link-as-tabs =
     .label = Open links in tabs instead of new windows
     .accesskey = w
-
-warn-on-close-multiple-tabs =
-    .label = Warn you when closing multiple tabs
-    .accesskey = m
 
 confirm-on-close-multiple-tabs =
     .label = Confirm before closing multiple tabs
@@ -253,8 +225,6 @@ containers-remove-cancel-button = Don’t remove this Container
 
 language-and-appearance-header = Language and Appearance
 
-fonts-and-colors-header = Fonts and Colors
-
 preferences-web-appearance-header = Website appearance
 
 preferences-web-appearance-description = Some websites adapt their color scheme based on your preferences. Choose which color scheme you’d like to use for those sites.
@@ -311,10 +281,6 @@ default-font-size = Size
 advanced-fonts =
     .label = Advanced…
     .accesskey = A
-
-colors-settings =
-    .label = Colors…
-    .accesskey = C
 
 # Zoom is a noun, and the message is used as header for a group of options
 preferences-zoom-header = Zoom
@@ -708,11 +674,6 @@ home-prefs-content-description = Choose what content you want on your Firefox Ho
 
 home-prefs-search-header =
     .label = Web Search
-home-prefs-topsites-header =
-    .label = Top Sites
-home-prefs-topsites-description = The sites you visit most
-home-prefs-topsites-by-option-sponsored =
-    .label = Sponsored Top Sites
 home-prefs-shortcuts-header =
     .label = Shortcuts
 home-prefs-shortcuts-description = Sites you save or visit
@@ -724,7 +685,6 @@ home-prefs-shortcuts-by-option-sponsored =
 
 home-prefs-recommended-by-header =
     .label = Recommended by { $provider }
-home-prefs-recommended-by-description-update = Exceptional content from across the web, curated by { $provider }
 home-prefs-recommended-by-description-new = Exceptional content curated by { $provider }, part of the { -brand-product-name } family
 
 ##
@@ -732,10 +692,6 @@ home-prefs-recommended-by-description-new = Exceptional content curated by { $pr
 home-prefs-recommended-by-learn-more = How it works
 home-prefs-recommended-by-option-sponsored-stories =
     .label = Sponsored Stories
-
-home-prefs-highlights-header =
-    .label = Highlights
-home-prefs-highlights-description = A selection of sites that you’ve saved or visited
 
 home-prefs-highlights-option-visited-pages =
     .label = Visited Pages
@@ -756,7 +712,6 @@ home-prefs-recent-activity-description = A selection of recent sites and content
 # and non-essential but also not entirely trivial and useless.
 home-prefs-snippets-header =
     .label = Snippets
-home-prefs-snippets-description = Updates from { -vendor-short-name } and { -brand-product-name }
 
 home-prefs-snippets-description-new = Tips and news from { -vendor-short-name } and { -brand-product-name }
 
@@ -1156,14 +1111,6 @@ sitedata-block-desc = Type blocked
 
 sitedata-option-block-cross-site-trackers =
     .label = Cross-site trackers
-sitedata-option-block-cross-site-and-social-media-trackers =
-    .label = Cross-site and social media trackers
-sitedata-option-block-cross-site-tracking-cookies-including-social-media =
-    .label = Cross-site tracking cookies — includes social media cookies
-sitedata-option-block-cross-site-cookies-including-social-media =
-    .label = Cross-site cookies — includes social media cookies
-sitedata-option-block-cross-site-and-social-media-trackers-plus-isolate =
-    .label = Cross-site and social media trackers, and isolate remaining cookies
 sitedata-option-block-cross-site-tracking-cookies =
     .label = Cross-site tracking cookies
 sitedata-option-block-cross-site-cookies =
@@ -1270,7 +1217,6 @@ content-blocking-etp-standard-tcp-rollout-description = Total Cookie Protection 
 content-blocking-etp-standard-tcp-rollout-learn-more = Learn more
 
 content-blocking-warning-title = Heads up!
-content-blocking-and-isolating-etp-warning-description = Blocking trackers and isolating cookies could impact the functionality of some sites. Reload a page with trackers to load all content.
 content-blocking-and-isolating-etp-warning-description-2 = This setting may cause some websites to not display content or work correctly. If a site seems broken, you may want to turn off tracking protection for that site to load all content.
 content-blocking-warning-learn-how = Learn how
 
@@ -1357,10 +1303,6 @@ permissions-autoplay-settings =
 permissions-block-popups =
     .label = Block pop-up windows
     .accesskey = B
-
-permissions-block-popups-exceptions =
-    .label = Exceptions…
-    .accesskey = E
 
 # "popup" is a misspelling that is more popular than the correct spelling of
 # "pop-up" so it's included as a search keyword, not displayed in the UI.

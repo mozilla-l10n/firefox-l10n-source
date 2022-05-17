@@ -191,7 +191,6 @@ addon-category-available-updates-title =
 addon-category-recent-updates = Recent Updates
 addon-category-recent-updates-title =
     .title = Recent Updates
-
 addon-category-sitepermission = Site Permissions
 addon-category-sitepermission-title =
     .title = Site Permissions
@@ -324,7 +323,6 @@ install-theme-button = Install Theme
 # the detailed add-on view is opened, from where the add-on can be managed.
 manage-addon-button = Manage
 find-more-addons = Find more add-ons
-
 find-more-themes = Find more themes
 
 # This is a label for the button to open the "more options" menu, it is only
@@ -358,7 +356,6 @@ extension-disabled-heading = Disabled
 
 theme-enabled-heading = Enabled
 theme-disabled-heading = Disabled
-
 theme-monochromatic-heading = Colorways
 theme-monochromatic-subheading = Vibrant new colorways from { -brand-product-name }. Available for a limited time.
 

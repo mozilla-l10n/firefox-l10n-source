@@ -3,8 +3,6 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 about-httpsonly-title-alert = HTTPS-Only Mode Alert
-about-httpsonly-title-connection-not-available = Secure Connection Not Available
-
 about-httpsonly-title-site-not-available = Secure Site Not Available
 
 # Variables:

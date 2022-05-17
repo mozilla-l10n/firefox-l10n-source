@@ -46,7 +46,6 @@ finger-unseen = The identity of { $name } has not been verified yet. Casual eave
 finger-seen={ $name } is contacting you from an unrecognized computer. Casual eavesdropping is not possible, but with some effort someone could be listening in. Prevent surveillance by verifying this contact’s identity.
 
 state-not-private = The current conversation is not private.
-
 state-generic-not-private = The current conversation is not private.
 
 # Variables:
