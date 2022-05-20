@@ -2,11 +2,21 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, you can obtain one at http://mozilla.org/MPL/2.0/.
 
-# Fieldsets
+# Type selection
 
-vcard-fieldset-name = Name
+vcard-entry-type-label = Type
 
-# N VCard Field
+vcard-entry-type-home = Home
+
+vcard-entry-type-work = Work
+
+vcard-entry-type-none = None
+
+vcard-entry-type-custom = Custom
+
+# N vCard field
+
+vcard-name-header = Name
 
 vcard-n-prefix = Prefix
 
@@ -32,3 +42,36 @@ vcard-n-suffix = Suffix
 
 vcard-n-add-suffix =
     .title = Add suffix
+
+# Email vCard field
+
+vcard-email-header = Email Addresses
+
+vcard-email-add = Add email address
+
+vcard-email-label = Email address
+
+vcard-email-choose-primary = Default
+    .aria-label = Choose your primary email address
+
+# URL vCard field
+
+vcard-url-header = Websites
+
+vcard-url-add = Add website
+
+vcard-url-label = Website
+
+# Tel vCard field
+
+vcard-tel-header = Phone Numbers
+
+vcard-tel-add = Add phone number
+
+vcard-tel-label = Phone number
+
+# TZ vCard field
+
+vcard-tz-header = Time Zone
+
+vcard-tz-add = Add time zone
