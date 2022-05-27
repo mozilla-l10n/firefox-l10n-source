@@ -79,3 +79,54 @@ vcard-tel-label = Phone number
 vcard-tz-header = Time Zone
 
 vcard-tz-add = Add time zone
+
+# IMPP vCard field
+
+vcard-impp-header = Chat Accounts
+
+vcard-impp-add = Add chat account
+
+vcard-impp-label = Chat account
+
+# BDAY and ANNIVERSARY vCard field
+
+vcard-bday-anniversary-header = Special Dates
+
+vcard-bday-anniversary-add = Add special date
+
+vcard-bday-label = Birthday
+
+vcard-anniversary-label = Anniversary
+
+vcard-date-day = Day
+
+vcard-date-month = Month
+
+vcard-date-year = Year
+
+# ADR vCard field
+
+vcard-adr-header = Addresses
+
+vcard-adr-add = Add address
+
+vcard-adr-label = Address
+
+vcard-adr-delivery-label = Delivery label
+
+vcard-adr-pobox = Post office box
+
+vcard-adr-ext = Extended address
+
+vcard-adr-street = Street address
+
+# Or "Locality"
+vcard-adr-locality = City
+
+# Or "Region"
+vcard-adr-region = State/Province
+
+# The term "ZIP code" only applies in USA. Most locales should use "Postal code" only.
+vcard-adr-code = ZIP/Postal code
+
+vcard-adr-country = Country
