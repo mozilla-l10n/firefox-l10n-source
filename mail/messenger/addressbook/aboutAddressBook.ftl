@@ -63,6 +63,9 @@ about-addressbook-search-all =
 about-addressbook-sort-button =
   .title = Change the list order
 
+about-addressbook-sort-button2 =
+  .title = List display options
+
 about-addressbook-name-format-display =
   .label = Display Name
 about-addressbook-name-format-firstlast =
