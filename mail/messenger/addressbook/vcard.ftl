@@ -6,6 +6,9 @@
 
 vcard-displayname = Display name
 
+vcard-displayname-placeholder =
+    .placeholder = { vcard-displayname }
+
 # Type selection
 
 vcard-entry-type-label = Type
@@ -130,3 +133,21 @@ vcard-adr-region = State/Province
 vcard-adr-code = ZIP/Postal code
 
 vcard-adr-country = Country
+
+# NOTE vCard field
+
+vcard-note-header = Notes
+
+vcard-note-add = Add note
+
+# TITLE, ROLE and ORGANIZATION vCard fields
+
+vcard-org-header = Organizational Properties
+
+vcard-org-add = Add organizational properties
+
+vcard-org-title = Title
+
+vcard-org-role = Role
+
+vcard-org-org = Organization
