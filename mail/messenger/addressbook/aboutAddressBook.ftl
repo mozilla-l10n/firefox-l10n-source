@@ -60,9 +60,6 @@ about-addressbook-search =
 about-addressbook-search-all =
   .placeholder = Search all address books
 
-about-addressbook-sort-button =
-  .title = Change the list order
-
 about-addressbook-sort-button2 =
   .title = List display options
 
@@ -196,8 +193,6 @@ about-addressbook-add-contact-to = Add to:
 
 about-addressbook-details-email-addresses-header = Email Addresses
 about-addressbook-details-phone-numbers-header = Phone Numbers
-about-addressbook-details-home-address-header = Home Address
-about-addressbook-details-work-address-header = Work Address
 about-addressbook-details-addresses-header = Addresses
 about-addressbook-details-notes-header = Notes
 about-addressbook-details-other-info-header = Other Information

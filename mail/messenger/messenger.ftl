@@ -197,14 +197,6 @@ toolbar-context-menu-remove-extension =
     .label = Remove Extension
     .accesskey = v
 
-## Message headers
-
-message-header-address-in-address-book-icon =
-  .alt = Address is in the Address Book
-
-message-header-address-not-in-address-book-icon =
-  .alt = Address is not in the Address Book
-
 ## Add-on removal warning
 
 # Variables:
@@ -275,15 +267,6 @@ spaces-context-new-window-item =
 # $tabName (String) - The name of the tab this item will switch to.
 spaces-context-switch-tab-item =
     .label = Switch to { $tabName }
-
-settings-context-open-settings-item =
-    .label = Open Settings
-
-settings-context-open-account-settings-item =
-    .label = Open Account Settings
-
-settings-context-open-addons-item =
-    .label = Open Add-ons and Themes
 
 settings-context-open-settings-item2 =
     .label = Settings
