@@ -359,6 +359,7 @@ extension-disabled-heading = Disabled
 
 theme-enabled-heading = Enabled
 theme-disabled-heading = Disabled
+theme-disabled-heading2 = Saved Themes
 theme-monochromatic-heading = Colorways
 theme-monochromatic-subheading = Vibrant new colorways from { -brand-product-name }. Available for a limited time.
 
