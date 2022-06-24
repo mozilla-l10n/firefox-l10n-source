@@ -43,6 +43,15 @@ videocontrols-picture-in-picture-toggle-label = Watch in Picture-in-Picture
 # mouse hovers the toggle.
 videocontrols-picture-in-picture-explainer = Play videos in the foreground while you do other things in { -brand-short-name }
 
+# This string is used as the label for a variation of the Picture-in-Picture video
+# toggle button when the mouse is hovering over the video.
+videocontrols-picture-in-picture-toggle-label2 = Pop out this video
+
+# This string is used as part of a variation of the Picture-in-Picture video toggle
+# button. When using this variation, this string appears below the toggle when the
+# mouse hovers the toggle.
+videocontrols-picture-in-picture-explainer2 = More screens are more fun. Play this video in Picture-in-Picture while you browse.
+
 videocontrols-error-aborted = Video loading stopped.
 videocontrols-error-network = Video playback aborted due to a network error.
 videocontrols-error-decode = Video can’t be played because the file is corrupt.
