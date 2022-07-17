@@ -154,6 +154,9 @@
 <!ENTITY aboutCommPluginsCmd.label          "About Plugins">
 <!ENTITY aboutCommPluginsCmd.accesskey      "p">
 
+<!ENTITY aboutBuildConfigCmd.label          "Show Build Configuration">
+<!ENTITY aboutBuildConfigCmd.accesskey      "B">
+
 <!ENTITY direct.label                             "Online (Proxy: None)">
 <!ENTITY direct.accesskey                         "N">
 <!ENTITY manual.label                             "Online (Proxy: Manual)">
