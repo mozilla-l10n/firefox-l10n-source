@@ -12,3 +12,4 @@ tag-pings-label = Tag all sent pings with this tag
 log-pings-label = Log ping payload before sending?
 send-pings-label = Send the named ping
 controls-button-label = Submit Settings
+controls-button-label-verbose = Apply settings and submit ping
