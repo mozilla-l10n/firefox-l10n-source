@@ -117,6 +117,8 @@ policy-ExtensionUpdate = Enable or disable automatic extension updates.
 
 policy-FirefoxHome = Configure Firefox Home.
 
+policy-FirefoxHome2 = Configure { -firefox-home-brand-name }.
+
 policy-FlashPlugin = Allow or deny usage of the Flash plugin.
 
 policy-GoToIntranetSiteForSingleWordEntryInAddressBar = Force direct intranet site navigation instead of searching when typing single word entries in the address bar.
