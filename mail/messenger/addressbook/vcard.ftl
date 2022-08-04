@@ -150,3 +150,9 @@ vcard-org-title = Title
 vcard-org-role = Role
 
 vcard-org-org = Organization
+
+# Custom properties
+
+vcard-custom-header = Custom Properties
+
+vcard-custom-add = Add custom properties
