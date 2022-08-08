@@ -102,6 +102,10 @@ locales = [
 [[includes]]
     path = "_configs/devtools-client.toml"
 
+[[paths]]
+    reference = "services/sync/**"
+    l10n = "{l}services/sync/**"
+
 [[includes]]
     path = "_configs/toolkit.toml"
 
