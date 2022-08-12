@@ -133,6 +133,44 @@ main-context-menu-bookmark-change-with-shortcut =
     .accesskey = m
     .tooltiptext = Edit this bookmark ({ $shortcut })
 
+main-context-menu-bookmark-page =
+    .aria-label = Bookmark Page…
+    .accesskey = m
+    .tooltiptext = Bookmark page
+
+# This menuitem is only visible on macOS
+# Cannot be shown at the same time as main-context-menu-edit-bookmark-mac,
+# so should probably have the same access key if possible.
+main-context-menu-bookmark-page-mac =
+    .label = Bookmark Page…
+    .accesskey = m
+
+# This menuitem is only visible on macOS
+# Cannot be shown at the same time as main-context-menu-bookmark-page-mac,
+# so should probably have the same access key if possible.
+main-context-menu-edit-bookmark-mac =
+    .label = Edit Bookmark…
+    .accesskey = m
+
+# Variables
+#   $shortcut (String) - A keyboard shortcut for the add bookmark command.
+main-context-menu-bookmark-page-with-shortcut =
+    .aria-label = Bookmark Page…
+    .accesskey = m
+    .tooltiptext = Bookmark page ({ $shortcut })
+
+main-context-menu-edit-bookmark =
+    .aria-label = Edit Bookmark…
+    .accesskey = m
+    .tooltiptext = Edit bookmark
+
+# Variables
+#   $shortcut (String) - A keyboard shortcut for the edit bookmark command.
+main-context-menu-edit-bookmark-with-shortcut =
+    .aria-label = Edit Bookmark…
+    .accesskey = m
+    .tooltiptext = Edit bookmark ({ $shortcut })
+
 main-context-menu-open-link =
     .label = Open Link
     .accesskey = O
@@ -155,6 +193,10 @@ main-context-menu-open-link-new-private-window =
 
 main-context-menu-bookmark-link =
     .label = Bookmark Link
+    .accesskey = B
+
+main-context-menu-bookmark-link-2 =
+    .label = Bookmark Link…
     .accesskey = B
 
 main-context-menu-save-link =
@@ -397,6 +439,10 @@ main-context-menu-frame-bookmark =
     .label = Bookmark This Frame
     .accesskey = m
 
+main-context-menu-frame-add-bookmark =
+    .label = Bookmark Frame…
+    .accesskey = m
+
 main-context-menu-frame-save-as =
     .label = Save Frame As…
     .accesskey = F
@@ -415,6 +461,10 @@ main-context-menu-frame-view-info =
 
 main-context-menu-print-selection =
     .label = Print Selection
+    .accesskey = r
+
+main-context-menu-print-selection-2 =
+    .label = Print Selection…
     .accesskey = r
 
 main-context-menu-view-selection-source =
