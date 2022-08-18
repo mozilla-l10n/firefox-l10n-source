@@ -339,7 +339,7 @@ main-context-menu-image-set-image-as-background =
 
 main-context-menu-image-copy-text =
     .label = Copy Text From Image
-    .accesskey = T
+    .accesskey = x
 
 main-context-menu-image-info =
     .label = View Image Info
