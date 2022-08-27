@@ -10,6 +10,10 @@ key-wizard-button =
     .buttonlabelaccept = Continue
     .buttonlabelhelp = Go back
 
+key-wizard-dialog =
+    .buttonlabelaccept = Continue
+    .buttonlabelextra1 = Go back
+
 key-wizard-warning = <b>If you have an existing personal key</b> for this email address, you should import it. Otherwise you will not have access to your archives of encrypted emails, nor be able to read incoming encrypted emails from people who are still using your existing key.
 
 key-wizard-learn-more = Learn more
