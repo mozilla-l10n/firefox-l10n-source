@@ -231,6 +231,8 @@ preferences-web-appearance-description = Some websites adapt their color scheme 
 
 preferences-web-appearance-choice-browser = { -brand-short-name } theme
 preferences-web-appearance-choice-system = System theme
+
+preferences-web-appearance-choice-auto = Automatic
 preferences-web-appearance-choice-light = Light
 preferences-web-appearance-choice-dark = Dark
 
@@ -238,6 +240,9 @@ preferences-web-appearance-choice-tooltip-browser =
   .title = Match your { -brand-short-name } theme settings for website backgrounds and content.
 preferences-web-appearance-choice-tooltip-system =
   .title = Match your system settings for website backgrounds and content.
+
+preferences-web-appearance-choice-tooltip-auto =
+  .title = Automatically change website backgrounds and content based on your system settings and { -brand-short-name } theme.
 preferences-web-appearance-choice-tooltip-light =
   .title = Use a light appearance for website backgrounds and content.
 preferences-web-appearance-choice-tooltip-dark =
@@ -248,6 +253,9 @@ preferences-web-appearance-choice-input-browser =
 
 preferences-web-appearance-choice-input-system =
   .aria-description = { preferences-web-appearance-choice-tooltip-system.title }
+
+preferences-web-appearance-choice-input-auto =
+  .aria-description = { preferences-web-appearance-choice-tooltip-auto.title }
 
 preferences-web-appearance-choice-input-light =
   .aria-description = { preferences-web-appearance-choice-tooltip-light.title }

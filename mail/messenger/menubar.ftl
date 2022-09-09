@@ -121,6 +121,14 @@ mail-uidensity-touch =
     .label = Touch
     .accesskey = T
 
+mail-uidensity-default =
+    .label = Default
+    .accesskey = D
+
+mail-uidensity-relaxed =
+    .label = Relaxed
+    .accesskey = R
+
 menu-spaces-toolbar-button =
     .label = Spaces Toolbar
     .accesskey = S
