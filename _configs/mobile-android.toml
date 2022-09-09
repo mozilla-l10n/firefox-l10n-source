@@ -121,10 +121,6 @@ exclude-multi-locale = [
 
 
 [[paths]]
-    reference = "mobile/**"
-    l10n = "{l}mobile/**"
-
-[[paths]]
     reference = "mobile/android/**"
     l10n = "{l}mobile/android/**"
 
