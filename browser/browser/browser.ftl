@@ -82,6 +82,8 @@ browser-main-window-title = { -brand-full-name }
 
 private-browsing-shortcut-text = { -brand-short-name } Private Browsing
 
+private-browsing-shortcut-text-2 = { -brand-shortcut-name } Private Browsing
+
 ##
 
 urlbar-identity-button =
@@ -281,8 +283,6 @@ search-one-offs-actions =
     .tooltiptext = Actions ({ $restrict })
 
 ## QuickActions are shown in the urlbar as the user types a matching string
-
-## QuickActions are shown in the urlbar as the user types a matching string
 ## The -cmd- strings are comma separated list of keywords that will match
 ## the action.
 
@@ -354,7 +354,6 @@ quickactions-cmd-update = update
 
 # Opens the view-source UI with current pages source
 quickactions-viewsource = View Source
-
 quickactions-cmd-viewsource = view source, source
 
 ## Bookmark Panel

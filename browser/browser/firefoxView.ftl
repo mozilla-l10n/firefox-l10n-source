@@ -70,6 +70,8 @@ firefoxview-mobile-confirmation-description = Now you can grab your { -brand-pro
 firefoxview-closed-tabs-title = Recently closed
 
 firefoxview-closed-tabs-description = Reopen pages you’ve closed on this device.
+
+firefoxview-closed-tabs-description2 = Reopen pages you’ve closed in this window.
 firefoxview-closed-tabs-placeholder = <strong>No recently closed pages</strong><br/>Never fear losing a closed tab again. You can always retrieve it here.
 
 # refers to the last tab that was used
