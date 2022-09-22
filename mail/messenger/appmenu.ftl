@@ -90,6 +90,13 @@ appmenu-open-panel =
 appmenu-open-panel-title =
   .title = Open
 
+appmenu-open-file-panel =
+  .label = Open from File
+  .accesskey = O
+
+appmenu-open-file-panel-title =
+  .title = Open from File
+
 appmenu-open-message =
   .label = Message…
   .accesskey = M
