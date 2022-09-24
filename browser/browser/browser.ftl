@@ -548,6 +548,8 @@ sharing-warning-disable-for-session =
 
 enable-devtools-popup-description = To use the F12 shortcut, first open DevTools via the Web Developer menu.
 
+enable-devtools-popup-description2 = To use the F12 shortcut, first open DevTools via the Browser Tools menu.
+
 ## URL Bar
 
 # This placeholder is used when not in search mode and the user's default search
