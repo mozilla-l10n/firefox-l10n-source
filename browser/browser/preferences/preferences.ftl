@@ -915,6 +915,14 @@ sync-choose-what-to-sync-dialog =
     .buttonlabelextra2 = Disconnect…
     .buttonaccesskeyextra2 = D
 
+sync-choose-what-to-sync-dialog2 =
+    .title = Choose What To Sync
+    .style = min-width: 36em; min-height: 35em;
+    .buttonlabelaccept = Save Changes
+    .buttonaccesskeyaccept = S
+    .buttonlabelextra2 = Disconnect…
+    .buttonaccesskeyextra2 = D
+
 sync-engine-bookmarks =
     .label = Bookmarks
     .accesskey = m

@@ -17,6 +17,9 @@ fxa-qrcode-heading-step4 = 4. Scan this code:
 fxa-pair-device-dialog-sync =
     .style = width: 32em;
 
+fxa-pair-device-dialog-sync2 =
+    .style = min-width: 32em;
+
 fxa-qrcode-pair-title = Sync { -brand-product-name } on your phone or tablet
 fxa-qrcode-pair-step1 = 1. Open { -brand-product-name } on your mobile device.
 
