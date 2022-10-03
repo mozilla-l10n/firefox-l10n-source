@@ -6,6 +6,9 @@ cookies-window-dialog =
     .title = Cookies
     .style = width: 36em;
 
+cookies-window-dialog2 =
+    .title = Cookies
+
 window-close-key =
     .key = w
 
