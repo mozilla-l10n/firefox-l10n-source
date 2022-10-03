@@ -4,6 +4,7 @@
 
 permissions-reminder-window =
     .title = Exceptions
+    .style = width: 45em;
 
 permission-preferences-close-window =
     .key = w
