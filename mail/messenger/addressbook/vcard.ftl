@@ -95,8 +95,6 @@ vcard-tz-add = Add time zone
 
 # IMPP vCard field
 
-vcard-impp-header = Chat Accounts
-
 vcard-impp2-header = Instant Messaging
 
 vcard-impp-add = Add chat account
