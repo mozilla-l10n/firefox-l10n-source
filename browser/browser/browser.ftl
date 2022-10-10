@@ -80,8 +80,6 @@ browser-main-window-mac-window-titles =
 # `browser-main-window` and `browser-main-window-mac`.
 browser-main-window-title = { -brand-full-name }
 
-private-browsing-shortcut-text = { -brand-short-name } Private Browsing
-
 private-browsing-shortcut-text-2 = { -brand-shortcut-name } Private Browsing
 
 ##
@@ -288,8 +286,6 @@ search-one-offs-actions =
 
 # Opens the about:addons page in the home / recommendations section
 quickactions-addons = View Add-ons
-quickactions-cmd-addons = add-ons, extensions, themes
-
 quickactions-cmd-addons2 = add-ons
 
 # Opens the bookmarks library window
