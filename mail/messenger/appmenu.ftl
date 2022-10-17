@@ -83,13 +83,6 @@ appmenu-create-contact =
 
 ## Open
 
-appmenu-open-panel =
-  .label = Open
-  .accesskey = O
-
-appmenu-open-panel-title =
-  .title = Open
-
 appmenu-open-file-panel =
   .label = Open from File
   .accesskey = O
