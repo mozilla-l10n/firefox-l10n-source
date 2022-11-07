@@ -50,3 +50,8 @@ toolbox-always-on-top-enabled =
   .title = Disable always on top (This will restart the Developer Tools)
 toolbox-always-on-top-disabled =
   .title = Enable always on top (This will restart the Developer Tools)
+
+toolbox-always-on-top-enabled2 = Disable always on top
+  .title = This will restart the Developer Tools
+toolbox-always-on-top-disabled2 = Enable always on top
+  .title = This will restart the Developer Tools
