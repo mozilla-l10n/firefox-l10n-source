@@ -138,6 +138,9 @@ places-library2 =
   .title = Library
   .style = min-width:700px; min-height:500px;
 
+places-library3 =
+  .title = Library
+
 places-organize-button =
   .label = Organize
   .tooltiptext = Organize your bookmarks
