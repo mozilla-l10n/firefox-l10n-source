@@ -61,6 +61,10 @@ import-from-360se =
     .label = 360 Secure Browser
     .accesskey = 3
 
+import-from-opera-gx =
+    .label = Opera GX
+    .accesskey = G
+
 no-migration-sources = No programs that contain bookmarks, history or password data could be found.
 
 import-source-page-title = Import Settings and Data
