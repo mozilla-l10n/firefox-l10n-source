@@ -299,6 +299,9 @@ quickactions-cmd-addons2 = add-ons
 
 # Opens the bookmarks library window
 quickactions-bookmarks = View Bookmarks
+
+# Opens the bookmarks library window
+quickactions-bookmarks2 = Manage bookmarks
 quickactions-cmd-bookmarks = bookmarks
 
 # Opens a SUMO article explaining how to clear history
@@ -307,6 +310,9 @@ quickactions-cmd-clearhistory = clear history
 
 # Opens about:downloads page
 quickactions-downloads = Open Downloads
+
+# Opens about:downloads page
+quickactions-downloads2 = View downloads
 quickactions-cmd-downloads = downloads
 
 # Opens about:addons page in the extensions section
@@ -315,10 +321,16 @@ quickactions-cmd-extensions = extensions
 
 # Opens the devtools web inspector
 quickactions-inspector = Open Inspector
+
+# Opens the devtools web inspector
+quickactions-inspector2 = Open Developer Tools
 quickactions-cmd-inspector = inspector, devtools
 
 # Opens about:logins
 quickactions-logins = View Logins
+
+# Opens about:logins
+quickactions-logins2 = Manage passwords
 quickactions-cmd-logins = logins, passwords
 
 # Opens about:addons page in the plugins section
@@ -327,10 +339,16 @@ quickactions-cmd-plugins = plugins
 
 # Opens the print dialog
 quickactions-print = Print
+
+# Opens the print dialog
+quickactions-print2 = Print page
 quickactions-cmd-print = print
 
 # Opens a new private browsing window
 quickactions-private = Open Private Browsing Window
+
+# Opens a new private browsing window
+quickactions-private2 = Open private window
 quickactions-cmd-private = private browsing
 
 # Opens a SUMO article explaining how to refresh
@@ -343,10 +361,16 @@ quickactions-cmd-restart = restart
 
 # Opens the screenshot tool
 quickactions-screenshot2 = Take a Screenshot
+
+# Opens the screenshot tool
+quickactions-screenshot3 = Take a screenshot
 quickactions-cmd-screenshot = screenshot
 
 # Opens about:preferences
 quickactions-settings = Open Settings
+
+# Opens about:preferences
+quickactions-settings2 = Manage settings
 quickactions-cmd-settings = settings, preferences, options
 
 # Opens about:addons page in the themes section
@@ -359,6 +383,9 @@ quickactions-cmd-update = update
 
 # Opens the view-source UI with current pages source
 quickactions-viewsource = View Source
+
+# Opens the view-source UI with current pages source
+quickactions-viewsource2 = View Page Source
 quickactions-cmd-viewsource = view source, source
 
 # Tooltip text for the help button shown in the result.
