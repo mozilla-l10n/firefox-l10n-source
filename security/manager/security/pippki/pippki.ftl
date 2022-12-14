@@ -86,3 +86,9 @@ protected-auth-window =
   .title = Protected Token Authentication
 protected-auth-msg = Please authenticate to the token. Authentication method depends on the type of your token.
 protected-auth-token = Token:
+
+## Protected authentication alert
+
+# Variables:
+# $tokenName (String) - The name of the token to authenticate to (for example, "OS Client Cert Token (Modern)")
+protected-auth-alert = Please authenticate to the token “{ $tokenName }”. How to do so depends on the token (for example, using a fingerprint reader or entering a code with a keypad).
