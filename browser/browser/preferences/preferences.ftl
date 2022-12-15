@@ -1248,6 +1248,8 @@ content-blocking-etp-standard-tcp-rollout-checkbox =
   .label = Test pilot our most powerful privacy feature ever
   .accesskey = T
 
+# The tcp-rollout strings are no longer used for the rollout but for tcp-by-default in the standard section
+
 # "Contains" here means "isolates", "limits".
 content-blocking-etp-standard-tcp-rollout-description = Total Cookie Protection contains cookies to the site you’re on, so trackers can’t use them to follow you between sites.
 content-blocking-etp-standard-tcp-rollout-learn-more = Learn more
