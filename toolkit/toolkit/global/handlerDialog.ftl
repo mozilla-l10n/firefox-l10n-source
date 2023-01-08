@@ -8,6 +8,13 @@
 ##  $scheme - the type of link that's being opened.
 ##  $appName - Name of the application that will be opened.
 
+## Permission Dialog
+## Variables:
+##  $host - the hostname that is initiating the request
+##  $scheme - the type of link that's being opened.
+##  $appName - Name of the application that will be opened.
+##  $extension - Name of extension that initiated the request
+
 permission-dialog-description =
   Allow this site to open the { $scheme } link?
 
@@ -16,6 +23,9 @@ permission-dialog-description-file =
 
 permission-dialog-description-host =
   Allow { $host } to open the { $scheme } link?
+
+permission-dialog-description-extension =
+  Allow the extension { $extension } to open the { $scheme } link?
 
 permission-dialog-description-app =
   Allow this site to open the { $scheme } link with { $appName }?
@@ -26,6 +36,9 @@ permission-dialog-description-host-app =
 permission-dialog-description-file-app =
   Allow this file to open the { $scheme } link with { $appName }?
 
+permission-dialog-description-extension-app =
+  Allow the extension { $extension } to open the { $scheme } link with { $appName }?
+
 ## Please keep the emphasis around the hostname and scheme (ie the
 ## `<strong>` HTML tags). Please also keep the hostname as close to the start
 ## of the sentence as your language's grammar allows.
@@ -35,6 +48,9 @@ permission-dialog-remember =
 
 permission-dialog-remember-file =
   Always allow this file to open <strong>{ $scheme }</strong> links
+
+permission-dialog-remember-extension =
+  Always allow this extension to open <strong>{ $scheme }</strong> links
 
 ##
 
