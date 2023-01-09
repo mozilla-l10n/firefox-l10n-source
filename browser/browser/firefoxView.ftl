@@ -94,7 +94,6 @@ firefoxview-tabs-list-tab-button =
   .title = Open { $targetURI } in a new tab
 
 firefoxview-try-colorways-button = Try colorways
-firefoxview-no-current-colorway-collection = New colorways are on the way
 firefoxview-change-colorway-button = Change colorway
 
 # Variables:

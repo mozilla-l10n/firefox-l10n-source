@@ -165,11 +165,6 @@ spotlight-total-cookie-protection-expanded = { -brand-short-name } builds a fenc
 spotlight-total-cookie-protection-primary-button = Turn on Total Cookie Protection
 spotlight-total-cookie-protection-secondary-button = Not now
 
-cfr-total-cookie-protection-header = Thanks to you, { -brand-short-name } is more private and secure than ever
-# "Early access" for this feature rollout means it's a "feature preview" or
-# "soft launch". Only those who received it and accepted are shown this message.
-cfr-total-cookie-protection-body = Total Cookie Protection is our strongest privacy protection yet – and it’s now a default setting for { -brand-short-name } users everywhere. We couldn’t have done it without early access participants like you. So thanks for helping us create a better, more private internet.
-
 ## Emotive Continuous Onboarding
 
 spotlight-better-internet-header = A better internet starts with you
@@ -216,9 +211,6 @@ firefoxview-cfr-primarybutton = Try it
   .accesskey = T
 firefoxview-cfr-secondarybutton = Not now
   .accesskey = N
-firefoxview-cfr-header = Get recently closed tabs back with { -firefoxview-brand-name }
-firefoxview-cfr-body = Plus seamlessly hop between devices and add a splash of color to your browser.
-
 firefoxview-cfr-header-v2 = Quickly pick up where you left off
 firefoxview-cfr-body-v2 = Get recently closed tabs back, plus seamlessly hop between devices with { -firefoxview-brand-name }.
 

@@ -99,12 +99,11 @@ permissions-invalid-uri-label = Please enter a valid hostname
 permissions-exceptions-etp-window =
     .title = Exceptions for Enhanced Tracking Protection
     .style = { permissions-window.style }
+permissions-exceptions-etp-desc = You’ve turned off protections on these websites.
 
 permissions-exceptions-etp-window2 =
     .title = Exceptions for Enhanced Tracking Protection
     .style = { permissions-window2.style }
-permissions-exceptions-etp-desc = You’ve turned off protections on these websites.
-
 permissions-exceptions-manage-etp-desc = You can specify which websites have Enhanced Tracking Protection turned off. Type the exact address of the site you want to manage and then click Add Exception.
 
 ## Exceptions - Cookies
