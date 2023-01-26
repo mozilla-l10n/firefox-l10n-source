@@ -767,6 +767,11 @@ bookmarks-other-bookmarks-menu =
   .label = Other bookmarks
 bookmarks-mobile-bookmarks-menu =
   .label = Mobile bookmarks
+
+## Variables:
+##   $isVisible (boolean): if the specific element (e.g. bookmarks sidebar,
+##                         bookmarks toolbar, etc.) is visible or not.
+
 bookmarks-tools-sidebar-visibility =
   .label = { $isVisible ->
      [true] Hide bookmarks sidebar
@@ -787,6 +792,9 @@ bookmarks-tools-menu-button-visibility =
      [true] Remove bookmarks menu from toolbar
     *[other] Add bookmarks menu to toolbar
   }
+
+##
+
 bookmarks-search =
   .label = Search bookmarks
 bookmarks-tools =
