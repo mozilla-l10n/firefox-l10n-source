@@ -35,6 +35,7 @@ experimental-features-cookie-samesite-lax-by-default2 =
     .label = Cookies: SameSite=Lax by default
 experimental-features-cookie-samesite-lax-by-default2-description = Treat cookies as “SameSite=Lax” by default if no “SameSite” attribute is specified. Developers must opt-in to the current status quo of unrestricted use by explicitly asserting “SameSite=None”.
 
+
 # Do not translate 'SameSite', 'Lax' and 'None'.
 experimental-features-cookie-samesite-none-requires-secure2 =
     .label = Cookies: SameSite=None requires secure attribute
