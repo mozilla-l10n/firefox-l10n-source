@@ -149,7 +149,6 @@ urlbar-tip-icon-description =
 
 urlbar-result-menu-button =
     .title = Open menu
-
 urlbar-result-menu-remove-from-history =
     .label = Remove from history
     .accesskey = R

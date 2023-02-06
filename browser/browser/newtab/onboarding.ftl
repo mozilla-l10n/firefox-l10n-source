@@ -43,9 +43,6 @@ onboarding-welcome-steps-indicator =
 #   $current (Int) - Number of the current page
 #   $total (Int) - Total number of pages
 
-onboarding-welcome-steps-indicator2 =
-  .aria-valuetext = Progress: step { $current } of { $total }
-
 onboarding-welcome-steps-indicator-label =
   .aria-label = Progress: step { $current } of { $total }
 

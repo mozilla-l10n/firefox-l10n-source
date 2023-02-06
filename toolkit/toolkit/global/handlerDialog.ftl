@@ -7,12 +7,6 @@
 ##  $host - the hostname that is initiating the request
 ##  $scheme - the type of link that's being opened.
 ##  $appName - Name of the application that will be opened.
-
-## Permission Dialog
-## Variables:
-##  $host - the hostname that is initiating the request
-##  $scheme - the type of link that's being opened.
-##  $appName - Name of the application that will be opened.
 ##  $extension - Name of extension that initiated the request
 
 ## Permission Dialog

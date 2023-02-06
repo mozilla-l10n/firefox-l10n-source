@@ -22,7 +22,6 @@
 about-logging-title = About Logging
 about-logging-page-title = Logging manager
 about-logging-current-log-file = Current log file:
-about-logging-current-log-modules = Current Log Modules:
 about-logging-new-log-file = New log file:
 about-logging-currently-enabled-log-modules = Currently enabled log modules:
 about-logging-log-tutorial =
