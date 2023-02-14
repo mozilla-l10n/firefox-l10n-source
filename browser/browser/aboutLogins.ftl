@@ -10,6 +10,10 @@ login-filter =
 
 create-login-button = Create New Login
 
+about-logins-login-filter =
+  .placeholder = Search Logins
+  .key = F
+
 create-new-login-button =
   .title = Create new login
 
