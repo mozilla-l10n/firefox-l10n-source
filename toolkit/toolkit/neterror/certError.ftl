@@ -112,13 +112,14 @@ dns-not-found-trr-only-title =
   Possible security risk for { $hostname }.
 
 # Variables:
-dns-not-found-trr-only-title2 =
-  Possible security risk looking up this domain
-
-# Variables:
 #   $hostname (string) - Hostname of the website to which the user was trying to connect.
 dns-not-found-native-fallback-title =
   Possible security risk for { $hostname }.
+
+dns-not-found-trr-only-title2 =
+  Possible security risk looking up this domain
+dns-not-found-native-fallback-title2 =
+  Possible security risk looking up this domain
 
 fileNotFound-title = File not found
 fileAccessDenied-title = Access to the file was denied
