@@ -12,6 +12,19 @@ onboarding-welcome-header = Welcome to { -brand-short-name }
 onboarding-start-browsing-button-label = Start Browsing
 onboarding-not-now-button-label = Not now
 
+mr1-onboarding-get-started-primary-button-label = Get started
+
+mr1-onboarding-welcome-header = Welcome to { -brand-short-name }
+mr1-onboarding-set-default-pin-primary-button-label =
+  Make { -brand-short-name } my primary browser
+    .title = Sets { -brand-short-name } as default browser and pins to taskbar
+
+# This string will be used on welcome page primary button label
+# when Firefox is not default but already pinned
+mr1-onboarding-set-default-only-primary-button-label =
+  Make { -brand-short-name } my default browser
+mr1-onboarding-set-default-secondary-button-label = Not now
+
 ## Custom Return To AMO onboarding strings
 
 return-to-amo-subtitle = Great, you’ve got { -brand-short-name }
@@ -83,20 +96,7 @@ mr1-onboarding-pin-primary-button-label = { PLATFORM() ->
 
 ## Multistage MR1 onboarding strings (about:welcome pages)
 
-# This string will be used on welcome page primary button label
-# when Firefox is both pinned and default
-mr1-onboarding-get-started-primary-button-label = Get started
-
-mr1-onboarding-welcome-header = Welcome to { -brand-short-name }
-mr1-onboarding-set-default-pin-primary-button-label =
-  Make { -brand-short-name } my primary browser
-    .title = Sets { -brand-short-name } as default browser and pins to taskbar
-
-# This string will be used on welcome page primary button label
-# when Firefox is not default but already pinned
-mr1-onboarding-set-default-only-primary-button-label =
-  Make { -brand-short-name } my default browser
-mr1-onboarding-set-default-secondary-button-label = Not now
+# String for the Firefox Accounts button
 mr1-onboarding-sign-in-button-label = Sign in
 
 ## Title, subtitle and primary button string used on set default onboarding screen
