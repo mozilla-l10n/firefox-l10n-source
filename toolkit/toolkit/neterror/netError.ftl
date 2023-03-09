@@ -77,6 +77,8 @@ neterror-dns-not-found-native-fallback-attackers = You can continue with a DNS r
 neterror-dns-not-found-native-fallback-heuristic = DNS over HTTPS has been disabled on your network.
 neterror-dns-not-found-native-fallback-not-confirmed = The connection to { $trrDomain } isn’t ready yet.
 
+neterror-dns-not-found-native-fallback-not-confirmed2 = { -brand-short-name } wasn’t able to connect to { $trrDomain }.
+
 ##
 
 neterror-file-not-found-filename = Check the file name for capitalization or other typing errors.
