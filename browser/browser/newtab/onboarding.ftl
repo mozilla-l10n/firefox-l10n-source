@@ -51,14 +51,6 @@ mr1-return-to-amo-add-extension-label = Add { $addon-name }
 onboarding-welcome-steps-indicator =
   .aria-label = Getting started: screen { $current } of { $total }
 
-# Aria-label to make the "steps" of multistage onboarding visible to screen readers.
-# Variables:
-#   $current (Int) - Number of the current page
-#   $total (Int) - Total number of pages
-
-onboarding-welcome-steps-indicator-label =
-  .aria-label = Progress: step { $current } of { $total }
-
 # "Hero Text" displayed on left side of welcome screen.
 # The "Fire" in "Fire starts here" plays on the "Fire" in "Firefox".
 # It also signals the passion users bring to Firefox, how they use
@@ -75,6 +67,14 @@ mr1-welcome-screen-hero-text =
 # In case your language needs to adapt the nouns to a gender, Soraya is a female name (she/her).
 # You can see the picture in about:welcome in Nightly 90.
 mr1-onboarding-welcome-image-caption = Soraya Osorio — Furniture designer, Firefox fan
+
+# Aria-label to make the "steps" of multistage onboarding visible to screen readers.
+# Variables:
+#   $current (Int) - Number of the current page
+#   $total (Int) - Total number of pages
+
+onboarding-welcome-steps-indicator-label =
+  .aria-label = Progress: step { $current } of { $total }
 
 # This button will open system settings to turn on prefers-reduced-motion
 mr1-onboarding-reduce-motion-button-label = Turn off animations
