@@ -75,6 +75,8 @@ policy-DisablePasswordReveal = Do not allow passwords to be revealed in saved lo
 
 policy-DisablePocket = Disable the feature to save webpages to Pocket.
 
+policy-DisablePocket2 = Disable the feature to save webpages to { -pocket-brand-name }.
+
 policy-DisablePrivateBrowsing = Disable Private Browsing.
 
 policy-DisableProfileImport = Disable the menu command to Import data from another browser.
