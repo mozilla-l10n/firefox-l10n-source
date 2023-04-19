@@ -31,6 +31,8 @@ update-otherInstanceHandlingUpdates = { -brand-short-name } is being updated by 
 
 update-manual = Updates available at <label data-l10n-name="manual-link"/>
 
+aboutdialog-update-manual = Updates available at <a data-l10n-name="manual-link"/>
+
 update-unsupported = You can not perform further updates on this system. <label data-l10n-name="unsupported-link">Learn more</label>
 
 update-restarting = Restarting…
