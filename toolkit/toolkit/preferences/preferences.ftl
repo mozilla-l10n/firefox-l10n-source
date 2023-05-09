@@ -13,6 +13,9 @@ pp-empty-warning = Your stored passwords and private keys will not be protected.
 pp-erased-ok = You have deleted your Primary Password. { pp-empty-warning }
 pp-not-wanted = Warning! You have decided not to use a Primary Password. { pp-empty-warning }
 
+settings-pp-erased-ok = You have deleted your Primary Password. Stored passwords and certificate private keys managed by { -brand-short-name } will not be protected.
+settings-pp-not-wanted = Warning! You have decided not to use a Primary Password. Stored passwords and certificate private keys managed by { -brand-short-name } will not be protected.
+
 pp-change2empty-in-fips-mode = You are currently in FIPS mode. FIPS requires a non-empty Primary Password.
 pw-change-success-title = Password Change Succeeded
 pw-change-failed-title = Password Change Failed
