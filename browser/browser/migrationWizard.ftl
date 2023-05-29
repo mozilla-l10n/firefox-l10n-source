@@ -114,7 +114,6 @@ migration-choose-to-import-from-file-button-label = Import From File
 migration-import-from-file-button-label = Select File
 migration-cancel-button-label = Cancel
 migration-done-button-label = Done
-
 migration-continue-button-label = Continue
 
 migration-wizard-import-browser-no-browsers = { -brand-short-name } couldn’t find any programs that contain bookmark, history or password data.
@@ -218,4 +217,3 @@ migration-wizard-progress-success-payment-methods =
 migration-wizard-safari-permissions-sub-header = To import Safari bookmarks and browsing history:
 migration-wizard-safari-instructions-continue = Select “Continue”
 migration-wizard-safari-instructions-folder = Select Safari folder in the list and choose “Open”
-migration-wizard-safari-select-button = Select File
