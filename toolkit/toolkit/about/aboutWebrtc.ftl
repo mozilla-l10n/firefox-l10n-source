@@ -92,6 +92,8 @@ about-webrtc-log-show-msg = show log
 about-webrtc-log-hide-msg = hide log
     .title = click to collapse this section
 
+about-webrtc-copy-report-button = Copy Report
+
 ## These are used to display a header for a PeerConnection.
 ## Variables:
 ##  $browser-id (Number) - A numeric id identifying the browser tab for the PeerConnection.
