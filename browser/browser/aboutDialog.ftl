@@ -16,6 +16,7 @@ update-updateButton =
     .accesskey = R
 
 update-checkingForUpdates = Checking for updates…
+
 update-downloading = <img data-l10n-name="icon"/>Downloading update — <label data-l10n-name="download-status"/>
 update-downloading-message = Downloading update — <label data-l10n-name="download-status"/>
 
