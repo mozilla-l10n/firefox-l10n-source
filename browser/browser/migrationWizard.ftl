@@ -119,6 +119,8 @@ migration-bookmarks-from-file-progress-header = Importing Bookmarks
 migration-bookmarks-from-file = Bookmarks
 migration-bookmarks-from-file-success-header = Bookmarks Imported Successfully
 
+migration-bookmarks-from-file-no-valid-data = The file doesn’t include any bookmark data. Pick another file.
+
 # A description for the .html file format that may be shown as the file type
 # filter by the operating system.
 migration-bookmarks-from-file-html-filter-title =
