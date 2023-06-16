@@ -938,6 +938,13 @@ prefs-sync-now =
     .accesskeynotsyncing = N
     .labelsyncing = Syncing…
 
+prefs-sync-now-button =
+    .label = Sync Now
+    .accesskey = N
+
+prefs-syncing-button =
+    .label = Syncing…
+
 ## The list of things currently syncing.
 
 sync-currently-syncing-heading = You are currently syncing these items:
