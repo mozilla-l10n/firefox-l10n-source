@@ -23,6 +23,14 @@ pictureinpicture-close =
 ## Variables:
 ##   $shortcut (String) - Keyboard shortcut to execute the command.
 
+## Note that this uses .tooltip rather than the standard '.title'
+## or '.tooltiptext' -  but it has the same effect. Code in the
+## picture-in-picture window will read and copy this to an in-document
+## DOM node that then shows the tooltip.
+##
+## Variables:
+##   $shortcut (String) - Keyboard shortcut to execute the command.
+
 pictureinpicture-pause-btn =
   .aria-label = Pause
   .tooltip = Pause (Spacebar)
@@ -71,6 +79,11 @@ pictureinpicture-exit-fullscreen-btn =
 pictureinpicture-toggle-fullscreen-shortcut =
   .key = F
 
+## Note that this uses .tooltip rather than the standard '.title'
+## or '.tooltiptext' -  but it has the same effect. Code in the
+## picture-in-picture window will read and copy this to an in-document
+## DOM node that then shows the tooltip.
+
 pictureinpicture-seekbackward-btn =
   .aria-label = Backward
   .tooltip = Backward (←)
@@ -78,6 +91,8 @@ pictureinpicture-seekbackward-btn =
 pictureinpicture-seekforward-btn =
   .aria-label = Forward
   .tooltip = Forward (→)
+
+##
 
 # This string is never displayed on the window. Is intended to be announced by
 # a screen reader whenever a user opens the subtitles settings panel
