@@ -77,6 +77,8 @@ migration-passwords-from-file = Checking file for passwords
 migration-passwords-new = New passwords
 migration-passwords-updated = Existing passwords
 
+migration-passwords-from-file-no-valid-data = The file doesn’t include any valid password data. Pick another file.
+
 migration-passwords-from-file-picker-title = Import Passwords File
 # A description for the .csv file format that may be shown as the file type
 # filter by the operating system.
