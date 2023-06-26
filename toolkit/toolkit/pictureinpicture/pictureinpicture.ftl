@@ -67,14 +67,6 @@ pictureinpicture-exit-fullscreen-btn2 =
 
 ##
 
-pictureinpicture-fullscreen-btn =
-  .aria-label = Fullscreen
-  .tooltip = Fullscreen (double-click)
-
-pictureinpicture-exit-fullscreen-btn =
-  .aria-label = Exit fullscreen
-  .tooltip = Exit fullscreen (double-click)
-
 # Keyboard shortcut to toggle fullscreen mode when Picture-in-Picture is open.
 pictureinpicture-toggle-fullscreen-shortcut =
   .key = F

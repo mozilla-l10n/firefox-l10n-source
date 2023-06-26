@@ -64,7 +64,6 @@ migration-logins-and-passwords-option-label = Saved logins and passwords
 migration-history-option-label = Browsing history
 migration-extensions-option-label = Extensions
 migration-form-autofill-option-label = Form autofill data
-
 migration-payment-methods-option-label = Payment methods
 
 migration-cookies-option-label = Cookies
@@ -172,7 +171,6 @@ migration-list-password-label = passwords
 migration-list-history-label = history
 migration-list-extensions-label = extensions
 migration-list-autofill-label = autofill data
-
 migration-list-payment-methods-label = payment methods
 
 ##
