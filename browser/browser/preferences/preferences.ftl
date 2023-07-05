@@ -85,16 +85,6 @@ restart-later = Restart Later
 ## <img data-l10n-name="icon"/> is going to be replaced by the extension icon.
 ##
 ## Variables:
-##   $name (String): name of the extension
-
-## Extension Control Notifications
-##
-## These strings are used to inform the user
-## about changes made by extensions to browser settings.
-##
-## <img data-l10n-name="icon"/> is going to be replaced by the extension icon.
-##
-## Variables:
 ##   $name (string) - Name of the extension
 
 # This string is shown to notify the user that the password manager setting
@@ -252,17 +242,9 @@ preferences-web-appearance-header = Website appearance
 
 preferences-web-appearance-description = Some websites adapt their color scheme based on your preferences. Choose which color scheme you’d like to use for those sites.
 
-preferences-web-appearance-choice-browser = { -brand-short-name } theme
-preferences-web-appearance-choice-system = System theme
-
 preferences-web-appearance-choice-auto = Automatic
 preferences-web-appearance-choice-light = Light
 preferences-web-appearance-choice-dark = Dark
-
-preferences-web-appearance-choice-tooltip-browser =
-  .title = Match your { -brand-short-name } theme settings for website backgrounds and content.
-preferences-web-appearance-choice-tooltip-system =
-  .title = Match your system settings for website backgrounds and content.
 
 preferences-web-appearance-choice-tooltip-auto =
   .title = Automatically change website backgrounds and content based on your system settings and { -brand-short-name } theme.
@@ -270,12 +252,6 @@ preferences-web-appearance-choice-tooltip-light =
   .title = Use a light appearance for website backgrounds and content.
 preferences-web-appearance-choice-tooltip-dark =
   .title = Use a dark appearance for website backgrounds and content.
-
-preferences-web-appearance-choice-input-browser =
-  .aria-description = { preferences-web-appearance-choice-tooltip-browser.title }
-
-preferences-web-appearance-choice-input-system =
-  .aria-description = { preferences-web-appearance-choice-tooltip-system.title }
 
 preferences-web-appearance-choice-input-auto =
   .aria-description = { preferences-web-appearance-choice-tooltip-auto.title }
@@ -668,11 +644,6 @@ home-restore-defaults =
     .label = Restore Defaults
     .accesskey = R
 
-# "Firefox" should be treated as a brand and kept in English,
-# while "Home" and "(Default)" can be localized.
-home-mode-choice-default =
-    .label = Firefox Home (Default)
-
 home-mode-choice-default-fx =
     .label = { -firefox-home-brand-name } (Default)
 
@@ -703,9 +674,6 @@ choose-bookmark =
 
 ## Home Section - Firefox Home Content Customization
 
-home-prefs-content-header = Firefox Home Content
-home-prefs-content-description = Choose what content you want on your Firefox Home screen.
-
 home-prefs-content-header2 = { -firefox-home-brand-name } Content
 home-prefs-content-description2 = Choose what content you want on your { -firefox-home-brand-name } screen.
 
@@ -716,9 +684,6 @@ home-prefs-shortcuts-header =
 home-prefs-shortcuts-description = Sites you save or visit
 home-prefs-shortcuts-by-option-sponsored =
     .label = Sponsored shortcuts
-
-## Variables:
-##  $provider (String): Name of the corresponding content provider, e.g "Pocket".
 
 ## Variables:
 ##  $provider (string) - Name of the corresponding content provider, e.g "Pocket".
@@ -732,7 +697,6 @@ home-prefs-recommended-by-description-new = Exceptional content curated by { $pr
 home-prefs-recommended-by-learn-more = How it works
 home-prefs-recommended-by-option-sponsored-stories =
     .label = Sponsored Stories
-
 home-prefs-recommended-by-option-recent-saves =
     .label = Show Recent Saves
 
@@ -864,9 +828,6 @@ containers-settings-button =
 containers-remove-button =
     .label = Remove
 
-## Firefox Account - Signed out. Note that "Sync" and "Firefox Account" are now
-## more discrete ("signed in" no longer means "and sync is connected").
-
 ## Firefox account - Signed out. Note that "Sync" and "Firefox account" are now
 ## more discrete ("signed in" no longer means "and sync is connected").
 
@@ -886,8 +847,6 @@ sync-signedout-account-signin3 =
 # They can be moved within the sentence as needed to adapt
 # to your language, but should not be changed or translated.
 sync-mobile-promo = Download Firefox for <img data-l10n-name="android-icon"/> <a data-l10n-name="android-link">Android</a> or <img data-l10n-name="ios-icon"/> <a data-l10n-name="ios-link">iOS</a> to sync with your mobile device.
-
-## Firefox Account - Signed in
 
 ## Firefox account - Signed in
 
@@ -947,8 +906,6 @@ prefs-syncing-button =
 
 ## The list of things currently syncing.
 
-sync-currently-syncing-heading = You are currently syncing these items:
-
 sync-syncing-across-devices-heading = You are syncing these items across all your connected devices:
 
 sync-currently-syncing-bookmarks = Bookmarks
@@ -965,14 +922,6 @@ sync-change-options =
     .accesskey = C
 
 ## The "Choose what to sync" dialog.
-
-sync-choose-what-to-sync-dialog =
-    .title = Choose What To Sync
-    .style = width: 36em; min-height: 35em;
-    .buttonlabelaccept = Save Changes
-    .buttonaccesskeyaccept = S
-    .buttonlabelextra2 = Disconnect…
-    .buttonaccesskeyextra2 = D
 
 sync-choose-what-to-sync-dialog3 =
     .title = Choose What To Sync
@@ -1074,7 +1023,6 @@ forms-breach-alerts =
     .label = Show alerts about passwords for breached websites
     .accesskey = b
 forms-breach-alerts-learn-more-link = Learn more
-
 preferences-relay-integration-checkbox =
     .label = Suggest { -relay-brand-name } email masks to protect your email address
 relay-integration-learn-more-link = Learn more
@@ -1213,8 +1161,6 @@ sitedata-option-block-cross-site-cookies =
     .label = Cross-site tracking cookies, and isolate other cross-site cookies
 sitedata-option-block-unvisited =
     .label = Cookies from unvisited websites
-sitedata-option-block-all-third-party =
-    .label = All third-party cookies (may cause websites to break)
 sitedata-option-block-all-cross-site-cookies =
     .label = All cross-site cookies (may cause websites to break)
 sitedata-option-block-all =
@@ -1265,7 +1211,6 @@ addressbar-locbar-topsites-option =
 addressbar-locbar-engines-option =
     .label = Search engines
     .accesskey = a
-
 addressbar-locbar-quickactions-option =
     .label = Quick actions
     .accesskey = Q
@@ -1306,7 +1251,6 @@ content-blocking-etp-custom-desc = Choose which trackers and scripts to block.
 content-blocking-etp-blocking-desc = { -brand-short-name } blocks the following:
 
 content-blocking-private-windows = Tracking content in Private Windows
-content-blocking-cross-site-cookies-in-all-windows = Cross-site cookies in all windows (includes tracking cookies)
 content-blocking-cross-site-cookies-in-all-windows2 = Cross-site cookies in all windows
 content-blocking-cross-site-tracking-cookies = Cross-site tracking cookies
 content-blocking-all-cross-site-cookies-private-windows = Cross-site cookies in Private Windows
@@ -1315,16 +1259,9 @@ content-blocking-social-media-trackers = Social media trackers
 content-blocking-all-cookies = All cookies
 content-blocking-unvisited-cookies = Cookies from unvisited sites
 content-blocking-all-windows-tracking-content = Tracking content in all windows
-content-blocking-all-third-party-cookies = All third-party cookies
 content-blocking-all-cross-site-cookies = All cross-site cookies
 content-blocking-cryptominers = Cryptominers
 content-blocking-fingerprinters = Fingerprinters
-
-# "Test pilot" is used as a verb. Possible alternatives:
-# "Be the first to try", "Join an early experiment".
-content-blocking-etp-standard-tcp-rollout-checkbox =
-  .label = Test pilot our most powerful privacy feature ever
-  .accesskey = T
 
 # The tcp-rollout strings are no longer used for the rollout but for tcp-by-default in the standard section
 

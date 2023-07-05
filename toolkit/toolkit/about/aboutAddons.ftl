@@ -8,9 +8,6 @@ search-header =
     .placeholder = Search addons.mozilla.org
     .searchbuttonlabel = Search
 
-search-header-shortcut =
-    .key = f
-
 ## Variables
 ##   $domain - Domain name where add-ons are available (e.g. addons.mozilla.org)
 
@@ -202,7 +199,6 @@ addon-category-recent-updates-title =
 addon-category-sitepermission = Site Permissions
 addon-category-sitepermission-title =
     .title = Site Permissions
-
 # String displayed in about:addons in the Site Permissions section
 # Variables:
 #  $host (string) - DNS host name for which the webextension enables permissions
@@ -373,10 +369,6 @@ extension-enabled-heading = Enabled
 extension-disabled-heading = Disabled
 
 theme-enabled-heading = Enabled
-theme-disabled-heading = Disabled
-theme-monochromatic-heading = Colorways
-theme-monochromatic-subheading = Vibrant new colorways from { -brand-product-name }. Available for a limited time.
-
 theme-disabled-heading2 = Saved Themes
 
 plugin-enabled-heading = Enabled
@@ -531,16 +523,11 @@ addon-page-options-button =
 
 ## Detail notifications
 ## Variables:
-##   $name (String): name of the add-on.
-
-## Detail notifications
-## Variables:
 ##   $name (string) - Name of the add-on.
 
 # Variables:
 #   $version (string) - Application version.
 details-notification-incompatible = { $name } is incompatible with { -brand-short-name } { $version }.
-
 details-notification-incompatible-link = More Information
 
 details-notification-unsigned-and-disabled = { $name } could not be verified for use in { -brand-short-name } and has been disabled.

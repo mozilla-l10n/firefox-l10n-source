@@ -9,10 +9,6 @@ failed-pp-change = Unable to change Primary Password.
 incorrect-pp = You did not enter the correct current Primary Password. Please try again.
 pp-change-ok = Primary Password successfully changed.
 
-pp-empty-warning = Your stored passwords and private keys will not be protected.
-pp-erased-ok = You have deleted your Primary Password. { pp-empty-warning }
-pp-not-wanted = Warning! You have decided not to use a Primary Password. { pp-empty-warning }
-
 settings-pp-erased-ok = You have deleted your Primary Password. Stored passwords and certificate private keys managed by { -brand-short-name } will not be protected.
 settings-pp-not-wanted = Warning! You have decided not to use a Primary Password. Stored passwords and certificate private keys managed by { -brand-short-name } will not be protected.
 

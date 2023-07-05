@@ -36,11 +36,6 @@ third-party-tag-background = Background
     .title =
         This module did not block the application because it was loaded
         in the background.
-third-party-unsigned-icon =
-    .title = This module is not signed
-third-party-warning-icon =
-    .title = { -brand-short-name } crashed in code from this module
-
 third-party-icon-unsigned =
     .title = This module is not signed
     .alt = This module is not signed

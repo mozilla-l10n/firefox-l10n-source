@@ -219,8 +219,6 @@ menu-history-undo-menu =
     .label = Recently Closed Tabs
 menu-history-undo-window-menu =
     .label = Recently Closed Windows
-menu-history-reopen-all-tabs = Reopen All Tabs
-menu-history-reopen-all-windows = Reopen All Windows
 
 ## Bookmarks Menu
 
@@ -229,10 +227,6 @@ menu-bookmarks-menu =
     .accesskey = B
 menu-bookmarks-manage =
     .label = Manage Bookmarks
-menu-bookmark-current-tab =
-    .label = Bookmark Current Tab
-menu-bookmark-edit =
-    .label = Edit This Bookmark
 menu-bookmark-tab =
     .label = Bookmark Current Tab…
 menu-edit-bookmark =

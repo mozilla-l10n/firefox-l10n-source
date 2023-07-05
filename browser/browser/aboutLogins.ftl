@@ -5,11 +5,6 @@
 
 about-logins-page-title = Logins & Passwords
 
-login-filter =
-  .placeholder = Search Logins
-
-create-login-button = Create New Login
-
 about-logins-login-filter =
   .placeholder = Search Logins
   .key = F
@@ -116,9 +111,6 @@ login-item-copied-password-button-text = Copied!
 login-item-save-changes-button = Save Changes
 login-item-save-new-button = Save
 login-item-cancel-button = Cancel
-login-item-time-changed = Last modified: { DATETIME($timeChanged, day: "numeric", month: "long", year: "numeric") }
-login-item-time-created = Created: { DATETIME($timeCreated, day: "numeric", month: "long", year: "numeric") }
-login-item-time-used = Last used: { DATETIME($timeUsed, day: "numeric", month: "long", year: "numeric") }
 
 ## The date is displayed in a timeline showing the password evolution.
 ## A label is displayed under the date to describe the type of change.
@@ -238,7 +230,6 @@ about-logins-breach-alert-date = This breach occurred on { DATETIME($date, day: 
 # Variables:
 #   $hostname (String) - The hostname of the website associated with the login, e.g. "example.com"
 about-logins-breach-alert-link = Go to { $hostname }
-about-logins-breach-alert-learn-more-link = Learn more
 
 ## Vulnerable Password notification
 

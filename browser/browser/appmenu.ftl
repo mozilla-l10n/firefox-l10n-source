@@ -145,9 +145,6 @@ profiler-popup-button-capturing =
   .label = Profiler
   .tooltiptext = The profiler is capturing a profile
 
-profiler-popup-title =
-  .value = { -profiler-brand-name }
-
 profiler-popup-header-text = { -profiler-brand-name }
 
 profiler-popup-reveal-description-button =
@@ -196,10 +193,6 @@ profiler-popup-capture-shortcut =
 ## They are shown in the popup's select box.
 
 # Presets and their l10n IDs are defined in the file
-# devtools/client/performance-new/popup/background.jsm.js
-# Please take care that the same values are also defined in devtools' perftools.ftl.
-
-# Presets and their l10n IDs are defined in the file
 # devtools/client/performance-new/shared/background.jsm.js
 # Please take care that the same values are also defined in devtools' perftools.ftl.
 
@@ -235,8 +228,6 @@ profiler-popup-presets-custom-label =
 
 appmenu-manage-history =
     .label = Manage history
-appmenu-reopen-all-tabs = Reopen all tabs
-appmenu-reopen-all-windows = Reopen all windows
 appmenu-restore-session =
     .label = Restore previous session
 appmenu-clear-history =
@@ -246,7 +237,6 @@ appmenu-recently-closed-tabs =
     .label = Recently closed tabs
 appmenu-recently-closed-windows =
     .label = Recently closed windows
-
 # This allows to search through the browser's history.
 appmenu-search-history =
     .label = Search history
@@ -269,7 +259,6 @@ appmenu-help-report-site-issue =
 appmenu-help-share-ideas =
     .label = Share ideas and feedback…
     .accesskey = S
-
 appmenu-help-switch-device =
     .label = Switching to a new device
 
