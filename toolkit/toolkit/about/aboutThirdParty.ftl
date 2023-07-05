@@ -73,6 +73,19 @@ third-party-button-to-unblock-disabled =
     .aria-label =
         Currently marked as blocked, although the blocklist is disabled for this run
         of { -brand-short-name }. Click to unblock it.
+third-party-button-to-block-module = Block this module
+    .title = Block this module
+    .aria-label = Block this module
+third-party-button-to-unblock-module = Unblock this module
+    .title = Currently blocked. Click to unblock it.
+    .aria-label = Currently blocked. Click to unblock it.
+third-party-button-to-unblock-module-disabled = Unblock this module (blocklist currently disabled)
+    .title =
+        Currently marked as blocked, although the blocklist is disabled for this run
+        of { -brand-short-name }. Click to unblock it.
+    .aria-label =
+        Currently marked as blocked, although the blocklist is disabled for this run
+        of { -brand-short-name }. Click to unblock it.
 third-party-button-expand =
     .title = Show detailed information
 third-party-button-collapse =
