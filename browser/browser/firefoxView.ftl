@@ -77,11 +77,8 @@ firefoxview-mobile-confirmation-description = Now you can grab your { -brand-pro
 firefoxview-closed-tabs-title = Recently closed
 
 firefoxview-closed-tabs-description2 = Reopen pages you’ve closed in this window.
-
 firefoxview-closed-tabs-placeholder-header = No recently closed tabs
 firefoxview-closed-tabs-placeholder-body = When you close a tab in this window, you can fetch it from here.
-
-firefoxview-closed-tabs-placeholder-body2 = When you close a tab, you can fetch it from here.
 
 # Variables:
 #   $tabTitle (string) - Title of tab being dismissed

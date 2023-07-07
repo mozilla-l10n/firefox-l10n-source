@@ -22,9 +22,6 @@ abuse-report-learnmore =
   Unsure what issue to select?
   <a data-l10n-name="learnmore-link">Learn more about reporting extensions and themes</a>
 
-abuse-report-learnmore-intro = Unsure what issue to select?
-abuse-report-learnmore-link = Learn more about reporting extensions and themes
-
 abuse-report-submit-description = Describe the problem (optional)
 abuse-report-textarea =
   .placeholder = It’s easier for us to address a problem if we have specifics. Please describe what you’re experiencing. Thank you for helping us keep the web healthy.
