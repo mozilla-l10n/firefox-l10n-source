@@ -106,6 +106,7 @@ about-webrtc-save-page-label = Save Page
 about-webrtc-debug-mode-msg-label = Debug Mode
 about-webrtc-debug-mode-off-state-label = Start Debug Mode
 about-webrtc-debug-mode-on-state-label = Stop Debug Mode
+about-webrtc-enable-logging-label = Enable WebRTC Log Preset
 about-webrtc-stats-heading = Session Statistics
 about-webrtc-stats-clear = Clear History
 about-webrtc-log-heading = Connection Log
@@ -243,11 +244,13 @@ about-webrtc-debug-mode-off-state-msg = trace log can be found at: { $path }
 about-webrtc-debug-mode-on-state-msg = debug mode active, trace log at: { $path }
 about-webrtc-aec-logging-off-state-msg = captured log files can be found in: { $path }
 
+# This path is used for saving the about:webrtc page so it can be attached to
+# bug reports.
+# Variables:
+#  $path (String) - The path to which the file is saved.
 about-webrtc-save-page-complete-msg = Page saved to: { $path }
 about-webrtc-debug-mode-toggled-off-state-msg = Trace log can be found at: { $path }
 about-webrtc-debug-mode-toggled-on-state-msg = Debug mode active, trace log at: { $path }
-
-##
 
 # This is the total number of frames encoded or decoded over an RTP stream.
 # Variables:
@@ -338,3 +341,6 @@ about-webrtc-media-context-hide-msg = Hide Media Context
 about-webrtc-media-context-heading = Media Context
 
 ##
+
+##
+
