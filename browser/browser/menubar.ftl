@@ -220,6 +220,10 @@ menu-history-undo-menu =
 menu-history-undo-window-menu =
     .label = Recently Closed Windows
 
+# "Search" is a verb, as in "Search in History"
+menu-history-search =
+    .label = Search History
+
 ## Bookmarks Menu
 
 menu-bookmarks-menu =
