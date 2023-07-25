@@ -13,6 +13,12 @@ origin-controls-no-access =
 origin-controls-quarantined =
     .label = Extension Not Allowed to Read and Change Data
 
+origin-controls-quarantined-status =
+    .label = Extension Not Allowed on Restricted Sites
+
+origin-controls-quarantined-allow =
+    .label = Allow on Restricted Sites
+
 origin-controls-options =
     .label = Extension Can Read and Change Data:
 
