@@ -9,6 +9,9 @@ no-plugins-are-installed-label = No installed plugins found
 
 deprecation-description = Missing something? Some plugins are no longer supported. <a data-l10n-name="deprecation-link">Learn More.</a>
 
+deprecation-description2 =
+    .message = Missing something? Some plugins are no longer supported.
+
 ## The information of plugins
 ##
 ## Variables:
