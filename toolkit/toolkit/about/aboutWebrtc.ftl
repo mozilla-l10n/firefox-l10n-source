@@ -250,8 +250,6 @@ about-webrtc-aec-logging-off-state-msg = captured log files can be found in: { $
 # Variables:
 #  $path (String) - The path to which the file is saved.
 about-webrtc-save-page-complete-msg = Page saved to: { $path }
-about-webrtc-debug-mode-toggled-off-state-msg = Trace log can be found at: { $path }
-about-webrtc-debug-mode-toggled-on-state-msg = Debug mode active, trace log at: { $path }
 
 # This is the total number of frames encoded or decoded over an RTP stream.
 # Variables:
@@ -333,6 +331,8 @@ about-webrtc-sdp-set-timestamp = Timestamp { NUMBER($timestamp, useGrouping: "fa
 about-webrtc-show-msg-sdp = Show SDP
 about-webrtc-hide-msg-sdp = Hide SDP
 
+##
+
 ## These are displayed on the button that shows or hides the Media Context information disclosure.
 ## The Media Context is the set of preferences and detected capabilities that informs
 ## the negotiated CODEC settings.
@@ -340,8 +340,6 @@ about-webrtc-hide-msg-sdp = Hide SDP
 about-webrtc-media-context-show-msg = Show Media Context
 about-webrtc-media-context-hide-msg = Hide Media Context
 about-webrtc-media-context-heading = Media Context
-
-##
 
 ##
 
