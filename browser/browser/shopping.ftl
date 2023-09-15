@@ -7,6 +7,12 @@ shopping-page-title = { -brand-product-name } Shopping
 # Title for page showing where a user can check the
 # review quality of online shopping product reviews
 shopping-main-container-title = Review checker
+shopping-beta-marker = Beta
+# This string is for ensuring that screen reader technology
+# can read out the "Beta" part of the shopping sidebar header.
+# Any changes to shopping-beta-marker should also be reflected here.
+shopping-a11y-header =
+  .aria-label = Review checker - beta
 shopping-close-button =
   .title = Close
 # This string is for notifying screen reader users that the
@@ -51,9 +57,6 @@ shopping-message-bar-thanks-for-reporting-message = We should have an updated an
 
 shopping-message-bar-warning-product-not-available-reported-title = Analysis coming soon
 shopping-message-bar-warning-product-not-available-reported-message = An updated analysis should be ready within 24 hours. Please check back.
-
-shopping-message-bar-warning-offline-title = No network connection
-shopping-message-bar-warning-offline-message = Check your network connection. Then, try reloading the page.
 
 shopping-message-bar-analysis-in-progress-title = Analysis coming soon
 shopping-message-bar-analysis-in-progress-message = When it’s done, we’ll automatically show the updated info here.
@@ -154,3 +157,25 @@ shopping-unanalyzed-product-analyze-link = Launch analyzer on { -fakespot-websit
 more-to-consider-ad-label =
   .label = More to consider
 ad-by-fakespot = Ad by { -fakespot-brand-name }
+
+## Shopping survey strings.
+
+shopping-survey-headline = Help improve { -brand-product-name }
+shopping-survey-question-one = How satisfied are you with the review checker experience in { -brand-product-name }?
+
+shopping-survey-q1-radio-1-label = Very satisfied
+shopping-survey-q1-radio-2-label = Satisfied
+shopping-survey-q1-radio-3-label = Neutral
+shopping-survey-q1-radio-4-label = Dissatisfied
+shopping-survey-q1-radio-5-label = Very dissatisfied
+
+shopping-survey-question-two = Does the review checker make it easier for you to make purchase decisions?
+
+shopping-survey-q2-radio-1-label = Yes
+shopping-survey-q2-radio-2-label = No
+shopping-survey-q2-radio-3-label = I don’t know
+
+shopping-survey-next-button-label = Next
+shopping-survey-submit-button-label = Submit
+shopping-survey-terms-link = Terms of use
+shopping-survey-thanks-message = Thanks for your feedback!
