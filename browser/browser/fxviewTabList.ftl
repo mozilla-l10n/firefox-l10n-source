@@ -46,7 +46,6 @@ fxviewtabrow-copy-link = Copy Link
     .accesskey = L
 fxviewtabrow-close-tab = Close Tab
     .accesskey = C
-
 fxviewtabrow-move-tab = Move Tab
     .accesskey = v
 fxviewtabrow-move-tab-start = Move to Start
