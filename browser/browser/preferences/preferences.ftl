@@ -899,6 +899,10 @@ sync-resend-verification =
     .label = Resend Verification
     .accesskey = d
 
+sync-verify-account =
+    .label = Verify Account
+    .accesskey = V
+
 sync-remove-account =
     .label = Remove Account
     .accesskey = R
