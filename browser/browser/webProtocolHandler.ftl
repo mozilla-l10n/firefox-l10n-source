@@ -7,10 +7,6 @@ protocolhandler-mailto-os-handler-yes-confirm = { -brand-short-name } is now you
 protocolhandler-mailto-os-handler-yes-button = Set as default
 protocolhandler-mailto-os-handler-no-button = Not now
 
-# Variables:
-#  $url (String): The url of a webmailer, but only its full domain name.
-protocolhandler-mailto-handler-notificationbox = Open email links using { $url }?
-
 ## Variables:
 ##  $url (String): The url of a webmailer, but only its full domain name.
 
