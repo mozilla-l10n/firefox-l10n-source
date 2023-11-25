@@ -69,6 +69,10 @@ places-bookmarks-search =
 places-delete-domain-data =
   .label = Forget About This Site
   .accesskey = F
+
+places-forget-domain-data =
+  .label = Forget About This Site…
+  .accesskey = F
 places-sortby-name =
   .label = Sort By Name
   .accesskey = r
