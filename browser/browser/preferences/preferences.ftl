@@ -1566,6 +1566,8 @@ preferences-doh-header = DNS over HTTPS
 
 preferences-doh-description = Domain Name System (DNS) over HTTPS sends your request for a domain name through an encrypted connection, creating a secure DNS and making it harder for others to see which website you’re about to access.
 
+preferences-doh-description2 = Domain Name System (DNS) over HTTPS sends your request for a domain name through an encrypted connection, providing a secure DNS and making it harder for others to see which website you’re about to access.
+
 # Variables:
 #   $status (string) - The status of the DoH connection
 preferences-doh-status = Status: { $status }
@@ -1584,6 +1586,8 @@ preferences-doh-status-disabled = Off
 preferences-doh-status-not-active = Not active ({ $reason })
 
 preferences-doh-group-message = Enable secure DNS using:
+
+preferences-doh-group-message2 = Enable DNS over HTTPS using:
 
 preferences-doh-expand-section =
   .tooltiptext = More information
