@@ -943,8 +943,10 @@ sync-currently-syncing-bookmarks = Bookmarks
 sync-currently-syncing-history = History
 sync-currently-syncing-tabs = Open tabs
 sync-currently-syncing-logins-passwords = Logins and passwords
+sync-currently-syncing-passwords = Passwords
 sync-currently-syncing-addresses = Addresses
 sync-currently-syncing-creditcards = Credit cards
+sync-currently-syncing-payment-methods = Payment methods
 sync-currently-syncing-addons = Add-ons
 sync-currently-syncing-settings = Settings
 
@@ -982,6 +984,11 @@ sync-engine-logins-passwords =
     .tooltiptext = Usernames and passwords you’ve saved
     .accesskey = L
 
+sync-engine-passwords =
+    .label = Passwords
+    .tooltiptext = Passwords you’ve saved
+    .accesskey = P
+
 sync-engine-addresses =
     .label = Addresses
     .tooltiptext = Postal addresses you’ve saved (desktop only)
@@ -991,6 +998,11 @@ sync-engine-creditcards =
     .label = Credit cards
     .tooltiptext = Names, numbers and expiry dates (desktop only)
     .accesskey = C
+
+sync-engine-payment-methods =
+    .label = Payment methods
+    .tooltiptext = Names, card numbers, and expiry dates (desktop only)
+    .accesskey = n
 
 sync-engine-addons =
     .label = Add-ons

@@ -85,6 +85,8 @@ migration-bookmarks-option-label = Bookmarks
 migration-favorites-option-label = Favorites
 
 migration-logins-and-passwords-option-label = Saved logins and passwords
+
+migration-passwords-option-label = Saved passwords
 migration-history-option-label = Browsing history
 migration-extensions-option-label = Extensions
 migration-form-autofill-option-label = Form autofill data
