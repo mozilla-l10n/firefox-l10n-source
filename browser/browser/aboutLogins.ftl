@@ -314,6 +314,9 @@ about-logins-export-file-picker-csv-filter-title =
 
 # Title of the file picker dialog
 about-logins-import-file-picker-title = Import Logins File
+
+# Title of the file picker dialog
+about-logins-import-file-picker-title2 = Import Passwords to { -brand-short-name }
 about-logins-import-file-picker-import-button = Import
 # A description for the .csv file format that may be shown as the file type
 # filter by the operating system.
@@ -349,6 +352,20 @@ about-logins-import-dialog-items-no-change =
   { $count ->
      *[other] <span>Duplicate logins found:</span> <span data-l10n-name="count">{ $count }</span> <span data-l10n-name="meta">(not imported)</span>
   }
+about-logins-import-dialog-items-added2 =
+  { $count ->
+     *[other] <span>New passwords added:</span> <span data-l10n-name="count">{ $count }</span>
+  }
+
+about-logins-import-dialog-items-modified2 =
+  { $count ->
+     *[other] <span>Existing entries updated:</span> <span data-l10n-name="count">{ $count }</span>
+  }
+
+about-logins-import-dialog-items-no-change2 =
+  { $count ->
+     *[other] <span>Duplicate entries found:</span> <span data-l10n-name="count">{ $count }</span> <span data-l10n-name="meta">(not imported)</span>
+  }
 about-logins-import-dialog-items-error =
   { $count ->
       *[other] <span>Errors:</span> <span data-l10n-name="count">{ $count }</span> <span data-l10n-name="meta">(not imported)</span>
@@ -372,6 +389,8 @@ about-logins-import-dialog-error-cancel = Cancel
 about-logins-import-report-title = Import Summary
 about-logins-import-report-description = Logins and passwords imported to { -brand-short-name }.
 
+about-logins-import-report-description2 = Passwords imported to { -brand-short-name }.
+
 #
 # Variables:
 #  $number (number) - The number of the row
@@ -379,6 +398,9 @@ about-logins-import-report-row-index = Row { $number }
 about-logins-import-report-row-description-no-change = Duplicate: Exact match of existing login
 about-logins-import-report-row-description-modified = Existing login updated
 about-logins-import-report-row-description-added = New login added
+about-logins-import-report-row-description-no-change2 = Duplicate: Exact match of existing entry
+about-logins-import-report-row-description-modified2 = Existing entry updated
+about-logins-import-report-row-description-added2 = New password added
 about-logins-import-report-row-description-error = Error: Missing field
 
 ##
@@ -403,6 +425,19 @@ about-logins-import-report-modified =
 about-logins-import-report-no-change =
   { $count ->
       *[other] <div data-l10n-name="count">{ $count }</div> <div data-l10n-name="details">Duplicate logins</div> <div data-l10n-name="not-imported">(not imported)</div>
+  }
+
+about-logins-import-report-added2 =
+  { $count ->
+      *[other] <div data-l10n-name="count">{ $count }</div> <div data-l10n-name="details">New passwords added</div>
+  }
+about-logins-import-report-modified2 =
+  { $count ->
+      *[other] <div data-l10n-name="count">{ $count }</div> <div data-l10n-name="details">Existing entries updated</div>
+  }
+about-logins-import-report-no-change2 =
+  { $count ->
+      *[other] <div data-l10n-name="count">{ $count }</div> <div data-l10n-name="details">Duplicate entries</div> <div data-l10n-name="not-imported">(not imported)</div>
   }
 about-logins-import-report-error =
   { $count ->
