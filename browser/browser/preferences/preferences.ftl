@@ -780,6 +780,10 @@ search-suggestions-option =
     .label = Provide search suggestions
     .accesskey = s
 
+search-show-suggestions-option =
+    .label = Show search suggestions
+    .accesskey = S
+
 search-show-suggestions-url-bar-option =
     .label = Show search suggestions in address bar results
     .accesskey = l
