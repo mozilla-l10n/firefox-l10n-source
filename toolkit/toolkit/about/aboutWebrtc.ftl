@@ -109,6 +109,9 @@ about-webrtc-debug-mode-off-state-label = Start Debug Mode
 about-webrtc-debug-mode-on-state-label = Stop Debug Mode
 about-webrtc-enable-logging-label = Enable WebRTC Log Preset
 about-webrtc-stats-heading = Session Statistics
+about-webrtc-peerconnections-section-heading = RTCPeerConnection Statistics
+about-webrtc-peerconnections-section-show-msg = Show RTCPeerConnection Statistics
+about-webrtc-peerconnections-section-hide-msg = Hide RTCPeerConnection Statistics
 about-webrtc-stats-clear = Clear History
 about-webrtc-log-heading = Connection Log
 about-webrtc-log-clear = Clear Log
@@ -206,6 +209,17 @@ about-webrtc-configuration-element-not-provided = Not Provided
 
 # The options set by the user in about:config that could impact a WebRTC call
 about-webrtc-custom-webrtc-configuration-heading = User Set WebRTC Preferences
+
+# The options set by the user in about:config that could impact a WebRTC call
+about-webrtc-user-modified-configuration-heading = User Modified WebRTC Configuration
+
+## These are displayed on the button that shows or hides the
+## user modified configuration disclosure
+
+about-webrtc-user-modified-configuration-show-msg = Show User Modified Configuration
+about-webrtc-user-modified-configuration-hide-msg = Hide User Modified Configuration
+
+##
 
 # Section header for estimated bandwidths of WebRTC media flows
 about-webrtc-bandwidth-stats-heading = Estimated Bandwidth
@@ -331,8 +345,6 @@ about-webrtc-sdp-set-timestamp = Timestamp { NUMBER($timestamp, useGrouping: "fa
 about-webrtc-show-msg-sdp = Show SDP
 about-webrtc-hide-msg-sdp = Hide SDP
 
-##
-
 ## These are displayed on the button that shows or hides the Media Context information disclosure.
 ## The Media Context is the set of preferences and detected capabilities that informs
 ## the negotiated CODEC settings.
@@ -342,4 +354,3 @@ about-webrtc-media-context-hide-msg = Hide Media Context
 about-webrtc-media-context-heading = Media Context
 
 ##
-
