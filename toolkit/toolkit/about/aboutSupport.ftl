@@ -192,7 +192,6 @@ media-codec-support-codec-name = Codec Name
 media-codec-support-supported = Supported
 media-codec-support-unsupported = Unsupported
 media-codec-support-error = Codec support information unavailable. Try again after playing back a media file.
-
 media-codec-support-lack-of-extension = Install extension
 
 ## Media Content Decryption Modules (CDM)

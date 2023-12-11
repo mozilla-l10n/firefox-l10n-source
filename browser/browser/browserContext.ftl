@@ -349,6 +349,7 @@ main-context-menu-use-saved-login =
     .label = Use Saved Login
     .accesskey = o
 
+# Displayed when there are saved passwords and the user clicks inside a username or password field
 main-context-menu-use-saved-password =
     .label = Use Saved Password
     .accesskey = o
@@ -365,6 +366,10 @@ main-context-menu-suggest-strong-password =
 
 main-context-menu-manage-logins2 =
     .label = Manage Logins
+    .accesskey = M
+
+main-context-menu-manage-passwords =
+    .label = Manage Passwords
     .accesskey = M
 
 main-context-menu-keyword =
