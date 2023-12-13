@@ -35,6 +35,8 @@ about-logins-menu-menuitem-import-from-another-browser = Import from Another Bro
 about-logins-menu-menuitem-import-from-a-file = Import from a File…
 about-logins-menu-menuitem-export-logins = Export Logins…
 about-logins-menu-menuitem-remove-all-logins = Remove All Logins…
+# Item that appears when the user clicks the ⋯  menu
+about-logins-menu-menuitem-remove-all-logins2 = Remove All Passwords…
 menu-menuitem-preferences =
   { PLATFORM() ->
       [windows] Options
@@ -124,11 +126,14 @@ about-logins-intro-import2 = If your logins are saved outside of { -brand-produc
 ## Login
 
 login-item-new-login-title = Create New Login
+
+# Header for adding a password
+about-logins-login-item-new-login-title = Add password
 login-item-edit-button = Edit
 about-logins-login-item-remove-button = Remove
 login-item-origin-label = Website address
 login-item-tooltip-message = Make sure this matches the exact address of the website where you log in.
-about-logins-origin-tooltip = Make sure this matches the exact address of the website where you log in.
+about-logins-origin-tooltip2 = Enter the full address and make sure it’s an exact match for where you sign in.
 # Variables
 #   $webTitle (String) - Website title of the password being changed.
 about-logins-edit-password-tooltip = Make sure you’re saving your current password for this site. Changing the password here does not change it with { $webTitle }.
@@ -146,6 +151,7 @@ login-item-password-reveal-checkbox =
 login-item-copy-password-button-text = Copy
 login-item-copied-password-button-text = Copied!
 login-item-save-changes-button = Save Changes
+about-logins-login-item-save-changes-button = Save
 login-item-save-new-button = Save
 login-item-cancel-button = Cancel
 
@@ -174,6 +180,12 @@ about-logins-edit-login-os-auth-dialog-message-win = To edit your login, enter y
 # On MacOS, only provide the reason that account verification is needed. Do not put a complete sentence here.
 about-logins-edit-login-os-auth-dialog-message-macosx = edit the saved login
 
+# This message can be seen when attempting to edit a login in about:logins on Windows.
+about-logins-edit-login-os-auth-dialog-message2-win = To edit your password, enter your Windows login credentials. This helps protect the security of your accounts.
+# This message can be seen when attempting to edit a login in about:logins
+# On MacOS, only provide the reason that account verification is needed. Do not put a complete sentence here.
+about-logins-edit-login-os-auth-dialog-message2-macosx = edit the saved password
+
 # This message can be seen when attempting to reveal a password in about:logins on Windows.
 about-logins-reveal-password-os-auth-dialog-message-win = To view your password, enter your Windows login credentials. This helps protect the security of your accounts.
 # This message can be seen when attempting to reveal a password in about:logins
@@ -192,6 +204,12 @@ about-logins-export-password-os-auth-dialog-message-win = To export your logins,
 # On MacOS, only provide the reason that account verification is needed. Do not put a complete sentence here.
 about-logins-export-password-os-auth-dialog-message-macosx = export saved logins and passwords
 
+# This message can be seen when attempting to export a password in about:logins on Windows.
+about-logins-export-password-os-auth-dialog-message2-win = To export your passwords, enter your Windows login credentials. This helps protect the security of your accounts.
+# This message can be seen when attempting to export a password in about:logins
+# On MacOS, only provide the reason that account verification is needed. Do not put a complete sentence here.
+about-logins-export-password-os-auth-dialog-message2-macosx = export saved passwords
+
 ## Primary Password notification
 
 about-logins-primary-password-notification-message = Please enter your Primary Password to view saved logins & passwords
@@ -207,6 +225,11 @@ confirmation-dialog-dismiss-button =
 
 about-logins-confirm-remove-dialog-title = Remove this login?
 confirm-delete-dialog-message = This action cannot be undone.
+
+# Title for modal to confirm the removal of one saved password
+about-logins-confirm-delete-dialog-title = Remove password?
+# Message for modal to confirm the removal of one saved password
+about-logins-confirm-delete-dialog-message = You cannot undo this action.
 about-logins-confirm-remove-dialog-confirm-button = Remove
 
 ## Variables
@@ -250,6 +273,40 @@ about-logins-confirm-remove-all-sync-dialog-message2=
   { $count ->
      [1] This will remove the login you’ve saved to { -brand-short-name } on all devices synced to your account. This will also remove breach alerts that appear here. You won’t be able to undo this action.
     *[other] This will remove all logins you’ve saved to { -brand-short-name } on all devices synced to your account. This will also remove breach alerts that appear here. You won’t be able to undo this action.
+  }
+
+# Checkbox for modal to confirm the removal of saved passwords
+about-logins-confirm-remove-all-dialog-checkbox-label2 =
+  { $count ->
+     [1] Yes, remove password
+    *[other] Yes, remove passwords
+  }
+
+# Title for modal to confirm the removal of all saved passwords when user is NOT synced
+about-logins-confirm-remove-all-dialog-title2 =
+  { $count ->
+     [one] Remove { $count } password?
+    *[other] Remove all { $count } passwords?
+  }
+# Message for modal to confirm the removal of saved passwords when user is NOT synced
+about-logins-confirm-remove-all-dialog-message2 =
+  { $count ->
+     [1] This will remove the password saved to { -brand-short-name } and any breach alerts. You cannot undo this action.
+    *[other] This will remove the passwords saved to { -brand-short-name } and any breach alerts. You cannot undo this action.
+  }
+
+# Title for modal to confirm the removal of all saved passwords when user IS SYNCED
+about-logins-confirm-remove-all-sync-dialog-title2 =
+  { $count ->
+     [one] Remove { $count } password from all devices?
+    *[other] Remove all { $count } passwords from all devices?
+  }
+
+# Message for modal to confirm the removal of saved passwords when user IS synced.
+about-logins-confirm-remove-all-sync-dialog-message3 =
+  { $count ->
+    [1] This will remove the passwords saved to { -brand-short-name } on all your synced devices. This will also remove any breach alerts that appear here. You cannot undo this action.
+    *[other] This will remove all passwords saved to { -brand-short-name } on all your synced devices. This will also remove any breach alerts that appear here. You cannot undo this action.
   }
 
 ##
