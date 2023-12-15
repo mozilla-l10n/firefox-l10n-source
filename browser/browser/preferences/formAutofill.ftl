@@ -133,13 +133,6 @@ autofill-add-new-card-title = Add New Credit Card
 # The dialog title for editing credit cards in browser preferences.
 autofill-edit-card-title = Edit Credit Card
 
-autofill-message-tooltip = View message about autofill
-
-# The dialog title for creating credit cards in browser preferences.
-autofill-add-card-title = Add card
-# The dialog title for editing credit cards in browser preferences.
-autofill-edit-card-title2 = Edit card
-
 # In macOS, this string is preceded by the operating system with "Firefox is trying to ",
 # and has a period added to its end. Make sure to test in your locale.
 autofill-edit-card-password-prompt = { PLATFORM() ->
@@ -147,6 +140,13 @@ autofill-edit-card-password-prompt = { PLATFORM() ->
     [windows] { -brand-short-name } is trying to show credit card information. Confirm access to this Windows account below.
    *[other] { -brand-short-name } is trying to show credit card information.
 }
+
+autofill-message-tooltip = View message about autofill
+
+# The dialog title for creating credit cards in browser preferences.
+autofill-add-card-title = Add card
+# The dialog title for editing credit cards in browser preferences.
+autofill-edit-card-title2 = Edit card
 
 autofill-card-number = Card Number
 autofill-card-invalid-number = Please enter a valid card number
