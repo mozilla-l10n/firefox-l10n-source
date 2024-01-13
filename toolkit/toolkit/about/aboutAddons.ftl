@@ -276,6 +276,10 @@ shortcuts-no-commands = The following extensions do not have shortcuts:
 shortcuts-input =
   .placeholder = Type a shortcut
 
+# Accessible name for a trashcan icon button that removes an existent shortcut
+shortcuts-remove-button =
+  .aria-label = Remove shortcut
+
 shortcuts-browserAction2 = Activate toolbar button
 shortcuts-pageAction = Activate page action
 shortcuts-sidebarAction = Toggle the sidebar
