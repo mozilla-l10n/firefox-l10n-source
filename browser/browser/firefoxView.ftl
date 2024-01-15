@@ -194,7 +194,6 @@ firefoxview-opentabs-focus-tab =
 
 firefoxview-show-more = Show more
 firefoxview-show-less = Show less
-
 firefoxview-show-all = Show all
 
 firefoxview-search-text-box-clear-button =

@@ -35,9 +35,6 @@ about-webrtc-aec-logging-toggled-off-state-msg = Captured log files can be found
 # The autorefresh checkbox causes a stats section to autorefresh its content when checked
 about-webrtc-auto-refresh-label = Auto Refresh
 
-# Determines the default state of the Auto Refresh check boxes
-about-webrtc-auto-refresh-default-label = Auto Refresh By Default
-
 # A button which forces a refresh of displayed statistics
 about-webrtc-force-refresh-button = Refresh
 
@@ -107,8 +104,8 @@ about-webrtc-save-page-label = Save Page
 about-webrtc-debug-mode-msg-label = Debug Mode
 about-webrtc-debug-mode-off-state-label = Start Debug Mode
 about-webrtc-debug-mode-on-state-label = Stop Debug Mode
-about-webrtc-enable-logging-label = Enable WebRTC Log Preset
 about-webrtc-stats-heading = Session Statistics
+about-webrtc-enable-logging-label = Enable WebRTC Log Preset
 about-webrtc-peerconnections-section-heading = RTCPeerConnection Statistics
 about-webrtc-peerconnections-section-show-msg = Show RTCPeerConnection Statistics
 about-webrtc-peerconnections-section-hide-msg = Hide RTCPeerConnection Statistics

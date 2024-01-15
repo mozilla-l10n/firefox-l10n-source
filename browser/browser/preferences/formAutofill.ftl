@@ -42,10 +42,6 @@ address-capture-manage-address-button =
     .label = Address settings
 address-capture-learn-more-button =
     .label = Learn more
-
-
-# The dialog title for creating addresses in browser preferences.
-autofill-add-new-address-title = Add New Address
 address-capture-open-menu-button =
     .aria-label = Open menu
 address-capture-edit-address-button =
@@ -118,6 +114,9 @@ autofill-address-eircode = Eircode
 ##
 
 ##
+
+# The dialog title for creating addresses in browser preferences.
+autofill-add-new-address-title = Add New Address
 
 autofill-address-country = Country or Region
 autofill-address-country-only = Country
