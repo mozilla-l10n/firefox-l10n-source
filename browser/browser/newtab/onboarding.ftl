@@ -198,6 +198,7 @@ mr2022-onboarding-easy-setup-import-checkbox-label = Import from previous browse
 mr2022-onboarding-welcome-pin-header = Open up an amazing internet
 # Subtitle is used on onboarding page for new users page when Firefox is not pinned
 mr2022-onboarding-welcome-pin-subtitle = Launch { -brand-short-name } from anywhere with a single click. Every time you do, you’re choosing a more open and independent web.
+
 # Primary button string used on welcome page for when Firefox is not pinned.
 mr2022-onboarding-pin-primary-button-label = { PLATFORM() ->
     [macos] Keep { -brand-short-name } in Dock
@@ -242,6 +243,7 @@ mr2022-onboarding-get-started-primary-button-label = Set up in seconds
 
 mr2022-onboarding-import-header = Lightning-fast setup
 mr2022-onboarding-import-subtitle = Set up { -brand-short-name } how you like it. Add your bookmarks, passwords, and more from your old browser.
+
 mr2022-onboarding-import-primary-button-label-no-attribution = Import from previous browser
 
 ## If your language uses grammatical genders, in the description for the
@@ -293,6 +295,7 @@ mr2022-onboarding-colorway-description-innovator = <b>You are an Innovator.</b> 
 
 mr2022-onboarding-mobile-download-title = Hop from laptop to phone and back again
 mr2022-onboarding-mobile-download-subtitle = Grab tabs from one device and pick up where you left off on another. Plus sync your bookmarks and passwords anywhere you use { -brand-product-name }.
+
 mr2022-onboarding-mobile-download-cta-text = Scan the QR code to get { -brand-product-name } for mobile or <a data-l10n-name="download-label">send yourself a download link.</a>
 mr2022-onboarding-no-mobile-download-cta-text = Scan the QR code to get { -brand-product-name } for mobile.
 
