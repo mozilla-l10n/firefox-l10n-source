@@ -1,0 +1,75 @@
+name: Update
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  prepare:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout l10n:main
+        uses: actions/checkout@v4
+        with: { ref: main }
+      - name: Refresh l10n:update
+        run: git push origin HEAD:update || true
+  branches:
+    needs: prepare
+    strategy:
+      max-parallel: 1
+      matrix:
+        ref: [master, beta, release, esr115]
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout l10n:update
+        uses: actions/checkout@v4
+        with: { ref: update, path: l10n }
+      - name: Checkout firefox:${{ matrix.ref }}
+        uses: actions/checkout@v4
+        with:
+          repository: mozilla/gecko-dev
+          ref: ${{ matrix.ref }}
+          path: firefox
+          sparse-checkout: |
+            browser/branding/official/locales
+            browser/extensions/formautofill/locales
+            browser/extensions/report-site-issue/locales
+            browser/locales
+            devtools/client/locales
+            devtools/shared/locales
+            devtools/startup/locales
+            dom/locales
+            mobile/android/branding/official/locales
+            mobile/android/locales
+            netwerk/locales
+            security/manager/locales
+            toolkit/locales
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+          cache-dependency-path: l10n/_scripts/requirements.txt
+      - run: pip install -r l10n/_scripts/requirements.txt
+      - run: python -m _scripts.update ${{ matrix.ref }}
+        working-directory: l10n
+      - name: git config
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+      - run: git add .
+        working-directory: l10n
+      - name: git commit & push any changes
+        run: |
+          git diff-index --quiet HEAD || (git commit -m "Update from ${{ matrix.ref }}" && git push)
+        working-directory: l10n
+  pr:
+    needs: branches
+    runs-on: ubuntu-latest
+    steps:
+      - run: |
+          gh pr create --base main --head update --title "Update messages" --body "" || true
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
