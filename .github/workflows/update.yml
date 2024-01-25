@@ -63,7 +63,7 @@ jobs:
         working-directory: l10n
       - name: git commit & push any changes
         run: |
-          git diff-index --quiet HEAD || (git commit -m "Update from ${{ matrix.ref }}" && git push)
+          git diff-index --quiet HEAD || (git commit -F .update_msg && git push)
         working-directory: l10n
   pr:
     needs: branches

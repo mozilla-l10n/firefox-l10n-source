@@ -60,6 +60,7 @@ def update(branch: str, fx_root: str, config_files: list[str]):
             add_config(fx_root, cfg_name, fixed_configs)
 
     messages = {}
+    changes = {"new": 0, "update": 0}
     for fx_path, *_ in ProjectFiles(None, configs):
         rel_path = relpath(fx_path, fx_root).replace("/locales/en-US", "")
         makedirs(dirname(rel_path), exist_ok=True)
@@ -71,9 +72,11 @@ def update(branch: str, fx_root: str, config_files: list[str]):
             if not exists(rel_path):
                 print(f"  create {rel_path}")
                 copy(fx_path, rel_path)
+                changes["new"] += 1
             elif branch == HEAD and not cmp(fx_path, rel_path):
                 print(f"  update {rel_path}")
                 copy(fx_path, rel_path)
+                changes["update"] += 1
             else:
                 # print(f"  skip {rel_path}")
                 pass
@@ -88,6 +91,7 @@ def update(branch: str, fx_root: str, config_files: list[str]):
         if not exists(rel_path):
             print(f"  create {rel_path}")
             copy(fx_path, rel_path)
+            changes["new"] += 1
         elif cmp(fx_path, rel_path):
             # print(f"  equal {rel_path}")
             pass
@@ -106,20 +110,30 @@ def update(branch: str, fx_root: str, config_files: list[str]):
                     file.seek(0)
                     file.write(merge_data)
                     file.truncate()
+                    changes["update"] += 1
 
     data_path = join("_data", f"{branch}.json")
     makedirs(dirname(data_path), exist_ok=True)
     with open(data_path, "w") as file:
         json.dump(messages, file, indent=2)
-    print(f"done: {len(messages)} files, {sum(len(x) for x in messages)} messages")
+
+    return changes
 
 
 if __name__ == "__main__":
-    update(
-        branch=argv[-1],
+    branch = argv[-1]
+    changes = update(
+        branch,
         fx_root=abspath("../firefox"),
         config_files=[
             "browser/locales/l10n.toml",
             "mobile/android/locales/l10n.toml",
         ],
     )
+    new = f"{changes['new']} new" if changes["new"] else ""
+    update = f"{changes['update']} updated" if changes["update"] else ""
+    summary = f"{new} and {update}" if new and update else new or update or "no changes"
+    count = changes["update"] or changes["new"]
+    summary += " files" if count > 1 else " file" if count == 1 else ""
+    with open(".update_msg", "w") as file:
+        file.write(f"Update from {branch}: {summary}")
