@@ -1,8 +1,10 @@
+import json
+import tomli_w
+import tomllib
 from filecmp import cmp
-from json import dump
 from os import makedirs
 from os.path import abspath, dirname, exists, join, relpath
-from re import match
+from re import match, sub
 from shutil import copy
 from sys import argv, exit
 from compare_locales.merge import merge_channels
@@ -12,37 +14,66 @@ from compare_locales.paths import ProjectFiles, TOMLParser
 HEAD = "master"
 
 
-def update(branch: str, fx_root: str, l10n_root: str, config_files: list[str]):
+def add_config(fx_root: str, fx_cfg_path: str, done: set[str]):
+    parts = fx_cfg_path.split("/")
+    if (
+        "{" in fx_cfg_path
+        or len(parts) < 3
+        or parts[-2] != "locales"
+        or parts[-1] != "l10n.toml"
+    ):
+        exit(f"Unsupported config path: {fx_cfg_path}")
+
+    cfg_path = join("_configs", f"{'-'.join(parts[:-2])}.toml")
+    if cfg_path not in done:
+        done.add(cfg_path)
+        with open(join(fx_root, fx_cfg_path), "rb") as file:
+            cfg = tomllib.load(file)
+        cfg["basepath"] = ".."
+        for path in cfg["paths"]:
+            path["reference"] = sub(r"{\s*\S+\s*}", "", path["l10n"])
+        if "includes" in cfg:
+            for incl in cfg["includes"]:
+                incl["path"] = add_config(fx_root, incl["path"], done)
+
+        makedirs(dirname(cfg_path), exist_ok=True)
+        with open(cfg_path, "wb") as file:
+            tomli_w.dump(cfg, file)
+    return cfg_path
+
+
+def update(branch: str, fx_root: str, config_files: list[str]):
     if branch not in [HEAD, "beta", "release"] and not match("esr[0-9]+", branch):
         exit(f"Unknown branch: {branch}")
     if not exists(fx_root):
         exit(f"Firefox root not found: {fx_root}")
-    if not exists(l10n_root):
-        exit(f"L10n root not found: {l10n_root}")
+    print(f"updating from {branch}...")
+
     configs = []
+    fixed_configs = set()
     for cfg_name in config_files:
         cfg_path = join(fx_root, cfg_name)
         if not exists(cfg_path):
             exit(f"Config file not found: {cfg_path}")
         configs.append(TOMLParser().parse(cfg_path))
+        if branch == HEAD:
+            add_config(fx_root, cfg_name, fixed_configs)
 
-    print(f"updating from {branch}...")
     messages = {}
     for fx_path, *_ in ProjectFiles(None, configs):
         rel_path = relpath(fx_path, fx_root).replace("/locales/en-US", "")
-        l10n_path = join(l10n_root, rel_path)
-        makedirs(dirname(l10n_path), exist_ok=True)
+        makedirs(dirname(rel_path), exist_ok=True)
 
         try:
             fx_parser = getParser(fx_path)
         except UserWarning:  # No parser found
             messages[rel_path] = []
-            if not exists(l10n_path):
+            if not exists(rel_path):
                 print(f"  create {rel_path}")
-                copy(fx_path, l10n_path)
-            elif branch == HEAD and not cmp(fx_path, l10n_path):
+                copy(fx_path, rel_path)
+            elif branch == HEAD and not cmp(fx_path, rel_path):
                 print(f"  update {rel_path}")
-                copy(fx_path, l10n_path)
+                copy(fx_path, rel_path)
             else:
                 # print(f"  skip {rel_path}")
                 pass
@@ -54,14 +85,14 @@ def update(branch: str, fx_root: str, l10n_root: str, config_files: list[str]):
             entity.key for entity in fx_res if isinstance(entity, Entity)
         ]
 
-        if not exists(l10n_path):
+        if not exists(rel_path):
             print(f"  create {rel_path}")
-            copy(fx_path, l10n_path)
-        elif cmp(fx_path, l10n_path):
+            copy(fx_path, rel_path)
+        elif cmp(fx_path, rel_path):
             # print(f"  equal {rel_path}")
             pass
         else:
-            with open(l10n_path, "+rb") as file:
+            with open(rel_path, "+rb") as file:
                 l10n_data = file.read()
                 merge_data = merge_channels(
                     rel_path,
@@ -76,10 +107,10 @@ def update(branch: str, fx_root: str, l10n_root: str, config_files: list[str]):
                     file.write(merge_data)
                     file.truncate()
 
-    data_path = join(l10n_root, "_data", f"{branch}.json")
+    data_path = join("_data", f"{branch}.json")
     makedirs(dirname(data_path), exist_ok=True)
     with open(data_path, "w") as file:
-        dump(messages, file, indent=2)
+        json.dump(messages, file, indent=2)
     print(f"done: {len(messages)} files, {sum(len(x) for x in messages)} messages")
 
 
@@ -87,7 +118,6 @@ if __name__ == "__main__":
     update(
         branch=argv[-1],
         fx_root=abspath("../firefox"),
-        l10n_root=abspath("."),
         config_files=[
             "browser/locales/l10n.toml",
             "mobile/android/locales/l10n.toml",
