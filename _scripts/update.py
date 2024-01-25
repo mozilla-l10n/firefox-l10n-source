@@ -64,7 +64,10 @@ def update(branch: str, fx_root: str, l10n_root: str, config_files: list[str]):
                     file.seek(0)
                     file.write(merge_data)
                     file.truncate()
-    with open(join(l10n_root, f"{branch}.json"), "w") as file:
+
+    data_path = join(l10n_root, "_data", f"{branch}.json")
+    makedirs(dirname(data_path), exist_ok=True)
+    with open(data_path, "w") as file:
         dump(messages, file, indent=2)
     print(f"done: {len(messages)} files, {sum(len(x) for x in messages)} messages")
 
