@@ -6,7 +6,7 @@ from re import match
 from shutil import copy
 from sys import argv, exit
 from compare_locales.merge import merge_channels
-from compare_locales.parser import getParser
+from compare_locales.parser import Entity, getParser
 from compare_locales.paths import ProjectFiles, TOMLParser
 
 HEAD = "master"
@@ -36,8 +36,9 @@ def update(branch: str, fx_root: str, l10n_root: str, config_files: list[str]):
             # print(f"  skip {rel_path}")
             continue
         fx_parser.readFile(fx_path)
+        fx_res = [entity for entity in fx_parser.walk()]
         messages[rel_path] = [
-            entity.key for entity in fx_parser.walk(only_localizable=True)
+            entity.key for entity in fx_res if isinstance(entity, Entity)
         ]
 
         l10n_path = join(l10n_root, rel_path)
@@ -51,10 +52,9 @@ def update(branch: str, fx_root: str, l10n_root: str, config_files: list[str]):
         else:
             with open(l10n_path, "+rb") as file:
                 l10n_data = file.read()
-                fx_gen = fx_parser.walk()
                 merge_data = merge_channels(
                     rel_path,
-                    [fx_gen, l10n_data] if branch == HEAD else [l10n_data, fx_gen],
+                    [fx_res, l10n_data] if branch == HEAD else [l10n_data, fx_res],
                 )
                 if merge_data == l10n_data:
                     # print(f"  unchanged {rel_path}")
