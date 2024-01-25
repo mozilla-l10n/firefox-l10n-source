@@ -13,7 +13,7 @@ jobs:
     steps:
       - name: Checkout l10n:main
         uses: actions/checkout@v4
-        with: { ref: main }
+        with: { ref: main, fetch-depth: 0 }
       - name: Refresh l10n:update
         run: git push origin HEAD:update || true
   update:
