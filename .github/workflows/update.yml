@@ -69,7 +69,10 @@ jobs:
     needs: branches
     runs-on: ubuntu-latest
     steps:
-      - run: |
-          gh pr create --base main --head update --title "Update messages" --body "" || true
+      - run: >
+          gh pr create --repo ${{ github.repository }}
+          --base main --head update
+          --title "Update messages" --body ""
+          || true
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
