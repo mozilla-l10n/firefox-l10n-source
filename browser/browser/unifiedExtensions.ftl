@@ -43,6 +43,9 @@ unified-extensions-context-menu-move-widget-down =
 
 ## Notifications
 
+unified-extensions-mb-quarantined-domain-title = Some extensions are not allowed
+unified-extensions-mb-quarantined-domain-message = Only some extensions monitored by { -vendor-short-name } are allowed on this site to protect your data.
+
 # .heading is processed by moz-message-bar to be used as a heading attribute
 unified-extensions-mb-quarantined-domain-message-3 =
     .heading = Some extensions are not allowed

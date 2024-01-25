@@ -206,16 +206,21 @@ addon-sitepermission-host = Site Permissions for { $host }
 
 ## These are global warnings
 
+extensions-warning-safe-mode = All add-ons have been disabled by safe mode.
+extensions-warning-check-compatibility = Add-on compatibility checking is disabled. You may have incompatible add-ons.
+
 extensions-warning-safe-mode2 =
     .message = All add-ons have been disabled by safe mode.
 extensions-warning-check-compatibility2 =
     .message = Add-on compatibility checking is disabled. You may have incompatible add-ons.
 extensions-warning-check-compatibility-button = Enable
     .title = Enable add-on compatibility checking
+extensions-warning-update-security = Add-on update security checking is disabled. You may be compromised by updates.
 extensions-warning-update-security2 =
     .message = Add-on update security checking is disabled. You may be compromised by updates.
 extensions-warning-update-security-button = Enable
     .title = Enable add-on update security checking
+
 extensions-warning-imported-addons2 =
     .message = Please finalize the installation of extensions that were imported to { -brand-short-name }.
 extensions-warning-imported-addons-button = Install Extensions
@@ -291,6 +296,11 @@ shortcuts-duplicate = Duplicate shortcut
 # String displayed when a keyboard shortcut is already assigned to more than one add-on
 # Variables:
 #   $shortcut (string) - Shortcut string for the add-on
+shortcuts-duplicate-warning-message = { $shortcut } is being used as a shortcut in more than one case. Duplicate shortcuts may cause unexpected behavior.
+
+# String displayed when a keyboard shortcut is already assigned to more than one add-on
+# Variables:
+#   $shortcut (string) - Shortcut string for the add-on
 shortcuts-duplicate-warning-message2 =
     .message = { $shortcut } is being used as a shortcut in more than one case. Duplicate shortcuts may cause unexpected behavior.
 
@@ -322,6 +332,11 @@ discopane-intro =
     often developed by a third party. Here’s a selection { -brand-product-name }
     <a data-l10n-name="learn-more-trigger">recommends</a> for exceptional
     security, performance, and functionality.
+
+# Notice to make user aware that the recommendations are personalized.
+discopane-notice-recommendations =
+    Some of these recommendations are personalized. They are based on other
+    extensions you’ve installed, profile preferences, and usage statistics.
 
 # Notice to make user aware that the recommendations are personalized.
 discopane-notice-recommendations2 =
@@ -402,9 +417,18 @@ addon-detail-homepage-label = Homepage
 addon-detail-rating-label = Rating
 
 # Message for add-ons with a staged pending update.
+install-postponed-message = This extension will be updated when { -brand-short-name } restarts.
+
+# Message for add-ons with a staged pending update.
 install-postponed-message2 =
     .message = This extension will be updated when { -brand-short-name } restarts.
 install-postponed-button = Update Now
+
+# The average rating that the add-on has received.
+# Variables:
+#   $rating (number) - A number between 0 and 5. The translation should show at most one digit after the comma.
+five-star-rating =
+  .title = Rated { NUMBER($rating, maximumFractionDigits: 1) } out of 5
 
 # This string is used to show that an add-on is disabled.
 # Variables:
@@ -424,6 +448,10 @@ addon-detail-reviews-link =
 
 # Variables:
 #   $addon (string) - Name of the add-on
+pending-uninstall-description = <span data-l10n-name="addon-name">{ $addon }</span> has been removed.
+
+# Variables:
+#   $addon (string) - Name of the add-on
 pending-uninstall-description2 =
     .message = { $addon } has been removed.
 pending-uninstall-undo-button = Undo
@@ -434,6 +462,7 @@ addon-detail-updates-radio-on = On
 addon-detail-updates-radio-off = Off
 addon-detail-update-check-label = Check for Updates
 install-update-button = Update
+
 # aria-label associated to the updates row to help screen readers to announce the group
 # of input controls being entered.
 addon-detail-group-label-updates =
@@ -447,6 +476,7 @@ addon-badge-private-browsing-allowed2 =
 addon-detail-private-browsing-help = When allowed, the extension will have access to your online activities while private browsing. <a data-l10n-name="learn-more">Learn more</a>
 addon-detail-private-browsing-allow = Allow
 addon-detail-private-browsing-disallow = Don’t Allow
+
 # aria-label associated to the private browsing row to help screen readers to announce the group
 # of input controls being entered.
 addon-detail-group-label-private-browsing =
@@ -530,25 +560,39 @@ addon-page-options-button =
 
 # Variables:
 #   $version (string) - Application version.
+details-notification-incompatible = { $name } is incompatible with { -brand-short-name } { $version }.
+
+# Variables:
+#   $version (string) - Application version.
 details-notification-incompatible2 =
     .message = { $name } is incompatible with { -brand-short-name } { $version }.
 details-notification-incompatible-link = More Information
+
+details-notification-unsigned-and-disabled = { $name } could not be verified for use in { -brand-short-name } and has been disabled.
 
 details-notification-unsigned-and-disabled2 =
     .message = { $name } could not be verified for use in { -brand-short-name } and has been disabled.
 details-notification-unsigned-and-disabled-link = More Information
 
+details-notification-unsigned = { $name } could not be verified for use in { -brand-short-name }. Proceed with caution.
+
 details-notification-unsigned2 =
     .message = { $name } could not be verified for use in { -brand-short-name }. Proceed with caution.
 details-notification-unsigned-link = More Information
+
+details-notification-blocked = { $name } has been disabled due to security or stability issues.
 
 details-notification-blocked2 =
     .message = { $name } has been disabled due to security or stability issues.
 details-notification-blocked-link = More Information
 
+details-notification-softblocked = { $name } is known to cause security or stability issues.
+
 details-notification-softblocked2 =
     .message = { $name } is known to cause security or stability issues.
 details-notification-softblocked-link = More Information
+
+details-notification-gmp-pending = { $name } will be installed shortly.
 
 details-notification-gmp-pending2 =
     .message = { $name } will be installed shortly.

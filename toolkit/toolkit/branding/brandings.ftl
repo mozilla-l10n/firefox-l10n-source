@@ -15,6 +15,8 @@
 ## https://mozilla-l10n.github.io/styleguides/mozilla_general/#brands-copyright-and-trademark
 
 -facebook-container-brand-name = Facebook Container
+-lockwise-brand-name = Firefox Lockwise
+-lockwise-brand-short-name = Lockwise
 -monitor-brand-name = Firefox Monitor
 -monitor-brand-short-name = Monitor
 -mozmonitor-brand-name = Mozilla Monitor
@@ -27,6 +29,7 @@
 -focus-brand-name = Firefox Focus
 -relay-brand-name = Firefox Relay
 -relay-brand-short-name = Relay
+
 -fakespot-brand-name = Fakespot
 
 # Note the name of the website is capitalized.

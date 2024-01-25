@@ -2,6 +2,10 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+toolbar-button-firefox-view =
+  .label = { -firefoxview-brand-name }
+  .tooltiptext = { -firefoxview-brand-name }
+
 toolbar-button-firefox-view-2 =
   .label = { -firefoxview-brand-name }
   .tooltiptext = View recent browsing across windows and devices
@@ -81,9 +85,11 @@ firefoxview-tabpickup-password-locked-header = Enter your Primary Password to vi
 firefoxview-tabpickup-password-locked-description = To grab your tabs, you’ll need to enter the Primary Password for { -brand-short-name }.
 firefoxview-tabpickup-password-locked-link = Learn more
 firefoxview-tabpickup-password-locked-primarybutton = Enter Primary Password
+
 firefoxview-syncedtab-password-locked-link = <a data-l10n-name="syncedtab-password-locked-link">Learn more</a>
 
 firefoxview-tabpickup-signed-out-header = Sign in to reconnect
+firefoxview-tabpickup-signed-out-description = To reconnect and grab your tabs, sign in to your { -fxaccount-brand-name }.
 firefoxview-tabpickup-signed-out-description2 = To reconnect and grab your tabs, sign in to your account.
 firefoxview-tabpickup-signed-out-primarybutton = Sign in
 
@@ -96,7 +102,13 @@ firefoxview-mobile-promo-primarybutton = Get { -brand-product-name } for mobile
 firefoxview-mobile-confirmation-header = 🎉 Good to go!
 firefoxview-mobile-confirmation-description = Now you can grab your { -brand-product-name } tabs from your tablet or phone.
 
+firefoxview-closed-tabs-title = Recently closed
+
+firefoxview-closed-tabs-description2 = Reopen pages you’ve closed in this window.
+
 firefoxview-closed-tabs-placeholder-header = No recently closed tabs
+firefoxview-closed-tabs-placeholder-body = When you close a tab in this window, you can fetch it from here.
+
 firefoxview-closed-tabs-placeholder-body2 = When you close a tab, you can fetch it from here.
 
 # Variables:
@@ -131,6 +143,7 @@ firefoxview-collapse-button-hide =
 
 firefoxview-overview-nav = Recent browsing
   .title = Recent browsing
+
 firefoxview-overview-header = Recent browsing
   .title = Recent browsing
 
@@ -139,6 +152,7 @@ firefoxview-overview-header = Recent browsing
 firefoxview-history-nav = History
   .title = History
 firefoxview-history-header = History
+
 firefoxview-history-context-delete = Delete from History
     .accesskey = D
 

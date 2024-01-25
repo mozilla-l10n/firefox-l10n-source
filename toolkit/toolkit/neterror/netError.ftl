@@ -57,6 +57,8 @@ neterror-dns-not-found-hint-firewall = Check that { -brand-short-name } has perm
 ##   $hostname (String) - Hostname of the website to which the user was trying to connect.
 ##   $trrDomain (String) - Hostname of the DNS over HTTPS server that is currently in use.
 
+neterror-dns-not-found-trr-only-reason = { -brand-short-name } can’t protect your request for this site’s address through our trusted DNS resolver. Here’s why:
+
 neterror-dns-not-found-trr-only-reason2 = { -brand-short-name } can’t protect your request for this site’s address through our secure DNS provider. Here’s why:
 neterror-dns-not-found-trr-third-party-warning2 = You can continue with your default DNS resolver. However, a third-party might be able to see what websites you visit.
 
@@ -71,6 +73,8 @@ neterror-dns-not-found-trr-unknown-problem = Unexpected problem.
 ## Native fallback specific messages
 ## Variables:
 ##   $trrDomain (String) - Hostname of the DNS over HTTPS server that is currently in use.
+
+neterror-dns-not-found-native-fallback-reason = { -brand-short-name } can’t protect your request for this site’s address through our trusted DNS resolver. Here’s why:
 
 neterror-dns-not-found-native-fallback-reason2 = { -brand-short-name } can’t protect your request for this site’s address through our secure DNS provider. Here’s why:
 neterror-dns-not-found-native-fallback-heuristic = DNS over HTTPS has been disabled on your network.

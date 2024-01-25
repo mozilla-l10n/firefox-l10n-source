@@ -89,6 +89,8 @@ urlbar-indexed-db-notification-anchor =
     .tooltiptext = Open offline storage message panel
 urlbar-password-notification-anchor =
     .tooltiptext = Open save password message panel
+urlbar-plugins-notification-anchor =
+    .tooltiptext = Manage plug-in use
 urlbar-web-rtc-share-devices-notification-anchor =
     .tooltiptext = Manage sharing your camera and/or microphone with the site
 # "Speakers" is used in a general sense that might include headphones or
@@ -101,6 +103,8 @@ urlbar-persistent-storage-notification-anchor =
     .tooltiptext = Store data in Persistent Storage
 urlbar-addons-notification-anchor =
     .tooltiptext = Open add-on installation message panel
+urlbar-tip-help-icon =
+    .title = Get help
 urlbar-search-tips-confirm = Okay, Got It
 urlbar-search-tips-confirm-short = Got it
 # Read out before Urlbar Tip text content so screenreader users know the
@@ -387,6 +391,7 @@ identity-weak-encryption = This page uses weak encryption.
 identity-insecure-login-forms = Logins entered on this page could be compromised.
 
 identity-https-only-connection-upgraded = (upgraded to HTTPS)
+identity-https-only-label = HTTPS-Only Mode
 identity-https-only-label2 = Automatically upgrade this site to a secure connection
 identity-https-only-dropdown-on =
     .label = On
@@ -394,6 +399,8 @@ identity-https-only-dropdown-off =
     .label = Off
 identity-https-only-dropdown-off-temporarily =
     .label = Off temporarily
+identity-https-only-info-turn-on2 = Turn on HTTPS-Only Mode for this site if you want { -brand-short-name } to upgrade the connection when possible.
+identity-https-only-info-turn-off2 = If the page seems broken, you may want to turn off HTTPS-Only Mode for this site to reload using insecure HTTP.
 identity-https-only-info-turn-on3 = Turn on HTTPS upgrades for this site if you want { -brand-short-name } to upgrade the connection when possible.
 identity-https-only-info-turn-off3 = If the page seems broken, you may want to turn off HTTPS upgrades for this site to reload using insecure HTTP.
 identity-https-only-info-no-upgrade = Unable to upgrade connection from HTTP.
@@ -510,6 +517,10 @@ sharing-warning-proceed-to-tab =
   .label = Proceed to Tab
 sharing-warning-disable-for-session =
   .label = Disable sharing protection for this session
+
+## DevTools F12 popup
+
+enable-devtools-popup-description2 = To use the F12 shortcut, first open DevTools via the Browser Tools menu.
 
 ## URL Bar
 
