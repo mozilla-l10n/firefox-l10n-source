@@ -30,25 +30,36 @@ def update(branch: str, fx_root: str, l10n_root: str, config_files: list[str]):
     messages = {}
     for fx_path, *_ in ProjectFiles(None, configs):
         rel_path = relpath(fx_path, fx_root).replace("/locales/en-US", "")
+        l10n_path = join(l10n_root, rel_path)
+        makedirs(dirname(l10n_path), exist_ok=True)
+
         try:
             fx_parser = getParser(fx_path)
-        except UserWarning:
-            # print(f"  skip {rel_path}")
+        except UserWarning:  # No parser found
+            messages[rel_path] = []
+            if not exists(l10n_path):
+                print(f"  create {rel_path}")
+                copy(fx_path, l10n_path)
+            elif branch == HEAD and not cmp(fx_path, l10n_path):
+                print(f"  update {rel_path}")
+                copy(fx_path, l10n_path)
+            else:
+                # print(f"  skip {rel_path}")
+                pass
             continue
+
         fx_parser.readFile(fx_path)
         fx_res = [entity for entity in fx_parser.walk()]
         messages[rel_path] = [
             entity.key for entity in fx_res if isinstance(entity, Entity)
         ]
 
-        l10n_path = join(l10n_root, rel_path)
-        makedirs(dirname(l10n_path), exist_ok=True)
         if not exists(l10n_path):
             print(f"  create {rel_path}")
             copy(fx_path, l10n_path)
         elif cmp(fx_path, l10n_path):
             # print(f"  equal {rel_path}")
-            continue
+            pass
         else:
             with open(l10n_path, "+rb") as file:
                 l10n_data = file.read()
@@ -58,7 +69,7 @@ def update(branch: str, fx_root: str, l10n_root: str, config_files: list[str]):
                 )
                 if merge_data == l10n_data:
                     # print(f"  unchanged {rel_path}")
-                    continue
+                    pass
                 else:
                     print(f"  update {rel_path}")
                     file.seek(0)
