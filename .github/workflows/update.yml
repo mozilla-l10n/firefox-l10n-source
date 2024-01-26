@@ -89,7 +89,8 @@ jobs:
           cache-dependency-path: _scripts/requirements.txt
       - run: pip install -r _scripts/requirements.txt
         # TODO: This list should be generated from the update matrix
-      - run: python -m _scripts.prune master beta release esr115
+      - id: prune
+        run: python -m _scripts.prune master beta release esr115
       - name: git config
         run: |
           git config --global user.name "github-actions[bot]"

@@ -1,0 +1,8 @@
+{
+  "name": "firefox-l10n-source-scripts",
+  "private": true,
+  "license": "MPL-2.0",
+  "dependencies": {
+    "yaml": "^2.3.4"
+  }
+}
