@@ -55,6 +55,7 @@ def prune(branches: list[str]):
         if not match(r"[a-z]+[0-9]*", branch):
             exit(f"Invalid branch names: {branches}")
 
+    removed_data = []
     removed_files = 0
     removed_messages = 0
     refs: dict[str, set[str]] = {}
@@ -74,7 +75,7 @@ def prune(branches: list[str]):
             else:
                 print(f"remove {relpath(entry.path, cwd)}")
                 remove(entry.path)
-                removed_files += 1
+                removed_data.append(branch)
     if not refs:
         exit(f"No data found for: {branches}")
     if expected:
@@ -91,7 +92,21 @@ def prune(branches: list[str]):
                         removed_files += 1
                     elif refs[path]:
                         removed_messages += prune_file(path, refs[path])
-    return removed_files, removed_messages
+    return removed_data, removed_files, removed_messages
+
+
+def write_commit_msg(data: list[str], files: int, messages: int):
+    summary = []
+    for branch in data:
+        summary.append(f"{branch} data")
+    if files:
+        summary.append(f"{files} file" if files == 1 else f"{files} files")
+    if messages:
+        summary.append(
+            f"{messages} message" if messages == 1 else f"{messages} messages"
+        )
+    with open(".prune_msg", "w") as file:
+        file.write(f"Removed: {', '.join(summary)}" if summary else "no changes")
 
 
 if __name__ == "__main__":
@@ -108,9 +123,5 @@ if __name__ == "__main__":
     )
     args = parser.parse_args()
 
-    files, msg = prune(args.branches)
-    file_str = f"{files} files" if files > 1 else f"{files} file" if files else ""
-    msg_str = f"{msg} messages" if msg > 1 else f"{msg} message" if msg else ""
-    summary = f"{file_str} and {msg_str}" if files and msg else file_str or msg_str
-    with open(".prune_msg", "w") as file:
-        file.write(f"Pruned {summary}" if summary else "no changes")
+    removed = prune(args.branches)
+    write_commit_msg(*removed)

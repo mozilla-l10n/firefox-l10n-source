@@ -55,7 +55,7 @@ def add_config(fx_root: str, fx_cfg_path: str, done: set[str]):
     return cfg_path
 
 
-def update(branch: str, fx_root: str, config_files: list[str]):
+def update_str(branch: str, fx_root: str, config_files: list[str]):
     if branch not in [HEAD, "beta", "release"] and not match("esr[0-9]+", branch):
         exit(f"Unknown branch: {branch}")
     if not exists(fx_root):
@@ -73,7 +73,8 @@ def update(branch: str, fx_root: str, config_files: list[str]):
             add_config(fx_root, cfg_name, fixed_configs)
 
     messages = {}
-    changes = {"new": 0, "update": 0}
+    new_files = 0
+    updated_files = 0
     for fx_path, *_ in ProjectFiles(None, configs):
         rel_path = relpath(fx_path, abspath(fx_root)).replace("/locales/en-US", "")
         makedirs(dirname(rel_path), exist_ok=True)
@@ -85,11 +86,11 @@ def update(branch: str, fx_root: str, config_files: list[str]):
             if not exists(rel_path):
                 print(f"create {rel_path}")
                 copy(fx_path, rel_path)
-                changes["new"] += 1
+                new_files += 1
             elif branch == HEAD and not cmp(fx_path, rel_path):
                 print(f"update {rel_path}")
                 copy(fx_path, rel_path)
-                changes["update"] += 1
+                updated_files += 1
             else:
                 # print(f"skip {rel_path}")
                 pass
@@ -104,7 +105,7 @@ def update(branch: str, fx_root: str, config_files: list[str]):
         if not exists(rel_path):
             print(f"create {rel_path}")
             copy(fx_path, rel_path)
-            changes["new"] += 1
+            new_files += 1
         elif cmp(fx_path, rel_path):
             # print(f"equal {rel_path}")
             pass
@@ -123,14 +124,29 @@ def update(branch: str, fx_root: str, config_files: list[str]):
                     file.seek(0)
                     file.write(merge_data)
                     file.truncate()
-                    changes["update"] += 1
+                    updated_files += 1
 
     data_path = join("_data", f"{branch}.json")
     makedirs(dirname(data_path), exist_ok=True)
     with open(data_path, "w") as file:
         json.dump(messages, file, indent=2)
 
-    return changes
+    return new_files, updated_files
+
+
+def write_commit_msg(args, new_files: int, updated_files: int):
+    new_str = f"{new_files} new" if new_files else ""
+    update_str = f"{updated_files} updated" if updated_files else ""
+    summary = (
+        f"{new_str} and {update_str}"
+        if new_str and update_str
+        else new_str or update_str or "no changes"
+    )
+    count = updated_files or new_files
+    summary += " files" if count > 1 else " file" if count == 1 else ""
+    head = f"{args.branch} ({args.commit})" if args.commit else args.branch
+    with open(".update_msg", "w") as file:
+        file.write(f"{head}: {summary}")
 
 
 if __name__ == "__main__":
@@ -159,14 +175,5 @@ if __name__ == "__main__":
     )
     args = parser.parse_args()
 
-    changes = update(
-        branch=args.branch, fx_root=args.firefox, config_files=args.configs
-    )
-    new = f"{changes['new']} new" if changes["new"] else ""
-    update = f"{changes['update']} updated" if changes["update"] else ""
-    summary = f"{new} and {update}" if new and update else new or update or "no changes"
-    count = changes["update"] or changes["new"]
-    summary += " files" if count > 1 else " file" if count == 1 else ""
-    head = f"{args.branch} ({args.commit})" if args.commit else args.branch
-    with open(".update_msg", "w") as file:
-        file.write(f"{head}: {summary}")
+    update = update_str(args.branch, args.firefox, args.configs)
+    write_commit_msg(args, *update)
