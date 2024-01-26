@@ -75,6 +75,12 @@ cfr-doorhanger-bookmark-fxa-close-btn-tooltip =
   .aria-label = Close button
   .title = Close
 
+## Protections panel
+
+cfr-protections-panel-header = Browse without being followed
+cfr-protections-panel-body = Keep your data to yourself. { -brand-short-name } protects you from many of the most common trackers that follow what you do online.
+cfr-protections-panel-link-text = Learn more
+
 ## What's New toolbar button and panel
 
 # This string is used by screen readers to offer a text based alternative for
@@ -190,6 +196,9 @@ firefoxview-spotlight-promo-primarybutton = See how it works
 firefoxview-spotlight-promo-secondarybutton = Skip
 
 ## Cookie Banner Handling CFR
+
+cookie-banner-blocker-cfr-header = { -brand-short-name } just blocked cookies for you
+cookie-banner-blocker-cfr-body = We automatically refuse many cookie pop-ups to make it tough for sites to track you.
 
 cookie-banner-blocker-onboarding-header = { -brand-short-name } just refused a cookie banner for you
 cookie-banner-blocker-onboarding-body = Less distractions, less cookies tracking you on this site.

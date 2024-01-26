@@ -527,6 +527,10 @@ update-application-background-enabled =
 
 update-application-warning-cross-user-setting = This setting will apply to all Windows accounts and { -brand-short-name } profiles using this installation of { -brand-short-name }.
 
+update-application-use-service =
+    .label = Use a background service to install updates
+    .accesskey = b
+
 update-application-suppress-prompts =
     .label = Show fewer update notification prompts
     .accesskey = n
@@ -779,6 +783,8 @@ search-show-suggestions-above-history-option =
 
 search-show-suggestions-private-windows =
     .label = Show search suggestions in Private Windows
+
+suggestions-addressbar-settings-generic2 = Change settings for other address bar suggestions
 
 search-suggestions-cant-show = Search suggestions will not be shown in location bar results because you have configured { -brand-short-name } to never remember history.
 
@@ -1232,6 +1238,8 @@ addressbar-locbar-quickactions-option =
 addressbar-locbar-showrecentsearches-option =
     .label = Show recent searches
     .accesskey = r
+
+addressbar-suggestions-settings = Change preferences for search engine suggestions
 
 addressbar-quickactions-learn-more = Learn more
 
