@@ -3,15 +3,26 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 import json
+from argparse import ArgumentParser
 from codecs import encode
 from os import getcwd, remove, scandir, walk
 from os.path import join, relpath, splitext
 from re import match
-from sys import argv, exit
+from sys import exit
 from compare_locales.parser import Entity, getParser
 
+description = """
+Prune localization files after updates from Firefox branches.
 
-def prune_file(path, msg_refs):
+Expects to find `_data/[branch].json` for each branch,
+and removes any other JSON data files in `_data/`.
+Removes any files and messages not used by any branch.
+
+Writes a commit message summary as `.prune_msg`.
+"""
+
+
+def prune_file(path: str, msg_refs: set[str]):
     parser = getParser(path)
     with open(path, "+rb") as file:
         parser.readContents(file.read())
@@ -20,7 +31,7 @@ def prune_file(path, msg_refs):
             e.key for e in resource if isinstance(e, Entity) and e.key not in msg_refs
         )
         if drop:
-            print(f"update {path}")
+            print(f"drop {len(drop)} from {path}")
             res = ""
             trim = False
             for entity in resource:
@@ -84,8 +95,20 @@ def prune(branches: list[str]):
 
 
 if __name__ == "__main__":
-    branches = argv[-1].split(",")
-    files, msg = prune(branches)
+    prog = "python -m _scripts.prune"
+    parser = ArgumentParser(
+        prog=prog,
+        description=description,
+        epilog=f"Example: {prog} master beta release",
+    )
+    parser.add_argument(
+        "branches",
+        nargs="+",
+        help='A list of branch identifiers, e.g. "master beta release".',
+    )
+    args = parser.parse_args()
+
+    files, msg = prune(args.branches)
     file_str = f"{files} files" if files > 1 else f"{files} file" if files else ""
     msg_str = f"{msg} messages" if msg > 1 else f"{msg} message" if msg else ""
     summary = f"{file_str} and {msg_str}" if files and msg else file_str or msg_str

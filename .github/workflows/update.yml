@@ -37,6 +37,7 @@ jobs:
           repository: mozilla/gecko-dev
           ref: ${{ matrix.ref }}
           path: firefox
+          # TODO: These paths should be generated from the l10n.toml files
           sparse-checkout: |
             browser/branding/official/locales
             browser/extensions/formautofill/locales
@@ -57,7 +58,12 @@ jobs:
           cache: pip
           cache-dependency-path: l10n/_scripts/requirements.txt
       - run: pip install -r l10n/_scripts/requirements.txt
-      - run: python -m _scripts.update ${{ matrix.ref }}
+      - run: >
+          python -m _scripts.update
+          --branch ${{ matrix.ref }}
+          --commit $(cd ../firefox && git rev-parse --short HEAD)
+          --firefox ../firefox
+          --configs browser/locales/l10n.toml mobile/android/locales/l10n.toml
         working-directory: l10n
       - name: git config
         run: |
@@ -82,8 +88,8 @@ jobs:
           cache: pip
           cache-dependency-path: _scripts/requirements.txt
       - run: pip install -r _scripts/requirements.txt
-        # TODO: This comma-separated list should be generated somehow from the update matrix
-      - run: python -m _scripts.prune master,beta,release,esr115
+        # TODO: This list should be generated from the update matrix
+      - run: python -m _scripts.prune master beta release esr115
       - name: git config
         run: |
           git config --global user.name "github-actions[bot]"
