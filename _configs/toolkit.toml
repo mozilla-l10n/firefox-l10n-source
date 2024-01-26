@@ -1,0 +1,14 @@
+basepath = ".."
+paths = [
+    { reference = "toolkit/**", l10n = "{l}toolkit/**" },
+    { reference = "dom/**", l10n = "{l}dom/**" },
+    { reference = "browser/pdfviewer/**", l10n = "{l}browser/pdfviewer/**" },
+    { reference = "netwerk/**", l10n = "{l}netwerk/**" },
+    { reference = "security/manager/**", l10n = "{l}security/manager/**" },
+]
+includes = [
+    { path = "_configs/devtools-shared.toml" },
+]
+
+[env]
+l = "{l10n_base}/{locale}/"

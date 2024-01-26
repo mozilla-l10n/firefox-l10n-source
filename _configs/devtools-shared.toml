@@ -1,0 +1,7 @@
+basepath = ".."
+paths = [
+    { reference = "devtools/shared/**", l10n = "{l}devtools/shared/**" },
+]
+
+[env]
+l = "{l10n_base}/{locale}/"
