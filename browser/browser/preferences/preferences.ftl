@@ -342,7 +342,15 @@ manage-browser-languages-button =
 confirm-browser-language-change-description = Restart { -brand-short-name } to apply these changes
 confirm-browser-language-change-button = Apply and Restart
 
+translate-web-pages =
+    .label = Translate web content
+    .accesskey = T
+
 fx-translate-web-pages = { -translations-brand-name }
+
+# The <img> element is replaced by the logo of the provider
+# used to provide machine translations for web pages.
+translate-attribution = Translations by <img data-l10n-name="logo"/>
 
 translate-exceptions =
     .label = Exceptions…
@@ -736,6 +744,15 @@ home-prefs-recent-activity-header =
     .label = Recent activity
 home-prefs-recent-activity-description = A selection of recent sites and content
 
+# For the "Snippets" feature traditionally on about:home.
+# Alternative translation options: "Small Note" or something that
+# expresses the idea of "a small message, shortened from something else,
+# and non-essential but also not entirely trivial and useless.
+home-prefs-snippets-header =
+    .label = Snippets
+
+home-prefs-snippets-description-new = Tips and news from { -vendor-short-name } and { -brand-product-name }
+
 # Variables:
 #   $num (number) - Number of rows displayed
 home-prefs-sections-rows-option =
@@ -747,6 +764,12 @@ home-prefs-sections-rows-option =
 
 ## Search Section
 
+search-bar-header = Search Bar
+search-bar-hidden =
+    .label = Use the address bar for search and navigation
+search-bar-shown =
+    .label = Add search bar in toolbar
+
 search-engine-default-header = Default Search Engine
 search-engine-default-desc-2 = This is your default search engine in the address bar and search bar. You can switch it at any time.
 search-engine-default-private-desc-2 = Choose a different default search engine for Private Windows only
@@ -756,6 +779,10 @@ search-separate-default-engine =
 
 search-suggestions-header = Search Suggestions
 search-suggestions-desc = Choose how suggestions from search engines appear.
+
+search-suggestions-option =
+    .label = Provide search suggestions
+    .accesskey = s
 
 search-show-suggestions-option =
     .label = Show search suggestions
@@ -876,6 +903,10 @@ sync-signedin-login-failure = Please sign in to reconnect { $email }
 
 ##
 
+sync-resend-verification =
+    .label = Resend Verification
+    .accesskey = d
+
 sync-verify-account =
     .label = Verify Account
     .accesskey = V
@@ -900,6 +931,11 @@ prefs-sync-turn-on-syncing =
 
 prefs-sync-offer-setup-label2 = Synchronize your bookmarks, history, tabs, passwords, add-ons, and settings across all your devices.
 
+prefs-sync-now =
+    .labelnotsyncing = Sync Now
+    .accesskeynotsyncing = N
+    .labelsyncing = Syncing…
+
 prefs-sync-now-button =
     .label = Sync Now
     .accesskey = N
@@ -914,8 +950,10 @@ sync-syncing-across-devices-heading = You are syncing these items across all you
 sync-currently-syncing-bookmarks = Bookmarks
 sync-currently-syncing-history = History
 sync-currently-syncing-tabs = Open tabs
+sync-currently-syncing-logins-passwords = Logins and passwords
 sync-currently-syncing-passwords = Passwords
 sync-currently-syncing-addresses = Addresses
+sync-currently-syncing-creditcards = Credit cards
 sync-currently-syncing-payment-methods = Payment methods
 sync-currently-syncing-addons = Add-ons
 sync-currently-syncing-settings = Settings
@@ -949,6 +987,11 @@ sync-engine-tabs =
     .tooltiptext = A list of what’s open on all synced devices
     .accesskey = t
 
+sync-engine-logins-passwords =
+    .label = Logins and passwords
+    .tooltiptext = Usernames and passwords you’ve saved
+    .accesskey = L
+
 sync-engine-passwords =
     .label = Passwords
     .tooltiptext = Passwords you’ve saved
@@ -958,6 +1001,11 @@ sync-engine-addresses =
     .label = Addresses
     .tooltiptext = Postal addresses you’ve saved (desktop only)
     .accesskey = e
+
+sync-engine-creditcards =
+    .label = Credit cards
+    .tooltiptext = Names, numbers and expiry dates (desktop only)
+    .accesskey = C
 
 sync-engine-payment-methods2 =
     .label = Payment methods
@@ -992,9 +1040,30 @@ sync-device-name-save =
 
 sync-connect-another-device = Connect another device
 
+## These strings are shown in a desktop notification after the
+## user requests we resend a verification email.
+
+sync-verification-sent-title = Verification Sent
+# Variables:
+#   $email (String): Email address of user's Firefox account.
+sync-verification-sent-body = A verification link has been sent to { $email }.
+sync-verification-not-sent-title = Unable to Send Verification
+sync-verification-not-sent-body = We are unable to send a verification mail at this time, please try again later.
+
 ## Privacy Section
 
 privacy-header = Browser Privacy
+
+## Privacy Section - Logins and Passwords
+
+# The search keyword isn't shown to users but is used to find relevant settings in about:preferences.
+pane-privacy-logins-and-passwords-header = Logins and Passwords
+    .searchkeywords = { -lockwise-brand-short-name }
+
+# Checkbox to control whether UI is shown to users to save or fill logins/passwords.
+forms-ask-to-save-logins =
+    .label = Ask to save logins and passwords for websites
+    .accesskey = r
 
 ## Privacy Section - Passwords
 
@@ -1010,6 +1079,9 @@ forms-ask-to-save-passwords =
 forms-exceptions =
     .label = Exceptions…
     .accesskey = x
+forms-generate-passwords =
+    .label = Suggest and generate strong passwords
+    .accesskey = u
 forms-suggest-passwords =
     .label = Suggest strong passwords
     .accesskey = S
@@ -1017,10 +1089,20 @@ forms-breach-alerts =
     .label = Show alerts about passwords for breached websites
     .accesskey = b
 forms-breach-alerts-learn-more-link = Learn more
+preferences-relay-integration-checkbox =
+    .label = Suggest { -relay-brand-name } email masks to protect your email address
 preferences-relay-integration-checkbox2 =
     .label = Suggest { -relay-brand-name } email masks to protect your email address
     .accesskey = r
 relay-integration-learn-more-link = Learn more
+
+# Checkbox which controls filling saved logins into fields automatically when they appear, in some cases without user interaction.
+forms-fill-logins-and-passwords =
+    .label = Autofill logins and passwords
+    .accesskey = i
+forms-saved-logins =
+    .label = Saved Logins…
+    .accesskey = L
 
 # Checkbox which controls filling saved logins into fields automatically when they appear, in some cases without user interaction.
 forms-fill-usernames-and-passwords =
@@ -1196,11 +1278,19 @@ sitedata-cookies-exceptions =
     .label = Manage Exceptions…
     .accesskey = x
 
+## Privacy Section - Cookie Banner Handling
+
+cookie-banner-handling-header = Cookie Banner Reduction
+cookie-banner-handling-description = { -brand-short-name } automatically tries to reject cookie requests on cookie banners on supported sites.
+
 ## Privacy Section - Cookie Banner Blocking
 
 cookie-banner-blocker-header = Cookie Banner Blocker
 cookie-banner-blocker-description = When a site asks if they can use cookies in private browsing mode, { -brand-short-name } automatically refuses for you. Only on supported sites.
 cookie-banner-learn-more = Learn More
+forms-handle-cookie-banners =
+    .label = Reduce Cookie Banners
+
 cookie-banner-blocker-checkbox-label =
     .label = Automatically refuse cookie banners
 
@@ -1235,6 +1325,7 @@ addressbar-locbar-engines-option =
 addressbar-locbar-quickactions-option =
     .label = Quick actions
     .accesskey = Q
+
 addressbar-locbar-showrecentsearches-option =
     .label = Show recent searches
     .accesskey = r
@@ -1291,6 +1382,7 @@ content-blocking-all-windows-tracking-content = Tracking content in all windows
 content-blocking-all-cross-site-cookies = All cross-site cookies
 content-blocking-cryptominers = Cryptominers
 content-blocking-fingerprinters = Fingerprinters
+
 # The known fingerprinters are those that are known for collecting browser fingerprints from user devices. And
 # the suspected fingerprinters are those that we are uncertain about browser fingerprinting activities. But they could
 # possibly acquire browser fingerprints because of the behavior on accessing APIs that expose browser fingerprints.
@@ -1335,6 +1427,12 @@ content-blocking-expand-section =
 content-blocking-cryptominers-label =
   .label = Cryptominers
   .accesskey = y
+
+# Browser fingerprinting is a method of tracking users by the configuration and settings information (their "digital fingerprint")
+# that is visible to websites they browse, rather than traditional tracking methods such as IP addresses and unique cookies.
+content-blocking-fingerprinters-label =
+  .label = Fingerprinters
+  .accesskey = F
 
 # Browser fingerprinting is a method of tracking users by the configuration and settings information (their "digital fingerprint")
 # that is visible to websites they browse, rather than traditional tracking methods such as IP addresses and unique cookies.
@@ -1422,6 +1520,8 @@ permissions-addon-exceptions =
     .accesskey = E
 
 ## Privacy Section - Data Collection
+
+collection-header = { -brand-short-name } Data Collection and Use
 
 collection-header2 = { -brand-short-name } Data Collection and Use
     .searchkeywords = telemetry
@@ -1533,6 +1633,8 @@ httpsonly-radio-disabled =
 
 preferences-doh-header = DNS over HTTPS
 
+preferences-doh-description = Domain Name System (DNS) over HTTPS sends your request for a domain name through an encrypted connection, creating a secure DNS and making it harder for others to see which website you’re about to access.
+
 preferences-doh-description2 = Domain Name System (DNS) over HTTPS sends your request for a domain name through an encrypted connection, providing a secure DNS and making it harder for others to see which website you’re about to access.
 
 # Variables:
@@ -1551,6 +1653,8 @@ preferences-doh-status-disabled = Off
 # Variables:
 #   $reason (string) - A string representation of the reason DoH is not active. For example NS_ERROR_UNKNOWN_HOST or TRR_RCODE_FAIL.
 preferences-doh-status-not-active = Not active ({ $reason })
+
+preferences-doh-group-message = Enable secure DNS using:
 
 preferences-doh-group-message2 = Enable DNS over HTTPS using:
 

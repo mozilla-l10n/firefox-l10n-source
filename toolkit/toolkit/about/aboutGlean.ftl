@@ -57,6 +57,9 @@ about-glean-manual-testing =
 # This message is an option in a dropdown filled with untranslated names of pings.
 about-glean-no-ping-label = (don’t submit any ping)
 # An in-line text input field precedes this string.
+about-glean-label-for-tag-pings =
+  In the preceding field ensure there is a memorable debug tag so you can recognize your pings later.
+# An in-line text input field precedes this string.
 about-glean-label-for-tag-pings-with-requirements =
   Set a memorable debug tag <span>(20 characters or fewer, alphanumerics and - only)</span> so you can recognize your pings later.
 # An in-line drop down list precedes this string.
@@ -83,6 +86,15 @@ about-glean-li-for-visit-gdpv =
   <a data-l10n-name="gdpv-tagged-pings-link">Visit the { glean-debug-ping-viewer-brand-name } page for pings with your tag</a>.
   It shouldn’t take more than a few seconds from pushing the button to your ping arriving.
   Sometimes it may take a small handful of minutes.
+
+# Do not translate strings between <code> </code> tags.
+about-glean-adhoc-explanation =
+  For more <i>ad hoc</i> testing,
+  you can also determine the current value of a particular piece of instrumentation
+  by opening a devtools console here on <code>about:glean</code>
+  and using the <code>testGetValue()</code> API like
+  <code>Glean.metricCategory.metricName.testGetValue()</code>.
+
 
 # Do not translate strings between <code> </code> tags.
 about-glean-adhoc-explanation2 =

@@ -19,6 +19,11 @@ bookmark-overlay-location-2 =
 bookmark-overlay-choose =
   .label = Choose…
 
+bookmark-overlay-folders-expander =
+  .tooltiptext = Show all the bookmarks folders
+  .tooltiptextdown = { bookmark-overlay-folders-expander.tooltiptext }
+  .tooltiptextup = Hide
+
 bookmark-overlay-folders-expander2 =
   .tooltiptext = Show all the bookmarks folders
 
@@ -39,6 +44,11 @@ bookmark-overlay-tags-2 =
 
 bookmark-overlay-tags-empty-description =
   .placeholder = Separate tags with commas
+
+bookmark-overlay-tags-expander =
+  .tooltiptext = Show all tags
+  .tooltiptextdown = { bookmark-overlay-tags-expander.tooltiptext }
+  .tooltiptextup = Hide
 
 bookmark-overlay-tags-expander2 =
   .tooltiptext = Show all tags

@@ -51,6 +51,9 @@ protections-panel-site-not-working-view =
 ## a tooltip explaining why these items were not blocked in the page.
 
 protections-panel-not-blocking-why-label = Why?
+protections-panel-not-blocking-why-etp-on-tooltip = Blocking these could break elements of some websites. Without trackers, some buttons, forms, and login fields might not work.
+protections-panel-not-blocking-why-etp-off-tooltip = All trackers on this site have been loaded because protections are turned off.
+
 protections-panel-not-blocking-why-etp-on-tooltip-label =
   .label = Blocking these could break elements of some websites. Without trackers, some buttons, forms, and login fields might not work.
 protections-panel-not-blocking-why-etp-off-tooltip-label =
@@ -116,6 +119,7 @@ protections-panel-content-blocking-manage-settings =
 
 protections-panel-content-blocking-breakage-report-view =
   .title = Report a Broken Site
+protections-panel-content-blocking-breakage-report-view-description = Blocking certain trackers can cause problems with some websites. Reporting these problems helps make { -brand-short-name } better for everyone. Sending this report will send a URL and information about your browser settings to Mozilla. <label data-l10n-name="learn-more">Learn more</label>
 protections-panel-content-blocking-breakage-report-view-description2 = Blocking certain trackers can cause problems with some websites. Reporting these problems helps make { -brand-short-name } better for everyone. Sending this report will send a URL and information about your browser settings to { -vendor-short-name }.
 protections-panel-content-blocking-breakage-report-view-collection-url = URL
 protections-panel-content-blocking-breakage-report-view-collection-url-label =
@@ -130,10 +134,19 @@ protections-panel-content-blocking-breakage-report-view-send-report =
 
 # Cookie Banner Handling
 
+protections-panel-cookie-banner-handling-header = Cookie Banner Reduction
+
 protections-panel-cookie-banner-blocker-header = Cookie Banner Blocker
 protections-panel-cookie-banner-handling-enabled = On for this site
 protections-panel-cookie-banner-handling-disabled = Off for this site
 protections-panel-cookie-banner-handling-undetected = Site currently not supported
+
+protections-panel-cookie-banner-view-title =
+  .title = Cookie Banner Reduction
+# Variables
+#  $host (String): the hostname of the site that is being displayed.
+protections-panel-cookie-banner-view-turn-off-for-site = Turn off Cookie Banner Reduction for { $host }?
+protections-panel-cookie-banner-view-turn-on-for-site = Turn on Cookie Banner Reduction for this site?
 
 protections-panel-cookie-banner-blocker-view-title =
   .title = Cookie Banner Blocker
@@ -142,6 +155,10 @@ protections-panel-cookie-banner-blocker-view-title =
 protections-panel-cookie-banner-blocker-view-turn-off-for-site = Turn off Cookie Banner Blocker for { $host }?
 protections-panel-cookie-banner-blocker-view-turn-on-for-site = Turn on Cookie Banner Blocker for this site?
 protections-panel-cookie-banner-view-cookie-clear-warning = { -brand-short-name } will clear this site’s cookies and refresh the page. Clearing all cookies may sign you out or empty shopping carts.
+protections-panel-cookie-banner-view-turn-on-description = { -brand-short-name } tries to automatically reject all cookie requests on supported sites.
+protections-panel-cookie-banner-view-cancel = Cancel
+protections-panel-cookie-banner-view-turn-off = Turn Off
+protections-panel-cookie-banner-view-turn-on = Turn On
 protections-panel-cookie-banner-blocker-view-turn-on-description = Turn on and { -brand-short-name } will try to automatically refuse cookie banners on this site.
 protections-panel-cookie-banner-view-cancel-label =
   .label = Cancel

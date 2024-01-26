@@ -8,6 +8,8 @@ sync-disconnect-dialog-title2 = Disconnect?
 sync-disconnect-dialog-body = { -brand-product-name } will stop syncing your account but won’t delete any of your browsing data on this device.
 sync-disconnect-dialog-button = Disconnect
 
+fxa-signout-dialog2-title = Sign out of { -fxaccount-brand-name(capitalization: "sentence") }?
+
 fxa-signout-dialog-title2 = Sign out of your account?
 fxa-signout-dialog-body = Synced data will remain in your account.
 fxa-signout-dialog2-button = Sign out

@@ -109,6 +109,8 @@ permissions-exceptions-cookie-desc = You can specify which websites are always o
 permissions-exceptions-https-only-window2 =
     .title = Exceptions - HTTPS-Only Mode
     .style = { permissions-window2.style }
+permissions-exceptions-https-only-desc = You can turn off HTTPS-Only Mode for specific websites. { -brand-short-name } won’t attempt to upgrade the connection to secure HTTPS for those sites. Exceptions do not apply to private windows.
+
 permissions-exceptions-https-only-desc2 = You can turn off HTTPS-Only Mode for specific websites. { -brand-short-name } won’t attempt to upgrade the connection to secure HTTPS for those sites.
 
 ## Exceptions - Pop-ups
@@ -117,6 +119,13 @@ permissions-exceptions-popup-window2 =
     .title = Allowed Websites - Pop-ups
     .style = { permissions-window2.style }
 permissions-exceptions-popup-desc = You can specify which websites are allowed to open pop-up windows. Type the exact address of the site you want to allow and then click Allow.
+
+## Exceptions - Saved Logins
+
+permissions-exceptions-saved-logins-window2 =
+    .title = Exceptions - Saved Logins
+    .style = { permissions-window2.style }
+permissions-exceptions-saved-logins-desc = Logins for the following websites will not be saved
 
 ## Exceptions - Saved Passwords
 

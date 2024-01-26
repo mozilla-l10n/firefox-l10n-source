@@ -58,6 +58,7 @@ app-basics-profile-dir =
         [linux] Profile Directory
        *[other] Profile Folder
     }
+app-basics-enabled-plugins = Enabled Plugins
 app-basics-build-config = Build Configuration
 app-basics-user-agent = User Agent
 app-basics-os = OS
@@ -81,6 +82,7 @@ app-basics-key-mozilla = Mozilla Location Service Key
 app-basics-safe-mode = Safe Mode
 app-basics-memory-size = Memory Size (RAM)
 app-basics-disk-available = Disk Space Available
+
 app-basics-pointing-devices = Pointing Devices
 
 # Variables:

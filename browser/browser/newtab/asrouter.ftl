@@ -195,7 +195,26 @@ firefoxview-spotlight-promo-subtitle = Want that open tab on your phone? Grab it
 firefoxview-spotlight-promo-primarybutton = See how it works
 firefoxview-spotlight-promo-secondarybutton = Skip
 
+## Colorways expiry reminder CFR
+
+colorways-cfr-primarybutton = Choose colorway
+  .accesskey = C
+
+# "shades" refers to the different color options available to users in colorways.
+colorways-cfr-body = Color your browser with { -brand-short-name } exclusive shades inspired by voices that changed culture.
+colorways-cfr-header-28days = Independent Voices colorways expire January 16
+colorways-cfr-header-14days = Independent Voices colorways expire in two weeks
+colorways-cfr-header-7days =  Independent Voices colorways expire this week
+colorways-cfr-header-today = Independent Voices colorways expire today
+
 ## Cookie Banner Handling CFR
+
+cfr-cbh-header = Allow { -brand-short-name } to reject cookie banners?
+cfr-cbh-body = { -brand-short-name } can automatically reject many cookie banner requests.
+cfr-cbh-confirm-button = Reject cookie banners
+  .accesskey = R
+cfr-cbh-dismiss-button = Not now
+  .accesskey = N
 
 cookie-banner-blocker-cfr-header = { -brand-short-name } just blocked cookies for you
 cookie-banner-blocker-cfr-body = We automatically refuse many cookie pop-ups to make it tough for sites to track you.
