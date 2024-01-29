@@ -35,6 +35,9 @@ def prune_file(path: str, msg_refs: set[str]):
             res = ""
             trim = False
             for entity in resource:
+                # As whitespace is handled as a separate entity,
+                # a trailing newline after a dropped entity needs to be
+                # trimmed separately.
                 if isinstance(entity, Entity) and entity.key in drop:
                     trim = True
                 elif trim:
@@ -82,7 +85,7 @@ def prune(branches: list[str]):
         exit(f"Incomplete data! Not found: {expected}")
 
     for entry in scandir(cwd):
-        if entry.is_dir() and entry.name[0] != "." and entry.name[0] != "_":
+        if entry.is_dir() and not entry.name.startswith(("_", ".")):
             for root, _, files in walk(entry.path):
                 for file in files:
                     path = relpath(join(root, file), cwd)
