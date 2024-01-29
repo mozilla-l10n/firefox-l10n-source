@@ -1,9 +1,4 @@
-# This Source Code Form is subject to the terms of the Mozilla Public
-# License, v. 2.0. If a copy of the MPL was not distributed with this
-# file, You can obtain one at http://mozilla.org/MPL/2.0/.
-
 basepath = ".."
-
 locales = [
     "ach",
     "af",
@@ -117,50 +112,37 @@ locales = [
     "xh",
     "zh-CN",
     "zh-TW",
-    ]
+]
+includes = [
+    { path = "_configs/toolkit.toml" },
+    { path = "_configs/devtools-client.toml" },
+]
 
 [env]
-    l = "{l10n_base}/{locale}/"
-
-
-[[paths]]
-    reference = "browser/**"
-    l10n = "{l}browser/**"
+l = "{l10n_base}/{locale}/"
 
 [[paths]]
-    reference = "browser/branding/official/**"
-    l10n = "{l}browser/branding/official/**"
+reference = "browser/**"
+l10n = "{l}browser/**"
 
 [[paths]]
-    reference = "browser/extensions/formautofill/**"
-    l10n = "{l}browser/extensions/formautofill/**"
+reference = "browser/branding/official/**"
+l10n = "{l}browser/branding/official/**"
 
 [[paths]]
-    reference = "browser/extensions/report-site-issue/**"
-    l10n = "{l}browser/extensions/report-site-issue/**"
-
-
-[[includes]]
-    path = "_configs/toolkit.toml"
-
-[[includes]]
-    path = "_configs/devtools-client.toml"
+reference = "browser/extensions/formautofill/**"
+l10n = "{l}browser/extensions/formautofill/**"
 
 [[paths]]
-    reference = "devtools/startup/**"
-    l10n = "{l}devtools/startup/**"
+reference = "browser/extensions/report-site-issue/**"
+l10n = "{l}browser/extensions/report-site-issue/**"
 
-# Filters
-# The filters below are evaluated one after the other, in the given order.
-# Enter a combination of path as in the localization, key, and an action,
-# to change the default behavior of compare-locales and l10n merge.
-#
-# For browser/locales/en-US/chrome/browser/foo.properties,
-# path would be {l}browser/chrome/browser/foo.properties
-# key: the key/id of the entity
-# If key isn't specified, the complete file can be missing.
+[[paths]]
+reference = "devtools/startup/**"
+l10n = "{l}devtools/startup/**"
+
 [[filters]]
-    path = [
-        "{l}browser/firefox-l10n.js",
-    ]
-    action = "ignore"
+path = [
+    "{l}browser/firefox-l10n.js",
+]
+action = "ignore"
