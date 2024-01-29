@@ -1,0 +1,35 @@
+# This Source Code Form is subject to the terms of the Mozilla Public
+# License, v. 2.0. If a copy of the MPL was not distributed with this
+# file, You can obtain one at http://mozilla.org/MPL/2.0/.
+
+basepath = ".."
+
+
+[env]
+    l = "{l10n_base}/{locale}/"
+
+
+[[paths]]
+    reference = "toolkit/**"
+    l10n = "{l}toolkit/**"
+
+[[paths]]
+    reference = "dom/**"
+    l10n = "{l}dom/**"
+
+# Pick up l10n files for pdfviewer from browser
+# See https://bugzilla.mozilla.org/show_bug.cgi?id=1618465
+[[paths]]
+    reference = "browser/pdfviewer/**"
+    l10n = "{l}browser/pdfviewer/**"
+
+[[paths]]
+    reference = "netwerk/**"
+    l10n = "{l}netwerk/**"
+
+[[paths]]
+    reference = "security/manager/**"
+    l10n = "{l}security/manager/**"
+
+[[includes]]
+    path = "_configs/devtools-shared.toml"
