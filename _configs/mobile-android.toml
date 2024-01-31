@@ -1,9 +1,4 @@
-# This Source Code Form is subject to the terms of the Mozilla Public
-# License, v. 2.0. If a copy of the MPL was not distributed with this
-# file, You can obtain one at http://mozilla.org/MPL/2.0/.
-
 basepath = ".."
-
 locales = [
     "ach",
     "an",
@@ -117,68 +112,66 @@ exclude-multi-locale = [
 ]
 
 [env]
-    l = "{l10n_base}/{locale}/"
-
-
-[[paths]]
-    reference = "mobile/android/**"
-    l10n = "{l}mobile/android/**"
-
-# hand-picked paths from toolkit, keep in sync with jar.mn
-[[paths]]
-    reference = "dom/chrome/accessibility/AccessFu.properties"
-    l10n = "{l}dom/chrome/accessibility/AccessFu.properties"
+l = "{l10n_base}/{locale}/"
 
 [[paths]]
-    reference = "dom/chrome/dom/dom.properties"
-    l10n = "{l}dom/chrome/dom/dom.properties"
+reference = "mobile/android/**"
+l10n = "{l}mobile/android/**"
 
 [[paths]]
-    reference = "toolkit/toolkit/about/*About.ftl"
-    l10n = "{l}toolkit/toolkit/about/*About.ftl"
+reference = "dom/chrome/accessibility/AccessFu.properties"
+l10n = "{l}dom/chrome/accessibility/AccessFu.properties"
 
 [[paths]]
-    reference = "toolkit/toolkit/about/*Mozilla.ftl"
-    l10n = "{l}toolkit/toolkit/about/*Mozilla.ftl"
+reference = "dom/chrome/dom/dom.properties"
+l10n = "{l}dom/chrome/dom/dom.properties"
 
 [[paths]]
-    reference = "toolkit/toolkit/about/*Rights.ftl"
-    l10n = "{l}toolkit/toolkit/about/*Rights.ftl"
+reference = "toolkit/toolkit/about/*About.ftl"
+l10n = "{l}toolkit/toolkit/about/*About.ftl"
 
 [[paths]]
-    reference = "toolkit/toolkit/about/*Compat.ftl"
-    l10n = "{l}toolkit/toolkit/about/*Compat.ftl"
+reference = "toolkit/toolkit/about/*Mozilla.ftl"
+l10n = "{l}toolkit/toolkit/about/*Mozilla.ftl"
 
 [[paths]]
-    reference = "toolkit/chrome/global/commonDialogs.properties"
-    l10n = "{l}toolkit/chrome/global/commonDialogs.properties"
+reference = "toolkit/toolkit/about/*Rights.ftl"
+l10n = "{l}toolkit/toolkit/about/*Rights.ftl"
 
 [[paths]]
-    reference = "toolkit/chrome/global/intl.properties"
-    l10n = "{l}toolkit/chrome/global/intl.properties"
+reference = "toolkit/toolkit/about/*Compat.ftl"
+l10n = "{l}toolkit/toolkit/about/*Compat.ftl"
 
 [[paths]]
-    reference = "toolkit/chrome/global/intl.css"
-    l10n = "{l}toolkit/chrome/global/intl.css"
+reference = "toolkit/chrome/global/commonDialogs.properties"
+l10n = "{l}toolkit/chrome/global/commonDialogs.properties"
 
 [[paths]]
-    reference = "toolkit/services/*.ftl"
-    l10n = "{l}toolkit/services/*.ftl"
+reference = "toolkit/chrome/global/intl.properties"
+l10n = "{l}toolkit/chrome/global/intl.properties"
 
 [[paths]]
-    reference = "toolkit/toolkit/about/*Support.ftl"
-    l10n = "{l}toolkit/toolkit/about/*Support.ftl"
+reference = "toolkit/chrome/global/intl.css"
+l10n = "{l}toolkit/chrome/global/intl.css"
 
 [[paths]]
-    reference = "toolkit/crashreporter/*.ftl"
-    l10n = "{l}toolkit/crashreporter/*.ftl"
+reference = "toolkit/services/*.ftl"
+l10n = "{l}toolkit/services/*.ftl"
 
 [[paths]]
-    reference = "toolkit/toolkit/about/*Webrtc.ftl"
-    l10n = "{l}toolkit/toolkit/about/*Webrtc.ftl"
+reference = "toolkit/toolkit/about/*Support.ftl"
+l10n = "{l}toolkit/toolkit/about/*Support.ftl"
+
+[[paths]]
+reference = "toolkit/crashreporter/*.ftl"
+l10n = "{l}toolkit/crashreporter/*.ftl"
+
+[[paths]]
+reference = "toolkit/toolkit/about/*Webrtc.ftl"
+l10n = "{l}toolkit/toolkit/about/*Webrtc.ftl"
 
 [[filters]]
-    path = [
-        "{l}mobile/android/mobile-l10n.js",
-    ]
-    action = "ignore"
+path = [
+    "{l}mobile/android/mobile-l10n.js",
+]
+action = "ignore"

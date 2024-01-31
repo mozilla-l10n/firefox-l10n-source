@@ -33,6 +33,7 @@ menu =
 # This menuitem is only visible on Windows and macOS
 about-logins-menu-menuitem-import-from-another-browser = Import from Another Browser…
 about-logins-menu-menuitem-import-from-a-file = Import from a File…
+
 about-logins-menu-menuitem-export-logins = Export Logins…
 about-logins-menu-menuitem-remove-all-logins = Remove All Logins…
 
@@ -88,14 +89,17 @@ login-list-username-reverse-option = Username (Z-A)
 about-logins-login-list-alerts-option = Alerts
 login-list-last-changed-option = Last Modified
 login-list-last-used-option = Last Used
+
 login-list-intro-title = No logins found
 
 login-list-intro-title2 = No passwords saved
 login-list-intro-description = When you save a password in { -brand-product-name }, it will show up here.
+
 about-logins-login-list-empty-search-title = No logins found
 
 about-logins-login-list-empty-search-title2 = No passwords found
 about-logins-login-list-empty-search-description = There are no results matching your search.
+
 login-list-item-title-new-login = New Login
 login-list-item-subtitle-new-login = Enter your login credentials
 

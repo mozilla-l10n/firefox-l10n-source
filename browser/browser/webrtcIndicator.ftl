@@ -6,6 +6,7 @@
 ## enumerate/look for window titles. It is not normally visible anywhere.
 
 webrtc-indicator-title = { -brand-short-name } — Sharing Indicator
+
 webrtc-indicator-window =
     .title = { -brand-short-name } — Sharing Indicator
 

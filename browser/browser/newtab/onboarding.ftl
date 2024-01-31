@@ -204,6 +204,7 @@ mr2022-onboarding-pin-primary-button-label = { PLATFORM() ->
     [macos] Keep { -brand-short-name } in Dock
    *[other] Pin { -brand-short-name } to taskbar
 }
+
 # Subtitle will be used when user already has Firefox pinned, but
 # has not set it as their default browser.
 # When translating "zip", please feel free to pick a verb that signifies movement and/or exploration
@@ -347,6 +348,7 @@ mr2022-onboarding-privacy-segmentation-image-alt =
   .aria-label = Light-skinned and dark-skinned hands high five
 mr2022-onboarding-gratitude-image-alt =
   .aria-label = View of a sunset through a window with a fox and a house plant on a windowsill
+
 mr2022-onboarding-colorways-image-alt =
   .aria-label = A hand spray paints a colorful collage of a green eye, orange shoe, red basketball, purple headphones, blue heart, and yellow crown
 
