@@ -1420,7 +1420,9 @@
     "fxviewtabrow-move-tab-end",
     "fxviewtabrow-move-tab-window",
     "fxviewtabrow-send-tab",
-    "fxviewtabrow-options-menu-button"
+    "fxviewtabrow-options-menu-button",
+    "fxviewtabrow-mute-tab-button",
+    "fxviewtabrow-unmute-tab-button"
   ],
   "browser/browser/identityCredentialNotification.ftl": [
     "identity-credential-header-providers",
@@ -5002,6 +5004,7 @@
     "traceInStdout",
     "traceValues",
     "traceOnNextInteraction",
+    "traceOnNextLoad",
     "resumeButtonTooltip",
     "stepOverTooltip",
     "stepInTooltip",
@@ -7590,7 +7593,6 @@
     "ScrollLinkedEffectFound3",
     "CompositorAnimationWarningContentTooLargeArea",
     "CompositorAnimationWarningContentTooLarge2",
-    "CompositorAnimationWarningTransformBackfaceVisibilityHidden",
     "CompositorAnimationWarningTransformSVG",
     "CompositorAnimationWarningTransformFrameInactive",
     "CompositorAnimationWarningTransformIsBlockedByImportantRules",
