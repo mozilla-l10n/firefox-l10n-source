@@ -35,8 +35,10 @@ jobs:
         run: |
           diff=$(git diff --ignore-blank-lines)
           if [[ -n "$diff" ]]; then
-            echo "There are differences between the two repositories"
-            echo "$diff"
+            echo "### There are differences between the two repositories" >> $GITHUB_STEP_SUMMARY
+            echo '```diff' >> $GITHUB_STEP_SUMMARY
+            echo "$diff" >> $GITHUB_STEP_SUMMARY
+            echo '```' >> $GITHUB_STEP_SUMMARY
             exit 1
           else
             echo "No differences found"
