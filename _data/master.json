@@ -1738,7 +1738,11 @@
     "launch-on-login-infobar-confirm-button",
     "launch-on-login-infobar-reject-button",
     "launch-on-login-infobar-final-message",
-    "launch-on-login-infobar-final-reject-button"
+    "launch-on-login-infobar-final-reject-button",
+    "tail-fox-spotlight-title",
+    "tail-fox-spotlight-subtitle",
+    "tail-fox-spotlight-primary-button",
+    "tail-fox-spotlight-secondary-button"
   ],
   "browser/browser/newtab/newtab.ftl": [
     "newtab-page-title",
@@ -12063,6 +12067,7 @@
     "pdfjs-editor-stamp-add-image-button",
     "pdfjs-editor-stamp-add-image-button-label",
     "pdfjs-editor-free-highlight-thickness-input",
+    "pdfjs-editor-free-highlight-thickness-title",
     "pdfjs-free-text",
     "pdfjs-free-text-default-content",
     "pdfjs-ink",
