@@ -1,0 +1,46 @@
+# This Source Code Form is subject to the terms of the Mozilla Public
+# License, v. 2.0. If a copy of the MPL was not distributed with this
+# file, You can obtain one at http://mozilla.org/MPL/2.0/.
+
+name: Compare gecko-strings
+
+on:
+  push:
+    branches:
+      - main
+  schedule:
+    - cron: "0 11,23 * * 1-5"
+  workflow_dispatch:
+
+jobs:
+  fetch:
+    name: L10n automation
+    runs-on: ubuntu-latest
+    steps:
+      - name: Install Linux packages
+        run: |
+          sudo apt update
+          sudo apt install mercurial -y
+      - name: Clone l10n repository
+        uses: actions/checkout@v4
+        with:
+          path: l10n
+      - name: Clone gecko-strings repository
+        run: |
+          hg clone https://hg.mozilla.org/l10n/gecko-strings
+      - name: Copy content from gecko-strings
+        run: |
+          rsync -av --quiet --exclude={".hg","_configs"} gecko-strings/ l10n/
+      - name: Compare content
+        run: |
+          diff=$(git diff --ignore-blank-lines)
+          if [[ -n "$diff" ]]; then
+            echo "### There are differences between the two repositories" >> $GITHUB_STEP_SUMMARY
+            echo '```diff' >> $GITHUB_STEP_SUMMARY
+            echo "$diff" >> $GITHUB_STEP_SUMMARY
+            echo '```' >> $GITHUB_STEP_SUMMARY
+            exit 1
+          else
+            echo "No differences found"
+          fi
+        working-directory: l10n
