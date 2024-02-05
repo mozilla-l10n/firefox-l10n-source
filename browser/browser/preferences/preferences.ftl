@@ -1240,6 +1240,8 @@ sitedata-delete-on-close =
 
 sitedata-delete-on-close-private-browsing = In permanent private browsing mode, cookies and site data will always be cleared when { -brand-short-name } is closed.
 
+sitedata-delete-on-close-private-browsing2 = Based on your history settings, { -brand-short-name } deletes cookies and site data from your session when you close the browser.
+
 sitedata-allow-cookies-option =
     .label = Accept cookies and site data
     .accesskey = A

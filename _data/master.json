@@ -900,6 +900,7 @@
     "tabs-toolbar-list-all-tabs",
     "restore-session-startup-suggestion-message",
     "restore-session-startup-suggestion-button",
+    "filepicker-blocked-infobar",
     "data-reporting-notification-message",
     "data-reporting-notification-button",
     "private-browsing-indicator-label",
@@ -1737,7 +1738,11 @@
     "launch-on-login-infobar-confirm-button",
     "launch-on-login-infobar-reject-button",
     "launch-on-login-infobar-final-message",
-    "launch-on-login-infobar-final-reject-button"
+    "launch-on-login-infobar-final-reject-button",
+    "tail-fox-spotlight-title",
+    "tail-fox-spotlight-subtitle",
+    "tail-fox-spotlight-primary-button",
+    "tail-fox-spotlight-secondary-button"
   ],
   "browser/browser/newtab/newtab.ftl": [
     "newtab-page-title",
@@ -2198,6 +2203,7 @@
   "browser/browser/policies/policies-descriptions.ftl": [
     "policy-3rdparty",
     "policy-AllowedDomainsForApps",
+    "policy-AllowFileSelectionDialogs",
     "policy-AppAutoUpdate",
     "policy-AppUpdatePin",
     "policy-AppUpdateURL",
@@ -3018,7 +3024,7 @@
     "sitedata-total-size",
     "sitedata-learn-more",
     "sitedata-delete-on-close",
-    "sitedata-delete-on-close-private-browsing",
+    "sitedata-delete-on-close-private-browsing2",
     "sitedata-allow-cookies-option",
     "sitedata-disallow-cookies-option",
     "sitedata-block-desc",
@@ -12061,6 +12067,7 @@
     "pdfjs-editor-stamp-add-image-button",
     "pdfjs-editor-stamp-add-image-button-label",
     "pdfjs-editor-free-highlight-thickness-input",
+    "pdfjs-editor-free-highlight-thickness-title",
     "pdfjs-free-text",
     "pdfjs-free-text-default-content",
     "pdfjs-ink",
