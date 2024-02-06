@@ -24,7 +24,7 @@ jobs:
         uses: actions/checkout@v4
         with: { ref: main, fetch-depth: 0 }
       - name: Refresh l10n:update
-        run: git push origin HEAD:update || true
+        run: git push -f origin HEAD:update || true
       - name: Get list of branches and paths
         id: config
         run: |
