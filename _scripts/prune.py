@@ -6,8 +6,7 @@ import json
 from argparse import ArgumentParser
 from codecs import encode
 from os import getcwd, remove, scandir, walk
-from os.path import exists, join, relpath, splitext
-from re import match
+from os.path import join, relpath, splitext
 from sys import exit
 from compare_locales.parser import Entity, getParser
 
