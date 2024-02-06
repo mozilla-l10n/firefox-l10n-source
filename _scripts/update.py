@@ -4,7 +4,7 @@
 
 """
 Update the localization source files from a Firefox branch, adding new files and
-messages. For updates from the "HEAD" branch, also update changed messages.
+messages. For updates from the "{HEAD}" branch, also update changed messages.
 
 Writes a summary of the branch's localized files and message keys as
 `_data/[branch].json`, and a commit message summary as `.update_msg`.
@@ -61,12 +61,12 @@ def add_config(fx_root: str, fx_cfg_path: str, done: set[str]):
 
 
 def update_str(
-    cgf_automation: AutomationConfig,
+    cfg_automation: AutomationConfig,
     branch: str,
     fx_root: str,
     config_files: list[str],
 ):
-    if branch not in cgf_automation["branches"]:
+    if branch not in cfg_automation["branches"]:
         exit(f"Unknown branch: {branch}")
     if not exists(fx_root):
         exit(f"Firefox root not found: {fx_root}")
@@ -79,7 +79,7 @@ def update_str(
         if not exists(cfg_path):
             exit(f"Config file not found: {cfg_path}")
         configs.append(TOMLParser().parse(cfg_path))
-        if branch == cgf_automation["head"]:
+        if branch == cfg_automation["head"]:
             add_config(fx_root, cfg_name, fixed_configs)
 
     messages = {}
@@ -97,7 +97,7 @@ def update_str(
                 print(f"create {rel_path}")
                 copy(fx_path, rel_path)
                 new_files += 1
-            elif branch == cgf_automation["head"] and not cmp(fx_path, rel_path):
+            elif branch == cfg_automation["head"] and not cmp(fx_path, rel_path):
                 print(f"update {rel_path}")
                 copy(fx_path, rel_path)
                 updated_files += 1
@@ -126,7 +126,7 @@ def update_str(
                     rel_path,
                     (
                         [fx_res, l10n_data]
-                        if branch == cgf_automation["head"]
+                        if branch == cfg_automation["head"]
                         else [l10n_data, fx_res]
                     ),
                 )
@@ -166,12 +166,12 @@ def write_commit_msg(args, new_files: int, updated_files: int):
 if __name__ == "__main__":
     config_file = join("_configs", "config.json")
     with open(config_file) as f:
-        cgf_automation = json.load(f)
+        cfg_automation = json.load(f)
 
     prog = "python -m _scripts.update"
     parser = ArgumentParser(
         prog=prog,
-        description=__doc__.replace("HEAD", cgf_automation["head"]),
+        description=__doc__.format(HEAD=cfg_automation["head"]),
         epilog=f"""Example: {prog} --branch release --firefox ../firefox
         --configs browser/locales/l10n.toml mobile/android/locales/l10n.toml""",
     )
@@ -193,5 +193,5 @@ if __name__ == "__main__":
     )
     args = parser.parse_args()
 
-    update = update_str(cgf_automation, args.branch, args.firefox, args.configs)
+    update = update_str(cfg_automation, args.branch, args.firefox, args.configs)
     write_commit_msg(args, *update)

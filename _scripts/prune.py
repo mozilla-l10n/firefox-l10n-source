@@ -119,7 +119,7 @@ if __name__ == "__main__":
 
     config_file = join("_configs", "config.json")
     with open(config_file) as f:
-        cgf_automation = json.load(f)
+        cfg_automation = json.load(f)
 
-    removed = prune(cgf_automation["branches"])
+    removed = prune(cfg_automation["branches"])
     write_commit_msg(*removed)
