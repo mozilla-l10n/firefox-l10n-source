@@ -9757,6 +9757,7 @@
     "try-newer-driver",
     "clear-type-parameters",
     "compositing",
+    "support-font-determination",
     "hardware-h264",
     "main-thread-no-omtc",
     "yes",
