@@ -73,9 +73,6 @@ def prune(branches: list[str]):
                     else:
                         refs[path] = set(keys)
             else:
-                # Ignore configuration file
-                if entry.path.endswith("config.json"):
-                    continue
                 print(f"remove {relpath(entry.path, cwd)}")
                 remove(entry.path)
                 removed_data.append(branch)
@@ -121,7 +118,7 @@ if __name__ == "__main__":
     )
     args = parser.parse_args()
 
-    config_file = join("_data", "config.json")
+    config_file = join("_configs", "config.json")
     with open(config_file) as f:
         config = json.load(f)
 

@@ -146,7 +146,7 @@ def write_commit_msg(args, new_files: int, updated_files: int):
 if __name__ == "__main__":
     global config
 
-    config_file = join("_data", "config.json")
+    config_file = join("_configs", "config.json")
     with open(config_file) as f:
         config = json.load(f)
 
