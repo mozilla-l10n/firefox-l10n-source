@@ -23,6 +23,13 @@ from sys import exit
 from compare_locales.merge import merge_channels
 from compare_locales.parser import Entity, getParser
 from compare_locales.paths import ProjectFiles, TOMLParser
+from typing import TypedDict
+
+
+class AutomationConfig(TypedDict):
+    branches: list[str]
+    head: str
+    paths: list[str]
 
 
 def add_config(fx_root: str, fx_cfg_path: str, done: set[str]):
@@ -54,9 +61,9 @@ def add_config(fx_root: str, fx_cfg_path: str, done: set[str]):
 
 
 def update_str(
+    cgf_automation: AutomationConfig,
     branch: str,
     fx_root: str,
-    cgf_automation: dict[str, list[str] | str],
     config_files: list[str],
 ):
     if branch not in cgf_automation["branches"]:
@@ -186,5 +193,5 @@ if __name__ == "__main__":
     )
     args = parser.parse_args()
 
-    update = update_str(args.branch, args.firefox, args.configs)
+    update = update_str(cgf_automation, args.branch, args.firefox, args.configs)
     write_commit_msg(args, *update)
