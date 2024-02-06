@@ -5,6 +5,7 @@
     "release",
     "esr115"
   ],
+  "head": "master",
   "paths": [
     "browser/branding/official/locales",
     "browser/extensions/formautofill/locales",

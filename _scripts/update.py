@@ -16,16 +16,6 @@ from compare_locales.merge import merge_channels
 from compare_locales.parser import Entity, getParser
 from compare_locales.paths import ProjectFiles, TOMLParser
 
-HEAD = "master"
-
-description = f"""
-Update the localization source files from a Firefox branch, adding new files and messages.
-For updates from the "{HEAD}" branch, also update changed messages.
-
-Writes a summary of the branch's localized files and message keys as `_data/[branch].json`,
-and a commit message summary as `.update_msg`.
-"""
-
 
 def add_config(fx_root: str, fx_cfg_path: str, done: set[str]):
     parts = fx_cfg_path.split("/")
@@ -56,7 +46,7 @@ def add_config(fx_root: str, fx_cfg_path: str, done: set[str]):
 
 
 def update_str(branch: str, fx_root: str, config_files: list[str]):
-    if branch not in [HEAD, "beta", "release"] and not match("esr[0-9]+", branch):
+    if branch not in config["branches"]:
         exit(f"Unknown branch: {branch}")
     if not exists(fx_root):
         exit(f"Firefox root not found: {fx_root}")
@@ -69,7 +59,7 @@ def update_str(branch: str, fx_root: str, config_files: list[str]):
         if not exists(cfg_path):
             exit(f"Config file not found: {cfg_path}")
         configs.append(TOMLParser().parse(cfg_path))
-        if branch == HEAD:
+        if branch == config["head"]:
             add_config(fx_root, cfg_name, fixed_configs)
 
     messages = {}
@@ -87,7 +77,7 @@ def update_str(branch: str, fx_root: str, config_files: list[str]):
                 print(f"create {rel_path}")
                 copy(fx_path, rel_path)
                 new_files += 1
-            elif branch == HEAD and not cmp(fx_path, rel_path):
+            elif branch == config["head"] and not cmp(fx_path, rel_path):
                 print(f"update {rel_path}")
                 copy(fx_path, rel_path)
                 updated_files += 1
@@ -114,7 +104,11 @@ def update_str(branch: str, fx_root: str, config_files: list[str]):
                 l10n_data = file.read()
                 merge_data = merge_channels(
                     rel_path,
-                    [fx_res, l10n_data] if branch == HEAD else [l10n_data, fx_res],
+                    (
+                        [fx_res, l10n_data]
+                        if branch == config["head"]
+                        else [l10n_data, fx_res]
+                    ),
                 )
                 if merge_data == l10n_data:
                     # print(f"unchanged {rel_path}")
@@ -150,6 +144,22 @@ def write_commit_msg(args, new_files: int, updated_files: int):
 
 
 if __name__ == "__main__":
+    global config
+
+    config_file = join("_data", "config.json")
+    if not exists(config_file):
+        exit(f"Config file {config_file} missing")
+    with open(config_file) as f:
+        config = json.load(f)
+
+    description = f"""
+Update the localization source files from a Firefox branch, adding new files and messages.
+For updates from the "{config['head']}" branch, also update changed messages.
+
+Writes a summary of the branch's localized files and message keys as `_data/[branch].json`,
+and a commit message summary as `.update_msg`.
+"""
+
     prog = "python -m _scripts.update"
     parser = ArgumentParser(
         prog=prog,
