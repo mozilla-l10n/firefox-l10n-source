@@ -1,0 +1,9 @@
+{
+  "branches": [
+    "master",
+    "beta",
+    "release",
+    "esr115"
+  ],
+  "paths": []
+}

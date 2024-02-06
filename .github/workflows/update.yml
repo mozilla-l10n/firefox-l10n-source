@@ -16,18 +16,24 @@ permissions:
 jobs:
   prepare:
     runs-on: ubuntu-latest
+    outputs:
+      branches: ${{ steps.config.outputs.branches }}
     steps:
       - name: Checkout l10n:main
         uses: actions/checkout@v4
         with: { ref: main, fetch-depth: 0 }
       - name: Refresh l10n:update
         run: git push origin HEAD:update || true
+      - name: Get list of branches
+        id: config
+        run: |
+          echo "branches=$(cat _data/config.json | jq -r -c ".branches")" >> "$GITHUB_OUTPUT"
   update:
     needs: prepare
     strategy:
       max-parallel: 1
       matrix:
-        ref: [master, beta, release, esr115]
+        ref: ${{ fromJSON(needs.prepare.outputs.branches) }}
     runs-on: ubuntu-latest
     steps:
       - name: Checkout l10n:update
@@ -90,8 +96,7 @@ jobs:
           cache: pip
           cache-dependency-path: _scripts/requirements.txt
       - run: pip install -r _scripts/requirements.txt
-        # TODO: This list should be generated from the update matrix
-      - run: python -m _scripts.prune master beta release esr115
+      - run: python -m _scripts.prune
       - name: git config
         run: |
           git config --global user.name "github-actions[bot]"

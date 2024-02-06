@@ -6,7 +6,7 @@ import json
 from argparse import ArgumentParser
 from codecs import encode
 from os import getcwd, remove, scandir, walk
-from os.path import join, relpath, splitext
+from os.path import exists, join, relpath, splitext
 from re import match
 from sys import exit
 from compare_locales.parser import Entity, getParser
@@ -54,9 +54,6 @@ def prune_file(path: str, msg_refs: set[str]):
 
 def prune(branches: list[str]):
     cwd = getcwd()
-    for branch in branches:
-        if not match(r"[a-z]+[0-9]*", branch):
-            exit(f"Invalid branch names: {branches}")
 
     removed_data = []
     removed_files = 0
@@ -76,6 +73,9 @@ def prune(branches: list[str]):
                     else:
                         refs[path] = set(keys)
             else:
+                # Ignore configuration file
+                if entry.path.endswith("config.json"):
+                    continue
                 print(f"remove {relpath(entry.path, cwd)}")
                 remove(entry.path)
                 removed_data.append(branch)
@@ -119,12 +119,13 @@ if __name__ == "__main__":
         description=description,
         epilog=f"Example: {prog} master beta release",
     )
-    parser.add_argument(
-        "branches",
-        nargs="+",
-        help='A list of branch identifiers, e.g. "master beta release".',
-    )
     args = parser.parse_args()
 
-    removed = prune(args.branches)
+    config_file = join("_data", "config.json")
+    if not exists(config_file):
+        exit(f"Config file {config_file} missing")
+    with open(config_file) as f:
+        config = json.load(f)
+
+    removed = prune(config["branches"])
     write_commit_msg(*removed)
