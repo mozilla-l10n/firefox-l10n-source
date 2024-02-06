@@ -147,8 +147,6 @@ if __name__ == "__main__":
     global config
 
     config_file = join("_data", "config.json")
-    if not exists(config_file):
-        exit(f"Config file {config_file} missing")
     with open(config_file) as f:
         config = json.load(f)
 
