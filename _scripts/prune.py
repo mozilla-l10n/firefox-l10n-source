@@ -2,15 +2,7 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-import json
-from argparse import ArgumentParser
-from codecs import encode
-from os import getcwd, remove, scandir, walk
-from os.path import join, relpath, splitext
-from sys import exit
-from compare_locales.parser import Entity, getParser
-
-description = """
+"""
 Prune localization files after updates from Firefox branches.
 
 Expects to find `_data/[branch].json` for each branch,
@@ -19,6 +11,14 @@ Removes any files and messages not used by any branch.
 
 Writes a commit message summary as `.prune_msg`.
 """
+
+import json
+from argparse import ArgumentParser
+from codecs import encode
+from os import getcwd, remove, scandir, walk
+from os.path import join, relpath, splitext
+from sys import exit
+from compare_locales.parser import Entity, getParser
 
 
 def prune_file(path: str, msg_refs: set[str]):
@@ -112,7 +112,7 @@ if __name__ == "__main__":
     prog = "python -m _scripts.prune"
     parser = ArgumentParser(
         prog=prog,
-        description=description,
+        description=__doc__,
         epilog=f"Example: {prog} master beta release",
     )
     args = parser.parse_args()

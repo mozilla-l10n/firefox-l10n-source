@@ -2,6 +2,14 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+"""
+Update the localization source files from a Firefox branch, adding new files and
+messages. For updates from the "HEAD" branch, also update changed messages.
+
+Writes a summary of the branch's localized files and message keys as
+`_data/[branch].json`, and a commit message summary as `.update_msg`.
+"""
+
 import json
 import tomli_w
 import tomllib
@@ -153,18 +161,10 @@ if __name__ == "__main__":
     with open(config_file) as f:
         cgf_automation = json.load(f)
 
-    description = f"""
-Update the localization source files from a Firefox branch, adding new files and messages.
-For updates from the "{cgf_automation['head']}" branch, also update changed messages.
-
-Writes a summary of the branch's localized files and message keys as `_data/[branch].json`,
-and a commit message summary as `.update_msg`.
-"""
-
     prog = "python -m _scripts.update"
     parser = ArgumentParser(
         prog=prog,
-        description=description,
+        description=__doc__.replace("HEAD", cgf_automation["head"]),
         epilog=f"""Example: {prog} --branch release --firefox ../firefox
         --configs browser/locales/l10n.toml mobile/android/locales/l10n.toml""",
     )
