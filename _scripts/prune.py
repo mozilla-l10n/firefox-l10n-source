@@ -2,16 +2,7 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-import json
-from argparse import ArgumentParser
-from codecs import encode
-from os import getcwd, remove, scandir, walk
-from os.path import join, relpath, splitext
-from re import match
-from sys import exit
-from compare_locales.parser import Entity, getParser
-
-description = """
+"""
 Prune localization files after updates from Firefox branches.
 
 Expects to find `_data/[branch].json` for each branch,
@@ -20,6 +11,14 @@ Removes any files and messages not used by any branch.
 
 Writes a commit message summary as `.prune_msg`.
 """
+
+import json
+from argparse import ArgumentParser
+from codecs import encode
+from os import getcwd, remove, scandir, walk
+from os.path import join, relpath, splitext
+from sys import exit
+from compare_locales.parser import Entity, getParser
 
 
 def prune_file(path: str, msg_refs: set[str]):
@@ -54,9 +53,6 @@ def prune_file(path: str, msg_refs: set[str]):
 
 def prune(branches: list[str]):
     cwd = getcwd()
-    for branch in branches:
-        if not match(r"[a-z]+[0-9]*", branch):
-            exit(f"Invalid branch names: {branches}")
 
     removed_data = []
     removed_files = 0
@@ -116,15 +112,14 @@ if __name__ == "__main__":
     prog = "python -m _scripts.prune"
     parser = ArgumentParser(
         prog=prog,
-        description=description,
+        description=__doc__,
         epilog=f"Example: {prog} master beta release",
-    )
-    parser.add_argument(
-        "branches",
-        nargs="+",
-        help='A list of branch identifiers, e.g. "master beta release".',
     )
     args = parser.parse_args()
 
-    removed = prune(args.branches)
+    config_file = join("_configs", "config.json")
+    with open(config_file) as f:
+        cfg_automation = json.load(f)
+
+    removed = prune(cfg_automation["branches"])
     write_commit_msg(*removed)

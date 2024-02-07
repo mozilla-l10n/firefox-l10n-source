@@ -16,18 +16,35 @@ permissions:
 jobs:
   prepare:
     runs-on: ubuntu-latest
+    outputs:
+      branches: ${{ steps.config.outputs.branches }}
+      paths: ${{ steps.config.outputs.paths }}
     steps:
       - name: Checkout l10n:main
         uses: actions/checkout@v4
         with: { ref: main, fetch-depth: 0 }
       - name: Refresh l10n:update
         run: git push origin HEAD:update || true
+      - name: Get list of branches and paths
+        id: config
+        run: |
+          # Store the list of branches as a JSON array
+          echo "branches=$(jq -c '.branches' < _configs/config.json)" >> "$GITHUB_OUTPUT"
+
+          # Store the list of paths as a multiline list
+          # Bash multiline version
+          # https://docs.github.com/en/actions/using-workflows/workflow-commands-for-github-actions#multiline-strings
+          {
+            echo 'paths<<EOF'
+            jq -r ".paths[]" < _configs/config.json
+            echo EOF
+          } >> "$GITHUB_OUTPUT"
   update:
     needs: prepare
     strategy:
       max-parallel: 1
       matrix:
-        ref: [master, beta, release, esr115]
+        ref: ${{ fromJSON(needs.prepare.outputs.branches) }}
     runs-on: ubuntu-latest
     steps:
       - name: Checkout l10n:update
@@ -39,21 +56,8 @@ jobs:
           repository: mozilla/gecko-dev
           ref: ${{ matrix.ref }}
           path: firefox
-          # TODO: These paths should be generated from the l10n.toml files
           sparse-checkout: |
-            browser/branding/official/locales
-            browser/extensions/formautofill/locales
-            browser/extensions/report-site-issue/locales
-            browser/locales
-            devtools/client/locales
-            devtools/shared/locales
-            devtools/startup/locales
-            dom/locales
-            mobile/android/branding/official/locales
-            mobile/android/locales
-            netwerk/locales
-            security/manager/locales
-            toolkit/locales
+            ${{ needs.prepare.outputs.paths }}
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
@@ -90,8 +94,7 @@ jobs:
           cache: pip
           cache-dependency-path: _scripts/requirements.txt
       - run: pip install -r _scripts/requirements.txt
-        # TODO: This list should be generated from the update matrix
-      - run: python -m _scripts.prune master beta release esr115
+      - run: python -m _scripts.prune
       - name: git config
         run: |
           git config --global user.name "github-actions[bot]"
