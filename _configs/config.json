@@ -1,0 +1,24 @@
+{
+  "branches": [
+    "master",
+    "beta",
+    "release",
+    "esr115"
+  ],
+  "head": "master",
+  "paths": [
+    "browser/branding/official/locales",
+    "browser/extensions/formautofill/locales",
+    "browser/extensions/report-site-issue/locales",
+    "browser/locales",
+    "devtools/client/locales",
+    "devtools/shared/locales",
+    "devtools/startup/locales",
+    "dom/locales",
+    "mobile/android/branding/official/locales",
+    "mobile/android/locales",
+    "netwerk/locales",
+    "security/manager/locales",
+    "toolkit/locales"
+  ]
+}

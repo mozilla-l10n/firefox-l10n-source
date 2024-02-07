@@ -2,6 +2,14 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+"""
+Update the localization source files from a Firefox branch, adding new files and
+messages. For updates from the "{HEAD}" branch, also update changed messages.
+
+Writes a summary of the branch's localized files and message keys as
+`_data/[branch].json`, and a commit message summary as `.update_msg`.
+"""
+
 import json
 import tomli_w
 import tomllib
@@ -9,22 +17,19 @@ from argparse import ArgumentParser
 from filecmp import cmp
 from os import makedirs
 from os.path import abspath, dirname, exists, join, relpath
-from re import match, sub
+from re import sub
 from shutil import copy
 from sys import exit
 from compare_locales.merge import merge_channels
 from compare_locales.parser import Entity, getParser
 from compare_locales.paths import ProjectFiles, TOMLParser
+from typing import TypedDict
 
-HEAD = "master"
 
-description = f"""
-Update the localization source files from a Firefox branch, adding new files and messages.
-For updates from the "{HEAD}" branch, also update changed messages.
-
-Writes a summary of the branch's localized files and message keys as `_data/[branch].json`,
-and a commit message summary as `.update_msg`.
-"""
+class AutomationConfig(TypedDict):
+    branches: list[str]
+    head: str
+    paths: list[str]
 
 
 def add_config(fx_root: str, fx_cfg_path: str, done: set[str]):
@@ -55,8 +60,13 @@ def add_config(fx_root: str, fx_cfg_path: str, done: set[str]):
     return cfg_path
 
 
-def update_str(branch: str, fx_root: str, config_files: list[str]):
-    if branch not in [HEAD, "beta", "release"] and not match("esr[0-9]+", branch):
+def update_str(
+    cfg_automation: AutomationConfig,
+    branch: str,
+    fx_root: str,
+    config_files: list[str],
+):
+    if branch not in cfg_automation["branches"]:
         exit(f"Unknown branch: {branch}")
     if not exists(fx_root):
         exit(f"Firefox root not found: {fx_root}")
@@ -69,7 +79,7 @@ def update_str(branch: str, fx_root: str, config_files: list[str]):
         if not exists(cfg_path):
             exit(f"Config file not found: {cfg_path}")
         configs.append(TOMLParser().parse(cfg_path))
-        if branch == HEAD:
+        if branch == cfg_automation["head"]:
             add_config(fx_root, cfg_name, fixed_configs)
 
     messages = {}
@@ -87,7 +97,7 @@ def update_str(branch: str, fx_root: str, config_files: list[str]):
                 print(f"create {rel_path}")
                 copy(fx_path, rel_path)
                 new_files += 1
-            elif branch == HEAD and not cmp(fx_path, rel_path):
+            elif branch == cfg_automation["head"] and not cmp(fx_path, rel_path):
                 print(f"update {rel_path}")
                 copy(fx_path, rel_path)
                 updated_files += 1
@@ -114,7 +124,11 @@ def update_str(branch: str, fx_root: str, config_files: list[str]):
                 l10n_data = file.read()
                 merge_data = merge_channels(
                     rel_path,
-                    [fx_res, l10n_data] if branch == HEAD else [l10n_data, fx_res],
+                    (
+                        [fx_res, l10n_data]
+                        if branch == cfg_automation["head"]
+                        else [l10n_data, fx_res]
+                    ),
                 )
                 if merge_data == l10n_data:
                     # print(f"unchanged {rel_path}")
@@ -150,10 +164,14 @@ def write_commit_msg(args, new_files: int, updated_files: int):
 
 
 if __name__ == "__main__":
+    config_file = join("_configs", "config.json")
+    with open(config_file) as f:
+        cfg_automation = json.load(f)
+
     prog = "python -m _scripts.update"
     parser = ArgumentParser(
         prog=prog,
-        description=description,
+        description=__doc__.format(HEAD=cfg_automation["head"]),
         epilog=f"""Example: {prog} --branch release --firefox ../firefox
         --configs browser/locales/l10n.toml mobile/android/locales/l10n.toml""",
     )
@@ -175,5 +193,5 @@ if __name__ == "__main__":
     )
     args = parser.parse_args()
 
-    update = update_str(args.branch, args.firefox, args.configs)
+    update = update_str(cfg_automation, args.branch, args.firefox, args.configs)
     write_commit_msg(args, *update)
