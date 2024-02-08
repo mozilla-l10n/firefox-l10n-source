@@ -2782,6 +2782,7 @@
     "preferences-default-zoom",
     "preferences-default-zoom-value",
     "preferences-zoom-text-only",
+    "preferences-text-zoom-override-warning",
     "language-header",
     "choose-language-description",
     "choose-button",
