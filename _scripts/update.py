@@ -148,9 +148,9 @@ def update(
     data_path = join("_data", f"{branch}.json")
     makedirs(dirname(data_path), exist_ok=True)
     with open(data_path, "w") as file:
-        json.dump(messages, file, indent=2)
+        json.dump(messages, file, indent=2, sort_keys=True)
 
-    return new_files, updated_files, paths
+    return new_files, updated_files, sorted(list(paths))
 
 
 def write_commit_msg(args, new_files: int, updated_files: int):
@@ -204,8 +204,8 @@ if __name__ == "__main__":
 
     if cfg_automation["paths"] != paths and args.branch == cfg_automation["head"]:
         # Write back updated configuration
-        cfg_automation["paths"] = sorted(list(paths))
-        with open(config_file, "w") as f:
-            f.write(json.dumps(cfg_automation, indent=2, sort_keys=True))
+        cfg_automation["paths"] = paths
+        with open(config_file, "w") as file:
+            json.dump(cfg_automation, file, indent=2, sort_keys=True)
 
     write_commit_msg(args, new_files, updated_files)
