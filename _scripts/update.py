@@ -49,8 +49,9 @@ def add_config(fx_root: str, fx_cfg_path: str, done: set[str], paths: set[str]):
             cfg = tomllib.load(file)
         cfg["basepath"] = ".."
         for path in cfg["paths"]:
-            if path["reference"].endswith("/locales/en-US/**"):
-                paths.add(path["reference"].replace("/en-US/**", ""))
+            ref_path = path["reference"]
+            if "/en-US/" in ref_path:
+                paths.add(ref_path[: ref_path.find("/en-US/")])
 
             # Remove placeholders like `{l}` from l10n paths
             path["reference"] = sub(r"{\s*\S+\s*}", "", path["l10n"])
