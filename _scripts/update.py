@@ -17,7 +17,6 @@ from argparse import ArgumentParser
 from filecmp import cmp
 from os import makedirs
 from os.path import abspath, dirname, exists, join, relpath
-from pathlib import Path
 from re import sub
 from shutil import copy
 from sys import exit
@@ -50,15 +49,8 @@ def add_config(fx_root: str, fx_cfg_path: str, done: set[str], paths: set[str]):
             cfg = tomllib.load(file)
         cfg["basepath"] = ".."
         for path in cfg["paths"]:
-            # Most reference paths end with `/en-US/**``, but in case of
-            # components `en-US` might be in the middle of the path
-            # (e.g. `browser/locales/en-US/pdfviewer/**`).
-            ref_parts = [
-                part
-                for part in path["reference"].split("/")
-                if part not in ("**", "en-US")
-            ]
-            paths.add("/".join(ref_parts))
+            if path["reference"].endswith("/locales/en-US/**"):
+                paths.add(path["reference"].replace("/en-US/**", ""))
 
             # Remove placeholders like `{l}` from l10n paths
             path["reference"] = sub(r"{\s*\S+\s*}", "", path["l10n"])
@@ -72,12 +64,11 @@ def add_config(fx_root: str, fx_cfg_path: str, done: set[str], paths: set[str]):
     return cfg_path
 
 
-def update_str(
+def update(
     cfg_automation: AutomationConfig,
     branch: str,
     fx_root: str,
     config_files: list[str],
-    paths: list[str],
 ):
     if branch not in cfg_automation["branches"]:
         exit(f"Unknown branch: {branch}")
@@ -87,27 +78,14 @@ def update_str(
 
     configs = []
     fixed_configs = set()
-    all_paths: set[str] = set()
+    paths: set[str] = set()
     for cfg_name in config_files:
         cfg_path = join(fx_root, cfg_name)
         if not exists(cfg_path):
             exit(f"Config file not found: {cfg_path}")
         configs.append(TOMLParser().parse(cfg_path))
         if branch == cfg_automation["head"]:
-            add_config(fx_root, cfg_name, fixed_configs, all_paths)
-
-    # Remove paths that are included in other paths, taking advantage of
-    # the alphabetical order.
-    for new_path in sorted(list(all_paths)):
-        if not paths:
-            paths.append(new_path)
-        else:
-            add_path = True
-            for stored_path in paths[:]:
-                if Path(stored_path) in Path(new_path).parents:
-                    add_path = False
-            if add_path:
-                paths.append(new_path)
+            add_config(fx_root, cfg_name, fixed_configs, paths)
 
     messages = {}
     new_files = 0
@@ -172,10 +150,10 @@ def update_str(
     with open(data_path, "w") as file:
         json.dump(messages, file, indent=2)
 
-    return new_files, updated_files
+    return new_files, updated_files, paths
 
 
-def write_commit_msg(args, new_path_msg: str, new_files: int, updated_files: int):
+def write_commit_msg(args, new_files: int, updated_files: int):
     new_str = f"{new_files} new" if new_files else ""
     update_str = f"{updated_files} updated" if updated_files else ""
     summary = (
@@ -185,8 +163,6 @@ def write_commit_msg(args, new_path_msg: str, new_files: int, updated_files: int
     )
     count = updated_files or new_files
     summary += " files" if count > 1 else " file" if count == 1 else ""
-    if new_path_msg:
-        summary += new_path_msg
     head = f"{args.branch} ({args.commit})" if args.commit else args.branch
     with open(".update_msg", "w") as file:
         file.write(f"{head}: {summary}")
@@ -222,22 +198,14 @@ if __name__ == "__main__":
     )
     args = parser.parse_args()
 
-    paths: list[str] = list()
-    update = update_str(cfg_automation, args.branch, args.firefox, args.configs, paths)
+    new_files, updated_files, paths = update(
+        cfg_automation, args.branch, args.firefox, args.configs
+    )
 
-    new_path_msg: str = ""
     if cfg_automation["paths"] != paths and args.branch == cfg_automation["head"]:
-        removed = list(set(cfg_automation["paths"]) - set(paths))
-        added = list(set(paths) - set(cfg_automation["paths"]))
-        new_path_msg = "\nUpdated paths for sparse checkout: \n"
-        new_path_msg += (
-            f"- {len(removed)} removed ({', '.join(removed)})" if removed else ""
-        )
-        new_path_msg += f"- {len(added)} added ({','.join(added)})" if added else ""
-
         # Write back updated configuration
-        cfg_automation["paths"] = paths
+        cfg_automation["paths"] = sorted(list(paths))
         with open(config_file, "w") as f:
             f.write(json.dumps(cfg_automation, indent=2, sort_keys=True))
 
-    write_commit_msg(args, new_path_msg, *update)
+    write_commit_msg(args, new_files, updated_files)
