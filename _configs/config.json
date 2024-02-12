@@ -15,7 +15,6 @@
     "devtools/shared/locales",
     "devtools/startup/locales",
     "dom/locales",
-    "mobile/android/branding/official/locales",
     "mobile/android/locales",
     "netwerk/locales",
     "security/manager/locales",

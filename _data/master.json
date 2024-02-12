@@ -13,28 +13,6 @@
     "brandShortName",
     "brandFullName"
   ],
-  "browser/extensions/formautofill/formautofill.properties": [
-    "autocompleteManageCreditCards",
-    "autocompleteManageAddresses",
-    "category.address",
-    "category.name",
-    "category.organization2",
-    "category.tel",
-    "category.email",
-    "fieldNameSeparator",
-    "phishingWarningMessage",
-    "phishingWarningMessage2",
-    "insecureFieldWarningDescription",
-    "clearFormBtnLabel2",
-    "learnMoreLabel",
-    "autofillReauthOSDialogMac",
-    "autofillReauthOSDialogWin",
-    "autofillReauthOSDialogLin"
-  ],
-  "browser/extensions/report-site-issue/webcompat.properties": [
-    "wc-reporter.label2",
-    "wc-reporter.tooltip"
-  ],
   "browser/browser/aboutDialog.ftl": [
     "aboutDialog-title",
     "releaseNotes-link",
@@ -1829,9 +1807,9 @@
     "newtab-section-expand-section-label",
     "newtab-section-header-topsites",
     "newtab-section-header-recent-activity",
-    "newtab-section-header-pocket",
+    "newtab-section-header-stories",
     "newtab-empty-section-highlights",
-    "newtab-empty-section-topstories",
+    "newtab-empty-section-topstories-generic",
     "newtab-discovery-empty-section-topstories-header",
     "newtab-discovery-empty-section-topstories-content",
     "newtab-discovery-empty-section-topstories-try-again-button",
@@ -1853,7 +1831,7 @@
     "newtab-custom-shortcuts-toggle",
     "newtab-custom-row-selector",
     "newtab-custom-sponsored-sites",
-    "newtab-custom-pocket-toggle",
+    "newtab-custom-stories-toggle",
     "newtab-custom-pocket-sponsored",
     "newtab-custom-pocket-show-recent-saves",
     "newtab-custom-recent-toggle",
@@ -2894,8 +2872,8 @@
     "home-prefs-shortcuts-header",
     "home-prefs-shortcuts-description",
     "home-prefs-shortcuts-by-option-sponsored",
-    "home-prefs-recommended-by-header",
-    "home-prefs-recommended-by-description-new",
+    "home-prefs-recommended-by-header-generic",
+    "home-prefs-recommended-by-description-generic",
     "home-prefs-recommended-by-learn-more",
     "home-prefs-recommended-by-option-sponsored-stories",
     "home-prefs-recommended-by-option-recent-saves",
@@ -4454,6 +4432,28 @@
   "browser/crashreporter/crashreporter-override.ini": [
     "CrashReporterProductErrorText2",
     "CrashReporterDescriptionText2"
+  ],
+  "browser/extensions/formautofill/formautofill.properties": [
+    "autocompleteManageCreditCards",
+    "autocompleteManageAddresses",
+    "category.address",
+    "category.name",
+    "category.organization2",
+    "category.tel",
+    "category.email",
+    "fieldNameSeparator",
+    "phishingWarningMessage",
+    "phishingWarningMessage2",
+    "insecureFieldWarningDescription",
+    "clearFormBtnLabel2",
+    "learnMoreLabel",
+    "autofillReauthOSDialogMac",
+    "autofillReauthOSDialogWin",
+    "autofillReauthOSDialogLin"
+  ],
+  "browser/extensions/report-site-issue/webcompat.properties": [
+    "wc-reporter.label2",
+    "wc-reporter.tooltip"
   ],
   "browser/firefox-l10n.js": [],
   "browser/installer/custom.properties": [
@@ -7377,7 +7377,6 @@
     "InstallTriggerDeprecatedWarning",
     "InstallTriggerInstallDeprecatedWarning",
     "SelectOptionsLengthAssignmentWarning",
-    "IsExternalCTAP2SecurityKeySupportedWarning",
     "InvalidFormControlUnfocusable",
     "InvalidNamedFormControlUnfocusable"
   ],
@@ -9737,6 +9736,7 @@
     "media-audio-robustness",
     "media-cdm-capabilities",
     "media-cdm-clear-lead",
+    "media-hdcp-22-compatible",
     "intl-title",
     "intl-app-title",
     "intl-locales-requested",
