@@ -32,7 +32,7 @@ class AutomationConfig(TypedDict):
     paths: list[str]
 
 
-def add_config(fx_root: str, fx_cfg_path: str, done: set[str]):
+def add_config(fx_root: str, fx_cfg_path: str, done: set[str], paths: set[str]):
     parts = fx_cfg_path.split("/")
     if (
         "{" in fx_cfg_path
@@ -49,10 +49,15 @@ def add_config(fx_root: str, fx_cfg_path: str, done: set[str]):
             cfg = tomllib.load(file)
         cfg["basepath"] = ".."
         for path in cfg["paths"]:
+            ref_path = path["reference"]
+            if "/en-US/" in ref_path:
+                paths.add(ref_path[: ref_path.find("/en-US/")])
+
+            # Remove placeholders like `{l}` from l10n paths
             path["reference"] = sub(r"{\s*\S+\s*}", "", path["l10n"])
         if "includes" in cfg:
             for incl in cfg["includes"]:
-                incl["path"] = add_config(fx_root, incl["path"], done)
+                incl["path"] = add_config(fx_root, incl["path"], done, paths)
 
         makedirs(dirname(cfg_path), exist_ok=True)
         with open(cfg_path, "wb") as file:
@@ -60,7 +65,7 @@ def add_config(fx_root: str, fx_cfg_path: str, done: set[str]):
     return cfg_path
 
 
-def update_str(
+def update(
     cfg_automation: AutomationConfig,
     branch: str,
     fx_root: str,
@@ -74,13 +79,14 @@ def update_str(
 
     configs = []
     fixed_configs = set()
+    paths: set[str] = set()
     for cfg_name in config_files:
         cfg_path = join(fx_root, cfg_name)
         if not exists(cfg_path):
             exit(f"Config file not found: {cfg_path}")
         configs.append(TOMLParser().parse(cfg_path))
         if branch == cfg_automation["head"]:
-            add_config(fx_root, cfg_name, fixed_configs)
+            add_config(fx_root, cfg_name, fixed_configs, paths)
 
     messages = {}
     new_files = 0
@@ -143,9 +149,9 @@ def update_str(
     data_path = join("_data", f"{branch}.json")
     makedirs(dirname(data_path), exist_ok=True)
     with open(data_path, "w") as file:
-        json.dump(messages, file, indent=2)
+        json.dump(messages, file, indent=2, sort_keys=True)
 
-    return new_files, updated_files
+    return new_files, updated_files, sorted(list(paths))
 
 
 def write_commit_msg(args, new_files: int, updated_files: int):
@@ -193,5 +199,14 @@ if __name__ == "__main__":
     )
     args = parser.parse_args()
 
-    update = update_str(cfg_automation, args.branch, args.firefox, args.configs)
-    write_commit_msg(args, *update)
+    new_files, updated_files, paths = update(
+        cfg_automation, args.branch, args.firefox, args.configs
+    )
+
+    if cfg_automation["paths"] != paths and args.branch == cfg_automation["head"]:
+        # Write back updated configuration
+        cfg_automation["paths"] = paths
+        with open(config_file, "w") as file:
+            json.dump(cfg_automation, file, indent=2, sort_keys=True)
+
+    write_commit_msg(args, new_files, updated_files)
