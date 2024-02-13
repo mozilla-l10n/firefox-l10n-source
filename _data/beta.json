@@ -13,28 +13,6 @@
     "brandShortName",
     "brandFullName"
   ],
-  "browser/extensions/formautofill/formautofill.properties": [
-    "autocompleteManageCreditCards",
-    "autocompleteManageAddresses",
-    "category.address",
-    "category.name",
-    "category.organization2",
-    "category.tel",
-    "category.email",
-    "fieldNameSeparator",
-    "phishingWarningMessage",
-    "phishingWarningMessage2",
-    "insecureFieldWarningDescription",
-    "clearFormBtnLabel2",
-    "learnMoreLabel",
-    "autofillReauthOSDialogMac",
-    "autofillReauthOSDialogWin",
-    "autofillReauthOSDialogLin"
-  ],
-  "browser/extensions/report-site-issue/webcompat.properties": [
-    "wc-reporter.label2",
-    "wc-reporter.tooltip"
-  ],
   "browser/browser/aboutDialog.ftl": [
     "aboutDialog-title",
     "releaseNotes-link",
@@ -4432,6 +4410,28 @@
   "browser/crashreporter/crashreporter-override.ini": [
     "CrashReporterProductErrorText2",
     "CrashReporterDescriptionText2"
+  ],
+  "browser/extensions/formautofill/formautofill.properties": [
+    "autocompleteManageCreditCards",
+    "autocompleteManageAddresses",
+    "category.address",
+    "category.name",
+    "category.organization2",
+    "category.tel",
+    "category.email",
+    "fieldNameSeparator",
+    "phishingWarningMessage",
+    "phishingWarningMessage2",
+    "insecureFieldWarningDescription",
+    "clearFormBtnLabel2",
+    "learnMoreLabel",
+    "autofillReauthOSDialogMac",
+    "autofillReauthOSDialogWin",
+    "autofillReauthOSDialogLin"
+  ],
+  "browser/extensions/report-site-issue/webcompat.properties": [
+    "wc-reporter.label2",
+    "wc-reporter.tooltip"
   ],
   "browser/firefox-l10n.js": [],
   "browser/installer/custom.properties": [

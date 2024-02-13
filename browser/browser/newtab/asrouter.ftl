@@ -216,8 +216,6 @@ cfr-cbh-confirm-button = Reject cookie banners
 cfr-cbh-dismiss-button = Not now
   .accesskey = N
 
-cookie-banner-blocker-cfr-header = { -brand-short-name } just blocked cookies for you
-cookie-banner-blocker-cfr-body = We automatically refuse many cookie pop-ups to make it tough for sites to track you.
 
 cookie-banner-blocker-onboarding-header = { -brand-short-name } just refused a cookie banner for you
 cookie-banner-blocker-onboarding-body = Less distractions, less cookies tracking you on this site.
