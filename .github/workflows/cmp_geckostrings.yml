@@ -9,7 +9,7 @@ on:
     branches:
       - main
   schedule:
-    - cron: "0 11,23 * * 1-5"
+    - cron: "0 11 * * 1"
   workflow_dispatch:
 
 jobs:
