@@ -575,7 +575,14 @@
     "appmenu-customizetoolbar",
     "appmenu-developer-tools-subheader",
     "appmenu-developer-tools-extensions",
-    "appmenuitem-report-broken-site"
+    "appmenuitem-report-broken-site",
+    "appmenuitem-sign-in-account",
+    "appmenuitem-monitor-title",
+    "appmenuitem-monitor-description",
+    "appmenuitem-relay-title",
+    "appmenuitem-relay-description",
+    "appmenuitem-vpn-title",
+    "appmenuitem-vpn-description"
   ],
   "browser/browser/backgroundtasks/defaultagent.ftl": [
     "default-browser-agent-task-description",
@@ -3741,7 +3748,9 @@
     "fxa-menu-send-tab-to-device",
     "fxa-menu-send-tab-to-device-syncnotready",
     "fxa-menu-send-tab-to-device-description",
-    "fxa-menu-sign-out"
+    "fxa-menu-sign-out",
+    "fxa-menu-sync-title",
+    "fxa-menu-sync-description"
   ],
   "browser/browser/syncedTabs.ftl": [
     "synced-tabs-sidebar-title",
