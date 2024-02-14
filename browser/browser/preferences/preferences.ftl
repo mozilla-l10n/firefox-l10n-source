@@ -1335,11 +1335,11 @@ addressbar-locbar-quickactions-option =
     .label = Quick actions
     .accesskey = Q
 
+addressbar-suggestions-settings = Change preferences for search engine suggestions
+
 addressbar-locbar-showrecentsearches-option =
     .label = Show recent searches
     .accesskey = r
-
-addressbar-suggestions-settings = Change preferences for search engine suggestions
 
 addressbar-quickactions-learn-more = Learn more
 
