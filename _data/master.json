@@ -10492,8 +10492,10 @@
   "toolkit/toolkit/contentanalysis/contentanalysis.ftl": [
     "contentanalysis-alert-title",
     "contentanalysis-slow-agent-notification",
-    "contentanalysis-slow-agent-dialog-title",
-    "contentanalysis-slow-agent-dialog-body",
+    "contentanalysis-slow-agent-dialog-header",
+    "contentanalysis-slow-agent-dialog-body-file",
+    "contentanalysis-slow-agent-dialog-body-clipboard",
+    "contentanalysis-slow-agent-dialog-body-dropped-text",
     "contentanalysis-operationtype-clipboard",
     "contentanalysis-operationtype-dropped-text",
     "contentanalysis-warndialogtitle",
