@@ -1389,7 +1389,10 @@
     "firefoxview-recentlyclosed-empty-description",
     "firefoxview-recentlyclosed-empty-description-two",
     "firefoxview-syncedtabs-device-notabs",
-    "firefoxview-syncedtabs-connect-another-device"
+    "firefoxview-syncedtabs-connect-another-device",
+    "firefoxview-pinned-tabs",
+    "firefoxview-tabs",
+    "firefoxview-opentabs-pinned-tab"
   ],
   "browser/browser/fxviewTabList.ftl": [
     "fxviewtabrow-date",
@@ -1410,9 +1413,13 @@
     "fxviewtabrow-move-tab-end",
     "fxviewtabrow-move-tab-window",
     "fxviewtabrow-send-tab",
+    "fxviewtabrow-pin-tab",
+    "fxviewtabrow-unpin-tab",
+    "fxviewtabrow-mute-tab",
+    "fxviewtabrow-unmute-tab",
     "fxviewtabrow-options-menu-button",
-    "fxviewtabrow-mute-tab-button",
-    "fxviewtabrow-unmute-tab-button"
+    "fxviewtabrow-mute-tab-button-no-context",
+    "fxviewtabrow-unmute-tab-button-no-context"
   ],
   "browser/browser/identityCredentialNotification.ftl": [
     "identity-credential-header-providers",
