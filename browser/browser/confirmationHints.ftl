@@ -6,6 +6,7 @@
 
 confirmation-hint-breakage-report-sent = Report sent. Thank you!
 confirmation-hint-login-removed = Login removed!
+
 confirmation-hint-password-removed = Password removed!
 confirmation-hint-page-bookmarked = Saved to bookmarks
 confirmation-hint-password-saved = Password saved!
