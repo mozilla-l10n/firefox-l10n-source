@@ -1391,7 +1391,9 @@
     "firefoxview-syncedtabs-connect-another-device",
     "firefoxview-pinned-tabs",
     "firefoxview-tabs",
-    "firefoxview-opentabs-pinned-tab"
+    "firefoxview-opentabs-pinned-tab",
+    "firefoxview-opentabs-bookmarked-pinned-tab",
+    "firefoxview-opentabs-bookmarked-tab"
   ],
   "browser/browser/fxviewTabList.ftl": [
     "fxviewtabrow-date",
@@ -4287,7 +4289,7 @@
     "unblockTypeMalware",
     "unblockTypePotentiallyUnwanted2",
     "unblockTypeUncommon2",
-    "unblockInsecure2",
+    "unblockInsecure3",
     "unblockTip2",
     "unblockButtonOpen",
     "unblockButtonUnblock",
@@ -7803,7 +7805,7 @@
     "LoadingMixedActiveContent2",
     "LoadingMixedDisplayContent2",
     "LoadingMixedDisplayObjectSubrequestDeprecation",
-    "MixedContentBlockedDownload",
+    "BlockedInsecureDownload",
     "BothAllowScriptsAndSameOriginPresent",
     "BothAllowTopNavigationAndUserActivationPresent",
     "MalformedIntegrityHash",
