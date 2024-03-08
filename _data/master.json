@@ -2760,7 +2760,7 @@
     "preferences-web-appearance-choice-input-auto",
     "preferences-web-appearance-choice-input-light",
     "preferences-web-appearance-choice-input-dark",
-    "preferences-web-appearance-override-warning",
+    "preferences-web-appearance-override-warning2",
     "preferences-web-appearance-footer",
     "preferences-colors-header",
     "preferences-colors-description",
@@ -10490,6 +10490,7 @@
     "contentanalysis-slow-agent-dialog-body-dropped-text",
     "contentanalysis-operationtype-clipboard",
     "contentanalysis-operationtype-dropped-text",
+    "contentanalysis-customdisplaystring-description",
     "contentanalysis-warndialogtitle",
     "contentanalysis-warndialogtext",
     "contentanalysis-warndialog-response-allow",
@@ -10497,7 +10498,10 @@
     "contentanalysis-notification-title",
     "contentanalysis-genericresponse-message",
     "contentanalysis-block-message",
-    "contentanalysis-error-message"
+    "contentanalysis-error-message",
+    "contentanalysis-inprogress-quit-title",
+    "contentanalysis-inprogress-quit-message",
+    "contentanalysis-inprogress-quit-yesbutton"
   ],
   "toolkit/toolkit/downloads/downloadUI.ftl": [
     "download-ui-confirm-title",
