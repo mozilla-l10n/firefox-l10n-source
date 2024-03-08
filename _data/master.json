@@ -2369,6 +2369,7 @@
     "connection-proxy-configure",
     "connection-proxy-option-no",
     "connection-proxy-option-system",
+    "connection-proxy-option-wpad",
     "connection-proxy-option-auto",
     "connection-proxy-option-manual",
     "connection-proxy-http",
