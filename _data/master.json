@@ -7739,10 +7739,24 @@
     "CreateWrapperDeniedForOrigin"
   ],
   "dom/chrome/security/csp.properties": [
-    "CSPViolation",
-    "CSPViolationWithURI",
-    "CSPROViolation",
-    "CSPROViolationWithURI",
+    "CSPInlineStyleViolation",
+    "CSPROInlineStyleViolation",
+    "CSPInlineScriptViolation",
+    "CSPROInlineScriptViolation",
+    "CSPEventHandlerScriptViolation",
+    "CSPROEventHandlerScriptViolation",
+    "CSPEvalScriptViolation",
+    "CSPROEvalScriptViolation",
+    "CSPWasmEvalScriptViolation",
+    "CSPROWasmEvalScriptViolation",
+    "CSPStyleViolation",
+    "CSPROStyleViolation",
+    "CSPScriptViolation",
+    "CSPROScriptViolation",
+    "CSPWorkerViolation",
+    "CSPROWorkerViolation",
+    "CSPGenericViolation",
+    "CSPROGenericViolation",
     "triedToSendReport",
     "tooManyReports",
     "couldNotParseReportURI",
@@ -10600,6 +10614,10 @@
     "app-picker-browse-button",
     "app-picker-send-msg",
     "app-picker-no-app-found"
+  ],
+  "toolkit/toolkit/global/arrowscrollbox.ftl": [
+    "overflow-scroll-button-up",
+    "overflow-scroll-button-down"
   ],
   "toolkit/toolkit/global/browser-utils.ftl": [
     "browser-utils-url-data",
