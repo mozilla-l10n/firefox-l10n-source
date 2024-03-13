@@ -2220,6 +2220,7 @@
     "policy-Bookmarks",
     "policy-CaptivePortal",
     "policy-CertificatesDescription",
+    "policy-ContentAnalysis",
     "policy-Cookies",
     "policy-Containers",
     "policy-DisableAccounts",
@@ -3964,6 +3965,8 @@
     "protocolhandler-mailto-os-handler-no-button",
     "protocolhandler-mailto-handler-notificationbox-always",
     "protocolhandler-mailto-handler-yes-confirm",
+    "protocolhandler-mailto-handler-set-message",
+    "protocolhandler-mailto-handler-confirm-message",
     "protocolhandler-mailto-handler-yes-button",
     "protocolhandler-mailto-handler-no-button"
   ],
@@ -7738,10 +7741,24 @@
     "CreateWrapperDeniedForOrigin"
   ],
   "dom/chrome/security/csp.properties": [
-    "CSPViolation",
-    "CSPViolationWithURI",
-    "CSPROViolation",
-    "CSPROViolationWithURI",
+    "CSPInlineStyleViolation",
+    "CSPROInlineStyleViolation",
+    "CSPInlineScriptViolation",
+    "CSPROInlineScriptViolation",
+    "CSPEventHandlerScriptViolation",
+    "CSPROEventHandlerScriptViolation",
+    "CSPEvalScriptViolation",
+    "CSPROEvalScriptViolation",
+    "CSPWasmEvalScriptViolation",
+    "CSPROWasmEvalScriptViolation",
+    "CSPStyleViolation",
+    "CSPROStyleViolation",
+    "CSPScriptViolation",
+    "CSPROScriptViolation",
+    "CSPWorkerViolation",
+    "CSPROWorkerViolation",
+    "CSPGenericViolation",
+    "CSPROGenericViolation",
     "triedToSendReport",
     "tooManyReports",
     "couldNotParseReportURI",
@@ -10600,6 +10617,10 @@
     "app-picker-send-msg",
     "app-picker-no-app-found"
   ],
+  "toolkit/toolkit/global/arrowscrollbox.ftl": [
+    "overflow-scroll-button-up",
+    "overflow-scroll-button-down"
+  ],
   "toolkit/toolkit/global/browser-utils.ftl": [
     "browser-utils-url-data",
     "browser-utils-url-extension"
@@ -10883,7 +10904,8 @@
     "text-action-spell-check-toggle",
     "text-action-spell-add-dictionaries",
     "text-action-spell-dictionaries",
-    "text-action-search-text-box-clear"
+    "text-action-search-text-box-clear",
+    "text-action-highlight-selection"
   ],
   "toolkit/toolkit/global/tree.ftl": [
     "tree-columnpicker-restore-order"
