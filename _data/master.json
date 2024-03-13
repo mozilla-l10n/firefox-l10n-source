@@ -10904,7 +10904,8 @@
     "text-action-spell-check-toggle",
     "text-action-spell-add-dictionaries",
     "text-action-spell-dictionaries",
-    "text-action-search-text-box-clear"
+    "text-action-search-text-box-clear",
+    "text-action-highlight-selection"
   ],
   "toolkit/toolkit/global/tree.ftl": [
     "tree-columnpicker-restore-order"
