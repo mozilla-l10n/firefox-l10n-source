@@ -61,6 +61,10 @@ inactive-css-border-image = <strong>{ $property }</strong> has no effect on this
 
 inactive-css-ruby-element = <strong>{ $property }</strong> has no effect on this element since it is a ruby element. Its size is determined by the font size of the ruby text.
 
+## In the Rule View when a CSS property cannot be successfully applied we display
+## an icon. When this icon is hovered this message is displayed to explain how
+## the problem can be solved.
+
 inactive-css-highlight-pseudo-elements-not-supported = <strong>{ $property }</strong> is not supported on highlight pseudo-elements.
 
 inactive-css-cue-pseudo-element-not-supported = <strong>{ $property }</strong> is not supported on ::cue pseudo-elements.
@@ -74,10 +78,6 @@ inactive-css-text-wrap-balance-lines-exceeded =
      }
 
 inactive-css-text-wrap-balance-fragmented = <strong>{ $property }</strong> has no effect on this element because it is fragmented, i.e. its content is split across multiple columns or pages.
-
-## In the Rule View when a CSS property cannot be successfully applied we display
-## an icon. When this icon is hovered this message is displayed to explain how
-## the problem can be solved.
 
 ## In the Rule View when a CSS property cannot be successfully applied we display
 ## an icon. When this icon is hovered this message is displayed to explain how

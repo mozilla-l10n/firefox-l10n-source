@@ -3126,7 +3126,7 @@
     "addon-recommendations",
     "addon-recommendations-link",
     "collection-health-report-disabled",
-    "collection-backlogged-crash-reports-with-link",
+    "collection-backlogged-crash-reports",
     "privacy-segmentation-section-header",
     "privacy-segmentation-section-description",
     "privacy-segmentation-radio-off",
@@ -12135,6 +12135,7 @@
     "pdfjs-editor-stamp-button-label",
     "pdfjs-editor-highlight-button",
     "pdfjs-editor-highlight-button-label",
+    "pdfjs-highlight-floating-button",
     "pdfjs-editor-remove-ink-button",
     "pdfjs-editor-remove-freetext-button",
     "pdfjs-editor-remove-stamp-button",
@@ -12179,7 +12180,9 @@
     "pdfjs-editor-colorpicker-green",
     "pdfjs-editor-colorpicker-blue",
     "pdfjs-editor-colorpicker-pink",
-    "pdfjs-editor-colorpicker-red"
+    "pdfjs-editor-colorpicker-red",
+    "pdfjs-editor-highlight-show-all-button-label",
+    "pdfjs-editor-highlight-show-all-button"
   ],
   "toolkit/toolkit/pictureinpicture/pictureinpicture.ftl": [
     "pictureinpicture-player-title",
