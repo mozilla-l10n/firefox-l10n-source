@@ -9001,7 +9001,7 @@
     "no-config-label"
   ],
   "toolkit/crashreporter/crashreporter.ftl": [
-    "crashreporter-title",
+    "crashreporter-branded-title",
     "crashreporter-crashed-and-restore",
     "crashreporter-plea",
     "crashreporter-information",
