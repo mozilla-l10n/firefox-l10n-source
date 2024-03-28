@@ -6553,6 +6553,7 @@
     "inactive-css-text-wrap-balance-lines-exceeded",
     "inactive-css-text-wrap-balance-fragmented",
     "inactive-css-not-grid-or-flex-container-fix",
+    "inactive-css-not-grid-or-flex-or-block-container-fix",
     "inactive-css-not-grid-or-flex-container-or-multicol-container-fix",
     "inactive-css-not-multicol-container-fix",
     "inactive-css-not-grid-or-flex-item-fix-3",
