@@ -2126,6 +2126,8 @@
     "policy-AppUpdatePin",
     "policy-AppUpdateURL",
     "policy-Authentication",
+    "policy-AutofillAddressEnabled",
+    "policy-AutofillCreditCardEnabled",
     "policy-AutoLaunchProtocolsFromOrigins",
     "policy-BackgroundAppUpdate2",
     "policy-BlockAboutAddons",
