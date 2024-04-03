@@ -3187,7 +3187,6 @@
     "preferences-doh-off-desc",
     "preferences-doh-checkbox-warn",
     "preferences-doh-select-resolver",
-    "preferences-doh-exceptions-description",
     "preferences-doh-manage-exceptions",
     "desktop-folder-name",
     "downloads-folder-name",
@@ -9005,6 +9004,7 @@
   ],
   "toolkit/crashreporter/crashreporter.ftl": [
     "crashreporter-branded-title",
+    "crashreporter-apology",
     "crashreporter-crashed-and-restore",
     "crashreporter-plea",
     "crashreporter-information",
@@ -10529,7 +10529,9 @@
     "contentanalysis-notification-title",
     "contentanalysis-genericresponse-message",
     "contentanalysis-block-message",
-    "contentanalysis-error-message",
+    "contentanalysis-unspecified-error-message",
+    "contentanalysis-no-agent-connected-message",
+    "contentanalysis-invalid-agent-signature-message",
     "contentanalysis-inprogress-quit-title",
     "contentanalysis-inprogress-quit-message",
     "contentanalysis-inprogress-quit-yesbutton"
