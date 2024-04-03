@@ -39,6 +39,9 @@ search-input-box2 =
 
 managed-notice = Your browser is being managed by your organization.
 
+managed-notice-info-icon =
+    .alt = Information
+
 category-list =
     .aria-label = Categories
 
@@ -899,6 +902,16 @@ sync-mobile-promo = Download Firefox for <img data-l10n-name="android-icon"/> <a
 
 sync-profile-picture =
     .tooltiptext = Change profile picture
+
+sync-profile-picture-with-alt =
+    .tooltiptext = Change profile picture
+    .alt = Change profile picture
+
+sync-profile-picture-account-problem =
+    .alt = Account profile picture
+
+fxa-login-rejected-warning =
+    .alt = Warning
 
 sync-sign-out =
     .label = Sign Out…
