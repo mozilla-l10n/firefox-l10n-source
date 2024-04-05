@@ -3965,16 +3965,10 @@
     "unified-extensions-mb-quarantined-domain-learn-more"
   ],
   "browser/browser/webProtocolHandler.ftl": [
-    "protocolhandler-mailto-os-handler-notificationbox",
-    "protocolhandler-mailto-os-handler-yes-confirm",
     "protocolhandler-mailto-os-handler-yes-button",
     "protocolhandler-mailto-os-handler-no-button",
-    "protocolhandler-mailto-handler-notificationbox-always",
-    "protocolhandler-mailto-handler-yes-confirm",
     "protocolhandler-mailto-handler-set-message",
-    "protocolhandler-mailto-handler-confirm-message",
-    "protocolhandler-mailto-handler-yes-button",
-    "protocolhandler-mailto-handler-no-button"
+    "protocolhandler-mailto-handler-confirm"
   ],
   "browser/browser/webauthnDialog.ftl": [
     "webauthn-pin-invalid-long-prompt",
