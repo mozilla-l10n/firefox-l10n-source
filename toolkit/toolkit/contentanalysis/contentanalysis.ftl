@@ -7,11 +7,7 @@ contentanalysis-alert-title = Content Analysis
 # Variables:
 #   $content - Description of the content being warned about, such as "clipboard" or "aFile.txt"
 contentanalysis-slow-agent-notification = The Content Analysis tool is taking a long time to respond for resource “{ $content }”
-contentanalysis-slow-agent-dialog-title = Content analysis in progress
 
-# Variables:
-#   $content - Description of the content being warned about, such as "clipboard" or "aFile.txt"
-contentanalysis-slow-agent-dialog-body = Content Analysis is analyzing resource “{ $content }”
 contentanalysis-slow-agent-dialog-header = Scan in progress
 
 # Variables:
