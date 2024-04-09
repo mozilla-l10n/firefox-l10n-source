@@ -76,15 +76,7 @@ fxviewtabrow-unmute-tab = Unmute Tab
 fxviewtabrow-options-menu-button =
   .title = Options for { $tabTitle }
 
-# Variables:
-#   $tabTitle (string) - Title of tab being muted
-fxviewtabrow-mute-tab-button =
-  .title = Mute { $tabTitle }
 
-# Variables:
-#   $tabTitle (string) - Title of tab being unmuted
-fxviewtabrow-unmute-tab-button =
-  .title = Unmute { $tabTitle }
 
 ## Strings below are to be used without context (tab title/URL) on mute/unmute buttons
 
