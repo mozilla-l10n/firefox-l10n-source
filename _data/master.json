@@ -1142,7 +1142,12 @@
     "default-browser-prompt-message-alt",
     "default-browser-prompt-button-primary-alt",
     "default-browser-prompt-checkbox-not-again-label",
-    "default-browser-prompt-button-secondary"
+    "default-browser-prompt-button-secondary",
+    "default-browser-guidance-notification-title",
+    "default-browser-guidance-notification-body-instruction-win10",
+    "default-browser-guidance-notification-body-instruction-win11",
+    "default-browser-guidance-notification-info-page",
+    "default-browser-guidance-notification-dismiss"
   ],
   "browser/browser/downloads.ftl": [
     "downloads-window",
@@ -1855,7 +1860,22 @@
     "newtab-custom-pocket-show-recent-saves",
     "newtab-custom-recent-toggle",
     "newtab-custom-close-button",
-    "newtab-custom-settings"
+    "newtab-custom-settings",
+    "newtab-wallpaper-title",
+    "newtab-wallpaper-reset",
+    "newtab-wallpaper-light-red-panda",
+    "newtab-wallpaper-light-mountain",
+    "newtab-wallpaper-light-sky",
+    "newtab-wallpaper-light-color",
+    "newtab-wallpaper-light-landscape",
+    "newtab-wallpaper-light-beach",
+    "newtab-wallpaper-dark-aurora",
+    "newtab-wallpaper-dark-color",
+    "newtab-wallpaper-dark-panda",
+    "newtab-wallpaper-dark-sky",
+    "newtab-wallpaper-dark-mountain",
+    "newtab-wallpaper-dark-city",
+    "newtab-wallpaper-attribution"
   ],
   "browser/browser/newtab/onboarding.ftl": [
     "onboarding-welcome-header",
