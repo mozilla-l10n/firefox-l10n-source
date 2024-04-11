@@ -3967,7 +3967,7 @@
   "browser/browser/webProtocolHandler.ftl": [
     "protocolhandler-mailto-os-handler-yes-button",
     "protocolhandler-mailto-os-handler-no-button",
-    "protocolhandler-mailto-handler-set-message",
+    "protocolhandler-mailto-handler-set",
     "protocolhandler-mailto-handler-confirm"
   ],
   "browser/browser/webauthnDialog.ftl": [
@@ -4128,9 +4128,10 @@
     "webauthn.alreadyRegisteredPrompt",
     "webauthn.cancel",
     "webauthn.cancel.accesskey",
-    "webauthn.proceed",
-    "webauthn.proceed.accesskey",
-    "webauthn.anonymize",
+    "webauthn.allow",
+    "webauthn.allow.accesskey",
+    "webauthn.block",
+    "webauthn.block.accesskey",
     "identity.identified.verifier",
     "identity.identified.verified_by_you",
     "identity.identified.state_and_country",
