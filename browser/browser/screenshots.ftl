@@ -23,6 +23,7 @@ screenshots-copy-button-title =
   .title = Copy screenshot to clipboard
 screenshots-cancel-button-title =
   .title = Cancel
+
 screenshots-retry-button-title =
   .title = Retry screenshot
 
