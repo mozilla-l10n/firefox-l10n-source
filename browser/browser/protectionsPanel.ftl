@@ -26,6 +26,13 @@ protections-panel-etp-more-info =
 protections-panel-etp-on-header = Enhanced Tracking Protection is ON for this site
 protections-panel-etp-off-header = Enhanced Tracking Protection is OFF for this site
 
+# The link to be clicked to open the sub-panel view
+protections-panel-site-not-working = Site not working?
+
+# The heading/title of the sub-panel view
+protections-panel-site-not-working-view =
+  .title = Site Not Working?
+
 ## Text for the toggles shown when ETP is enabled/disabled for a given site.
 ## .description is transferred into a separate paragraph by the moz-toggle
 ## custom element code.
@@ -39,13 +46,6 @@ protections-panel-etp-toggle-off =
   .label = Enhanced Tracking Protection
   .description = Off for this site
   .aria-label = Enhanced Tracking Protection: Off for { $host }
-
-# The link to be clicked to open the sub-panel view
-protections-panel-site-not-working = Site not working?
-
-# The heading/title of the sub-panel view
-protections-panel-site-not-working-view =
-  .title = Site Not Working?
 
 ## The "Allowed" header also includes a "Why?" link that, when hovered, shows
 ## a tooltip explaining why these items were not blocked in the page.
