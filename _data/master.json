@@ -3551,7 +3551,7 @@
     "screenshots-component-download-button-label",
     "screenshots-component-download-key",
     "screenshots-component-copy-key",
-    "screenshots-overlay-selection-region-size-2"
+    "screenshots-overlay-selection-region-size-3"
   ],
   "browser/browser/search.ftl": [
     "opensearch-error-duplicate-title",
