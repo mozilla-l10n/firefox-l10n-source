@@ -4323,7 +4323,7 @@
     "unblockTypeMalware",
     "unblockTypePotentiallyUnwanted2",
     "unblockTypeUncommon2",
-    "unblockInsecure3",
+    "unblockInsecure2",
     "unblockTip2",
     "unblockButtonOpen",
     "unblockButtonUnblock",
@@ -7810,6 +7810,8 @@
     "couldntParsePort",
     "duplicateDirective",
     "couldntParseInvalidSandboxFlag",
+    "invalidNumberOfTrustedTypesForDirectiveValues",
+    "invalidRequireTrustedTypesForDirectiveValue",
     "CSPMessagePrefix"
   ],
   "dom/chrome/security/security.properties": [
@@ -7845,7 +7847,7 @@
     "LoadingMixedActiveContent2",
     "LoadingMixedDisplayContent2",
     "LoadingMixedDisplayObjectSubrequestDeprecation",
-    "BlockedInsecureDownload",
+    "MixedContentBlockedDownload",
     "BothAllowScriptsAndSameOriginPresent",
     "BothAllowTopNavigationAndUserActivationPresent",
     "MalformedIntegrityHash",
