@@ -2257,6 +2257,7 @@
     "policy-DisableBuiltinPDFViewer",
     "policy-DisableDefaultBrowserAgent",
     "policy-DisableDeveloperTools",
+    "policy-DisableEncryptedClientHello",
     "policy-DisableFeedbackCommands",
     "policy-DisableFirefoxAccounts",
     "policy-DisableFirefoxScreenshots",
@@ -3551,7 +3552,7 @@
     "screenshots-component-download-button-label",
     "screenshots-component-download-key",
     "screenshots-component-copy-key",
-    "screenshots-overlay-selection-region-size-2"
+    "screenshots-overlay-selection-region-size-3"
   ],
   "browser/browser/search.ftl": [
     "opensearch-error-duplicate-title",
@@ -10556,6 +10557,14 @@
     "contentanalysis-unspecified-error-message",
     "contentanalysis-no-agent-connected-message",
     "contentanalysis-invalid-agent-signature-message",
+    "contentanalysis-block-dialog-title-upload-file",
+    "contentanalysis-block-dialog-body-upload-file",
+    "contentanalysis-block-dialog-title-clipboard",
+    "contentanalysis-block-dialog-body-clipboard",
+    "contentanalysis-block-dialog-title-dropped-text",
+    "contentanalysis-block-dialog-body-dropped-text",
+    "contentanalysis-block-dialog-title-print",
+    "contentanalysis-block-dialog-body-print",
     "contentanalysis-inprogress-quit-title",
     "contentanalysis-inprogress-quit-message",
     "contentanalysis-inprogress-quit-yesbutton"
