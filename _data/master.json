@@ -2257,6 +2257,7 @@
     "policy-DisableBuiltinPDFViewer",
     "policy-DisableDefaultBrowserAgent",
     "policy-DisableDeveloperTools",
+    "policy-DisableEncryptedClientHello",
     "policy-DisableFeedbackCommands",
     "policy-DisableFirefoxAccounts",
     "policy-DisableFirefoxScreenshots",
