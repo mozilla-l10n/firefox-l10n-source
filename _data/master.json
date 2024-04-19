@@ -10676,8 +10676,8 @@
     "app-picker-no-app-found"
   ],
   "toolkit/toolkit/global/arrowscrollbox.ftl": [
-    "overflow-scroll-button-up",
-    "overflow-scroll-button-down"
+    "overflow-scroll-button-backwards",
+    "overflow-scroll-button-forwards"
   ],
   "toolkit/toolkit/global/browser-utils.ftl": [
     "browser-utils-url-data",
