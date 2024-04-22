@@ -72,6 +72,9 @@ policy-DisableFeedbackCommands = Disable commands to send feedback from the Help
 
 policy-DisableFirefoxAccounts = Disable { -fxaccount-brand-name } based services, including Sync.
 
+# This string is in the process of being deprecated in favor of policy-DisableAccounts.
+policy-DisableFirefoxAccounts1 = Disable account-based services, including sync.
+
 # Firefox Screenshots is the name of the feature, and should not be translated.
 policy-DisableFirefoxScreenshots = Disable the Firefox Screenshots feature.
 

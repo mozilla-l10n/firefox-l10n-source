@@ -382,7 +382,7 @@
     "account-send-tab-to-device-connectdevice",
     "account-send-tab-to-device-verify-status",
     "account-send-tab-to-device-verify",
-    "account-connection-title",
+    "account-connection-title-2",
     "account-connection-connected-with",
     "account-connection-connected-with-noname",
     "account-connection-connected",
@@ -1675,7 +1675,7 @@
     "cfr-doorhanger-extension-rating",
     "cfr-doorhanger-extension-total-users",
     "cfr-doorhanger-bookmark-fxa-header",
-    "cfr-doorhanger-bookmark-fxa-body",
+    "cfr-doorhanger-bookmark-fxa-body-2",
     "cfr-doorhanger-bookmark-fxa-link-text",
     "cfr-doorhanger-bookmark-fxa-close-btn-tooltip",
     "cfr-badge-reader-label-newfeature",
@@ -2260,7 +2260,7 @@
     "policy-DisableDeveloperTools",
     "policy-DisableEncryptedClientHello",
     "policy-DisableFeedbackCommands",
-    "policy-DisableFirefoxAccounts",
+    "policy-DisableFirefoxAccounts1",
     "policy-DisableFirefoxScreenshots",
     "policy-DisableFirefoxStudies",
     "policy-DisableForgetButton",
@@ -10514,9 +10514,6 @@
     "url-classifier-success",
     "url-classifier-update-error",
     "url-classifier-download-error"
-  ],
-  "toolkit/toolkit/branding/accounts.ftl": [
-    "-fxaccount-brand-name"
   ],
   "toolkit/toolkit/branding/brandings.ftl": [
     "-facebook-container-brand-name",
