@@ -382,7 +382,7 @@
     "account-send-tab-to-device-connectdevice",
     "account-send-tab-to-device-verify-status",
     "account-send-tab-to-device-verify",
-    "account-connection-title",
+    "account-connection-title-2",
     "account-connection-connected-with",
     "account-connection-connected-with-noname",
     "account-connection-connected",
@@ -805,6 +805,7 @@
     "urlbar-result-action-tabtosearch-other-engine",
     "urlbar-result-action-copy-to-clipboard",
     "urlbar-result-action-calculator-result",
+    "urlbar-result-search-with",
     "urlbar-result-action-search-bookmarks",
     "urlbar-result-action-search-history",
     "urlbar-result-action-search-tabs",
@@ -1104,7 +1105,8 @@
     "confirmation-hint-send-to-device",
     "confirmation-hint-firefox-relay-mask-created",
     "confirmation-hint-firefox-relay-mask-reused",
-    "confirmation-hint-screenshot-copied"
+    "confirmation-hint-screenshot-copied",
+    "confirmation-hint-duplicate-tabs-closed"
   ],
   "browser/browser/contentCrash.ftl": [
     "crashed-subframe-message",
@@ -1674,7 +1676,7 @@
     "cfr-doorhanger-extension-rating",
     "cfr-doorhanger-extension-total-users",
     "cfr-doorhanger-bookmark-fxa-header",
-    "cfr-doorhanger-bookmark-fxa-body",
+    "cfr-doorhanger-bookmark-fxa-body-2",
     "cfr-doorhanger-bookmark-fxa-link-text",
     "cfr-doorhanger-bookmark-fxa-close-btn-tooltip",
     "cfr-badge-reader-label-newfeature",
@@ -2259,7 +2261,7 @@
     "policy-DisableDeveloperTools",
     "policy-DisableEncryptedClientHello",
     "policy-DisableFeedbackCommands",
-    "policy-DisableFirefoxAccounts",
+    "policy-DisableFirefoxAccounts1",
     "policy-DisableFirefoxScreenshots",
     "policy-DisableFirefoxStudies",
     "policy-DisableForgetButton",
@@ -3819,6 +3821,7 @@
     "move-to-end",
     "move-to-new-window",
     "tab-context-close-multiple-tabs",
+    "tab-context-close-duplicate-tabs",
     "tab-context-share-url",
     "tab-context-reopen-closed-tabs",
     "tab-context-close-n-tabs",
@@ -3955,13 +3958,13 @@
     "translations-panel-restore-button",
     "translations-manage-header",
     "translations-manage-settings-button",
-    "translations-manage-intro",
-    "translations-manage-install-description",
-    "translations-manage-language-install-button",
-    "translations-manage-language-install-all-button",
+    "translations-manage-intro-2",
+    "translations-manage-download-description",
+    "translations-manage-language-download-button",
+    "translations-manage-language-download-all-button",
     "translations-manage-language-remove-button",
     "translations-manage-language-remove-all-button",
-    "translations-manage-error-install",
+    "translations-manage-error-download",
     "translations-manage-error-remove",
     "translations-manage-error-list",
     "translations-settings-title",
@@ -4323,7 +4326,7 @@
     "unblockTypeMalware",
     "unblockTypePotentiallyUnwanted2",
     "unblockTypeUncommon2",
-    "unblockInsecure3",
+    "unblockInsecure2",
     "unblockTip2",
     "unblockButtonOpen",
     "unblockButtonUnblock",
@@ -7810,6 +7813,8 @@
     "couldntParsePort",
     "duplicateDirective",
     "couldntParseInvalidSandboxFlag",
+    "invalidNumberOfTrustedTypesForDirectiveValues",
+    "invalidRequireTrustedTypesForDirectiveValue",
     "CSPMessagePrefix"
   ],
   "dom/chrome/security/security.properties": [
@@ -7845,7 +7850,7 @@
     "LoadingMixedActiveContent2",
     "LoadingMixedDisplayContent2",
     "LoadingMixedDisplayObjectSubrequestDeprecation",
-    "BlockedInsecureDownload",
+    "MixedContentBlockedDownload",
     "BothAllowScriptsAndSameOriginPresent",
     "BothAllowTopNavigationAndUserActivationPresent",
     "MalformedIntegrityHash",
@@ -10511,9 +10516,6 @@
     "url-classifier-update-error",
     "url-classifier-download-error"
   ],
-  "toolkit/toolkit/branding/accounts.ftl": [
-    "-fxaccount-brand-name"
-  ],
   "toolkit/toolkit/branding/brandings.ftl": [
     "-facebook-container-brand-name",
     "-monitor-brand-name",
@@ -10674,8 +10676,8 @@
     "app-picker-no-app-found"
   ],
   "toolkit/toolkit/global/arrowscrollbox.ftl": [
-    "overflow-scroll-button-up",
-    "overflow-scroll-button-down"
+    "overflow-scroll-button-backwards",
+    "overflow-scroll-button-forwards"
   ],
   "toolkit/toolkit/global/browser-utils.ftl": [
     "browser-utils-url-data",
