@@ -7837,6 +7837,7 @@
     "couldntParseInvalidSandboxFlag",
     "invalidNumberOfTrustedTypesForDirectiveValues",
     "invalidRequireTrustedTypesForDirectiveValue",
+    "invalidTrustedTypesExpression",
     "CSPMessagePrefix"
   ],
   "dom/chrome/security/security.properties": [
