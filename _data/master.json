@@ -3548,10 +3548,8 @@
     "screenshots-too-large-error-details",
     "screenshots-component-retry-button",
     "screenshots-component-cancel-button",
-    "screenshots-component-copy-button",
-    "screenshots-component-copy-button-label",
-    "screenshots-component-download-button",
-    "screenshots-component-download-button-label",
+    "screenshots-component-copy-button-2",
+    "screenshots-component-download-button-2",
     "screenshots-component-download-key",
     "screenshots-component-copy-key",
     "screenshots-overlay-selection-region-size-3"
