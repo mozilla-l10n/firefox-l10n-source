@@ -2313,6 +2313,7 @@
     "policy-OverridePostUpdatePage",
     "policy-PasswordManagerEnabled",
     "policy-PasswordManagerExceptions",
+    "policy-PostQuantumKeyAgreementEnabled",
     "policy-PDFjs",
     "policy-Permissions2",
     "policy-PictureInPicture",
