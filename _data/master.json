@@ -7151,7 +7151,11 @@
     "expand",
     "activate",
     "cycle",
-    "click ancestor"
+    "click ancestor",
+    "banner",
+    "complementary",
+    "contentinfo",
+    "region"
   ],
   "dom/chrome/appstrings.properties": [
     "malformedURI2",
