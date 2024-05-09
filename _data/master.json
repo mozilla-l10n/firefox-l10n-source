@@ -2297,6 +2297,8 @@
     "policy-Handlers",
     "policy-HardwareAcceleration",
     "policy-Homepage",
+    "policy-HttpAllowlist",
+    "policy-HttpsOnlyMode",
     "policy-InstallAddonsPermission",
     "policy-LegacyProfiles",
     "policy-LegacySameSiteCookieBehaviorEnabled",
