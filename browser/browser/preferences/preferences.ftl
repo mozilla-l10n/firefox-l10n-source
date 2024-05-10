@@ -768,6 +768,11 @@ home-prefs-snippets-header =
 
 home-prefs-snippets-description-new = Tips and news from { -vendor-short-name } and { -brand-product-name }
 
+home-prefs-weather-header =
+  .label = Weather
+home-prefs-weather-description = Today’s forecast at a glance
+home-prefs-weather-learn-more-link = Learn more
+
 # Variables:
 #   $num (number) - Number of rows displayed
 home-prefs-sections-rows-option =
