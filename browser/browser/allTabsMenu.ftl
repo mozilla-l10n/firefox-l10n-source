@@ -15,3 +15,6 @@ all-tabs-menu-hidden-tabs =
 all-tabs-menu-manage-user-context =
   .label = Manage containers
   .accesskey = o
+
+all-tabs-menu-close-duplicate-tabs =
+  .label = Close duplicate tabs

@@ -47,9 +47,6 @@ contentanalysis-genericresponse-message = Content Analysis responded with { $res
 # Variables:
 #   $content - Description of the content being blocked, such as "clipboard" or "aFile.txt"
 contentanalysis-block-message = Your organization uses data-loss prevention software that has blocked this content: { $content }.
-# Variables:
-#   $content - Description of the content being blocked, such as "clipboard" or "aFile.txt"
-contentanalysis-error-message = An error occurred in communicating with the data-loss prevention software. Transfer denied for resource: { $content }.
 
 # Variables:
 #   $agent - The name of the DLP agent doing the analysis

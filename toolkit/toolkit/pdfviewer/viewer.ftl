@@ -322,8 +322,6 @@ pdfjs-editor-highlight-button =
     .title = Highlight
 pdfjs-editor-highlight-button-label = Highlight
 
-pdfjs-highlight-floating-button =
-    .title = Highlight
 
 pdfjs-highlight-floating-button1 =
     .title = Highlight
