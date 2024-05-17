@@ -8064,7 +8064,7 @@
     "CookiePartitionedForeign2",
     "CookieAllowedForOriginByStorageAccessAPI",
     "CookieAllowedForOriginByHeuristic",
-    "CookieAllowedForFpiByHeuristic",
+    "CookieAllowedForDFPIByHeuristic",
     "CookieRejectedNonRequiresSecure2",
     "CookieRejectedNonRequiresSecureForBeta3",
     "CookieLaxForced2",
