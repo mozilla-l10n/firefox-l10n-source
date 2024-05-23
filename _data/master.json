@@ -9472,6 +9472,7 @@
   "toolkit/toolkit/about/aboutNetworking.ftl": [
     "about-networking-title",
     "about-networking-http",
+    "about-networking-http-clear-cache-button",
     "about-networking-sockets",
     "about-networking-dns",
     "about-networking-dns-clear-cache-button",
