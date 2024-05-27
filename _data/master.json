@@ -7959,6 +7959,7 @@
     "HTTPSOnlyFailedDowngradeAgain",
     "HTTPSOnlyUpgradeSpeculativeConnection",
     "HTTPSFirstSchemeless",
+    "HTTPSFirstAddingSessionException",
     "IframeSandboxBlockedDownload",
     "SandboxBlockedCustomProtocols",
     "SanitizerRcvdNoInput"
