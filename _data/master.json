@@ -4029,7 +4029,8 @@
     "select-translations-panel-translation-failure-message",
     "select-translations-panel-unsupported-language-message-known",
     "select-translations-panel-unsupported-language-message-unknown",
-    "select-translations-panel-open-translations-settings-menuitem"
+    "select-translations-panel-open-translations-settings-menuitem",
+    "select-translations-panel-translation-complete-announcement"
   ],
   "browser/browser/unifiedExtensions.ftl": [
     "unified-extensions-header-title",
@@ -7958,6 +7959,7 @@
     "HTTPSOnlyFailedDowngradeAgain",
     "HTTPSOnlyUpgradeSpeculativeConnection",
     "HTTPSFirstSchemeless",
+    "HTTPSFirstAddingSessionException",
     "IframeSandboxBlockedDownload",
     "SandboxBlockedCustomProtocols",
     "SanitizerRcvdNoInput"
@@ -9472,6 +9474,7 @@
   "toolkit/toolkit/about/aboutNetworking.ftl": [
     "about-networking-title",
     "about-networking-http",
+    "about-networking-http-clear-cache-button",
     "about-networking-sockets",
     "about-networking-dns",
     "about-networking-dns-clear-cache-button",
