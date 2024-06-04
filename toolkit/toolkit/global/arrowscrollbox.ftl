@@ -4,11 +4,6 @@
 
 ### This file contains the entities needed to use the Arrowscrollbox component.
 ### For example, Arrowscrollboxes are used in Tabs Toolbar when there are
-### multiple tabs opened and in the overflowing menus.
-
-
-### This file contains the entities needed to use the Arrowscrollbox component.
-### For example, Arrowscrollboxes are used in Tabs Toolbar when there are
 ### multiple tabs opened and in overflowing menus.
 
 # This button is shown at the beginning of the overflowing list of elements.
