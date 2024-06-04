@@ -1204,13 +1204,6 @@ autofill-payment-methods-checkbox-submessage = Includes credit and debit cards
 autofill-saved-payment-methods-button = Saved payment methods
     .accesskey = v
 
-autofill-reauth-checkbox = { PLATFORM() ->
-            [macos] Require macOS authentication to fill and edit payment methods.
-            [windows] Require Windows authentication to fill and edit payment methods.
-            [linux] Require Linux authentication to fill and edit payment methods.
-           *[other] Require authentication to fill and edit payment methods.
-        }
-    .accesskey = o
 
 # This operation requires the user to authenticate with the operating system (device sign-in)
 autofill-reauth-payment-methods-checkbox = Require device sign in to fill and manage payment methods

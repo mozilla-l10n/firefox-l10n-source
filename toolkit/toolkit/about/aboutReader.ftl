@@ -14,20 +14,6 @@ about-reader-color-scheme-sepia = Sepia
 about-reader-color-scheme-auto = Auto
     .title = Color Scheme Auto
 
-about-reader-color-theme-light = Light
-    .title = Color Theme Light
-about-reader-color-theme-dark = Dark
-    .title = Color Theme Dark
-about-reader-color-theme-sepia = Sepia
-    .title = Color Theme Sepia
-about-reader-color-theme-auto = Auto
-    .title = Color Theme Auto
-about-reader-color-theme-gray = Gray
-    .title = Color Theme Gray
-about-reader-color-theme-contrast = Contrast
-    .title = Color Theme Contrast
-about-reader-color-theme-custom = Custom colors
-    .title = Color Theme Custom
 
 about-reader-color-light-theme = Light
     .title = Light theme
@@ -79,7 +65,6 @@ about-reader-font-type-monospace = Monospace
 
 about-reader-toolbar-close = Close Reader View
 about-reader-toolbar-type-controls = Type controls
-about-reader-toolbar-color-controls = Colors
 about-reader-toolbar-text-layout-controls = Text and layout
 about-reader-toolbar-theme-controls = Theme
 about-reader-toolbar-savetopocket = Save to { -pocket-brand-name }
