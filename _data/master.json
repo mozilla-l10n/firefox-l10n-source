@@ -6981,6 +6981,7 @@
     "rule.empty",
     "rule.variableValue",
     "rule.variableUnset",
+    "rule.selectorSpecificity.title",
     "rule.selectorHighlighter.tooltip",
     "rule.colorSwatch.tooltip",
     "rule.bezierSwatch.tooltip",
