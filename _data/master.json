@@ -6662,6 +6662,7 @@
     "inactive-css-cue-pseudo-element-not-supported",
     "inactive-css-text-wrap-balance-lines-exceeded",
     "inactive-css-text-wrap-balance-fragmented",
+    "inactive-css-no-width-height",
     "inactive-css-not-grid-or-flex-container-fix",
     "inactive-css-not-grid-or-flex-or-block-container-fix",
     "inactive-css-not-grid-or-flex-container-or-multicol-container-fix",
