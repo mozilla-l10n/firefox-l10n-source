@@ -8928,6 +8928,7 @@
     "VK_INSERT"
   ],
   "toolkit/chrome/global/narrate.properties": [
+    "read-aloud-header",
     "read-aloud-label",
     "previous-label",
     "start-label",
@@ -8936,6 +8937,7 @@
     "next-label",
     "speed",
     "selectvoicelabel",
+    "select-voice-header",
     "defaultvoice",
     "voiceLabel"
   ],
