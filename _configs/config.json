@@ -3,6 +3,7 @@
     "master",
     "beta",
     "release",
+    "esr128",
     "esr115"
   ],
   "head": "master",
