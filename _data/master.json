@@ -556,6 +556,8 @@
     "profiler-popup-presets-networking-label",
     "profiler-popup-presets-power-description",
     "profiler-popup-presets-power-label",
+    "profiler-popup-presets-debug-description",
+    "profiler-popup-presets-debug-label",
     "profiler-popup-presets-custom-label",
     "appmenu-manage-history",
     "appmenu-restore-session",
@@ -6275,6 +6277,8 @@
     "perftools-presets-networking-description",
     "perftools-presets-power-label",
     "perftools-presets-power-description",
+    "perftools-presets-debug-label",
+    "perftools-presets-debug-description",
     "perftools-presets-custom-label"
   ],
   "devtools/client/responsive.properties": [
