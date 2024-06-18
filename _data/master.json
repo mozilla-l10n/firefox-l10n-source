@@ -394,7 +394,9 @@
     "account-multiple-tabs-arriving-title",
     "account-multiple-tabs-arriving-from-single-device",
     "account-multiple-tabs-arriving-from-multiple-devices",
-    "account-multiple-tabs-arriving-from-unknown-device"
+    "account-multiple-tabs-arriving-from-unknown-device",
+    "account-view-recently-closed-tabs",
+    "account-tabs-closed-remotely"
   ],
   "browser/browser/addonNotifications.ftl": [
     "xpinstall-prompt",
@@ -3685,7 +3687,7 @@
     "shopping-settings-auto-open-description-single-site",
     "shopping-settings-sidebar-enabled-state",
     "shopping-adjusted-rating-label",
-    "shopping-adjusted-rating-unreliable-reviews",
+    "shopping-adjusted-rating-based-reliable-reviews",
     "shopping-review-reliability-label",
     "shopping-analysis-explainer-label",
     "shopping-analysis-explainer-intro2",
