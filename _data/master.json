@@ -8128,6 +8128,7 @@
     "CookieOversize",
     "CookiePathOversize",
     "CookieRejectedByPermissionManager",
+    "CookieRejectedEmptyNameAndValue",
     "CookieRejectedInvalidCharName",
     "CookieRejectedInvalidCharAttributes",
     "CookieRejectedInvalidDomain",
