@@ -6652,7 +6652,7 @@
     "inactive-css-first-letter-pseudo-element-not-supported",
     "inactive-css-placeholder-pseudo-element-not-supported",
     "inactive-css-property-because-of-display",
-    "inactive-css-not-display-block-on-floated",
+    "inactive-css-not-display-block-on-floated-2",
     "inactive-css-property-is-impossible-to-override-in-visited",
     "inactive-css-position-property-on-unpositioned-box",
     "inactive-css-only-replaced-elements",
