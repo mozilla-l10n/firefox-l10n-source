@@ -1,2 +1,3 @@
 compare-locales ~= 9.0.2
+moz.l10n @ https://github.com/mozilla/moz-l10n/archive/configure.zip
 tomli-w ~= 1.0.0
