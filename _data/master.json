@@ -10039,6 +10039,7 @@
     "has-seccomp-tsync",
     "has-user-namespaces",
     "has-privileged-user-namespaces",
+    "support-user-namespaces-unavailable",
     "can-sandbox-content",
     "can-sandbox-media",
     "content-sandbox-level",
