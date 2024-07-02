@@ -4224,6 +4224,7 @@
     "urlbar-zoom-button.tooltip",
     "reader-mode-button.tooltip",
     "zoom-button.label",
+    "zoom-button.aria-label",
     "bookmarksMenuButton.tooltip",
     "downloads.tooltip",
     "newWindowButton.tooltip",
