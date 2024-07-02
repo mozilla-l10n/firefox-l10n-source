@@ -93,7 +93,6 @@ about-reader-custom-colors-visited-links = Visited links
 about-reader-custom-colors-selection-highlight = Highlighter for read aloud
     .title = Edit color
 
-about-reader-custom-colors-reset-button = Reset defaults
 
 about-reader-reset-button = Reset defaults
 
@@ -121,9 +120,6 @@ about-reader-line-spacing-label =
 
 about-reader-advanced-layout-header = Advanced
 
-about-reader-slider-label-width-narrow = Narrow
-about-reader-slider-label-width-wide = Wide
-about-reader-slider-label-spacing-narrow = Narrow
 
 about-reader-character-spacing-label =
   .label = Character spacing
