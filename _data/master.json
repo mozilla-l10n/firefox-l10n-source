@@ -449,7 +449,7 @@
     "all-tabs-menu-search-tabs",
     "all-tabs-menu-new-user-context",
     "all-tabs-menu-hidden-tabs",
-    "all-tabs-menu-close-duplicate-tabs"
+    "all-tabs-menu-close-all-duplicate-tabs"
   ],
   "browser/browser/appExtensionFields.ftl": [
     "extension-default-theme-name-auto",
@@ -3918,8 +3918,9 @@
     "tabbrowser-confirm-caretbrowsing-title",
     "tabbrowser-confirm-caretbrowsing-message",
     "tabbrowser-confirm-caretbrowsing-checkbox",
-    "tabbrowser-confirm-close-duplicate-tabs-title",
-    "tabbrowser-confirm-close-duplicate-tabs-text",
+    "tabbrowser-confirm-close-all-duplicate-tabs-title",
+    "tabbrowser-confirm-close-all-duplicate-tabs-text",
+    "tabbrowser-confirm-close-all-duplicate-tabs-button-closetabs",
     "tabbrowser-allow-dialogs-to-get-focus",
     "tabbrowser-customizemode-tab-title",
     "tabbrowser-context-mute-tab",
