@@ -14,41 +14,39 @@ Writes a commit message summary as `.prune_msg`.
 
 import json
 from argparse import ArgumentParser
-from codecs import encode
-from os import getcwd, remove, scandir, walk
+from os import getcwd, remove, scandir
 from os.path import join, relpath, splitext
 from sys import exit
-from compare_locales.parser import Entity, getParser
+from moz.l10n.paths import L10nDiscoverPaths
+from moz.l10n.resource import parse_resource, serialize_resource
+from moz.l10n.resource.data import Entry
 
 
 def prune_file(path: str, msg_refs: set[str]):
-    parser = getParser(path)
     with open(path, "+rb") as file:
-        parser.readContents(file.read())
-        resource = [entity for entity in parser.walk()]
-        drop = set(
-            e.key for e in resource if isinstance(e, Entity) and e.key not in msg_refs
-        )
-        if drop:
-            print(f"drop {len(drop)} from {path}")
-            res = ""
-            trim = False
-            for entity in resource:
-                # As whitespace is handled as a separate entity,
-                # a trailing newline after a dropped entity needs to be
-                # trimmed separately.
-                if isinstance(entity, Entity) and entity.key in drop:
-                    trim = True
-                elif trim:
-                    el_str = entity.all
-                    res += el_str[1:] if el_str[0] == "\n" else el_str
-                    trim = False
-                else:
-                    res += entity.all
+        resource = parse_resource(path, file.read())
+        drop_count = 0
+        for section in resource.sections:
+            next = [
+                entry
+                for entry in section.entries
+                if not isinstance(entry, Entry)
+                or ".".join(section.id + entry.id) in msg_refs
+            ]
+            diff = len(section.entries) - len(next)
+            if diff > 0:
+                drop_count += diff
+                section.entries = next
+        resource.sections = [
+            section for section in resource.sections if section.entries
+        ]
+        if drop_count:
+            print(f"drop {drop_count} from {path}")
             file.seek(0)
-            file.write(encode(res, parser.encoding))
+            for line in serialize_resource(resource):
+                file.write(line.encode("utf-8"))
             file.truncate()
-    return len(drop)
+    return drop_count
 
 
 def prune(branches: list[str]):
@@ -80,17 +78,14 @@ def prune(branches: list[str]):
     if expected:
         exit(f"Incomplete data! Not found: {expected}")
 
-    for entry in scandir(cwd):
-        if entry.is_dir() and not entry.name.startswith(("_", ".")):
-            for root, _, files in walk(entry.path):
-                for file in files:
-                    path = relpath(join(root, file), cwd)
-                    if path not in refs:
-                        print(f"remove {path}")
-                        remove(path)
-                        removed_files += 1
-                    elif refs[path]:
-                        removed_messages += prune_file(path, refs[path])
+    for ref_path in L10nDiscoverPaths(cwd, ref_root=cwd).ref_paths:
+        path = relpath(ref_path, cwd)
+        if path not in refs:
+            print(f"remove {path}")
+            remove(path)
+            removed_files += 1
+        elif refs[path]:
+            removed_messages += prune_file(path, refs[path])
     return removed_data, removed_files, removed_messages
 
 
@@ -110,11 +105,7 @@ def write_commit_msg(data: list[str], files: int, messages: int):
 
 if __name__ == "__main__":
     prog = "python -m _scripts.prune"
-    parser = ArgumentParser(
-        prog=prog,
-        description=__doc__,
-        epilog=f"Example: {prog} master beta release",
-    )
+    parser = ArgumentParser(prog=prog, description=__doc__)
     args = parser.parse_args()
 
     config_file = join("_configs", "config.json")
