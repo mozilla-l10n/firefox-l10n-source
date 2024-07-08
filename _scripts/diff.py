@@ -3,7 +3,7 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 """
-Compare localization files
+Compare messages in localization files between two paths
 """
 
 from __future__ import annotations
@@ -62,7 +62,7 @@ def l10n_equal_paths(a_path: str, b_path: str) -> bool:
     except UnsupportedResource:
         a_res = None
     except Exception as error:
-        print(f"parse error at {a_path}: {error}")
+        print(f"Parse error at {a_path}: {error}")
         return False
     try:
         b_res = parse_resource(b_path, b_bytes)
@@ -70,10 +70,10 @@ def l10n_equal_paths(a_path: str, b_path: str) -> bool:
         if isinstance(error, UnsupportedResource) and a_res is None:
             return True
         else:
-            print(f"parse error at {b_path}: {error}")
+            print(f"Parse error at {b_path}: {error}")
             return False
     if a_res is None:
-        print(f"parse error at {a_path}")
+        print(f"Parse error at {a_path}")
         return False
 
     return l10n_equal(a_res, b_res)
@@ -81,7 +81,7 @@ def l10n_equal_paths(a_path: str, b_path: str) -> bool:
 
 if __name__ == "__main__":
     parser = ArgumentParser(description=__doc__)
-    parser.add_argument("path", nargs=2, help="root directories for the comparison")
+    parser.add_argument("path", nargs=2, help="Root directories for the comparison")
     parser.add_argument("--ignore", nargs="*", help="Relative paths to ignore")
     args = parser.parse_args()
 
