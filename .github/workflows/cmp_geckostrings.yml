@@ -25,22 +25,24 @@ jobs:
         uses: actions/checkout@v4
         with:
           path: l10n
-      - name: Clone gecko-strings repository
-        run: |
-          hg clone https://hg.mozilla.org/l10n/gecko-strings
-      - name: Copy content from gecko-strings
-        run: |
-          rsync -av --quiet --exclude={".hg","_configs"} gecko-strings/ l10n/
+      - run: hg clone https://hg.mozilla.org/l10n/gecko-strings
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+          cache-dependency-path: l10n/_scripts/requirements.txt
+      - run: pip install -r l10n/_scripts/requirements.txt
+
       - name: Compare content
         run: |
-          diff=$(git diff --ignore-blank-lines)
+          diff=$(python l10n/_scripts/diff.py l10n gecko-strings --ignore LICENSE README.md)
           if [[ -n "$diff" ]]; then
             echo "### There are differences between the two repositories" >> $GITHUB_STEP_SUMMARY
-            echo '```diff' >> $GITHUB_STEP_SUMMARY
+            echo '```' >> $GITHUB_STEP_SUMMARY
             echo "$diff" >> $GITHUB_STEP_SUMMARY
             echo '```' >> $GITHUB_STEP_SUMMARY
             exit 1
           else
             echo "No differences found"
           fi
-        working-directory: l10n
