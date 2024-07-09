@@ -2785,8 +2785,8 @@
     "category-privacy",
     "pane-sync-title3",
     "category-sync3",
-    "pane-experimental-title",
-    "category-experimental",
+    "settings-pane-labs-title",
+    "settings-category-labs",
     "pane-experimental-description3",
     "pane-experimental-reset",
     "help-button-label",
@@ -10653,7 +10653,8 @@
     "-fakespot-brand-full-name",
     "-firefox-suggest-brand-name",
     "-firefox-home-brand-name",
-    "-firefoxview-brand-name"
+    "-firefoxview-brand-name",
+    "-firefoxlabs-brand-name"
   ],
   "toolkit/toolkit/contentanalysis/contentanalysis.ftl": [
     "contentanalysis-alert-title",
