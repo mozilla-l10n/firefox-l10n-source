@@ -53,6 +53,8 @@ about-processes-fork-server-process = Fork Server ({ $pid })
 about-processes-preallocated-process = Preallocated ({ $pid })
 about-processes-utility-process = Utility ({ $pid })
 
+about-processes-inference-process = Inference ({ $pid })
+
 # Unknown process names
 # Variables:
 #    $pid (String) The process id of this process, assigned by the OS.

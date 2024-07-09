@@ -2785,8 +2785,8 @@
     "category-privacy",
     "pane-sync-title3",
     "category-sync3",
-    "pane-experimental-title",
-    "category-experimental",
+    "settings-pane-labs-title",
+    "settings-category-labs",
     "pane-experimental-description3",
     "pane-experimental-reset",
     "help-button-label",
@@ -9635,6 +9635,7 @@
     "about-processes-fork-server-process",
     "about-processes-preallocated-process",
     "about-processes-utility-process",
+    "about-processes-inference-process",
     "about-processes-unknown-process",
     "about-processes-web-isolated-process",
     "about-processes-web-serviceworker",
@@ -10652,7 +10653,8 @@
     "-fakespot-brand-full-name",
     "-firefox-suggest-brand-name",
     "-firefox-home-brand-name",
-    "-firefoxview-brand-name"
+    "-firefoxview-brand-name",
+    "-firefoxlabs-brand-name"
   ],
   "toolkit/toolkit/contentanalysis/contentanalysis.ftl": [
     "contentanalysis-alert-title",
@@ -11002,6 +11004,7 @@
     "process-type-gpu",
     "process-type-socket",
     "process-type-rdd",
+    "process-type-inference",
     "process-type-utility",
     "process-type-utility-actor-audio-decoder-generic",
     "process-type-utility-actor-audio-decoder-applemedia",
