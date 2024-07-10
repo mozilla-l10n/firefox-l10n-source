@@ -926,7 +926,14 @@
     "popup-warning-message",
     "popup-warning-exceeded-message",
     "popup-warning-button",
-    "popup-show-popup-menuitem"
+    "popup-show-popup-menuitem",
+    "file-picker-failed-open",
+    "file-picker-failed-save-somewhere",
+    "file-picker-failed-save-nowhere",
+    "file-picker-crashed-open",
+    "file-picker-crashed-save-somewhere",
+    "file-picker-crashed-save-nowhere",
+    "file-picker-crashed-show-in-folder"
   ],
   "browser/browser/browserContext.ftl": [
     "navbar-tooltip-instruction",
@@ -10746,7 +10753,10 @@
     "experimental-features-js-warp",
     "experimental-features-js-warp-description",
     "experimental-features-ime-search",
-    "experimental-features-ime-search-description"
+    "experimental-features-ime-search-description",
+    "experimental-features-group-browsing",
+    "experimental-features-group-developer-tools",
+    "experimental-features-group-webpage-display"
   ],
   "toolkit/toolkit/formautofill/formAutofill.ftl": [
     "autofill-use-payment-method-os-prompt-macos",
