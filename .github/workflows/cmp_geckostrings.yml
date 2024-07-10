@@ -36,7 +36,7 @@ jobs:
 
       - name: Compare content
         run: |
-          diff=$(python l10n/_scripts/diff.py l10n gecko-strings --ignore LICENSE README.md)
+          diff=$(python l10n/_scripts/diff.py l10n gecko-strings --ignore LICENSE README.md || true)
           if [[ -n "$diff" ]]; then
             echo "### There are differences between the two repositories" >> $GITHUB_STEP_SUMMARY
             echo '```' >> $GITHUB_STEP_SUMMARY
