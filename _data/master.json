@@ -2388,6 +2388,7 @@
     "policy-PictureInPicture",
     "policy-PopupBlocking",
     "policy-Preferences",
+    "policy-PrivateBrowsingModeAvailability",
     "policy-PromptForDownloadLocation",
     "policy-Proxy",
     "policy-RequestedLocales",
@@ -3338,9 +3339,6 @@
   "browser/browser/profile/default-bookmarks.ftl": [
     "default-bookmarks-title",
     "default-bookmarks-heading",
-    "default-bookmarks-toolbarfolder",
-    "default-bookmarks-toolbarfolder-description",
-    "default-bookmarks-getting-started",
     "default-bookmarks-firefox-heading",
     "default-bookmarks-firefox-get-help",
     "default-bookmarks-firefox-customize",
@@ -8151,6 +8149,7 @@
     "CookieLaxForced2",
     "CookieLaxForcedForBeta2",
     "CookieSameSiteValueInvalid2",
+    "CookieInvalidMaxAgeAttribute",
     "CookieOversize",
     "CookieRejectedByPermissionManager",
     "CookieRejectedEmptyNameAndValue",
@@ -12591,7 +12590,10 @@
     "elevation-finished-page",
     "elevation-finished-background-page",
     "elevation-finished-background",
-    "elevation-more-elevated"
+    "elevation-more-elevated",
+    "sandbox-missing-unprivileged-namespaces",
+    "sandbox-unprivileged-namespaces-dismiss-button",
+    "sandbox-unprivileged-namespaces-howtofix"
   ],
   "toolkit/toolkit/updates/history.ftl": [
     "history-title",
