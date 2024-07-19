@@ -6922,7 +6922,7 @@
     "expand",
     "activate",
     "cycle",
-    "click ancestor",
+    "clickAncestor",
     "htmlContent",
     "tab",
     "term",
@@ -6971,7 +6971,7 @@
     "expand",
     "activate",
     "cycle",
-    "click ancestor"
+    "clickAncestor"
   ],
   "dom/chrome/accessibility/win/accessible.properties": [
     "jump",
@@ -6987,7 +6987,7 @@
     "expand",
     "activate",
     "cycle",
-    "click ancestor"
+    "clickAncestor"
   ],
   "dom/chrome/appstrings.properties": [
     "malformedURI2",
