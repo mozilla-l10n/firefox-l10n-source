@@ -3257,11 +3257,14 @@
     "space-alert-over-5gb-message2",
     "space-alert-under-5gb-message2",
     "httpsonly-header",
-    "httpsonly-description",
+    "httpsonly-description2",
     "httpsonly-learn-more",
     "httpsonly-radio-enabled",
+    "httpsonly-radio-enabled2",
     "httpsonly-radio-enabled-pbm",
+    "httpsonly-radio-enabled-pbm2",
     "httpsonly-radio-disabled",
+    "httpsonly-radio-disabled2",
     "preferences-doh-header",
     "preferences-doh-description2",
     "preferences-doh-status",
@@ -3869,7 +3872,8 @@
     "synced-tabs-context-manage-devices",
     "synced-tabs-context-sync-now",
     "synced-tabs-fxa-sign-in",
-    "synced-tabs-turn-on-sync"
+    "synced-tabs-turn-on-sync",
+    "synced-tabs-context-close-tab"
   ],
   "browser/browser/tabContextMenu.ftl": [
     "tab-context-new-tab",
