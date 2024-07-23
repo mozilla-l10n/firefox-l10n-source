@@ -4,23 +4,20 @@
 
 tabbrowser-empty-tab-title = New Tab
 tabbrowser-empty-private-tab-title = New Private Tab
-
 tabbrowser-menuitem-close-tab =
     .label = Close Tab
 tabbrowser-menuitem-close =
     .label = Close
-
 # Displayed as a tooltip on container tabs
 # Variables:
 #   $title (String): the title of the current tab.
 #   $containerName (String): the name of the current container.
 tabbrowser-container-tab-title = { $title } — { $containerName }
-
 # Variables:
 #   $tabCount (Number): The number of tabs that will be closed.
 tabbrowser-close-tabs-tooltip =
     .label =
-        { $tabCount ->
+        { NUMBER($tabCount) ->
             [one] Close tab
            *[other] Close { $tabCount } tabs
         }
@@ -33,7 +30,7 @@ tabbrowser-close-tabs-tooltip =
 #   $shortcut (String): The keyboard shortcut for "Mute tab".
 tabbrowser-mute-tab-audio-tooltip =
     .label =
-        { $tabCount ->
+        { NUMBER($tabCount) ->
             [one] Mute tab ({ $shortcut })
            *[other] Mute { $tabCount } tabs ({ $shortcut })
         }
@@ -41,25 +38,25 @@ tabbrowser-mute-tab-audio-tooltip =
 #   $shortcut (String): The keyboard shortcut for "Unmute tab".
 tabbrowser-unmute-tab-audio-tooltip =
     .label =
-        { $tabCount ->
+        { NUMBER($tabCount) ->
             [one] Unmute tab ({ $shortcut })
            *[other] Unmute { $tabCount } tabs ({ $shortcut })
         }
 tabbrowser-mute-tab-audio-background-tooltip =
     .label =
-        { $tabCount ->
+        { NUMBER($tabCount) ->
             [one] Mute tab
            *[other] Mute { $tabCount } tabs
         }
 tabbrowser-unmute-tab-audio-background-tooltip =
     .label =
-        { $tabCount ->
+        { NUMBER($tabCount) ->
             [one] Unmute tab
            *[other] Unmute { $tabCount } tabs
         }
 tabbrowser-unblock-tab-audio-tooltip =
     .label =
-        { $tabCount ->
+        { NUMBER($tabCount) ->
             [one] Play tab
            *[other] Play { $tabCount } tabs
         }
@@ -71,7 +68,7 @@ tabbrowser-unblock-tab-audio-tooltip =
 # Variables:
 #   $tabCount (Number): The number of tabs that will be closed.
 tabbrowser-confirm-close-tabs-title =
-    { $tabCount ->
+    { NUMBER($tabCount) ->
        *[other] Close { $tabCount } tabs?
     }
 tabbrowser-confirm-close-tabs-button = Close tabs
@@ -84,7 +81,7 @@ tabbrowser-confirm-close-tabs-checkbox = Confirm before closing multiple tabs
 # Variables:
 #   $windowCount (Number): The number of windows that will be closed.
 tabbrowser-confirm-close-windows-title =
-    { $windowCount ->
+    { NUMBER($windowCount) ->
        *[other] Close { $windowCount } windows?
     }
 tabbrowser-confirm-close-windows-button =
@@ -108,7 +105,7 @@ tabbrowser-confirm-open-multiple-tabs-title = Confirm open
 # Variables:
 #   $tabCount (Number): The number of tabs that will be opened.
 tabbrowser-confirm-open-multiple-tabs-message =
-    { $tabCount ->
+    { NUMBER($tabCount) ->
        *[other] You are about to open { $tabCount } tabs. This might slow down { -brand-short-name } while the pages are loading. Are you sure you want to continue?
     }
 tabbrowser-confirm-open-multiple-tabs-button = Open tabs
@@ -124,10 +121,10 @@ tabbrowser-confirm-caretbrowsing-checkbox = Do not show me this dialog box again
 
 tabbrowser-confirm-close-duplicate-tabs-title = Heads up
 tabbrowser-confirm-close-duplicate-tabs-text = We’ll keep open the last active tab
-
 tabbrowser-confirm-close-all-duplicate-tabs-title = Close duplicate tabs?
-tabbrowser-confirm-close-all-duplicate-tabs-text = We’ll close duplicate tabs in this window. The last active
- tab will stay open.
+tabbrowser-confirm-close-all-duplicate-tabs-text =
+    We’ll close duplicate tabs in this window. The last active
+    tab will stay open.
 tabbrowser-confirm-close-all-duplicate-tabs-button-closetabs = Close tabs
 
 ##
@@ -136,7 +133,6 @@ tabbrowser-confirm-close-all-duplicate-tabs-button-closetabs = Close tabs
 #   $domain (String): URL of the page that is trying to steal focus.
 tabbrowser-allow-dialogs-to-get-focus =
     .label = Allow notifications like this from { $domain } to take you to their tab
-
 tabbrowser-customizemode-tab-title = Customize { -brand-short-name }
 
 ## Context menu buttons, of which only one will be visible at a time
@@ -155,7 +151,6 @@ tabbrowser-context-mute-selected-tabs =
 tabbrowser-context-unmute-selected-tabs =
     .label = Unmute Tabs
     .accesskey = m
-
 # This string is used as an additional tooltip and accessibility description for tabs playing audio
 tabbrowser-tab-audio-playing-description = Playing audio
 
@@ -165,15 +160,15 @@ tabbrowser-tab-audio-playing-description = Playing audio
 #   $tabCount (Number): The number of tabs in the current browser window. It will always be 2 at least.
 tabbrowser-ctrl-tab-list-all-tabs =
     .label =
-        { $tabCount ->
+        { NUMBER($tabCount) ->
            *[other] List All { $tabCount } Tabs
         }
 
 ## Tab manager menu buttons
 
 tabbrowser-manager-mute-tab =
-  .tooltiptext = Mute tab
+    .tooltiptext = Mute tab
 tabbrowser-manager-unmute-tab =
-  .tooltiptext = Unmute tab
+    .tooltiptext = Unmute tab
 tabbrowser-manager-close-tab =
-  .tooltiptext = Close tab
+    .tooltiptext = Close tab

@@ -2,6 +2,7 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+
 ## Messages used as headers in the main pane
 
 compatibility-selected-element-header = Selected Element
@@ -34,19 +35,18 @@ compatibility-target-browsers-header = Target Browsers
 # Variables:
 #   $number (Number) - The number of nodes where the issue occurred
 compatibility-issue-occurrences =
-    { $number ->
+    { NUMBER($number) ->
         [one] { $number } occurrence
        *[other] { $number } occurrences
     }
-
 compatibility-no-issues-found = No compatibility issues found.
 compatibility-close-settings-button =
     .title = Close settings
-
 # Text used in the element containing the browser icons for a given compatibility issue.
 # Line breaks are significant.
 # Variables:
 #   $browsers (String) - A line-separated list of browser information (e.g. Firefox 98\nChrome 99).
 compatibility-issue-browsers-list =
-    .title = Compatibility issues in:
-    { $browsers }
+    .title =
+        Compatibility issues in:
+        { $browsers }

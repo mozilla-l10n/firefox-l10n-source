@@ -7,7 +7,6 @@ page-subtitle =
     This page contains technical information that might be useful when you’re
     trying to solve a problem. If you are looking for answers to common questions
     about { -brand-short-name }, check out our <a data-l10n-name="support-link">support website</a>.
-
 crashes-title = Crash Reports
 crashes-id = Report ID
 crashes-send-date = Submitted
@@ -82,14 +81,11 @@ app-basics-key-mozilla = Mozilla Location Service Key
 app-basics-safe-mode = Safe Mode
 app-basics-memory-size = Memory Size (RAM)
 app-basics-disk-available = Disk Space Available
-
 app-basics-pointing-devices = Pointing Devices
-
 # Variables:
 #   $value (number) - Amount of data being stored
 #   $unit (string) - The unit of data being stored (e.g. MB)
 app-basics-data-size = { $value } { $unit }
-
 show-dir-label =
     { PLATFORM() ->
         [macos] Show in Finder
@@ -207,7 +203,6 @@ media-cdm-capabilities = Capabilities
 # are not encrypted. It allows playback to start without having to wait for
 # license response, improving video start time and user experience.
 media-cdm-clear-lead = Clear Lead
-
 # We choose 2.2 as this is the version which the video provider usually want to have in order to stream 4K video securely
 # HDCP version https://w3c.github.io/encrypted-media/#idl-def-hdcpversion
 media-hdcp-22-compatible = HDCP 2.2 Compatible
@@ -242,43 +237,38 @@ remote-debugging-url = URL
 # Variables
 # $days (Integer) - Number of days of crashes to log
 report-crash-for-days =
-    { $days ->
+    { NUMBER($days) ->
         [one] Crash Reports for the Last { $days } Day
        *[other] Crash Reports for the Last { $days } Days
     }
-
 # Variables
 # $minutes (integer) - Number of minutes since crash
 crashes-time-minutes =
-    { $minutes ->
+    { NUMBER($minutes) ->
         [one] { $minutes } minute ago
        *[other] { $minutes } minutes ago
     }
-
 # Variables
 # $hours (integer) - Number of hours since crash
 crashes-time-hours =
-    { $hours ->
+    { NUMBER($hours) ->
         [one] { $hours } hour ago
        *[other] { $hours } hours ago
     }
-
 # Variables
 # $days (integer) - Number of days since crash
 crashes-time-days =
-    { $days ->
+    { NUMBER($days) ->
         [one] { $days } day ago
        *[other] { $days } days ago
     }
-
 # Variables
 # $reports (integer) - Number of pending reports
 pending-reports =
-    { $reports ->
+    { NUMBER($reports) ->
         [one] All Crash Reports (including { $reports } pending crash in the given time range)
        *[other] All Crash Reports (including { $reports } pending crashes in the given time range)
     }
-
 raw-data-copied = Raw data copied to clipboard
 text-copied = Text copied to clipboard
 
@@ -291,11 +281,9 @@ blocked-mismatched-version = Blocked for your graphics driver version mismatch b
 # Variables
 # $driverVersion - The graphics driver version string
 try-newer-driver = Blocked for your graphics driver version. Try updating your graphics driver to version { $driverVersion } or newer.
-
 # "ClearType" is a proper noun and should not be translated. Feel free to leave English strings if
 # there are no good translations, these are only used in about:support
 clear-type-parameters = ClearType Parameters
-
 compositing = Compositing
 support-font-determination = Font Visibility Debug Info
 hardware-h264 = Hardware H264 Decoding
@@ -311,7 +299,6 @@ virtual-monitor-disp = Virtual Monitor Display
 
 found = Found
 missing = Missing
-
 gpu-process-pid = GPUProcessPid
 gpu-process = GPUProcess
 gpu-description = Description
@@ -336,19 +323,15 @@ webgl2-driver-extensions = WebGL 2 Driver Extensions
 webgl2-extensions = WebGL 2 Extensions
 webgpu-default-adapter = WebGPU Default Adapter
 webgpu-fallback-adapter = WebGPU Fallback Adapter
-
 # Variables
 #   $bugNumber (string) - Bug number on Bugzilla
 support-blocklisted-bug = Blocklisted due to known issues: <a data-l10n-name="bug-link">bug { $bugNumber }</a>
-
 # Variables
 # $failureCode (string) - String that can be searched in the source tree.
 unknown-failure = Blocklisted; failure code { $failureCode }
-
 d3d11layers-crash-guard = D3D11 Compositor
 glcontext-crash-guard = OpenGL
 wmfvpxvideo-crash-guard = WMF VPX Video Decoder
-
 reset-on-next-restart = Reset on Next Restart
 gpu-process-kill-button = Terminate GPU Process
 gpu-device-reset = Device Reset
@@ -358,18 +341,15 @@ content-uses-tiling = Uses Tiling (Content)
 off-main-thread-paint-enabled = Off Main Thread Painting Enabled
 off-main-thread-paint-worker-count = Off Main Thread Painting Worker Count
 target-frame-rate = Target Frame Rate
-
 min-lib-versions = Expected minimum version
 loaded-lib-versions = Version in use
-
 has-seccomp-bpf = Seccomp-BPF (System Call Filtering)
 has-seccomp-tsync = Seccomp Thread Synchronization
 has-user-namespaces = User Namespaces
 has-privileged-user-namespaces = User Namespaces for privileged processes
 # Variables
 # $status (string) - Boolean value of hasUserNamespaces (should only be false when support-user-namespaces-unavailable is used)
-support-user-namespaces-unavailable =
-    { $status } — This feature is not allowed by your system. This can restrict security features of { -brand-short-name }.
+support-user-namespaces-unavailable = { $status } — This feature is not allowed by your system. This can restrict security features of { -brand-short-name }.
 can-sandbox-content = Content Process Sandboxing
 can-sandbox-media = Media Plugin Sandboxing
 content-sandbox-level = Content Process Sandbox Level
@@ -380,18 +360,15 @@ sandbox-proc-type-content = content
 sandbox-proc-type-file = file content
 sandbox-proc-type-media-plugin = media plugin
 sandbox-proc-type-data-decoder = data decoder
-
 startup-cache-title = Startup Cache
 startup-cache-disk-cache-path = Disk Cache Path
 startup-cache-ignore-disk-cache = Ignore Disk Cache
 startup-cache-found-disk-cache-on-init = Found Disk Cache on Init
 startup-cache-wrote-to-disk-cache = Wrote to Disk Cache
-
 launcher-process-status-0 = Enabled
 launcher-process-status-1 = Disabled due to failure
 launcher-process-status-2 = Disabled forcibly
 launcher-process-status-unknown = Unknown status
-
 # Variables
 # $remoteWindows (integer) - Number of remote windows
 # $totalWindows (integer) - Number of total windows
@@ -411,7 +388,6 @@ fission-status-enabled-by-user-pref = Enabled by user
 fission-status-disabled-by-user-pref = Disabled by user
 fission-status-disabled-by-e10s-other = E10s disabled
 fission-status-enabled-by-rollout = Enabled by phased rollout
-
 async-pan-zoom = Asynchronous Pan/Zoom
 apz-none = none
 wheel-enabled = wheel input enabled
@@ -462,7 +438,6 @@ support-remote-experiments-title = Remote Experiments
 support-remote-experiments-name = Name
 support-remote-experiments-branch = Experiment Branch
 support-remote-experiments-see-about-studies = See <a data-l10n-name="support-about-studies-link">about:studies</a> for more information, including how to disable individual experiments or to disable { -brand-short-name } from running this type of experiment in the future.
-
 support-remote-features-title = Remote Features
 support-remote-features-name = Name
 support-remote-features-status = Status

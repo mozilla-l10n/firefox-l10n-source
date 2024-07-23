@@ -2,11 +2,11 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+
 ## Confirmation hints
 
 confirmation-hint-breakage-report-sent = Report sent. Thank you!
 confirmation-hint-login-removed = Login removed!
-
 confirmation-hint-password-removed = Password removed!
 confirmation-hint-page-bookmarked = Saved to bookmarks
 confirmation-hint-password-saved = Password saved!
@@ -25,7 +25,7 @@ confirmation-hint-screenshot-copied = Screenshot copied!
 # Variables:
 #   $tabCount (Number): The number of duplicate tabs closed, at least 1.
 confirmation-hint-duplicate-tabs-closed =
-  { $tabCount ->
-      [one] Closed { $tabCount } tab
-      *[other] Closed { $tabCount } tabs
-  }
+    { NUMBER($tabCount) ->
+        [one] Closed { $tabCount } tab
+       *[other] Closed { $tabCount } tabs
+    }

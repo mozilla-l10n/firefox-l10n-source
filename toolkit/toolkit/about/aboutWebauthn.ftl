@@ -2,6 +2,7 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+
 ### Localization for about:webauthn, a security token management page
 
 # Page title
@@ -17,7 +18,6 @@ about-webauthn-pin-section-title = PIN Management
 about-webauthn-credential-management-section-title = Manage credentials
 about-webauthn-pin-required-section-title = PIN required
 about-webauthn-confirm-deletion-section-title = Confirm deletion
-
 # Registered biometric features for authentication. Mostly, but not exclusively, fingerprints.
 about-webauthn-bio-enrollment-section-title = Biometric enrollments
 
@@ -29,7 +29,6 @@ about-webauthn-text-select-device = Please select your desired security token by
 # CTAP2 refers to Client to Authenticator Protocol version 2
 about-webauthn-text-non-ctap2-device = Unable to manage options because your security token does not support CTAP2.
 about-webauthn-text-not-available = Not available on this platform.
-
 about-webauthn-bio-enrollment-list-subsection-title = Enrollments:
 about-webauthn-add-bio-enrollment-section-title = Add new enrollment
 
@@ -40,7 +39,7 @@ about-webauthn-results-general-error = Error!
 # Variables:
 #  $retriesLeft (Number): number of tries left
 about-webauthn-results-pin-invalid-error =
-    { $retriesLeft ->
+    { NUMBER($retriesLeft) ->
         [0] Error: Incorrect PIN. Try again.
         [one] Error: Incorrect PIN. Try again. You have one attempt left.
        *[other] Error: Incorrect PIN. Try again. You have { $retriesLeft } attempts left.
@@ -76,7 +75,6 @@ about-webauthn-add-bio-enrollment-button = Add enrollment
 about-webauthn-cancel-button = Cancel
 about-webauthn-send-pin-button = OK
 about-webauthn-delete-button = Delete
-
 about-webauthn-start-enrollment-button = Start enrollment
 about-webauthn-update-button = Update
 
@@ -151,11 +149,10 @@ about-webauthn-auth-info-null = Not supported
 # Variables:
 #  $repeatCount (Number): number of tries left
 about-webauthn-samples-still-needed =
-    { $repeatCount ->
+    { NUMBER($repeatCount) ->
         [one] { $repeatCount } sample still needed.
        *[other] { $repeatCount } samples still needed.
     }
-
 # Scan (e.g. of fingerprint) was successful.
 about-webauthn-ctap2-enroll-feedback-good = Sample was good.
 

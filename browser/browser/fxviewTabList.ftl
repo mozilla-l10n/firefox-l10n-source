@@ -3,31 +3,25 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 fxviewtabrow-open-menu-button =
-  .title = Open menu
-
+    .title = Open menu
 # Variables:
 #   $date (string) - Date to be formatted based on locale
 fxviewtabrow-date = { DATETIME($date, dateStyle: "short") }
-
 # Variables:
 #   $time (string) - Time to be formatted based on locale
 fxviewtabrow-time = { DATETIME($time, timeStyle: "short") }
-
 # Variables:
 #   $targetURI (string) - URL of tab that will be opened in the new tab
 fxviewtabrow-tabs-list-tab =
-  .title = Open { $targetURI } in a new tab
-
+    .title = Open { $targetURI } in a new tab
 # Variables:
 #   $tabTitle (string) - Title of tab being closed
 fxviewtabrow-close-tab-button =
-  .title = Close { $tabTitle }
-
+    .title = Close { $tabTitle }
 # Variables:
 #   $tabTitle (string) - Title of tab being dismissed
 fxviewtabrow-dismiss-tab-button =
-  .title = Dismiss { $tabTitle }
-
+    .title = Dismiss { $tabTitle }
 # Used instead of the localized relative time when a timestamp is within a minute or so of now
 fxviewtabrow-just-now-timestamp = Just now
 
@@ -61,7 +55,6 @@ fxviewtabrow-move-tab-window = Move to New Window
     .accesskey = W
 fxviewtabrow-send-tab = Send Tab to Device
     .accesskey = n
-
 fxviewtabrow-pin-tab = Pin Tab
     .accesskey = P
 fxviewtabrow-unpin-tab = Unpin Tab
@@ -70,17 +63,14 @@ fxviewtabrow-mute-tab = Mute Tab
     .accesskey = M
 fxviewtabrow-unmute-tab = Unmute Tab
     .accesskey = m
-
 # Variables:
 #   $tabTitle (string) - Title of the tab to which the context menu is associated
 fxviewtabrow-options-menu-button =
-  .title = Options for { $tabTitle }
-
-
+    .title = Options for { $tabTitle }
 
 ## Strings below are to be used without context (tab title/URL) on mute/unmute buttons
 
 fxviewtabrow-mute-tab-button-no-context =
-  .title = Mute tab
+    .title = Mute tab
 fxviewtabrow-unmute-tab-button-no-context =
-  .title = Unmute tab
+    .title = Unmute tab

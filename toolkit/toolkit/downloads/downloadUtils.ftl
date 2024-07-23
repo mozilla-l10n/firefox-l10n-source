@@ -2,30 +2,31 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+
 ## Variables:
 ## $timeValue (number) - Number of units of time
 
 # Short form for seconds
 download-utils-short-seconds =
-    { $timeValue ->
+    { NUMBER($timeValue) ->
         [one] s
        *[other] s
     }
 # Short form for minutes
 download-utils-short-minutes =
-    { $timeValue ->
+    { NUMBER($timeValue) ->
         [one] m
        *[other] m
     }
 # Short form for hours
 download-utils-short-hours =
-    { $timeValue ->
+    { NUMBER($timeValue) ->
         [one] h
        *[other] h
     }
 # Short form for days
 download-utils-short-days =
-    { $timeValue ->
+    { NUMBER($timeValue) ->
         [one] d
        *[other] d
     }
@@ -53,12 +54,10 @@ download-utils-status-infinite-rate = { $timeLeft } — { $transfer } (Really fa
 #   $timeLeft (string) - Time left.
 #   $transfer (string) - Transfer progress.
 download-utils-status-no-rate = { $timeLeft } — { $transfer }
-
 download-utils-bytes = bytes
 download-utils-kilobyte = KB
 download-utils-megabyte = MB
 download-utils-gigabyte = GB
-
 # example: 1.1 of 333 MB
 # Variables:
 #   $progress (string) - Progress number.
@@ -77,7 +76,6 @@ download-utils-transfer-diff-units = { $progress } { $progressUnits } of { $tota
 #   $progress (string) - Progress number.
 #   $progressUnits (string) - Unit.
 download-utils-transfer-no-total = { $progress } { $progressUnits }
-
 # examples: 1m; 11h
 # Variables:
 #   $time (string) - Time number.
@@ -94,13 +92,11 @@ download-utils-time-left-single = { $time } left
 download-utils-time-left-double = { $time1 } { $time2 } left
 download-utils-time-few-seconds = A few seconds left
 download-utils-time-unknown = Unknown time left
-
 # Variables:
 #   $scheme (string) - URI scheme like data: jar: about:
 download-utils-done-scheme = { $scheme } resource
 # Special case of done-scheme for file:
 # This is used as an eTLD replacement for local files, so make it lower case
 download-utils-done-file-scheme = local file
-
 # Displayed time for files finished yesterday
 download-utils-yesterday = Yesterday

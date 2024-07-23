@@ -2,6 +2,7 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+
 ### Firefox Home / New Tab strings for about:home / about:newtab.
 
 newtab-page-title = New Tab
@@ -19,7 +20,6 @@ newtab-personalize-dialog-label =
 newtab-search-box-search-button =
     .title = Search
     .aria-label = Search
-
 # Variables:
 #   $engine (string) - The name of the user's default search engine
 newtab-search-box-handoff-text = Search with { $engine } or enter address
@@ -34,7 +34,6 @@ newtab-search-box-handoff-input-no-engine =
     .placeholder = Search or enter address
     .title = Search or enter address
     .aria-label = Search or enter address
-
 newtab-search-box-text = Search the web
 newtab-search-box-input =
     .placeholder = Search the web
@@ -50,12 +49,10 @@ newtab-topsites-add-shortcut-label = Add Shortcut
 newtab-topsites-title-label = Title
 newtab-topsites-title-input =
     .placeholder = Enter a title
-
 newtab-topsites-url-label = URL
 newtab-topsites-url-input =
     .placeholder = Type or paste a URL
 newtab-topsites-url-validation = Valid URL required
-
 newtab-topsites-image-url-label = Custom Image URL
 newtab-topsites-use-image-link = Use a custom image…
 newtab-topsites-image-validation = Image failed to load. Try a different URL.
@@ -84,12 +81,10 @@ newtab-topsite-sponsored = Sponsored
 newtab-menu-section-tooltip =
     .title = Open menu
     .aria-label = Open menu
-
 # Tooltip for dismiss button
 newtab-dismiss-button-tooltip =
     .title = Remove
     .aria-label = Remove
-
 # This tooltip is for the context menu of Pocket cards or Topsites
 # Variables:
 #   $title (string) - The label or hostname of the site. This is for screen readers when the context menu button is focused/active.
@@ -162,17 +157,14 @@ newtab-label-removed-bookmark = Bookmark removed
 newtab-label-recommended = Trending
 newtab-label-saved = Saved to { -pocket-brand-name }
 newtab-label-download = Downloaded
-
 # This string is used in the story cards to indicate sponsored content
 # Variables:
 #   $sponsorOrSource (string) - The name of a company or their domain
 newtab-label-sponsored = { $sponsorOrSource } · Sponsored
-
 # This string is used at the bottom of story cards to indicate sponsored content
 # Variables:
 #   $sponsor (string) - The name of a sponsor
 newtab-label-sponsored-by = Sponsored by { $sponsor }
-
 # This string is used under the image of story cards to indicate source and time to read
 # Variables:
 #   $source (string) - The name of a company or their domain
@@ -207,18 +199,15 @@ newtab-section-header-recent-activity = Recent activity
 # Variables:
 #   $provider (string) - Name of the corresponding content provider.
 newtab-section-header-pocket = Recommended by { $provider }
-
 newtab-section-header-stories = Thought-provoking stories
 
 ## Empty Section States: These show when there are no more items in a section. Ex. When there are no more Pocket story recommendations, in the space where there would have been stories, this is shown instead.
 
 newtab-empty-section-highlights = Start browsing, and we’ll show some of the great articles, videos, and other pages you’ve recently visited or bookmarked here.
-
 # Ex. When there are no more Pocket story recommendations, in the space where there would have been stories, this is shown instead.
 # Variables:
 #   $provider (string) - Name of the content provider for this section, e.g "Pocket".
 newtab-empty-section-topstories = You’ve caught up. Check back later for more top stories from { $provider }. Can’t wait? Select a popular topic to find more great stories from around the web.
-
 # Ex. When there are no more story recommendations, in the space where there would have been stories, this is shown instead.
 newtab-empty-section-topstories-generic = You’ve caught up. Check back later for more stories. Can’t wait? Select a popular topic to find more great stories from around the web.
 
@@ -241,7 +230,6 @@ newtab-pocket-learn-more = Learn more
 newtab-pocket-cta-button = Get { -pocket-brand-name }
 newtab-pocket-cta-text = Save the stories you love in { -pocket-brand-name }, and fuel your mind with fascinating reads.
 newtab-pocket-pocket-firefox-family = { -pocket-brand-name } is part of the { -brand-product-name } family
-
 # A save to Pocket button that shows over the card thumbnail on hover.
 newtab-pocket-save = Save
 newtab-pocket-saved = Saved
@@ -274,34 +262,32 @@ newtab-error-fallback-refresh-link = Refresh page to try again.
 
 newtab-custom-shortcuts-title = Shortcuts
 newtab-custom-shortcuts-subtitle = Sites you save or visit
-
 newtab-custom-shortcuts-toggle =
-  .label = Shortcuts
-  .description = Sites you save or visit
-
+    .label = Shortcuts
+    .description = Sites you save or visit
 # Variables
 #   $num (number) - Number of rows to display
 newtab-custom-row-selector =
-        { $num ->
-            [one] { $num } row
-           *[other] { $num } rows
-        }
+    { NUMBER($num) ->
+        [one] { $num } row
+       *[other] { $num } rows
+    }
 newtab-custom-sponsored-sites = Sponsored shortcuts
 newtab-custom-pocket-title = Recommended by { -pocket-brand-name }
 newtab-custom-pocket-subtitle = Exceptional content curated by { -pocket-brand-name }, part of the { -brand-product-name } family
 newtab-custom-stories-toggle =
-  .label = Recommended stories
-  .description = Exceptional content curated by the { -brand-product-name } family
+    .label = Recommended stories
+    .description = Exceptional content curated by the { -brand-product-name } family
 newtab-custom-pocket-sponsored = Sponsored stories
 newtab-custom-pocket-show-recent-saves = Show recent saves
 newtab-custom-recent-title = Recent activity
 newtab-custom-recent-subtitle = A selection of recent sites and content
 newtab-custom-recent-toggle =
-  .label = Recent activity
-  .description = A selection of recent sites and content
+    .label = Recent activity
+    .description = A selection of recent sites and content
 newtab-custom-weather-toggle =
-  .label = Weather
-  .description = Today’s forecast at a glance
+    .label = Weather
+    .description = Today’s forecast at a glance
 newtab-custom-close-button = Close
 newtab-custom-settings = Manage more settings
 
@@ -360,12 +346,10 @@ newtab-wallpaper-storm-sky = Storm sky
 newtab-wallpaper-sky-with-pink-clouds = Sky with pink clouds
 newtab-wallpaper-red-panda-yawns-in-a-tree = Red panda yawns in a tree
 newtab-wallpaper-white-mountains = White mountains
-
 # Variables
 #   $author_string (String) - The name of the creator of the photo.
 #   $webpage_string (String) - The name of the webpage where the photo is located.
 newtab-wallpaper-attribution = Photo by <a data-l10n-name="name-link">{ $author_string }</a> on <a data-l10n-name="webpage-link">{ $webpage_string }</a>
-
 newtab-wallpaper-feature-highlight-header = Try a splash of color
 newtab-wallpaper-feature-highlight-content = Give your New Tab a fresh look with wallpapers.
 newtab-wallpaper-feature-highlight-button = Got it
