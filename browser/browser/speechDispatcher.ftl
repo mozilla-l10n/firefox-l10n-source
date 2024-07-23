@@ -2,6 +2,7 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+
 ### Speech Dispatches is the name of a speech synthesis tool and shouldn’t be
 ### localized (https://freebsoft.org/speechd).
 
@@ -11,5 +12,5 @@ speech-dispatcher-missing-symbol = You can’t use speech synthesis because the 
 speech-dispatcher-open-fail = You can’t use speech synthesis because Speech Dispatcher won’t open.
 speech-dispatcher-no-voices = You can’t use speech synthesis because voices aren’t available in Speech Dispatcher.
 speech-dispatcher-dismiss-button =
-  .label = Don’t show again
-  .accesskey = D
+    .label = Don’t show again
+    .accesskey = D

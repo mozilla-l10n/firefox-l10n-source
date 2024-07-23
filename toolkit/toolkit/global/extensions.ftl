@@ -2,6 +2,7 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+
 ## Headers used in the webextension permissions dialog,
 ## See https://bug1308309.bmoattachments.org/attachment.cgi?id=8814612
 ## for an example of the full dialog.
@@ -24,7 +25,6 @@ webext-perms-add =
 webext-perms-cancel =
     .label = Cancel
     .accesskey = C
-
 webext-perms-sideload-text = Another program on your computer installed an add-on that may affect your browser. Please review this add-on’s permissions requests and choose to Enable or Cancel (to leave it disabled).
 webext-perms-sideload-text-no-perms = Another program on your computer installed an add-on that may affect your browser. Please choose to Enable or Cancel (to leave it disabled).
 webext-perms-sideload-enable =
@@ -33,14 +33,12 @@ webext-perms-sideload-enable =
 webext-perms-sideload-cancel =
     .label = Cancel
     .accesskey = C
-
 # Variables:
 #   $extension (String): replaced with the localized name of the extension.
 webext-perms-update-text = { $extension } has been updated. You must approve new permissions before the updated version will install. Choosing “Cancel” will maintain your current extension version. This extension will have permission to:
 webext-perms-update-accept =
     .label = Update
     .accesskey = U
-
 webext-perms-optional-perms-list-intro = It wants to:
 webext-perms-optional-perms-allow =
     .label = Allow
@@ -48,30 +46,26 @@ webext-perms-optional-perms-allow =
 webext-perms-optional-perms-deny =
     .label = Deny
     .accesskey = D
-
 webext-perms-host-description-all-urls = Access your data for all websites
-
 # Variables:
 #   $domain (String): will be replaced by the DNS domain for which a webextension is requesting access (e.g., mozilla.org)
 webext-perms-host-description-wildcard = Access your data for sites in the { $domain } domain
-
 # Variables:
 #   $domainCount (Number): Integer indicating the number of additional
 #     hosts for which this webextension is requesting permission.
 webext-perms-host-description-too-many-wildcards =
-    { $domainCount ->
+    { NUMBER($domainCount) ->
         [one] Access your data in { $domainCount } other domain
        *[other] Access your data in { $domainCount } other domains
     }
 # Variables:
 #   $domain (String): will be replaced by the DNS host name for which a webextension is requesting access (e.g., www.mozilla.org)
 webext-perms-host-description-one-site = Access your data for { $domain }
-
 # Variables:
 #   $domainCount (Number): Integer indicating the number of additional
 #     hosts for which this webextension is requesting permission.
 webext-perms-host-description-too-many-sites =
-    { $domainCount ->
+    { NUMBER($domainCount) ->
         [one] Access your data on { $domainCount } other site
        *[other] Access your data on { $domainCount } other sites
     }
@@ -93,7 +87,7 @@ webext-site-perms-header-with-gated-perms-midi-sysex = This add-on gives { $host
 # Note, this string will be used as raw markup. Avoid characters like <, >, &
 webext-site-perms-description-gated-perms-midi =
     These are usually plug-in devices like audio synthesizers, but might also be built into your computer.
-
+    
     Websites are normally not allowed to access MIDI devices. Improper usage could cause damage or compromise security.
 
 ## Headers used in the webextension permissions dialog.

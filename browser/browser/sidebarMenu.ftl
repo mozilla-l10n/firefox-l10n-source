@@ -3,19 +3,14 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 sidebar-menu-bookmarks =
-  .label = Bookmarks
-
+    .label = Bookmarks
 sidebar-menu-history =
-  .label = History
-
+    .label = History
 sidebar-menu-synced-tabs =
-  .label = Synced Tabs
-
+    .label = Synced Tabs
 sidebar-menu-megalist =
-  .label = Passwords
-
+    .label = Passwords
 sidebar-menu-close =
-  .label = Close Sidebar
-
+    .label = Close Sidebar
 sidebar-close-button =
-  .tooltiptext = Close sidebar
+    .tooltiptext = Close sidebar

@@ -3,17 +3,13 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 moz-message-bar-icon-info =
-  .alt = Info
-
+    .alt = Info
 moz-message-bar-icon-warning =
-  .alt = Warning
-
+    .alt = Warning
 moz-message-bar-icon-success =
-  .alt = Success
-
+    .alt = Success
 moz-message-bar-icon-error =
-  .alt = Error
-
+    .alt = Error
 moz-message-bar-close-button =
-  .aria-label = Close
-  .title = Close
+    .aria-label = Close
+    .title = Close
