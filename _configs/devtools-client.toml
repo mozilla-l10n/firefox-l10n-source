@@ -1,7 +1,0 @@
-basepath = ".."
-paths = [
-    { reference = "devtools/client/**", l10n = "{l}devtools/client/**" },
-]
-
-[env]
-l = "{l10n_base}/{locale}/"
