@@ -12548,7 +12548,10 @@
     "elevation-finished-page",
     "elevation-finished-background-page",
     "elevation-finished-background",
-    "elevation-more-elevated"
+    "elevation-more-elevated",
+    "sandbox-missing-unprivileged-namespaces",
+    "sandbox-unprivileged-namespaces-dismiss-button",
+    "sandbox-unprivileged-namespaces-howtofix"
   ],
   "toolkit/toolkit/updates/history.ftl": [
     "history-title",
