@@ -30,8 +30,7 @@ rights-intro-point-4 =
     { -vendor-short-name } through { -brand-short-name } is described in the
     <a data-l10n-name="mozilla-privacy-policy-link">{ -brand-short-name }
     Privacy Policy</a>.
-rights-intro-point-4-unbranded =
-    Any applicable privacy policies for this product should be listed here.
+rights-intro-point-4-unbranded = Any applicable privacy policies for this product should be listed here.
 rights-intro-point-5 =
     Some { -brand-short-name } features make use of web-based information
     services, however, we cannot guarantee they are 100% accurate or
@@ -62,26 +61,22 @@ rights-safebrowsing =
     disable the feature completely, follow these steps:
 rights-safebrowsing-term-1 = Open the application preferences
 rights-safebrowsing-term-2 = Select the Security selection
-rights-safebrowsing-term-3 =
-    Uncheck the option to “{ enableSafeBrowsing-label }”
+rights-safebrowsing-term-3 = Uncheck the option to “{ enableSafeBrowsing-label }”
 enableSafeBrowsing-label = Block dangerous and deceptive content
 rights-safebrowsing-term-4 = Safe Browsing is now disabled
 rights-locationawarebrowsing =
     <strong>Location Aware Browsing: </strong>is always opt-in. No location
     information is ever sent without your permission. If you wish to disable
     the feature completely, follow these steps:
-rights-locationawarebrowsing-term-1 =
-    In the URL bar, type <code>about:config</code>
+rights-locationawarebrowsing-term-1 = In the URL bar, type <code>about:config</code>
 rights-locationawarebrowsing-term-2 = Type geo.enabled
-rights-locationawarebrowsing-term-3 =
-    Double click on the geo.enabled preference
+rights-locationawarebrowsing-term-3 = Double click on the geo.enabled preference
 rights-locationawarebrowsing-term-4 = Location-Aware Browsing is now disabled
 rights-webservices-unbranded =
     An overview of the website services the product incorporates, along with
     instructions on how to disable them, if applicable, should be included
     here.
-rights-webservices-term-unbranded =
-    Any applicable service terms for this product should be listed here.
+rights-webservices-term-unbranded = Any applicable service terms for this product should be listed here.
 rights-webservices-term-1 =
     { -vendor-short-name } and its contributors, licensors and partners work to
     provide the most accurate and up-to-date Services. However, we cannot

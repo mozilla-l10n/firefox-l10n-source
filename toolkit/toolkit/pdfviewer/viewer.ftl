@@ -2,6 +2,7 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+
 ## Main toolbar buttons (tooltips and alt text for images)
 
 pdfjs-previous-button =
@@ -10,21 +11,17 @@ pdfjs-previous-button-label = Previous
 pdfjs-next-button =
     .title = Next Page
 pdfjs-next-button-label = Next
-
 # .title: Tooltip for the pageNumber input.
 pdfjs-page-input =
     .title = Page
-
 # Variables:
 #   $pagesCount (Number) - the total number of pages in the document
 # This string follows an input field with the number of the page currently displayed.
 pdfjs-of-pages = of { $pagesCount }
-
 # Variables:
 #   $pageNumber (Number) - the currently visible page
 #   $pagesCount (Number) - the total number of pages in the document
 pdfjs-page-of-pages = ({ $pageNumber } of { $pagesCount })
-
 pdfjs-zoom-out-button =
     .title = Zoom Out
 pdfjs-zoom-out-button-label = Zoom Out
@@ -45,26 +42,20 @@ pdfjs-print-button-label = Print
 pdfjs-save-button =
     .title = Save
 pdfjs-save-button-label = Save
-
 # Used in Firefox for Android as a tooltip for the download button (“download” is a verb).
 pdfjs-download-button =
     .title = Download
-
 # Used in Firefox for Android as a label for the download button (“download” is a verb).
 # Length of the translation matters since we are in a mobile context, with limited screen estate.
 pdfjs-download-button-label = Download
-
 pdfjs-bookmark-button =
     .title = Current Page (View URL from Current Page)
 pdfjs-bookmark-button-label = Current Page
-
-
 
 ##  Secondary toolbar and context menu
 
 pdfjs-tools-button =
     .title = Tools
-
 pdfjs-tools-button-label = Tools
 pdfjs-first-page-button =
     .title = Go to First Page
@@ -113,29 +104,24 @@ pdfjs-document-properties-button =
 pdfjs-document-properties-button-label = Document Properties…
 pdfjs-document-properties-file-name = File name:
 pdfjs-document-properties-file-size = File size:
-
 # Variables:
 #   $size_kb (Number) - the PDF file size in kilobytes
 #   $size_b (Number) - the PDF file size in bytes
 pdfjs-document-properties-kb = { $size_kb } KB ({ $size_b } bytes)
-
 # Variables:
 #   $size_mb (Number) - the PDF file size in megabytes
 #   $size_b (Number) - the PDF file size in bytes
 pdfjs-document-properties-mb = { $size_mb } MB ({ $size_b } bytes)
-
 pdfjs-document-properties-title = Title:
 pdfjs-document-properties-author = Author:
 pdfjs-document-properties-subject = Subject:
 pdfjs-document-properties-keywords = Keywords:
 pdfjs-document-properties-creation-date = Creation Date:
 pdfjs-document-properties-modification-date = Modification Date:
-
 # Variables:
 #   $date (Date) - the creation/modification date of the PDF file
 #   $time (Time) - the creation/modification time of the PDF file
 pdfjs-document-properties-date-string = { $date }, { $time }
-
 pdfjs-document-properties-creator = Creator:
 pdfjs-document-properties-producer = PDF Producer:
 pdfjs-document-properties-version = PDF Version:
@@ -172,11 +158,9 @@ pdfjs-document-properties-close-button = Close
 ## Print
 
 pdfjs-print-progress-message = Preparing document for printing…
-
 # Variables:
 #   $progress (Number) - percent value
 pdfjs-print-progress-percent = { $progress }%
-
 pdfjs-print-progress-close-button = Cancel
 pdfjs-printing-not-supported = Warning: Printing is not fully supported by this browser.
 pdfjs-printing-not-ready = Warning: The PDF is not fully loaded for printing.
@@ -214,7 +198,6 @@ pdfjs-additional-layers = Additional Layers
 #   $page (Number) - the page number
 pdfjs-thumb-page-title =
     .title = Page { $page }
-
 # Variables:
 #   $page (Number) - the page number
 pdfjs-thumb-page-canvas =
@@ -237,24 +220,21 @@ pdfjs-find-match-diacritics-checkbox-label = Match Diacritics
 pdfjs-find-entire-word-checkbox-label = Whole Words
 pdfjs-find-reached-top = Reached top of document, continued from bottom
 pdfjs-find-reached-bottom = Reached end of document, continued from top
-
 # Variables:
 #   $current (Number) - the index of the currently active find result
 #   $total (Number) - the total number of matches in the document
 pdfjs-find-match-count =
-    { $total ->
+    { NUMBER($total) ->
         [one] { $current } of { $total } match
        *[other] { $current } of { $total } matches
     }
-
 # Variables:
 #   $limit (Number) - the maximum number of matches
 pdfjs-find-match-count-limit =
-    { $limit ->
+    { NUMBER($limit) ->
         [one] More than { $limit } match
        *[other] More than { $limit } matches
     }
-
 pdfjs-find-not-found = Phrase not found
 
 ## Predefined zoom values
@@ -263,7 +243,6 @@ pdfjs-page-scale-width = Page Width
 pdfjs-page-scale-fit = Page Fit
 pdfjs-page-scale-auto = Automatic Zoom
 pdfjs-page-scale-actual = Actual Size
-
 # Variables:
 #   $scale (Number) - percent value for page scale
 pdfjs-page-scale-percent = { $scale }%
@@ -289,7 +268,6 @@ pdfjs-rendering-error = An error occurred while rendering the page.
 #   $date (Date) - the modification date of the annotation
 #   $time (Time) - the modification time of the annotation
 pdfjs-annotation-date-string = { $date }, { $time }
-
 # .alt: This is used as a tooltip.
 # Variables:
 #   $type (String) - an annotation type from a list defined in the PDF spec
@@ -317,12 +295,9 @@ pdfjs-editor-ink-button-label = Draw
 pdfjs-editor-stamp-button =
     .title = Add or edit images
 pdfjs-editor-stamp-button-label = Add or edit images
-
 pdfjs-editor-highlight-button =
     .title = Highlight
 pdfjs-editor-highlight-button-label = Highlight
-
-
 pdfjs-highlight-floating-button1 =
     .title = Highlight
     .aria-label = Highlight
@@ -350,13 +325,10 @@ pdfjs-editor-ink-opacity-input = Opacity
 pdfjs-editor-stamp-add-image-button =
     .title = Add image
 pdfjs-editor-stamp-add-image-button-label = Add image
-
 # This refers to the thickness of the line used for free highlighting (not bound to text)
 pdfjs-editor-free-highlight-thickness-input = Thickness
-
 pdfjs-editor-free-highlight-thickness-title =
     .title = Change thickness when highlighting items other than text
-
 pdfjs-free-text =
     .aria-label = Text Editor
 pdfjs-free-text-default-content = Start typing…
@@ -369,7 +341,6 @@ pdfjs-ink-canvas =
 
 # Alternative text (alt text) helps when people can't see the image.
 pdfjs-editor-alt-text-button-label = Alt text
-
 pdfjs-editor-alt-text-edit-button-label = Edit alt text
 pdfjs-editor-alt-text-dialog-label = Choose an option
 pdfjs-editor-alt-text-dialog-description = Alt text (alternative text) helps when people can’t see the image or when it doesn’t load.
@@ -380,7 +351,6 @@ pdfjs-editor-alt-text-mark-decorative-description = This is used for ornamental 
 pdfjs-editor-alt-text-cancel-button = Cancel
 pdfjs-editor-alt-text-save-button = Save
 pdfjs-editor-alt-text-decorative-tooltip = Marked as decorative
-
 # .placeholder: This is a placeholder for the alt text input area
 pdfjs-editor-alt-text-textarea =
     .placeholder = For example, “A young man sits down at a table to eat a meal”
@@ -401,7 +371,6 @@ pdfjs-editor-resizer-label-middle-left = Middle left — resize
 
 # This means "Color used to highlight text"
 pdfjs-editor-highlight-colorpicker-label = Highlight color
-
 pdfjs-editor-colorpicker-button =
     .title = Change color
 pdfjs-editor-colorpicker-dropdown =

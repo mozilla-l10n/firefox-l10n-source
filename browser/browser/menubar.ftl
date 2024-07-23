@@ -2,15 +2,18 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+
 # NOTE: For English locales, strings in this file should be in APA-style Title Case.
 # See https://apastyle.apa.org/style-grammar-guidelines/capitalization/title-case
 #
 # NOTE: For Engineers, please don't re-use these strings outside of the menubar.
 
+
 # NOTE: For English locales, strings in this file should be in APA-style Title Case.
 # See https://apastyle.apa.org/style-grammar-guidelines/capitalization/title-case
 #
 # NOTE: For Engineers, please don't reuse these strings outside of the menubar.
+
 
 ## Application Menu (macOS only)
 
@@ -41,11 +44,9 @@ menu-quit =
             [windows] x
            *[other] Q
         }
-
 # This menu-quit-mac string is only used on macOS.
 menu-quit-mac =
     .label = Quit { -brand-shorter-name }
-
 menu-about =
     .label = About { -brand-shorter-name }
     .accesskey = A
@@ -79,7 +80,7 @@ menu-file-open-file =
 #  $tabCount (Number): the number of tabs that are affected by the action.
 menu-file-close-tab =
     .label =
-        { $tabCount ->
+        { NUMBER($tabCount) ->
             [1] Close Tab
            *[other] Close { $tabCount } Tabs
         }
@@ -226,7 +227,6 @@ menu-history-undo-menu =
     .label = Recently Closed Tabs
 menu-history-undo-window-menu =
     .label = Recently Closed Windows
-
 # "Search" is a verb, as in "Search in History"
 menu-history-search =
     .label = Search History
@@ -309,6 +309,7 @@ menu-window-bring-all-to-front =
 
 ## Help Menu
 
+
 # NOTE: For Engineers, any additions or changes to Help menu strings should
 # also be reflected in the related strings in appmenu.ftl. Those strings, by
 # convention, will have the same ID as these, but prefixed with "app".
@@ -349,4 +350,4 @@ menu-help-not-deceptive =
     .label = This Isn’t a Deceptive Site…
     .accesskey = D
 menu-report-broken-site =
-  .label = Report Broken Site
+    .label = Report Broken Site

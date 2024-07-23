@@ -2,9 +2,11 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+
 ### UI strings for the MR1 onboarding / multistage about:welcome
 ### Various strings use a non-breaking space to avoid a single dangling /
 ### widowed word, so test on various window sizes if you also want this.
+
 
 ## Welcome page strings
 
@@ -32,41 +34,34 @@ mr1-return-to-amo-add-extension-label = Add { $addon-name }
 
 ## Multistage onboarding strings (about:welcome pages)
 
+
 # Aria-label to make the "steps" of multistage onboarding visible to screen readers.
 # Variables:
 #   $current (Int) - Number of the current page
 #   $total (Int) - Total number of pages
 
 onboarding-welcome-steps-indicator-label =
-  .aria-label = Progress: step { $current } of { $total }
-
+    .aria-label = Progress: step { $current } of { $total }
 # This button will open system settings to turn on prefers-reduced-motion
 mr1-onboarding-reduce-motion-button-label = Turn off animations
-
 # String for the Firefox Accounts button
 mr1-onboarding-sign-in-button-label = Sign in
-
 # The primary import button label will depend on whether we can detect which browser was used to download Firefox.
 # Variables:
 #   $previous (Str) - Previous browser name, such as Edge, Chrome
 mr1-onboarding-import-primary-button-label-attribution = Import from { $previous }
-
 mr1-onboarding-theme-header = Make it your own
 mr1-onboarding-theme-subtitle = Personalize { -brand-short-name } with a theme.
 mr1-onboarding-theme-secondary-button-label = Not now
-
 newtab-wallpaper-onboarding-title = Try a splash of color
 newtab-wallpaper-onboarding-subtitle = Choose a wallpaper to give your New Tab a fresh look.
 newtab-wallpaper-onboarding-primary-button-label = Set wallpaper
-
 # System theme uses operating system color settings
 mr1-onboarding-theme-label-system = System theme
-
 mr1-onboarding-theme-label-light = Light
 mr1-onboarding-theme-label-dark = Dark
 # "Alpenglow" here is the name of the theme, and should be kept in English.
 mr1-onboarding-theme-label-alpenglow = Alpenglow
-
 onboarding-theme-primary-button-label = Done
 
 ## Please make sure to split the content of the title attribute into lines whose
@@ -76,52 +71,44 @@ onboarding-theme-primary-button-label = Done
 
 # Tooltip displayed on hover of system theme
 mr1-onboarding-theme-tooltip-system =
-  .title =
-    Follow the operating system theme
-    for buttons, menus, and windows.
-
+    .title =
+        Follow the operating system theme
+        for buttons, menus, and windows.
 # Input description for system theme
 mr1-onboarding-theme-description-system =
-  .aria-description =
-    Follow the operating system theme
-    for buttons, menus, and windows.
-
+    .aria-description =
+        Follow the operating system theme
+        for buttons, menus, and windows.
 # Tooltip displayed on hover of light theme
 mr1-onboarding-theme-tooltip-light =
-  .title =
-    Use a light theme for buttons,
-    menus, and windows.
-
+    .title =
+        Use a light theme for buttons,
+        menus, and windows.
 # Input description for light theme
 mr1-onboarding-theme-description-light =
-  .aria-description =
-    Use a light theme for buttons,
-    menus, and windows.
-
+    .aria-description =
+        Use a light theme for buttons,
+        menus, and windows.
 # Tooltip displayed on hover of dark theme
 mr1-onboarding-theme-tooltip-dark =
-  .title =
-    Use a dark theme for buttons,
-    menus, and windows.
-
+    .title =
+        Use a dark theme for buttons,
+        menus, and windows.
 # Input description for dark theme
 mr1-onboarding-theme-description-dark =
-  .aria-description =
-    Use a dark theme for buttons,
-    menus, and windows.
-
+    .aria-description =
+        Use a dark theme for buttons,
+        menus, and windows.
 # Tooltip displayed on hover of Alpenglow theme
 mr1-onboarding-theme-tooltip-alpenglow =
-  .title =
-    Use a dynamic, colorful theme for buttons,
-    menus, and windows.
-
+    .title =
+        Use a dynamic, colorful theme for buttons,
+        menus, and windows.
 # Input description for Alpenglow theme
 mr1-onboarding-theme-description-alpenglow =
-  .aria-description =
-    Use a dynamic, colorful theme for buttons,
-    menus, and windows.
-
+    .aria-description =
+        Use a dynamic, colorful theme for buttons,
+        menus, and windows.
 # Selector description for default themes
 mr2-onboarding-default-theme-label = Explore default themes.
 
@@ -141,18 +128,13 @@ mr2-onboarding-start-browsing-button-label = Start browsing
 ##   $appLanguage (String) - The name of the language shipping in the browser build, e.g. "English (EN)"
 
 onboarding-live-language-header = Choose your language
-
 mr2022-onboarding-live-language-text = { -brand-short-name } speaks your language
-
 mr2022-language-mismatch-subtitle = Thanks to our community, { -brand-short-name } is translated in over 90 languages. It looks like your system is using { $systemLanguage }, and { -brand-short-name } is using { $appLanguage }.
-
 onboarding-live-language-button-label-downloading = Downloading the language pack for { $negotiatedLanguage }…
 onboarding-live-language-waiting-button = Getting available languages…
 onboarding-live-language-installing = Installing the language pack for { $negotiatedLanguage }…
-
 mr2022-onboarding-live-language-switch-to = Switch to { $negotiatedLanguage }
 mr2022-onboarding-live-language-continue-in = Continue in { $appLanguage }
-
 onboarding-live-language-secondary-cancel-download = Cancel
 onboarding-live-language-skip-button-label = Skip
 
@@ -166,22 +148,21 @@ onboarding-live-language-skip-button-label = Skip
 # The English text would normally be "100 Thank-Yous" i.e., plural noun, but for
 # aesthetics of splitting it across multiple lines, the hyphen is omitted.
 fx100-thank-you-hero-text =
-  100
-  Thank
-  <span data-l10n-name="zap">Yous</span>
+    100
+    Thank
+    <span data-l10n-name="zap">Yous</span>
 fx100-thank-you-subtitle = It’s our 100th release! Thanks for helping us build a better, healthier internet.
-fx100-thank-you-pin-primary-button-label = { PLATFORM() ->
-    [macos] Keep { -brand-short-name } in Dock
-   *[other] Pin { -brand-short-name } to taskbar
-}
-
+fx100-thank-you-pin-primary-button-label =
+    { PLATFORM() ->
+        [macos] Keep { -brand-short-name } in Dock
+       *[other] Pin { -brand-short-name } to taskbar
+    }
 fx100-upgrade-thanks-header = 100 Thank-Yous
 # Message shown with a start-browsing button. Emphasis <em> should be for "you"
 # but "Thank" can be used instead if there's no "you" in the translation.
 fx100-upgrade-thank-you-body = It’s our 100th release of { -brand-short-name }. Thank <em>you</em> for helping us build a better, healthier internet.
 # Message shown with either a pin-to-taskbar or set-default button.
 fx100-upgrade-thanks-keep-body = It’s our 100th release! Thanks for being a part of our community. Keep { -brand-short-name } one click away for the next 100.
-
 mr2022-onboarding-secondary-skip-button-label = Skip this step
 
 ## MR2022 New User Easy Setup screen strings
@@ -202,13 +183,12 @@ mr2022-onboarding-easy-setup-import-checkbox-label = Import from previous browse
 mr2022-onboarding-welcome-pin-header = Open up an amazing internet
 # Subtitle is used on onboarding page for new users page when Firefox is not pinned
 mr2022-onboarding-welcome-pin-subtitle = Launch { -brand-short-name } from anywhere with a single click. Every time you do, you’re choosing a more open and independent web.
-
 # Primary button string used on welcome page for when Firefox is not pinned.
-mr2022-onboarding-pin-primary-button-label = { PLATFORM() ->
-    [macos] Keep { -brand-short-name } in Dock
-   *[other] Pin { -brand-short-name } to taskbar
-}
-
+mr2022-onboarding-pin-primary-button-label =
+    { PLATFORM() ->
+        [macos] Keep { -brand-short-name } in Dock
+       *[other] Pin { -brand-short-name } to taskbar
+    }
 # Subtitle will be used when user already has Firefox pinned, but
 # has not set it as their default browser.
 # When translating "zip", please feel free to pick a verb that signifies movement and/or exploration
@@ -248,7 +228,6 @@ mr2022-onboarding-get-started-primary-button-label = Set up in seconds
 
 mr2022-onboarding-import-header = Lightning-fast setup
 mr2022-onboarding-import-subtitle = Set up { -brand-short-name } how you like it. Add your bookmarks, passwords, and more from your old browser.
-
 mr2022-onboarding-import-primary-button-label-no-attribution = Import from previous browser
 
 ## If your language uses grammatical genders, in the description for the
@@ -260,47 +239,39 @@ mr2022-onboarding-colorway-title = Choose the color that inspires you
 mr2022-onboarding-colorway-subtitle = Independent voices can change culture.
 mr2022-onboarding-colorway-primary-button-label-continue = Set and continue
 mr2022-onboarding-existing-colorway-checkbox-label = Make { -firefox-home-brand-name } your colorful homepage
-
 mr2022-onboarding-colorway-label-default = Default
 mr2022-onboarding-colorway-tooltip-default2 =
-  .title = Current { -brand-short-name } colors
+    .title = Current { -brand-short-name } colors
 mr2022-onboarding-colorway-description-default = <b>Use my current { -brand-short-name } colors.</b>
-
 mr2022-onboarding-colorway-label-playmaker = Playmaker
 mr2022-onboarding-colorway-tooltip-playmaker2 =
-  .title = Playmaker (red)
+    .title = Playmaker (red)
 mr2022-onboarding-colorway-description-playmaker = <b>You are a Playmaker.</b> You create opportunities to win and help everyone around you elevate their game.
-
 mr2022-onboarding-colorway-label-expressionist = Expressionist
 mr2022-onboarding-colorway-tooltip-expressionist2 =
-  .title = Expressionist (yellow)
+    .title = Expressionist (yellow)
 mr2022-onboarding-colorway-description-expressionist = <b>You are an Expressionist.</b> You see the world differently and your creations stir the emotions of others.
-
 mr2022-onboarding-colorway-label-visionary = Visionary
 mr2022-onboarding-colorway-tooltip-visionary2 =
-  .title = Visionary (green)
+    .title = Visionary (green)
 mr2022-onboarding-colorway-description-visionary = <b>You are a Visionary.</b> You question the status quo and move others to imagine a better future.
-
 mr2022-onboarding-colorway-label-activist = Activist
 mr2022-onboarding-colorway-tooltip-activist2 =
-  .title = Activist (blue)
+    .title = Activist (blue)
 mr2022-onboarding-colorway-description-activist = <b>You are an Activist.</b> You leave the world a better place than you found it and lead others to believe.
-
 mr2022-onboarding-colorway-label-dreamer = Dreamer
 mr2022-onboarding-colorway-tooltip-dreamer2 =
-  .title = Dreamer (purple)
+    .title = Dreamer (purple)
 mr2022-onboarding-colorway-description-dreamer = <b>You are a Dreamer.</b> You believe that fortune favors the bold and inspire others to be brave.
-
 mr2022-onboarding-colorway-label-innovator = Innovator
 mr2022-onboarding-colorway-tooltip-innovator2 =
-  .title = Innovator (orange)
+    .title = Innovator (orange)
 mr2022-onboarding-colorway-description-innovator = <b>You are an Innovator.</b> You see opportunities everywhere and make an impact on the lives of everyone around you.
 
 ## MR2022 Multistage Mobile Download screen strings
 
 mr2022-onboarding-mobile-download-title = Hop from laptop to phone and back again
 mr2022-onboarding-mobile-download-subtitle = Grab tabs from one device and pick up where you left off on another. Plus sync your bookmarks and passwords anywhere you use { -brand-product-name }.
-
 mr2022-onboarding-mobile-download-cta-text = Scan the QR code to get { -brand-product-name } for mobile or <a data-l10n-name="download-label">send yourself a download link.</a>
 mr2022-onboarding-no-mobile-download-cta-text = Scan the QR code to get { -brand-product-name } for mobile.
 
@@ -309,10 +280,11 @@ mr2022-onboarding-no-mobile-download-cta-text = Scan the QR code to get { -brand
 
 mr2022-upgrade-onboarding-pin-private-window-header = Get private browsing freedom in one click
 mr2022-upgrade-onboarding-pin-private-window-subtitle = No saved cookies or history, right from your desktop. Browse like no one’s watching.
-mr2022-upgrade-onboarding-pin-private-window-primary-button-label = { PLATFORM() ->
-    [macos] Keep { -brand-short-name } private browsing in Dock
-   *[other] Pin { -brand-short-name } private browsing to taskbar
-}
+mr2022-upgrade-onboarding-pin-private-window-primary-button-label =
+    { PLATFORM() ->
+        [macos] Keep { -brand-short-name } private browsing in Dock
+       *[other] Pin { -brand-short-name } private browsing to taskbar
+    }
 
 ## MR2022 Privacy Segmentation screen strings
 
@@ -339,27 +311,26 @@ onboarding-infrequent-import-primary-button = Import to { -brand-short-name }
 ## Descriptive tags for illustrations used by screen readers and other assistive tech
 
 mr2022-onboarding-pin-image-alt =
-  .aria-label = Person working on a laptop surrounded by stars and flowers
+    .aria-label = Person working on a laptop surrounded by stars and flowers
 mr2022-onboarding-default-image-alt =
-  .aria-label = Person hugging the { -brand-product-name } logo
+    .aria-label = Person hugging the { -brand-product-name } logo
 mr2022-onboarding-import-image-alt =
-  .aria-label = Person riding a skateboard with a box of software icons
+    .aria-label = Person riding a skateboard with a box of software icons
 mr2022-onboarding-mobile-download-image-alt =
-  .aria-label = Frogs hopping across lily pads with a QR code to download { -brand-product-name } for mobile in the center
+    .aria-label = Frogs hopping across lily pads with a QR code to download { -brand-product-name } for mobile in the center
 mr2022-onboarding-pin-private-image-alt =
-  .aria-label = Magic wand makes { -brand-product-name } private browsing logo appear out of a hat
+    .aria-label = Magic wand makes { -brand-product-name } private browsing logo appear out of a hat
 mr2022-onboarding-privacy-segmentation-image-alt =
-  .aria-label = Light-skinned and dark-skinned hands high five
+    .aria-label = Light-skinned and dark-skinned hands high five
 mr2022-onboarding-gratitude-image-alt =
-  .aria-label = View of a sunset through a window with a fox and a house plant on a windowsill
-
+    .aria-label = View of a sunset through a window with a fox and a house plant on a windowsill
 mr2022-onboarding-colorways-image-alt =
-  .aria-label = A hand spray paints a colorful collage of a green eye, orange shoe, red basketball, purple headphones, blue heart, and yellow crown
+    .aria-label = A hand spray paints a colorful collage of a green eye, orange shoe, red basketball, purple headphones, blue heart, and yellow crown
 
 ## Device migration onboarding
 
 onboarding-device-migration-image-alt =
-  .aria-label = A fox on the screen of a laptop computer waving. The laptop has a mouse plugged into it.
+    .aria-label = A fox on the screen of a laptop computer waving. The laptop has a mouse plugged into it.
 onboarding-device-migration-title = Welcome back!
 onboarding-device-migration-subtitle = Sign in to your { -fxaccount-brand-name(capitalization: "sentence") } to bring your bookmarks, passwords, and history with you on your new device.
 onboarding-device-migration-subtitle2 = Sign in to your account to bring your bookmarks, passwords, and history with you on your new device.
@@ -370,11 +341,9 @@ onboarding-device-migration-primary-button-label = Sign in
 # Easy setup screen
 onboarding-easy-setup-security-and-privacy-title = We love keeping you safe
 onboarding-easy-setup-security-and-privacy-subtitle = Our non-profit backed browser helps stop companies from secretly following you around the web.
-
 # Mobile download screen
 onboarding-mobile-download-security-and-privacy-title = Stay encrypted when you hop between devices
 onboarding-mobile-download-security-and-privacy-subtitle = When you’re synced up, { -brand-short-name } encrypts your passwords, bookmarks, and more. Plus you can grab tabs from your other devices.
-
 # Gratitude screen
 onboarding-gratitude-security-and-privacy-title = { -brand-short-name } has your back
 onboarding-gratitude-security-and-privacy-subtitle = Thank you for using { -brand-short-name }, backed by the Mozilla Foundation. With your support, we’re working to make the internet safer and more accessible for everyone.
@@ -383,13 +352,10 @@ onboarding-gratitude-security-and-privacy-subtitle = Thank you for using { -bran
 
 onboarding-new-user-time-based-survey-title = How long have you been using { -brand-short-name }?
 onboarding-new-user-familiarity-based-survey-title = How familiar are you with { -brand-short-name }?
-
 onboarding-new-user-survey-subtitle = Your feedback helps make { -brand-short-name } even better.
-
 # When translating "next" it means the next screen in onboarding.
 onboarding-new-user-survey-next-button-label = Next
 onboarding-new-user-survey-legal-link-label = By selecting “{ onboarding-new-user-survey-next-button-label },” you agree to { -brand-product-name }’s <a data-l10n-name="privacy_notice">Privacy Notice</a>
-
 # When translating "brand new" it means completely new.
 onboarding-new-user-survey-time-based-option-1 = I’m brand new
 onboarding-new-user-survey-time-based-option-2 = Less than 1 month

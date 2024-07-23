@@ -4,7 +4,6 @@
 
 # Page title
 about-processes-title = Process Manager
-
 # The Actions column
 about-processes-column-action =
     .title = Actions
@@ -15,16 +14,16 @@ about-processes-shutdown-process =
     .title = Unload tabs and kill process
 about-processes-shutdown-tab =
     .title = Close tab
-
 # Profiler icons
 # Variables:
 #    $duration (Number) The time in seconds during which the profiler will be running.
 #                       The value will be an integer, typically less than 10.
 about-processes-profile-process =
-    .title = { $duration ->
-   [one] Profile all threads of this process for { $duration } second
-  *[other] Profile all threads of this process for { $duration } seconds
-}
+    .title =
+        { NUMBER($duration) ->
+            [one] Profile all threads of this process for { $duration } second
+           *[other] Profile all threads of this process for { $duration } seconds
+        }
 
 ## Column headers
 
@@ -52,9 +51,7 @@ about-processes-remote-sandbox-broker-process = Remote Sandbox Broker ({ $pid })
 about-processes-fork-server-process = Fork Server ({ $pid })
 about-processes-preallocated-process = Preallocated ({ $pid })
 about-processes-utility-process = Utility ({ $pid })
-
 about-processes-inference-process = Inference ({ $pid })
-
 # Unknown process names
 # Variables:
 #    $pid (String) The process id of this process, assigned by the OS.
@@ -84,40 +81,37 @@ about-processes-with-coop-coep-process-private = { $origin } — Private ({ $pid
 #                     greater than $number.
 #    $list (String) Comma separated list of active threads.
 #                   Can be an empty string if the process is idle.
-about-processes-active-threads = { $active ->
-   [one] { $active } active thread out of { $number }: { $list }
-  *[other] { $active } active threads out of { $number }: { $list }
-}
-
+about-processes-active-threads =
+    { NUMBER($active) ->
+        [one] { $active } active thread out of { $number }: { $list }
+       *[other] { $active } active threads out of { $number }: { $list }
+    }
 # Single-line summary of threads (idle process)
 # Variables:
 #    $number (Number) The number of threads in the process. Typically larger
 #                     than 30. We don't expect to ever have processes with less
 #                     than 5 threads.
 #                     The process is idle so all threads are inactive.
-about-processes-inactive-threads = { $number ->
-   [one] { $number } inactive thread
-  *[other] { $number } inactive threads
-}
-
+about-processes-inactive-threads =
+    { NUMBER($number) ->
+        [one] { $number } inactive thread
+       *[other] { $number } inactive threads
+    }
 # Thread details
 # Variables:
 #   $name (String) The name assigned to the thread.
 #   $tid (String) The thread id of this thread, assigned by the OS.
 about-processes-thread-name-and-id = { $name }
     .title = Thread id: { $tid }
-
 # Tab
 # Variables:
 #   $name (String) The name of the tab (typically the title of the page, might be the url while the page is loading).
 about-processes-tab-name = Tab: { $name }
 about-processes-preloaded-tab = Preloaded New Tab
-
 # Single subframe
 # Variables:
 #   $url (String) The full url of this subframe.
 about-processes-frame-name-one = Subframe: { $url }
-
 # Group of subframes
 # Variables:
 #   $number (Number) The number of subframes in this group. Always ≥ 1.
@@ -134,7 +128,6 @@ about-processes-utility-actor-mf-media-engine = Windows Media Foundation Media E
 # "Oracle" refers to an internal Firefox process and should be kept in English
 about-processes-utility-actor-js-oracle = JavaScript Oracle
 about-processes-utility-actor-windows-utils = Windows Utils
-
 about-processes-utility-actor-windows-file-dialog = Windows File Dialog
 
 ## Displaying CPU (percentage and total)
@@ -149,15 +142,12 @@ about-processes-utility-actor-windows-file-dialog = Windows File Dialog
 # Common case.
 about-processes-cpu = { NUMBER($percent, maximumSignificantDigits: 2, style: "percent") }
     .title = Total CPU time: { NUMBER($total, maximumFractionDigits: 0) }{ $unit }
-
 # Special case: data is not available yet.
 about-processes-cpu-user-and-kernel-not-ready = (measuring)
-
 # Special case: process or thread is almost idle (using less than 0.1% of a CPU core).
 # This case only occurs on Windows where the precision of the CPU times is low.
 about-processes-cpu-almost-idle = < 0.1%
     .title = Total CPU time: { NUMBER($total, maximumFractionDigits: 0) }{ $unit }
-
 # Special case: process or thread is currently idle.
 about-processes-cpu-fully-idle = idle
     .title = Total CPU time: { NUMBER($total, maximumFractionDigits: 0) }{ $unit }
@@ -174,11 +164,10 @@ about-processes-cpu-fully-idle = idle
 ##                        of `memory-unit-*`.
 
 # Common case.
-about-processes-total-memory-size-changed = { NUMBER($total, maximumFractionDigits:0) }{ $totalUnit }
-   .title = Evolution: { $deltaSign }{ NUMBER($delta, maximumFractionDigits:0) }{ $deltaUnit }
-
+about-processes-total-memory-size-changed = { NUMBER($total, maximumFractionDigits: 0) }{ $totalUnit }
+    .title = Evolution: { $deltaSign }{ NUMBER($delta, maximumFractionDigits: 0) }{ $deltaUnit }
 # Special case: no change.
-about-processes-total-memory-size-no-change = { NUMBER($total, maximumFractionDigits:0) }{ $totalUnit }
+about-processes-total-memory-size-no-change = { NUMBER($total, maximumFractionDigits: 0) }{ $totalUnit }
 
 ## Duration units
 

@@ -55,7 +55,6 @@ about-logging-preset-windows-label = Windows
 about-logging-preset-windows-description = Log modules to diagnose issues specific to Microsoft Windows
 about-logging-preset-custom-label = Custom
 about-logging-preset-custom-description = Log modules manually selected
-
 # Error handling
 about-logging-error = Error:
 
@@ -69,5 +68,4 @@ about-logging-unknown-profiler-preset = Unknown profiler preset “{ $v }“
 about-logging-unknown-option = Unknown about:logging option “{ $k }“
 about-logging-configuration-url-ignored = Configuration URL ignored
 about-logging-file-and-profiler-override = Can’t force file output and override profiler options at the same time
-
 about-logging-configured-via-url = Option configured via URL
