@@ -8898,7 +8898,7 @@
     "ignoringUnsafeEval",
     "strictDynamicButNoHashOrNonce",
     "reportURInotHttpsOrHttp2",
-    "reportURInotInReportOnlyHeader",
+    "reportURINorReportToNotInReportOnlyHeader",
     "failedToParseUnrecognizedSource",
     "upgradeInsecureRequest",
     "ignoreSrcForDirective",
