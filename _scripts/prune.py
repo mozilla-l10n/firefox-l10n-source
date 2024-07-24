@@ -78,14 +78,8 @@ def prune(branches: list[str]):
     if expected:
         exit(f"Incomplete data! Not found: {expected}")
 
-    ignored_files: list[str] = [
-        "LICENSE",
-        "README.md",
-    ]
     for ref_path in L10nDiscoverPaths(cwd, ref_root=cwd).ref_paths:
         path = relpath(ref_path, cwd)
-        if path.startswith(("_", ".")) or path in ignored_files:
-            continue
         if path not in refs:
             print(f"remove {path}")
             remove(path)
