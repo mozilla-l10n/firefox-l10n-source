@@ -2360,7 +2360,22 @@
     "newtab-weather-menu-change-temperature-units-celsius",
     "newtab-weather-menu-hide-weather",
     "newtab-weather-menu-learn-more",
-    "newtab-weather-error-not-available"
+    "newtab-weather-error-not-available",
+    "newtab-topic-label-business",
+    "newtab-topic-label-career",
+    "newtab-topic-label-education",
+    "newtab-topic-label-arts",
+    "newtab-topic-label-food",
+    "newtab-topic-label-health",
+    "newtab-topic-label-hobbies",
+    "newtab-topic-label-finance",
+    "newtab-topic-label-society-parenting",
+    "newtab-topic-label-government",
+    "newtab-topic-label-education-science",
+    "newtab-topic-label-society",
+    "newtab-topic-label-sports",
+    "newtab-topic-label-tech",
+    "newtab-topic-label-travel"
   ],
   "browser/browser/newtab/onboarding.ftl": [
     "onboarding-welcome-header",
@@ -4472,7 +4487,8 @@
     "screenshots-component-download-button-2.aria-label",
     "screenshots-component-download-key",
     "screenshots-component-copy-key",
-    "screenshots-overlay-selection-region-size-3"
+    "screenshots-overlay-selection-region-size-3",
+    "screenshots-overlay-preview-face-label.aria-label"
   ],
   "browser/browser/search.ftl": [
     "opensearch-error-duplicate-title",
@@ -5771,6 +5787,7 @@
     "about-debugging-setup-usb-status-updating",
     "about-debugging-setup-usb-step-enable-dev-menu2",
     "about-debugging-setup-usb-step-enable-debug2",
+    "about-debugging-setup-usb-step-enable-file-transfer",
     "about-debugging-setup-usb-step-enable-debug-firefox2",
     "about-debugging-setup-usb-step-plug-device",
     "about-debugging-setup-usb-troubleshoot",
@@ -11816,6 +11833,8 @@
     "experimental-features-js-warp-description",
     "experimental-features-ime-search.label",
     "experimental-features-ime-search-description",
+    "experimental-features-auto-pip.label",
+    "experimental-features-auto-pip-description",
     "experimental-features-group-browsing.label",
     "experimental-features-group-developer-tools.label",
     "experimental-features-group-webpage-display.label"
