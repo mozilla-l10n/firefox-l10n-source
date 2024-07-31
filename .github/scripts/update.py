@@ -177,7 +177,7 @@ if __name__ == "__main__":
     with open(config_file) as f:
         cfg_automation = json.load(f)
 
-    prog = "python -m _scripts.update"
+    prog = "python .github/scripts/update.py"
     parser = ArgumentParser(
         prog=prog,
         description=__doc__.format(HEAD=cfg_automation["head"]),

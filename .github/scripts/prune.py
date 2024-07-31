@@ -104,7 +104,7 @@ def write_commit_msg(data: list[str], files: int, messages: int):
 
 
 if __name__ == "__main__":
-    prog = "python -m _scripts.prune"
+    prog = "python .github/scripts/prune.py"
     parser = ArgumentParser(prog=prog, description=__doc__)
     args = parser.parse_args()
 
