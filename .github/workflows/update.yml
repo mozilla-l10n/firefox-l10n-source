@@ -29,14 +29,14 @@ jobs:
         id: config
         run: |
           # Store the list of branches as a JSON array
-          echo "branches=$(jq -c '.branches' < _configs/config.json)" >> "$GITHUB_OUTPUT"
+          echo "branches=$(jq -c '.branches' < .github/update-config.json)" >> "$GITHUB_OUTPUT"
 
           # Store the list of paths as a multiline list
           # Bash multiline version
           # https://docs.github.com/en/actions/using-workflows/workflow-commands-for-github-actions#multiline-strings
           {
             echo 'paths<<EOF'
-            jq -r ".paths[]" < _configs/config.json
+            jq -r ".paths[]" < .github/update-config.json
             echo EOF
           } >> "$GITHUB_OUTPUT"
   update:

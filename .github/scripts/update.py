@@ -173,7 +173,7 @@ def write_commit_msg(args, new_files: int, updated_files: int):
 
 
 if __name__ == "__main__":
-    config_file = join("_configs", "config.json")
+    config_file = join(".github", "update-config.json")
     with open(config_file) as f:
         cfg_automation = json.load(f)
 
