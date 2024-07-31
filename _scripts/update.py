@@ -79,6 +79,7 @@ def update(
 ):
     if branch not in cfg_automation["branches"]:
         exit(f"Unknown branch: {branch}")
+    is_head = branch == cfg_automation["head"]
     if not exists(fx_root):
         exit(f"Firefox root not found: {fx_root}")
     print(f"source: {branch} at {fx_root}")
@@ -137,7 +138,7 @@ def update(
         else:
             with open(rel_path, "+rb") as file:
                 res = parse_resource(rel_path, file.read())
-                if add_entries(res, fx_res):
+                if add_entries(res, fx_res, use_source_values=is_head):
                     print(f"update {rel_path}")
                     file.seek(0)
                     for line in serialize_resource(res):
