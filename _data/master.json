@@ -2253,6 +2253,7 @@
     "newtab-section-header-topsites",
     "newtab-section-header-recent-activity",
     "newtab-section-header-stories",
+    "newtab-section-header-todays-picks",
     "newtab-empty-section-highlights",
     "newtab-empty-section-topstories-generic",
     "newtab-discovery-empty-section-topstories-header",
@@ -2375,7 +2376,14 @@
     "newtab-topic-label-society",
     "newtab-topic-label-sports",
     "newtab-topic-label-tech",
-    "newtab-topic-label-travel"
+    "newtab-topic-label-travel",
+    "newtab-topic-selection-title",
+    "newtab-topic-selection-subtitle",
+    "newtab-topic-selection-save-button",
+    "newtab-topic-selection-cancel-button",
+    "newtab-topic-selection-privacy-link",
+    "newtab-topic-selection-button-update-interests",
+    "newtab-topic-selection-button-pick-interests"
   ],
   "browser/browser/newtab/onboarding.ftl": [
     "onboarding-welcome-header",
