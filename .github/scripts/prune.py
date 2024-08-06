@@ -104,11 +104,11 @@ def write_commit_msg(data: list[str], files: int, messages: int):
 
 
 if __name__ == "__main__":
-    prog = "python -m _scripts.prune"
+    prog = "python .github/scripts/prune.py"
     parser = ArgumentParser(prog=prog, description=__doc__)
     args = parser.parse_args()
 
-    config_file = join("_configs", "config.json")
+    config_file = join(".github", "update-config.json")
     with open(config_file) as f:
         cfg_automation = json.load(f)
 

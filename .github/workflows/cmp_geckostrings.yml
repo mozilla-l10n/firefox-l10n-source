@@ -31,12 +31,12 @@ jobs:
         with:
           python-version: "3.12"
           cache: pip
-          cache-dependency-path: l10n/_scripts/requirements.txt
-      - run: pip install -r l10n/_scripts/requirements.txt
+          cache-dependency-path: l10n/.github/scripts/requirements.txt
+      - run: pip install -r l10n/.github/scripts/requirements.txt
 
       - name: Compare content
         run: |
-          diff=$(python l10n/_scripts/diff.py l10n gecko-strings --ignore LICENSE README.md || true)
+          diff=$(python l10n/.github/scripts/diff.py l10n gecko-strings --ignore LICENSE README.md || true)
           if [[ -n "$diff" ]]; then
             echo "### There are differences between the two repositories" >> $GITHUB_STEP_SUMMARY
             echo '```' >> $GITHUB_STEP_SUMMARY

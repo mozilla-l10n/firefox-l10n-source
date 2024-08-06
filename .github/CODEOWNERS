@@ -2,5 +2,4 @@
 * @mozilla-l10n/l10n-firefox
 
 # Code reviewers (workflows, scripts)
-/_scripts/ @mozilla-l10n/l10n-firefox @eemeli
 /.github/ @mozilla-l10n/l10n-firefox @eemeli

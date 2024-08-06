@@ -29,14 +29,14 @@ jobs:
         id: config
         run: |
           # Store the list of branches as a JSON array
-          echo "branches=$(jq -c '.branches' < _configs/config.json)" >> "$GITHUB_OUTPUT"
+          echo "branches=$(jq -c '.branches' < .github/update-config.json)" >> "$GITHUB_OUTPUT"
 
           # Store the list of paths as a multiline list
           # Bash multiline version
           # https://docs.github.com/en/actions/using-workflows/workflow-commands-for-github-actions#multiline-strings
           {
             echo 'paths<<EOF'
-            jq -r ".paths[]" < _configs/config.json
+            jq -r ".paths[]" < .github/update-config.json
             echo EOF
           } >> "$GITHUB_OUTPUT"
   update:
@@ -62,10 +62,10 @@ jobs:
         with:
           python-version: "3.12"
           cache: pip
-          cache-dependency-path: l10n/_scripts/requirements.txt
-      - run: pip install -r l10n/_scripts/requirements.txt
+          cache-dependency-path: l10n/.github/scripts/requirements.txt
+      - run: pip install -r l10n/.github/scripts/requirements.txt
       - run: >
-          python -m _scripts.update
+          python .github/scripts/update.py
           --branch ${{ matrix.ref }}
           --commit $(cd ../firefox && git rev-parse --short HEAD)
           --firefox ../firefox
@@ -92,9 +92,9 @@ jobs:
         with:
           python-version: "3.12"
           cache: pip
-          cache-dependency-path: _scripts/requirements.txt
-      - run: pip install -r _scripts/requirements.txt
-      - run: python -m _scripts.prune
+          cache-dependency-path: .github/scripts/requirements.txt
+      - run: pip install -r .github/scripts/requirements.txt
+      - run: python .github/scripts/prune.py
       - name: git config
         run: |
           git config --global user.name "github-actions[bot]"
