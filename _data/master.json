@@ -2404,6 +2404,7 @@
     "newtab-topic-label-sports",
     "newtab-topic-label-tech",
     "newtab-topic-label-travel",
+    "newtab-topic-label-home",
     "newtab-topic-selection-title",
     "newtab-topic-selection-subtitle",
     "newtab-topic-selection-save-button",
@@ -4891,7 +4892,7 @@
     "tabbrowser-menuitem-close-tab.label",
     "tabbrowser-menuitem-close.label",
     "tabbrowser-container-tab-title",
-    "tabbrowser-close-tabs-tooltip.label",
+    "tabbrowser-close-tabs-button.tooltiptext",
     "tabbrowser-mute-tab-audio-tooltip.label",
     "tabbrowser-unmute-tab-audio-tooltip.label",
     "tabbrowser-mute-tab-audio-background-tooltip.label",
@@ -11908,9 +11909,14 @@
     "experimental-features-auto-pip.label",
     "experimental-features-auto-pip-description",
     "genai-settings-chat-title.label",
-    "experimental-features-group-browsing.label",
+    "sidebar-title.label",
+    "sidebar-description",
+    "vertical-tabs-title.label",
+    "vertical-tabs-description",
     "experimental-features-group-developer-tools.label",
-    "experimental-features-group-webpage-display.label"
+    "experimental-features-group-webpage-display.label",
+    "experimental-features-group-customize-browsing.label",
+    "experimental-features-group-customize-browsing-description"
   ],
   "toolkit/toolkit/formautofill/formAutofill.ftl": [
     "autofill-use-payment-method-os-prompt-macos",
