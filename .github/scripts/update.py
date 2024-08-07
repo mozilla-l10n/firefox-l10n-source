@@ -138,7 +138,7 @@ def update(
         else:
             with open(rel_path, "+rb") as file:
                 res = parse_resource(rel_path, file.read())
-                if add_entries(res, fx_res, use_source_values=is_head):
+                if add_entries(res, fx_res, use_source_entries=is_head):
                     print(f"update {rel_path}")
                     file.seek(0)
                     for line in serialize_resource(res):
