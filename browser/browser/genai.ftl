@@ -2,6 +2,7 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+
 ## Generative AI (GenAI) Settings section
 
 genai-settings-chat-description = Adds the chatbot of your choice to the sidebar, for quick access as you browse. <a data-l10n-name="connect">Share feedback</a>
@@ -42,6 +43,10 @@ genai-prompts-quiz =
 genai-prompts-explain =
     .label = Explain this
     .value = Please explain the key concepts in this selection, using simple words. Also, use examples.
+# This prompt is added to the beginning of selection prompts sent to a chatbot.
+# $tabTitle (string) - title of the webpage
+# $selection (string) - selected text
+genai-prompt-prefix-selection = I’m on page “{ $tabTitle }” with “{ $selection }” selected.
 
 ## Chatbot menu shortcuts
 
@@ -50,7 +55,6 @@ genai-menu-ask-generic =
 # $provider (string) - name of the provider
 genai-menu-ask-provider =
     .label = Ask { $provider }
-
 genai-input-ask-generic =
     .placeholder = Ask AI chatbot…
 # $provider (string) - name of the provider
