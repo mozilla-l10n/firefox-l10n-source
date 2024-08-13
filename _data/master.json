@@ -11969,6 +11969,9 @@
     "alert-settings-title.tooltiptext",
     "notification-default-dismiss"
   ],
+  "toolkit/toolkit/global/antiTracking.ftl": [
+    "btp-warning-tracker-classified"
+  ],
   "toolkit/toolkit/global/appPicker.ftl": [
     "app-picker-browse-button.buttonlabelextra2",
     "app-picker-send-msg.value",
