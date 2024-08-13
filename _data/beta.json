@@ -1770,6 +1770,7 @@
     "genai-settings-chat-localhost-links",
     "genai-settings-chat-shortcuts.description",
     "genai-settings-chat-shortcuts.label",
+    "genai-prompt-prefix-selection",
     "genai-prompts-summarize.label",
     "genai-prompts-summarize.value",
     "genai-prompts-simplify.label",
