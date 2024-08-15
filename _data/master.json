@@ -904,6 +904,8 @@
     "urlbar-extension.value",
     "urlbar-go-button.tooltiptext",
     "urlbar-page-action-button.tooltiptext",
+    "urlbar-revert-button.tooltiptext",
+    "urlbar-show-page-actions-button.tooltiptext",
     "urlbar-result-action-search-in-private-w-engine",
     "urlbar-result-action-search-in-private",
     "urlbar-result-action-search-w-engine",
