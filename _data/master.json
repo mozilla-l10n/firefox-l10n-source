@@ -8710,6 +8710,7 @@
     "PEExpectedNoneOrURLOrFilterFunction",
     "PEDisallowedImportRule",
     "PENeverMatchingHostSelector",
+    "PEImportantDeclError",
     "TooLargeDashedRadius",
     "TooLargeDottedRadius"
   ],
