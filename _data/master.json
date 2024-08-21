@@ -904,6 +904,8 @@
     "urlbar-extension.value",
     "urlbar-go-button.tooltiptext",
     "urlbar-page-action-button.tooltiptext",
+    "urlbar-revert-button.tooltiptext",
+    "urlbar-show-page-actions-button.tooltiptext",
     "urlbar-result-action-search-in-private-w-engine",
     "urlbar-result-action-search-in-private",
     "urlbar-result-action-search-w-engine",
@@ -8315,6 +8317,7 @@
     "malformedURI2",
     "fileNotFound",
     "fileAccessDenied",
+    "serverError",
     "dnsNotFound2",
     "unknownProtocolFound",
     "connectionFailure",
@@ -8708,6 +8711,7 @@
     "PEExpectedNoneOrURLOrFilterFunction",
     "PEDisallowedImportRule",
     "PENeverMatchingHostSelector",
+    "PEImportantDeclError",
     "TooLargeDashedRadius",
     "TooLargeDottedRadius"
   ],
@@ -11968,6 +11972,9 @@
     "alert-close.tooltiptext",
     "alert-settings-title.tooltiptext",
     "notification-default-dismiss"
+  ],
+  "toolkit/toolkit/global/antiTracking.ftl": [
+    "btp-warning-tracker-classified"
   ],
   "toolkit/toolkit/global/appPicker.ftl": [
     "app-picker-browse-button.buttonlabelextra2",
