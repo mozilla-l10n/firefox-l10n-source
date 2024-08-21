@@ -13012,6 +13012,7 @@
     "neterror-dns-not-found-trr-unknown-host2",
     "neterror-dns-not-found-trr-server-problem",
     "neterror-dns-not-found-bad-trr-url",
+    "neterror-dns-not-found-system-sleep",
     "neterror-dns-not-found-trr-unknown-problem",
     "neterror-dns-not-found-native-fallback-reason2",
     "neterror-dns-not-found-native-fallback-heuristic",
