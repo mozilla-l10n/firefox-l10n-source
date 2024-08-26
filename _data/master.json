@@ -8072,7 +8072,6 @@
     "rule.warningInvalidAtComputedValueTime.title",
     "rule.filterProperty.title",
     "rule.empty",
-    "rule.variableValue",
     "rule.variableUnset",
     "rule.selectorSpecificity.title",
     "rule.selectorHighlighter.tooltip",
