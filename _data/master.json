@@ -46,7 +46,9 @@
     "bottomLinks-rights",
     "bottomLinks-privacy",
     "aboutDialog-version",
-    "aboutDialog-version-nightly"
+    "aboutDialog-version-nightly",
+    "aboutdialog-version-arch",
+    "aboutdialog-version-arch-nightly"
   ],
   "browser/browser/aboutLogins.ftl": [
     "about-logins-page-title-name",
@@ -8073,6 +8075,8 @@
     "rule.filterProperty.title",
     "rule.empty",
     "rule.variableUnset",
+    "rule.variableEmpty",
+    "rule.variableComputedValue",
     "rule.selectorSpecificity.title",
     "rule.selectorHighlighter.tooltip",
     "rule.colorSwatch.tooltip",
@@ -11910,8 +11914,6 @@
     "experimental-features-web-gpu-description3",
     "experimental-features-media-jxl.label",
     "experimental-features-media-jxl-description",
-    "experimental-features-cookie-samesite-none-requires-secure2.label",
-    "experimental-features-cookie-samesite-none-requires-secure2-description",
     "experimental-features-devtools-serviceworker-debugger-support.label",
     "experimental-features-devtools-serviceworker-debugger-support-description",
     "experimental-features-webrtc-global-mute-toggles.label",
