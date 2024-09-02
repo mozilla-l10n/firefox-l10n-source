@@ -8989,6 +8989,8 @@
     "CSPROWasmEvalScriptViolation",
     "CSPTrustedTypesPolicyViolation",
     "CSPROTrustedTypesPolicyViolation",
+    "CSPTrustedTypesSinkViolation",
+    "CSPROTrustedTypesSinkViolation",
     "CSPStyleViolation",
     "CSPROStyleViolation",
     "CSPScriptViolation",
