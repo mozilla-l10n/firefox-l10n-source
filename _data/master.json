@@ -4709,6 +4709,7 @@
     "sidebar-context-menu-open-in-private-window.label",
     "sidebar-context-menu-bookmark-tab.label",
     "sidebar-context-menu-copy-link.label",
+    "sidebar-context-menu-close-remote-tab.label",
     "sidebar-history-context-menu-delete-page.label",
     "sidebar-menu-genai-chat-label.label",
     "sidebar-menu-history-label.label",
@@ -4717,7 +4718,8 @@
     "sidebar-menu-customize-label.label",
     "sidebar-menu-customize-header.heading",
     "sidebar-menu-history-header.heading",
-    "sidebar-menu-syncedtabs-header.heading"
+    "sidebar-menu-syncedtabs-header.heading",
+    "synced-tabs-context-close-tab-title.title"
   ],
   "browser/browser/sidebarMenu.ftl": [
     "sidebar-menu-bookmarks.label",
@@ -8615,7 +8617,6 @@
     "MathML_DeprecatedMathVariantWarning",
     "MathML_DeprecatedStixgeneralOperatorStretchingWarning",
     "FormSubmissionUntrustedEventWarning",
-    "SizeToContentWarning",
     "WebShareAPI_Failed",
     "WebShareAPI_Aborted",
     "UnknownProtocolNavigationPrevented",
