@@ -111,6 +111,7 @@
     "login-item-copied-username-button-text",
     "login-item-password-label",
     "login-item-password-reveal-checkbox.aria-label",
+    "login-item-password-conceal-checkbox.aria-label",
     "login-item-copy-password-button-text",
     "login-item-copied-password-button-text",
     "about-logins-login-item-save-changes-button",
