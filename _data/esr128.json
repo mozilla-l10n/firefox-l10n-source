@@ -2869,6 +2869,7 @@
     "policy-PictureInPicture",
     "policy-PopupBlocking",
     "policy-Preferences",
+    "policy-PrivateBrowsingModeAvailability",
     "policy-PromptForDownloadLocation",
     "policy-Proxy",
     "policy-RequestedLocales",
