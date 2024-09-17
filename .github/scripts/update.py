@@ -130,7 +130,9 @@ def update(
 
         if not exists(rel_path):
             print(f"create {rel_path}")
-            copy(fx_path, rel_path)
+            with open(rel_path, "+wb") as file:
+                for line in serialize_resource(fx_res):
+                    file.write(line.encode("utf-8"))
             new_files += 1
         elif cmp(fx_path, rel_path):
             # print(f"equal {rel_path}")
