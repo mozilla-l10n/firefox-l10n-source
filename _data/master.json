@@ -4683,6 +4683,7 @@
   ],
   "browser/browser/sidebar.ftl": [
     "menu-view-genai-chat.label",
+    "menu-view-review-checker.label",
     "sidebar-history-date-today.heading",
     "sidebar-history-date-yesterday.heading",
     "sidebar-history-date-this-month.heading",
@@ -4717,6 +4718,7 @@
     "sidebar-menu-synced-tabs-label.label",
     "sidebar-menu-bookmarks-label.label",
     "sidebar-menu-customize-label.label",
+    "sidebar-menu-review-checker-label.label",
     "sidebar-menu-customize-header.heading",
     "sidebar-menu-history-header.heading",
     "sidebar-menu-syncedtabs-header.heading",
@@ -5941,6 +5943,7 @@
     "about-debugging-worker-status-registering",
     "about-debugging-worker-scope.label",
     "about-debugging-worker-push-service.label",
+    "about-debugging-worker-origin.label",
     "about-debugging-worker-inspect-action-disabled.title",
     "about-debugging-zombie-tab-inspect-action-disabled.title",
     "about-debugging-multiprocess-toolbox-name",
