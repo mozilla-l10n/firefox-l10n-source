@@ -1554,7 +1554,14 @@
     "callout-pdfjs-draw-title",
     "callout-pdfjs-draw-body-a",
     "callout-pdfjs-draw-body-b",
-    "callout-pdfjs-draw-button"
+    "callout-pdfjs-draw-button",
+    "fx-view-discoverability-title",
+    "fx-view-discoverability-subtitle",
+    "fx-view-discoverability-primary-button-label",
+    "fx-view-discoverability-secondary-button-label",
+    "split-dismiss-button-dont-show-option-label",
+    "split-dismiss-button-show-fewer-option-label",
+    "split-dismiss-button-manage-settings-option-label"
   ],
   "browser/browser/firefoxRelay.ftl": [
     "firefox-relay-mask-generation-failed",
@@ -2188,7 +2195,14 @@
     "tail-fox-spotlight-title",
     "tail-fox-spotlight-subtitle",
     "tail-fox-spotlight-primary-button",
-    "tail-fox-spotlight-secondary-button"
+    "tail-fox-spotlight-secondary-button",
+    "root-certificate-succession-infobar-january-message",
+    "root-certificate-succession-infobar-march-message",
+    "root-certificate-succession-infobar-link",
+    "root-certificate-succession-infobar-primary-button.label",
+    "root-certificate-succession-infobar-primary-button.accesskey",
+    "root-certificate-succession-infobar-secondary-button.label",
+    "root-certificate-succession-infobar-secondary-button.accesskey"
   ],
   "browser/browser/newtab/newtab.ftl": [
     "newtab-page-title",
