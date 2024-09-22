@@ -48,7 +48,7 @@ callout-pdfjs-draw-button = Got it!
 
 fx-view-discoverability-title = Didn’t mean to close that tab?
 fx-view-discoverability-subtitle = Find and reopen it quickly here. We keep a history of your recently closed tabs for you.
-fx-view-discoverability-primary-button-label = Open { -brand-product-name } View
+fx-view-discoverability-primary-button-label = Open { -firefoxview-brand-name }
 fx-view-discoverability-secondary-button-label = Dismiss
 
 ## Split Dismiss Button Labels
