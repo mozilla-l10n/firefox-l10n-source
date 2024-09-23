@@ -4736,6 +4736,9 @@
     "sidebar-menu-customize-header.heading",
     "sidebar-menu-history-header.heading",
     "sidebar-menu-syncedtabs-header.heading",
+    "sidebar-customize-title",
+    "sidebar-history-title",
+    "sidebar-syncedtabs-title",
     "synced-tabs-context-close-tab-title.title"
   ],
   "browser/browser/sidebarMenu.ftl": [
