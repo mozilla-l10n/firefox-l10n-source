@@ -908,7 +908,6 @@
     "urlbar-go-button.tooltiptext",
     "urlbar-page-action-button.tooltiptext",
     "urlbar-revert-button.tooltiptext",
-    "urlbar-show-page-actions-button.tooltiptext",
     "urlbar-result-action-search-in-private-w-engine",
     "urlbar-result-action-search-in-private",
     "urlbar-result-action-search-w-engine",
@@ -1555,7 +1554,14 @@
     "callout-pdfjs-draw-title",
     "callout-pdfjs-draw-body-a",
     "callout-pdfjs-draw-body-b",
-    "callout-pdfjs-draw-button"
+    "callout-pdfjs-draw-button",
+    "fx-view-discoverability-title",
+    "fx-view-discoverability-subtitle",
+    "fx-view-discoverability-primary-button-label",
+    "fx-view-discoverability-secondary-button-label",
+    "split-dismiss-button-dont-show-option-label",
+    "split-dismiss-button-show-fewer-option-label",
+    "split-dismiss-button-manage-settings-option-label"
   ],
   "browser/browser/firefoxRelay.ftl": [
     "firefox-relay-mask-generation-failed",
@@ -2189,7 +2195,14 @@
     "tail-fox-spotlight-title",
     "tail-fox-spotlight-subtitle",
     "tail-fox-spotlight-primary-button",
-    "tail-fox-spotlight-secondary-button"
+    "tail-fox-spotlight-secondary-button",
+    "root-certificate-succession-infobar-january-message",
+    "root-certificate-succession-infobar-march-message",
+    "root-certificate-succession-infobar-link",
+    "root-certificate-succession-infobar-primary-button.label",
+    "root-certificate-succession-infobar-primary-button.accesskey",
+    "root-certificate-succession-infobar-secondary-button.label",
+    "root-certificate-succession-infobar-secondary-button.accesskey"
   ],
   "browser/browser/newtab/newtab.ftl": [
     "newtab-page-title",
@@ -2960,7 +2973,8 @@
     "policy-UserMessaging",
     "policy-UseSystemPrintDialog",
     "policy-WebsiteFilter",
-    "policy-Windows10SSO"
+    "policy-Windows10SSO",
+    "policy-MicrosoftEntraSSO"
   ],
   "browser/browser/preferences/addEngine.ftl": [
     "add-engine-window2.title",
@@ -4683,6 +4697,7 @@
   ],
   "browser/browser/sidebar.ftl": [
     "menu-view-genai-chat.label",
+    "menu-view-review-checker.label",
     "sidebar-history-date-today.heading",
     "sidebar-history-date-yesterday.heading",
     "sidebar-history-date-this-month.heading",
@@ -4717,9 +4732,13 @@
     "sidebar-menu-synced-tabs-label.label",
     "sidebar-menu-bookmarks-label.label",
     "sidebar-menu-customize-label.label",
+    "sidebar-menu-review-checker-label.label",
     "sidebar-menu-customize-header.heading",
     "sidebar-menu-history-header.heading",
     "sidebar-menu-syncedtabs-header.heading",
+    "sidebar-customize-title",
+    "sidebar-history-title",
+    "sidebar-syncedtabs-title",
     "synced-tabs-context-close-tab-title.title"
   ],
   "browser/browser/sidebarMenu.ftl": [
@@ -5941,6 +5960,7 @@
     "about-debugging-worker-status-registering",
     "about-debugging-worker-scope.label",
     "about-debugging-worker-push-service.label",
+    "about-debugging-worker-origin.label",
     "about-debugging-worker-inspect-action-disabled.title",
     "about-debugging-zombie-tab-inspect-action-disabled.title",
     "about-debugging-multiprocess-toolbox-name",
