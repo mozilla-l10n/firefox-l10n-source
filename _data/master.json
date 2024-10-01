@@ -6754,6 +6754,7 @@
     "inspectorAttributeModification.label",
     "inspectorNodeRemoval.label",
     "inspectorSearchHTML.label3",
+    "inspectorSearchHTML.clearButton.title",
     "inspectorImageDataUri.label",
     "inspectorShowDOMProperties.label",
     "inspectorShowAccessibilityProperties.label",
