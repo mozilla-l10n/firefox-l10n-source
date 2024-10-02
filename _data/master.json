@@ -4803,10 +4803,14 @@
     "sidebar-history-title",
     "sidebar-syncedtabs-title",
     "synced-tabs-context-close-tab-title.title",
-    "sidebar-toolbar-expand-sidebar.tooltiptext",
-    "sidebar-toolbar-collapse-sidebar.tooltiptext",
-    "sidebar-toolbar-show-sidebar.tooltiptext",
-    "sidebar-toolbar-hide-sidebar.tooltiptext"
+    "sidebar-widget-expand-sidebar.tooltiptext",
+    "sidebar-widget-expand-sidebar.label",
+    "sidebar-widget-collapse-sidebar.tooltiptext",
+    "sidebar-widget-collapse-sidebar.label",
+    "sidebar-widget-show-sidebar.tooltiptext",
+    "sidebar-widget-show-sidebar.label",
+    "sidebar-widget-hide-sidebar.tooltiptext",
+    "sidebar-widget-hide-sidebar.label"
   ],
   "browser/browser/sidebarMenu.ftl": [
     "sidebar-menu-bookmarks.label",
@@ -4935,6 +4939,8 @@
     "tab-context-new-tab-open.accesskey",
     "tab-context-new-tab-open-vertical.label",
     "tab-context-new-tab-open-vertical.accesskey",
+    "tab-context-new-group.label",
+    "tab-context-new-group.accesskey",
     "reload-tab.label",
     "reload-tab.accesskey",
     "select-all-tabs.label",
@@ -5038,7 +5044,15 @@
     "tabbrowser-ctrl-tab-list-all-tabs.label",
     "tabbrowser-manager-mute-tab.tooltiptext",
     "tabbrowser-manager-unmute-tab.tooltiptext",
-    "tabbrowser-manager-close-tab.tooltiptext"
+    "tabbrowser-manager-close-tab.tooltiptext",
+    "tab-group-editor-title-create",
+    "tab-group-editor-title-edit",
+    "tab-group-editor-name-label",
+    "tab-group-editor-name-field.placeholder",
+    "tab-group-editor-cancel.label",
+    "tab-group-editor-cancel.accesskey",
+    "tab-group-editor-create.label",
+    "tab-group-editor-create.accesskey"
   ],
   "browser/browser/textRecognition.ftl": [
     "text-recognition-modal-searching-title",
