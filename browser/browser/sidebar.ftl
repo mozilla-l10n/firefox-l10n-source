@@ -148,14 +148,3 @@ sidebar-widget-show-sidebar =
 sidebar-widget-hide-sidebar =
     .tooltiptext = Hide sidebar
     .label = Sidebars
-
-## Tooltips for the sidebar toolbar button.
-
-sidebar-toolbar-expand-sidebar =
-    .tooltiptext = Expand sidebar
-sidebar-toolbar-collapse-sidebar =
-    .tooltiptext = Collapse sidebar
-sidebar-toolbar-show-sidebar =
-    .tooltiptext = Show sidebar
-sidebar-toolbar-hide-sidebar =
-    .tooltiptext = Hide sidebar
