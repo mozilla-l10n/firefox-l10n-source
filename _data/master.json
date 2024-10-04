@@ -12260,6 +12260,8 @@
     "webext-perms-host-description-too-many-wildcards",
     "webext-perms-host-description-one-site",
     "webext-perms-host-description-too-many-sites",
+    "webext-perms-host-description-one-domain",
+    "webext-perms-host-description-multiple-domains",
     "webext-site-perms-header-with-gated-perms-midi",
     "webext-site-perms-header-with-gated-perms-midi-sysex",
     "webext-site-perms-description-gated-perms-midi",
