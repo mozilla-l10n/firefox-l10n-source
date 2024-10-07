@@ -4803,10 +4803,14 @@
     "sidebar-history-title",
     "sidebar-syncedtabs-title",
     "synced-tabs-context-close-tab-title.title",
-    "sidebar-toolbar-expand-sidebar.tooltiptext",
-    "sidebar-toolbar-collapse-sidebar.tooltiptext",
-    "sidebar-toolbar-show-sidebar.tooltiptext",
-    "sidebar-toolbar-hide-sidebar.tooltiptext"
+    "sidebar-widget-expand-sidebar.tooltiptext",
+    "sidebar-widget-expand-sidebar.label",
+    "sidebar-widget-collapse-sidebar.tooltiptext",
+    "sidebar-widget-collapse-sidebar.label",
+    "sidebar-widget-show-sidebar.tooltiptext",
+    "sidebar-widget-show-sidebar.label",
+    "sidebar-widget-hide-sidebar.tooltiptext",
+    "sidebar-widget-hide-sidebar.label"
   ],
   "browser/browser/sidebarMenu.ftl": [
     "sidebar-menu-bookmarks.label",
