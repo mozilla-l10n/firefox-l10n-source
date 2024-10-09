@@ -5055,9 +5055,7 @@
     "tab-group-editor-name-label",
     "tab-group-editor-name-field.placeholder",
     "tab-group-editor-cancel.label",
-    "tab-group-editor-cancel.accesskey",
-    "tab-group-editor-create.label",
-    "tab-group-editor-create.accesskey"
+    "tab-group-editor-cancel.accesskey"
   ],
   "browser/browser/textRecognition.ftl": [
     "text-recognition-modal-searching-title",
