@@ -194,6 +194,3 @@ tab-group-editor-name-field =
 tab-group-editor-cancel =
     .label = Cancel
     .accesskey = C
-tab-group-editor-create =
-    .label = Create
-    .accesskey = r
