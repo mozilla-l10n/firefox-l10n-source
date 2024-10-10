@@ -3568,6 +3568,7 @@
     "windows-launch-on-login.label",
     "windows-launch-on-login.accesskey",
     "windows-launch-on-login-disabled",
+    "windows-launch-on-login-profile-disabled",
     "startup-restore-warn-on-quit.label",
     "disable-extension.label",
     "preferences-data-migration-header",
@@ -10724,6 +10725,8 @@
     "about-glean-adhoc-explanation2",
     "about-glean-adhoc-note",
     "controls-button-label-verbose",
+    "about-glean-feedback-settings-only.message",
+    "about-glean-feedback-settings-and-ping.message",
     "about-glean-about-data-header",
     "about-glean-about-data-explanation"
   ],
