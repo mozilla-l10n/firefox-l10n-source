@@ -1070,6 +1070,7 @@
     "firefox-relay-offer-legal-notice",
     "popup-notification-addon-install-unsigned.value",
     "popup-notification-xpinstall-prompt-learn-more",
+    "popup-notification-xpinstall-prompt-block-url",
     "popup-notification-addon-privatebrowsing-checkbox.label",
     "popup-notification-addon-privatebrowsing-checkbox.accesskey",
     "popup-warning-message",
