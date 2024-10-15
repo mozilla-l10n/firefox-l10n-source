@@ -2249,7 +2249,9 @@
     "root-certificate-succession-infobar-primary-button.label",
     "root-certificate-succession-infobar-primary-button.accesskey",
     "root-certificate-succession-infobar-secondary-button.label",
-    "root-certificate-succession-infobar-secondary-button.accesskey"
+    "root-certificate-succession-infobar-secondary-button.accesskey",
+    "fxa-menu-message-close-button.title",
+    "fxa-menu-message-close-button.aria-label"
   ],
   "browser/browser/newtab/newtab.ftl": [
     "newtab-page-title",
