@@ -9699,6 +9699,7 @@
     "MOZILLA_PKIX_ERROR_EMPTY_ISSUER_NAME",
     "MOZILLA_PKIX_ERROR_ADDITIONAL_POLICY_CONSTRAINT_FAILED",
     "MOZILLA_PKIX_ERROR_SELF_SIGNED_CERT",
+    "MOZILLA_PKIX_ERROR_INSUFFICIENT_CERTIFICATE_TRANSPARENCY",
     "MOZILLA_PKIX_ERROR_ISSUER_NO_LONGER_TRUSTED"
   ],
   "security/manager/chrome/pipnss/pipnss.properties": [
@@ -13056,6 +13057,7 @@
     "cert-error-trust-expired-issuer",
     "cert-error-trust-self-signed",
     "cert-error-trust-symantec",
+    "cert-error-trust-certificate-transparency",
     "cert-error-untrusted-default",
     "cert-error-domain-mismatch",
     "cert-error-domain-mismatch-single",
@@ -13200,7 +13202,8 @@
     "certerror-mitm-what-can-you-do-about-it-corporate",
     "certerror-mitm-what-can-you-do-about-it-attack",
     "certerror-mitm-what-can-you-do-about-it-attack-sts",
-    "certerror-what-should-i-do-bad-sts-cert-explanation"
+    "certerror-what-should-i-do-bad-sts-cert-explanation",
+    "cert-error-trust-certificate-transparency-what-can-you-do-about-it"
   ],
   "toolkit/toolkit/neterror/nsserrors.ftl": [
     "psmerr-ssl-disabled",
