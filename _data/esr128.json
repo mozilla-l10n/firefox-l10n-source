@@ -2887,7 +2887,8 @@
     "policy-UserMessaging",
     "policy-UseSystemPrintDialog",
     "policy-WebsiteFilter",
-    "policy-Windows10SSO"
+    "policy-Windows10SSO",
+    "policy-MicrosoftEntraSSO"
   ],
   "browser/browser/preferences/addEngine.ftl": [
     "add-engine-window2.title",
