@@ -60,12 +60,6 @@ sidebar-visibility-setting-always-show =
     .label = Expand and collapse sidebar
 sidebar-visibility-setting-hide-sidebar =
     .label = Show and hide sidebar
-sidebar-customize-settings-header =
-    .label = Sidebar settings
-sidebar-visibility-always-show =
-    .label = Always show
-sidebar-visibility-hide-sidebar =
-    .label = Hide sidebar
 
 ## Labels for sidebar context menu items
 
