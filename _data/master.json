@@ -4794,6 +4794,7 @@
   "browser/browser/sidebar.ftl": [
     "menu-view-genai-chat.label",
     "menu-view-review-checker.label",
+    "sidebar-options-menu-button.title",
     "sidebar-history-date-today.heading",
     "sidebar-history-date-yesterday.heading",
     "sidebar-history-date-this-month.heading",
