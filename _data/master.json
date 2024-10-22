@@ -8438,7 +8438,8 @@
     "tabPanel",
     "highlight",
     "details",
-    "summary"
+    "summary",
+    "inputColorValue"
   ],
   "dom/chrome/accessibility/unix/accessible.properties": [
     "jump",
@@ -8454,7 +8455,8 @@
     "expand",
     "activate",
     "cycle",
-    "clickAncestor"
+    "clickAncestor",
+    "inputColorValue"
   ],
   "dom/chrome/accessibility/win/accessible.properties": [
     "jump",
@@ -8474,7 +8476,8 @@
     "banner",
     "complementary",
     "contentinfo",
-    "region"
+    "region",
+    "inputColorValue"
   ],
   "dom/chrome/appstrings.properties": [
     "malformedURI2",
