@@ -1578,7 +1578,9 @@
     "fx-view-discoverability-secondary-button-label",
     "split-dismiss-button-dont-show-option-label",
     "split-dismiss-button-show-fewer-option-label",
-    "split-dismiss-button-manage-settings-option-label"
+    "split-dismiss-button-manage-settings-option-label",
+    "sidebar-button-callout-title",
+    "sidebar-button-callout-subtitle"
   ],
   "browser/browser/firefoxRelay.ftl": [
     "firefox-relay-mask-generation-failed",
