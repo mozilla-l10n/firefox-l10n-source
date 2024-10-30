@@ -4989,7 +4989,11 @@
     "fxa-menu-send-tab-to-device-description",
     "fxa-menu-sign-out.label",
     "fxa-menu-sync-title",
-    "fxa-menu-sync-description"
+    "fxa-menu-sync-description",
+    "sync-setup-verify-continue",
+    "sync-setup-verify-title",
+    "sync-setup-verify-heading",
+    "sync-setup-verify-description"
   ],
   "browser/browser/syncedTabs.ftl": [
     "synced-tabs-sidebar-title",
@@ -5771,12 +5775,6 @@
     "permission.midi.label",
     "permission.midi-sysex.label",
     "permission.open-protocol-handler.label"
-  ],
-  "browser/chrome/browser/syncSetup.properties": [
-    "continue.label",
-    "relinkVerify.title",
-    "relinkVerify.heading",
-    "relinkVerify.description"
   ],
   "browser/chrome/browser/taskbar.properties": [
     "taskbar.tasks.newTab.label",
