@@ -5,7 +5,6 @@
 profile-window-title = { -brand-short-name } - Choose User Profile
 profile-window-heading = Choose a { -brand-short-name } profile
 profile-window-body = Keep your work and personal browsing, including things like passwords and bookmarks, totally separate. Or create profiles for everyone who uses this device.
-# This checkbox appears in the choose profile window that appears when the browser is opened. "Show this" refers to choose profile window being shown when the checkbox is enabled.
 profile-window-checkbox-label =
     .label = Show this when { -brand-short-name } opens
 profile-window-create-profile = Create a profile
@@ -41,19 +40,12 @@ delete-profile-page-title = Delete { $profilename } profile
 #   $profilename (String) - The name of the profile.
 delete-profile-header = Delete { $profilename } profile?
 delete-profile-description = { -brand-short-name } will permanently delete the following data from this device:
-# Opened browser windows saved to a profile. This is followed by a column with the number of open windows associated to the profile.
 delete-profile-windows = Open windows
-# Opened browser tabs saved to a profile. This is followed by a column with the number of open tabs associated to the profile.
 delete-profile-tabs = Open tabs
-# Bookmarks saved to a profile. This is followed by a column with the number of bookmarks associated to the profile.
 delete-profile-bookmarks = Bookmarks
-# History saved to a profile. This is followed by a column with the number of visited pages / cookies / site data associated to the profile.
 delete-profile-history = History (visited pages, cookies, site data)
-# Autofill data saved to a profile. This is followed by a column with the number of addresses / payment methods associated to the profile.
 delete-profile-autofill = Autofill data (addresses, payment methods)
-# Passwords saved to a profile. This is followed by a column with the number of saved passwords associated to the profile.
 delete-profile-logins = Passwords
-# Button label
+# Button labels
 delete-profile-cancel = Cancel
-# Button label
 delete-profile-confirm = Delete
