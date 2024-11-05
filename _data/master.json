@@ -2317,7 +2317,16 @@
     "fxa-menu-message-backup-sync-collapsed-text",
     "fxa-menu-message-mobile-primary-text",
     "fxa-menu-message-mobile-secondary-text",
-    "fxa-menu-message-mobile-collapsed-text"
+    "fxa-menu-message-mobile-collapsed-text",
+    "multi-cta-fox-doodle-title",
+    "multi-cta-fox-doodle-set-default-checkbox",
+    "multi-cta-fox-doodle-pin-startmenu-checkbox",
+    "multi-cta-fox-doodle-pin-checkbox",
+    "multi-cta-fox-doodle-start-browsing-primary-button-label",
+    "multi-cta-fox-doodle-main-browser-primary-button-label",
+    "multi-cta-fox-doodle-quick-reminder-subtitle",
+    "multi-cta-fox-doodle-privacy-focused-subtitle",
+    "multi-cta-fox-doodle-msix-privacy-focused-subtitle"
   ],
   "browser/browser/newtab/newtab.ftl": [
     "newtab-page-title",
@@ -9418,17 +9427,6 @@
     "console-timer-end"
   ],
   "netwerk/necko.properties": [
-    "3",
-    "4",
-    "5",
-    "6",
-    "7",
-    "8",
-    "9",
-    "10",
-    "11",
-    "12",
-    "13",
     "RepostFormData",
     "DirTitle",
     "DirGoUp",
@@ -9479,6 +9477,19 @@
     "APIDeprecationWarning",
     "ResourceBlockedORB",
     "InvalidHTTPResponseStatusLine"
+  ],
+  "netwerk/netwerk/necko.ftl": [
+    "network-connection-status-looking-up",
+    "network-connection-status-connected",
+    "network-connection-status-sending-request",
+    "network-connection-status-transferring-data",
+    "network-connection-status-connecting",
+    "network-connection-status-read",
+    "network-connection-status-wrote",
+    "network-connection-status-waiting",
+    "network-connection-status-looked-up",
+    "network-connection-status-tls-handshake",
+    "network-connection-status-tls-handshake-finished"
   ],
   "security/manager/chrome/pipnss/nsserrors.properties": [
     "SSL_ERROR_EXPORT_ONLY_SERVER",
