@@ -2331,9 +2331,9 @@
   "browser/browser/newtab/newtab.ftl": [
     "newtab-page-title",
     "newtab-settings-button.title",
-    "newtab-personalize-icon-label.title",
-    "newtab-personalize-icon-label.aria-label",
-    "newtab-personalize-dialog-label.aria-label",
+    "newtab-personalize-settings-icon-label.title",
+    "newtab-personalize-settings-icon-label.aria-label",
+    "newtab-settings-dialog-label.aria-label",
     "newtab-logo-and-wordmark.aria-label",
     "newtab-search-box-search-button.title",
     "newtab-search-box-search-button.aria-label",
