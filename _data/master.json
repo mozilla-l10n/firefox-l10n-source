@@ -4405,7 +4405,17 @@
     "delete-profile-autofill",
     "delete-profile-logins",
     "delete-profile-cancel",
-    "delete-profile-confirm"
+    "delete-profile-confirm",
+    "profiles-marigold-theme",
+    "profiles-lavender-theme",
+    "profiles-lichen-theme",
+    "profiles-magnolia-theme",
+    "profiles-ocean-theme",
+    "profiles-terracotta-theme",
+    "profiles-moss-theme",
+    "profiles-light-theme",
+    "profiles-dark-theme",
+    "profiles-system-theme"
   ],
   "browser/browser/protections.ftl": [
     "graph-week-summary",
