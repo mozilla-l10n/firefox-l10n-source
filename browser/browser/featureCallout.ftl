@@ -75,8 +75,6 @@ sidebar-callout-survey-satisfied = Satisfied
 sidebar-callout-survey-neutral = Neutral
 sidebar-callout-survey-dissatisfied-2 = Dissatisfied
 sidebar-callout-survey-very-dissatisfied-2 = Very dissatisfied
-sidebar-callout-survey-dissatisfied = Unsatisfied
-sidebar-callout-survey-very-dissatisfied = Very unsatisfied
 sidebar-callout-survey-dont-use-it = I don’t use it
 sidebar-callout-survey-productive-question =
     To what extent do you agree or disagree with this statement:<br/>
@@ -89,7 +87,6 @@ sidebar-callout-survey-features-question = The following are potential sidebar f
 sidebar-callout-survey-split-view = View any two websites at once, in a side-by-side split view
 sidebar-callout-survey-keep-website-open = Keep a website, like email or calendar, open in the sidebar as you browse
 sidebar-callout-survey-saved-websites-2 = Quick access to your bookmarks
-sidebar-callout-survey-saved-websites = Quick access to all your saved websites
 sidebar-callout-survey-none-of-above = None of the above
 sidebar-callout-survey-submit = Submit
 sidebar-callout-survey-thank-you = Thank you for your feedback!
