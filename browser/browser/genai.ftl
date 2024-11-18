@@ -135,6 +135,5 @@ genai-onboarding-gemini-price = Free and paid options; account required
 genai-onboarding-huggingchat-generate = Generate text and code
 genai-onboarding-huggingchat-switch = Switch between a diverse set of open models
 genai-onboarding-huggingchat-price-2 = Free; account required after a certain number of requests
-genai-onboarding-huggingchat-price = Free; account required for some tasks
 genai-onboarding-lechat-generate = Generate text and code
 genai-onboarding-lechat-price = Free; account required
