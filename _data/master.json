@@ -9146,7 +9146,6 @@
     "CompositorAnimationWarningOpacityFrameInactive",
     "CompositorAnimationWarningHasRenderingObserver",
     "CompositorAnimationWarningHasCurrentColor",
-    "ZoomPropertyWarning",
     "PrincipalWritingModePropagationWarning",
     "ScrollAnchoringDisabledInContainer",
     "ForcedLayoutStart"
