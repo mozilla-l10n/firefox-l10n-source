@@ -12,11 +12,14 @@ from argparse import ArgumentParser
 from os import walk
 from os.path import commonpath, exists, join, relpath
 from sys import exit
+from typing import Any, cast
 
 from moz.l10n.resource import UnsupportedResource, l10n_equal, parse_resource
+from moz.l10n.resource.data import Resource
+from moz.l10n.resource.l10n_equal import l10n_meta, l10n_sections
 
 
-def diff_tree(a_root: str, b_root: str, ignore: set[str]) -> int:
+def diff_tree(a_root: str, b_root: str, ignore: set[str], verbose: bool) -> int:
     common_root = commonpath((a_root, b_root))
     diff_count = 0
     b_seen: set[str] = set()
@@ -32,8 +35,7 @@ def diff_tree(a_root: str, b_root: str, ignore: set[str]) -> int:
                 if not exists(b_path):
                     print(f"Missing file: {relpath(b_path, common_root)}")
                     diff_count += 1
-                elif not l10n_equal_paths(a_path, b_path):
-                    print(f"Files at {rel_path} differ")
+                elif not l10n_equal_paths(rel_path, a_path, b_path, verbose):
                     diff_count += 1
                 b_seen.add(b_path)
     for dirpath, dirnames, filenames in walk(b_root):
@@ -49,7 +51,7 @@ def diff_tree(a_root: str, b_root: str, ignore: set[str]) -> int:
     return diff_count
 
 
-def l10n_equal_paths(a_path: str, b_path: str) -> bool:
+def l10n_equal_paths(rel_path: str, a_path: str, b_path: str, verbose: bool) -> bool:
     with open(a_path, "rb") as a_file:
         a_bytes = a_file.read()
     with open(b_path, "rb") as b_file:
@@ -76,15 +78,54 @@ def l10n_equal_paths(a_path: str, b_path: str) -> bool:
         print(f"Parse error at {a_path}")
         return False
 
-    return l10n_equal(a_res, b_res)
+    eq = l10n_equal(a_res, b_res)
+    if not eq:
+        print(f"Files at {rel_path} differ")
+        if verbose:
+            for line in HACK_l10n_compare(a_res, b_res):
+                print("  " + line)
+    return eq
+
+
+def HACK_l10n_compare(a: Resource[Any, Any], b: Resource[Any, Any]) -> list[str]:
+    """
+    Hacky diff of L10n resources.
+
+    Abuses `pytest` internal utilities.
+    """
+    try:
+        from _pytest.assertion.util import _compare_eq_any
+    except ImportError:
+        raise SystemExit('pytest is required for verbose diffs')
+
+    def compare(prefix: str, left: Any, right: Any) -> list[str]:
+        highlight = cast(Any, lambda src, lexer=None: src)
+        res = _compare_eq_any(left, right, highlight, 1)
+        if "Full diff:" in res:
+            res = res[res.index("Full diff:") + 1 :]
+        return (
+            [f"{prefix}: {line}" if prefix else line for line in res]
+            if any(line.startswith(("-", "+")) for line in res)
+            else []
+        )
+
+    explanation: list[str] = []
+    explanation.extend(compare("format", a.format, b.format))
+    explanation.extend(compare("comment", a.comment.strip(), b.comment.strip()))
+    explanation.extend(compare("meta", l10n_meta(a), l10n_meta(b)))
+    explanation.extend(compare("", l10n_sections(a), l10n_sections(b)))
+    return explanation
 
 
 if __name__ == "__main__":
     parser = ArgumentParser(description=__doc__)
     parser.add_argument("path", nargs=2, help="Root directories for the comparison")
     parser.add_argument("--ignore", nargs="*", help="Relative paths to ignore")
+    parser.add_argument(
+        "-v", "--verbose", action="store_true", help="Verbose diff (requires pytest)"
+    )
     args = parser.parse_args()
 
     ignore = set(args.ignore) if args.ignore else set()
-    if diff_tree(args.path[0], args.path[1], ignore):
+    if diff_tree(args.path[0], args.path[1], ignore, args.verbose):
         exit(1)
