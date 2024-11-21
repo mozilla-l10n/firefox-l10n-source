@@ -7415,6 +7415,7 @@
     "netmonitor.headers.toolbar.block",
     "netmonitor.headers.address",
     "netmonitor.headers.proxyAddress",
+    "netmonitor.headers.earlyHintsStatus",
     "netmonitor.headers.status",
     "netmonitor.headers.proxyStatus",
     "netmonitor.headers.size",
@@ -12399,6 +12400,7 @@
     "webext-perms-description-tabs",
     "webext-perms-description-tabHide",
     "webext-perms-description-topSites",
+    "webext-perms-description-trialML",
     "webext-perms-description-webNavigation"
   ],
   "toolkit/toolkit/global/extensions.ftl": [
