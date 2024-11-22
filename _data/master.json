@@ -12401,6 +12401,7 @@
     "webext-perms-description-tabHide",
     "webext-perms-description-topSites",
     "webext-perms-description-trialML",
+    "webext-perms-description-userScripts",
     "webext-perms-description-webNavigation"
   ],
   "toolkit/toolkit/global/extensions.ftl": [
