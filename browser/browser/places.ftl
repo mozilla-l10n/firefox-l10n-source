@@ -84,7 +84,7 @@ places-edit-folder2 =
 #   $count (number) - Number of folders to delete
 places-delete-folder =
     .label =
-        { NUMBER($count) ->
+        { $count ->
             [1] Delete Folder
            *[other] Delete Folders
         }
@@ -93,7 +93,7 @@ places-delete-folder =
 #   $count (number) - The number of pages selected for removal.
 places-delete-page =
     .label =
-        { NUMBER($count) ->
+        { $count ->
             [1] Delete Page
            *[other] Delete Pages
         }
@@ -114,7 +114,7 @@ places-show-in-folder =
 # $count (number) - The number of elements being selected for removal.
 places-delete-bookmark =
     .label =
-        { NUMBER($count) ->
+        { $count ->
             [1] Delete Bookmark
            *[other] Delete Bookmarks
         }
@@ -123,7 +123,7 @@ places-delete-bookmark =
 #   $count (number) - The number of bookmarks being added.
 places-create-bookmark =
     .label =
-        { NUMBER($count) ->
+        { $count ->
             [1] Bookmark Page…
            *[other] Bookmark Pages…
         }
@@ -248,7 +248,7 @@ places-details-pane-no-items =
 #   $count (Number): number of items
 places-details-pane-items-count =
     .value =
-        { NUMBER($count) ->
+        { $count ->
             [one] One item
            *[other] { $count } items
         }

@@ -17,7 +17,7 @@ accessibility-progress-initializing = Initializing…
 # Variables:
 #   $nodeCount (Integer) - The number of nodes for which the audit was run so far.
 accessibility-progress-progressbar =
-    { NUMBER($nodeCount) ->
+    { $nodeCount ->
         [one] Checking { $nodeCount } node
        *[other] Checking { $nodeCount } nodes
     }
