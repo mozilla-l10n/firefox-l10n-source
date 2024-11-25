@@ -3597,8 +3597,7 @@
   ],
   "browser/browser/preferences/preferences.ftl": [
     "do-not-track-description",
-    "do-not-track-description2.label",
-    "do-not-track-description2.accesskey",
+    "do-not-track-removal",
     "do-not-track-learn-more",
     "do-not-track-option-default-content-blocking-known.label",
     "do-not-track-option-always.label",

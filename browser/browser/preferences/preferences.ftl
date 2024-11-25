@@ -3,6 +3,7 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 do-not-track-description = Send websites a “Do Not Track” signal that you don’t want to be tracked
+do-not-track-removal = We no longer support the “Do Not Track” signal
 do-not-track-description2 =
     .label = Send websites a “Do Not Track” request
     .accesskey = d
