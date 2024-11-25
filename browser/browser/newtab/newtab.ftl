@@ -280,7 +280,7 @@ newtab-custom-shortcuts-toggle =
 # Variables
 #   $num (number) - Number of rows to display
 newtab-custom-row-selector =
-    { NUMBER($num) ->
+    { $num ->
         [one] { $num } row
        *[other] { $num } rows
     }

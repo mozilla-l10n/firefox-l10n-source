@@ -20,7 +20,7 @@ tabbrowser-container-tab-title = { $title } — { $containerName }
 #   $tabCount (Number): The number of tabs that will be closed.
 tabbrowser-close-tabs-button =
     .tooltiptext =
-        { NUMBER($tabCount) ->
+        { $tabCount ->
             [one] Close tab
            *[other] Close { $tabCount } tabs
         }
@@ -28,7 +28,7 @@ tabbrowser-close-tabs-button =
 #   $tabCount (Number): The number of tabs that will be closed.
 tabbrowser-close-tabs-tooltip =
     .label =
-        { NUMBER($tabCount) ->
+        { $tabCount ->
             [one] Close tab
            *[other] Close { $tabCount } tabs
         }
@@ -41,7 +41,7 @@ tabbrowser-close-tabs-tooltip =
 #   $shortcut (String): The keyboard shortcut for "Mute tab".
 tabbrowser-mute-tab-audio-tooltip =
     .label =
-        { NUMBER($tabCount) ->
+        { $tabCount ->
             [one] Mute tab ({ $shortcut })
            *[other] Mute { $tabCount } tabs ({ $shortcut })
         }
@@ -49,25 +49,25 @@ tabbrowser-mute-tab-audio-tooltip =
 #   $shortcut (String): The keyboard shortcut for "Unmute tab".
 tabbrowser-unmute-tab-audio-tooltip =
     .label =
-        { NUMBER($tabCount) ->
+        { $tabCount ->
             [one] Unmute tab ({ $shortcut })
            *[other] Unmute { $tabCount } tabs ({ $shortcut })
         }
 tabbrowser-mute-tab-audio-background-tooltip =
     .label =
-        { NUMBER($tabCount) ->
+        { $tabCount ->
             [one] Mute tab
            *[other] Mute { $tabCount } tabs
         }
 tabbrowser-unmute-tab-audio-background-tooltip =
     .label =
-        { NUMBER($tabCount) ->
+        { $tabCount ->
             [one] Unmute tab
            *[other] Unmute { $tabCount } tabs
         }
 tabbrowser-unblock-tab-audio-tooltip =
     .label =
-        { NUMBER($tabCount) ->
+        { $tabCount ->
             [one] Play tab
            *[other] Play { $tabCount } tabs
         }
@@ -79,7 +79,7 @@ tabbrowser-unblock-tab-audio-tooltip =
 # Variables:
 #   $tabCount (Number): The number of tabs that will be closed.
 tabbrowser-confirm-close-tabs-title =
-    { NUMBER($tabCount) ->
+    { $tabCount ->
        *[other] Close { $tabCount } tabs?
     }
 tabbrowser-confirm-close-tabs-button = Close tabs
@@ -92,7 +92,7 @@ tabbrowser-confirm-close-tabs-checkbox = Confirm before closing multiple tabs
 # Variables:
 #   $windowCount (Number): The number of windows that will be closed.
 tabbrowser-confirm-close-windows-title =
-    { NUMBER($windowCount) ->
+    { $windowCount ->
        *[other] Close { $windowCount } windows?
     }
 tabbrowser-confirm-close-windows-button =
@@ -116,7 +116,7 @@ tabbrowser-confirm-open-multiple-tabs-title = Confirm open
 # Variables:
 #   $tabCount (Number): The number of tabs that will be opened.
 tabbrowser-confirm-open-multiple-tabs-message =
-    { NUMBER($tabCount) ->
+    { $tabCount ->
        *[other] You are about to open { $tabCount } tabs. This might slow down { -brand-short-name } while the pages are loading. Are you sure you want to continue?
     }
 tabbrowser-confirm-open-multiple-tabs-button = Open tabs
@@ -171,7 +171,7 @@ tabbrowser-tab-audio-playing-description = Playing audio
 #   $tabCount (Number): The number of tabs in the current browser window. It will always be 2 at least.
 tabbrowser-ctrl-tab-list-all-tabs =
     .label =
-        { NUMBER($tabCount) ->
+        { $tabCount ->
            *[other] List All { $tabCount } Tabs
         }
 

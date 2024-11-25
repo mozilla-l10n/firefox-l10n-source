@@ -189,7 +189,7 @@ downloads-details =
 ##   $url (string) - The url of the suspicious site, stripped of http, https and www prefix.
 
 downloads-files-not-downloaded =
-    { NUMBER($num) ->
+    { $num ->
         [one] File not downloaded.
        *[other] { $num } files not downloaded.
     }
@@ -213,7 +213,7 @@ downloads-panel-empty =
 #   $count (number) - number of files being downloaded that are not shown in the
 #                     panel list.
 downloads-more-downloading =
-    { NUMBER($count) ->
+    { $count ->
         [one] { $count } more file downloading
        *[other] { $count } more files downloading
     }
