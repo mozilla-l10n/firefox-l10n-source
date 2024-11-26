@@ -64,7 +64,7 @@ unified-extensions-mb-blocklist-error-single =
 #   $extensionsCount (Number) - Number of extensions disabled through both soft and hard-blocks (always going to be greater than 1)
 unified-extensions-mb-blocklist-warning-multiple =
     .heading =
-        { NUMBER($extensionsCount) ->
+        { $extensionsCount ->
            *[other] { $extensionsCount } extensions disabled
         }
     .message =
@@ -74,7 +74,7 @@ unified-extensions-mb-blocklist-warning-multiple =
 #   $extensionsCount (Number) - Number of extensions disabled through hard-blocks.
 unified-extensions-mb-blocklist-error-multiple =
     .heading =
-        { NUMBER($extensionsCount) ->
+        { $extensionsCount ->
            *[other] { $extensionsCount } extensions disabled
         }
     .message = Some of your extensions have been disabled for violating Mozilla’s policies.
