@@ -155,6 +155,17 @@ ctrl-tab-recently-used-order =
 open-new-link-as-tabs =
     .label = Open links in tabs instead of new windows
     .accesskey = w
+ask-on-close-multiple-tabs =
+    .label = Ask before closing multiple tabs
+    .accesskey = m
+# This string is used for the confirm before quitting preference.
+# Variables:
+#   $quitKey (string) - the quit keyboard shortcut, and formatted
+#                       in the same manner as it would appear,
+#                       for example, in the File menu.
+ask-on-quit-with-key =
+    .label = Ask before quitting with { $quitKey }
+    .accesskey = b
 confirm-on-close-multiple-tabs =
     .label = Confirm before closing multiple tabs
     .accesskey = m
