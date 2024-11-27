@@ -4776,7 +4776,10 @@
     "searchbar-input.placeholder",
     "searchbar-icon.tooltiptext",
     "removed-search-engine-message2",
-    "remove-search-engine-button"
+    "remove-search-engine-button",
+    "install-search-engine",
+    "install-search-engine-add",
+    "install-search-engine-no"
   ],
   "browser/browser/setDesktopBackground.ftl": [
     "set-desktop-background-window.title",
@@ -5215,7 +5218,22 @@
     "tab-group-editor-name-label",
     "tab-group-editor-name-field.placeholder",
     "tab-group-editor-cancel.label",
-    "tab-group-editor-cancel.accesskey"
+    "tab-group-editor-cancel.accesskey",
+    "tab-context-unnamed-group.label",
+    "tab-context-move-tab-to-new-group.label",
+    "tab-context-move-tab-to-new-group.accesskey",
+    "tab-context-move-tab-to-group.label",
+    "tab-context-move-tab-to-group.accesskey",
+    "tab-group-editor-action-new-tab.label",
+    "tab-group-editor-action-new-window.label",
+    "tab-group-editor-action-save.label",
+    "tab-group-editor-action-ungroup.label",
+    "tab-group-editor-action-delete.label",
+    "tab-group-editor-done.label",
+    "tab-group-editor-done.accessKey",
+    "tab-context-reopen-tab-group.label",
+    "tab-context-ungroup-tab.label",
+    "tab-context-ungroup-tab.accesskey"
   ],
   "browser/browser/textRecognition.ftl": [
     "text-recognition-modal-searching-title",
