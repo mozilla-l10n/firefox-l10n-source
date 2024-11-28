@@ -1179,8 +1179,8 @@
     "main-context-menu-copy-phone.accesskey",
     "main-context-menu-copy-link-simple.label",
     "main-context-menu-copy-link-simple.accesskey",
-    "main-context-menu-strip-on-share-link.label",
-    "main-context-menu-strip-on-share-link.accesskey",
+    "main-context-menu-copy-clean-link.label",
+    "main-context-menu-copy-clean-link.accesskey",
     "main-context-menu-media-play.label",
     "main-context-menu-media-play.accesskey",
     "main-context-menu-media-pause.label",
@@ -12301,7 +12301,8 @@
     "notification-default-dismiss"
   ],
   "toolkit/toolkit/global/antiTracking.ftl": [
-    "btp-warning-tracker-classified"
+    "btp-warning-tracker-classified",
+    "btp-warning-tracker-purged"
   ],
   "toolkit/toolkit/global/appPicker.ftl": [
     "app-picker-browse-button.buttonlabelextra2",
@@ -12619,8 +12620,8 @@
     "text-action-copy.label",
     "text-action-copy.accesskey",
     "text-action-copy-shortcut.key",
-    "text-action-strip-on-share.label",
-    "text-action-strip-on-share.accesskey",
+    "text-action-copy-clean-link.label",
+    "text-action-copy-clean-link.accesskey",
     "text-action-paste.label",
     "text-action-paste.accesskey",
     "text-action-paste-no-formatting.label",
