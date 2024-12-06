@@ -3601,11 +3601,8 @@
     "permissions-doh-remove-all.accesskey"
   ],
   "browser/browser/preferences/preferences.ftl": [
-    "do-not-track-description",
     "do-not-track-removal",
     "do-not-track-learn-more",
-    "do-not-track-option-default-content-blocking-known.label",
-    "do-not-track-option-always.label",
     "global-privacy-control-description.label",
     "global-privacy-control-description.accesskey",
     "non-technical-privacy-header",
