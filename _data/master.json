@@ -520,8 +520,6 @@
     "appmenu-update-other-instance.secondarybuttonlabel",
     "appmenu-update-other-instance.secondarybuttonaccesskey",
     "appmenu-update-other-instance-message",
-    "appmenu-addon-private-browsing-installed2.buttonlabel",
-    "appmenu-addon-private-browsing-installed2.buttonaccesskey",
     "appmenu-addon-post-install-message3",
     "appmenu-addon-post-install-incognito-checkbox.label",
     "appmenu-addon-post-install-incognito-checkbox.accesskey",
@@ -4410,7 +4408,7 @@
     "default-bookmarks-planet"
   ],
   "browser/browser/profiles.ftl": [
-    "profile-window-title",
+    "profile-window-title-2",
     "profile-window-heading",
     "profile-window-body",
     "profile-window-checkbox-label.label",
@@ -12569,8 +12567,8 @@
   "toolkit/toolkit/global/popupnotification.ftl": [
     "popup-notification-learn-more",
     "popup-notification-more-actions-button.aria-label",
-    "popup-notification-default-button.label",
-    "popup-notification-default-button.accesskey"
+    "popup-notification-default-button2.label",
+    "popup-notification-default-button2.accesskey"
   ],
   "toolkit/toolkit/global/processTypes.ftl": [
     "process-type-web",
