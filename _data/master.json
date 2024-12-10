@@ -520,8 +520,6 @@
     "appmenu-update-other-instance.secondarybuttonlabel",
     "appmenu-update-other-instance.secondarybuttonaccesskey",
     "appmenu-update-other-instance-message",
-    "appmenu-addon-private-browsing-installed2.buttonlabel",
-    "appmenu-addon-private-browsing-installed2.buttonaccesskey",
     "appmenu-addon-post-install-message3",
     "appmenu-addon-post-install-incognito-checkbox.label",
     "appmenu-addon-post-install-incognito-checkbox.accesskey",
@@ -950,6 +948,7 @@
     "urlbar-result-action-search-history",
     "urlbar-result-action-search-tabs",
     "urlbar-result-action-search-actions",
+    "urlbar-result-action-search-tabgroups",
     "urlbar-group-firefox-suggest.label",
     "urlbar-group-search-suggestions.label",
     "urlbar-group-quickactions.label",
@@ -1624,12 +1623,39 @@
     "firefox-relay-opt-in-title-1",
     "firefox-relay-opt-in-subtitle-1",
     "firefox-relay-use-mask-title",
+    "firefox-relay-opt-in-title-a",
+    "firefox-relay-opt-in-subtitle-a",
+    "firefox-relay-opt-in-title-b",
+    "firefox-relay-opt-in-subtitle-b",
     "firefox-relay-opt-in-confirmation-enable-button.label",
     "firefox-relay-opt-in-confirmation-enable-button.accesskey",
     "firefox-relay-opt-in-confirmation-disable.label",
     "firefox-relay-opt-in-confirmation-disable.accesskey",
     "firefox-relay-opt-in-confirmation-postpone.label",
-    "firefox-relay-opt-in-confirmation-postpone.accesskey"
+    "firefox-relay-opt-in-confirmation-postpone.accesskey",
+    "firefox-relay-offer-what-fxa-and-relay-provides",
+    "firefox-relay-and-fxa-opt-in-confirmation-enable-button.label",
+    "firefox-relay-and-fxa-opt-in-confirmation-enable-button.accesskey",
+    "firefox-relay-and-fxa-opt-in-confirmation-disable.label",
+    "firefox-relay-and-fxa-opt-in-confirmation-disable.accesskey",
+    "firefox-relay-and-fxa-opt-in-confirmation-postpone.label",
+    "firefox-relay-and-fxa-opt-in-confirmation-postpone.accesskey",
+    "firefox-relay-and-fxa-popup-notification-header-basic-info",
+    "firefox-relay-and-fxa-popup-notification-first-sentence-basic-info",
+    "firefox-relay-and-fxa-popup-notification-second-sentence-basic-info",
+    "firefox-relay-and-fxa-opt-in-confirmation-enable-button-basic-info.label",
+    "firefox-relay-and-fxa-opt-in-confirmation-enable-button-basic-info.accesskey",
+    "firefox-relay-and-fxa-popup-notification-header-with-domain",
+    "firefox-relay-and-fxa-popup-notification-first-sentence-with-domain",
+    "firefox-relay-and-fxa-popup-notification-second-sentence-with-domain",
+    "firefox-relay-and-fxa-opt-in-confirmation-enable-button-with-domain.label",
+    "firefox-relay-and-fxa-opt-in-confirmation-enable-button-with-domain.accesskey",
+    "firefox-relay-and-fxa-popup-notification-header-with-domain-and-value-prop",
+    "firefox-relay-and-fxa-popup-notification-first-sentence-with-domain-and-value-prop",
+    "firefox-relay-and-fxa-popup-notification-second-sentence-with-domain-and-value-prop",
+    "firefox-relay-offer-legal-notice-with-domain-and-value-prop",
+    "firefox-relay-and-fxa-opt-in-confirmation-enable-button-with-domain-and-value-prop.label",
+    "firefox-relay-and-fxa-opt-in-confirmation-enable-button-with-domain-and-value-prop.accesskey"
   ],
   "browser/browser/firefoxView.ftl": [
     "toolbar-button-firefox-view-2.label",
@@ -1845,6 +1871,10 @@
     "genai-menu-ask-provider.label",
     "genai-input-ask-generic.placeholder",
     "genai-input-ask-provider.placeholder",
+    "genai-shortcuts-selected-warning-generic.heading",
+    "genai-shortcuts-selected-warning-generic.message",
+    "genai-shortcuts-selected-warning.heading",
+    "genai-shortcuts-selected-warning.message",
     "genai-shortcuts-hide.label",
     "genai-chatbot-title",
     "genai-header-provider-menu.title",
@@ -3601,11 +3631,8 @@
     "permissions-doh-remove-all.accesskey"
   ],
   "browser/browser/preferences/preferences.ftl": [
-    "do-not-track-description",
     "do-not-track-removal",
     "do-not-track-learn-more",
-    "do-not-track-option-default-content-blocking-known.label",
-    "do-not-track-option-always.label",
     "global-privacy-control-description.label",
     "global-privacy-control-description.accesskey",
     "non-technical-privacy-header",
@@ -4385,7 +4412,7 @@
     "default-bookmarks-planet"
   ],
   "browser/browser/profiles.ftl": [
-    "profile-window-title",
+    "profile-window-title-2",
     "profile-window-heading",
     "profile-window-body",
     "profile-window-checkbox-label.label",
@@ -12522,7 +12549,8 @@
     "input-file-and-more-files"
   ],
   "toolkit/toolkit/global/mozFiveStar.ftl": [
-    "moz-five-star-rating.title"
+    "moz-five-star-rating.title",
+    "moz-five-star-rating-rate-text.title"
   ],
   "toolkit/toolkit/global/mozMessageBar.ftl": [
     "moz-message-bar-icon-info.alt",
@@ -12544,8 +12572,8 @@
   "toolkit/toolkit/global/popupnotification.ftl": [
     "popup-notification-learn-more",
     "popup-notification-more-actions-button.aria-label",
-    "popup-notification-default-button.label",
-    "popup-notification-default-button.accesskey"
+    "popup-notification-default-button2.label",
+    "popup-notification-default-button2.accesskey"
   ],
   "toolkit/toolkit/global/processTypes.ftl": [
     "process-type-web",
