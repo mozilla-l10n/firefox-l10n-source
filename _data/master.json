@@ -12545,7 +12545,8 @@
     "input-file-and-more-files"
   ],
   "toolkit/toolkit/global/mozFiveStar.ftl": [
-    "moz-five-star-rating.title"
+    "moz-five-star-rating.title",
+    "moz-five-star-rating-rate-text.title"
   ],
   "toolkit/toolkit/global/mozMessageBar.ftl": [
     "moz-message-bar-icon-info.alt",
