@@ -1868,6 +1868,8 @@
     "genai-prompts-quiz.value",
     "genai-prompts-explain.label",
     "genai-prompts-explain.value",
+    "genai-prompts-proofread.label",
+    "genai-prompts-proofread.value",
     "genai-menu-ask-generic.label",
     "genai-menu-ask-provider.label",
     "genai-input-ask-generic.placeholder",
@@ -2595,7 +2597,10 @@
     "newtab-topic-selection-button-maybe-later",
     "newtab-topic-selection-privacy-link",
     "newtab-topic-selection-button-update-interests",
-    "newtab-topic-selection-button-pick-interests"
+    "newtab-topic-selection-button-pick-interests",
+    "newtab-section-follow-button",
+    "newtab-section-following-button",
+    "newtab-section-unfollow-button"
   ],
   "browser/browser/newtab/onboarding.ftl": [
     "onboarding-welcome-header",
