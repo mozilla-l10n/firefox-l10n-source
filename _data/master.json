@@ -942,7 +942,7 @@
     "urlbar-result-action-search-history",
     "urlbar-result-action-search-tabs",
     "urlbar-result-action-search-actions",
-    "urlbar-result-action-search-tabgroups",
+    "urlbar-result-action-switch-to-tabgroup",
     "urlbar-group-firefox-suggest.label",
     "urlbar-group-search-suggestions.label",
     "urlbar-group-quickactions.label",
@@ -2429,6 +2429,7 @@
     "newtab-menu-show-privacy-info",
     "newtab-menu-about-fakespot",
     "newtab-menu-section-block",
+    "newtab-menu-section-unfollow",
     "newtab-privacy-modal-button-done",
     "newtab-privacy-modal-button-manage",
     "newtab-privacy-modal-header",
@@ -2750,7 +2751,9 @@
     "onboarding-checklist-pin",
     "onboarding-checklist-import",
     "onboarding-checklist-extension",
-    "onboarding-checklist-sign-up"
+    "onboarding-checklist-sign-up",
+    "tab-groups-onboarding-feature-callout-title",
+    "tab-groups-onboarding-feature-callout-subtitle"
   ],
   "browser/browser/originControls.ftl": [
     "origin-controls-no-access.label",
@@ -12694,6 +12697,8 @@
     "text-action-paste-shortcut.key",
     "text-action-delete.label",
     "text-action-delete.accesskey",
+    "text-action-reveal-password.label",
+    "text-action-reveal-password.accesskey",
     "text-action-select-all.label",
     "text-action-select-all.accesskey",
     "text-action-select-all-shortcut.key",
