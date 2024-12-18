@@ -2753,7 +2753,13 @@
     "onboarding-checklist-extension",
     "onboarding-checklist-sign-up",
     "tab-groups-onboarding-feature-callout-title",
-    "tab-groups-onboarding-feature-callout-subtitle"
+    "tab-groups-onboarding-feature-callout-subtitle",
+    "multi-profile-spotlight-title",
+    "multi-profile-spotlight-body",
+    "multi-profile-spotlight-cta",
+    "multi-profile-callout-title",
+    "multi-profile-callout-subtitle",
+    "multi-profile-callout-cta"
   ],
   "browser/browser/originControls.ftl": [
     "origin-controls-no-access.label",
