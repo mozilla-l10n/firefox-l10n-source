@@ -2602,7 +2602,11 @@
     "newtab-topic-selection-button-pick-interests",
     "newtab-section-follow-button",
     "newtab-section-following-button",
-    "newtab-section-unfollow-button"
+    "newtab-section-unfollow-button",
+    "newtab-section-confirm-block-section-p1",
+    "newtab-section-confirm-block-section-p2",
+    "newtab-section-block-section-button",
+    "newtab-section-cancel-button"
   ],
   "browser/browser/newtab/onboarding.ftl": [
     "onboarding-welcome-header",
