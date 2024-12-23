@@ -12527,7 +12527,9 @@
     "webext-perms-description-topSites",
     "webext-perms-description-trialML",
     "webext-perms-description-userScripts",
-    "webext-perms-description-webNavigation"
+    "webext-perms-description-webNavigation",
+    "webext-perms-extra-warning-userScripts-long",
+    "webext-perms-extra-warning-userScripts-short"
   ],
   "toolkit/toolkit/global/extensions.ftl": [
     "webext-perms-header",
