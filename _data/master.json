@@ -13528,7 +13528,8 @@
     "certerror-mitm-what-can-you-do-about-it-attack",
     "certerror-mitm-what-can-you-do-about-it-attack-sts",
     "certerror-what-should-i-do-bad-sts-cert-explanation",
-    "cert-error-trust-certificate-transparency-what-can-you-do-about-it"
+    "cert-error-trust-certificate-transparency-what-can-you-do-about-it",
+    "neterror-response-status-code"
   ],
   "toolkit/toolkit/neterror/nsserrors.ftl": [
     "psmerr-ssl-disabled",
