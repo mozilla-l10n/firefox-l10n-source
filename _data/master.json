@@ -9418,6 +9418,7 @@
     "notSupportingDirective",
     "blockAllMixedContent",
     "ignoringDirectiveWithNoValues",
+    "ignoringInvalidGroupSyntax",
     "ignoringReportOnlyDirective",
     "IgnoringSrcBecauseOfDirective",
     "IgnoringSourceWithinDirective",
