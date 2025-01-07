@@ -7614,6 +7614,8 @@
     "netmonitor.context.copyAll.accesskey",
     "netmonitor.context.copyAllAsHar",
     "netmonitor.context.copyAllAsHar.accesskey",
+    "netmonitor.context.saveAsHar",
+    "netmonitor.context.saveAsHar.accesskey",
     "netmonitor.context.saveAllAsHar",
     "netmonitor.context.saveAllAsHar.accesskey",
     "netmonitor.context.importHar.accesskey",
