@@ -3086,7 +3086,9 @@
     "places-bookmarks-restore-format-error",
     "places-bookmarks-restore-parse-error",
     "places-bookmarks-import",
-    "places-bookmarks-export"
+    "places-bookmarks-export",
+    "places-bookmarks-paste-error-title",
+    "places-bookmarks-paste-error-message-header"
   ],
   "browser/browser/policies/policies-descriptions.ftl": [
     "policy-3rdparty",
