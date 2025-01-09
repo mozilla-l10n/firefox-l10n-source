@@ -3086,7 +3086,9 @@
     "places-bookmarks-restore-format-error",
     "places-bookmarks-restore-parse-error",
     "places-bookmarks-import",
-    "places-bookmarks-export"
+    "places-bookmarks-export",
+    "places-bookmarks-paste-error-title",
+    "places-bookmarks-paste-error-message-header"
   ],
   "browser/browser/policies/policies-descriptions.ftl": [
     "policy-3rdparty",
@@ -7614,6 +7616,8 @@
     "netmonitor.context.copyAll.accesskey",
     "netmonitor.context.copyAllAsHar",
     "netmonitor.context.copyAllAsHar.accesskey",
+    "netmonitor.context.saveAsHar",
+    "netmonitor.context.saveAsHar.accesskey",
     "netmonitor.context.saveAllAsHar",
     "netmonitor.context.saveAllAsHar.accesskey",
     "netmonitor.context.importHar.accesskey",
@@ -9418,6 +9422,7 @@
     "notSupportingDirective",
     "blockAllMixedContent",
     "ignoringDirectiveWithNoValues",
+    "ignoringInvalidGroupSyntax",
     "ignoringReportOnlyDirective",
     "IgnoringSrcBecauseOfDirective",
     "IgnoringSourceWithinDirective",
@@ -13875,8 +13880,6 @@
     "password-manager-update-password-button-deny.label",
     "password-manager-update-password-button-deny.accesskey",
     "password-manager-no-username-placeholder",
-    "password-manager-toggle-password.label",
-    "password-manager-toggle-password.accesskey",
     "password-manager-confirm-password-change",
     "password-manager-select-username"
   ],
