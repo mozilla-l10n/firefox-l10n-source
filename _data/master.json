@@ -2675,6 +2675,8 @@
     "mr2022-onboarding-easy-setup-primary-button-label",
     "mr2022-onboarding-easy-setup-set-default-checkbox-label",
     "mr2022-onboarding-easy-setup-import-checkbox-label",
+    "mr2022-onboarding-welcome-pin-header",
+    "mr2022-onboarding-welcome-pin-subtitle",
     "mr2022-onboarding-pin-primary-button-label",
     "mr2022-onboarding-pin-primary-button-label-msix",
     "mr2022-onboarding-existing-pin-header",
@@ -5327,7 +5329,12 @@
     "tab-group-editor-done.accessKey",
     "tab-context-reopen-tab-group.label",
     "tab-context-ungroup-tab.label",
-    "tab-context-ungroup-tab.accesskey"
+    "tab-context-ungroup-tab.accesskey",
+    "tab-group-context-move-to-new-window.label",
+    "tab-group-context-move-to-this-window.label",
+    "tab-group-context-delete.label",
+    "tab-group-context-open-saved-group-in-this-window.label",
+    "tab-group-context-open-saved-group-in-new-window.label"
   ],
   "browser/browser/textRecognition.ftl": [
     "text-recognition-modal-searching-title",
