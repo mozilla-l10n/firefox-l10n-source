@@ -1364,7 +1364,6 @@
     "bidi-switch-direction-shortcut.key",
     "private-browsing-shortcut.key",
     "quit-app-shortcut.key",
-    "help-shortcut.key",
     "preferences-shortcut.key",
     "hide-app-shortcut.key",
     "hide-other-apps-shortcut.key"
@@ -8793,6 +8792,10 @@
     "OnBeforeUnloadLeaveButton",
     "OnBeforeUnloadPDFjsTitle",
     "OnBeforeUnloadPDFjsMessage",
+    "OnBeforeUnloadAboutNewProfileTitle",
+    "OnBeforeUnloadAboutNewProfileMessage",
+    "OnBeforeUnloadAboutNewProfileLeaveButton",
+    "OnBeforeUnloadAboutNewProfileStayButton",
     "EmptyGetElementByIdParam",
     "SpeculationFailed2",
     "DocumentWriteIgnored",
