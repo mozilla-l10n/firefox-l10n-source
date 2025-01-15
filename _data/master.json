@@ -7685,7 +7685,9 @@
   ],
   "devtools/client/network-throttling.properties": [
     "responsive.noThrottling",
-    "throttling.profile.description"
+    "responsive.offline",
+    "throttling.profile.description",
+    "throttling.profile.label"
   ],
   "devtools/client/perftools.ftl": [
     "perftools-intro-title",
@@ -9488,7 +9490,7 @@
     "MalformedIntegrityHash",
     "InvalidIntegrityLength",
     "InvalidIntegrityBase64",
-    "IntegrityMismatch2",
+    "IntegrityMismatch3",
     "IneligibleResource",
     "UnsupportedHashAlg",
     "NoValidMetadata",
