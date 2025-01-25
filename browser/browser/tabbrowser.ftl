@@ -219,6 +219,10 @@ tabbrowser-manager-closed-tab-group =
 tabbrowser-manager-current-window-tab-group =
     .label = { $tabGroupName }
     .tooltiptext = { $tabGroupName } — Current window
+# "Show more" is for showing all open groups from other windows, as well as saved groups. Initially,
+# we only show up to six of these groups.
+tabbrowser-manager-tab-groups-show-more =
+    .label = Show more
 
 ## Tab Groups
 
@@ -232,6 +236,24 @@ tab-group-editor-cancel =
     .accesskey = C
 tab-group-editor-color-selector =
     .aria-label = Tab group color
+tab-group-editor-color-selector2-blue = Blue
+    .title = Blue
+tab-group-editor-color-selector2-purple = Purple
+    .title = Purple
+tab-group-editor-color-selector2-cyan = Cyan
+    .title = Cyan
+tab-group-editor-color-selector2-orange = Orange
+    .title = Orange
+tab-group-editor-color-selector2-yellow = Yellow
+    .title = Yellow
+tab-group-editor-color-selector2-pink = Pink
+    .title = Pink
+tab-group-editor-color-selector2-green = Green
+    .title = Green
+tab-group-editor-color-selector2-gray = Gray
+    .title = Gray
+tab-group-editor-color-selector2-red = Red
+    .title = Red
 tab-group-editor-color-selector-blue = Blue
 tab-group-editor-color-selector-purple = Purple
 tab-group-editor-color-selector-cyan = Cyan
