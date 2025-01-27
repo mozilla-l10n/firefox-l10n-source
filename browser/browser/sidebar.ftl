@@ -168,18 +168,6 @@ show-sidebars =
 
 ## Tooltips for the sidebar toolbar widget.
 
-sidebar-widget-expand-sidebar =
-    .tooltiptext = Expand sidebar
-    .label = Sidebars
-sidebar-widget-collapse-sidebar =
-    .tooltiptext = Collapse sidebar
-    .label = Sidebars
-sidebar-widget-show-sidebar =
-    .tooltiptext = Show sidebar
-    .label = Sidebars
-sidebar-widget-hide-sidebar =
-    .tooltiptext = Hide sidebar
-    .label = Sidebars
 # Variables:
 #   $shortcut (String) - The OS specific keyboard shortcut.
 sidebar-widget-expand-sidebar2 =
