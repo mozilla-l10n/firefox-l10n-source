@@ -9148,7 +9148,8 @@
     "InstallTriggerInstallDeprecatedWarning",
     "SelectOptionsLengthAssignmentWarning",
     "InvalidFormControlUnfocusable",
-    "InvalidNamedFormControlUnfocusable"
+    "InvalidNamedFormControlUnfocusable",
+    "SectioningH1WithNoFontSizeOrMargins"
   ],
   "dom/chrome/global-strres.properties": [
     "16389"
@@ -11017,8 +11018,7 @@
     "addon-detail-update-check-label",
     "install-update-button",
     "addon-detail-group-label-updates.aria-label",
-    "addon-badge-private-browsing-allowed2.title",
-    "addon-badge-private-browsing-allowed2.aria-label",
+    "addon-badge-private-browsing-allowed3.title",
     "addon-detail-private-browsing-help",
     "addon-detail-private-browsing-allow",
     "addon-detail-private-browsing-disallow",
@@ -11028,12 +11028,9 @@
     "addon-detail-quarantined-domains-allow",
     "addon-detail-quarantined-domains-disallow",
     "addon-detail-group-label-quarantined-domains.aria-label",
-    "addon-badge-recommended2.title",
-    "addon-badge-recommended2.aria-label",
-    "addon-badge-line3.title",
-    "addon-badge-line3.aria-label",
-    "addon-badge-verified2.title",
-    "addon-badge-verified2.aria-label",
+    "addon-badge-recommended3.title",
+    "addon-badge-line4.title",
+    "addon-badge-verified3.title",
     "available-updates-heading",
     "recent-updates-heading",
     "release-notes-loading",
