@@ -12434,8 +12434,6 @@
   "toolkit/toolkit/featuregates/features.ftl": [
     "experimental-features-css-masonry2.label",
     "experimental-features-css-masonry-description",
-    "experimental-features-web-gpu2.label",
-    "experimental-features-web-gpu-description3",
     "experimental-features-media-jxl.label",
     "experimental-features-media-jxl-description",
     "experimental-features-webrtc-global-mute-toggles.label",
