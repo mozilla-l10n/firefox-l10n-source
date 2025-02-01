@@ -3566,6 +3566,7 @@
     "more-from-moz-subtitle",
     "more-from-moz-firefox-mobile-title",
     "more-from-moz-firefox-mobile-description",
+    "more-from-moz-firefox-mobile-title-1",
     "more-from-moz-mozilla-vpn-title",
     "more-from-moz-mozilla-vpn-description",
     "more-from-moz-qr-code-box-firefox-mobile-title",
@@ -3579,7 +3580,10 @@
     "more-from-moz-mozilla-monitor-title",
     "more-from-moz-mozilla-monitor-us-description",
     "more-from-moz-mozilla-monitor-global-description",
-    "more-from-moz-mozilla-monitor-button"
+    "more-from-moz-mozilla-monitor-button",
+    "more-from-moz-solo-title",
+    "more-from-moz-solo-description",
+    "more-from-moz-solo-button"
   ],
   "browser/browser/preferences/permissions.ftl": [
     "permissions-window2.title",
@@ -12343,6 +12347,7 @@
     "-relay-brand-name",
     "-relay-brand-short-name",
     "-fakespot-brand-name",
+    "-solo-ai-brand-name",
     "-fakespot-website-name",
     "-fakespot-brand-full-name",
     "-firefox-suggest-brand-name",
