@@ -6618,7 +6618,7 @@
   "devtools/client/changes.properties": [
     "changes.noChanges",
     "changes.noChangesDescription",
-    "changes.inlineStyleSheetLabel",
+    "changes.inlineStyleSheetLabel2",
     "changes.elementStyleLabel",
     "changes.iframeLabel",
     "changes.contextmenu.copy",
@@ -12445,8 +12445,7 @@
     "experimental-features-auto-pip-description",
     "experimental-features-group-developer-tools.label",
     "experimental-features-group-webpage-display.label",
-    "experimental-features-group-customize-browsing.label",
-    "experimental-features-group-customize-browsing-description"
+    "experimental-features-group-customize-browsing.label"
   ],
   "toolkit/toolkit/formautofill/formAutofill.ftl": [
     "autofill-use-payment-method-os-prompt-macos",
