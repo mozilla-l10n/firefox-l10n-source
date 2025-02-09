@@ -474,7 +474,8 @@
     "all-tabs-menu-new-user-context.label",
     "all-tabs-menu-hidden-tabs.label",
     "all-tabs-menu-close-all-duplicate-tabs.label",
-    "all-tabs-menu-synced-tabs.label"
+    "all-tabs-menu-synced-tabs.label",
+    "all-tabs-menu-current-window-header"
   ],
   "browser/browser/appExtensionFields.ftl": [
     "extension-default-theme-name-auto",
