@@ -474,7 +474,8 @@
     "all-tabs-menu-new-user-context.label",
     "all-tabs-menu-hidden-tabs.label",
     "all-tabs-menu-close-all-duplicate-tabs.label",
-    "all-tabs-menu-synced-tabs.label"
+    "all-tabs-menu-synced-tabs.label",
+    "all-tabs-menu-current-window-header"
   ],
   "browser/browser/appExtensionFields.ftl": [
     "extension-default-theme-name-auto",
@@ -517,8 +518,6 @@
     "appmenu-theme-installed.secondarybuttonlabel",
     "appmenu-theme-installed.secondarybuttonaccesskey",
     "appmenu-addon-post-install-message3",
-    "appmenu-addon-post-install-incognito-checkbox.label",
-    "appmenu-addon-post-install-incognito-checkbox.accesskey",
     "appmenu-new-tab-controlled-changes.label",
     "appmenu-new-tab-controlled-changes.buttonlabel",
     "appmenu-new-tab-controlled-changes.buttonaccesskey",
@@ -2652,9 +2651,6 @@
     "mr1-onboarding-theme-header",
     "mr1-onboarding-theme-subtitle",
     "mr1-onboarding-theme-secondary-button-label",
-    "newtab-wallpaper-onboarding-title",
-    "newtab-wallpaper-onboarding-subtitle",
-    "newtab-wallpaper-onboarding-primary-button-label",
     "mr1-onboarding-theme-label-system",
     "mr1-onboarding-theme-label-light",
     "mr1-onboarding-theme-label-dark",
@@ -8611,6 +8607,7 @@
     "rule.flexToggle.tooltip",
     "rule.gridToggle.tooltip",
     "rule.shapeToggle.tooltip",
+    "rule.shorthandExpander.tooltip",
     "rule.filterStyles.placeholder",
     "rule.addRule.tooltip",
     "rule.togglePseudo.tooltip",
