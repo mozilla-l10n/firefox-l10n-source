@@ -1887,6 +1887,8 @@
     "genai-prompts-proofread.value",
     "genai-menu-ask-generic.label",
     "genai-menu-ask-provider.label",
+    "genai-menu-remove-generic.label",
+    "genai-menu-remove-provider.label",
     "genai-input-ask-generic.placeholder",
     "genai-input-ask-provider.placeholder",
     "genai-shortcuts-selected-warning-generic.heading",
