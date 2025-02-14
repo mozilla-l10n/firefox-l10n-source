@@ -475,7 +475,8 @@
     "all-tabs-menu-hidden-tabs.label",
     "all-tabs-menu-close-all-duplicate-tabs.label",
     "all-tabs-menu-synced-tabs.label",
-    "all-tabs-menu-current-window-header"
+    "all-tabs-menu-current-window-header",
+    "all-tabs-menu-tab-groups-show-all.label"
   ],
   "browser/browser/appExtensionFields.ftl": [
     "extension-default-theme-name-auto",
@@ -937,6 +938,8 @@
     "urlbar-result-action-copy-to-clipboard",
     "urlbar-result-action-calculator-result",
     "urlbar-result-action-undefined-calculator-result",
+    "urlbar-result-action-calculator-result-2",
+    "urlbar-result-action-calculator-result-scientific-notation",
     "urlbar-searchmode-button2.label",
     "urlbar-searchmode-button2.tooltiptext",
     "urlbar-searchmode-button-no-engine.label",
@@ -5376,7 +5379,6 @@
     "tabbrowser-manager-closed-tab-group.tooltiptext",
     "tabbrowser-manager-current-window-tab-group.label",
     "tabbrowser-manager-current-window-tab-group.tooltiptext",
-    "tabbrowser-manager-tab-groups-show-more.label",
     "tab-group-menu-header",
     "tab-group-name-default",
     "tab-group-editor-title-create",
@@ -7064,7 +7066,15 @@
     "fontinspector.lineHeightLabelCapitalized",
     "fontinspector.allFontsOnPageHeader",
     "fontinspector.fontsUsedLabel",
-    "fontinspector.previewTextPlaceholder"
+    "fontinspector.previewTextPlaceholder",
+    "fontinspector.fontVersion",
+    "fontinspector.fontDesigner",
+    "fontinspector.fontManufacturer",
+    "fontinspector.fontVendor",
+    "fontinspector.fontDescription",
+    "fontinspector.fontLicense",
+    "fontinspector.fontLicenseInfoUrl",
+    "fontinspector.showFullText"
   ],
   "devtools/client/har.properties": [
     "har.responseBodyNotIncluded",
@@ -10830,9 +10840,11 @@
     "crashreporter-view-report-title",
     "crashreporter-comment-prompt",
     "crashreporter-report-info",
-    "crashreporter-send-report",
-    "crashreporter-include-url",
+    "crashreporter-checkbox-test-hardware",
+    "crashreporter-checkbox-send-report",
+    "crashreporter-checkbox-include-url",
     "crashreporter-submit-status",
+    "crashreporter-submit-waiting-hardware-tests",
     "crashreporter-submit-in-progress",
     "crashreporter-submit-success",
     "crashreporter-submit-failure",
@@ -12862,7 +12874,10 @@
     "text-action-spell-dictionaries.label",
     "text-action-spell-dictionaries.accesskey",
     "text-action-search-text-box-clear.title",
-    "text-action-highlight-selection.label"
+    "text-action-highlight-selection.label",
+    "text-action-copy-link-to-highlight.label",
+    "text-action-copy-clean-link-to-highlight.label",
+    "text-action-remove-all-highlights.label"
   ],
   "toolkit/toolkit/global/tree.ftl": [
     "tree-columnpicker-restore-order.label"
