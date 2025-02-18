@@ -7775,6 +7775,7 @@
     "netmonitor.context.saveAllAsHar",
     "netmonitor.context.saveAllAsHar.accesskey",
     "netmonitor.context.importHar.accesskey",
+    "netmonitor.context.hintRequestNotAvailable",
     "netmonitor.har.importHarDialogTitle",
     "netmonitor.har.importDialogHARFilter",
     "netmonitor.har.importDialogAllFilter",
