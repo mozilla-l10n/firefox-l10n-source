@@ -12462,12 +12462,8 @@
     "download-utils-yesterday"
   ],
   "toolkit/toolkit/featuregates/features.ftl": [
-    "experimental-features-css-masonry2.label",
-    "experimental-features-css-masonry-description",
     "experimental-features-media-jxl.label",
     "experimental-features-media-jxl-description",
-    "experimental-features-webrtc-global-mute-toggles.label",
-    "experimental-features-webrtc-global-mute-toggles-description",
     "experimental-features-js-warp.label",
     "experimental-features-js-warp-description",
     "experimental-features-ime-search.label",
