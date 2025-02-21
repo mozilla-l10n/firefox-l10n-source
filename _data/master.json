@@ -9219,7 +9219,9 @@
     "SelectOptionsLengthAssignmentWarning",
     "InvalidFormControlUnfocusable",
     "InvalidNamedFormControlUnfocusable",
-    "SectioningH1WithNoFontSizeOrMargins"
+    "SectioningH1WithNoFontSizeOrMargins",
+    "AfterScriptExecuteEventWarning",
+    "BeforeScriptExecuteEventWarning"
   ],
   "dom/chrome/global-strres.properties": [
     "16389"
