@@ -475,8 +475,10 @@
     "all-tabs-menu-hidden-tabs.label",
     "all-tabs-menu-close-all-duplicate-tabs.label",
     "all-tabs-menu-synced-tabs.label",
-    "all-tabs-menu-current-window-header",
-    "all-tabs-menu-tab-groups-show-all.label"
+    "all-tabs-menu-recent-tab-groups-header",
+    "all-tabs-menu-tab-groups-show-all.label",
+    "all-tabs-menu-tab-groups-sub-view.title",
+    "all-tabs-menu-current-window-header"
   ],
   "browser/browser/appExtensionFields.ftl": [
     "extension-default-theme-name-auto",
@@ -5413,7 +5415,6 @@
     "tabbrowser-manager-closed-tab-group.tooltiptext",
     "tabbrowser-manager-current-window-tab-group.label",
     "tabbrowser-manager-current-window-tab-group.tooltiptext",
-    "tab-group-menu-header",
     "tab-group-name-default",
     "tab-group-editor-title-create",
     "tab-group-editor-title-edit",
