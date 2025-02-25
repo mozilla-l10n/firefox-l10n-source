@@ -1600,9 +1600,6 @@
     "fx-view-discoverability-subtitle",
     "fx-view-discoverability-primary-button-label",
     "fx-view-discoverability-secondary-button-label",
-    "split-dismiss-button-dont-show-option-label",
-    "split-dismiss-button-show-fewer-option-label",
-    "split-dismiss-button-manage-settings-option-label",
     "sidebar-button-callout-title",
     "sidebar-button-callout-subtitle",
     "sidebar-button-callout-vertical-tabs",
@@ -1637,7 +1634,10 @@
     "unified-search-engines-callout-subtitle",
     "unified-search-engines-callout-primary-label",
     "actions-callout-title",
-    "actions-callout-subtitle"
+    "actions-callout-subtitle",
+    "split-dismiss-button-dont-show-option.label",
+    "split-dismiss-button-show-fewer-option.label",
+    "split-dismiss-button-manage-settings-option.label"
   ],
   "browser/browser/firefoxRelay.ftl": [
     "firefox-relay-mask-generation-failed",
@@ -11262,6 +11262,8 @@
     "about-logging-preset-media-playback-description",
     "about-logging-preset-webrtc-label",
     "about-logging-preset-webrtc-description",
+    "about-logging-preset-webcodecs-label",
+    "about-logging-preset-webcodecs-description",
     "about-logging-preset-webgpu-label",
     "about-logging-preset-webgpu-description",
     "about-logging-preset-gfx-label",
