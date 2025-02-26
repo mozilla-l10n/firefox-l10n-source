@@ -5107,6 +5107,8 @@
     "sidebar-show-on-the-right.label",
     "sidebar-show-on-the-left.label",
     "expand-sidebar-on-hover.label",
+    "expand-on-hover-message.heading",
+    "expand-on-hover-message.message",
     "sidebar-context-menu-manage-extension.label",
     "sidebar-context-menu-remove-extension.label",
     "sidebar-context-menu-report-extension.label",
