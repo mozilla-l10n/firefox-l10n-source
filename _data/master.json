@@ -732,6 +732,12 @@
     "urlbar-result-menu-remove-from-history.accesskey",
     "urlbar-result-menu-tip-get-help.label",
     "urlbar-result-menu-tip-get-help.accesskey",
+    "urlbar-result-menu-dismiss-suggestion.label",
+    "urlbar-result-menu-dismiss-suggestion.accesskey",
+    "urlbar-result-menu-learn-more-about-firefox-suggest.label",
+    "urlbar-result-menu-learn-more-about-firefox-suggest.accesskey",
+    "urlbar-result-menu-manage-firefox-suggest.label",
+    "urlbar-result-menu-manage-firefox-suggest.accesskey",
     "urlbar-search-tips-onboard",
     "urlbar-search-tips-redirect-2",
     "urlbar-tabtosearch-onboard",
@@ -4239,6 +4245,9 @@
     "cookie-banner-blocker-checkbox-label.label",
     "addressbar-header",
     "addressbar-suggest",
+    "addressbar-header-firefox-suggest",
+    "addressbar-suggest-firefox-suggest",
+    "addressbar-locbar-firefox-suggest-learn-more",
     "addressbar-locbar-history-option.label",
     "addressbar-locbar-history-option.accesskey",
     "addressbar-locbar-bookmarks-option.label",
@@ -4259,7 +4268,14 @@
     "addressbar-locbar-showrecentsearches-option.accesskey",
     "addressbar-locbar-showtrendingsuggestions-option.label",
     "addressbar-locbar-showtrendingsuggestions-option.accesskey",
+    "addressbar-locbar-suggest-nonsponsored-option.label",
+    "addressbar-locbar-suggest-nonsponsored-desc",
+    "addressbar-locbar-suggest-sponsored-option.label",
+    "addressbar-locbar-suggest-sponsored-desc",
     "addressbar-quickactions-learn-more",
+    "addressbar-dismissed-suggestions-label",
+    "addressbar-restore-dismissed-suggestions-description",
+    "addressbar-restore-dismissed-suggestions-button.label",
     "content-blocking-enhanced-tracking-protection",
     "content-blocking-section-top-level-description",
     "content-blocking-learn-more",
@@ -9522,7 +9538,7 @@
     "Expected"
   ],
   "dom/chrome/layout/xul.properties": [
-    "PINotInProlog"
+    "PINotInProlog2"
   ],
   "dom/chrome/mathml/mathml.properties": [
     "InvalidChild",
@@ -11516,7 +11532,8 @@
     "about-reader-text-alignment-label",
     "about-reader-text-alignment-left.title",
     "about-reader-text-alignment-center.title",
-    "about-reader-text-alignment-right.title"
+    "about-reader-text-alignment-right.title",
+    "about-reader-text-alignment-justify.title"
   ],
   "toolkit/toolkit/about/aboutServiceWorkers.ftl": [
     "about-service-workers-title",
