@@ -9209,7 +9209,7 @@
     "AllEntryTypesIgnored",
     "GTK2Conflict2",
     "WinConflict2",
-    "DocumentSetDomainNotAllowedWarning",
+    "DocumentSetDomainIgnoredWarning",
     "DeprecatedTestingInterfaceWarning",
     "DeprecatedTestingMethodWarning",
     "DeprecatedTestingAttributeWarning",
