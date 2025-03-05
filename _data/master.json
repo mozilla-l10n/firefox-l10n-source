@@ -1277,6 +1277,8 @@
     "main-context-menu-manage-passwords.accesskey",
     "main-context-menu-keyword.label",
     "main-context-menu-keyword.accesskey",
+    "main-context-menu-add-engine.label",
+    "main-context-menu-add-engine.accesskey",
     "main-context-menu-link-send-to-device.label",
     "main-context-menu-link-send-to-device.accesskey",
     "main-context-menu-frame.label",
@@ -3278,18 +3280,6 @@
     "policy-Windows10SSO",
     "policy-MicrosoftEntraSSO"
   ],
-  "browser/browser/preferences/addEngine.ftl": [
-    "add-engine-window2.title",
-    "add-engine-window2.style",
-    "add-engine-button",
-    "add-engine-name",
-    "add-engine-alias",
-    "add-engine-url",
-    "add-engine-dialog.buttonlabelaccept",
-    "add-engine-dialog.buttonaccesskeyaccept",
-    "engine-name-exists",
-    "engine-alias-exists"
-  ],
   "browser/browser/preferences/applicationManager.ftl": [
     "app-manager-window2.title",
     "app-manager-window2.style",
@@ -4979,7 +4969,17 @@
     "remove-search-engine-button",
     "install-search-engine",
     "install-search-engine-add",
-    "install-search-engine-no"
+    "install-search-engine-no",
+    "add-engine-window.title",
+    "add-engine-window.style",
+    "add-engine-button",
+    "add-engine-name",
+    "add-engine-keyword",
+    "add-engine-url",
+    "add-engine-dialog.buttonlabelaccept",
+    "add-engine-dialog.buttonaccesskeyaccept",
+    "engine-name-exists",
+    "engine-keyword-exists"
   ],
   "browser/browser/setDesktopBackground.ftl": [
     "set-desktop-background-window.title",
@@ -6197,6 +6197,7 @@
     "inadequateSecurityError",
     "blockedByPolicy",
     "blockedByCORP",
+    "invalidHeaderValue",
     "networkProtocolError"
   ],
   "browser/extensions/formautofill/formautofill.properties": [
@@ -11586,6 +11587,7 @@
     "support-addons-enabled",
     "support-addons-version",
     "support-addons-id",
+    "support-addons-location-name",
     "legacy-user-stylesheets-title",
     "legacy-user-stylesheets-enabled",
     "legacy-user-stylesheets-stylesheet-types",
@@ -11596,10 +11598,6 @@
     "security-software-antivirus",
     "security-software-antispyware",
     "security-software-firewall",
-    "features-title",
-    "features-name",
-    "features-version",
-    "features-id",
     "processes-title",
     "processes-type",
     "processes-count",
@@ -13612,6 +13610,7 @@
     "neterror-dns-not-found-title",
     "neterror-malformed-uri-page-title",
     "general-body-title",
+    "problem-with-this-site-title",
     "neterror-advanced-button",
     "neterror-copy-to-clipboard-button",
     "neterror-learn-more-link",
