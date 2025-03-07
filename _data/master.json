@@ -8970,8 +8970,6 @@
     "weakCryptoUsed",
     "inadequateSecurityError",
     "blockedByPolicy",
-    "blockedByCORP",
-    "invalidHeaderValue",
     "networkProtocolError"
   ],
   "dom/chrome/dom/dom.properties": [
@@ -9191,6 +9189,7 @@
     "ImportMapEmptySpecifierKeys",
     "ImportMapAddressesNotStrings",
     "ImportMapInvalidAddress",
+    "ImportMapIntegrityValuesNotStrings",
     "ImportMapAddressNotEndsWithSlash",
     "ImportMapScopePrefixNotParseable",
     "ImportMapResolutionBlockedByNullEntry",
