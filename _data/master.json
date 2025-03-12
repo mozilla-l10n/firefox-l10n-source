@@ -1277,6 +1277,8 @@
     "main-context-menu-manage-passwords.accesskey",
     "main-context-menu-keyword.label",
     "main-context-menu-keyword.accesskey",
+    "main-context-menu-add-engine.label",
+    "main-context-menu-add-engine.accesskey",
     "main-context-menu-link-send-to-device.label",
     "main-context-menu-link-send-to-device.accesskey",
     "main-context-menu-frame.label",
@@ -3278,18 +3280,6 @@
     "policy-Windows10SSO",
     "policy-MicrosoftEntraSSO"
   ],
-  "browser/browser/preferences/addEngine.ftl": [
-    "add-engine-window2.title",
-    "add-engine-window2.style",
-    "add-engine-button",
-    "add-engine-name",
-    "add-engine-alias",
-    "add-engine-url",
-    "add-engine-dialog.buttonlabelaccept",
-    "add-engine-dialog.buttonaccesskeyaccept",
-    "engine-name-exists",
-    "engine-alias-exists"
-  ],
   "browser/browser/preferences/applicationManager.ftl": [
     "app-manager-window2.title",
     "app-manager-window2.style",
@@ -3336,18 +3326,11 @@
     "colors-dialog2.title",
     "colors-dialog2.style",
     "colors-close-key.key",
-    "colors-page-override",
-    "colors-page-override.accesskey",
-    "colors-page-override-option-always.label",
-    "colors-page-override-option-auto.label",
-    "colors-page-override-option-never.label",
     "colors-text-and-background",
     "colors-text-header",
     "colors-text-header.accesskey",
     "colors-background",
     "colors-background.accesskey",
-    "colors-use-system.label",
-    "colors-use-system.accesskey",
     "colors-links-header",
     "colors-unvisited-links",
     "colors-unvisited-links.accesskey",
@@ -3866,8 +3849,14 @@
     "preferences-web-appearance-choice-input-dark.aria-description",
     "preferences-web-appearance-override-warning2.message",
     "preferences-web-appearance-footer",
-    "preferences-colors-header",
-    "preferences-colors-description",
+    "preferences-contrast-control-header",
+    "preferences-contrast-control-description",
+    "preferences-contrast-control-use-platform-settings.label",
+    "preferences-contrast-control-use-platform-settings.accesskey",
+    "preferences-contrast-control-off.label",
+    "preferences-contrast-control-off.accesskey",
+    "preferences-contrast-control-custom.label",
+    "preferences-contrast-control-custom.accesskey",
     "preferences-colors-manage-button.label",
     "preferences-colors-manage-button.accesskey",
     "preferences-fonts-header",
@@ -4979,7 +4968,17 @@
     "remove-search-engine-button",
     "install-search-engine",
     "install-search-engine-add",
-    "install-search-engine-no"
+    "install-search-engine-no",
+    "add-engine-window.title",
+    "add-engine-window.style",
+    "add-engine-button",
+    "add-engine-name",
+    "add-engine-keyword",
+    "add-engine-url",
+    "add-engine-dialog.buttonlabelaccept",
+    "add-engine-dialog.buttonaccesskeyaccept",
+    "engine-name-exists",
+    "engine-keyword-exists"
   ],
   "browser/browser/setDesktopBackground.ftl": [
     "set-desktop-background-window.title",
@@ -6197,6 +6196,7 @@
     "inadequateSecurityError",
     "blockedByPolicy",
     "blockedByCORP",
+    "invalidHeaderValue",
     "networkProtocolError"
   ],
   "browser/extensions/formautofill/formautofill.properties": [
@@ -7985,6 +7985,7 @@
     "responsive.reloadNotification.description2",
     "responsive.leftAlignViewport",
     "responsive.customUserAgent",
+    "responsive.userAgentList",
     "responsive.showUserAgentInput",
     "responsive.deviceSettings",
     "responsive.deviceNameAlreadyInUse",
@@ -8970,6 +8971,8 @@
     "weakCryptoUsed",
     "inadequateSecurityError",
     "blockedByPolicy",
+    "blockedByCORP",
+    "invalidHeaderValue",
     "networkProtocolError"
   ],
   "dom/chrome/dom/dom.properties": [
@@ -9189,6 +9192,7 @@
     "ImportMapEmptySpecifierKeys",
     "ImportMapAddressesNotStrings",
     "ImportMapInvalidAddress",
+    "ImportMapIntegrityValuesNotStrings",
     "ImportMapAddressNotEndsWithSlash",
     "ImportMapScopePrefixNotParseable",
     "ImportMapResolutionBlockedByNullEntry",
@@ -11586,6 +11590,7 @@
     "support-addons-enabled",
     "support-addons-version",
     "support-addons-id",
+    "support-addons-location-name",
     "legacy-user-stylesheets-title",
     "legacy-user-stylesheets-enabled",
     "legacy-user-stylesheets-stylesheet-types",
@@ -11596,10 +11601,6 @@
     "security-software-antivirus",
     "security-software-antispyware",
     "security-software-firewall",
-    "features-title",
-    "features-name",
-    "features-version",
-    "features-id",
     "processes-title",
     "processes-type",
     "processes-count",
@@ -11641,9 +11642,6 @@
     "environment-variables-title",
     "environment-variables-name",
     "environment-variables-value",
-    "experimental-features-title",
-    "experimental-features-name",
-    "experimental-features-value",
     "modified-key-prefs-title",
     "modified-prefs-name",
     "modified-prefs-value",
@@ -12506,7 +12504,7 @@
     "download-utils-done-file-scheme",
     "download-utils-yesterday"
   ],
-  "toolkit/toolkit/featuregates/features.ftl": [
+  "toolkit/toolkit/firefoxlabs/features.ftl": [
     "experimental-features-media-jxl.label",
     "experimental-features-media-jxl-description",
     "experimental-features-js-warp.label",
@@ -12517,7 +12515,9 @@
     "experimental-features-auto-pip-description",
     "experimental-features-group-developer-tools.label",
     "experimental-features-group-webpage-display.label",
-    "experimental-features-group-customize-browsing.label"
+    "experimental-features-group-customize-browsing.label",
+    "experimental-features-contextual-password-manager.label",
+    "experimental-features-contextual-password-manager-description"
   ],
   "toolkit/toolkit/formautofill/formAutofill.ftl": [
     "autofill-use-payment-method-os-prompt-macos",
@@ -12776,6 +12776,10 @@
   "toolkit/toolkit/global/mozFiveStar.ftl": [
     "moz-five-star-rating.title",
     "moz-five-star-rating-rate-text.title"
+  ],
+  "toolkit/toolkit/global/mozInputFolder.ftl": [
+    "choose-folder-button.label",
+    "choose-folder-button.accesskey"
   ],
   "toolkit/toolkit/global/mozMessageBar.ftl": [
     "moz-message-bar-icon-info.alt",
@@ -13612,6 +13616,7 @@
     "neterror-dns-not-found-title",
     "neterror-malformed-uri-page-title",
     "general-body-title",
+    "problem-with-this-site-title",
     "neterror-advanced-button",
     "neterror-copy-to-clipboard-button",
     "neterror-learn-more-link",
