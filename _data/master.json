@@ -7985,6 +7985,7 @@
     "responsive.reloadNotification.description2",
     "responsive.leftAlignViewport",
     "responsive.customUserAgent",
+    "responsive.userAgentList",
     "responsive.showUserAgentInput",
     "responsive.deviceSettings",
     "responsive.deviceNameAlreadyInUse",
@@ -11641,9 +11642,6 @@
     "environment-variables-title",
     "environment-variables-name",
     "environment-variables-value",
-    "experimental-features-title",
-    "experimental-features-name",
-    "experimental-features-value",
     "modified-key-prefs-title",
     "modified-prefs-name",
     "modified-prefs-value",
@@ -12506,7 +12504,7 @@
     "download-utils-done-file-scheme",
     "download-utils-yesterday"
   ],
-  "toolkit/toolkit/featuregates/features.ftl": [
+  "toolkit/toolkit/firefoxlabs/features.ftl": [
     "experimental-features-media-jxl.label",
     "experimental-features-media-jxl-description",
     "experimental-features-js-warp.label",
