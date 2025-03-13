@@ -2480,6 +2480,8 @@
     "newtab-menu-about-fakespot",
     "newtab-menu-section-block",
     "newtab-menu-section-unfollow",
+    "newtab-menu-manage-sponsored-content",
+    "newtab-menu-our-sponsors-and-your-privacy",
     "newtab-privacy-modal-button-done",
     "newtab-privacy-modal-button-manage",
     "newtab-privacy-modal-header",
@@ -12518,7 +12520,9 @@
     "experimental-features-group-webpage-display.label",
     "experimental-features-group-customize-browsing.label",
     "experimental-features-contextual-password-manager.label",
-    "experimental-features-contextual-password-manager-description"
+    "experimental-features-contextual-password-manager-description",
+    "experimental-features-custom-wallpaper.label",
+    "experimental-features-custom-wallpaper-description"
   ],
   "toolkit/toolkit/formautofill/formAutofill.ftl": [
     "autofill-use-payment-method-os-prompt-macos",
