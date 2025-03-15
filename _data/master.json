@@ -10565,11 +10565,6 @@
   "toolkit/chrome/global/autocomplete.properties": [
     "bookmarkKeywordSearch"
   ],
-  "toolkit/chrome/global/browser.properties": [
-    "formPostSecureToInsecureWarning.title",
-    "formPostSecureToInsecureWarning.message",
-    "formPostSecureToInsecureWarning.continue"
-  ],
   "toolkit/chrome/global/commonDialogs.properties": [
     "Alert",
     "Confirm",
@@ -12776,7 +12771,10 @@
     "choose-dialog-privatebrowsing-disabled"
   ],
   "toolkit/toolkit/global/htmlForm.ftl": [
-    "input-file-and-more-files"
+    "input-file-and-more-files",
+    "form-post-secure-to-insecure-warning-title",
+    "form-post-secure-to-insecure-warning-message",
+    "form-post-secure-to-insecure-warning-continue"
   ],
   "toolkit/toolkit/global/mozFiveStar.ftl": [
     "moz-five-star-rating.title",
@@ -14227,6 +14225,10 @@
     "pdfjs-highlight-floating-button-label",
     "pdfjs-editor-signature-button.title",
     "pdfjs-editor-signature-button-label",
+    "pdfjs-editor-highlight-editor.aria-label",
+    "pdfjs-editor-ink-editor.aria-label",
+    "pdfjs-editor-signature-editor.aria-label",
+    "pdfjs-editor-stamp-editor.aria-label",
     "pdfjs-editor-remove-ink-button.title",
     "pdfjs-editor-remove-freetext-button.title",
     "pdfjs-editor-remove-stamp-button.title",
@@ -14241,12 +14243,12 @@
     "pdfjs-editor-stamp-add-image-button-label",
     "pdfjs-editor-free-highlight-thickness-input",
     "pdfjs-editor-free-highlight-thickness-title.title",
+    "pdfjs-editor-add-signature-container.aria-label",
     "pdfjs-editor-signature-add-signature-button.title",
     "pdfjs-editor-signature-add-signature-button-label",
+    "pdfjs-editor-add-saved-signature-button.title",
     "pdfjs-free-text2.aria-label",
     "pdfjs-free-text2.default-content",
-    "pdfjs-ink.aria-label",
-    "pdfjs-ink-canvas.aria-label",
     "pdfjs-editor-alt-text-button.aria-label",
     "pdfjs-editor-alt-text-button-label",
     "pdfjs-editor-alt-text-edit-button.aria-label",
@@ -14350,8 +14352,8 @@
     "pdfjs-editor-add-signature-error-close-button",
     "pdfjs-editor-add-signature-cancel-button",
     "pdfjs-editor-add-signature-add-button",
-    "pdfjs-editor-delete-signature-button.title",
-    "pdfjs-editor-delete-signature-button-label",
+    "pdfjs-editor-delete-signature-button1.title",
+    "pdfjs-editor-delete-signature-button-label1",
     "pdfjs-editor-add-signature-edit-button-label",
     "pdfjs-editor-edit-signature-dialog-title",
     "pdfjs-editor-edit-signature-update-button"
