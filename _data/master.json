@@ -6201,13 +6201,6 @@
     "invalidHeaderValue",
     "networkProtocolError"
   ],
-  "browser/extensions/formautofill/formautofill.properties": [
-    "insecureFieldWarningDescription",
-    "learnMoreLabel",
-    "autofillReauthOSDialogMac",
-    "autofillReauthOSDialogWin",
-    "autofillReauthOSDialogLin"
-  ],
   "browser/extensions/report-site-issue/webcompat.properties": [
     "wc-reporter.label2",
     "wc-reporter.tooltip"
@@ -7462,6 +7455,17 @@
     "extensionsForDevelopersCmd.label",
     "extensionsForDevelopersCmd.accesskey"
   ],
+  "devtools/client/netmonitor.ftl": [
+    "network-menu-summary-tooltip-perf.title",
+    "network-menu-summary-tooltip-domcontentloaded.title",
+    "network-menu-summary-tooltip-load.title",
+    "network-menu-summary-requests-count",
+    "network-menu-summary-tooltip-requests-count.title",
+    "network-menu-summary-transferred",
+    "network-menu-summary-tooltip-transferred.title",
+    "network-menu-summary-finish",
+    "network-menu-summary-tooltip-finish.title"
+  ],
   "devtools/client/netmonitor.properties": [
     "netmonitor.security.state.secure",
     "netmonitor.security.state.insecure",
@@ -7504,16 +7508,6 @@
     "networkMenu.raced",
     "networkMenu.sortedAsc",
     "networkMenu.sortedDesc",
-    "networkMenu.summary.tooltip.perf",
-    "networkMenu.summary.tooltip.domContentLoaded",
-    "networkMenu.summary.tooltip.load",
-    "networkMenu.summary.requestsCount2",
-    "networkMenu.summary.requestsCountEmpty",
-    "networkMenu.summary.tooltip.requestsCount",
-    "networkMenu.summary.transferred",
-    "networkMenu.summary.tooltip.transferred",
-    "networkMenu.summary.finish",
-    "networkMenu.summary.tooltip.finish",
     "networkMenu.ws.summary.framesCount2",
     "networkMenu.ws.summary.framesCountEmpty",
     "networkMenu.ws.summary.tooltip.framesCount",
@@ -12561,7 +12555,8 @@
     "autofill-category-name",
     "autofill-category-organization",
     "autofill-category-tel",
-    "autofill-category-email"
+    "autofill-category-email",
+    "autofill-insecure-field-warning-description"
   ],
   "toolkit/toolkit/global/alert.ftl": [
     "alert-close.tooltiptext",
