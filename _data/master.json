@@ -1973,7 +1973,10 @@
     "genai-onboarding-huggingchat-switch",
     "genai-onboarding-huggingchat-price-2",
     "genai-onboarding-lechat-generate",
-    "genai-onboarding-lechat-price"
+    "genai-onboarding-lechat-price",
+    "genai-model-optin-continue.label",
+    "genai-model-optin-optout.label",
+    "genai-model-optin-cancel.label"
   ],
   "browser/browser/identityCredentialNotification.ftl": [
     "identity-credential-header-providers",
