@@ -9,7 +9,6 @@
   "head": "master",
   "paths": [
     "browser/branding/official/locales",
-    "browser/extensions/formautofill/locales",
     "browser/extensions/report-site-issue/locales",
     "browser/locales",
     "devtools/client/locales",
