@@ -5519,13 +5519,6 @@
     "blockedByPolicy",
     "networkProtocolError"
   ],
-  "browser/extensions/formautofill/formautofill.properties": [
-    "insecureFieldWarningDescription",
-    "learnMoreLabel",
-    "autofillReauthOSDialogMac",
-    "autofillReauthOSDialogWin",
-    "autofillReauthOSDialogLin"
-  ],
   "browser/extensions/report-site-issue/webcompat.properties": [
     "wc-reporter.label2",
     "wc-reporter.tooltip"
