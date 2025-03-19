@@ -1973,7 +1973,10 @@
     "genai-onboarding-huggingchat-switch",
     "genai-onboarding-huggingchat-price-2",
     "genai-onboarding-lechat-generate",
-    "genai-onboarding-lechat-price"
+    "genai-onboarding-lechat-price",
+    "genai-model-optin-continue.label",
+    "genai-model-optin-optout.label",
+    "genai-model-optin-cancel.label"
   ],
   "browser/browser/identityCredentialNotification.ftl": [
     "identity-credential-header-providers",
@@ -2480,6 +2483,8 @@
     "newtab-menu-about-fakespot",
     "newtab-menu-section-block",
     "newtab-menu-section-unfollow",
+    "newtab-menu-manage-sponsored-content",
+    "newtab-menu-our-sponsors-and-your-privacy",
     "newtab-privacy-modal-button-done",
     "newtab-privacy-modal-button-manage",
     "newtab-privacy-modal-header",
@@ -2609,7 +2614,7 @@
     "newtab-wallpaper-suspension-bridge",
     "newtab-wallpaper-sand-dunes",
     "newtab-wallpaper-palm-trees",
-    "newtab-wallpaper-forest-trees",
+    "newtab-wallpaper-blue-flowers",
     "newtab-wallpaper-category-title-celestial",
     "newtab-wallpaper-celestial-lunar-eclipse",
     "newtab-wallpaper-celestial-earth-night",
@@ -6199,13 +6204,6 @@
     "invalidHeaderValue",
     "networkProtocolError"
   ],
-  "browser/extensions/formautofill/formautofill.properties": [
-    "insecureFieldWarningDescription",
-    "learnMoreLabel",
-    "autofillReauthOSDialogMac",
-    "autofillReauthOSDialogWin",
-    "autofillReauthOSDialogLin"
-  ],
   "browser/extensions/report-site-issue/webcompat.properties": [
     "wc-reporter.label2",
     "wc-reporter.tooltip"
@@ -7460,6 +7458,17 @@
     "extensionsForDevelopersCmd.label",
     "extensionsForDevelopersCmd.accesskey"
   ],
+  "devtools/client/netmonitor.ftl": [
+    "network-menu-summary-tooltip-perf.title",
+    "network-menu-summary-tooltip-domcontentloaded.title",
+    "network-menu-summary-tooltip-load.title",
+    "network-menu-summary-requests-count",
+    "network-menu-summary-tooltip-requests-count.title",
+    "network-menu-summary-transferred",
+    "network-menu-summary-tooltip-transferred.title",
+    "network-menu-summary-finish",
+    "network-menu-summary-tooltip-finish.title"
+  ],
   "devtools/client/netmonitor.properties": [
     "netmonitor.security.state.secure",
     "netmonitor.security.state.insecure",
@@ -7502,16 +7511,6 @@
     "networkMenu.raced",
     "networkMenu.sortedAsc",
     "networkMenu.sortedDesc",
-    "networkMenu.summary.tooltip.perf",
-    "networkMenu.summary.tooltip.domContentLoaded",
-    "networkMenu.summary.tooltip.load",
-    "networkMenu.summary.requestsCount2",
-    "networkMenu.summary.requestsCountEmpty",
-    "networkMenu.summary.tooltip.requestsCount",
-    "networkMenu.summary.transferred",
-    "networkMenu.summary.tooltip.transferred",
-    "networkMenu.summary.finish",
-    "networkMenu.summary.tooltip.finish",
     "networkMenu.ws.summary.framesCount2",
     "networkMenu.ws.summary.framesCountEmpty",
     "networkMenu.ws.summary.tooltip.framesCount",
@@ -9053,6 +9052,7 @@
     "PointerLockDeniedFailedToLock",
     "HTMLSyncXHRWarning",
     "ForbiddenHeaderWarning",
+    "SetHTMLScript",
     "ResponseTypeSyncXHRWarning",
     "TimeoutSyncXHRWarning",
     "UseSendBeaconDuringUnloadAndPagehideWarning",
@@ -10561,11 +10561,6 @@
   ],
   "toolkit/chrome/global/autocomplete.properties": [
     "bookmarkKeywordSearch"
-  ],
-  "toolkit/chrome/global/browser.properties": [
-    "formPostSecureToInsecureWarning.title",
-    "formPostSecureToInsecureWarning.message",
-    "formPostSecureToInsecureWarning.continue"
   ],
   "toolkit/chrome/global/commonDialogs.properties": [
     "Alert",
@@ -12517,7 +12512,9 @@
     "experimental-features-group-webpage-display.label",
     "experimental-features-group-customize-browsing.label",
     "experimental-features-contextual-password-manager.label",
-    "experimental-features-contextual-password-manager-description"
+    "experimental-features-contextual-password-manager-description",
+    "experimental-features-custom-wallpaper.label",
+    "experimental-features-custom-wallpaper-description"
   ],
   "toolkit/toolkit/formautofill/formAutofill.ftl": [
     "autofill-use-payment-method-os-prompt-macos",
@@ -12561,7 +12558,8 @@
     "autofill-category-name",
     "autofill-category-organization",
     "autofill-category-tel",
-    "autofill-category-email"
+    "autofill-category-email",
+    "autofill-insecure-field-warning-description"
   ],
   "toolkit/toolkit/global/alert.ftl": [
     "alert-close.tooltiptext",
@@ -12771,7 +12769,10 @@
     "choose-dialog-privatebrowsing-disabled"
   ],
   "toolkit/toolkit/global/htmlForm.ftl": [
-    "input-file-and-more-files"
+    "input-file-and-more-files",
+    "form-post-secure-to-insecure-warning-title",
+    "form-post-secure-to-insecure-warning-message",
+    "form-post-secure-to-insecure-warning-continue"
   ],
   "toolkit/toolkit/global/mozFiveStar.ftl": [
     "moz-five-star-rating.title",
@@ -14222,6 +14223,10 @@
     "pdfjs-highlight-floating-button-label",
     "pdfjs-editor-signature-button.title",
     "pdfjs-editor-signature-button-label",
+    "pdfjs-editor-highlight-editor.aria-label",
+    "pdfjs-editor-ink-editor.aria-label",
+    "pdfjs-editor-signature-editor.aria-label",
+    "pdfjs-editor-stamp-editor.aria-label",
     "pdfjs-editor-remove-ink-button.title",
     "pdfjs-editor-remove-freetext-button.title",
     "pdfjs-editor-remove-stamp-button.title",
@@ -14236,12 +14241,12 @@
     "pdfjs-editor-stamp-add-image-button-label",
     "pdfjs-editor-free-highlight-thickness-input",
     "pdfjs-editor-free-highlight-thickness-title.title",
+    "pdfjs-editor-add-signature-container.aria-label",
     "pdfjs-editor-signature-add-signature-button.title",
     "pdfjs-editor-signature-add-signature-button-label",
+    "pdfjs-editor-add-saved-signature-button.title",
     "pdfjs-free-text2.aria-label",
     "pdfjs-free-text2.default-content",
-    "pdfjs-ink.aria-label",
-    "pdfjs-ink-canvas.aria-label",
     "pdfjs-editor-alt-text-button.aria-label",
     "pdfjs-editor-alt-text-button-label",
     "pdfjs-editor-alt-text-edit-button.aria-label",
@@ -14345,8 +14350,8 @@
     "pdfjs-editor-add-signature-error-close-button",
     "pdfjs-editor-add-signature-cancel-button",
     "pdfjs-editor-add-signature-add-button",
-    "pdfjs-editor-delete-signature-button.title",
-    "pdfjs-editor-delete-signature-button-label",
+    "pdfjs-editor-delete-signature-button1.title",
+    "pdfjs-editor-delete-signature-button-label1",
     "pdfjs-editor-add-signature-edit-button-label",
     "pdfjs-editor-edit-signature-dialog-title",
     "pdfjs-editor-edit-signature-update-button"
