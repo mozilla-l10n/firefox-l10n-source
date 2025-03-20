@@ -131,6 +131,10 @@ reference = "browser/branding/official/**"
 l10n = "{l}browser/branding/official/**"
 
 [[paths]]
+reference = "browser/extensions/formautofill/**"
+l10n = "{l}browser/extensions/formautofill/**"
+
+[[paths]]
 reference = "browser/extensions/report-site-issue/**"
 l10n = "{l}browser/extensions/report-site-issue/**"
 
