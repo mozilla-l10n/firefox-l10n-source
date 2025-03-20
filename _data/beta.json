@@ -946,8 +946,9 @@
     "urlbar-result-action-copy-to-clipboard",
     "urlbar-result-action-calculator-result",
     "urlbar-result-action-undefined-calculator-result",
-    "urlbar-result-action-calculator-result-2",
     "urlbar-result-action-calculator-result-scientific-notation",
+    "urlbar-result-action-calculator-result-3",
+    "urlbar-result-action-calculator-result-decimal",
     "urlbar-searchmode-button2.label",
     "urlbar-searchmode-button2.tooltiptext",
     "urlbar-searchmode-button-no-engine.label",
@@ -6198,13 +6199,6 @@
     "blockedByPolicy",
     "blockedByCORP",
     "networkProtocolError"
-  ],
-  "browser/extensions/formautofill/formautofill.properties": [
-    "insecureFieldWarningDescription",
-    "learnMoreLabel",
-    "autofillReauthOSDialogMac",
-    "autofillReauthOSDialogWin",
-    "autofillReauthOSDialogLin"
   ],
   "browser/extensions/report-site-issue/webcompat.properties": [
     "wc-reporter.label2",
