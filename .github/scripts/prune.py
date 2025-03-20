@@ -19,7 +19,7 @@ from os.path import join, relpath, splitext
 from sys import exit
 from moz.l10n.paths import L10nDiscoverPaths
 from moz.l10n.resource import parse_resource, serialize_resource
-from moz.l10n.resource.data import Entry
+from moz.l10n.model import Entry
 
 
 def prune_file(path: str, msg_refs: set[str]):

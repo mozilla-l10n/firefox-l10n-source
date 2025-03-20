@@ -29,7 +29,7 @@ from moz.l10n.resource import (
     parse_resource,
     serialize_resource,
 )
-from moz.l10n.resource.data import Entry
+from moz.l10n.model import Entry
 
 
 class AutomationConfig(TypedDict):
