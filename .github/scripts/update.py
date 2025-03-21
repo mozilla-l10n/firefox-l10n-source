@@ -208,9 +208,12 @@ if __name__ == "__main__":
         cfg_automation, args.branch, args.firefox, args.configs
     )
 
-    if cfg_automation["paths"] != source_dirs and args.branch == cfg_automation["head"]:
-        # Write back updated configuration
-        cfg_automation["paths"] = source_dirs
+    if cfg_automation["paths"] != source_dirs:
+        # Write back updated configuration, making sure that the list of paths
+        # is a superset of the configuration across all branches.
+        cfg_automation["paths"] = sorted(
+            list(set(cfg_automation["paths"] + source_dirs))
+        )
         with open(config_file, "w") as file:
             json.dump(cfg_automation, file, indent=2, sort_keys=True)
 
