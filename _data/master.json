@@ -1044,6 +1044,8 @@
     "panel-save-update-username",
     "panel-save-update-password",
     "menu-share-more.label",
+    "menu-share-copy-link.label",
+    "menu-share-copy-link.accesskey",
     "ui-tour-info-panel-close.tooltiptext",
     "popups-infobar-allow.label",
     "popups-infobar-allow.accesskey",
