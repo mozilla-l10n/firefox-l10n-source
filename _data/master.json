@@ -636,7 +636,6 @@
     "appmenu-get-help.accesskey",
     "appmenu-help-more-troubleshooting-info.label",
     "appmenu-help-more-troubleshooting-info.accesskey",
-    "appmenu-help-report-site-issue.label",
     "appmenu-help-share-ideas.label",
     "appmenu-help-share-ideas.accesskey",
     "appmenu-help-switch-device.label",
@@ -2229,7 +2228,6 @@
     "menu-get-help.accesskey",
     "menu-help-more-troubleshooting-info.label",
     "menu-help-more-troubleshooting-info.accesskey",
-    "menu-help-report-site-issue.label",
     "menu-help-share-ideas.label",
     "menu-help-share-ideas.accesskey",
     "menu-help-enter-troubleshoot-mode2.label",
@@ -6234,10 +6232,6 @@
     "blockedByCORP",
     "invalidHeaderValue",
     "networkProtocolError"
-  ],
-  "browser/extensions/report-site-issue/webcompat.properties": [
-    "wc-reporter.label2",
-    "wc-reporter.tooltip"
   ],
   "browser/firefox-l10n.js": [],
   "browser/installer/custom.properties": [
