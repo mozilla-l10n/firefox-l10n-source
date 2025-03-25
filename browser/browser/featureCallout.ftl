@@ -54,12 +54,6 @@ fx-view-discoverability-secondary-button-label = Dismiss
 ## Split Dismiss Button Labels
 
 # Blocks the message from showing again
-split-dismiss-button-dont-show-option-label = Don’t show this recommendation again
-# Dismisses message and reduces frequency of message
-split-dismiss-button-show-fewer-option-label = Show fewer recommendations
-# Opens about:preferences#general-cfrfeatures
-split-dismiss-button-manage-settings-option-label = Manage settings
-# Blocks the message from showing again
 split-dismiss-button-dont-show-option =
     .label = Don’t show this recommendation again
 # Dismisses message and reduces frequency of message
