@@ -4628,13 +4628,13 @@
     "delete-profile-logins",
     "delete-profile-cancel",
     "delete-profile-confirm",
-    "profiles-marigold-theme",
-    "profiles-lavender-theme",
-    "profiles-lichen-theme",
-    "profiles-magnolia-theme",
-    "profiles-ocean-theme",
-    "profiles-terracotta-theme",
-    "profiles-moss-theme",
+    "profiles-marigold-theme-2",
+    "profiles-lavender-theme-2",
+    "profiles-lichen-theme-2",
+    "profiles-magnolia-theme-2",
+    "profiles-ocean-theme-2",
+    "profiles-terracotta-theme-2",
+    "profiles-moss-theme-2",
     "profiles-light-theme",
     "profiles-dark-theme",
     "profiles-system-theme",
@@ -5562,6 +5562,11 @@
     "toolbar-context-menu-menu-bar-cmd.toolbarname",
     "toolbar-context-menu-menu-bar-cmd.accesskey"
   ],
+  "browser/browser/toolbarDropHandler.ftl": [
+    "toolbar-drop-on-home-title",
+    "toolbar-drop-on-home-msg",
+    "toolbar-drop-on-home-msg-multiple"
+  ],
   "browser/browser/touchbar/touchbar.ftl": [
     "back",
     "forward",
@@ -5816,9 +5821,6 @@
   "browser/chrome/browser/browser.properties": [
     "nv_timeout",
     "openFile",
-    "droponhometitle",
-    "droponhomemsg",
-    "droponhomemsgMultiple",
     "contextMenuSearch",
     "contextMenuSearch.accesskey",
     "contextMenuPrivateSearch",
