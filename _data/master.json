@@ -9853,6 +9853,7 @@
     "CookieRejectedInvalidCharAttributes",
     "CookieRejectedInvalidDomain",
     "CookieRejectedInvalidPrefix",
+    "CookieRejectedInvalidPath",
     "CookieRejectedInvalidCharValue",
     "CookieRejectedHttpOnlyButFromScript",
     "CookieRejectedSecureButNonHttps",
@@ -12519,7 +12520,9 @@
     "experimental-features-contextual-password-manager.label",
     "experimental-features-contextual-password-manager-description",
     "experimental-features-custom-wallpaper.label",
-    "experimental-features-custom-wallpaper-description"
+    "experimental-features-custom-wallpaper-description",
+    "experimental-features-link-previews.label",
+    "experimental-features-link-previews-description"
   ],
   "toolkit/toolkit/formautofill/formAutofill.ftl": [
     "autofill-use-payment-method-os-prompt-macos",
