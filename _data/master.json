@@ -4898,7 +4898,7 @@
     "history-section-label",
     "item-history-and-downloads.label",
     "item-history-and-downloads.accesskey",
-    "item-history-and-downloads-description",
+    "item-history-and-downloads-description2",
     "item-cookies.label",
     "item-cookies.accesskey",
     "item-cookies-site-data-with-size.label",
@@ -11316,7 +11316,17 @@
     "about-logging-unknown-option",
     "about-logging-configuration-url-ignored",
     "about-logging-file-and-profiler-override",
-    "about-logging-configured-via-url"
+    "about-logging-unknown-error",
+    "about-logging-configured-via-url",
+    "about-logging-upload-question",
+    "about-logging-save-button",
+    "about-logging-upload-button",
+    "about-logging-saved",
+    "about-logging-uploading-progress",
+    "about-logging-uploaded",
+    "about-logging-share-uploaded-url",
+    "about-logging-upload-error",
+    "about-logging-save-error"
   ],
   "toolkit/toolkit/about/aboutMozilla.ftl": [
     "about-mozilla-title-6-27",
