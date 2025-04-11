@@ -166,6 +166,10 @@ l10n = "{l}toolkit/toolkit/about/*Support.ftl"
 reference = "toolkit/toolkit/about/*Webrtc.ftl"
 l10n = "{l}toolkit/toolkit/about/*Webrtc.ftl"
 
+[[paths]]
+reference = "toolkit/toolkit/about/*Logging.ftl"
+l10n = "{l}toolkit/toolkit/about/*Logging.ftl"
+
 [[filters]]
 path = [
     "{l}mobile/android/mobile-l10n.js",
