@@ -4979,6 +4979,8 @@
     "searchbar-icon.tooltiptext",
     "removed-search-engine-message2",
     "remove-search-engine-button",
+    "reset-search-settings-message",
+    "reset-search-settings-button",
     "install-search-engine",
     "install-search-engine-add",
     "install-search-engine-no",
@@ -5171,9 +5173,12 @@
     "sidebar-history-date-this-month.heading",
     "sidebar-history-date-prev-month.heading",
     "sidebar-history-delete.title",
-    "sidebar-history-sort-by-date.label",
-    "sidebar-history-sort-by-site.label",
     "sidebar-history-clear.label",
+    "sidebar-history-sort-by-heading",
+    "sidebar-history-sort-option-date.label",
+    "sidebar-history-sort-option-site.label",
+    "sidebar-history-sort-option-date-and-site.label",
+    "sidebar-history-sort-option-last-visited.label",
     "sidebar-search-results-header.heading",
     "sidebar-customize-extensions-header",
     "sidebar-customize-firefox-tools-header.label",
@@ -9261,7 +9266,8 @@
     "SectioningH1WithNoFontSizeOrMargins",
     "SelectionModifyGranualirtyUnsupported",
     "AfterScriptExecuteEventWarning",
-    "BeforeScriptExecuteEventWarning"
+    "BeforeScriptExecuteEventWarning",
+    "PreviousInterceptCallOptionOverriddenWarning"
   ],
   "dom/chrome/global-strres.properties": [
     "16389"
