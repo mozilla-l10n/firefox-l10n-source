@@ -2732,7 +2732,18 @@
     "newtab-section-mangage-topics-blocked-topics-empty-state",
     "newtab-custom-wallpaper-title",
     "newtab-custom-wallpaper-subtitle",
-    "newtab-custom-wallpaper-cta"
+    "newtab-custom-wallpaper-cta",
+    "newtab-report-content-why-reporting-this.label",
+    "newtab-report-ads-reason-not-interested.label",
+    "newtab-report-ads-reason-inappropriate.label",
+    "newtab-report-ads-reason-seen-it-too-many-times.label",
+    "newtab-report-content-wrong-category.label",
+    "newtab-report-content-outdated.label",
+    "newtab-report-content-inappropriate-offensive.label",
+    "newtab-report-content-spam-misleading.label",
+    "newtab-report-cancel",
+    "newtab-report-submit",
+    "newtab-toast-thanks-for-feedback.message"
   ],
   "browser/browser/newtab/onboarding.ftl": [
     "onboarding-welcome-header",
