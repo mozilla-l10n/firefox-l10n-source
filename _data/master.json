@@ -1758,7 +1758,20 @@
     "split-dismiss-button-default-label.title",
     "split-dismiss-button-dont-show-option.label",
     "split-dismiss-button-show-fewer-option.label",
-    "split-dismiss-button-manage-settings-option.label"
+    "split-dismiss-button-manage-settings-option.label",
+    "login-status-advisory-title",
+    "bookmarks-toolbar-callout-1-title",
+    "bookmarks-toolbar-callout-1-subtitle",
+    "bookmarks-toolbar-callout-1-primary-button-label",
+    "bookmarks-toolbar-callout-1-secondary-button-label",
+    "bookmarks-toolbar-callout-2a-title",
+    "bookmarks-toolbar-callout-2a-subtitle",
+    "bookmarks-toolbar-callout-2a-primary-button-label",
+    "bookmarks-toolbar-callout-2a-secondary-button-label",
+    "bookmarks-toolbar-callout-2b-title",
+    "bookmarks-toolbar-callout-2b-subtitle",
+    "bookmarks-toolbar-callout-2b-primary-button-label",
+    "bookmarks-toolbar-callout-2b-secondary-button-label"
   ],
   "browser/browser/firefoxRelay.ftl": [
     "firefox-relay-mask-generation-failed",
