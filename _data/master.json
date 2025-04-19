@@ -1353,6 +1353,17 @@
     "hide-app-shortcut.key",
     "hide-other-apps-shortcut.key"
   ],
+  "browser/browser/clearDataForSite.ftl": [
+    "clear-data-for-site-title",
+    "clear-data-for-site-list",
+    "clear-data-for-site-browsing-history",
+    "clear-data-for-site-cookies",
+    "clear-data-for-site-cache",
+    "cclear-data-for-site-permissions",
+    "clear-data-for-site-exceptions",
+    "clear-data-for-site-dialog-accept-button",
+    "clear-data-for-site-dialog-cancel-button"
+  ],
   "browser/browser/colorways.ftl": [
     "playmaker-colorway-name",
     "playmaker-colorway-description",
@@ -3154,9 +3165,6 @@
     "places-untag-bookmark.accesskey",
     "places-manage-bookmarks.label",
     "places-manage-bookmarks.accesskey",
-    "places-forget-about-this-site-confirmation-title",
-    "places-forget-about-this-site-confirmation-msg",
-    "places-forget-about-this-site-forget",
     "places-library3.title",
     "places-organize-button.label",
     "places-organize-button.tooltiptext",
