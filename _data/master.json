@@ -1533,7 +1533,8 @@
     "contextual-manager-passwords-discard-changes-heading-and-message.heading",
     "contextual-manager-passwords-discard-changes-heading-and-message.message",
     "contextual-manager-passwords-discard-changes-close-button",
-    "contextual-manager-passwords-discard-changes-go-back-button"
+    "contextual-manager-passwords-discard-changes-go-back-button",
+    "contextual-manager-passwords-remove-all-passwords-checkbox"
   ],
   "browser/browser/customizeMode.ftl": [
     "customize-mode-restore-defaults.label",
