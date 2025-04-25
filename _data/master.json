@@ -2012,6 +2012,9 @@
     "genai-options-show-shortcut.label",
     "genai-options-hide-shortcut.label",
     "genai-options-about-chatbot.label",
+    "genai-chatbot-contextual-title",
+    "genai-chatbot-contextual-subtitle",
+    "genai-chatbot-contextual-button",
     "genai-onboarding-header",
     "genai-onboarding-choose-header",
     "genai-onboarding-description",
@@ -2762,7 +2765,7 @@
     "newtab-report-content-spam-misleading.label",
     "newtab-report-cancel",
     "newtab-report-submit",
-    "newtab-toast-thanks-for-feedback.message"
+    "newtab-toast-thanks-for-reporting.message"
   ],
   "browser/browser/newtab/onboarding.ftl": [
     "onboarding-welcome-header",
@@ -3921,7 +3924,7 @@
     "preferences-web-appearance-choice-input-auto.aria-description",
     "preferences-web-appearance-choice-input-light.aria-description",
     "preferences-web-appearance-choice-input-dark.aria-description",
-    "preferences-web-appearance-override-warning2.message",
+    "preferences-web-appearance-override-warning3.message",
     "preferences-web-appearance-footer",
     "preferences-contrast-control-header",
     "preferences-contrast-control-description",
