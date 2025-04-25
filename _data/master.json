@@ -2055,7 +2055,8 @@
     "genai-onboarding-lechat-price",
     "genai-model-optin-continue.label",
     "genai-model-optin-optout.label",
-    "genai-model-optin-cancel.label"
+    "genai-model-optin-cancel.label",
+    "link-preview-reading-time"
   ],
   "browser/browser/identityCredentialNotification.ftl": [
     "identity-credential-header-providers",
