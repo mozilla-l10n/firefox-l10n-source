@@ -12590,7 +12590,8 @@
     "experimental-features-custom-wallpaper.label",
     "experimental-features-custom-wallpaper-description",
     "experimental-features-link-previews.label",
-    "experimental-features-link-previews-description"
+    "experimental-features-link-previews-description",
+    "experimental-features-link-previews-description-no-ai"
   ],
   "toolkit/toolkit/formautofill/formAutofill.ftl": [
     "autofill-use-payment-method-os-prompt-macos",
