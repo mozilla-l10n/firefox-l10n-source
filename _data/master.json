@@ -1099,7 +1099,8 @@
     "file-picker-crashed-save-somewhere",
     "file-picker-crashed-save-nowhere",
     "file-picker-crashed-show-in-folder.label",
-    "file-picker-crashed-show-in-folder.accessKey"
+    "file-picker-crashed-show-in-folder.accessKey",
+    "onboarding-checklist-button-label"
   ],
   "browser/browser/browserContext.ftl": [
     "navbar-tooltip-instruction.value",
@@ -1772,7 +1773,16 @@
     "bookmarks-toolbar-callout-2b-title",
     "bookmarks-toolbar-callout-2b-subtitle",
     "bookmarks-toolbar-callout-2b-primary-button-label",
-    "bookmarks-toolbar-callout-2b-secondary-button-label"
+    "bookmarks-toolbar-callout-2b-secondary-button-label",
+    "perplexity-callout-theme-1-title",
+    "perplexity-callout-theme-2-title",
+    "perplexity-callout-theme-1-subtitle-1",
+    "perplexity-callout-theme-1-subtitle-2",
+    "perplexity-callout-theme-2-subtitle-1",
+    "perplexity-callout-theme-2-subtitle-2",
+    "perplexity-callout-primary-label",
+    "perplexity-callout-secondary-label-1",
+    "perplexity-callout-secondary-label-2"
   ],
   "browser/browser/firefoxRelay.ftl": [
     "firefox-relay-mask-generation-failed",
