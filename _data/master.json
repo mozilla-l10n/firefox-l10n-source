@@ -8208,6 +8208,7 @@
   ],
   "devtools/client/styleeditor.properties": [
     "inlineStyleSheet",
+    "constructedStyleSheet",
     "newStyleSheet",
     "error-load",
     "error-save",
@@ -9648,12 +9649,12 @@
     "CreateWrapperDeniedForOrigin"
   ],
   "dom/chrome/security/csp.properties": [
-    "CSPInlineStyleViolation",
-    "CSPROInlineStyleViolation",
-    "CSPInlineScriptViolation",
-    "CSPROInlineScriptViolation",
-    "CSPEventHandlerScriptViolation",
-    "CSPROEventHandlerScriptViolation",
+    "CSPInlineStyleViolation2",
+    "CSPROInlineStyleViolation2",
+    "CSPInlineScriptViolation2",
+    "CSPROInlineScriptViolation2",
+    "CSPEventHandlerScriptViolation2",
+    "CSPROEventHandlerScriptViolation2",
     "CSPEvalScriptViolation",
     "CSPROEvalScriptViolation",
     "CSPWasmEvalScriptViolation",
