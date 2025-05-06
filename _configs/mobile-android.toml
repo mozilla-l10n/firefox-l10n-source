@@ -170,6 +170,18 @@ l10n = "{l}toolkit/toolkit/about/*Webrtc.ftl"
 reference = "toolkit/toolkit/about/*Logging.ftl"
 l10n = "{l}toolkit/toolkit/about/*Logging.ftl"
 
+[[paths]]
+reference = "toolkit/toolkit/branding/brandings.ftl"
+l10n = "{l}toolkit/toolkit/branding/brandings.ftl"
+
+[[paths]]
+reference = "toolkit/toolkit/global/processTypes.ftl"
+l10n = "{l}toolkit/toolkit/global/processTypes.ftl"
+
+[[paths]]
+reference = "toolkit/toolkit/global/resetProfile.ftl"
+l10n = "{l}toolkit/toolkit/global/resetProfile.ftl"
+
 [[filters]]
 path = [
     "{l}mobile/android/mobile-l10n.js",

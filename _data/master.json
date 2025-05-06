@@ -5208,7 +5208,6 @@
   ],
   "browser/browser/sidebar.ftl": [
     "menu-view-genai-chat.label",
-    "menu-view-review-checker.label",
     "menu-view-contextual-password-manager.label",
     "sidebar-options-menu-button.title",
     "sidebar-history-date-today.heading",
@@ -5253,7 +5252,6 @@
     "sidebar-menu-synced-tabs-label.label",
     "sidebar-menu-bookmarks-label.label",
     "sidebar-menu-customize-label.label",
-    "sidebar-menu-review-checker-label.label",
     "sidebar-menu-contextual-password-manager-label.label",
     "sidebar-menu-open-history-tooltip",
     "sidebar-menu-close-history-tooltip",
