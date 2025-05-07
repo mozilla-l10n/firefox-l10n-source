@@ -15,7 +15,17 @@ webext-perms-header-with-perms = Add { $extension }? This extension will have pe
 webext-perms-header-unsigned = Add { $extension }? This extension is unverified. Malicious extensions can steal your private information or compromise your computer. Only add it if you trust the source.
 webext-perms-header-unsigned-with-perms = Add { $extension }? This extension is unverified. Malicious extensions can steal your private information or compromise your computer. Only add it if you trust the source. This extension will have permission to:
 webext-perms-sideload-header = { $extension } added
+webext-perms-optional-perms-header2 = { $extension } requests additional permissions
 webext-perms-optional-perms-header = { $extension } requests additional permissions.
+webext-perms-header2 = Add { $extension }
+webext-perms-list-intro-unsigned = This unverified extension might put your privacy at risk or compromise your device. Only add it if you trust the source.
+
+## Headers used in the webextension permissions dialog, inside the content.
+
+webext-perms-header-required-perms = Required permissions:
+webext-perms-header-optional-settings = Optional settings:
+webext-perms-header-update-required-perms = New required permissions:
+webext-perms-header-optional-required-perms = New permissions:
 
 ##
 
@@ -33,6 +43,9 @@ webext-perms-sideload-enable =
 webext-perms-sideload-cancel =
     .label = Cancel
     .accesskey = C
+# Variables:
+#   $extension (String): replaced with the localized name of the extension.
+webext-perms-update-text2 = { $extension } has been updated. You must approve new permissions before the updated version will install. Choosing “Cancel” will maintain your current extension version.
 # Variables:
 #   $extension (String): replaced with the localized name of the extension.
 webext-perms-update-text = { $extension } has been updated. You must approve new permissions before the updated version will install. Choosing “Cancel” will maintain your current extension version. This extension will have permission to:
