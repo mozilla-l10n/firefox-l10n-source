@@ -5448,6 +5448,8 @@
     "close-tabs-to-the-end-vertical.accesskey",
     "close-other-tabs.label",
     "close-other-tabs.accesskey",
+    "tab-context-unload-n-tabs.label",
+    "tab-context-unload-n-tabs.accesskey",
     "reload-tabs.label",
     "reload-tabs.accesskey",
     "pin-tab.label",

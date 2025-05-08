@@ -2,6 +2,10 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+
+## Variables:
+##  $tabCount (Number): the number of tabs that are affected by the action.
+
 tab-context-new-tab =
     .label = New Tab
     .accesskey = w
@@ -126,3 +130,10 @@ tab-context-send-tabs-to-device =
            *[other] Send { $tabCount } Tabs to Device
         }
     .accesskey = n
+tab-context-unload-n-tabs =
+    .label =
+        { $tabCount ->
+            [1] Unload Tab
+           *[other] Unload { $tabCount } Tabs
+        }
+    .accesskey = U
