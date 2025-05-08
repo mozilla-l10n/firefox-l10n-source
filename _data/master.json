@@ -5034,12 +5034,8 @@
     "add-engine-window.style",
     "add-engine-button",
     "add-engine-name",
-    "add-engine-keyword",
-    "add-engine-url",
     "add-engine-dialog.buttonlabelaccept",
-    "add-engine-dialog.buttonaccesskeyaccept",
-    "engine-name-exists",
-    "engine-keyword-exists"
+    "add-engine-dialog.buttonaccesskeyaccept"
   ],
   "browser/browser/setDesktopBackground.ftl": [
     "set-desktop-background-window.title",
