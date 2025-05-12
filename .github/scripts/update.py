@@ -189,7 +189,7 @@ if __name__ == "__main__":
     parser.add_argument(
         "--branch",
         required=True,
-        help='The branch identifier, e.g. "master", "beta", or "release".',
+        help='The branch identifier, e.g. "main", "beta", or "release".',
     )
     parser.add_argument("--commit", help="A commit id for the branch.")
     parser.add_argument(
