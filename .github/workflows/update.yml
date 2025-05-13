@@ -53,7 +53,7 @@ jobs:
       - name: Checkout firefox:${{ matrix.ref }}
         uses: actions/checkout@v4
         with:
-          repository: mozilla/gecko-dev
+          repository: mozilla-firefox/firefox
           ref: ${{ matrix.ref }}
           path: firefox
           sparse-checkout: |
