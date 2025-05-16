@@ -1174,6 +1174,8 @@
     "main-context-menu-copy-phone.accesskey",
     "main-context-menu-copy-link-simple.label",
     "main-context-menu-copy-link-simple.accesskey",
+    "main-context-menu-preview-link.label",
+    "main-context-menu-preview-link.accesskey",
     "main-context-menu-copy-clean-link.label",
     "main-context-menu-copy-clean-link.accesskey",
     "main-context-menu-media-play.label",
