@@ -4065,6 +4065,7 @@
     "performance-limit-content-process-blocked-desc",
     "performance-default-content-process-count.label",
     "browsing-title",
+    "browsing-group-label.aria-label",
     "browsing-use-autoscroll.label",
     "browsing-use-autoscroll.accesskey",
     "browsing-use-smooth-scrolling.label",
