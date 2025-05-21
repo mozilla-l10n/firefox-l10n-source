@@ -422,6 +422,7 @@
     "addon-removal-title",
     "addon-removal-button",
     "addon-removal-abuse-report-checkbox",
+    "addon-mlmodel-removal-body",
     "addon-downloading-and-verifying",
     "addon-download-verifying",
     "addon-install-cancel-button.label",
@@ -11245,7 +11246,13 @@
     "plugins-widevine-description",
     "addon-permissions-required-data-collection",
     "addon-permissions-optional-data-collection",
-    "permissions-data-addon-button"
+    "permissions-data-addon-button",
+    "mlmodel-extension-label",
+    "mlmodel-about-inference",
+    "mlmodel-link-preview",
+    "mlmodel-pdfjs",
+    "mlmodel-smart-tab-topic-engine",
+    "mlmodel-smart-tab-embedding-engine"
   ],
   "toolkit/toolkit/about/aboutCompat.ftl": [
     "label-disable",
