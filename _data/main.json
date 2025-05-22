@@ -5008,8 +5008,8 @@
     "sanitize-selected-warning"
   ],
   "browser/browser/screenshots.ftl": [
-    "screenshot-toolbarbutton.label",
-    "screenshot-toolbarbutton.tooltiptext",
+    "screenshot-toolbar-button.label",
+    "screenshot-toolbar-button.tooltiptext",
     "screenshot-shortcut.key",
     "screenshots-instructions",
     "screenshots-cancel-button",
@@ -9762,7 +9762,6 @@
     "InsecurePasswordsPresentOnIframe",
     "LoadingMixedActiveContent2",
     "LoadingMixedDisplayContent2",
-    "LoadingMixedDisplayObjectSubrequestDeprecation",
     "MixedContentBlockedDownload",
     "BothAllowScriptsAndSameOriginPresent",
     "BothAllowTopNavigationAndUserActivationPresent",
