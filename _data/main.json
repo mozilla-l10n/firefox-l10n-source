@@ -10456,8 +10456,6 @@
     "protected-auth-alert"
   ],
   "toolkit/chrome/alerts/alert.properties": [
-    "closeButton.title",
-    "actionButton.label",
     "webActions.disableForOrigin.label",
     "source.label",
     "webActions.settings.label",
