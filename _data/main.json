@@ -12514,7 +12514,9 @@
     "experimental-features-custom-wallpaper-description",
     "experimental-features-link-previews.label",
     "experimental-features-link-previews-description",
-    "experimental-features-link-previews-description-no-ai"
+    "experimental-features-link-previews-description-no-ai",
+    "experimental-features-newtab-sections-follow-block.label",
+    "experimental-features-newtab-sections-follow-block-description"
   ],
   "toolkit/toolkit/formautofill/formAutofill.ftl": [
     "autofill-use-payment-method-os-prompt-macos",
