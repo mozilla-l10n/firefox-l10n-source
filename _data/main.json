@@ -2642,6 +2642,8 @@
     "newtab-custom-pocket-show-recent-saves",
     "newtab-custom-weather-toggle.label",
     "newtab-custom-weather-toggle.description",
+    "newtab-custom-trending-search-toggle.label",
+    "newtab-custom-trending-search-toggle.description",
     "newtab-custom-close-button",
     "newtab-custom-settings",
     "newtab-wallpaper-title",
@@ -2795,7 +2797,10 @@
     "newtab-report-content-spam-misleading.label",
     "newtab-report-cancel",
     "newtab-report-submit",
-    "newtab-toast-thanks-for-reporting.message"
+    "newtab-toast-thanks-for-reporting.message",
+    "newtab-trending-searches-trending-on-google",
+    "newtab-trending-searches-show-trending.title",
+    "newtab-trending-searches-hide-trending.title"
   ],
   "browser/browser/newtab/onboarding.ftl": [
     "onboarding-welcome-header",
@@ -4134,6 +4139,8 @@
     "home-prefs-weather-header.label",
     "home-prefs-weather-description",
     "home-prefs-weather-learn-more-link",
+    "home-prefs-trending-search-header.label",
+    "home-prefs-trending-search-description",
     "home-prefs-support-firefox-header.label",
     "home-prefs-mission-message",
     "home-prefs-mission-message-learn-more-link",
