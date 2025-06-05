@@ -3314,7 +3314,6 @@
     "policy-DisableFormHistory",
     "policy-DisablePrimaryPasswordCreation",
     "policy-DisablePasswordReveal",
-    "policy-DisablePocket2",
     "policy-DisablePrivateBrowsing",
     "policy-DisableProfileImport",
     "policy-DisableProfileRefresh",
