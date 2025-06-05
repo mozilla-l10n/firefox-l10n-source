@@ -5123,6 +5123,7 @@
     "sidebar-history-date-yesterday.heading",
     "sidebar-history-date-this-month.heading",
     "sidebar-history-date-prev-month.heading",
+    "sidebar-history-site-localhost.heading",
     "sidebar-history-delete.title",
     "sidebar-history-clear.label",
     "sidebar-history-sort-by-heading",
@@ -12828,6 +12829,9 @@
     "form-post-secure-to-insecure-warning-title",
     "form-post-secure-to-insecure-warning-message",
     "form-post-secure-to-insecure-warning-continue"
+  ],
+  "toolkit/toolkit/global/mozBreadcrumbGroup.ftl": [
+    "moz-breadcrumb-group-nav.aria-label"
   ],
   "toolkit/toolkit/global/mozFiveStar.ftl": [
     "moz-five-star-rating.title",
