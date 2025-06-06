@@ -3410,20 +3410,6 @@
     "app-manager-web-app-info",
     "app-manager-local-app-info"
   ],
-  "browser/browser/preferences/blocklists.ftl": [
-    "blocklist-window2.title",
-    "blocklist-window2.style",
-    "blocklist-description",
-    "blocklist-close-key.key",
-    "blocklist-treehead-list.label",
-    "blocklist-dialog.buttonlabelaccept",
-    "blocklist-dialog.buttonaccesskeyaccept",
-    "blocklist-item-list-template",
-    "blocklist-item-moz-std-listName",
-    "blocklist-item-moz-std-description",
-    "blocklist-item-moz-full-listName",
-    "blocklist-item-moz-full-description"
-  ],
   "browser/browser/preferences/clearSiteData.ftl": [
     "clear-site-data-window2.title",
     "clear-site-data-window2.style",
@@ -4443,7 +4429,6 @@
     "content-blocking-tracking-protection-option-all-windows.accesskey",
     "content-blocking-option-private.label",
     "content-blocking-option-private.accesskey",
-    "content-blocking-tracking-protection-change-block-list",
     "content-blocking-cookies-label.label",
     "content-blocking-cookies-label.accesskey",
     "content-blocking-expand-section.tooltiptext",
