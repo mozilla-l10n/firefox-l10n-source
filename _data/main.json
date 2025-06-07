@@ -1111,7 +1111,7 @@
     "file-picker-crashed-save-nowhere",
     "file-picker-crashed-show-in-folder.label",
     "file-picker-crashed-show-in-folder.accessKey",
-    "onboarding-checklist-button-label"
+    "onboarding-finish-setup-button-label.label"
   ],
   "browser/browser/browserContext.ftl": [
     "navbar-tooltip-instruction.value",
