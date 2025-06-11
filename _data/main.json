@@ -9668,7 +9668,9 @@
     "HTTPSFirstAddingException",
     "IframeSandboxBlockedDownload",
     "SandboxBlockedCustomProtocols",
-    "SanitizerRcvdNoInput"
+    "SanitizerRcvdNoInput",
+    "IntegrityPolicyEnforceBlockResource",
+    "IntegrityPolicyReportOnlyBlockResource"
   ],
   "dom/chrome/svg/svg.properties": [
     "AttributeParseWarning"
