@@ -8053,7 +8053,9 @@
     "storage-data",
     "storage-parsed-value",
     "storage-idb-delete-blocked",
-    "storage-idb-delete-error"
+    "storage-idb-delete-error",
+    "storage-cookie-create-error",
+    "storage-cookie-edit-error"
   ],
   "devtools/client/styleeditor.ftl": [
     "styleeditor-new-button.tooltiptext",
