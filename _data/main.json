@@ -2502,7 +2502,6 @@
   ],
   "browser/browser/newtab/newtab.ftl": [
     "newtab-page-title",
-    "newtab-settings-button.title",
     "newtab-customize-panel-icon-button.title",
     "newtab-customize-panel-icon-button-label",
     "newtab-settings-dialog-label.aria-label",
