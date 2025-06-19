@@ -1315,3 +1315,6 @@ file-picker-crashed-show-in-folder =
 onboarding-checklist-button-label = Finish setup
 onboarding-finish-setup-button-label =
     .label = Finish setup
+onboarding-aw-finish-setup-button =
+    .label = Finish setup
+    .tooltiptext = Finish setting up { -brand-short-name }

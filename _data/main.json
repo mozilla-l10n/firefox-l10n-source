@@ -1083,7 +1083,8 @@
     "file-picker-crashed-save-nowhere",
     "file-picker-crashed-show-in-folder.label",
     "file-picker-crashed-show-in-folder.accessKey",
-    "onboarding-finish-setup-button-label.label"
+    "onboarding-aw-finish-setup-button.label",
+    "onboarding-aw-finish-setup-button.tooltiptext"
   ],
   "browser/browser/browserContext.ftl": [
     "navbar-tooltip-instruction.value",
@@ -12820,6 +12821,9 @@
     "form-post-secure-to-insecure-warning-title",
     "form-post-secure-to-insecure-warning-message",
     "form-post-secure-to-insecure-warning-continue"
+  ],
+  "toolkit/toolkit/global/mozBoxBase.ftl": [
+    "moz-box-link-anchor.title"
   ],
   "toolkit/toolkit/global/mozBreadcrumbGroup.ftl": [
     "moz-breadcrumb-group-nav.aria-label"
