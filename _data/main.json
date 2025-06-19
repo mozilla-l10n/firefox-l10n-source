@@ -858,6 +858,7 @@
     "sharing-warning-disable-for-session.label",
     "urlbar-search-mode-indicator-close.aria-label",
     "urlbar-placeholder.placeholder",
+    "urlbar-placeholder-keyword-disabled.placeholder",
     "urlbar-placeholder-search-mode-web-2.placeholder",
     "urlbar-placeholder-search-mode-web-2.aria-label",
     "urlbar-placeholder-search-mode-other-engine.placeholder",
@@ -1082,7 +1083,8 @@
     "file-picker-crashed-save-nowhere",
     "file-picker-crashed-show-in-folder.label",
     "file-picker-crashed-show-in-folder.accessKey",
-    "onboarding-finish-setup-button-label.label"
+    "onboarding-aw-finish-setup-button.label",
+    "onboarding-aw-finish-setup-button.tooltiptext"
   ],
   "browser/browser/browserContext.ftl": [
     "navbar-tooltip-instruction.value",
@@ -1384,6 +1386,7 @@
     "contextual-manager-filter-input.aria-label",
     "contextual-manager-menu-more-options-button.title",
     "contextual-manager-more-options-popup.aria-label",
+    "contextual-manager-passwords-title",
     "contextual-manager-passwords-command-create",
     "contextual-manager-passwords-command-import-from-browser",
     "contextual-manager-passwords-command-import",
@@ -5105,8 +5108,8 @@
     "sidebar-show-on-the-right.label",
     "sidebar-show-on-the-left.label",
     "expand-sidebar-on-hover.label",
+    "sidebar-manage-extensions",
     "sidebar-context-menu-manage-extension.label",
-    "sidebar-context-menu-remove-extension.label",
     "sidebar-context-menu-report-extension.label",
     "sidebar-context-menu-open-in-tab.label",
     "sidebar-context-menu-open-in-container-tab.label",
@@ -5119,6 +5122,8 @@
     "sidebar-context-menu-enable-vertical-tabs.label",
     "sidebar-context-menu-customize-sidebar.label",
     "sidebar-context-menu-close-remote-tab.label",
+    "sidebar-context-menu-remove-extension2.label",
+    "sidebar-context-menu-unpin-extension.label",
     "sidebar-history-context-menu-delete-page-2.label",
     "sidebar-history-context-menu-bookmark-page.label",
     "sidebar-history-context-menu-delete-pages.label",
@@ -12816,6 +12821,9 @@
     "form-post-secure-to-insecure-warning-title",
     "form-post-secure-to-insecure-warning-message",
     "form-post-secure-to-insecure-warning-continue"
+  ],
+  "toolkit/toolkit/global/mozBoxBase.ftl": [
+    "moz-box-link-anchor.title"
   ],
   "toolkit/toolkit/global/mozBreadcrumbGroup.ftl": [
     "moz-breadcrumb-group-nav.aria-label"

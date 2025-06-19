@@ -198,6 +198,7 @@ contextual-manager-passwords-no-username-heading-and-message =
     .heading = Add a username
     .message = Add one to sign in faster.
 contextual-manager-passwords-add-username-button = Add username
+contextual-manager-passwords-title = Passwords
 
 ## Login Form
 
