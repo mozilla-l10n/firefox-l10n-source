@@ -1376,7 +1376,7 @@
     "pending-crash-reports-view-all.label",
     "pending-crash-reports-send.label",
     "pending-crash-reports-always-send.label",
-    "requested-crash-reports-message",
+    "requested-crash-reports-message-new",
     "requested-crash-reports-dont-show-again.label",
     "requested-crash-reports-dont-show-again.accesskey"
   ],
