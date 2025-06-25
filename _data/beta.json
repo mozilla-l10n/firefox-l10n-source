@@ -2764,6 +2764,8 @@
     "newtab-section-follow-button",
     "newtab-section-following-button",
     "newtab-section-unfollow-button",
+    "newtab-section-follow-highlight-title",
+    "newtab-section-follow-highlight-subtitle",
     "newtab-section-block-button",
     "newtab-section-blocked-button",
     "newtab-section-unblock-button",
