@@ -9609,7 +9609,7 @@
     "couldNotProcessUnknownDirective",
     "ignoringUnknownOption",
     "ignoringDuplicateSrc",
-    "ignoringNonAsciiToken",
+    "ignoringInvalidToken",
     "ignoringSrcFromMetaCSP",
     "ignoringSrcWithinNonceOrHashDirective",
     "ignoringScriptSrcForStrictDynamic",
