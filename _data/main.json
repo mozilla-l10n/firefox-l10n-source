@@ -8136,7 +8136,8 @@
     "styleeditor-stylesheet-all-filtered",
     "styleeditor-stylesheet-rule-count",
     "styleeditor-pretty-print-button.title",
-    "styleeditor-pretty-print-button-disabled.title"
+    "styleeditor-pretty-print-button-disabled.title",
+    "styleeditor-pretty-print-button-disabled-read-only.title"
   ],
   "devtools/client/styleeditor.properties": [
     "inlineStyleSheet",
