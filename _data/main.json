@@ -13016,7 +13016,7 @@
     "text-action-highlight-selection.label",
     "text-action-copy-link-to-highlight.label",
     "text-action-copy-clean-link-to-highlight.label",
-    "text-action-remove-all-highlights.label"
+    "text-action-remove-highlight.label"
   ],
   "toolkit/toolkit/global/tree.ftl": [
     "tree-columnpicker-restore-order.label"
