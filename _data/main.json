@@ -1821,6 +1821,7 @@
     "firefox-relay-and-fxa-opt-in-confirmation-enable-button-basic-info.accesskey",
     "firefox-relay-and-fxa-popup-notification-header-with-domain",
     "firefox-relay-and-fxa-popup-notification-first-sentence-with-domain",
+    "firefox-relay-and-fxa-popup-notification-first-sentence",
     "firefox-relay-and-fxa-popup-notification-second-sentence-with-domain",
     "firefox-relay-and-fxa-opt-in-confirmation-enable-button-with-domain.label",
     "firefox-relay-and-fxa-opt-in-confirmation-enable-button-with-domain.accesskey",
@@ -5506,6 +5507,11 @@
     "tab-group-context-delete.label",
     "tab-group-context-open-saved-group-in-this-window.label",
     "tab-group-context-open-saved-group-in-new-window.label"
+  ],
+  "browser/browser/termsofuse.ftl": [
+    "existing-user-tou-message",
+    "existing-user-tou-learn-more",
+    "existing-user-tou-accept"
   ],
   "browser/browser/textRecognition.ftl": [
     "text-recognition-modal-searching-title",
