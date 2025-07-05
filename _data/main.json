@@ -752,7 +752,7 @@
     "quickactions-downloads2",
     "quickactions-cmd-downloads",
     "quickactions-extensions",
-    "quickactions-cmd-extensions",
+    "quickactions-cmd-extensions2",
     "quickactions-firefoxview",
     "quickactions-cmd-firefoxview",
     "quickactions-help",
@@ -9737,8 +9737,10 @@
     "IframeSandboxBlockedDownload",
     "SandboxBlockedCustomProtocols",
     "SanitizerRcvdNoInput",
-    "IntegrityPolicyEnforceBlockResource",
-    "IntegrityPolicyReportOnlyBlockResource"
+    "IntegrityPolicyEnforceBlockedScript",
+    "IntegrityPolicyReportOnlyBlockedScript",
+    "IntegrityPolicyEnforceBlockedStylesheet",
+    "IntegrityPolicyReportOnlyBlockedStylesheet"
   ],
   "dom/chrome/svg/svg.properties": [
     "AttributeParseWarning"
