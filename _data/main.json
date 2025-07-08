@@ -548,6 +548,8 @@
     "appmenuitem-save-page.label",
     "appmenuitem-fxa-sync-off-title",
     "appmenuitem-fxa-sync-off-description",
+    "profiler-button-dropmarker.label",
+    "profiler-button-dropmarker.tooltiptext",
     "profiler-popup-button-idle.label",
     "profiler-popup-button-idle.tooltiptext",
     "profiler-popup-button-recording.label",
@@ -752,7 +754,7 @@
     "quickactions-downloads2",
     "quickactions-cmd-downloads",
     "quickactions-extensions",
-    "quickactions-cmd-extensions",
+    "quickactions-cmd-extensions2",
     "quickactions-firefoxview",
     "quickactions-cmd-firefoxview",
     "quickactions-help",
@@ -1821,6 +1823,7 @@
     "firefox-relay-and-fxa-opt-in-confirmation-enable-button-basic-info.accesskey",
     "firefox-relay-and-fxa-popup-notification-header-with-domain",
     "firefox-relay-and-fxa-popup-notification-first-sentence-with-domain",
+    "firefox-relay-and-fxa-popup-notification-first-sentence",
     "firefox-relay-and-fxa-popup-notification-second-sentence-with-domain",
     "firefox-relay-and-fxa-opt-in-confirmation-enable-button-with-domain.label",
     "firefox-relay-and-fxa-opt-in-confirmation-enable-button-with-domain.accesskey",
@@ -2789,6 +2792,8 @@
     "newtab-download-mobile-highlight-body-variant-b",
     "newtab-download-mobile-highlight-body-variant-c",
     "newtab-download-mobile-highlight-image.aria-label",
+    "newtab-shortcuts-highlight-title",
+    "newtab-shortcuts-highlight-subtitle",
     "newtab-report-content-why-reporting-this.label",
     "newtab-report-ads-reason-not-interested.label",
     "newtab-report-ads-reason-inappropriate.label",
@@ -3726,7 +3731,10 @@
     "more-from-moz-mozilla-monitor-button",
     "more-from-moz-solo-title",
     "more-from-moz-solo-description",
-    "more-from-moz-solo-button"
+    "more-from-moz-solo-button",
+    "more-from-moz-mdn-title",
+    "more-from-moz-mdn-description",
+    "more-from-moz-mdn-button"
   ],
   "browser/browser/preferences/permissions.ftl": [
     "permissions-window2.title",
@@ -4416,8 +4424,10 @@
     "content-blocking-etp-standard-tcp-rollout-learn-more",
     "content-blocking-etp-standard-tcp-title",
     "content-blocking-warning-title",
-    "content-blocking-and-isolating-etp-warning-description-2",
+    "content-blocking-and-isolating-etp-warning-description-3",
     "content-blocking-warning-learn-how",
+    "content-blocking-baseline-exceptions.label",
+    "content-blocking-convenience-exceptions.label",
     "content-blocking-reload-description",
     "content-blocking-reload-tabs-button.label",
     "content-blocking-reload-tabs-button.accesskey",
@@ -5506,6 +5516,11 @@
     "tab-group-context-delete.label",
     "tab-group-context-open-saved-group-in-this-window.label",
     "tab-group-context-open-saved-group-in-new-window.label"
+  ],
+  "browser/browser/termsofuse.ftl": [
+    "existing-user-tou-message",
+    "existing-user-tou-learn-more",
+    "existing-user-tou-accept"
   ],
   "browser/browser/textRecognition.ftl": [
     "text-recognition-modal-searching-title",
@@ -9729,8 +9744,10 @@
     "IframeSandboxBlockedDownload",
     "SandboxBlockedCustomProtocols",
     "SanitizerRcvdNoInput",
-    "IntegrityPolicyEnforceBlockResource",
-    "IntegrityPolicyReportOnlyBlockResource"
+    "IntegrityPolicyEnforceBlockedScript",
+    "IntegrityPolicyReportOnlyBlockedScript",
+    "IntegrityPolicyEnforceBlockedStylesheet",
+    "IntegrityPolicyReportOnlyBlockedStylesheet"
   ],
   "dom/chrome/svg/svg.properties": [
     "AttributeParseWarning"
@@ -13016,7 +13033,7 @@
     "text-action-highlight-selection.label",
     "text-action-copy-link-to-highlight.label",
     "text-action-copy-clean-link-to-highlight.label",
-    "text-action-remove-all-highlights.label"
+    "text-action-remove-highlight.label"
   ],
   "toolkit/toolkit/global/tree.ftl": [
     "tree-columnpicker-restore-order.label"
