@@ -548,6 +548,8 @@
     "appmenuitem-save-page.label",
     "appmenuitem-fxa-sync-off-title",
     "appmenuitem-fxa-sync-off-description",
+    "profiler-button-dropmarker.label",
+    "profiler-button-dropmarker.tooltiptext",
     "profiler-popup-button-idle.label",
     "profiler-popup-button-idle.tooltiptext",
     "profiler-popup-button-recording.label",
@@ -2790,6 +2792,8 @@
     "newtab-download-mobile-highlight-body-variant-b",
     "newtab-download-mobile-highlight-body-variant-c",
     "newtab-download-mobile-highlight-image.aria-label",
+    "newtab-shortcuts-highlight-title",
+    "newtab-shortcuts-highlight-subtitle",
     "newtab-report-content-why-reporting-this.label",
     "newtab-report-ads-reason-not-interested.label",
     "newtab-report-ads-reason-inappropriate.label",
@@ -3727,7 +3731,10 @@
     "more-from-moz-mozilla-monitor-button",
     "more-from-moz-solo-title",
     "more-from-moz-solo-description",
-    "more-from-moz-solo-button"
+    "more-from-moz-solo-button",
+    "more-from-moz-mdn-title",
+    "more-from-moz-mdn-description",
+    "more-from-moz-mdn-button"
   ],
   "browser/browser/preferences/permissions.ftl": [
     "permissions-window2.title",
