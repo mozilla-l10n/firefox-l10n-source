@@ -2557,6 +2557,8 @@
     "newtab-topsites-add-shortcut-header",
     "newtab-topsites-edit-shortcut-header",
     "newtab-topsites-add-shortcut-label",
+    "newtab-topsites-add-shortcut-title.title",
+    "newtab-topsites-add-shortcut-title.aria-label",
     "newtab-topsites-title-label",
     "newtab-topsites-title-input.placeholder",
     "newtab-topsites-url-label",
