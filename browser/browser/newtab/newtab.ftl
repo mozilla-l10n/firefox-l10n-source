@@ -548,12 +548,6 @@ newtab-new-user-custom-wallpaper-title = Choose a wallpaper to make { -brand-pro
 newtab-new-user-custom-wallpaper-subtitle = Make every new tab feel like home with custom wallpapers and colors.
 newtab-new-user-custom-wallpaper-cta = Try it now
 
-## Alternative strings for custom wallpaper highlight
-
-newtab-custom-wallpaper-alt-title = Your browser. Your wallpaper
-newtab-custom-wallpaper-alt-subtitle = Pick a wallpaper or color to match your mood.
-newtab-custom-wallpaper-alt-cta = Try it now
-
 ## Strings for download mobile highlight
 
 newtab-download-mobile-highlight-title = Download { -brand-product-name } for mobile
