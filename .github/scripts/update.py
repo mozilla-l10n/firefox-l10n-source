@@ -22,9 +22,9 @@ from sys import exit
 from typing import TypedDict
 
 import tomli_w
+from moz.l10n.formats import UnsupportedFormat
 from moz.l10n.paths import L10nConfigPaths
 from moz.l10n.resource import (
-    UnsupportedResource,
     add_entries,
     parse_resource,
     serialize_resource,
@@ -106,7 +106,7 @@ def update(
 
         try:
             fx_res = parse_resource(fx_path)
-        except UnsupportedResource:
+        except UnsupportedFormat:
             messages[rel_path] = []
             if not exists(rel_path):
                 print(f"create {rel_path}")
