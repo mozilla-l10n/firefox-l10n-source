@@ -5963,6 +5963,8 @@
     "settings.hideIgnoredSources.label",
     "settings.enableSourceMapIgnoreList.tooltip",
     "settings.enableSourceMapIgnoreList.label",
+    "settings.showPausedOverlay.label",
+    "settings.showPausedOverlay.tooltip",
     "sources-settings.button.label",
     "sources-settings.showContentScripts.label",
     "sources-settings.showContentScripts.tooltip",
