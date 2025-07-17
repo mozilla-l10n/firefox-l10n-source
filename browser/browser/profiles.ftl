@@ -164,7 +164,8 @@ star-avatar-alt =
     .alt = Star
 video-game-controller-avatar-alt =
     .alt = Video game controller
-custom-avatar-alt = Custom
+custom-avatar-alt =
+    .alt = Custom avatar
 # Default favicon refers to the generic globe/world icon that appears in browser tabs when a website doesn't have its own favicon.
 default-favicon-avatar-alt =
     .alt = Default favicon
