@@ -8201,8 +8201,6 @@
     "SVGRefLoopWarning",
     "SVGRefChainLengthExceededWarning",
     "SVGDeselectAllWarning",
-    "SVGNearestViewportElementWarning",
-    "SVGFarthestViewportElementWarning",
     "ScriptSourceEmpty",
     "ScriptSourceInvalidUri",
     "ScriptSourceLoadFailed",
