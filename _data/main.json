@@ -7776,6 +7776,7 @@
     "rule.sourceInline",
     "rule.sourceConstructed",
     "rule.sourceElement",
+    "rule.sourceElementAttributesStyle",
     "rule.inheritedFrom",
     "rule.keyframe",
     "rule.userAgentStyles",
