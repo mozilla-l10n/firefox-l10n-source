@@ -233,7 +233,9 @@ tabbrowser-manager-current-window-tab-group =
     .label = { $tabGroupName }
     .tooltiptext = { $tabGroupName } — Current window
 
-## Tab Groups
+## Variables:
+##  $tabGroupName (String): The name of the tab group. Defaults to the value
+##                          of tab-group-name-default.
 
 tab-group-editor-title-create = Create tab group
 tab-group-editor-title-edit = Manage tab group
@@ -263,16 +265,14 @@ tab-group-editor-color-selector2-gray = Gray
     .title = Gray
 tab-group-editor-color-selector2-red = Red
     .title = Red
-# Variables:
-#  $tabGroupName (String): The name of the tab group. Defaults to the value
-#                          of tab-group-name-default.
 tab-group-description = { $tabGroupName } — Tab Group
+tab-group-label-tooltip-collapsed = { $tabGroupName } — Collapsed
+tab-group-label-tooltip-expanded = { $tabGroupName } — Expanded
 tab-context-unnamed-group =
     .label = Unnamed group
 tab-group-name-default = Unnamed Group
 
-## Variables:
-##  $tabCount (Number): the number of tabs that are affected by the action.
+##
 
 tab-context-move-tab-to-new-group =
     .label =
@@ -314,6 +314,16 @@ tab-context-ungroup-tab =
            *[other] Remove from Groups
         }
     .accesskey = R
+# When a tab group containing the active tab is collapsed, the active tab
+# remains visible. An indicator appears at the end of the group showing the
+# number of remaining tabs that are hidden by the collapsed group,
+# e.g. "+2" for a group with 3 total tabs.
+tab-group-overflow-count = +{ $tabCount }
+tab-group-overflow-count-tooltip =
+    { $tabCount ->
+        [one] { $tabCount } more tab
+       *[other] { $tabCount } more tabs
+    }
 
 ## Open/saved tab group context menu
 
