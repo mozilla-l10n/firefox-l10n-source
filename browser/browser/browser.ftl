@@ -1155,6 +1155,10 @@ tabs-toolbar-list-all-tabs =
     .label = List all tabs
     .tooltiptext = List all tabs
 
+## Drop indicator text for pinned tabs when no tabs are pinned.
+
+pinned-tabs-drop-indicator = Drop tab here to pin
+
 ## Infobar shown at startup to suggest session-restore
 
 # <img data-l10n-name="icon"/> will be replaced by the application menu icon
@@ -1333,6 +1337,14 @@ onboarding-aw-finish-setup-button =
 
 trustpanel-etp-label-enabled = Enhanced Tracking Protection is on
 trustpanel-etp-label-disabled = Enhanced Tracking Protection is off
+# Variables
+#  $host (String): the hostname of the site that is being displayed.
+trustpanel-etp-toggle-on =
+    .aria-label = Enhanced Tracking Protection: On for { $host }
+# Variables
+#  $host (String): the hostname of the site that is being displayed.
+trustpanel-etp-toggle-off =
+    .aria-label = Enhanced Tracking Protection: Off for { $host }
 trustpanel-etp-description-enabled = If something looks broken on this site, try turning off protections.
 trustpanel-etp-description-disabled = { -brand-product-name } thinks companies should follow you less. We block as many trackers as we can when you turn on protections.
 trustpanel-connection-label-secure = Connection secure
@@ -1354,7 +1366,7 @@ trustpanel-clear-cookies-subview-button-cancel = Cancel
 #  $host (String): the hostname of the site that is being displayed.
 trustpanel-site-information-header =
     .title = Connection protections for { $host }
-trustpanel-connection-secure = You are securely connected to this site
+trustpanel-connection-secure = You are securely connected to this site.
 trustpanel-connection-not-secure = You are not securely connected to this site.
 trustpanel-siteinformation-morelink = More site information
 trustpanel-blocker-see-all = See All
