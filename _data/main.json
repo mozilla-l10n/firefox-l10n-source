@@ -2202,6 +2202,7 @@
     "newtab-confirm-delete-history-p1",
     "newtab-confirm-delete-history-p2",
     "newtab-topsite-sponsored",
+    "topsite-label-pinned",
     "newtab-menu-section-tooltip",
     "newtab-dismiss-button-tooltip",
     "newtab-menu-content-tooltip",
@@ -4035,7 +4036,11 @@
     "soccer-avatar",
     "sparkle-single-avatar",
     "star-avatar",
-    "video-game-controller-avatar"
+    "video-game-controller-avatar",
+    "custom-avatar-crop-back-button",
+    "custom-avatar-crop-view",
+    "custom-avatar-crop-area",
+    "custom-avatar-drag-handle"
   ],
   "browser/browser/protections.ftl": [
     "graph-week-summary",
