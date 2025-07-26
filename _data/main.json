@@ -3788,9 +3788,6 @@
     "privacy-segmentation-section-description",
     "privacy-segmentation-radio-off",
     "privacy-segmentation-radio-on",
-    "website-advertising-header",
-    "website-advertising-private-attribution",
-    "website-advertising-private-attribution-description",
     "security-header",
     "security-browsing-protection",
     "security-enable-safe-browsing",
@@ -4878,6 +4875,10 @@
     "webauthn-uv-invalid-long-prompt",
     "webauthn-uv-invalid-short-prompt"
   ],
+  "browser/browser/webrtc-preview.ftl": [
+    "webrtc-share-preview-button-show",
+    "webrtc-share-preview-button-hide"
+  ],
   "browser/browser/webrtcIndicator.ftl": [
     "webrtc-indicator-title",
     "webrtc-item-camera",
@@ -4945,7 +4946,6 @@
     "webrtc-allow-share-screen-and-audio-capture-unsafe-delegation",
     "webrtc-share-screen-warning",
     "webrtc-share-browser-warning",
-    "webrtc-share-screen-learn-more",
     "webrtc-pick-window-or-screen",
     "webrtc-share-entire-screen",
     "webrtc-share-pipe-wire-portal",
