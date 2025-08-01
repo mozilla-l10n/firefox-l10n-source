@@ -53,5 +53,5 @@ experimental-features-newtab-sections-follow-block =
 experimental-features-newtab-sections-follow-block-description = Organize the stories on your New Tab page into topic sections (Sports, Food, Entertainment and more) for a more structured and easy-to-scan experience. Use our new Follow and Block controls to customize what content you see. <a data-l10n-name="connect">Share feedback</a>
 # Firefox Web Apps
 experimental-features-fx-web-apps =
-    .label = { -brand-product-name } Web Apps
-experimental-features-fx-web-apps-description = Open sites in a minimalist browser pinned to your taskbar. <a data-l10n-name="connect">Share feedback</a>
+    .label = Add sites to your taskbar
+experimental-features-fx-web-apps-description = Open sites you frequently visit as a web app from your taskbar. Look for the “Add to taskbar” icon to the right the address bar to launch that site in a streamlined window with all of { -brand-product-name }’s protections. <a data-l10n-name="connect">Share feedback</a>
