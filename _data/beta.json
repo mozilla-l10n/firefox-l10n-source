@@ -4034,7 +4034,11 @@
     "soccer-avatar",
     "sparkle-single-avatar",
     "star-avatar",
-    "video-game-controller-avatar"
+    "video-game-controller-avatar",
+    "custom-avatar-crop-back-button",
+    "custom-avatar-crop-view",
+    "custom-avatar-crop-area",
+    "custom-avatar-drag-handle"
   ],
   "browser/browser/protections.ftl": [
     "graph-week-summary",

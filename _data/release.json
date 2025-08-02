@@ -4542,6 +4542,11 @@
     "tab-group-context-open-saved-group-in-this-window",
     "tab-group-context-open-saved-group-in-new-window"
   ],
+  "browser/browser/termsofuse.ftl": [
+    "existing-user-tou-message",
+    "existing-user-tou-learn-more",
+    "existing-user-tou-accept"
+  ],
   "browser/browser/textRecognition.ftl": [
     "text-recognition-modal-searching-title",
     "text-recognition-modal-results-title",
