@@ -388,11 +388,13 @@
     "addon-install-error-file-access",
     "addon-install-error-not-signed",
     "addon-install-error-invalid-domain",
+    "addon-install-error-no-addon-name-file-access",
     "addon-local-install-error-network-failure",
     "addon-local-install-error-incorrect-hash",
     "addon-local-install-error-corrupt-file",
     "addon-local-install-error-file-access",
     "addon-local-install-error-not-signed",
+    "addon-local-install-no-addon-name-error-file-access",
     "addon-install-error-incompatible",
     "addon-install-error-hard-blocked",
     "addon-install-error-soft-blocked",
@@ -1095,7 +1097,8 @@
     "main-context-menu-inspect-a11y-properties",
     "main-context-menu-eme-learn-more",
     "main-context-menu-open-link-in-container-tab",
-    "main-context-menu-reveal-password"
+    "main-context-menu-reveal-password",
+    "main-context-menu-new-feature-badge"
   ],
   "browser/browser/browserSets.ftl": [
     "window-minimize-command",
@@ -2074,6 +2077,11 @@
     "cfr-doorhanger-bookmark-fxa-body-2",
     "cfr-doorhanger-bookmark-fxa-link-text",
     "cfr-doorhanger-bookmark-fxa-close-btn-tooltip",
+    "fxa-adoption-addresses-backup-title",
+    "fxa-adoption-addresses-backup-subtitle",
+    "fxa-adoption-credit-cards-backup-title",
+    "fxa-adoption-credit-cards-backup-subtitle",
+    "fxa-adoption-primary-button-label",
     "cfr-badge-reader-label-newfeature",
     "cfr-whatsnew-button",
     "cfr-whatsnew-release-notes-link-text",
@@ -6308,6 +6316,13 @@
     "har.responseBodyNotIncluded",
     "har.requestBodyNotIncluded"
   ],
+  "devtools/client/inspector.ftl": [
+    "colorpicker-tooltip-spectrum-dragger-title",
+    "colorpicker-tooltip-eyedropper-title",
+    "colorpicker-tooltip-color-name-title",
+    "colorpicker-tooltip-hue-slider-title",
+    "colorpicker-tooltip-alpha-slider-title"
+  ],
   "devtools/client/inspector.properties": [
     "inspector.panelLabel.markupView",
     "markupView.more.showing",
@@ -6442,11 +6457,6 @@
     "markupView.overflowBadge.tooltip",
     "rulePreviewTooltip.noAssociatedRule",
     "colorPickerTooltip.contrastAgainstBgTitle",
-    "colorPickerTooltip.spectrumDraggerTitle",
-    "colorPickerTooltip.eyedropperTitle",
-    "colorPickerTooltip.colorNameTitle",
-    "colorPickerTooltip.hueSliderTitle",
-    "colorPickerTooltip.alphaSliderTitle",
     "colorPickerTooltip.contrast.large.title"
   ],
   "devtools/client/jsonview.properties": [
