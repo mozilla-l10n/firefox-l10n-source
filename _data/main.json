@@ -4724,6 +4724,12 @@
     "tab-group-context-open-saved-group-in-this-window",
     "tab-group-context-open-saved-group-in-new-window"
   ],
+  "browser/browser/taskbartabs.ftl": [
+    "taskbar-tab-urlbar-button-open",
+    "taskbar-tab-urlbar-button-close",
+    "taskbar-tab-shortcut-description",
+    "taskbar-tab-shortcut-folder"
+  ],
   "browser/browser/termsofuse.ftl": [
     "existing-user-tou-message",
     "existing-user-tou-learn-more",
