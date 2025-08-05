@@ -11589,7 +11589,9 @@
     "experimental-features-link-previews-description",
     "experimental-features-link-previews-description-no-ai",
     "experimental-features-newtab-sections-follow-block",
-    "experimental-features-newtab-sections-follow-block-description"
+    "experimental-features-newtab-sections-follow-block-description",
+    "experimental-features-fx-web-apps",
+    "experimental-features-fx-web-apps-description"
   ],
   "toolkit/toolkit/formautofill/formAutofill.ftl": [
     "autofill-use-payment-method-os-prompt-macos",
