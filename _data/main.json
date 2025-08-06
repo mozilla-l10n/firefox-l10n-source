@@ -4733,7 +4733,9 @@
   "browser/browser/termsofuse.ftl": [
     "existing-user-tou-message",
     "existing-user-tou-learn-more",
-    "existing-user-tou-accept"
+    "existing-user-tou-accept",
+    "tou-existing-user-spotlight-body",
+    "tou-existing-user-spotlight-remind-me-later"
   ],
   "browser/browser/textRecognition.ftl": [
     "text-recognition-modal-searching-title",
