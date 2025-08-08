@@ -2488,6 +2488,7 @@
     "newtab-widget-timer-pause",
     "newtab-widget-timer-reset",
     "newtab-widget-timer-menu-notifications",
+    "newtab-widget-timer-menu-notifications-on",
     "newtab-widget-timer-menu-hide",
     "newtab-widget-timer-menu-learn-more"
   ],
@@ -12731,7 +12732,7 @@
     "unknownSocketType-title",
     "nssFailure2-title",
     "csp-xfo-error-title",
-    "corruptedContentError-title",
+    "corruptedContentErrorv2-title",
     "sslv3Used-title",
     "inadequateSecurityError-title",
     "blockedByPolicy-title",
