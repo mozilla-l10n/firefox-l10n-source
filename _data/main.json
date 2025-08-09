@@ -2490,7 +2490,10 @@
     "newtab-widget-timer-menu-notifications",
     "newtab-widget-timer-menu-notifications-on",
     "newtab-widget-timer-menu-hide",
-    "newtab-widget-timer-menu-learn-more"
+    "newtab-widget-timer-menu-learn-more",
+    "newtab-promo-card-title",
+    "newtab-promo-card-body",
+    "newtab-promo-card-cta"
   ],
   "browser/browser/newtab/onboarding.ftl": [
     "onboarding-welcome-header",
