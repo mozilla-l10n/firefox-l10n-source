@@ -12093,6 +12093,7 @@
     "text-action-spell-dictionaries",
     "text-action-search-text-box-clear",
     "text-action-highlight-selection",
+    "text-action-comment-selection",
     "text-action-copy-link-to-highlight",
     "text-action-copy-clean-link-to-highlight",
     "text-action-remove-highlight"
