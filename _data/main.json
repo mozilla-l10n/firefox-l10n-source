@@ -2161,6 +2161,7 @@
     "root-certificate-windows-background-notification-update-button",
     "fxa-menu-message-close-button",
     "fxa-menu-message-sign-up-button",
+    "fxa-menu-message-sign-in-button",
     "fxa-menu-message-sync-devices-primary-text",
     "fxa-menu-message-sync-devices-secondary-text",
     "fxa-menu-message-sync-devices-collapsed-text",
