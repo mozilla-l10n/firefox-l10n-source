@@ -630,7 +630,6 @@ newtab-widget-lists-label-new =
     .label = New
 newtab-widget-lists-label-beta =
     .label = Beta
-newtab-widget-lists-new-label = New
 # When tasks have been previous marked as complete, they will appear in their own separate list beneath incomplete items
 # Variables:
 #   $number (number) - Amount of list items marked complete
