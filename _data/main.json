@@ -2521,6 +2521,7 @@
     "newtab-widget-timer-menu-notifications-on",
     "newtab-widget-timer-menu-hide",
     "newtab-widget-timer-menu-learn-more",
+    "newtab-widget-keep-scrolling",
     "newtab-promo-card-title",
     "newtab-promo-card-body",
     "newtab-promo-card-cta",
@@ -4795,6 +4796,8 @@
   "browser/browser/taskbartabs.ftl": [
     "taskbar-tab-urlbar-button-open",
     "taskbar-tab-urlbar-button-close",
+    "taskbar-tab-urlbar-button-show",
+    "taskbar-tab-urlbar-button-hide",
     "taskbar-tab-shortcut-description",
     "taskbar-tab-shortcut-folder"
   ],
