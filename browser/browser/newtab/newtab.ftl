@@ -643,7 +643,6 @@ newtab-widget-lists-menu-hide = Hide all lists
 newtab-widget-lists-menu-learn-more = Learn more
 newtab-widget-lists-input-add-an-item =
     .placeholder = Add an item
-newtab-widget-lists-input-placeholder = Add an item
 newtab-widget-lists-input-error = Please include text to add an item.
 newtab-widget-lists-input-menu-open-link = Open link
 newtab-widget-lists-input-menu-move-up = Move up
