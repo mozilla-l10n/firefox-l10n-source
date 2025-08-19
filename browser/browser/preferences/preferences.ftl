@@ -16,6 +16,8 @@ global-privacy-control-description =
     .label = Tell websites not to sell or share my data
     .accesskey = s
 non-technical-privacy-header = Website Privacy Preferences
+non-technical-privacy-label =
+    .aria-label = { non-technical-privacy-header }
 # Do not translate.
 # "Global Privacy Control" or "GPC" are a web platform feature name and abbreviation
 # included to facilitate power-user search of the about:preferences page.
@@ -71,6 +73,8 @@ focus-search =
     .key = f
 close-button =
     .aria-label = Close
+do-not-track-removal2 =
+    .label = We no longer support the “Do Not Track” signal
 
 ## Browser Restart Dialog
 

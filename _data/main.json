@@ -3401,9 +3401,10 @@
     "permissions-doh-remove-all"
   ],
   "browser/browser/preferences/preferences.ftl": [
-    "do-not-track-removal",
+    "do-not-track-removal2",
     "global-privacy-control-description",
     "non-technical-privacy-header",
+    "non-technical-privacy-label",
     "global-privacy-control-search",
     "settings-page-title",
     "search-input-box2",
