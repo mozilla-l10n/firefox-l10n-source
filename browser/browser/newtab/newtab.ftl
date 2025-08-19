@@ -671,6 +671,7 @@ newtab-widget-timer-menu-notifications = Turn off notifications
 newtab-widget-timer-menu-notifications-on = Turn on notifications
 newtab-widget-timer-menu-hide = Hide timer
 newtab-widget-timer-menu-learn-more = Learn more
+# Message that appears when widgets are full-height. This reminds users that there is more New Tab content to see if they scroll
 newtab-widget-keep-scrolling = Scroll for more
 newtab-promo-card-title = Support { -brand-product-name }
 newtab-promo-card-body = Our sponsors support our mission to build a better web
