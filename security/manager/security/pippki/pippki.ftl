@@ -48,9 +48,6 @@ download-cert-view-cert =
     .label = View
 download-cert-view-text = Examine CA certificate
 
-## Client Authorization Ask dialog
-
-
 ## Client Authentication Ask dialog
 
 client-auth-window =
@@ -92,8 +89,6 @@ client-auth-cert-remember-always =
     .label = Permanently
 client-auth-cert-remember-temporarily =
     .label = For this session
-client-auth-cert-remember-box =
-    .label = Remember this decision
 
 ## Set password (p12) dialog
 
