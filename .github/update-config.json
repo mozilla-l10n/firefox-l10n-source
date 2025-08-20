@@ -4,7 +4,6 @@
     "beta",
     "release",
     "esr140",
-    "esr128",
     "esr115"
   ],
   "head": "main",
