@@ -7971,6 +7971,7 @@
     "rule.warningName.title",
     "rule.warningInvalidAtComputedValueTime.title",
     "rule.filterProperty.title",
+    "rule.variableJumpDefinition.title",
     "rule.empty",
     "rule.variableUnset",
     "rule.variableEmpty",
