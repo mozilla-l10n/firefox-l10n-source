@@ -2503,8 +2503,9 @@
     "newtab-trending-searches-hide-trending",
     "newtab-trending-searches-learn-more",
     "newtab-trending-searches-dismiss",
-    "newtab-widget-lists-default-list-title",
-    "newtab-widget-lists-default-list-new",
+    "newtab-widget-lists-name-label-default",
+    "newtab-widget-lists-name-placeholder-default",
+    "newtab-widget-lists-name-placeholder-new",
     "newtab-widget-lists-empty-cta",
     "newtab-widget-lists-label-new",
     "newtab-widget-lists-label-beta",
@@ -11788,8 +11789,6 @@
     "experimental-features-group-webpage-display",
     "experimental-features-group-customize-browsing",
     "experimental-features-group-productivity",
-    "experimental-features-contextual-password-manager",
-    "experimental-features-contextual-password-manager-description",
     "experimental-features-custom-wallpaper",
     "experimental-features-custom-wallpaper-description",
     "experimental-features-link-previews",
@@ -11802,7 +11801,9 @@
     "experimental-features-newtab-widget-lists",
     "experimental-features-newtab-widget-lists-description",
     "experimental-features-newtab-widget-timer",
-    "experimental-features-newtab-widget-timer-description"
+    "experimental-features-newtab-widget-timer-description",
+    "experimental-features-newtab-widget-lists-and-timer",
+    "experimental-features-newtab-widget-lists-and-timer-description"
   ],
   "toolkit/toolkit/formautofill/formAutofill.ftl": [
     "autofill-use-payment-method-os-prompt-macos",
