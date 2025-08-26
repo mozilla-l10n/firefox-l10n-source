@@ -14,9 +14,9 @@ do not necessarily carry a Source Code Form License Notice.
 The Source Code Form for each such file is available from
 [mozilla/mozilla-firefox/firefox](https://github.com/mozilla-firefox/firefox).
 
-## Adding a New Version
+## Adding a New Firefox Version
 
-Before adding a new version, make sure to merge pending update pull requests
+Before adding a new supported Firefox version, make sure to merge pending update pull requests
 (it will avoid the need to rebase existing PRs). Then:
 
 1. Create a local branch.
