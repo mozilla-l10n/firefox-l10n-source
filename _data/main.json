@@ -569,9 +569,9 @@
     "default-browser-notification-no-button-text"
   ],
   "browser/browser/browser.ftl": [
-    "browser-main-window-titles",
-    "browser-main-window-titles-mac",
     "browser-main-window-default-title",
+    "browser-main-private-window-title",
+    "browser-main-private-suffix-for-content",
     "private-browsing-shortcut-text-2",
     "urlbar-identity-button",
     "urlbar-services-notification-anchor",
@@ -2333,6 +2333,8 @@
     "newtab-custom-shortcuts-toggle",
     "newtab-custom-row-selector",
     "newtab-custom-stories-toggle",
+    "newtab-custom-stories-personalized-toggle",
+    "newtab-custom-stories-personalized-checkbox-label",
     "newtab-custom-weather-toggle",
     "newtab-custom-trending-search-toggle",
     "newtab-custom-widget-weather-toggle",
