@@ -8598,7 +8598,6 @@
     "WebExtensionUncheckedLastError",
     "OffscreenCanvasToBlobWarning",
     "InstallTriggerDeprecatedWarning",
-    "InstallTriggerInstallDeprecatedWarning",
     "SelectOptionsLengthAssignmentWarning",
     "InvalidFormControlUnfocusable",
     "InvalidNamedFormControlUnfocusable",
