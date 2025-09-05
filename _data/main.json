@@ -10673,7 +10673,16 @@
     "about-logging-uploaded",
     "about-logging-share-uploaded-url",
     "about-logging-upload-error",
-    "about-logging-save-error"
+    "about-logging-profile-storage-error",
+    "about-logging-save-error",
+    "about-logging-uploaded-profile-name",
+    "about-logging-uploaded-profiles-title",
+    "about-logging-no-uploaded-profiles",
+    "about-logging-delete-uploaded-profile",
+    "about-logging-view-uploaded-profile",
+    "about-logging-delete-profile-confirm-title",
+    "about-logging-delete-profile-confirm",
+    "about-logging-deleting-profile"
   ],
   "toolkit/toolkit/about/aboutMozilla.ftl": [
     "about-mozilla-title-6-27",
