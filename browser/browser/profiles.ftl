@@ -144,6 +144,15 @@ profiles-cyan-theme-title =
 profiles-custom-theme-title =
     .title = Apply custom theme
 
+## Data collection settings changed (multi-profile)
+
+# Full infobar message with inline bold title followed by body text
+multiprofile-data-collection-message = <strong>Data collection settings changed.</strong> The changes made in another profile apply to all profiles on this device.
+# Primary button label to open the Data collection section in Settings
+multiprofile-data-collection-view-settings = View settings
+# Secondary button label to dismiss the infobar without action
+multiprofile-data-collection-dismiss = Dismiss
+
 ## Alternative text for default profile icons
 
 book-avatar-alt =

@@ -79,6 +79,7 @@ policy-ExtensionSettings = Manage all aspects of extension installation.
 policy-ExtensionUpdate = Enable or disable automatic extension updates.
 policy-FirefoxHome2 = Configure { -firefox-home-brand-name }.
 policy-FirefoxSuggest = Configure { -firefox-suggest-brand-name }.
+policy-GenerativeAI = Configure generative AI features.
 policy-GoToIntranetSiteForSingleWordEntryInAddressBar = Force direct intranet site navigation instead of searching when typing single word entries in the address bar.
 policy-Handlers = Configure default application handlers.
 policy-HardwareAcceleration = If false, turn off hardware acceleration.
