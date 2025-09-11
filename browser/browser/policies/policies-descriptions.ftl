@@ -118,6 +118,7 @@ policy-PostQuantumKeyAgreementEnabled = Enable post-quantum key agreement for TL
 policy-PDFjs = Disable or configure PDF.js, the built-in PDF viewer in { -brand-short-name }.
 policy-Permissions2 = Configure permissions for camera, microphone, location, notifications, and autoplay.
 policy-PictureInPicture = Enable or disable Picture-in-Picture.
+policy-PopupBlocking2 = Allow certain websites to display popups and be redirected by third-party frames.
 policy-PopupBlocking = Allow certain websites to display popups by default.
 policy-Preferences = Set and lock the value for a subset of preferences.
 policy-PrivateBrowsingModeAvailability = Set availability of private browsing mode.
