@@ -3078,6 +3078,7 @@
     "policy-TranslateEnabled",
     "policy-UserMessaging",
     "policy-UseSystemPrintDialog",
+    "policy-VisualSearchEnabled",
     "policy-WebsiteFilter",
     "policy-Windows10SSO",
     "policy-MicrosoftEntraSSO"
@@ -4893,7 +4894,11 @@
     "taskbar-tab-shortcut-description",
     "taskbar-tab-shortcut-folder",
     "taskbar-tab-audio-mute",
-    "taskbar-tab-audio-unmute"
+    "taskbar-tab-audio-unmute",
+    "taskbar-tab-title-default",
+    "taskbar-tab-title-container",
+    "taskbar-tab-title-profile",
+    "taskbar-tab-title-container-profile"
   ],
   "browser/browser/termsofuse.ftl": [
     "existing-user-tou-message",
