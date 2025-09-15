@@ -7836,7 +7836,7 @@
     "webconsole.menu.copyAllMessages.accesskey",
     "webconsole.menu.saveAllMessagesFile.label",
     "webconsole.menu.saveAllMessagesFile.accesskey",
-    "webconsole.clearButton.tooltip",
+    "webconsole.clearButton.tooltipWithHotkeyHint",
     "webconsole.toggleFilterButton.tooltip",
     "webconsole.filterInput.placeholder",
     "webconsole.errorsFilterButton.label",
