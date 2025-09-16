@@ -3041,6 +3041,7 @@
     "policy-LegacySameSiteCookieBehaviorEnabled",
     "policy-LegacySameSiteCookieBehaviorEnabledForDomainList",
     "policy-LocalFileLinks",
+    "policy-LocalNetworkAccess",
     "policy-ManagedBookmarks",
     "policy-ManualAppUpdateOnly",
     "policy-PrimaryPassword",
