@@ -1558,6 +1558,16 @@
     "fxa-adoption-passwords-title",
     "fxa-adoption-passwords-subtitle",
     "fxa-adoption-passwords-primary-button-label",
+    "taskbar-tabs-social-callout-title",
+    "taskbar-tabs-social-callout-subtitle",
+    "taskbar-tabs-chat-callout-title",
+    "taskbar-tabs-chat-callout-subtitle",
+    "taskbar-tabs-email-callout-title",
+    "taskbar-tabs-email-callout-subtitle",
+    "taskbar-tabs-media-callout-title",
+    "taskbar-tabs-media-callout-subtitle",
+    "taskbar-tabs-value-prop-callout-title",
+    "taskbar-tabs-value-prop-callout-subtitle",
     "windows-10-eos-sync-urgency-title-1",
     "windows-10-eos-sync-urgency-subtitle-1",
     "windows-10-eos-sync-urgency-title-2",
@@ -2248,7 +2258,8 @@
     "windows-10-eos-feature-toast-dismiss-button",
     "etp-strict-exceptions-infobar-message",
     "etp-strict-exceptions-infobar-learn-more",
-    "etp-strict-exceptions-infobar-button"
+    "etp-strict-exceptions-infobar-button",
+    "etp-strict-exceptions-infobar-not-now"
   ],
   "browser/browser/newtab/newtab.ftl": [
     "newtab-page-title",
@@ -10597,6 +10608,7 @@
     "about-glean-button-dictionary-link",
     "about-glean-button-watch",
     "about-glean-button-unwatch",
+    "about-glean-no-data-to-display",
     "about-glean-labeled-metric-warning",
     "about-glean-unknown-metric-type-warning"
   ],
