@@ -247,6 +247,17 @@ browser-layout-show-sidebar-desc = Quickly access bookmarks, tabs from your phon
 language-and-appearance-header = Language and Appearance
 preferences-web-appearance-header = Website appearance
 preferences-web-appearance-description = Some websites adapt their color scheme based on your preferences. Choose which color scheme you’d like to use for those sites.
+preferences-web-appearance-choice-auto2 =
+    .label = Automatic
+    .title = Automatically change website backgrounds and content based on your system settings and { -brand-short-name } theme.
+preferences-web-appearance-choice-light2 =
+    .label = Light
+    .title = Use a light appearance for website backgrounds and content.
+preferences-web-appearance-choice-dark2 =
+    .label = Dark
+    .title = Use a dark appearance for website backgrounds and content.
+web-appearance-group =
+    .aria-label = Website appearance
 preferences-web-appearance-choice-auto = Automatic
 preferences-web-appearance-choice-light = Light
 preferences-web-appearance-choice-dark = Dark
@@ -266,6 +277,8 @@ preferences-web-appearance-choice-input-dark =
 # system colors.
 preferences-web-appearance-override-warning3 =
     .message = Your contrast control settings are overriding website appearance.
+preferences-web-appearance-link =
+    .label = Manage { -brand-short-name } themes in Extensions & Themes
 # This can appear when using windows HCM or "Override colors: always" without
 # system colors.
 preferences-web-appearance-override-warning = Your color selections are overriding website appearance. <a data-l10n-name="colors-link">Manage colors</a>
@@ -1497,6 +1510,7 @@ security-block-uncommon-software =
 ## Privacy Section - Certificates
 
 certs-header = Certificates
+certs-description = Configure the certificates that { -brand-short-name } uses for authentication.
 certs-enable-ocsp =
     .label = Query OCSP responder servers to confirm the current validity of certificates
     .accesskey = Q
