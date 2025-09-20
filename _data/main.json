@@ -11858,7 +11858,9 @@
     "experimental-features-newtab-widget-timer",
     "experimental-features-newtab-widget-timer-description",
     "experimental-features-newtab-widget-lists-and-timer",
-    "experimental-features-newtab-widget-lists-and-timer-description"
+    "experimental-features-newtab-widget-lists-and-timer-description",
+    "experimental-features-semantic-history-search",
+    "experimental-features-semantic-history-search-description"
   ],
   "toolkit/toolkit/formautofill/formAutofill.ftl": [
     "autofill-use-payment-method-os-prompt-macos",
