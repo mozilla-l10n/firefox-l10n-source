@@ -3540,9 +3540,8 @@
     "use-system-locale",
     "check-user-spelling",
     "files-and-applications-title",
-    "download-header",
-    "download-save-where",
-    "download-choose-folder",
+    "downloads-header-2",
+    "download-save-where-2",
     "download-always-ask-where",
     "download-private-browsing-delete",
     "applications-header",
@@ -3971,8 +3970,7 @@
     "preferences-doh-select-resolver",
     "preferences-doh-manage-exceptions",
     "desktop-folder-name",
-    "downloads-folder-name",
-    "choose-download-folder-title"
+    "downloads-folder-name"
   ],
   "browser/browser/preferences/selectBookmark.ftl": [
     "select-bookmark-window2",
@@ -13923,7 +13921,8 @@
     "elevation-more-elevated",
     "sandbox-missing-unprivileged-namespaces",
     "sandbox-unprivileged-namespaces-dismiss-button",
-    "sandbox-unprivileged-namespaces-howtofix"
+    "sandbox-unprivileged-namespaces-howtofix",
+    "sandbox-content-disabled-warning"
   ],
   "toolkit/toolkit/updates/history.ftl": [
     "history-title",
