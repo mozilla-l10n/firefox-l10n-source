@@ -8563,7 +8563,6 @@
     "InitNSMouseEventWarning",
     "MathML_DeprecatedMathSpaceValue2Warning",
     "MathML_DeprecatedMathVariantWarning",
-    "MathML_DeprecatedStixgeneralOperatorStretchingWarning",
     "FormSubmissionUntrustedEventWarning",
     "WebShareAPI_Failed",
     "WebShareAPI_Aborted",
