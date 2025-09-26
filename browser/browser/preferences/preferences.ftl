@@ -247,6 +247,17 @@ browser-layout-show-sidebar-desc = Quickly access bookmarks, tabs from your phon
 language-and-appearance-header = Language and Appearance
 preferences-web-appearance-header = Website appearance
 preferences-web-appearance-description = Some websites adapt their color scheme based on your preferences. Choose which color scheme you’d like to use for those sites.
+preferences-web-appearance-choice-auto2 =
+    .label = Automatic
+    .title = Automatically change website backgrounds and content based on your system settings and { -brand-short-name } theme.
+preferences-web-appearance-choice-light2 =
+    .label = Light
+    .title = Use a light appearance for website backgrounds and content.
+preferences-web-appearance-choice-dark2 =
+    .label = Dark
+    .title = Use a dark appearance for website backgrounds and content.
+web-appearance-group =
+    .aria-label = Website appearance
 preferences-web-appearance-choice-auto = Automatic
 preferences-web-appearance-choice-light = Light
 preferences-web-appearance-choice-dark = Dark
@@ -266,6 +277,8 @@ preferences-web-appearance-choice-input-dark =
 # system colors.
 preferences-web-appearance-override-warning3 =
     .message = Your contrast control settings are overriding website appearance.
+preferences-web-appearance-link =
+    .label = Manage { -brand-short-name } themes in Extensions & Themes
 # This can appear when using windows HCM or "Override colors: always" without
 # system colors.
 preferences-web-appearance-override-warning = Your color selections are overriding website appearance. <a data-l10n-name="colors-link">Manage colors</a>
@@ -341,6 +354,11 @@ check-user-spelling =
 ## General Section - Files and Applications
 
 files-and-applications-title = Files and Applications
+downloads-header-2 =
+    .label = Downloads
+download-save-where-2 =
+    .label = Save files to
+    .accesskey = v
 download-header = Downloads
 download-save-where = Save files to
     .accesskey = v
@@ -1055,6 +1073,28 @@ autofill-saved-payment-methods-button = Saved payment methods
 # This operation requires the user to authenticate with the operating system (device sign-in)
 autofill-reauth-payment-methods-checkbox = Require device sign in to fill and manage payment methods
     .accesskey = o
+autofill-payment-methods-title = Payment methods
+autofill-payment-methods-header =
+    .aria-label = Payment methods
+autofill-payment-methods-checkbox-message-2 =
+    .label = Save and autofill payment info
+    .accesskey = p
+autofill-payment-methods-manage-payments-button =
+    .label = Manage payment methods
+    .accesskey = m
+# This operation requires the user to authenticate with the operating system (device sign-in)
+autofill-reauth-payment-methods-checkbox-2 =
+    .label = Require device sign in to autofill and manage payments methods
+    .accesskey = o
+autofill-addresses-title = Addresses and more
+autofill-addresses-header =
+    .aria-label = Addresses and more
+autofill-addresses-checkbox-message =
+    .label = Save and autofill addresses
+    .accesskey = S
+autofill-addresses-manage-addresses-button =
+    .label = Manage addresses and more
+    .accesskey = M
 
 ## Privacy Section - History
 
@@ -1497,6 +1537,7 @@ security-block-uncommon-software =
 ## Privacy Section - Certificates
 
 certs-header = Certificates
+certs-description = Configure the certificates that { -brand-short-name } uses for authentication.
 certs-enable-ocsp =
     .label = Query OCSP responder servers to confirm the current validity of certificates
     .accesskey = Q
@@ -1518,6 +1559,9 @@ space-alert-under-5gb-message2 = <strong>{ -brand-short-name } is running out of
 ## Privacy Section - HTTPS-Only
 
 httpsonly-header = HTTPS-Only Mode
+httpsonly-label =
+    .aria-label = { httpsonly-header }
+    .description = Only allows secure connections to websites. { -brand-short-name } will ask before connecting insecurely.
 httpsonly-description3 = Only allows secure connections to websites. { -brand-short-name } will ask before connecting insecurely.
 httpsonly-learn-more2 = How HTTPS-Only works
 httpsonly-description = HTTPS provides a secure, encrypted connection between { -brand-short-name } and the websites you visit. Most websites support HTTPS, and if HTTPS-Only Mode is enabled, then { -brand-short-name } will upgrade all connections to HTTPS.
