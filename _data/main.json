@@ -12138,6 +12138,9 @@
   "toolkit/toolkit/global/mozBreadcrumbGroup.ftl": [
     "moz-breadcrumb-group-nav"
   ],
+  "toolkit/toolkit/global/mozButton.ftl": [
+    "moz-button-more-options"
+  ],
   "toolkit/toolkit/global/mozFiveStar.ftl": [
     "moz-five-star-rating",
     "moz-five-star-rating-rate-text"
