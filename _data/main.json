@@ -13694,15 +13694,17 @@
     "pdfjs-editor-add-signature-edit-button-label",
     "pdfjs-editor-edit-signature-dialog-title",
     "pdfjs-editor-edit-signature-update-button",
+    "pdfjs-show-comment-button",
     "pdfjs-editor-edit-comment-popup-button-label",
     "pdfjs-editor-edit-comment-popup-button",
     "pdfjs-editor-delete-comment-popup-button-label",
     "pdfjs-editor-delete-comment-popup-button",
     "pdfjs-editor-edit-comment-dialog-title-when-editing",
+    "pdfjs-editor-edit-comment-dialog-save-button-when-editing",
     "pdfjs-editor-edit-comment-dialog-title-when-adding",
+    "pdfjs-editor-edit-comment-dialog-save-button-when-adding",
     "pdfjs-editor-edit-comment-dialog-text-input",
     "pdfjs-editor-edit-comment-dialog-cancel-button",
-    "pdfjs-editor-edit-comment-dialog-save-button",
     "pdfjs-editor-edit-comment-button"
   ],
   "toolkit/toolkit/pictureinpicture/pictureinpicture.ftl": [
