@@ -9075,7 +9075,7 @@
     "HTTPSFirstAddingException",
     "IframeSandboxBlockedDownload",
     "SandboxBlockedCustomProtocols",
-    "SanitizerAllowElementIgnroed",
+    "SanitizerAllowElementIgnored",
     "IntegrityPolicyEnforceBlockedScript",
     "IntegrityPolicyReportOnlyBlockedScript",
     "IntegrityPolicyEnforceBlockedStylesheet",
