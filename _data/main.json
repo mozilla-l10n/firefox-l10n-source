@@ -4352,7 +4352,8 @@
   "browser/browser/reportBrokenSite.ftl": [
     "report-broken-site-mainview-title",
     "report-broken-site-panel-header",
-    "report-broken-site-panel-intro",
+    "report-broken-site-panel-intro-text",
+    "report-broken-site-panel-learn-more-link",
     "report-broken-site-panel-url",
     "report-broken-site-panel-reason-label",
     "report-broken-site-panel-reason-optional-label",
@@ -8600,7 +8601,8 @@
     "BeforeScriptExecuteEventWarning",
     "AfterScriptExecuteEventNotSupportedWarning",
     "BeforeScriptExecuteEventNotSupportedWarning",
-    "PreviousInterceptCallOptionOverriddenWarning"
+    "PreviousInterceptCallOptionOverriddenWarning",
+    "FullscreenAttributeWarning"
   ],
   "dom/chrome/layout/HtmlForm.properties": [
     "Reset",
