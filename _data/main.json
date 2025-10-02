@@ -4865,7 +4865,8 @@
     "tab-group-context-move-to-this-window",
     "tab-group-context-delete",
     "tab-group-context-open-saved-group-in-this-window",
-    "tab-group-context-open-saved-group-in-new-window"
+    "tab-group-context-open-saved-group-in-new-window",
+    "tabbrowser-tab-label-tab-split-view"
   ],
   "browser/browser/taskbartabs.ftl": [
     "taskbar-tab-urlbar-button-open",
