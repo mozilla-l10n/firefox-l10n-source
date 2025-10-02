@@ -1197,6 +1197,7 @@ sitedata-settings =
     .accesskey = M
 sitedata-cookies-exceptions =
     .label = Manage Exceptions…
+    .accesskey = x
 sitedata-cookies-exceptions2 =
     .label = Manage exceptions
     .accesskey = x
