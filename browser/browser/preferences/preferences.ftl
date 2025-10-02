@@ -1140,7 +1140,13 @@ history-clear-button =
 ## Privacy Section - Site Data
 
 sitedata-header = Cookies and Site Data
+sitedata-label =
+    .aria-label = { sitedata-header }
 sitedata-total-size-calculating = Calculating site data and cache size…
+# Variables:
+#   $value (number) - Value of the unit (for example: 4.6, 500)
+#   $unit (string) - Name of the unit (for example: "bytes", "KB")
+sitedata-total-size2 = Your stored cookies, history, site data, and cache are currently using <strong>{ $value } { $unit }</strong> of disk space.
 # Variables:
 #   $value (number) - Value of the unit (for example: 4.6, 500)
 #   $unit (string) - Name of the unit (for example: "bytes", "KB")
@@ -1149,6 +1155,8 @@ sitedata-learn-more = Learn more
 sitedata-delete-on-close =
     .label = Delete cookies and site data when { -brand-short-name } is closed
     .accesskey = c
+sitedata-delete-on-close-private-browsing3 =
+    .message = Based on your history settings, { -brand-short-name } deletes cookies and site data from your session when you close the browser.
 sitedata-delete-on-close-private-browsing = In permanent private browsing mode, cookies and site data will always be cleared when { -brand-short-name } is closed.
 sitedata-delete-on-close-private-browsing2 = Based on your history settings, { -brand-short-name } deletes cookies and site data from your session when you close the browser.
 sitedata-allow-cookies-option =
@@ -1175,6 +1183,12 @@ sitedata-option-block-all-cross-site-cookies =
     .label = All cross-site cookies (may cause websites to break)
 sitedata-option-block-all =
     .label = All cookies (will cause websites to break)
+sitedata-clear2 =
+    .label = Clear browsing data
+    .accesskey = l
+sitedata-settings2 =
+    .label = Manage browsing data
+    .accesskey = M
 sitedata-clear =
     .label = Clear Data…
     .accesskey = l
@@ -1184,6 +1198,10 @@ sitedata-settings =
 sitedata-cookies-exceptions =
     .label = Manage Exceptions…
     .accesskey = x
+sitedata-cookies-exceptions2 =
+    .label = Manage exceptions
+    .accesskey = x
+    .description = You can specify which websites are always or never allowed to use cookies and site data.
 
 ## Privacy Section - Cookie Banner Handling
 

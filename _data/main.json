@@ -1454,10 +1454,6 @@
     "callout-firefox-view-tab-pickup-subtitle",
     "callout-firefox-view-recently-closed-title",
     "callout-firefox-view-recently-closed-subtitle",
-    "callout-firefox-view-colorways-title",
-    "callout-firefox-view-colorways-subtitle",
-    "callout-firefox-view-colorways-reminder-title",
-    "callout-firefox-view-colorways-reminder-subtitle",
     "continuous-onboarding-firefox-view-tab-pickup-title",
     "continuous-onboarding-firefox-view-tab-pickup-subtitle",
     "continuous-onboarding-firefox-view-tab-pickup-primary-button-label",
@@ -2426,7 +2422,12 @@
     "newtab-weather-menu-change-temperature-units-celsius",
     "newtab-weather-menu-hide-weather",
     "newtab-weather-menu-learn-more",
+    "newtab-weather-menu-detect-my-location",
     "newtab-weather-error-not-available",
+    "newtab-weather-opt-in-see-weather",
+    "newtab-weather-opt-in-not-now",
+    "newtab-weather-opt-in-yes",
+    "newtab-weather-static-city",
     "newtab-topic-label-business",
     "newtab-topic-label-career",
     "newtab-topic-label-education",
@@ -3783,20 +3784,22 @@
     "history-clear-on-close-settings",
     "history-clear-button",
     "sitedata-header",
+    "sitedata-label",
     "sitedata-total-size-calculating",
-    "sitedata-total-size",
+    "sitedata-total-size2",
     "sitedata-learn-more",
     "sitedata-delete-on-close",
-    "sitedata-delete-on-close-private-browsing2",
+    "sitedata-delete-on-close-private-browsing3",
     "sitedata-option-block-cross-site-trackers",
     "sitedata-option-block-cross-site-tracking-cookies",
     "sitedata-option-block-cross-site-cookies2",
     "sitedata-option-block-unvisited",
     "sitedata-option-block-all-cross-site-cookies",
     "sitedata-option-block-all",
-    "sitedata-clear",
-    "sitedata-settings",
+    "sitedata-clear2",
+    "sitedata-settings2",
     "sitedata-cookies-exceptions",
+    "sitedata-cookies-exceptions2",
     "cookie-banner-blocker-header",
     "cookie-banner-blocker-description",
     "cookie-banner-learn-more",
@@ -4354,7 +4357,8 @@
   "browser/browser/reportBrokenSite.ftl": [
     "report-broken-site-mainview-title",
     "report-broken-site-panel-header",
-    "report-broken-site-panel-intro",
+    "report-broken-site-panel-intro-text",
+    "report-broken-site-panel-learn-more-link",
     "report-broken-site-panel-url",
     "report-broken-site-panel-reason-label",
     "report-broken-site-panel-reason-optional-label",
@@ -4866,7 +4870,8 @@
     "tab-group-context-move-to-this-window",
     "tab-group-context-delete",
     "tab-group-context-open-saved-group-in-this-window",
-    "tab-group-context-open-saved-group-in-new-window"
+    "tab-group-context-open-saved-group-in-new-window",
+    "tabbrowser-tab-label-tab-split-view"
   ],
   "browser/browser/taskbartabs.ftl": [
     "taskbar-tab-urlbar-button-open",
@@ -8602,7 +8607,8 @@
     "BeforeScriptExecuteEventWarning",
     "AfterScriptExecuteEventNotSupportedWarning",
     "BeforeScriptExecuteEventNotSupportedWarning",
-    "PreviousInterceptCallOptionOverriddenWarning"
+    "PreviousInterceptCallOptionOverriddenWarning",
+    "FullscreenAttributeWarning"
   ],
   "dom/chrome/layout/HtmlForm.properties": [
     "Reset",
@@ -9075,7 +9081,7 @@
     "HTTPSFirstAddingException",
     "IframeSandboxBlockedDownload",
     "SandboxBlockedCustomProtocols",
-    "SanitizerAllowElementIgnroed",
+    "SanitizerAllowElementIgnored",
     "IntegrityPolicyEnforceBlockedScript",
     "IntegrityPolicyReportOnlyBlockedScript",
     "IntegrityPolicyEnforceBlockedStylesheet",
@@ -11078,7 +11084,6 @@
     "media-audio-robustness",
     "media-cdm-capabilities",
     "media-cdm-clear-lead",
-    "media-hdcp-22-compatible",
     "intl-title",
     "intl-app-title",
     "intl-locales-requested",
@@ -12138,6 +12143,9 @@
   "toolkit/toolkit/global/mozBreadcrumbGroup.ftl": [
     "moz-breadcrumb-group-nav"
   ],
+  "toolkit/toolkit/global/mozButton.ftl": [
+    "moz-button-more-options"
+  ],
   "toolkit/toolkit/global/mozFiveStar.ftl": [
     "moz-five-star-rating",
     "moz-five-star-rating-rate-text"
@@ -12260,7 +12268,7 @@
     "text-action-spell-dictionaries",
     "text-action-search-text-box-clear",
     "text-action-highlight-selection",
-    "text-action-comment-selection",
+    "text-action-comment-selection-1",
     "text-action-copy-link-to-highlight",
     "text-action-copy-clean-link-to-highlight",
     "text-action-remove-highlight"
@@ -13691,15 +13699,17 @@
     "pdfjs-editor-add-signature-edit-button-label",
     "pdfjs-editor-edit-signature-dialog-title",
     "pdfjs-editor-edit-signature-update-button",
+    "pdfjs-show-comment-button",
     "pdfjs-editor-edit-comment-popup-button-label",
     "pdfjs-editor-edit-comment-popup-button",
     "pdfjs-editor-delete-comment-popup-button-label",
     "pdfjs-editor-delete-comment-popup-button",
     "pdfjs-editor-edit-comment-dialog-title-when-editing",
+    "pdfjs-editor-edit-comment-dialog-save-button-when-editing",
     "pdfjs-editor-edit-comment-dialog-title-when-adding",
+    "pdfjs-editor-edit-comment-dialog-save-button-when-adding",
     "pdfjs-editor-edit-comment-dialog-text-input",
     "pdfjs-editor-edit-comment-dialog-cancel-button",
-    "pdfjs-editor-edit-comment-dialog-save-button",
     "pdfjs-editor-edit-comment-button"
   ],
   "toolkit/toolkit/pictureinpicture/pictureinpicture.ftl": [
