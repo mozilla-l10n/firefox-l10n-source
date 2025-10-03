@@ -4228,7 +4228,10 @@
     "custom-avatar-crop-back-button",
     "custom-avatar-crop-view",
     "custom-avatar-crop-area",
-    "custom-avatar-drag-handle"
+    "custom-avatar-drag-handle",
+    "profiles-appmenu-callout-tour-title",
+    "profiles-appmenu-callout-tour-subtitle",
+    "profiles-appmenu-callout-tour-primary-button"
   ],
   "browser/browser/protections.ftl": [
     "graph-week-summary",
