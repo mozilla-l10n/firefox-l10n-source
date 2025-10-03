@@ -2400,6 +2400,7 @@
     "newtab-wallpaper-celestial-eclipse-time-lapse",
     "newtab-wallpaper-celestial-black-hole",
     "newtab-wallpaper-celestial-river",
+    "newtab-wallpaper-category-title-firefox",
     "newtab-wallpaper-attribution",
     "newtab-wallpaper-feature-highlight-header",
     "newtab-wallpaper-feature-highlight-content",
@@ -2730,7 +2731,17 @@
     "restored-from-backup-success-no-checklist-primary-button",
     "restored-from-backup-error-title",
     "restored-from-backup-error-subtitle",
-    "restored-from-backup-error-primary-button"
+    "restored-from-backup-error-primary-button",
+    "onboarding-personalization-title",
+    "onboarding-personalization-subtitle",
+    "onboarding-personalization-use-case-title",
+    "onboarding-personalization-use-case-personal-option",
+    "onboarding-personalization-use-case-school-option",
+    "onboarding-personalization-use-case-work-option",
+    "onboarding-personalization-motivation-title",
+    "onboarding-personalization-motivation-privacy-option",
+    "onboarding-personalization-motivation-productivity-option",
+    "onboarding-personalization-motivation-other-option"
   ],
   "browser/browser/originControls.ftl": [
     "origin-controls-no-access",
