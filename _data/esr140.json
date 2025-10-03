@@ -2799,6 +2799,7 @@
     "policy-ExtensionUpdate",
     "policy-FirefoxHome2",
     "policy-FirefoxSuggest",
+    "policy-GenerativeAI",
     "policy-GoToIntranetSiteForSingleWordEntryInAddressBar",
     "policy-Handlers",
     "policy-HardwareAcceleration",
