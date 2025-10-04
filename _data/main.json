@@ -10564,6 +10564,8 @@
     "about-glean-moz-official",
     "about-glean-additional-links",
     "about-glean-manual-testing",
+    "about-glean-ping-list-optgroup-built-in",
+    "about-glean-ping-list-optgroup-custom",
     "about-glean-no-ping-label",
     "about-glean-label-for-tag-pings-with-requirements",
     "about-glean-label-for-ping-names",
