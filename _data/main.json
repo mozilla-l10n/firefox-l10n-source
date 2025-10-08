@@ -3989,11 +3989,11 @@
     "security-enable-safe-browsing-link",
     "security-block-downloads",
     "security-block-uncommon-software",
-    "certs-header",
-    "certs-description",
+    "certs-description2",
     "certs-view",
     "certs-devices",
     "certs-thirdparty-toggle",
+    "certs-devices-enable-fips",
     "space-alert-over-5gb-settings-button",
     "space-alert-over-5gb-message2",
     "space-alert-under-5gb-message2",
@@ -9692,8 +9692,7 @@
     "pageInfo_MixedContent2",
     "pageInfo_WeakCipher",
     "pageInfo_CertificateTransparency_Compliant",
-    "password_not_set",
-    "enable_fips"
+    "password_not_set"
   ],
   "security/manager/security/certificates/certManager.ftl": [
     "certmgr-title",
