@@ -231,9 +231,7 @@ tabbrowser-manager-current-window-tab-group =
     .label = { $tabGroupName }
     .tooltiptext = { $tabGroupName } — Current window
 
-## Variables:
-##  $tabGroupName (String): The name of the tab group. Defaults to the value
-##                          of tab-group-name-default.
+##
 
 tab-group-editor-title-create = Create tab group
 tab-group-editor-title-edit = Manage tab group
@@ -266,9 +264,17 @@ tab-group-editor-color-selector2-red = Red
 tab-group-description = { $tabGroupName } — Tab Group
 tab-group-label-tooltip-collapsed = { $tabGroupName } — Collapsed
 tab-group-label-tooltip-expanded = { $tabGroupName } — Expanded
+tab-group-preview-name =
+    .aria-label = Tabs in a collapsed group
 tab-context-unnamed-group =
     .label = Unnamed group
 tab-group-name-default = Unnamed Group
+
+## When collapsed, the tab group label's aria-description will indicate
+## whether the hover menu is open or closed.
+
+tab-group-preview-open-description = Tabs list open
+tab-group-preview-closed-description = Tabs list closed
 
 ##
 
