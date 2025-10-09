@@ -1585,7 +1585,9 @@
     "windows-10-eos-sync-tour-subtitle-2",
     "windows-10-eos-sync-split-dismiss-button-show-fewer-option",
     "windows-10-eos-sync-dismiss-button-label",
-    "windows-10-eos-sync-callout-primary-advance-button-label"
+    "windows-10-eos-sync-callout-primary-advance-button-label",
+    "link-preview-onboarding-callout-title",
+    "link-preview-onboarding-callout-description"
   ],
   "browser/browser/firefoxRelay.ftl": [
     "firefox-relay-mask-generation-failed",
@@ -2745,6 +2747,7 @@
     "create-backup-screen-2-all-label",
     "create-backup-screen-2-all-list-2",
     "create-backup-screen-2-all-list-3",
+    "create-backup-screen-3-location",
     "create-backup-screen-3-title",
     "create-backup-screen-3-subtitle",
     "fx-backup-opt-in-header",
@@ -3026,6 +3029,7 @@
     "policy-AutofillCreditCardEnabled",
     "policy-AutoLaunchProtocolsFromOrigins",
     "policy-BackgroundAppUpdate2",
+    "policy-Backup",
     "policy-BlockAboutAddons",
     "policy-BlockAboutConfig",
     "policy-BlockAboutProfiles",
@@ -3541,6 +3545,7 @@
     "tabs-group-header",
     "ctrl-tab-recently-used-order",
     "open-new-link-as-tabs",
+    "open-external-link-next-to-active-tab",
     "ask-on-close-multiple-tabs",
     "ask-on-quit-with-key",
     "warn-on-open-many-tabs",
@@ -4434,6 +4439,7 @@
     "report-broken-site-panel-reason-notsupported",
     "report-broken-site-panel-reason-other",
     "report-broken-site-panel-description-label",
+    "report-broken-site-panel-description",
     "report-broken-site-panel-description-optional-label",
     "report-broken-site-panel-send-more-info-link",
     "report-broken-site-panel-button-cancel",
