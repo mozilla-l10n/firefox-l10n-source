@@ -2392,7 +2392,6 @@
     "newtab-menu-unpin",
     "newtab-menu-delete-history",
     "newtab-menu-show-privacy-info",
-    "newtab-menu-about-fakespot",
     "newtab-menu-report",
     "newtab-menu-section-block",
     "newtab-menu-section-unfollow",
@@ -5050,7 +5049,11 @@
     "tab-group-context-delete",
     "tab-group-context-open-saved-group-in-this-window",
     "tab-group-context-open-saved-group-in-new-window",
-    "tabbrowser-tab-label-tab-split-view"
+    "tabbrowser-tab-label-tab-split-view",
+    "tab-context-add-split-view",
+    "tab-context-open-in-split-view",
+    "tab-context-separate-split-view",
+    "tab-context-badge-new"
   ],
   "browser/browser/taskbartabs.ftl": [
     "taskbar-tab-urlbar-button-open",
