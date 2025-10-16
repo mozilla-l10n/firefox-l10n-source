@@ -629,7 +629,6 @@
     "backup-service-error-unsupported-version",
     "backup-service-error-unsupported-application",
     "backup-service-error-recovery-failed",
-    "backup-service-error-went-wrong",
     "enable-backup-encryption-header",
     "enable-backup-encryption-description",
     "enable-backup-encryption-support-link",
