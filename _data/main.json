@@ -8223,6 +8223,7 @@
     "rule.warningInvalidAtComputedValueTime.title",
     "rule.filterProperty.title",
     "rule.variableJumpDefinition.title",
+    "rule.showUnusedCssVariable",
     "rule.empty",
     "rule.variableUnset",
     "rule.variableEmpty",
