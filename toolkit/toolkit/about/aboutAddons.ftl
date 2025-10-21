@@ -174,6 +174,8 @@ extensions-warning-update-security-button = Enable
 extensions-warning-imported-addons2 =
     .message = Please finalize the installation of extensions that were imported to { -brand-short-name }.
 extensions-warning-imported-addons-button = Install Extensions
+extensions-warning-safe-mode3 =
+    .message = All add-ons have been disabled by Troubleshoot Mode.
 
 ## Strings connected to add-on updates
 
