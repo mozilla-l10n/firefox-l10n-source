@@ -1441,7 +1441,7 @@ onboarding-aw-finish-setup-button =
     .label = Finish setup
     .tooltiptext = Finish setting up { -brand-short-name }
 
-## The urlbar trust panel
+## The urlbar trust icon & panel
 
 trustpanel-etp-label-enabled = Enhanced Tracking Protection is on
 trustpanel-etp-label-disabled = Enhanced Tracking Protection is off
@@ -1483,6 +1483,13 @@ trustpanel-blocker-see-all = See All
 #  $host (String): the hostname of the site that is being displayed.
 trustpanel-blocker-header =
     .title = Tracking protections for { $host }
+
+## The urlbar trust icon & panel
+
+# LOCALIZATION NOTE (trustpanel-urlbar-notsecure-label):
+# Keep this string as short as possible, this is displayed in the URL bar
+# use a synonym for "safe" or "private" if "secure" is too long.
+urlbar-trust-icon-notsecure-label = Not Secure
 
 ## Variables
 ##  $count (String): the number of trackers blocked.
