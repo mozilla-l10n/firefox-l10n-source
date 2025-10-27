@@ -5068,6 +5068,7 @@
   ],
   "browser/browser/termsofuse.ftl": [
     "existing-user-tou-message",
+    "existing-user-privacy-notice-update-message",
     "existing-user-tou-learn-more",
     "existing-user-tou-accept",
     "tou-existing-user-spotlight-body",
