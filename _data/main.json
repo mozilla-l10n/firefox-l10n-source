@@ -675,7 +675,8 @@
     "backup-file-other-browser-restore-step-3",
     "backup-file-other-browser-restore-step-4",
     "other-backup-files-founds",
-    "backup-file-creation-date-and-device"
+    "backup-file-creation-date-and-device",
+    "backup-file-restore-file-validation-error"
   ],
   "browser/browser/browser.ftl": [
     "browser-main-window-default-title",
@@ -3265,11 +3266,11 @@
     "colors-dialog2",
     "colors-close-key",
     "colors-text-and-background",
-    "colors-text-header",
-    "colors-background",
+    "colors-text",
+    "colors-text-background",
     "colors-links-header",
-    "colors-unvisited-links",
-    "colors-visited-links"
+    "colors-links-unvisited",
+    "colors-links-visited"
   ],
   "browser/browser/preferences/connection.ftl": [
     "connection-window2",
@@ -7782,7 +7783,7 @@
     "options-context-advanced-settings",
     "options-disable-http-cache-label",
     "options-disable-http-cache-tooltip",
-    "options-disable-javascript-label",
+    "options-disable-javascript-label-2",
     "options-disable-javascript-tooltip",
     "options-enable-chrome-label",
     "options-enable-chrome-tooltip",
@@ -7796,7 +7797,7 @@
     "options-enable-service-workers-http-tooltip",
     "options-source-maps-label",
     "options-source-maps-tooltip",
-    "options-context-triggers-page-refresh",
+    "options-context-triggers-page-refresh-temporary",
     "options-context-triggers-page-refresh-persists"
   ],
   "devtools/client/toolbox.ftl": [
