@@ -52,7 +52,6 @@ settings-data-backup-scheduled-backups-off-restore-choose = Choose backup file�
 settings-data-backup-scheduled-backups-on-restore-description = Recover your { -brand-product-name } data back from the last time it was backed up.
 settings-data-backup-scheduled-backups-on-restore-choose = Restore…
 settings-data-toggle-encryption-label = Back up your sensitive data
-settings-data-toggle-encryption-description = Back up your passwords, payment methods, and cookies with encryption.
 settings-data-toggle-encryption-support-link = Learn more
 settings-data-change-password = Change password…
 
@@ -73,7 +72,6 @@ turn-on-scheduled-backups-location-choose-button =
        *[other] Browse…
     }
 turn-on-scheduled-backups-encryption-label = Back up your sensitive data
-turn-on-scheduled-backups-encryption-description = Back up your passwords, payment methods, and cookies with encryption.
 turn-on-scheduled-backups-encryption-create-password-label = Password
 # Users will be prompted to re-type a password, to ensure that the password is entered correctly.
 turn-on-scheduled-backups-encryption-repeat-password-label = Repeat password
@@ -160,7 +158,6 @@ backup-service-error-went-wrong =
 ## These strings are displayed in a modal when users want to enable encryption or change the password for an existing backup.
 
 enable-backup-encryption-header = Back up your sensitive data
-enable-backup-encryption-description = Back up your passwords, payment methods, and cookies, plus keep all your data safe with encryption.
 enable-backup-encryption-support-link = Learn more
 enable-backup-encryption-create-password-label = Password
 # Users will be prompted to re-type a password, to ensure that the password is entered correctly.
@@ -189,7 +186,6 @@ password-rules-a11y-warning =
 
 disable-backup-encryption-header = Remove password protection
 disable-backup-encryption-description2 = Your saved passwords and payment methods will also no longer be backed up.
-disable-backup-encryption-description = Your saved passwords, payment methods, and cookies will no longer be backed up.
 disable-backup-encryption-support-link = What will be backed up?
 disable-backup-encryption-cancel-button = Cancel
 disable-backup-encryption-confirm-button = Remove password
