@@ -558,6 +558,7 @@
     "appmenu-profiles-2",
     "appmenu-other-profiles",
     "appmenu-manage-profiles",
+    "appmenu-copy-profile",
     "appmenu-create-profile",
     "appmenu-edit-profile"
   ],
@@ -586,6 +587,7 @@
     "settings-data-backup-last-backup-location-show-in-folder",
     "settings-data-backup-last-backup-location-edit",
     "settings-data-create-backup-error",
+    "settings-sensitive-data-encryption-description",
     "settings-data-backup-last-backup-filename",
     "settings-data-backup-restore-header",
     "settings-data-backup-scheduled-backups-off-restore-description",
@@ -593,7 +595,6 @@
     "settings-data-backup-scheduled-backups-on-restore-description",
     "settings-data-backup-scheduled-backups-on-restore-choose",
     "settings-data-toggle-encryption-label",
-    "settings-data-toggle-encryption-description",
     "settings-data-toggle-encryption-support-link",
     "settings-data-change-password",
     "turn-on-scheduled-backups-header",
@@ -603,7 +604,6 @@
     "turn-on-scheduled-backups-location-default-folder",
     "turn-on-scheduled-backups-location-choose-button",
     "turn-on-scheduled-backups-encryption-label",
-    "turn-on-scheduled-backups-encryption-description",
     "turn-on-scheduled-backups-encryption-create-password-label",
     "turn-on-scheduled-backups-encryption-repeat-password-label",
     "turn-on-scheduled-backups-cancel-button",
@@ -634,7 +634,6 @@
     "backup-service-error-recovery-failed",
     "backup-service-error-went-wrong2",
     "enable-backup-encryption-header",
-    "enable-backup-encryption-description",
     "enable-backup-encryption-support-link",
     "enable-backup-encryption-create-password-label",
     "enable-backup-encryption-repeat-password-label",
@@ -650,7 +649,7 @@
     "password-rules-a11y-success",
     "password-rules-a11y-warning",
     "disable-backup-encryption-header",
-    "disable-backup-encryption-description",
+    "disable-backup-encryption-description2",
     "disable-backup-encryption-support-link",
     "disable-backup-encryption-cancel-button",
     "disable-backup-encryption-confirm-button",
@@ -676,7 +675,8 @@
     "backup-file-other-browser-restore-step-3",
     "backup-file-other-browser-restore-step-4",
     "other-backup-files-founds",
-    "backup-file-creation-date-and-device"
+    "backup-file-creation-date-and-device",
+    "backup-file-restore-file-validation-error"
   ],
   "browser/browser/browser.ftl": [
     "browser-main-window-default-title",
@@ -1193,7 +1193,6 @@
     "main-context-menu-use-relay-mask",
     "main-context-menu-suggest-strong-password",
     "main-context-menu-manage-passwords",
-    "main-context-menu-keyword",
     "main-context-menu-add-engine",
     "main-context-menu-link-send-to-device",
     "main-context-menu-frame",
@@ -3267,11 +3266,11 @@
     "colors-dialog2",
     "colors-close-key",
     "colors-text-and-background",
-    "colors-text-header",
-    "colors-background",
+    "colors-text",
+    "colors-text-background",
     "colors-links-header",
-    "colors-unvisited-links",
-    "colors-visited-links"
+    "colors-links-unvisited",
+    "colors-links-visited"
   ],
   "browser/browser/preferences/connection.ftl": [
     "connection-window2",
@@ -5099,6 +5098,7 @@
   ],
   "browser/browser/termsofuse.ftl": [
     "existing-user-tou-message",
+    "existing-user-privacy-notice-update-message",
     "existing-user-tou-learn-more",
     "existing-user-tou-accept",
     "tou-existing-user-spotlight-body",
@@ -7783,7 +7783,7 @@
     "options-context-advanced-settings",
     "options-disable-http-cache-label",
     "options-disable-http-cache-tooltip",
-    "options-disable-javascript-label",
+    "options-disable-javascript-label-2",
     "options-disable-javascript-tooltip",
     "options-enable-chrome-label",
     "options-enable-chrome-tooltip",
@@ -7797,7 +7797,7 @@
     "options-enable-service-workers-http-tooltip",
     "options-source-maps-label",
     "options-source-maps-tooltip",
-    "options-context-triggers-page-refresh",
+    "options-context-triggers-page-refresh-temporary",
     "options-context-triggers-page-refresh-persists"
   ],
   "devtools/client/toolbox.ftl": [
@@ -12217,19 +12217,6 @@
     "csp-error-missing-source",
     "csp-error-illegal-host-wildcard"
   ],
-  "toolkit/toolkit/global/datepicker.ftl": [
-    "date-picker-label",
-    "date-spinner-label",
-    "date-picker-clear-button",
-    "date-picker-previous",
-    "date-picker-next",
-    "date-spinner-month",
-    "date-spinner-year",
-    "date-spinner-month-previous",
-    "date-spinner-month-next",
-    "date-spinner-year-previous",
-    "date-spinner-year-next"
-  ],
   "toolkit/toolkit/global/datetimebox.ftl": [
     "datetime-year-placeholder",
     "datetime-month-placeholder",
@@ -12244,6 +12231,30 @@
     "datetime-millisecond",
     "datetime-dayperiod",
     "datetime-calendar"
+  ],
+  "toolkit/toolkit/global/datetimepicker.ftl": [
+    "datetime-picker-label",
+    "date-picker-label",
+    "date-spinner-label",
+    "date-picker-clear-button",
+    "date-picker-previous",
+    "date-picker-next",
+    "date-spinner-month",
+    "date-spinner-year",
+    "date-spinner-month-previous",
+    "date-spinner-month-next",
+    "date-spinner-year-previous",
+    "date-spinner-year-next",
+    "time-picker-label",
+    "time-spinner-hour-label",
+    "time-spinner-minute-label",
+    "time-spinner-day-period-label",
+    "time-spinner-hour-previous",
+    "time-spinner-hour-next",
+    "time-spinner-minute-previous",
+    "time-spinner-minute-next",
+    "time-spinner-day-period-previous",
+    "time-spinner-day-period-next"
   ],
   "toolkit/toolkit/global/extensionPermissions.ftl": [
     "webext-perms-description-bookmarks",
