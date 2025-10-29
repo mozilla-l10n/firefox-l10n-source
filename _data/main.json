@@ -676,7 +676,8 @@
     "backup-file-other-browser-restore-step-4",
     "other-backup-files-founds",
     "backup-file-creation-date-and-device",
-    "backup-file-restore-file-validation-error"
+    "backup-file-restore-file-validation-error",
+    "restore-from-backup-filepicker-input"
   ],
   "browser/browser/browser.ftl": [
     "browser-main-window-default-title",
