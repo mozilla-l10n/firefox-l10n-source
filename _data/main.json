@@ -3877,6 +3877,7 @@
     "remove-addon-engine-alert",
     "containers-back-button2",
     "containers-header",
+    "containers-section-header",
     "containers-add-button",
     "containers-new-tab-check",
     "containers-settings-button",
@@ -11936,6 +11937,7 @@
     "url-classifier-search-input",
     "url-classifier-search-error-invalid-url",
     "url-classifier-search-error-no-features",
+    "url-classifier-search-error-no-results",
     "url-classifier-search-btn",
     "url-classifier-search-features",
     "url-classifier-search-listType",
@@ -12419,6 +12421,9 @@
     "moz-message-bar-icon-success",
     "moz-message-bar-icon-error",
     "moz-message-bar-close-button"
+  ],
+  "toolkit/toolkit/global/mozPageHeader.ftl": [
+    "back-nav-button-title"
   ],
   "toolkit/toolkit/global/mozSupportLink.ftl": [
     "moz-support-link-text"
