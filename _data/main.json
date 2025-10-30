@@ -5538,7 +5538,6 @@
     "troubleshootModeRestartPromptTitle",
     "troubleshootModeRestartPromptMessage",
     "troubleshootModeRestartButton",
-    "browser.menu.showCharacterEncoding",
     "processHang.selected_tab.label",
     "processHang.nonspecific_tab.label",
     "processHang.specific_tab.label",
@@ -8234,9 +8233,6 @@
     "screenshotRenderingError",
     "screenshotNoSelectorMatchWarning"
   ],
-  "devtools/shared/shared.properties": [
-    "ellipsis"
-  ],
   "devtools/shared/styleinspector.properties": [
     "rule.status.BEST",
     "rule.status.MATCHED",
@@ -10056,9 +10052,6 @@
     "emailPromptTitle",
     "emailPromptMsg"
   ],
-  "toolkit/chrome/global-platform/mac/intl.properties": [
-    "intl.ellipsis"
-  ],
   "toolkit/chrome/global-platform/mac/platformKeys.properties": [
     "VK_SHIFT",
     "VK_COMMAND_OR_WIN",
@@ -10067,9 +10060,6 @@
     "VK_RETURN",
     "MODIFIER_SEPARATOR"
   ],
-  "toolkit/chrome/global-platform/unix/intl.properties": [
-    "intl.ellipsis"
-  ],
   "toolkit/chrome/global-platform/unix/platformKeys.properties": [
     "VK_SHIFT",
     "VK_COMMAND_OR_WIN",
@@ -10077,9 +10067,6 @@
     "VK_CONTROL",
     "VK_RETURN",
     "MODIFIER_SEPARATOR"
-  ],
-  "toolkit/chrome/global-platform/win/intl.properties": [
-    "intl.ellipsis"
   ],
   "toolkit/chrome/global-platform/win/platformKeys.properties": [
     "VK_SHIFT",
@@ -10191,13 +10178,6 @@
     "selectedFileNotReadableError"
   ],
   "toolkit/chrome/global/intl.css": [],
-  "toolkit/chrome/global/intl.properties": [
-    "intl.accept_languages",
-    "font.language.group",
-    "pluralRule",
-    "intl.menuitems.alwaysappendaccesskeys",
-    "intl.menuitems.insertseparatorbeforeaccesskeys"
-  ],
   "toolkit/chrome/global/keys.properties": [
     "VK_F1",
     "VK_F2",
