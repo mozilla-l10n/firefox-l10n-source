@@ -1947,7 +1947,9 @@
     "link-preview-setup",
     "link-preview-setup-faster-next-time",
     "link-preview-onboarding-button",
-    "link-preview-onboarding-close"
+    "link-preview-onboarding-close",
+    "link-preview-first-time-setup-title",
+    "link-preview-first-time-setup-message"
   ],
   "browser/browser/identityCredentialNotification.ftl": [
     "identity-credential-header-providers",
@@ -2207,6 +2209,8 @@
     "fxa-adoption-addresses-backup-subtitle",
     "fxa-adoption-credit-cards-backup-title",
     "fxa-adoption-credit-cards-backup-subtitle",
+    "fxa-adoption-bookmarks-treatment-backup-title",
+    "fxa-adoption-bookmarks-treatment-backup-subtitle",
     "fxa-adoption-primary-button-label",
     "cfr-badge-reader-label-newfeature",
     "cfr-whatsnew-button",
@@ -3632,6 +3636,7 @@
     "extension-controlling-websites-content-blocking-all-trackers",
     "extension-controlling-proxy-config",
     "extension-controlled-enable",
+    "extension-controlled-enable-2",
     "extension-controlling-homepage",
     "search-results-header",
     "search-results-empty-message2",
@@ -3922,6 +3927,8 @@
     "sync-engine-addons",
     "sync-engine-settings",
     "sync-device-name-header",
+    "sync-device-name-input",
+    "sync-device-name-change-2",
     "sync-device-name-change",
     "sync-device-name-cancel",
     "sync-device-name-save",
@@ -13176,6 +13183,7 @@
     "fp-certerror-override-exception-button",
     "fp-certerror-intro",
     "fp-certerror-expired-into",
+    "fp-certerror-transparency-intro",
     "fp-certerror-view-certificate-link",
     "fp-certerror-return-to-previous-page-recommended-button",
     "fp-certerror-bad-domain-why-dangerous-body",
@@ -13190,6 +13198,8 @@
     "fp-certerror-expired-what-can-you-do-body",
     "fp-cert-error-code",
     "fp-datetime",
+    "fp-certerror-transparency-why-dangerous-body",
+    "fp-certerror-transparency-what-can-you-do-body",
     "fp-learn-more-about-secure-connection-failures",
     "fp-learn-more-about-cert-issues",
     "fp-learn-more-about-time-related-errors"
