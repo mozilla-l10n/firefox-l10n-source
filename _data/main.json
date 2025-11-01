@@ -7684,6 +7684,7 @@
     "storage-table-headers-cookies-size",
     "storage-table-headers-cookies-last-accessed",
     "storage-table-headers-cookies-creation-time",
+    "storage-table-headers-cookies-update-time",
     "storage-table-headers-cache-status",
     "storage-table-headers-extension-storage-area",
     "storage-tree-labels-cookies",
@@ -9437,7 +9438,9 @@
     "CookieBlockedCrossSiteRedirect",
     "APIDeprecationWarning",
     "ResourceBlockedORB",
-    "InvalidHTTPResponseStatusLine"
+    "InvalidHTTPResponseStatusLine",
+    "LocalNetworkAccessDetected",
+    "LocalNetworkAccessPermissionRequired"
   ],
   "netwerk/netwerk/necko.ftl": [
     "network-connection-status-looking-up",
@@ -10594,6 +10597,7 @@
     "colorway-removal-notice-message",
     "colorway-removal-notice-learn-more",
     "colorway-removal-notice-button",
+    "forced-colors-theme-notice",
     "privacy-policy",
     "created-by-author",
     "user-count",
