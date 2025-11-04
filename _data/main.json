@@ -4984,6 +4984,7 @@
     "move-to-start",
     "move-to-end",
     "move-to-new-window",
+    "move-to-new-profile",
     "tab-context-close-multiple-tabs",
     "tab-context-close-duplicate-tabs",
     "tab-context-share-url",
