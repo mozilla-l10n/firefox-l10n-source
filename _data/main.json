@@ -12069,8 +12069,6 @@
     "download-utils-time-left-double",
     "download-utils-time-few-seconds",
     "download-utils-time-unknown",
-    "download-utils-done-scheme",
-    "download-utils-done-file-scheme",
     "download-utils-yesterday"
   ],
   "toolkit/toolkit/firefoxlabs/features.ftl": [
@@ -12164,6 +12162,8 @@
   ],
   "toolkit/toolkit/global/browser-utils.ftl": [
     "browser-utils-url-data",
+    "browser-utils-url-scheme",
+    "browser-utils-file-scheme",
     "browser-utils-url-extension"
   ],
   "toolkit/toolkit/global/commonDialog.ftl": [
