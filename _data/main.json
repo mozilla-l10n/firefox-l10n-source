@@ -676,7 +676,8 @@
     "backup-file-other-browser-restore-step-4",
     "other-backup-files-founds",
     "backup-file-creation-date-and-device",
-    "backup-file-restore-file-validation-error"
+    "backup-file-restore-file-validation-error",
+    "restore-from-backup-filepicker-input"
   ],
   "browser/browser/browser.ftl": [
     "browser-main-window-default-title",
@@ -1946,7 +1947,9 @@
     "link-preview-setup",
     "link-preview-setup-faster-next-time",
     "link-preview-onboarding-button",
-    "link-preview-onboarding-close"
+    "link-preview-onboarding-close",
+    "link-preview-first-time-setup-title",
+    "link-preview-first-time-setup-message"
   ],
   "browser/browser/identityCredentialNotification.ftl": [
     "identity-credential-header-providers",
@@ -2206,6 +2209,8 @@
     "fxa-adoption-addresses-backup-subtitle",
     "fxa-adoption-credit-cards-backup-title",
     "fxa-adoption-credit-cards-backup-subtitle",
+    "fxa-adoption-bookmarks-treatment-backup-title",
+    "fxa-adoption-bookmarks-treatment-backup-subtitle",
     "fxa-adoption-primary-button-label",
     "cfr-badge-reader-label-newfeature",
     "cfr-whatsnew-button",
@@ -2385,7 +2390,6 @@
     "newtab-topsite-sponsored",
     "topsite-label-pinned",
     "newtab-menu-section-tooltip",
-    "newtab-dismiss-button-tooltip",
     "newtab-menu-content-tooltip",
     "newtab-menu-edit-topsites",
     "newtab-menu-open-new-window",
@@ -2652,7 +2656,6 @@
     "newtab-widget-timer-menu-notifications-on",
     "newtab-widget-timer-menu-hide",
     "newtab-widget-timer-menu-learn-more",
-    "newtab-widget-keep-scrolling",
     "newtab-widget-message-title",
     "newtab-widget-message-copy",
     "newtab-promo-card-title",
@@ -3631,6 +3634,7 @@
     "extension-controlling-websites-content-blocking-all-trackers",
     "extension-controlling-proxy-config",
     "extension-controlled-enable",
+    "extension-controlled-enable-2",
     "extension-controlling-homepage",
     "search-results-header",
     "search-results-empty-message2",
@@ -3876,6 +3880,7 @@
     "remove-addon-engine-alert",
     "containers-back-button2",
     "containers-header",
+    "containers-section-header",
     "containers-add-button",
     "containers-new-tab-check",
     "containers-settings-button",
@@ -3920,6 +3925,8 @@
     "sync-engine-addons",
     "sync-engine-settings",
     "sync-device-name-header",
+    "sync-device-name-input",
+    "sync-device-name-change-2",
     "sync-device-name-change",
     "sync-device-name-cancel",
     "sync-device-name-save",
@@ -4010,8 +4017,8 @@
     "addressbar-locbar-quickactions-option",
     "addressbar-locbar-showrecentsearches-option",
     "addressbar-locbar-showtrendingsuggestions-option",
-    "addressbar-locbar-suggest-nonsponsored-option",
-    "addressbar-locbar-suggest-nonsponsored-desc",
+    "addressbar-locbar-suggest-all-option",
+    "addressbar-locbar-suggest-all-option-desc",
     "addressbar-locbar-suggest-sponsored-option",
     "addressbar-locbar-suggest-sponsored-desc",
     "addressbar-firefox-suggest-online",
@@ -4976,6 +4983,7 @@
     "move-to-start",
     "move-to-end",
     "move-to-new-window",
+    "move-to-new-profile",
     "tab-context-close-multiple-tabs",
     "tab-context-close-duplicate-tabs",
     "tab-context-share-url",
@@ -5536,7 +5544,6 @@
     "troubleshootModeRestartPromptTitle",
     "troubleshootModeRestartPromptMessage",
     "troubleshootModeRestartButton",
-    "browser.menu.showCharacterEncoding",
     "processHang.selected_tab.label",
     "processHang.nonspecific_tab.label",
     "processHang.specific_tab.label",
@@ -7676,6 +7683,7 @@
     "storage-table-headers-cookies-size",
     "storage-table-headers-cookies-last-accessed",
     "storage-table-headers-cookies-creation-time",
+    "storage-table-headers-cookies-update-time",
     "storage-table-headers-cache-status",
     "storage-table-headers-extension-storage-area",
     "storage-tree-labels-cookies",
@@ -8231,9 +8239,6 @@
     "screenshotDPRDecreasedWarning",
     "screenshotRenderingError",
     "screenshotNoSelectorMatchWarning"
-  ],
-  "devtools/shared/shared.properties": [
-    "ellipsis"
   ],
   "devtools/shared/styleinspector.properties": [
     "rule.status.BEST",
@@ -9432,7 +9437,9 @@
     "CookieBlockedCrossSiteRedirect",
     "APIDeprecationWarning",
     "ResourceBlockedORB",
-    "InvalidHTTPResponseStatusLine"
+    "InvalidHTTPResponseStatusLine",
+    "LocalNetworkAccessDetected",
+    "LocalNetworkAccessPermissionRequired"
   ],
   "netwerk/netwerk/necko.ftl": [
     "network-connection-status-looking-up",
@@ -10054,9 +10061,6 @@
     "emailPromptTitle",
     "emailPromptMsg"
   ],
-  "toolkit/chrome/global-platform/mac/intl.properties": [
-    "intl.ellipsis"
-  ],
   "toolkit/chrome/global-platform/mac/platformKeys.properties": [
     "VK_SHIFT",
     "VK_COMMAND_OR_WIN",
@@ -10065,9 +10069,6 @@
     "VK_RETURN",
     "MODIFIER_SEPARATOR"
   ],
-  "toolkit/chrome/global-platform/unix/intl.properties": [
-    "intl.ellipsis"
-  ],
   "toolkit/chrome/global-platform/unix/platformKeys.properties": [
     "VK_SHIFT",
     "VK_COMMAND_OR_WIN",
@@ -10075,9 +10076,6 @@
     "VK_CONTROL",
     "VK_RETURN",
     "MODIFIER_SEPARATOR"
-  ],
-  "toolkit/chrome/global-platform/win/intl.properties": [
-    "intl.ellipsis"
   ],
   "toolkit/chrome/global-platform/win/platformKeys.properties": [
     "VK_SHIFT",
@@ -10189,13 +10187,6 @@
     "selectedFileNotReadableError"
   ],
   "toolkit/chrome/global/intl.css": [],
-  "toolkit/chrome/global/intl.properties": [
-    "intl.accept_languages",
-    "font.language.group",
-    "pluralRule",
-    "intl.menuitems.alwaysappendaccesskeys",
-    "intl.menuitems.insertseparatorbeforeaccesskeys"
-  ],
   "toolkit/chrome/global/keys.properties": [
     "VK_F1",
     "VK_F2",
@@ -10605,6 +10596,7 @@
     "colorway-removal-notice-message",
     "colorway-removal-notice-learn-more",
     "colorway-removal-notice-button",
+    "forced-colors-theme-notice",
     "privacy-policy",
     "created-by-author",
     "user-count",
@@ -11935,6 +11927,7 @@
     "url-classifier-search-input",
     "url-classifier-search-error-invalid-url",
     "url-classifier-search-error-no-features",
+    "url-classifier-search-error-no-results",
     "url-classifier-search-btn",
     "url-classifier-search-features",
     "url-classifier-search-listType",
@@ -12076,8 +12069,6 @@
     "download-utils-time-left-double",
     "download-utils-time-few-seconds",
     "download-utils-time-unknown",
-    "download-utils-done-scheme",
-    "download-utils-done-file-scheme",
     "download-utils-yesterday"
   ],
   "toolkit/toolkit/firefoxlabs/features.ftl": [
@@ -12171,6 +12162,8 @@
   ],
   "toolkit/toolkit/global/browser-utils.ftl": [
     "browser-utils-url-data",
+    "browser-utils-url-scheme",
+    "browser-utils-file-scheme",
     "browser-utils-url-extension"
   ],
   "toolkit/toolkit/global/commonDialog.ftl": [
@@ -12418,6 +12411,9 @@
     "moz-message-bar-icon-success",
     "moz-message-bar-icon-error",
     "moz-message-bar-close-button"
+  ],
+  "toolkit/toolkit/global/mozPageHeader.ftl": [
+    "back-nav-button-title"
   ],
   "toolkit/toolkit/global/mozSupportLink.ftl": [
     "moz-support-link-text"
@@ -13190,6 +13186,7 @@
     "fp-certerror-override-exception-button",
     "fp-certerror-intro",
     "fp-certerror-expired-into",
+    "fp-certerror-transparency-intro",
     "fp-certerror-view-certificate-link",
     "fp-certerror-return-to-previous-page-recommended-button",
     "fp-certerror-bad-domain-why-dangerous-body",
@@ -13204,6 +13201,8 @@
     "fp-certerror-expired-what-can-you-do-body",
     "fp-cert-error-code",
     "fp-datetime",
+    "fp-certerror-transparency-why-dangerous-body",
+    "fp-certerror-transparency-what-can-you-do-body",
     "fp-learn-more-about-secure-connection-failures",
     "fp-learn-more-about-cert-issues",
     "fp-learn-more-about-time-related-errors"

@@ -147,10 +147,6 @@ reference = "toolkit/chrome/global/commonDialogs.properties"
 l10n = "{l}toolkit/chrome/global/commonDialogs.properties"
 
 [[paths]]
-reference = "toolkit/chrome/global/intl.properties"
-l10n = "{l}toolkit/chrome/global/intl.properties"
-
-[[paths]]
 reference = "toolkit/chrome/global/intl.css"
 l10n = "{l}toolkit/chrome/global/intl.css"
 
