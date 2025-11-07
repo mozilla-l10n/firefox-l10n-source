@@ -11893,8 +11893,7 @@
     "certificate-viewer-tab-mine",
     "certificate-viewer-tab-people",
     "certificate-viewer-tab-servers",
-    "certificate-viewer-tab-ca",
-    "certificate-viewer-tab-unkonwn"
+    "certificate-viewer-tab-ca"
   ],
   "toolkit/toolkit/about/config.ftl": [
     "about-config-intro-warning-title",
