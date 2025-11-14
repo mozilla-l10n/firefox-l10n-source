@@ -6913,7 +6913,9 @@
     "jsonViewer.ExpandAllSlow",
     "jsonViewer.CollapseAll",
     "jsonViewer.PrettyPrint",
-    "jsonViewer.filterJSON"
+    "jsonViewer.filterJSON",
+    "jsonViewer.sizeProfilerButton",
+    "jsonViewer.sizeProfilerButtonDisabled"
   ],
   "devtools/client/layout.properties": [
     "flexbox.header",
