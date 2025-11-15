@@ -687,6 +687,9 @@ home-prefs-recommended-by-description-generic = Exceptional content curated by t
 home-prefs-stories-header =
     .label = Stories
 home-prefs-stories-description = Personalized stories based on your activity
+home-prefs-stories-header2 =
+    .label = Stories
+    .description = Exceptional content curated by the { -brand-product-name } family
 
 ##
 
@@ -717,6 +720,8 @@ home-prefs-weather-header =
     .label = Weather
 home-prefs-weather-description = Today’s forecast at a glance
 home-prefs-weather-learn-more-link = Learn more
+home-prefs-widgets-header =
+    .label = Widgets
 home-prefs-trending-search-header =
     .label = Trending searches
 home-prefs-trending-search-description = Popular and frequently searched topics
