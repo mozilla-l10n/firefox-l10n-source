@@ -3649,7 +3649,7 @@
     "category-sync3",
     "settings-pane-labs-title",
     "settings-category-labs",
-    "pane-experimental-description3",
+    "pane-experimental-description4",
     "pane-experimental-reset",
     "help-button-label",
     "addons-button-label",
@@ -5125,7 +5125,10 @@
     "tab-context-add-split-view",
     "tab-context-open-in-split-view",
     "tab-context-separate-split-view",
-    "tab-context-badge-new"
+    "tab-context-badge-new",
+    "split-view-menuitem-separate-tabs",
+    "split-view-menuitem-reverse-tabs",
+    "split-view-menuitem-close-both-tabs"
   ],
   "browser/browser/taskbartabs.ftl": [
     "taskbar-tab-urlbar-button-open",
