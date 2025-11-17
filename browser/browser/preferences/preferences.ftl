@@ -1532,6 +1532,8 @@ permissions-notification-link = Learn more
 permissions-notification-pause =
     .label = Pause notifications until { -brand-short-name } restarts
     .accesskey = n
+permissions-autoplay2 =
+    .label = Autoplay
 permissions-autoplay = Autoplay
 permissions-autoplay-settings =
     .label = Settings…
@@ -1539,6 +1541,18 @@ permissions-autoplay-settings =
 permissions-block-popups2 =
     .label = Block pop-ups and third-party redirects
     .accesskey = B
+# "popup" is a misspelling that is more popular than the correct spelling of
+# "pop-up" so it's included as a search keyword, not displayed in the UI.
+permissions-block-popups-exceptions-button2 =
+    .label = Manage pop-up and third-party redirect exceptions
+    .accesskey = E
+    .searchkeywords = popups
+permissions-addon-install-warning2 =
+    .label = Warn when websites try to install extensions
+    .accesskey = W
+permissions-addon-exceptions2 =
+    .label = Choose which websites can install extensions
+    .accesskey = E
 permissions-block-popups =
     .label = Block pop-up windows
     .accesskey = B
@@ -1554,6 +1568,26 @@ permissions-addon-install-warning =
 permissions-addon-exceptions =
     .label = Exceptions…
     .accesskey = E
+permissions-header2 =
+    .label = Permissions
+    .description = Permissions you give to websites you browse.
+permissions-location2 =
+    .label = Location
+permissions-localhost2 =
+    .label = Device apps and services
+permissions-local-network2 =
+    .label = Local network devices
+permissions-xr2 =
+    .label = Virtual reality
+permissions-camera2 =
+    .label = Camera
+permissions-microphone2 =
+    .label = Microphone
+# Privacy permission for sound output devices.
+permissions-speaker2 =
+    .label = Speaker
+permissions-notification2 =
+    .label = Notifications
 
 ## Privacy Section - Data Collection
 
