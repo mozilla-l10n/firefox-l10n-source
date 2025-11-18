@@ -10853,7 +10853,7 @@
     "about-glean-button-watch",
     "about-glean-button-unwatch",
     "about-glean-no-data-to-display",
-    "about-glean-labeled-metric-warning",
+    "about-glean-dual-labeled-metric-warning",
     "about-glean-unknown-metric-type-warning",
     "about-glean-enable-new-features-promo",
     "about-glean-enable-new-features-button",
