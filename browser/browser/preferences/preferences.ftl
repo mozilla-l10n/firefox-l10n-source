@@ -60,6 +60,7 @@ pane-experimental-description2 = Changing advanced configuration settings can im
 settings-pane-labs-title = { -firefoxlabs-brand-name }
 settings-category-labs =
     .tooltiptext = { -firefoxlabs-brand-name }
+pane-experimental-description4 = Give our experimental features a try! They’re in development and evolving, which could impact how { -brand-short-name } works. We only receive data about your use of these features if you have <a data-l10n-name="data-collection">technical and interaction data</a> turned on.
 pane-experimental-description3 = Give our experimental features a try! They’re in development and evolving, which could impact how { -brand-short-name } works.
 pane-experimental-reset =
     .label = Restore Defaults
@@ -687,6 +688,9 @@ home-prefs-recommended-by-description-generic = Exceptional content curated by t
 home-prefs-stories-header =
     .label = Stories
 home-prefs-stories-description = Personalized stories based on your activity
+home-prefs-stories-header2 =
+    .label = Stories
+    .description = Exceptional content curated by the { -brand-product-name } family
 
 ##
 
@@ -717,6 +721,8 @@ home-prefs-weather-header =
     .label = Weather
 home-prefs-weather-description = Today’s forecast at a glance
 home-prefs-weather-learn-more-link = Learn more
+home-prefs-widgets-header =
+    .label = Widgets
 home-prefs-trending-search-header =
     .label = Trending searches
 home-prefs-trending-search-description = Popular and frequently searched topics
@@ -731,6 +737,8 @@ home-prefs-support-firefox-header =
     .label = Support { -brand-product-name }
 home-prefs-mission-message = Our sponsors support our mission to build a better web
 home-prefs-mission-message-learn-more-link = Find out how
+home-prefs-mission-message2 =
+    .message = Our sponsors support our mission to build a better web.
 home-prefs-manage-topics-link = Manage topics
 home-prefs-choose-wallpaper-link = Choose a wallpaper
 # Variables:
@@ -1526,6 +1534,8 @@ permissions-notification-link = Learn more
 permissions-notification-pause =
     .label = Pause notifications until { -brand-short-name } restarts
     .accesskey = n
+permissions-autoplay2 =
+    .label = Autoplay
 permissions-autoplay = Autoplay
 permissions-autoplay-settings =
     .label = Settings…
@@ -1533,6 +1543,18 @@ permissions-autoplay-settings =
 permissions-block-popups2 =
     .label = Block pop-ups and third-party redirects
     .accesskey = B
+# "popup" is a misspelling that is more popular than the correct spelling of
+# "pop-up" so it's included as a search keyword, not displayed in the UI.
+permissions-block-popups-exceptions-button2 =
+    .label = Manage pop-up and third-party redirect exceptions
+    .accesskey = E
+    .searchkeywords = popups
+permissions-addon-install-warning2 =
+    .label = Warn when websites try to install extensions
+    .accesskey = W
+permissions-addon-exceptions2 =
+    .label = Choose which websites can install extensions
+    .accesskey = E
 permissions-block-popups =
     .label = Block pop-up windows
     .accesskey = B
@@ -1548,6 +1570,26 @@ permissions-addon-install-warning =
 permissions-addon-exceptions =
     .label = Exceptions…
     .accesskey = E
+permissions-header2 =
+    .label = Permissions
+    .description = Permissions you give to websites you browse.
+permissions-location2 =
+    .label = Location
+permissions-localhost2 =
+    .label = Device apps and services
+permissions-local-network2 =
+    .label = Local network devices
+permissions-xr2 =
+    .label = Virtual reality
+permissions-camera2 =
+    .label = Camera
+permissions-microphone2 =
+    .label = Microphone
+# Privacy permission for sound output devices.
+permissions-speaker2 =
+    .label = Speaker
+permissions-notification2 =
+    .label = Notifications
 
 ## Privacy Section - Data Collection
 
