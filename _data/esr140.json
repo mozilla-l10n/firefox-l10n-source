@@ -2641,6 +2641,9 @@
     "panic-button-delete-history",
     "panic-button-delete-tabs-and-windows"
   ],
+  "browser/browser/permissions.ftl": [
+    "perm-persistent-storage-remember"
+  ],
   "browser/browser/places.ftl": [
     "places-open",
     "places-open-in-tab",
