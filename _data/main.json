@@ -4647,7 +4647,10 @@
     "report-broken-site-panel-invalid-url-label",
     "report-broken-site-panel-missing-reason-label",
     "report-broken-site-panel-blocked-trackers-label",
-    "report-broken-site-panel-blocked-trackers-description"
+    "report-broken-site-panel-blocked-trackers-description",
+    "report-broken-site-panel-preview-button",
+    "report-broken-site-panel-preview-header",
+    "report-broken-site-panel-button-copy"
   ],
   "browser/browser/safeMode.ftl": [
     "troubleshoot-mode-window",
@@ -8754,6 +8757,7 @@
     "IgnoringWillChangeOverBudgetWarning",
     "HittingMaxWorkersPerDomain2",
     "AppCacheWarning",
+    "WorkerScriptTooLargeError",
     "EmptyWorkerSourceWarning",
     "NavigatorGetUserMediaWarning",
     "RTCPeerConnectionGetStreamsWarning",
