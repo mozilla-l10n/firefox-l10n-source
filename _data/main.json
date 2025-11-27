@@ -9472,8 +9472,6 @@
     "DirColSize",
     "DirColMTime",
     "DirFileLabel",
-    "SuperfluousAuth",
-    "AutomaticAuth",
     "TrackerUriBlockedByETP",
     "UnsafeUriBlocked",
     "StrictUrlProtocolSetter",
