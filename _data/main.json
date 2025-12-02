@@ -3833,6 +3833,7 @@
     "browsing-use-full-keyboard-navigation",
     "browsing-search-on-start-typing",
     "browsing-picture-in-picture-toggle-enabled",
+    "browsing-picture-in-picture-enable-when-switching-tabs",
     "browsing-media-control",
     "browsing-cfr-recommendations",
     "browsing-cfr-features",
@@ -4649,8 +4650,7 @@
     "report-broken-site-panel-blocked-trackers-label",
     "report-broken-site-panel-blocked-trackers-description",
     "report-broken-site-panel-preview-button",
-    "report-broken-site-panel-preview-header",
-    "report-broken-site-panel-button-copy"
+    "report-broken-site-panel-preview-header"
   ],
   "browser/browser/safeMode.ftl": [
     "troubleshoot-mode-window",
@@ -12156,8 +12156,6 @@
     "experimental-features-js-warp-description",
     "experimental-features-ime-search",
     "experimental-features-ime-search-description",
-    "experimental-features-auto-pip",
-    "experimental-features-auto-pip-description",
     "experimental-features-group-developer-tools",
     "experimental-features-group-webpage-display",
     "experimental-features-group-customize-browsing",
@@ -13384,9 +13382,12 @@
     "certerror-coop-learn-more",
     "certerror-coep-learn-more",
     "neterror-response-status-code",
+    "fp-neterror-offline-body-title",
     "fp-neterror-connection-intro",
+    "fp-neterror-offline-intro",
     "fp-neterror-cypher-overlap-why-dangerous-body",
-    "fp-neterror-cypher-overlap-what-can-you-do-body"
+    "fp-neterror-cypher-overlap-what-can-you-do-body",
+    "fp-neterror-offline-what-can-you-do-body"
   ],
   "toolkit/toolkit/neterror/nsserrors.ftl": [
     "psmerr-ssl-disabled",
