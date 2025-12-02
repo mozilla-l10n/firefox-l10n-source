@@ -155,10 +155,13 @@ startup-restore-warn-on-quit =
     .label = Warn you when quitting the browser
 disable-extension =
     .label = Disable Extension
+preferences-data-migration-group =
+    .label = Import browser data
+    .description = Bring your bookmarks, passwords, history, extensions, and autofill data from another browser.
 preferences-data-migration-header = Import Browser Data
 preferences-data-migration-description = Import bookmarks, passwords, history, and autofill data into { -brand-short-name }.
 preferences-data-migration-button =
-    .label = Import Data
+    .label = Import data
     .accesskey = m
 preferences-profiles-group-header =
     .heading = Profiles
@@ -608,6 +611,9 @@ browsing-search-on-start-typing =
 browsing-picture-in-picture-toggle-enabled =
     .label = Enable Picture-in-Picture video controls
     .accesskey = E
+browsing-picture-in-picture-enable-when-switching-tabs =
+    .label = Keep playing videos in Picture-in-Picture when switching tabs
+    .accesskey = s
 browsing-picture-in-picture-learn-more = Learn more
 browsing-media-control =
     .label = Control media via keyboard, headset, or virtual interface
@@ -1257,6 +1263,16 @@ history-header = History
 #   - Simply as "Firefox", moving the verb into each option.
 #     This will result in "Firefox" + "Will remember history", etc.
 #   - As a stand-alone message, for example "Firefox history settings:".
+history-remember-label2 = { -brand-short-name } will
+# This label is followed, on the same line, by a dropdown list of options
+# (Remember history, etc.).
+# In English it visually creates a full sentence, e.g.
+# "Firefox will" + "Remember history".
+#
+# If this doesn't work for your language, you can translate this message:
+#   - Simply as "Firefox", moving the verb into each option.
+#     This will result in "Firefox" + "Will remember history", etc.
+#   - As a stand-alone message, for example "Firefox history settings:".
 history-remember-label = { -brand-short-name } will
     .accesskey = w
 history-remember-option-all =
@@ -1265,11 +1281,14 @@ history-remember-option-never =
     .label = Never remember history
 history-remember-option-custom =
     .label = Use custom settings for history
-history-remember-description2 =
+history-remember-description3 =
+    .aria-label = { history-remember-label2 }
     .description = { -brand-short-name } will remember your browsing, download, form, and search history.
-history-dontremember-description2 =
+history-dontremember-description3 =
+    .aria-label = { history-remember-label2 }
     .description = { -brand-short-name } will use the same settings as private browsing, and will not remember any history as you browse the Web.
-history-custom-description =
+history-custom-description3 =
+    .aria-label = { history-remember-label2 }
     .description = { -brand-short-name } will use custom settings for your browsing, download, form and search history.
 history-remember-description = { -brand-short-name } will remember your browsing, download, form, and search history.
 history-dontremember-description = { -brand-short-name } will use the same settings as private browsing, and will not remember any history as you browse the Web.
