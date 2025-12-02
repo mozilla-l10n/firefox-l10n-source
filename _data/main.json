@@ -4033,13 +4033,13 @@
     "autofill-addresses-manage-addresses-button",
     "payment-moz-box-item",
     "history-header",
-    "history-remember-label",
+    "history-remember-label2",
     "history-remember-option-all",
     "history-remember-option-never",
     "history-remember-option-custom",
-    "history-remember-description2",
-    "history-dontremember-description2",
-    "history-custom-description",
+    "history-remember-description3",
+    "history-dontremember-description3",
+    "history-custom-description3",
     "history-private-browsing-permanent",
     "history-remember-browser-option",
     "history-remember-search-option",
@@ -8915,7 +8915,8 @@
     "FullscreenAttributeWarning",
     "WakeLockVideoPlaying",
     "WakeLockAudioPlaying",
-    "XSLTDeprecatedWarning"
+    "XSLTDeprecatedWarning",
+    "CKEditor4CompatHackWarning"
   ],
   "dom/chrome/layout/HtmlForm.properties": [
     "Reset",
