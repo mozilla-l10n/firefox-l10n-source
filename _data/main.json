@@ -7984,6 +7984,7 @@
     "inactive-css-not-multicol-container",
     "inactive-css-column-span",
     "inactive-css-not-grid-or-flex-item",
+    "inactive-css-not-grid-or-flex-or-absolutely-positioned-item",
     "inactive-css-not-grid-item",
     "inactive-css-not-grid-container",
     "inactive-css-not-flex-item",
@@ -8024,6 +8025,7 @@
     "inactive-css-not-grid-or-flex-container-or-multicol-container-fix",
     "inactive-css-not-multicol-container-fix",
     "inactive-css-column-span-fix",
+    "inactive-css-not-grid-or-flex-or-absolutely-positioned-item-fix",
     "inactive-css-not-grid-or-flex-item-fix-3",
     "inactive-css-not-grid-item-fix-2",
     "inactive-css-not-grid-container-fix",
@@ -8919,7 +8921,11 @@
     "WakeLockVideoPlaying",
     "WakeLockAudioPlaying",
     "XSLTDeprecatedWarning",
-    "CKEditor4CompatHackWarning"
+    "CKEditor4CompatHackWarning",
+    "MozorientationDeprecatedWarning",
+    "MozorientationchangeDeprecatedWarning",
+    "MozlockorientationDeprecatedWarning",
+    "MozunlockorientationDeprecatedWarning"
   ],
   "dom/chrome/layout/HtmlForm.properties": [
     "Reset",
