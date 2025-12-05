@@ -747,6 +747,7 @@
     "urlbar-install-blocked",
     "urlbar-star-edit-bookmark",
     "urlbar-star-add-bookmark",
+    "urlbar-split-view-button",
     "page-action-manage-extension2",
     "page-action-remove-extension2",
     "full-screen-autohide",
@@ -13408,9 +13409,12 @@
     "fp-neterror-offline-body-title",
     "fp-neterror-connection-intro",
     "fp-neterror-offline-intro",
+    "fp-neterror-coop-coep-intro",
+    "fp-neterror-why-did-this-happen",
     "fp-neterror-cypher-overlap-why-dangerous-body",
     "fp-neterror-cypher-overlap-what-can-you-do-body",
-    "fp-neterror-offline-what-can-you-do-body"
+    "fp-neterror-offline-what-can-you-do-body",
+    "fp-neterror-coop-coep-why-did-this-happen-body"
   ],
   "toolkit/toolkit/neterror/nsserrors.ftl": [
     "psmerr-ssl-disabled",
