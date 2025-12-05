@@ -813,10 +813,15 @@ search-show-suggestions-option =
 search-show-suggestions-url-bar-option =
     .label = Show search suggestions in address bar results
     .accesskey = l
-# With this option enabled, on the search results page
-# the URL will be replaced by the search terms in the address bar.
+# With this option enabled, while on a SERP, the URL normally displayed in the
+# address bar will be replaced with the search term used to generate that SERP.
 search-show-search-term-option-2 =
     .label = Show search terms in the address bar on results pages
+search-separate-default-engine-2 =
+    .label = Use a different default search engine in private windows
+    .accesskey = U
+search-separate-default-engine-dropdown =
+    .aria-label = Default search engine in private windows
 # With this option enabled, on the search results page
 # the URL will be replaced by the search terms in the address bar
 # when using the current default search engine.
@@ -866,6 +871,10 @@ edit-engine-name-warning-duplicate = There already is a search engine with the n
 remove-engine-confirmation = Are you sure you want to remove this search engine?
 remove-engine-remove = Remove
 remove-addon-engine-alert = To remove this search engine, remove the associated add-on.
+search-engine-group =
+    .label = Default search engine
+search-default-engine =
+    .aria-label = Default search engine
 
 ## Containers Section
 
