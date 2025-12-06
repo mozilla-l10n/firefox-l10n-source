@@ -2395,7 +2395,15 @@
     "etp-strict-exceptions-infobar-message",
     "etp-strict-exceptions-infobar-learn-more",
     "etp-strict-exceptions-infobar-button",
-    "etp-strict-exceptions-infobar-not-now"
+    "etp-strict-exceptions-infobar-not-now",
+    "set-default-menu-message-simple-layout-title",
+    "set-default-menu-message-simple-layout-title-variant",
+    "set-default-menu-message-row-layout-title",
+    "set-default-menu-message-row-layout-title-variant",
+    "set-default-menu-message-row-layout-subtitle",
+    "set-default-menu-message-row-layout-subtitle-variant",
+    "set-default-menu-message-primary-button",
+    "set-default-menu-message-primary-button-variant"
   ],
   "browser/browser/newtab/newtab.ftl": [
     "newtab-page-title",
