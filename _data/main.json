@@ -1098,7 +1098,7 @@
     "trustpanel-siteinformation-morelink",
     "trustpanel-blocker-see-all",
     "trustpanel-blocker-header",
-    "trustpanel-blocker-section-header",
+    "trustpanel-blocker-section-header2",
     "trustpanel-blocker-description",
     "trustpanel-blocked-header",
     "trustpanel-tracking-header",
@@ -2951,6 +2951,9 @@
     "onboarding-personalization-motivation-productivity-option",
     "onboarding-personalization-motivation-other-option"
   ],
+  "browser/browser/openTabs.ftl": [
+    "opentabs-page-title"
+  ],
   "browser/browser/originControls.ftl": [
     "origin-controls-no-access",
     "origin-controls-quarantined-status",
@@ -3827,6 +3830,9 @@
     "update-in-progress-message",
     "update-in-progress-ok-button",
     "update-in-progress-cancel-button",
+    "support-application-heading",
+    "support-get-help",
+    "support-share-ideas",
     "performance-title",
     "performance-use-recommended-settings-checkbox",
     "performance-use-recommended-settings-desc",
