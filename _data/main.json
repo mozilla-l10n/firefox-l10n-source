@@ -1489,7 +1489,8 @@
     "customkeys-nav-reload",
     "customkeys-nav-reload-skip-cache",
     "customkeys-nav-stop",
-    "customkeys-caution-message"
+    "customkeys-caution-message",
+    "customkeys-key-invalid"
   ],
   "browser/browser/defaultBrowserNotification.ftl": [
     "default-browser-notification-message",
