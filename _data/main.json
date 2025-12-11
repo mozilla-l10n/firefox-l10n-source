@@ -8013,6 +8013,7 @@
     "inactive-css-column-span",
     "inactive-css-not-grid-or-flex-item",
     "inactive-css-not-grid-or-flex-or-absolutely-positioned-item",
+    "inactive-css-not-grid-or-absolutely-positioned-item",
     "inactive-css-not-grid-item",
     "inactive-css-not-grid-container",
     "inactive-css-not-flex-item",
@@ -8055,6 +8056,7 @@
     "inactive-css-not-multicol-container-fix",
     "inactive-css-column-span-fix",
     "inactive-css-not-grid-or-flex-or-absolutely-positioned-item-fix",
+    "inactive-css-not-grid-or-absolutely-positioned-item-fix",
     "inactive-css-not-grid-or-flex-item-fix-3",
     "inactive-css-not-grid-item-fix-2",
     "inactive-css-not-grid-container-fix",
@@ -11378,6 +11380,9 @@
     "place-database-stats-sequentiality-perc",
     "place-database-integrity",
     "place-database-verify-integrity",
+    "place-database-last-idle-maintenance-data",
+    "place-database-last-vacuum-date",
+    "place-database-last-integrity-corruption-date",
     "a11y-title",
     "a11y-activated",
     "a11y-force-disabled",
@@ -13338,7 +13343,9 @@
     "fp-certerror-transparency-what-can-you-do-body",
     "fp-learn-more-about-secure-connection-failures",
     "fp-learn-more-about-cert-issues",
-    "fp-learn-more-about-time-related-errors"
+    "fp-learn-more-about-time-related-errors",
+    "fp-certerror-pkix-not-yet-valid-why-dangerous-body",
+    "fp-certerror-pkix-not-yet-valid-what-can-you-do-body"
   ],
   "toolkit/toolkit/neterror/netError.ftl": [
     "neterror-page-title",
