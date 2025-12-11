@@ -8044,6 +8044,7 @@
     "inactive-css-ruby-element",
     "inactive-css-highlight-pseudo-elements-not-supported",
     "inactive-css-cue-pseudo-element-not-supported",
+    "inactive-css-at-position-try-not-supported",
     "inactive-css-text-wrap-balance-lines-exceeded",
     "inactive-css-text-wrap-balance-fragmented",
     "inactive-css-no-width-height",
@@ -11705,6 +11706,22 @@
     "third-party-restart-now",
     "third-party-restart-later",
     "third-party-blocked-by-builtin"
+  ],
+  "toolkit/toolkit/about/aboutTranslations.ftl": [
+    "about-translations-title",
+    "about-translations-description",
+    "about-translations-learn-more-link",
+    "about-translations-unsupported-info-message",
+    "about-translations-unsupported-info-button",
+    "about-translations-language-load-error-message",
+    "about-translations-language-load-error-button",
+    "about-translations-input-placeholder",
+    "about-translations-detect-default",
+    "about-translations-detect-language",
+    "about-translations-output-placeholder",
+    "about-translations-select",
+    "about-translations-translating-message",
+    "about-translations-swap-languages"
   ],
   "toolkit/toolkit/about/aboutWebauthn.ftl": [
     "about-webauthn-page-title",
