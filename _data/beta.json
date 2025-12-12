@@ -8037,6 +8037,7 @@
     "inactive-css-ruby-element",
     "inactive-css-highlight-pseudo-elements-not-supported",
     "inactive-css-cue-pseudo-element-not-supported",
+    "inactive-css-at-position-try-not-supported",
     "inactive-css-text-wrap-balance-lines-exceeded",
     "inactive-css-text-wrap-balance-fragmented",
     "inactive-css-no-width-height",
