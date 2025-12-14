@@ -328,6 +328,11 @@ preferences-web-appearance-override-warning3 =
     .message = Your contrast control settings are overriding website appearance.
 preferences-web-appearance-link =
     .label = Manage { -brand-short-name } themes in Extensions & Themes
+preferences-contrast-control-group =
+    .label = Website contrast
+    .description = Websites use a variety of foreground and background colors. For consistent contrast, you can use the same colors across websites.
+preferences-contrast-control-radio-group =
+    .label = Override colors
 # This can appear when using windows HCM or "Override colors: always" without
 # system colors.
 preferences-web-appearance-override-warning = Your color selections are overriding website appearance. <a data-l10n-name="colors-link">Manage colors</a>
@@ -358,6 +363,12 @@ default-font-size = Size
 advanced-fonts =
     .label = Advanced…
     .accesskey = A
+# Zoom is a noun, and the message is used as header for a group of options
+preferences-zoom-header2 =
+    .label = Zoom
+preferences-default-zoom-label =
+    .label = Default zoom
+    .accesskey = z
 # Zoom is a noun, and the message is used as header for a group of options
 preferences-zoom-header = Zoom
 preferences-default-zoom = Default zoom
