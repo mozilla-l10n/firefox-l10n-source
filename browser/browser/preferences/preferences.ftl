@@ -328,6 +328,11 @@ preferences-web-appearance-override-warning3 =
     .message = Your contrast control settings are overriding website appearance.
 preferences-web-appearance-link =
     .label = Manage { -brand-short-name } themes in Extensions & Themes
+preferences-contrast-control-group =
+    .label = Website contrast
+    .description = Websites use a variety of foreground and background colors. For consistent contrast, you can use the same colors across websites.
+preferences-contrast-control-radio-group =
+    .label = Override colors
 # This can appear when using windows HCM or "Override colors: always" without
 # system colors.
 preferences-web-appearance-override-warning = Your color selections are overriding website appearance. <a data-l10n-name="colors-link">Manage colors</a>
@@ -358,6 +363,12 @@ default-font-size = Size
 advanced-fonts =
     .label = Advanced…
     .accesskey = A
+# Zoom is a noun, and the message is used as header for a group of options
+preferences-zoom-header2 =
+    .label = Zoom
+preferences-default-zoom-label =
+    .label = Default zoom
+    .accesskey = z
 # Zoom is a noun, and the message is used as header for a group of options
 preferences-zoom-header = Zoom
 preferences-default-zoom = Default zoom
@@ -789,7 +800,11 @@ home-prefs-mission-message-learn-more-link = Find out how
 home-prefs-mission-message2 =
     .message = Our sponsors support our mission to build a better web.
 home-prefs-manage-topics-link = Manage topics
+home-prefs-manage-topics-link2 =
+    .label = Manage topics
 home-prefs-choose-wallpaper-link = Choose a wallpaper
+home-prefs-choose-wallpaper-link2 =
+    .label = Choose a wallpaper
 # Variables:
 #   $num (number) - Number of rows displayed
 home-prefs-sections-rows-option =
@@ -823,6 +838,17 @@ search-show-suggestions-option =
 search-show-suggestions-url-bar-option =
     .label = Show search suggestions in address bar results
     .accesskey = l
+# This string describes what the user will observe when the system
+# prioritizes search suggestions over browsing history in the results
+# that extend down from the address bar. In the original English string,
+# "before" refers to location (appearing most proximate to), not time
+# (appearing before).
+search-show-suggestions-above-history-option-2 =
+    .label = Show search suggestions before browsing history in address bar results
+search-show-suggestions-private-windows-2 =
+    .label = Search suggestions in private windows
+search-suggestions-cant-show-2 =
+    .message = Search suggestions will not be shown in location bar results because you have configured { -brand-short-name } to never remember history.
 # With this option enabled, while on a SERP, the URL normally displayed in the
 # address bar will be replaced with the search term used to generate that SERP.
 search-show-search-term-option-2 =
@@ -832,6 +858,8 @@ search-separate-default-engine-2 =
     .accesskey = U
 search-separate-default-engine-dropdown =
     .aria-label = Default search engine in private windows
+search-suggestions-header-2 =
+    .label = Search engine suggestions
 # With this option enabled, on the search results page
 # the URL will be replaced by the search terms in the address bar
 # when using the current default search engine.
@@ -904,6 +932,11 @@ containers-settings-button =
 containers-remove-button =
     .label = Remove
 
+## Account and sync
+
+sync-group-label =
+    .label = Sync
+
 ## Firefox account - Signed out. Note that "Sync" and "Firefox account" are now
 ## more discrete ("signed in" no longer means "and sync is connected").
 
@@ -911,6 +944,9 @@ sync-signedout-caption = Take Your Web With You
 sync-signedout-description2 = Synchronize your bookmarks, history, tabs, passwords, add-ons, and settings across all your devices.
 sync-signedout-account-signin3 =
     .label = Sign in to sync…
+    .accesskey = i
+sync-signedout-account-signin-4 =
+    .label = Sign in to your account to start syncing
     .accesskey = i
 # This message contains two links and two icon images.
 #   `<img data-l10n-name="android-icon"/>` - Android logo icon
@@ -963,9 +999,17 @@ sync-sign-in =
 ## Sync section - enabling or disabling sync.
 
 prefs-syncing-on = Syncing: ON
+prefs-syncing-on-2 =
+    .label = Syncing is ON
 prefs-syncing-off = Syncing: OFF
+prefs-syncing-off-2 =
+    .label = Syncing is OFF
+    .description = Turn on sync to get your your bookmarks, passwords, history, and more on any device.
 prefs-sync-turn-on-syncing =
     .label = Turn on syncing…
+    .accesskey = s
+prefs-sync-turn-on-syncing-2 =
+    .label = Turn on syncing
     .accesskey = s
 prefs-sync-offer-setup-label2 = Synchronize your bookmarks, history, tabs, passwords, add-ons, and settings across all your devices.
 prefs-sync-now =
@@ -975,8 +1019,14 @@ prefs-sync-now =
 prefs-sync-now-button =
     .label = Sync Now
     .accesskey = N
+prefs-sync-now-button-2 =
+    .label = Sync now
+    .accesskey = N
 prefs-syncing-button =
     .label = Syncing…
+prefs-syncing-button-2 =
+    .label = Syncing…
+    .title = Sync now
 
 ## The list of things currently syncing.
 
@@ -997,6 +1047,9 @@ sync-currently-syncing-addons = Add-ons
 sync-currently-syncing-settings = Settings
 sync-manage-options =
     .label = Manage sync…
+    .accesskey = M
+sync-manage-options-2 =
+    .label = Manage synced data
     .accesskey = M
 sync-change-options =
     .label = Change…
@@ -1061,6 +1114,8 @@ sync-choose-what-to-sync-dialog4 =
 ## The device name controls.
 
 sync-device-name-header = Device Name
+sync-device-name-header-2 =
+    .label = Device Name
 # Variables:
 #   $placeholder (string) - The placeholder text of the input
 sync-device-name-input =
@@ -1079,6 +1134,8 @@ sync-device-name-save =
     .label = Save
     .accesskey = v
 sync-connect-another-device = Connect another device
+sync-connect-another-device-2 =
+    .label = Connect another device
 
 ## These strings are shown in a desktop notification after the
 ## user requests we resend a verification email.
@@ -1253,6 +1310,9 @@ autofill-payment-methods-add-button = Add new payment method
 payments-list-header =
     .label = Payment methods
 payments-list-item-label = <strong>Payment methods</strong>
+payments-delete-payment-prompt-title = Delete this payment method?
+payments-delete-payment-prompt-confirm-button = Delete
+payments-delete-payment-prompt-cancel-button = Cancel
 payments-remove-payment-prompt-title = Remove this payment method?
 payments-remove-payment-prompt-confirm-button = Remove
 payments-remove-payment-prompt-cancel-button = Cancel
@@ -1265,6 +1325,25 @@ autofill-addresses-checkbox-message =
 autofill-addresses-manage-addresses-button =
     .label = Manage addresses and more
     .accesskey = M
+addresses-list-header =
+    .label = Addresses
+addreses-delete-address-button-label =
+    .aria-label = Delete
+addreses-edit-address-button-label =
+    .aria-label = Edit
+addresses-delete-address-prompt-title = Delete this address?
+addresses-delete-address-prompt-confirm-button = Delete
+addresses-delete-address-prompt-cancel-button = Cancel
+autofill-addresses-add-button = Add new address
+autofill-addresses-manage-addresses-title =
+    .heading = Manage addresses and more
+# These values are displayed for each address record listed on the "Manage addresses and more" subpage.
+# Variables:
+#   $name (string) - The name associated with the address
+#   $address (string) - The address
+address-moz-box-item =
+    .label = { $name }
+    .description = { $address }
 # These values are displayed for each credit card record listed on the Manage Payment methods
 # settings page.
 # Variables:
@@ -1459,6 +1538,12 @@ addressbar-locbar-engines-option =
 addressbar-locbar-quickactions-option =
     .label = Quick actions
     .accesskey = Q
+addressbar-locbar-showrecentsearches-option-2 =
+    .label = Recent searches
+    .accesskey = r
+addressbar-locbar-showtrendingsuggestions-option-2 =
+    .label = Trending search suggestions
+    .accesskey = t
 addressbar-suggestions-settings = Change preferences for search engine suggestions
 addressbar-locbar-showrecentsearches-option =
     .label = Show recent searches
