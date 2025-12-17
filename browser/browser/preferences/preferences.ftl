@@ -665,8 +665,12 @@ home-new-windows-tabs-description2 = Choose what you see when you open your home
 ## Custom Homepage subpage
 
 home-homepage-mode-label = Homepage and new windows
+home-homepage-new-windows =
+    .label = New windows
 home-homepage-mode-label2 = New windows
 home-newtabs-mode-label = New tabs
+home-homepage-new-tabs =
+    .label = New tabs
 home-restore-defaults =
     .label = Restore Defaults
     .accesskey = R
@@ -681,6 +685,9 @@ home-homepage-custom-url =
 # This button is shown when the homepage is managed by an extension and is placed below extension-controlling-homepage.
 home-homepage-manage-extension-button =
     .label = Manage extension
+# This option leads to the "Custom Homepage" subpage
+home-homepage-custom-homepage-button =
+    .label = Choose a specific site
 # This option leads to the "Custom Homepage" subpage
 home-homepage-custom-homepage-url = Choose a specific site
 # This string has a special case for '1' and [other] (default). If necessary for
@@ -698,6 +705,11 @@ choose-bookmark =
     .label = Use Bookmark…
     .accesskey = B
 home-homepage-header = Homepage
+
+## Home Section - Home Page Customization
+
+home-homepage-title =
+    .label = Homepage
 
 ## Custom Homepage subpage
 
@@ -936,6 +948,11 @@ containers-remove-button =
 
 sync-group-label =
     .label = Sync
+account-group-label =
+    .label = { -vendor-short-name } account
+account-placeholder =
+    .label = You’re not signed in
+    .description = Sign in to keep your data private, encrypted, and synced across devices.
 
 ## Firefox account - Signed out. Note that "Sync" and "Firefox account" are now
 ## more discrete ("signed in" no longer means "and sync is connected").
@@ -947,6 +964,9 @@ sync-signedout-account-signin3 =
     .accesskey = i
 sync-signedout-account-signin-4 =
     .label = Sign in to your account to start syncing
+    .accesskey = i
+sync-signedout-account-short =
+    .label = Sign in
     .accesskey = i
 # This message contains two links and two icon images.
 #   `<img data-l10n-name="android-icon"/>` - Android logo icon
@@ -972,14 +992,37 @@ fxa-login-rejected-warning =
 sync-sign-out =
     .label = Sign Out…
     .accesskey = g
+sync-sign-out2 =
+    .label = Sign out
+    .accesskey = g
 sync-manage-account = Manage account
+    .accesskey = o
+sync-manage-account2 =
+    .label = Manage account
     .accesskey = o
 
 ## Variables
 ## $email (string) - Email used for Firefox account
+## $name (string) - Name used for Firefox account
 
 sync-signedin-unverified = { $email } is not verified.
+sync-signedin-unverified2 =
+    .label = { $email } isn’t confirmed yet
+    .description = Check your inbox to confirm your account and make it official.
 sync-signedin-login-failure = Please sign in to reconnect { $email }
+sync-signedin-login-failure2 =
+    .label = You’re signed out of { $email }
+    .description = Sign back in to reconnect and start syncing your data.
+
+## Variables
+## $email (string) - Email used for Firefox account
+## $name (string) - Name used for Firefox account
+
+sync-account-signed-in =
+    .label = { $email }
+sync-account-signed-in-display-name =
+    .label = { $name }
+    .description = { $email }
 
 ##
 
