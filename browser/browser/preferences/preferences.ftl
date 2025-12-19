@@ -403,6 +403,68 @@ translate-attribution = Translations by <img data-l10n-name="logo"/>
 translate-exceptions =
     .label = Exceptions…
     .accesskey = x
+settings-translations-header =
+    .label = Translations
+    .aria-label = Translations
+    .description = Translate pages or selected text. To protect your privacy, translations stay on your device.
+settings-translations-offer-to-translate-label =
+    .label = Offer full page translation
+settings-translations-more-settings-button =
+    .label = More translation settings
+    .description = Set preferences for languages, websites, and offline translation.
+settings-translations-subpage-header =
+    .heading = More translation settings
+settings-translations-subpage-speed-up-translation-header =
+    .label = Speed up translation
+    .description = Download complete languages for faster translations and to translate offline.
+settings-translations-subpage-automatic-translation-header =
+    .label = Automatic translation
+settings-translations-subpage-always-translate-header =
+    .label = Always translate these languages
+settings-translations-subpage-never-translate-header =
+    .label = Never translate these languages
+settings-translations-subpage-never-translate-sites-header =
+    .label = Never translate these sites
+# The icon placeholders show the translations button and the settings gear in the urlbar panel.
+settings-translations-subpage-never-translate-sites-description = To add a site, open the <img data-l10n-name="translations-icon"/> translation panel, select <img data-l10n-name="settings-icon"/> translation settings, then choose “Never translate this site”
+settings-translations-subpage-language-select-option =
+    .label = Add language
+settings-translations-subpage-language-add-button =
+    .aria-label = Add language
+    .title = Add language
+settings-translations-subpage-download-languages-header =
+    .label = Download languages
+settings-translations-subpage-download-languages-select-option =
+    .label = Select language
+settings-translations-subpage-download-languages-button =
+    .aria-label = Download language
+    .title = Download language
+# Variables:
+#   $language (string) - Localized name of the language to download.
+#   $size (string) - Download size in megabytes, formatted for the locale.
+settings-translations-subpage-download-language-option = { $language } ({ $size }MB)
+    .label = { $language } ({ $size }MB)
+settings-translations-subpage-no-languages-downloaded =
+    .label = No languages downloaded
+settings-translations-subpage-no-languages-added =
+    .label = No languages added
+settings-translations-subpage-download-progress = Download in progress…
+# Variables:
+#   $language (string) - The localized display name of the language.
+#   $size (string) - The download size of the language in megabytes.
+settings-translations-subpage-download-error = Couldn’t download { $language } ({ $size }MB)
+settings-translations-subpage-download-retry-button =
+    .label = Try again
+# Variables:
+#   $language (string) - The localized display name of the language.
+#   $size (string) - The download size of the language in megabytes.
+settings-translations-subpage-download-delete-confirm = Delete { $language } ({ $size }MB)?
+settings-translations-subpage-download-delete-button =
+    .label = Delete
+settings-translations-subpage-download-cancel-button =
+    .label = Cancel
+settings-translations-subpage-no-sites-added =
+    .label = No sites added
 # Variables:
 #    $localeName (string) - Localized name of the locale to be used.
 use-system-locale =
@@ -665,8 +727,12 @@ home-new-windows-tabs-description2 = Choose what you see when you open your home
 ## Custom Homepage subpage
 
 home-homepage-mode-label = Homepage and new windows
+home-homepage-new-windows =
+    .label = New windows
 home-homepage-mode-label2 = New windows
 home-newtabs-mode-label = New tabs
+home-homepage-new-tabs =
+    .label = New tabs
 home-restore-defaults =
     .label = Restore Defaults
     .accesskey = R
@@ -681,6 +747,9 @@ home-homepage-custom-url =
 # This button is shown when the homepage is managed by an extension and is placed below extension-controlling-homepage.
 home-homepage-manage-extension-button =
     .label = Manage extension
+# This option leads to the "Custom Homepage" subpage
+home-homepage-custom-homepage-button =
+    .label = Choose a specific site
 # This option leads to the "Custom Homepage" subpage
 home-homepage-custom-homepage-url = Choose a specific site
 # This string has a special case for '1' and [other] (default). If necessary for
@@ -698,6 +767,11 @@ choose-bookmark =
     .label = Use Bookmark…
     .accesskey = B
 home-homepage-header = Homepage
+
+## Home Section - Home Page Customization
+
+home-homepage-title =
+    .label = Homepage
 
 ## Custom Homepage subpage
 
@@ -936,6 +1010,9 @@ containers-remove-button =
 
 sync-group-label =
     .label = Sync
+account-placeholder =
+    .label = You’re not signed in
+    .description = Sign in to keep your data private, encrypted, and synced across devices.
 
 ## Firefox account - Signed out. Note that "Sync" and "Firefox account" are now
 ## more discrete ("signed in" no longer means "and sync is connected").
@@ -947,6 +1024,9 @@ sync-signedout-account-signin3 =
     .accesskey = i
 sync-signedout-account-signin-4 =
     .label = Sign in to your account to start syncing
+    .accesskey = i
+sync-signedout-account-short =
+    .label = Sign in
     .accesskey = i
 # This message contains two links and two icon images.
 #   `<img data-l10n-name="android-icon"/>` - Android logo icon
@@ -972,14 +1052,37 @@ fxa-login-rejected-warning =
 sync-sign-out =
     .label = Sign Out…
     .accesskey = g
+sync-sign-out2 =
+    .label = Sign out
+    .accesskey = g
 sync-manage-account = Manage account
+    .accesskey = o
+sync-manage-account2 =
+    .label = Manage account
     .accesskey = o
 
 ## Variables
 ## $email (string) - Email used for Firefox account
+## $name (string) - Name used for Firefox account
 
 sync-signedin-unverified = { $email } is not verified.
+sync-signedin-unverified2 =
+    .label = { $email } isn’t confirmed yet
+    .description = Check your inbox to confirm your account and make it official.
 sync-signedin-login-failure = Please sign in to reconnect { $email }
+sync-signedin-login-failure2 =
+    .label = You’re signed out of { $email }
+    .description = Sign back in to reconnect and start syncing your data.
+
+## Variables
+## $email (string) - Email used for Firefox account
+## $name (string) - Name used for Firefox account
+
+sync-account-signed-in =
+    .label = { $email }
+sync-account-signed-in-display-name =
+    .label = { $name }
+    .description = { $email }
 
 ##
 
@@ -1004,7 +1107,7 @@ prefs-syncing-on-2 =
 prefs-syncing-off = Syncing: OFF
 prefs-syncing-off-2 =
     .label = Syncing is OFF
-    .description = Turn on sync to get your your bookmarks, passwords, history, and more on any device.
+    .description = Turn on sync to get your bookmarks, passwords, history, and more on any device.
 prefs-sync-turn-on-syncing =
     .label = Turn on syncing…
     .accesskey = s
@@ -1347,7 +1450,7 @@ address-moz-box-item =
 # These values are displayed for each credit card record listed on the Manage Payment methods
 # settings page.
 # Variables:
-#   $cardNumber (string) - The obscured credit card number (for example: 2423 *********)
+#   $cardNumber (string) - The obscured credit card number (for example: ********* 2423)
 #   $expDate (string) - The obscured expiry date of the credit card (for example: XX/2027)
 payment-moz-box-item =
     .label = { $cardNumber }
