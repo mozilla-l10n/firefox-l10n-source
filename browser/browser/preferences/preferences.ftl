@@ -1010,8 +1010,6 @@ containers-remove-button =
 
 sync-group-label =
     .label = Sync
-account-group-label =
-    .label = { -vendor-short-name } account
 account-placeholder =
     .label = You’re not signed in
     .description = Sign in to keep your data private, encrypted, and synced across devices.
