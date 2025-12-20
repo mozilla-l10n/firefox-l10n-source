@@ -1010,6 +1010,8 @@ containers-remove-button =
 
 sync-group-label =
     .label = Sync
+account-group-label =
+    .label = { -vendor-short-name } account
 account-placeholder =
     .label = You’re not signed in
     .description = Sign in to keep your data private, encrypted, and synced across devices.
@@ -1416,6 +1418,9 @@ payments-list-item-label = <strong>Payment methods</strong>
 payments-delete-payment-prompt-title = Delete this payment method?
 payments-delete-payment-prompt-confirm-button = Delete
 payments-delete-payment-prompt-cancel-button = Cancel
+# This message is displayed when no payment methods such as credit card are stored in Firefox
+payments-no-payments-stored-message =
+    .label = No payment methods added
 payments-remove-payment-prompt-title = Remove this payment method?
 payments-remove-payment-prompt-confirm-button = Remove
 payments-remove-payment-prompt-cancel-button = Cancel
@@ -1440,6 +1445,9 @@ addresses-delete-address-prompt-cancel-button = Cancel
 autofill-addresses-add-button = Add new address
 autofill-addresses-manage-addresses-title =
     .heading = Manage addresses and more
+# This message is displayed when no addresses are stored in Firefox
+addresses-no-addresses-stored-message =
+    .label = No addresses added
 # These values are displayed for each address record listed on the "Manage addresses and more" subpage.
 # Variables:
 #   $name (string) - The name associated with the address
