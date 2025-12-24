@@ -5720,8 +5720,6 @@
     "emeNotifications.drmContentCDMInstalling.message",
     "emeNotifications.unknownDRMSoftware",
     "customizeMode.tabTitle",
-    "sendTabsToDevice.label",
-    "sendTabsToDevice.accesskey",
     "decoder.noCodecs.button",
     "decoder.noCodecs.accesskey",
     "decoder.noCodecsLinux.message",
@@ -11782,12 +11780,15 @@
     "about-translations-language-load-error-message",
     "about-translations-language-load-error-button",
     "about-translations-input-placeholder",
-    "about-translations-detect-default",
-    "about-translations-detect-language",
+    "about-translations-detect-default-label",
+    "about-translations-detect-language-label",
     "about-translations-output-placeholder",
-    "about-translations-select",
+    "about-translations-copy-button-default",
+    "about-translations-copy-button-copied",
+    "about-translations-select-label",
     "about-translations-translating-message",
-    "about-translations-swap-languages"
+    "about-translations-swap-languages",
+    "about-translations-clear-button"
   ],
   "toolkit/toolkit/about/aboutWebauthn.ftl": [
     "about-webauthn-page-title",
