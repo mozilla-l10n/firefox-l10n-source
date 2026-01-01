@@ -5234,6 +5234,7 @@
     "tab-note-editor-text-field",
     "tab-note-editor-button-cancel",
     "tab-note-editor-button-save",
+    "tab-note-editor-character-limit",
     "tabbrowser-tab-label-tab-split-view",
     "tab-context-add-split-view",
     "tab-context-open-in-split-view",
