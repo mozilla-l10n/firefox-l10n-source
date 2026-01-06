@@ -13435,6 +13435,8 @@
     "neterror-load-error-firewall",
     "neterror-load-osx-permission",
     "neterror-http-error-page",
+    "neterror-http-empty-response",
+    "neterror-http-empty-response-description",
     "neterror-captive-portal",
     "neterror-dns-not-found-with-suggestion",
     "neterror-dns-not-found-hint-header",
