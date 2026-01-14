@@ -724,6 +724,18 @@ network-proxy-connection-settings =
 home-new-windows-tabs-header = New Windows and Tabs
 home-new-windows-tabs-description2 = Choose what you see when you open your homepage, new windows, and new tabs.
 
+## Home Section - Default Browser
+
+home-default-browser-title =
+    .label = Default browser
+is-default-browser-2 =
+    .message = { -brand-short-name } is your default browser. Good choice.
+is-not-default-browser-2 =
+    .message = Psst, { -brand-short-name } isn’t your default.
+set-as-my-default-browser-2 =
+    .label = Make default
+    .accesskey = D
+
 ## Custom Homepage subpage
 
 home-homepage-mode-label = Homepage and new windows
