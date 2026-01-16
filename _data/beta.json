@@ -4121,6 +4121,8 @@
     "payments-delete-payment-prompt-title",
     "payments-delete-payment-prompt-confirm-button",
     "payments-delete-payment-prompt-cancel-button",
+    "payments-delete-payment-button-label",
+    "payments-edit-payment-button-label",
     "payments-no-payments-stored-message",
     "payment-moz-box-item",
     "autofill-addresses-title",
