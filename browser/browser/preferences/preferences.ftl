@@ -12,6 +12,8 @@ do-not-track-option-always =
 global-privacy-control-description =
     .label = Tell websites not to sell or share my data
     .accesskey = s
+non-technical-privacy-group =
+    .label = Website Privacy Preferences
 non-technical-privacy-header = Website Privacy Preferences
 non-technical-privacy-label =
     .aria-label = { non-technical-privacy-header }
@@ -249,6 +251,8 @@ browser-containers-settings =
     .label = Settings…
     .accesskey = i
 containers-disable-alert-title = Close All Container Tabs?
+startup-group =
+    .label = Startup
 
 ## Variables:
 ##   $tabCount (number) - Number of tabs
@@ -294,6 +298,9 @@ browser-layout-show-sidebar-desc = Quickly access bookmarks, tabs from your phon
 ## General Section - Language & Appearance
 
 language-and-appearance-header = Language and Appearance
+appearance-group =
+    .label = Website appearance
+    .description = Some websites adapt their color scheme based on your preferences. Choose which color scheme you’d like to use for those sites.
 preferences-web-appearance-header = Website appearance
 preferences-web-appearance-description = Some websites adapt their color scheme based on your preferences. Choose which color scheme you’d like to use for those sites.
 preferences-web-appearance-choice-auto2 =
@@ -583,6 +590,8 @@ applications-save-for-new-types =
 applications-ask-before-handling =
     .label = Ask whether to open or save files
     .accesskey = A
+drm-group =
+    .label = Digital Rights Management (DRM) Content
 drm-content-header = Digital Rights Management (DRM) Content
 play-drm-content =
     .label = Play DRM-controlled content
@@ -661,6 +670,8 @@ performance-limit-content-process-blocked-desc = Modifying the number of content
 #   $num (number) - Default value of the `dom.ipc.processCount` pref.
 performance-default-content-process-count =
     .label = { $num } (default)
+performance-group =
+    .label = Performance
 
 ## General Section - Browsing
 
@@ -709,6 +720,8 @@ browsing-cfr-features =
     .label = Recommend features as you browse
     .accesskey = f
 browsing-cfr-recommendations-learn-more = Learn more
+browsing-group =
+    .label = Browsing
 
 ## General Section - Proxy
 
@@ -718,11 +731,26 @@ network-proxy-connection-learn-more = Learn more
 network-proxy-connection-settings =
     .label = Settings…
     .accesskey = e
+network-proxy-group =
+    .label = Network Settings
+    .description = Configure how { -brand-short-name } connects to the internet.
 
 ## Home Section
 
 home-new-windows-tabs-header = New Windows and Tabs
 home-new-windows-tabs-description2 = Choose what you see when you open your homepage, new windows, and new tabs.
+
+## Home Section - Default Browser
+
+home-default-browser-title =
+    .label = Default browser
+is-default-browser-2 =
+    .message = { -brand-short-name } is your default browser. Good choice.
+is-not-default-browser-2 =
+    .message = Psst, { -brand-short-name } isn’t your default.
+set-as-my-default-browser-2 =
+    .label = Make default
+    .accesskey = D
 
 ## Custom Homepage subpage
 
@@ -1438,6 +1466,10 @@ payments-list-item-label = <strong>Payment methods</strong>
 payments-delete-payment-prompt-title = Delete this payment method?
 payments-delete-payment-prompt-confirm-button = Delete
 payments-delete-payment-prompt-cancel-button = Cancel
+payments-delete-payment-button-label =
+    .aria-label = Delete
+payments-edit-payment-button-label =
+    .aria-label = Edit
 # This message is displayed when no payment methods such as credit card are stored in Firefox
 payments-no-payments-stored-message =
     .label = No payment methods added
@@ -1483,6 +1515,10 @@ address-moz-box-item =
 payment-moz-box-item =
     .label = { $cardNumber }
     .description = { $expDate }
+addresses-group =
+    .label = Addresses and more
+payments-group =
+    .label = Payment methods
 
 ## Privacy Section - History
 
@@ -1514,6 +1550,15 @@ history-remember-option-never =
     .label = Never remember history
 history-remember-option-custom =
     .label = Use custom settings for history
+history-remember-description4 =
+    .aria-label = { history-group.label }
+    .description = { -brand-short-name } will remember your browsing, download, form, and search history.
+history-dontremember-description4 =
+    .aria-label = { history-group.label }
+    .description = { -brand-short-name } will use the same settings as private browsing, and will not remember any history as you browse the Web.
+history-custom-description4 =
+    .aria-label = { history-group.label }
+    .description = { -brand-short-name } will use custom settings for your browsing, download, form and search history.
 history-remember-description3 =
     .aria-label = { history-remember-label2 }
     .description = { -brand-short-name } will remember your browsing, download, form, and search history.
@@ -1543,6 +1588,8 @@ history-clear-on-close-settings =
 history-clear-button =
     .label = Clear History…
     .accesskey = s
+history-group =
+    .label = History
 
 ## Privacy Section - Site Data
 
@@ -1609,6 +1656,8 @@ sitedata-cookies-exceptions2 =
     .label = Manage exceptions
     .accesskey = x
     .description = You can specify which websites are always or never allowed to use cookies and site data.
+cookies-site-data-group =
+    .label = Cookies and Site Data
 
 ## Privacy Section - Cookie Banner Handling
 
@@ -2001,6 +2050,8 @@ website-advertising-private-attribution-description = This helps sites understan
 ## https://developers.google.com/safe-browsing/developers_guide_v2#AcceptableUsage
 
 security-header = Security
+browsing-protection-group =
+    .label = Deceptive Content and Dangerous Software Protection
 security-browsing-protection = Deceptive Content and Dangerous Software Protection
 security-enable-safe-browsing =
     .label = Block dangerous and deceptive content
@@ -2057,10 +2108,17 @@ httpsonly-radio-disabled3 =
     .description = { -brand-short-name } may still upgrade some connections
 httpsonly-radio-disabled =
     .label = Don’t enable HTTPS-Only Mode
+httpsonly-group =
+    .label = HTTPS-Only Mode
+    .description = Only allows secure connections to websites. { -brand-short-name } will ask before connecting insecurely.
+httpsonly-label2 =
+    .aria-label = { httpsonly-group.label }
 
 ## DoH Section
 
 preferences-doh-header = DNS over HTTPS
+dns-over-https-group =
+    .label = DNS over HTTPS
 preferences-doh-description = Domain Name System (DNS) over HTTPS sends your request for a domain name through an encrypted connection, creating a secure DNS and making it harder for others to see which website you’re about to access.
 preferences-doh-description2 = Domain Name System (DNS) over HTTPS sends your request for a domain name through an encrypted connection, providing a secure DNS and making it harder for others to see which website you’re about to access.
 # Variables:
