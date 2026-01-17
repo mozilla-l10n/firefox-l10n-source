@@ -8876,6 +8876,8 @@
     "MediaEMEInsecureContextDeprecatedWarning",
     "MediaEMENoCapabilitiesDeprecatedWarning",
     "MediaEMENoCodecsDeprecatedWarning",
+    "MozCaptureStreamDeprecatedWarning",
+    "MozAudioCapturedDeprecatedWarning",
     "BlockAutoplayError",
     "BlockAutoplayWebAudioStartError",
     "ComponentsWarning",
