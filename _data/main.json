@@ -11034,6 +11034,7 @@
     "about-glean-label-for-filter-metrics",
     "about-glean-description-for-filter-metrics",
     "about-glean-button-load-all",
+    "about-glean-button-export-data",
     "about-glean-button-load-value",
     "about-glean-button-dictionary-link",
     "about-glean-button-watch",
