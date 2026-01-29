@@ -3511,7 +3511,8 @@
     "autofill-card-expires-month",
     "autofill-card-expires-year",
     "autofill-card-billing-address",
-    "autofill-card-network"
+    "autofill-card-network",
+    "autofill-card-search-term-credit-cards"
   ],
   "browser/browser/preferences/fxaPairDevice.ftl": [
     "fxa-pair-device-dialog-sync2",
