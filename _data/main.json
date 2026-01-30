@@ -14188,6 +14188,7 @@
     "pdfjs-editor-undo-bar-message-ink",
     "pdfjs-editor-undo-bar-message-stamp",
     "pdfjs-editor-undo-bar-message-signature",
+    "pdfjs-editor-undo-bar-message-comment",
     "pdfjs-editor-undo-bar-message-multiple",
     "pdfjs-editor-undo-bar-undo-button",
     "pdfjs-editor-undo-bar-undo-button-label",
