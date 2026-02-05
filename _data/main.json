@@ -2984,7 +2984,17 @@
     "onboarding-personalization-motivation-title",
     "onboarding-personalization-motivation-privacy-option",
     "onboarding-personalization-motivation-productivity-option",
-    "onboarding-personalization-motivation-other-option"
+    "onboarding-personalization-motivation-other-option",
+    "onboarding-refresh-pin-set-default-subtitle",
+    "onboarding-refresh-pin-set-default-title",
+    "onboarding-refresh-import-subtitle",
+    "onboarding-refresh-import-title",
+    "onboarding-refresh-onboarding-addons-subtitle",
+    "onboarding-refresh-onboarding-addons-title",
+    "onboarding-refresh-sync-subtitle",
+    "onboarding-refresh-sync-title",
+    "onboarding-refresh-gratitude-subtitle",
+    "onboarding-refresh-gratitude-title"
   ],
   "browser/browser/openTabs.ftl": [
     "opentabs-page-title"
