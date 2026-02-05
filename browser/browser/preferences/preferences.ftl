@@ -845,6 +845,9 @@ home-custom-homepage-header = Custom Homepage
 home-custom-homepage-subpage =
     .heading = Custom Homepage
 # Subheader on the Custom Homepage subpage. Followed by a form to enter URLs and a list of URLs already saved, if any.
+home-custom-homepage-card-header =
+    .label = Website address(es)
+# Subheader on the Custom Homepage subpage. Followed by a form to enter URLs and a list of URLs already saved, if any.
 home-custom-homepage-subheader = Website address(es)
 # Subheader on the Custom Homepage subpage. Followed by a form to enter URLs and a list of URLs already saved, if any.
 home-custom-homepage-card =
@@ -853,6 +856,12 @@ home-custom-homepage-address =
     .placeholder = Enter address
 home-custom-homepage-address-button =
     .label = Add address
+# Shown when no custom websites/URLs to use as a homepage have been added yet
+home-custom-homepage-no-results =
+    .label = No websites added yet.
+home-custom-homepage-delete-address-button =
+    .aria-label = Delete address
+    .title = Delete address
 # Shown when no custom websites/URLs to use as a homepage have been added yet
 home-custom-homepage-no-websites-yet = No websites added yet.
 # Further options to use when setting the home page. Two action buttons are placed in line with this prompt

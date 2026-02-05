@@ -1514,7 +1514,10 @@
     "default-browser-guidance-notification-body-instruction-win10",
     "default-browser-guidance-notification-body-instruction-win11",
     "default-browser-guidance-notification-info-page",
-    "default-browser-guidance-notification-dismiss"
+    "default-browser-guidance-notification-dismiss",
+    "default-browser-guidance-notification-v2-title",
+    "default-browser-guidance-notification-v2-body",
+    "default-browser-guidance-notification-v2-title-only"
   ],
   "browser/browser/downloads.ftl": [
     "downloads-window",
@@ -2736,7 +2739,13 @@
     "newtab-promo-card-title",
     "newtab-promo-card-body",
     "newtab-promo-card-cta",
-    "newtab-promo-card-dismiss-button"
+    "newtab-promo-card-dismiss-button",
+    "newtab-activation-window-message-dismiss-button",
+    "newtab-activation-window-message-customization-focus-header",
+    "newtab-activation-window-message-customization-focus-message",
+    "newtab-activation-window-message-customization-focus-primary-button",
+    "newtab-activation-window-message-values-focus-header",
+    "newtab-activation-window-message-values-focus-message"
   ],
   "browser/browser/newtab/onboarding.ftl": [
     "onboarding-welcome-header",
@@ -3930,11 +3939,11 @@
     "home-homepage-custom-homepage-button",
     "home-custom-homepage-header",
     "home-custom-homepage-subpage",
-    "home-custom-homepage-subheader",
-    "home-custom-homepage-card",
+    "home-custom-homepage-card-header",
     "home-custom-homepage-address",
     "home-custom-homepage-address-button",
-    "home-custom-homepage-no-websites-yet",
+    "home-custom-homepage-no-results",
+    "home-custom-homepage-delete-address-button",
     "home-custom-homepage-replace-with",
     "home-custom-homepage-current-pages-button",
     "home-custom-homepage-bookmarks-button",
@@ -14191,11 +14200,6 @@
     "pdfjs-editor-alt-text-settings-automatic-title",
     "pdfjs-editor-alt-text-settings-create-model-button-label",
     "pdfjs-editor-alt-text-settings-create-model-description",
-    "pdfjs-editor-alt-text-settings-download-model-label",
-    "pdfjs-editor-alt-text-settings-ai-model-description",
-    "pdfjs-editor-alt-text-settings-delete-model-button",
-    "pdfjs-editor-alt-text-settings-download-model-button",
-    "pdfjs-editor-alt-text-settings-downloading-model-button",
     "pdfjs-editor-alt-text-settings-editor-title",
     "pdfjs-editor-alt-text-settings-show-dialog-button-label",
     "pdfjs-editor-alt-text-settings-show-dialog-description",
