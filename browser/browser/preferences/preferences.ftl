@@ -849,9 +849,6 @@ home-custom-homepage-card-header =
     .label = Website address(es)
 # Subheader on the Custom Homepage subpage. Followed by a form to enter URLs and a list of URLs already saved, if any.
 home-custom-homepage-subheader = Website address(es)
-# Subheader on the Custom Homepage subpage. Followed by a form to enter URLs and a list of URLs already saved, if any.
-home-custom-homepage-card =
-    .heading = Website address(es)
 home-custom-homepage-address =
     .placeholder = Enter address
 home-custom-homepage-address-button =
