@@ -554,7 +554,7 @@
     "appmenuitem-relay-description",
     "appmenuitem-services-relay-description",
     "appmenuitem-vpn-title",
-    "appmenuitem-vpn-description",
+    "appmenuitem-vpn-description-2",
     "appmenu-services-header",
     "appmenu-other-protection-header2",
     "appmenu-profiles-2",
@@ -2068,7 +2068,6 @@
     "ipprotection-connection-status-generic-error-description",
     "ipprotection-connection-status-network-error-title",
     "ipprotection-connection-status-network-error-description",
-    "ipprotection-message-generic-error",
     "ipprotection-message-bandwidth-warning",
     "ipprotection-message-continuous-onboarding-intro",
     "ipprotection-message-continuous-onboarding-autostart",
@@ -2097,6 +2096,9 @@
     "ip-protection-bandwidth-left-mb",
     "ip-protection-bandwidth-hit-for-the-month",
     "ip-protection-bandwidth-help-text",
+    "ipprotection-bandwidth-reset-title",
+    "ipprotection-bandwidth-reset-text",
+    "ipprotection-bandwidth-reset-button",
     "vpn-paused-alert-title",
     "vpn-paused-alert-body",
     "vpn-paused-alert-close-tabs-button",
@@ -2821,7 +2823,8 @@
     "newtab-activation-window-message-customization-focus-message",
     "newtab-activation-window-message-customization-focus-primary-button",
     "newtab-activation-window-message-values-focus-header",
-    "newtab-activation-window-message-values-focus-message"
+    "newtab-activation-window-message-values-focus-message",
+    "newtab-card-dismiss-button"
   ],
   "browser/browser/newtab/onboarding.ftl": [
     "onboarding-welcome-header",
