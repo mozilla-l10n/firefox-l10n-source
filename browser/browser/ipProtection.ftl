@@ -84,9 +84,6 @@ ipprotection-connection-status-generic-error-title = Couldn’t connect to VPN
 ipprotection-connection-status-generic-error-description = Try again in a few minutes.
 ipprotection-connection-status-network-error-title = Check your internet connection
 ipprotection-connection-status-network-error-description = Connect to the internet, then try turning VPN on.
-ipprotection-message-generic-error =
-    .heading = Couldn’t connect to VPN
-    .message = Try again in a few minutes.
 # Variables
 #   $usageLeft (number) - The amount of data a user has left in a month (in GB)
 #   $maxUsage (number) - The maximum amount of data a user can use in a month (in GB)
@@ -195,6 +192,3 @@ vpn-paused-alert-close-tabs-button = Close all tabs
 vpn-paused-alert-continue-wo-vpn-button = Continue without VPN
 vpn-error-alert-title = VPN isn’t working right now.
 vpn-error-alert-body = Try again later.
-
-##
-
