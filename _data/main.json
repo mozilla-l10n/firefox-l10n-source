@@ -6574,6 +6574,8 @@
     "manifest-icon-img-title-no-sizes",
     "sidebar-item-manifest",
     "sidebar-item-service-workers",
+    "sidebar-item-session-history",
+    "session-history-entry-info-button-title",
     "icon-warning",
     "icon-error"
   ],
@@ -8594,6 +8596,7 @@
     "rule.showUnusedCssVariable",
     "rule.empty",
     "rule.variableUnset",
+    "rule.attributeUnset",
     "rule.variableEmpty",
     "rule.variableComputedValue",
     "rule.selectorSpecificity.title",
