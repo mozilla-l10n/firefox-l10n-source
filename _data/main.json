@@ -8982,7 +8982,6 @@
     "MediaElementAudioSourceNodeCrossOrigin",
     "MediaStreamAudioSourceNodeCrossOrigin",
     "MediaStreamTrackAudioSourceNodeCrossOrigin",
-    "MediaElementAudioCaptureOfMediaStreamError",
     "MediaElementStreamCaptureCycle",
     "MediaLoadExhaustedCandidates",
     "MediaLoadSourceMissingSrc",
