@@ -9717,7 +9717,6 @@
     "xslt-loading-error",
     "xslt-transform-error"
   ],
-  "mobile/android/mobile-l10n.js": [],
   "mobile/android/mobile/android/aboutConfig.ftl": [
     "config-toolbar-search",
     "config-new-pref-name",
