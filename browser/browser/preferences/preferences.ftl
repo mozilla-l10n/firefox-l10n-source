@@ -78,6 +78,8 @@ close-button =
     .aria-label = Close
 do-not-track-removal2 =
     .label = We no longer support the “Do Not Track” signal
+applications-setting-new-file-types =
+    .label = What should { -brand-short-name } do with other files?
 
 ## Browser Restart Dialog
 
@@ -554,6 +556,9 @@ download-always-ask-where =
 download-private-browsing-delete =
     .label = Delete files downloaded in private browsing when all private windows are closed
     .accesskey = D
+applications-setting =
+    .label = Applications
+    .description = Choose how { -brand-short-name } handles the files you download from the web or the applications you use while browsing.
 applications-header = Applications
 applications-description = Choose how { -brand-short-name } handles the files you download from the web or the applications you use while browsing.
 applications-filter =
@@ -561,9 +566,11 @@ applications-filter =
 applications-type-column =
     .label = Content Type
     .accesskey = T
+applications-type-heading = Content Type
 applications-action-column =
     .label = Action
     .accesskey = A
+applications-action-heading = Action
 # Variables:
 #   $extension (String) - file extension (e.g .TXT)
 applications-file-ending = { $extension } file
