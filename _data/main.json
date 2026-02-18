@@ -8006,6 +8006,7 @@
     "storage-search-box",
     "storage-variable-view-search-box",
     "storage-add-button",
+    "storage-delete-all-button",
     "storage-refresh-button",
     "storage-context-menu-delete-all",
     "storage-context-menu-delete-all-session-cookies",
