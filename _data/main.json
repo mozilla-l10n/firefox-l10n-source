@@ -13717,7 +13717,9 @@
     "fp-neterror-offline-what-can-you-do-body",
     "fp-neterror-http-auth-disabled-what-can-you-do-body",
     "fp-neterror-coop-coep-why-did-this-happen-body",
-    "fp-learn-more-about-https-connections"
+    "fp-learn-more-about-https-connections",
+    "fp-neterror-vpn-error-title",
+    "fp-neterror-vpn-error-description"
   ],
   "toolkit/toolkit/neterror/nsserrors.ftl": [
     "psmerr-ssl-disabled",
