@@ -14172,6 +14172,7 @@
     "pdfjs-additional-layers",
     "pdfjs-thumb-page-title",
     "pdfjs-thumb-page-canvas",
+    "pdfjs-thumb-page-checkbox",
     "pdfjs-find-input",
     "pdfjs-find-previous-button",
     "pdfjs-find-previous-button-label",
@@ -14372,6 +14373,7 @@
     "pdfjs-toggle-views-manager-notification-button",
     "pdfjs-toggle-views-manager-button-label",
     "pdfjs-views-manager-sidebar",
+    "pdfjs-views-manager-sidebar-resizer",
     "pdfjs-views-manager-view-selector-button",
     "pdfjs-views-manager-view-selector-button-label",
     "pdfjs-views-manager-pages-title",
@@ -14402,7 +14404,8 @@
     "pdfjs-views-manager-status-warning-save-label",
     "pdfjs-views-manager-status-undo-button-label",
     "pdfjs-views-manager-status-close-button",
-    "pdfjs-views-manager-status-close-button-label"
+    "pdfjs-views-manager-status-close-button-label",
+    "pdfjs-views-manager-paste-button-label"
   ],
   "toolkit/toolkit/pictureinpicture/pictureinpicture.ftl": [
     "pictureinpicture-player-title",
