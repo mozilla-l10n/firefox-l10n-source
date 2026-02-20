@@ -524,9 +524,16 @@ settings-translations-subpage-no-sites-added =
 #    $localeName (string) - Localized name of the locale to be used.
 use-system-locale =
     .label = Use your operating system settings for “{ $localeName }” to format dates, times, numbers, and measurements.
+settings-spellcheck-header =
+    .label = Spell check
 check-user-spelling =
     .label = Check your spelling as you type
     .accesskey = t
+spellcheck-download-dictionaries =
+    .label = Download dictionaries
+spellcheck-promo =
+    .heading = How to use spell checking
+    .message = Right-click a text field to turn spell check on or off or to change the language. Not all fields support spell check.
 
 ## General Section - Files and Applications
 
@@ -1052,6 +1059,14 @@ search-one-click-header-3 =
     .description = Choose which search engines and shortcuts appear in your address bar.
 update-search-engine-success =
     .message = Search engine successfully updated
+search-edit-engine-2 =
+    .title = Edit search engine
+search-delete-engine =
+    .title = Delete search engine
+search-enable-engine =
+    .title = Enable search engine
+search-outlink-to-extensions-page =
+    .title = Manage in extensions and themes
 search-choose-engine-column =
     .label = Search Engine
 search-choose-keyword-column =
