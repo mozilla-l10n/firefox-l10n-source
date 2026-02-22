@@ -141,9 +141,3 @@ l10n = "{l}browser/extensions/report-site-issue/**"
 [[paths]]
 reference = "devtools/startup/**"
 l10n = "{l}devtools/startup/**"
-
-[[filters]]
-path = [
-    "{l}browser/firefox-l10n.js",
-]
-action = "ignore"
