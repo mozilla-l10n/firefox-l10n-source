@@ -1688,6 +1688,8 @@ history-custom-button =
     .label = Choose what you want { -brand-short-name } to remember
 history-group =
     .label = History
+history-remember-option-all2 =
+    .label = Remember history
 
 ## Privacy Section - Site Data
 
