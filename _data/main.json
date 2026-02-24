@@ -1158,6 +1158,7 @@
     "main-context-menu-edit-bookmark-with-shortcut",
     "main-context-menu-open-link",
     "main-context-menu-open-link-new-tab",
+    "main-context-menu-open-link-split-view",
     "main-context-menu-open-link-container-tab",
     "main-context-menu-open-link-new-window",
     "main-context-menu-open-link-new-private-window",
@@ -3073,7 +3074,9 @@
     "onboarding-refresh-gratitude-title"
   ],
   "browser/browser/openTabs.ftl": [
-    "opentabs-page-title"
+    "opentabs-page-title",
+    "opentabs-search-text-box",
+    "opentabs-search-results-header"
   ],
   "browser/browser/originControls.ftl": [
     "origin-controls-no-access",
