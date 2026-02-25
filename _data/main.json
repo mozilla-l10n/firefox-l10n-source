@@ -2115,6 +2115,7 @@
   ],
   "browser/browser/menubar.ftl": [
     "menu-application-preferences",
+    "menu-application-settings",
     "menu-application-services",
     "menu-application-hide-this",
     "menu-application-hide-other",
@@ -2527,6 +2528,7 @@
     "newtab-topsites-url-label",
     "newtab-topsites-url-input",
     "newtab-topsites-url-validation",
+    "newtab-topsites-clear-input",
     "newtab-topsites-image-url-label",
     "newtab-topsites-use-image-link",
     "newtab-topsites-image-validation",
@@ -4951,7 +4953,7 @@
     "recently-closed-menu-reopen-all-windows",
     "recently-closed-panel-reopen-all-tabs",
     "recently-closed-panel-reopen-all-windows",
-    "recently-closed-undo-close-window-label"
+    "recently-closed-window-panel-tooltip"
   ],
   "browser/browser/reportBrokenSite.ftl": [
     "report-broken-site-mainview-title",

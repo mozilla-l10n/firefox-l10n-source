@@ -52,7 +52,7 @@ newtab-search-box-input =
     .placeholder = Search the web
     .aria-label = Search the web
 
-## Top Sites - General form dialog.
+## Clear text button for the URL and image URL input fields in the Top Sites form.
 
 newtab-topsites-add-search-engine-header = Add Search Engine
 newtab-topsites-add-shortcut-header = New Shortcut
@@ -72,6 +72,11 @@ newtab-topsites-url-validation = Valid URL required
 newtab-topsites-image-url-label = Custom Image URL
 newtab-topsites-use-image-link = Use a custom image…
 newtab-topsites-image-validation = Image failed to load. Try a different URL.
+
+## Clear text button for the URL and image URL input fields in the Top Sites form.
+
+newtab-topsites-clear-input =
+    .aria-label = Clear text
 
 ## Top Sites - General form dialog buttons. These are verbs/actions.
 
