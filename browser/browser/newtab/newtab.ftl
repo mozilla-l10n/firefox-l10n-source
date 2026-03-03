@@ -722,10 +722,6 @@ newtab-daily-briefing-card-timestamp = Updated { $minutes }m ago
 newtab-widget-message-title = Stay focused with lists and a built-in timer
 # to-dos stands for "things to do".
 newtab-widget-message-copy = From quick reminders to daily to-dos, focus sessions to stretch breaks — stay on task and on time.
-newtab-promo-card-title-addons = Simple add-ons, big impact
-# “starter pack” means a curated set of recommended browser extensions to help users get started
-newtab-promo-card-body-addons = Try the { -brand-product-name } staff picks extension starter pack.
-newtab-promo-card-cta-addons = See our picks
 newtab-promo-card-title = Support { -brand-product-name }
 newtab-promo-card-body = Our sponsors support our mission to build a better web
 newtab-promo-card-cta = Learn more
