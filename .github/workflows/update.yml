@@ -21,8 +21,11 @@ jobs:
       paths: ${{ steps.config.outputs.paths }}
     steps:
       - name: Checkout l10n:main
-        uses: actions/checkout@v4
-        with: { ref: main, fetch-depth: 0 }
+        uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2
+        with:
+          fetch-depth: 0
+          persist-credentials: false
+          ref: main
       - name: Refresh l10n:update
         run: git push origin HEAD:update || true
       - name: Get list of branches and paths
@@ -48,17 +51,21 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout l10n:update
-        uses: actions/checkout@v4
-        with: { ref: update, path: l10n }
-      - name: Checkout firefox:${{ matrix.ref }}
-        uses: actions/checkout@v4
+        uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2
         with:
-          repository: mozilla-firefox/firefox
-          ref: ${{ matrix.ref }}
+          path: l10n
+          persist-credentials: false
+          ref: update
+      - name: Checkout firefox:${{ matrix.ref }}
+        uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2
+        with:
           path: firefox
+          persist-credentials: false
+          ref: ${{ matrix.ref }}
+          repository: mozilla-firefox/firefox
           sparse-checkout: |
             ${{ needs.prepare.outputs.paths }}
-      - uses: actions/setup-python@v5
+      - uses: actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405 # v6.2.0
         with:
           python-version: "3.12"
           cache: pip
@@ -86,9 +93,11 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout l10n:update
-        uses: actions/checkout@v4
-        with: { ref: update }
-      - uses: actions/setup-python@v5
+        uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2
+        with:
+          persist-credentials: false
+          ref: update
+      - uses: actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405 # v6.2.0
         with:
           python-version: "3.12"
           cache: pip
