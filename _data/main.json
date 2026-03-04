@@ -4681,7 +4681,7 @@
     "restored-profile-page-header",
     "restored-profile-page-header-description",
     "restored-profile-page-learn-more",
-    "delete-profile-page-title",
+    "delete-profile-page-title-2",
     "delete-profile-header",
     "delete-profile-description",
     "delete-profile-windows",
@@ -9232,6 +9232,7 @@
     "GTK2Conflict2",
     "WinConflict2",
     "DocumentSetDomainIgnoredWarning",
+    "ScreenFingerprintingProtectionWarning",
     "DeprecatedTestingInterfaceWarning",
     "DeprecatedTestingMethodWarning",
     "DeprecatedTestingAttributeWarning",
@@ -9769,7 +9770,20 @@
     "IntegrityPolicyEnforceBlockedScript",
     "IntegrityPolicyReportOnlyBlockedScript",
     "IntegrityPolicyEnforceBlockedStylesheet",
-    "IntegrityPolicyReportOnlyBlockedStylesheet"
+    "IntegrityPolicyReportOnlyBlockedStylesheet",
+    "WAICTManifestURLParseError",
+    "WAICTHashMismatch",
+    "WAICTResourceNotInManifest",
+    "WAICTHeaderParseError",
+    "WAICTHeaderFieldParseError",
+    "WAICTHeaderManifestParseError",
+    "WAICTFetchingManifest",
+    "WAICTManifestFetchURLParseError",
+    "WAICTManifestFetchError",
+    "WAICTManifestJSONParseError",
+    "WAICTManifestInvalidHash",
+    "WAICTManifestInvalidURL",
+    "WAICTManifestInvalidAnyHash"
   ],
   "dom/chrome/svg/svg.properties": [
     "AttributeParseWarning"
