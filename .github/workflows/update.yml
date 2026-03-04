@@ -26,6 +26,8 @@ jobs:
           fetch-depth: 0
           persist-credentials: false
           ref: main
+      - name: Set token
+        run: git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}
       - name: Refresh l10n:update
         run: git push origin HEAD:update || true
       - name: Get list of branches and paths
@@ -82,6 +84,9 @@ jobs:
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+      - name: Set token
+        run: git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}
+        working-directory: l10n
       - run: git add .
         working-directory: l10n
       - name: git commit & push any changes
@@ -108,6 +113,8 @@ jobs:
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+      - name: Set token
+        run: git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}
       - run: git add .
       - name: git commit & push any changes
         run: git diff-index --quiet HEAD || (git commit -F .prune_msg && git push)
