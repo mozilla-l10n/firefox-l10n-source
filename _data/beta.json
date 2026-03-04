@@ -2065,6 +2065,7 @@
     "ipprotection-connection-status-network-error-title",
     "ipprotection-connection-status-network-error-description",
     "ipprotection-message-bandwidth-warning",
+    "ipprotection-message-bandwidth-warning-mb",
     "ipprotection-message-continuous-onboarding-intro",
     "ipprotection-message-continuous-onboarding-autostart",
     "ipprotection-message-continuous-onboarding-site-settings",
