@@ -14525,7 +14525,8 @@
     "pdfjs-views-manager-status-undo-button-label",
     "pdfjs-views-manager-status-close-button",
     "pdfjs-views-manager-status-close-button-label",
-    "pdfjs-views-manager-paste-button-label"
+    "pdfjs-views-manager-paste-button-after-label",
+    "pdfjs-views-manager-paste-button-before-label"
   ],
   "toolkit/toolkit/pictureinpicture/pictureinpicture.ftl": [
     "pictureinpicture-player-title",
