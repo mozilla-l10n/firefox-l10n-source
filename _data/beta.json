@@ -9286,6 +9286,7 @@
     "WakeLockAutoscroll",
     "XSLTDeprecatedWarning",
     "CKEditor4CompatHackWarning",
+    "GWTRichTextAreaCompatHackWarning",
     "MozorientationDeprecatedWarning",
     "MozorientationchangeDeprecatedWarning",
     "MozlockorientationDeprecatedWarning",
