@@ -24,6 +24,8 @@ ipprotection-title = VPN
 ## Feature introduction callout
 
 ipprotection-feature-introduction-title = Introducing VPN, now right inside your browser
+ipprotection-feature-introduction-link-text-2 = Use our new <a data-l10n-name="learn-more-vpn">built-in VPN</a> to hide your location and protect your data.
+ipprotection-feature-introduction-link-text-private-browsing-2 = Use our new <a data-l10n-name="learn-more-vpn">built-in VPN</a> to hide your location and protect your data, even when you’re in a Private Window.
 ipprotection-feature-introduction-link-text = Use our new <a data-l10n-name="learn-more-vpn">built-in VPN</a> to hide your location and protect your data with extra encryption.
 ipprotection-feature-introduction-link-text-private-browsing = Use our new <a data-l10n-name="learn-more-vpn">built-in VPN</a> to hide your location and protect your data with extra encryption, even when you’re in a Private Window.
 ipprotection-feature-introduction-button-primary = Next
@@ -39,6 +41,7 @@ ipprotection-site-settings-callout-button = Got it
 ## Panel
 
 unauthenticated-vpn-title = Try { -brand-product-name }’s built-in VPN
+unauthenticated-hide-location-message-2 = Hide your location while browsing in { -brand-product-name }.
 unauthenticated-hide-location-message = Hide your location and add extra encryption to your browsing inside { -brand-product-name }.
 # Variables
 #   $maxUsage (number) - The maximum amount of data a user can use in a month (in GB)
@@ -126,6 +129,11 @@ ip-protection-description =
 ip-protection-learn-more = Learn more
 ip-protection-site-exceptions =
     .label = Site specific settings
+# Variables:
+#   $maxUsage (number) - The bandwidth limit of free VPN, in GB
+ip-protection-not-opted-in-2 =
+    .heading = Try { -brand-short-name }’s built-in VPN
+    .message = Hide your location while browsing in { -brand-short-name }. Get { $maxUsage } GB of free VPN data every month.
 # Variables:
 #   $maxUsage (number) - The bandwidth limit of free VPN, in GB
 ip-protection-not-opted-in =
