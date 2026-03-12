@@ -676,7 +676,7 @@
     "backup-file-other-browser-restore-step-3",
     "backup-file-other-browser-restore-step-4",
     "other-backup-files-founds",
-    "backup-file-creation-metadata",
+    "backup-file-creation-metadata2",
     "backup-restored-profile-name",
     "backup-file-restore-file-validation-error",
     "restore-from-backup-filepicker-input"
@@ -999,6 +999,20 @@
     "toolbar-overflow-customize-button",
     "toolbar-button-email-link",
     "toolbar-button-logins",
+    "qrcode-panel-error",
+    "qrcode-copy-button",
+    "qrcode-copy-success",
+    "qrcode-copy-error",
+    "qrcode-save-button",
+    "qrcode-save-success",
+    "qrcode-save-error",
+    "qrcode-save-title",
+    "qrcode-save-filter-png",
+    "qrcode-save-filename",
+    "qrcode-window-title",
+    "qrcode-dialog-title",
+    "qrcode-image",
+    "qrcode-close-button",
     "toolbar-button-save-page",
     "toolbar-button-open-file",
     "toolbar-button-synced-tabs",
@@ -2127,6 +2141,7 @@
     "menu-file-save-page",
     "menu-file-email-link",
     "menu-file-share-url",
+    "menu-file-share-qrcode",
     "menu-file-print-setup",
     "menu-file-print",
     "menu-file-import-from-another-browser",
@@ -7147,7 +7162,8 @@
     "colorpicker-tooltip-eyedropper-title",
     "colorpicker-tooltip-color-name-title",
     "colorpicker-tooltip-hue-slider-title",
-    "colorpicker-tooltip-alpha-slider-title"
+    "colorpicker-tooltip-alpha-slider-title",
+    "inspector-element-specific-pseudo-classes-heading"
   ],
   "devtools/client/inspector.properties": [
     "inspector.panelLabel.markupView",
@@ -10560,7 +10576,7 @@
     "MODIFIER_SEPARATOR"
   ],
   "toolkit/chrome/global/aboutStudies.properties": [
-    "title",
+    "pageTitle",
     "removeButton",
     "activeStudiesList",
     "completedStudiesList",
@@ -14526,10 +14542,12 @@
     "pdfjs-views-manager-status-warning-delete-label",
     "pdfjs-views-manager-status-warning-save-label",
     "pdfjs-views-manager-status-undo-button-label",
+    "pdfjs-views-manager-status-done-button-label",
     "pdfjs-views-manager-status-close-button",
     "pdfjs-views-manager-status-close-button-label",
-    "pdfjs-views-manager-paste-button-after-label",
-    "pdfjs-views-manager-paste-button-before-label"
+    "pdfjs-views-manager-paste-button-label",
+    "pdfjs-views-manager-paste-button-before",
+    "pdfjs-views-manager-paste-button-after"
   ],
   "toolkit/toolkit/pictureinpicture/pictureinpicture.ftl": [
     "pictureinpicture-player-title",
