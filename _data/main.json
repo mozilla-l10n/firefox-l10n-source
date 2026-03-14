@@ -9313,6 +9313,7 @@
     "XSLTDeprecatedWarning",
     "CKEditor4CompatHackWarning",
     "GWTRichTextAreaCompatHackWarning",
+    "OldZECompatHackWarning",
     "MozorientationDeprecatedWarning",
     "MozorientationchangeDeprecatedWarning",
     "MozlockorientationDeprecatedWarning",
