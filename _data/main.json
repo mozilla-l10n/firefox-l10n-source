@@ -2438,6 +2438,9 @@
     "tail-fox-spotlight-subtitle",
     "tail-fox-spotlight-primary-button",
     "tail-fox-spotlight-secondary-button",
+    "welcome-back-spotlight-title",
+    "welcome-back-spotlight-subtitle",
+    "welcome-back-embedded-import-title",
     "root-certificate-succession-infobar-january-message",
     "root-certificate-succession-infobar-march-message",
     "root-certificate-succession-infobar-link",
@@ -4389,7 +4392,7 @@
     "permissions-notification-pause",
     "permissions-autoplay2",
     "permissions-block-popups2",
-    "permissions-block-popups-exceptions-button3",
+    "permissions-block-popups-exceptions-button4",
     "permissions-addon-install-warning3",
     "permissions-addon-exceptions2",
     "collection-header2",
@@ -7489,6 +7492,7 @@
     "network-menu-summary-tooltip-finish"
   ],
   "devtools/client/netmonitor.properties": [
+    "netmonitor.security.state.secure-custom-root",
     "netmonitor.security.state.secure",
     "netmonitor.security.state.insecure",
     "netmonitor.security.state.broken",
@@ -14525,9 +14529,9 @@
     "pdfjs-views-manager-view-selector-button",
     "pdfjs-views-manager-view-selector-button-label",
     "pdfjs-views-manager-pages-title",
-    "pdfjs-views-manager-outlines-title",
+    "pdfjs-views-manager-outlines-title1",
     "pdfjs-views-manager-attachments-title",
-    "pdfjs-views-manager-layers-title",
+    "pdfjs-views-manager-layers-title1",
     "pdfjs-views-manager-pages-option-label",
     "pdfjs-views-manager-outlines-option-label",
     "pdfjs-views-manager-attachments-option-label",
@@ -14540,7 +14544,7 @@
     "pdfjs-views-manager-pages-status-copy-button-label",
     "pdfjs-views-manager-pages-status-cut-button-label",
     "pdfjs-views-manager-pages-status-delete-button-label",
-    "pdfjs-views-manager-pages-status-save-as-button-label",
+    "pdfjs-views-manager-pages-status-export-selected-button-label",
     "pdfjs-views-manager-status-undo-cut-label",
     "pdfjs-views-manager-pages-status-undo-copy-label",
     "pdfjs-views-manager-pages-status-undo-delete-label",
@@ -14556,7 +14560,8 @@
     "pdfjs-views-manager-status-close-button-label",
     "pdfjs-views-manager-paste-button-label",
     "pdfjs-views-manager-paste-button-before",
-    "pdfjs-views-manager-paste-button-after"
+    "pdfjs-views-manager-paste-button-after",
+    "pdfjs-new-badge-content"
   ],
   "toolkit/toolkit/pictureinpicture/pictureinpicture.ftl": [
     "pictureinpicture-player-title",
