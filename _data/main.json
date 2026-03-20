@@ -4911,7 +4911,17 @@
     "bar-tooltip-cookie",
     "bar-tooltip-tracker",
     "bar-tooltip-fingerprinter",
-    "bar-tooltip-cryptominer"
+    "bar-tooltip-cryptominer",
+    "privacy-metrics-title",
+    "privacy-metrics-blocked-this-week",
+    "privacy-metrics-trackers",
+    "privacy-metrics-fingerprinters",
+    "privacy-metrics-cookies",
+    "privacy-metrics-social",
+    "privacy-metrics-empty",
+    "privacy-metrics-loading",
+    "privacy-metrics-error",
+    "privacy-metrics-private-window"
   ],
   "browser/browser/protectionsPanel.ftl": [
     "protections-popup-footer-protection-label-strict",
@@ -13859,6 +13869,7 @@
     "fp-neterror-illustration-alt",
     "fp-neterror-connection-intro",
     "fp-neterror-offline-intro",
+    "fp-neterror-net-timeout-intro",
     "fp-neterror-coop-coep-intro",
     "fp-neterror-http-auth-disabled-intro",
     "fp-neterror-http-auth-disabled-secure-connection",
