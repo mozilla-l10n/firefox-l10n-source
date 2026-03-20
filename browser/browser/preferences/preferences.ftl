@@ -22,8 +22,6 @@ preferences-privacy-relay-available =
     .label = Suggest { -relay-brand-name } email masks
     .description = Hides your real email address to protect your inbox from spam.
 non-technical-privacy-header = Website Privacy Preferences
-non-technical-privacy-label =
-    .aria-label = { non-technical-privacy-header }
 # Do not translate.
 # "Global Privacy Control" or "GPC" are a web platform feature name and abbreviation
 # included to facilitate power-user search of the about:preferences page.
@@ -146,10 +144,6 @@ startup-header = Startup
 always-check-default =
     .label = Always check if { -brand-short-name } is your default browser
     .accesskey = y
-is-default-browser =
-    .message = { -brand-short-name } is currently your default browser
-is-not-default-browser =
-    .message = { -brand-short-name } is not your default browser
 is-default = { -brand-short-name } is currently your default browser
 is-not-default = { -brand-short-name } is not your default browser
 set-as-my-default-browser =
@@ -880,8 +874,6 @@ home-custom-homepage-subpage =
 # Subheader on the Custom Homepage subpage. Followed by a form to enter URLs and a list of URLs already saved, if any.
 home-custom-homepage-card-header =
     .label = Website address(es)
-# Subheader on the Custom Homepage subpage. Followed by a form to enter URLs and a list of URLs already saved, if any.
-home-custom-homepage-subheader = Website address(es)
 home-custom-homepage-address =
     .placeholder = Enter address
 home-custom-homepage-address-button =
@@ -896,11 +888,6 @@ home-custom-homepage-delete-address-button =
 # to replace the current home page with a currently open page or bookmark.
 home-custom-homepage-replace-with-prompt =
     .label = Replace with
-# Shown when no custom websites/URLs to use as a homepage have been added yet
-home-custom-homepage-no-websites-yet = No websites added yet.
-# Further options to use when setting the home page. Two action buttons are placed in line with this prompt
-# to replace the current home page with a currently open page or bookmark.
-home-custom-homepage-replace-with = Replace with
 # Button that appears in-line after text "Replace with" (home-custom-homepage-replace-with-prompt)
 home-custom-homepage-current-pages-button =
     .label = Current opened pages
@@ -1535,7 +1522,6 @@ autofill-saved-payment-methods-button = Saved payment methods
 # This operation requires the user to authenticate with the operating system (device sign-in)
 autofill-reauth-payment-methods-checkbox = Require device sign in to fill and manage payment methods
     .accesskey = o
-autofill-payment-methods-title = Payment methods
 autofill-payment-methods-header =
     .aria-label = Payment methods
 autofill-payment-methods-checkbox-message-2 =
@@ -1563,9 +1549,6 @@ payments-edit-payment-button-label =
 # This message is displayed when no payment methods such as credit card are stored in Firefox
 payments-no-payments-stored-message =
     .label = No payment methods added
-autofill-addresses-title = Addresses and more
-autofill-addresses-header =
-    .aria-label = Addresses and more
 autofill-addresses-checkbox-message =
     .label = Save and autofill addresses
     .accesskey = S
@@ -1619,16 +1602,6 @@ history-header = History
 #   - Simply as "Firefox", moving the verb into each option.
 #     This will result in "Firefox" + "Will remember history", etc.
 #   - As a stand-alone message, for example "Firefox history settings:".
-history-remember-label2 = { -brand-short-name } will
-# This label is followed, on the same line, by a dropdown list of options
-# (Remember history, etc.).
-# In English it visually creates a full sentence, e.g.
-# "Firefox will" + "Remember history".
-#
-# If this doesn't work for your language, you can translate this message:
-#   - Simply as "Firefox", moving the verb into each option.
-#     This will result in "Firefox" + "Will remember history", etc.
-#   - As a stand-alone message, for example "Firefox history settings:".
 history-remember-label = { -brand-short-name } will
     .accesskey = w
 history-remember-option-all =
@@ -1650,15 +1623,6 @@ history-dontremember-description4 =
     .description = { -brand-short-name } will use the same settings as private browsing, and will not remember any history as you browse the Web.
 history-custom-description4 =
     .aria-label = { history-group.label }
-    .description = { -brand-short-name } will use custom settings for your browsing, download, form and search history.
-history-remember-description3 =
-    .aria-label = { history-remember-label2 }
-    .description = { -brand-short-name } will remember your browsing, download, form, and search history.
-history-dontremember-description3 =
-    .aria-label = { history-remember-label2 }
-    .description = { -brand-short-name } will use the same settings as private browsing, and will not remember any history as you browse the Web.
-history-custom-description3 =
-    .aria-label = { history-remember-label2 }
     .description = { -brand-short-name } will use custom settings for your browsing, download, form and search history.
 history-remember-description = { -brand-short-name } will remember your browsing, download, form, and search history.
 history-dontremember-description = { -brand-short-name } will use the same settings as private browsing, and will not remember any history as you browse the Web.
@@ -1698,17 +1662,11 @@ history-remember-option-all2 =
 ## Privacy Section - Site Data
 
 sitedata-header = Cookies and Site Data
-sitedata-label =
-    .aria-label = { sitedata-header }
 sitedata-total-size-calculating = Calculating site data and cache size…
 # Variables:
 #   $value (number) - Value of the unit (for example: 4.6, 500)
 #   $unit (string) - Name of the unit (for example: "bytes", "KB")
 sitedata-total-size3 = Websites are currently using <strong>{ $value } { $unit }</strong> of disk space.
-# Variables:
-#   $value (number) - Value of the unit (for example: 4.6, 500)
-#   $unit (string) - Name of the unit (for example: "bytes", "KB")
-sitedata-total-size2 = Your stored cookies, history, site data, and cache are currently using <strong>{ $value } { $unit }</strong> of disk space.
 # Variables:
 #   $value (number) - Value of the unit (for example: 4.6, 500)
 #   $unit (string) - Name of the unit (for example: "bytes", "KB")
@@ -2046,10 +2004,11 @@ permissions-block-popups2 =
     .accesskey = B
 # "popup" is a misspelling that is more popular than the correct spelling of
 # "pop-up" so it's included as a search keyword, not displayed in the UI.
-permissions-block-popups-exceptions-button3 =
-    .label = Manage redirects
+permissions-block-popups-exceptions-button4 =
+    .label = Manage exceptions
+    .description = Add websites that can open pop-ups and use third-party redirects.
     .accesskey = E
-    .searchkeywords = popups,pop-ups
+    .searchkeywords = popups
 permissions-addon-install-warning3 =
     .label = Show warning when websites try to install extensions
     .accesskey = W
@@ -2059,9 +2018,6 @@ permissions-block-popups-exceptions-button2 =
     .label = Manage pop-up and third-party redirect exceptions
     .accesskey = E
     .searchkeywords = popups
-permissions-addon-install-warning2 =
-    .label = Warn when websites try to install extensions
-    .accesskey = W
 permissions-addon-exceptions2 =
     .label = Choose which websites can install extensions
     .accesskey = E
@@ -2080,9 +2036,6 @@ permissions-addon-install-warning =
 permissions-addon-exceptions =
     .label = Exceptions…
     .accesskey = E
-permissions-header2 =
-    .label = Permissions
-    .description = Permissions you give to websites you browse.
 permissions-location2 =
     .label = Location
 permissions-localhost2 =
@@ -2217,9 +2170,6 @@ space-alert-over-5gb-settings-button =
     .accesskey = O
 space-alert-over-5gb-message2 = <strong>{ -brand-short-name } is running out of disk space.</strong> Website contents may not display properly. You can clear stored data in Settings > Privacy & Security > Cookies and Site Data.
 space-alert-under-5gb-message2 = <strong>{ -brand-short-name } is running out of disk space.</strong> Website contents may not display properly. Visit “Learn more” to optimize your disk usage for better browsing experience.
-certs-description2 =
-    .label = Certificates
-    .description = Configure the certificates that { -brand-short-name } uses for authentication.
 certs-description3 =
     .label = Certificates
     .description = Configure the certificates that { -brand-short-name } uses to verify secure connections.
@@ -2233,9 +2183,6 @@ certs-devices2 =
 ## Privacy Section - HTTPS-Only
 
 httpsonly-header = HTTPS-Only Mode
-httpsonly-label =
-    .aria-label = { httpsonly-header }
-    .description = Only allows secure connections to websites. { -brand-short-name } will ask before connecting insecurely.
 httpsonly-description3 = Only allows secure connections to websites. { -brand-short-name } will ask before connecting insecurely.
 httpsonly-learn-more2 = How HTTPS-Only works
 httpsonly-description = HTTPS provides a secure, encrypted connection between { -brand-short-name } and the websites you visit. Most websites support HTTPS, and if HTTPS-Only Mode is enabled, then { -brand-short-name } will upgrade all connections to HTTPS.

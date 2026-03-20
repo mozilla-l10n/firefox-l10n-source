@@ -943,9 +943,6 @@ urlbar-searchmode-popup-sticky-description-menucaption =
 # Label shown on the top of Searchmode Switcher popup. After this label, the
 # available search engines will be listed.
 urlbar-searchmode-popup-description = This time search with:
-# Label shown on the top of Searchmode Switcher popup when the search engine won't automatically
-# reset after submitting.
-urlbar-searchmode-popup-sticky-description = Search with:
 urlbar-searchmode-popup-search-settings-menuitem =
     .label = Search Settings
 # Label shown next to a new search engine in the Searchmode Switcher popup to promote it.
@@ -1229,6 +1226,15 @@ panel-save-update-password = Password
 # "More" item in macOS share menu
 menu-share-more =
     .label = More…
+# Variables:
+#   $count (Number) - The number of links that will be copied.
+menu-share-copy-links =
+    .label =
+        { $count ->
+            [one] Copy Link
+           *[other] Copy { $count } Links
+        }
+    .accesskey = L
 menu-share-copy-link =
     .label = Copy Link
     .accesskey = L
