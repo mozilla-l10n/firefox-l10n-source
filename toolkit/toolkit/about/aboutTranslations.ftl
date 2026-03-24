@@ -41,6 +41,11 @@ about-translations-translation-error-button = Try again
 # An informational message displayed when the detected language is not supported.
 # Variables:
 #   $language (String) - The display name of the detected language.
+about-translations-detected-language-unsupported-heading-2 = Sorry, we don’t support translations from { $language } yet
+about-translations-detected-language-unsupported-heading-unknown-2 = Sorry, we don’t support translations from this language yet
+# An informational message displayed when the detected language is not supported.
+# Variables:
+#   $language (String) - The display name of the detected language.
 about-translations-detected-language-unsupported-heading = Sorry, we don’t support { $language } yet
 about-translations-detected-language-unsupported-heading-unknown = Sorry, we don’t support this language yet
 about-translations-detected-language-unsupported-subtext = Please choose another language.
