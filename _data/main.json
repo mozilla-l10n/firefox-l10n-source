@@ -3331,6 +3331,7 @@
   ],
   "browser/browser/policies/policies-descriptions.ftl": [
     "policy-3rdparty",
+    "policy-AIControls",
     "policy-AllowedDomainsForApps",
     "policy-AllowFileSelectionDialogs",
     "policy-AppAutoUpdate",
@@ -3426,6 +3427,7 @@
     "policy-PrivateBrowsingModeAvailability",
     "policy-PromptForDownloadLocation",
     "policy-Proxy",
+    "policy-RelaunchRequired",
     "policy-RequestedLocales",
     "policy-SanitizeOnShutdown2",
     "policy-SearchBar",
@@ -3446,6 +3448,10 @@
     "policy-WebsiteFilter",
     "policy-Windows10SSO",
     "policy-MicrosoftEntraSSO"
+  ],
+  "browser/browser/policy-messages.ftl": [
+    "compulsory-restart-message",
+    "policy-update-now"
   ],
   "browser/browser/preferences/applicationManager.ftl": [
     "app-manager-window2",
@@ -13894,6 +13900,7 @@
     "fp-neterror-connection-intro",
     "fp-neterror-offline-intro",
     "fp-neterror-net-timeout-intro",
+    "fp-neterror-http-error-intro",
     "fp-neterror-coop-coep-intro",
     "fp-neterror-http-auth-disabled-intro",
     "fp-neterror-http-auth-disabled-secure-connection",
