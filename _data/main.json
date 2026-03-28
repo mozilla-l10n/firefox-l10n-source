@@ -12413,6 +12413,8 @@
     "certificate-viewer-method",
     "certificate-viewer-modulus",
     "certificate-viewer-name",
+    "certificate-viewer-surname",
+    "certificate-viewer-given-name",
     "certificate-viewer-not-after",
     "certificate-viewer-not-before",
     "certificate-viewer-organization",
