@@ -3399,6 +3399,7 @@
     "policy-HttpAllowlist",
     "policy-HttpsOnlyMode",
     "policy-InstallAddonsPermission",
+    "policy-IPProtectionAvailable",
     "policy-LegacyProfiles",
     "policy-LegacySameSiteCookieBehaviorEnabled",
     "policy-LegacySameSiteCookieBehaviorEnabledForDomainList",
