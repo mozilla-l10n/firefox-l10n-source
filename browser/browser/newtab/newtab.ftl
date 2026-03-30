@@ -319,9 +319,6 @@ newtab-custom-shortcuts-nova =
     .label = Shortcuts
 newtab-custom-row-description =
     .description = Number of rows
-newtab-custom-shortcuts-toggle-rows =
-    .label = Shortcuts
-    .description = Number of rows
 # Variables
 #   $num (number) - Number of rows to display
 #  (developer note): @nova-cleanup(remove-string): Remove string once Nova lands. We won't be using "row"/"rows" anymore for the dropdown
