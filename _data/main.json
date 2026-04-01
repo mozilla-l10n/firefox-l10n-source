@@ -780,6 +780,8 @@
     "quickactions-cmd-help",
     "quickactions-inspector2",
     "quickactions-cmd-inspector2",
+    "quickactions-cmd-library",
+    "quickactions-library",
     "quickactions-logins2",
     "quickactions-cmd-logins",
     "quickactions-print2",
