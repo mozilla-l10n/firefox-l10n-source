@@ -9341,6 +9341,7 @@
     "MathML_DeprecatedMoExplicitAccentWarning",
     "MathML_DeprecatedMoverNonExplicitAccentWarning",
     "MathML_DeprecatedMunderNonExplicitAccentunderWarning",
+    "MathML_DeprecatedHrefLinkOnNonAnchorElementWarning",
     "FormSubmissionUntrustedEventWarning",
     "WebShareAPI_Failed",
     "WebShareAPI_Aborted",
