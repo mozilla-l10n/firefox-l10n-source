@@ -3331,6 +3331,7 @@
   ],
   "browser/browser/policies/policies-descriptions.ftl": [
     "policy-3rdparty",
+    "policy-AIControls",
     "policy-AllowedDomainsForApps",
     "policy-AllowFileSelectionDialogs",
     "policy-AppAutoUpdate",
