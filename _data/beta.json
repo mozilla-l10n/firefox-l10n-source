@@ -747,6 +747,7 @@
     "urlbar-star-edit-bookmark",
     "urlbar-star-add-bookmark",
     "urlbar-split-view-button",
+    "clear-search-history",
     "page-action-manage-extension2",
     "page-action-remove-extension2",
     "full-screen-autohide",
@@ -12951,8 +12952,8 @@
     "form-post-secure-to-insecure-warning-continue"
   ],
   "toolkit/toolkit/global/mozBadge.ftl": [
-    "moz-badge-beta",
-    "moz-badge-new"
+    "moz-badge-beta2",
+    "moz-badge-new2"
   ],
   "toolkit/toolkit/global/mozBoxBase.ftl": [
     "moz-box-link-anchor"
@@ -13887,6 +13888,7 @@
     "fp-neterror-connection-intro",
     "fp-neterror-offline-intro",
     "fp-neterror-net-timeout-intro",
+    "fp-neterror-http-error-page-intro",
     "fp-neterror-coop-coep-intro",
     "fp-neterror-http-auth-disabled-intro",
     "fp-neterror-http-auth-disabled-secure-connection",

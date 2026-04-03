@@ -338,9 +338,12 @@ newtab-custom-row-selector =
 newtab-custom-sponsored-sites = Sponsored shortcuts
 newtab-custom-pocket-title = Recommended by { -pocket-brand-name }
 newtab-custom-pocket-subtitle = Exceptional content curated by { -pocket-brand-name }, part of the { -brand-product-name } family
+#  (developer note): @nova-cleanup(remove-string): Remove string once Nova lands. We won't be having a description under "Recommended stories" anymore
 newtab-custom-stories-toggle =
     .label = Recommended stories
     .description = Exceptional content curated by the { -brand-product-name } family
+newtab-recommended-stories-toggle =
+    .label = Recommended stories
 newtab-custom-stories-personalized-toggle =
     .label = Stories
 newtab-custom-stories-personalized-checkbox-label = Personalized stories based on your activity
