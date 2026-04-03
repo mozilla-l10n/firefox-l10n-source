@@ -13800,6 +13800,7 @@
     "fp-neterror-offline-body-title",
     "fp-neterror-connection-intro",
     "fp-neterror-offline-intro",
+    "fp-neterror-http-error-page-intro",
     "fp-neterror-coop-coep-intro",
     "fp-neterror-http-auth-disabled-intro",
     "fp-neterror-http-auth-disabled-secure-connection",
