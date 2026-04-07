@@ -1223,6 +1223,9 @@
     "main-context-menu-audio-email",
     "main-context-menu-send-to-device-2",
     "main-context-menu-send-to-mobile-2",
+    "main-context-menu-send-to-mobile-enable-sync",
+    "main-context-menu-send-to-mobile-connect-phone",
+    "main-context-menu-send-to-mobile-device-missing",
     "main-context-menu-use-saved-password",
     "main-context-menu-use-relay-mask",
     "main-context-menu-suggest-strong-password",
@@ -1942,7 +1945,10 @@
     "fxviewtabrow-unmute-tab",
     "fxviewtabrow-options-menu-button",
     "fxviewtabrow-mute-tab-button-no-context",
-    "fxviewtabrow-unmute-tab-button-no-context"
+    "fxviewtabrow-unmute-tab-button-no-context",
+    "fxviewtabrow-send-to-mobile-enable-sync",
+    "fxviewtabrow-send-to-mobile-connect-phone",
+    "fxviewtabrow-send-to-mobile-device-missing"
   ],
   "browser/browser/genai.ftl": [
     "genai-settings-chat-chatgpt-links",
@@ -3467,7 +3473,8 @@
     "policy-VisualSearchEnabled",
     "policy-WebsiteFilter",
     "policy-Windows10SSO",
-    "policy-MicrosoftEntraSSO"
+    "policy-MicrosoftEntraSSO",
+    "policy-XSLTEnabled"
   ],
   "browser/browser/policy-messages.ftl": [
     "compulsory-restart-message",
@@ -5385,6 +5392,9 @@
     "fxa-menu-connect-another-device",
     "fxa-menu-send-to-device",
     "fxa-menu-send-to-mobile",
+    "fxa-menu-send-to-mobile-enable-sync",
+    "fxa-menu-send-to-mobile-connect-phone",
+    "fxa-menu-send-to-mobile-device-missing",
     "fxa-menu-send-tab-to-device-syncnotready",
     "fxa-menu-send-tab-to-device-description",
     "fxa-menu-sign-out",
@@ -5470,7 +5480,10 @@
     "tab-context-close-n-tabs",
     "tab-context-move-tabs",
     "tab-context-send-to-device",
-    "tab-context-send-to-mobile"
+    "tab-context-send-to-mobile",
+    "tab-context-send-to-mobile-enable-sync",
+    "tab-context-send-to-mobile-connect-phone",
+    "tab-context-send-to-mobile-device-missing"
   ],
   "browser/browser/tabbrowser.ftl": [
     "tabbrowser-empty-tab-title",
