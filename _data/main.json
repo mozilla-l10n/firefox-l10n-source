@@ -2588,7 +2588,7 @@
     "newtab-menu-show-privacy-info",
     "newtab-menu-report",
     "newtab-menu-section-block",
-    "newtab-menu-section-unfollow",
+    "newtab-menu-section-unfollow-topic",
     "newtab-menu-manage-sponsored-content",
     "newtab-menu-our-sponsors-and-your-privacy",
     "newtab-menu-report-this-ad",
@@ -2776,7 +2776,7 @@
     "newtab-section-confirm-block-topic-p1",
     "newtab-section-confirm-block-topic-p2",
     "newtab-section-block-topic-button",
-    "newtab-section-cancel-button",
+    "newtab-section-block-cancel-button",
     "newtab-section-mangage-topics-title",
     "newtab-section-manage-topics-button-v2",
     "newtab-section-mangage-topics-followed-topics",
@@ -2810,6 +2810,9 @@
     "newtab-report-submit",
     "newtab-toast-thanks-for-reporting",
     "newtab-toast-widgets-hidden",
+    "newtab-section-toast-follow",
+    "newtab-section-toast-unfollow",
+    "newtab-section-toast-block",
     "newtab-widget-section-title",
     "newtab-widget-menu-hide",
     "newtab-widget-menu-change-size",
@@ -13943,7 +13946,8 @@
     "fp-neterror-coop-coep-why-did-this-happen-body",
     "fp-learn-more-about-https-connections",
     "fp-neterror-vpn-error-title",
-    "fp-neterror-vpn-error-description"
+    "fp-neterror-vpn-error-description",
+    "fp-neterror-denied-port-access"
   ],
   "toolkit/toolkit/neterror/nsserrors.ftl": [
     "psmerr-ssl-disabled",
