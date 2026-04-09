@@ -567,10 +567,10 @@
   ],
   "browser/browser/backgroundtasks/defaultagent.ftl": [
     "default-browser-agent-task-description",
-    "default-browser-notification-header-text",
-    "default-browser-notification-body-text",
+    "default-browser-notification-privacy-header-text",
+    "default-browser-notification-privacy-body-text",
     "default-browser-notification-yes-button-text",
-    "default-browser-notification-no-button-text"
+    "default-browser-notification-privacy-no-button-text"
   ],
   "browser/browser/backupSettings.ftl": [
     "backup-folder-name",
