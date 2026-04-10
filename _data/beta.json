@@ -13835,6 +13835,8 @@
     "neterror-dns-not-found-trr-unknown-problem",
     "neterror-file-not-found-filename",
     "neterror-file-not-found-moved",
+    "neterror-file-not-found-intro",
+    "neterror-file-not-found-what-can-you-do",
     "neterror-access-denied",
     "neterror-unknown-protocol",
     "neterror-redirect-loop",
