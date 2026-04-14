@@ -4156,6 +4156,7 @@
     "home-prefs-choose-wallpaper-link",
     "home-prefs-choose-wallpaper-link2",
     "home-prefs-sections-rows-option",
+    "search-section",
     "search-engine-group",
     "search-default-engine",
     "search-show-search-term-option-2",
@@ -5594,7 +5595,6 @@
     "tab-group-context-open-saved-group-in-this-window",
     "tab-group-context-open-saved-group-in-new-window",
     "tab-context-add-note",
-    "tab-context-update-note",
     "tab-context-edit-note",
     "tab-context-delete-note",
     "tab-note-editor-title-create",
@@ -8551,7 +8551,8 @@
     "css-compatibility-experimental-supported-message",
     "css-compatibility-learn-more-message",
     "css-selector-warning-unconstrained-has",
-    "css-selector-warning-sibling-combinator-after-scope"
+    "css-selector-warning-sibling-combinator-after-scope",
+    "css-selector-container-query-condition-no-container"
   ],
   "devtools/shared/accessibility.properties": [
     "accessibility.contrast.ratio",
@@ -13844,7 +13845,9 @@
     "fp-learn-more-about-time-related-errors",
     "fp-certerror-pkix-not-yet-valid-why-dangerous-body",
     "fp-certerror-pkix-not-yet-valid-what-can-you-do-body",
-    "fp-certerror-invalid-cert-why-dangerous"
+    "fp-certerror-invalid-cert-why-dangerous",
+    "fp-certerror-clock-skew-intro",
+    "fp-certerror-clock-skew-what-can-you-do-body"
   ],
   "toolkit/toolkit/neterror/netError.ftl": [
     "neterror-page-title",
