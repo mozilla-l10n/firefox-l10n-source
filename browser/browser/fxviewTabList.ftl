@@ -82,10 +82,3 @@ fxviewtabrow-unmute-tab-button-no-context =
 fxviewtabrow-send-to-mobile-enable-sync2 = Enable sync to send a tab
 fxviewtabrow-send-to-mobile-connect-phone2 = Connect your phone
 fxviewtabrow-send-to-mobile-device-missing2 = Don’t see your device?
-# The following strings are for displaying elements in Firefox View to prompt users to sign in, enable sync, or pair a device
-fxviewtabrow-send-to-mobile-enable-sync =
-    .label = Enable sync to send a tab
-fxviewtabrow-send-to-mobile-connect-phone =
-    .label = Connect your phone
-fxviewtabrow-send-to-mobile-device-missing =
-    .label = Don’t see your device?
