@@ -1514,6 +1514,7 @@
     "customkeys-reset-all",
     "customkeys-conflict-confirm",
     "customkeys-reset-all-confirm",
+    "customkeys-file-duplicate-tab",
     "customkeys-history-reopen-tab",
     "customkeys-history-reopen-window",
     "customkeys-sidebar-toggle",
