@@ -1111,6 +1111,9 @@ search-engine-group =
     .label = Default search engine
 search-default-engine =
     .aria-label = Default search engine
+# Header for the search section ("search" is a noun).
+search-section =
+    .heading = Search
 
 ## Containers Section
 
@@ -2028,12 +2031,6 @@ permissions-block-popups-exceptions-button4 =
 permissions-addon-install-warning3 =
     .label = Show warning when websites try to install extensions
     .accesskey = W
-# "popup" is a misspelling that is more popular than the correct spelling of
-# "pop-up" so it's included as a search keyword, not displayed in the UI.
-permissions-block-popups-exceptions-button2 =
-    .label = Manage pop-up and third-party redirect exceptions
-    .accesskey = E
-    .searchkeywords = popups
 permissions-addon-exceptions2 =
     .label = Choose which websites can install extensions
     .accesskey = E

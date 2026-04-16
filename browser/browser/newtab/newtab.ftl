@@ -380,7 +380,9 @@ newtab-custom-settings = Manage more settings
 
 newtab-wallpaper-title = Wallpapers
 newtab-wallpaper-reset = Reset to default
+#  (developer note): @nova-cleanup(remove-string): Remove old "Upload an image" string once Nova lands. The new "Add an image"  string will take over
 newtab-wallpaper-upload-image = Upload an image
+newtab-wallpaper-add-an-image = Add an image
 newtab-wallpaper-custom-color = Choose a color
 newtab-wallpaper-toggle-title =
     .label = Wallpapers
@@ -406,7 +408,9 @@ newtab-wallpaper-light-fox-anniversary = A fox in a grassy field with a misty mo
 
 ## Solid Colors
 
+#  (developer note): @nova-cleanup(remove-string): Remove old "Solid colors" string once Nova lands. The simplified "Colors" string will take over
 newtab-wallpaper-category-title-colors = Solid colors
+newtab-wallpaper-colors = Colors
 newtab-wallpaper-blue = Blue
 newtab-wallpaper-light-blue = Light blue
 newtab-wallpaper-light-purple = Light purple
@@ -512,7 +516,6 @@ newtab-weather-menu-temperature-option-fahrenheit = Fahrenheit
 newtab-weather-menu-temperature-option-celsius = Celsius
 newtab-weather-menu-change-temperature-units-fahrenheit = Switch to Fahrenheit
 newtab-weather-menu-change-temperature-units-celsius = Switch to Celsius
-newtab-weather-menu-hide-weather-v2 = Hide weather
 newtab-weather-menu-hide-weather = Hide weather on New Tab
 newtab-weather-menu-learn-more = Learn more
 newtab-weather-menu-detect-my-location = Detect my location
@@ -523,6 +526,10 @@ newtab-weather-opt-in-not-now =
     .label = Not now
 newtab-weather-opt-in-yes =
     .label = Yes
+newtab-weather-opt-in-headline = Get your local weather forecast
+newtab-weather-opt-in-use-location =
+    .label = Use location
+newtab-weather-opt-in-choose-location = Choose location
 # We'll be showing static (fake) weather data if the user has not opted in to using their location
 newtab-weather-static-city = New York City
 # "Highest" here refers to the highest temperature of the day
@@ -699,7 +706,6 @@ newtab-widget-lists-menu-edit = Edit list name
 newtab-widget-lists-menu-create = Create a new list
 newtab-widget-lists-menu-delete = Delete this list
 newtab-widget-lists-menu-copy = Copy list to clipboard
-newtab-widget-lists-menu-hide = Hide all lists
 newtab-widget-lists-menu-learn-more = Learn more
 newtab-widget-lists-input-add-an-item =
     .placeholder = Add an item
@@ -756,7 +762,6 @@ newtab-widget-timer-reset =
     .title = Reset
 newtab-widget-timer-menu-notifications = Turn off notifications
 newtab-widget-timer-menu-notifications-on = Turn on notifications
-newtab-widget-timer-menu-hide = Hide timer
 newtab-widget-timer-menu-learn-more = Learn more
 # The title displays above a set of top news headlines.
 newtab-daily-briefing-card-title = Top Headlines
