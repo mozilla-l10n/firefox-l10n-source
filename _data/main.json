@@ -1158,7 +1158,9 @@
     "trustpanel-fingerprinter-list-header",
     "trustpanel-cryptominer-blocking-tab-header",
     "trustpanel-cryptominer-not-blocking-tab-header",
-    "trustpanel-cryptominer-tab-list-header"
+    "trustpanel-cryptominer-tab-list-header",
+    "reduced-protection-infobar-message",
+    "reduced-protection-infobar-reload-button"
   ],
   "browser/browser/browserContext.ftl": [
     "navbar-tooltip-instruction",
@@ -3358,7 +3360,8 @@
     "places-search-bookmarks",
     "places-search-history",
     "places-search-downloads",
-    "places-locked-prompt"
+    "places-locked-prompt",
+    "places-share-folder"
   ],
   "browser/browser/placesPrompts.ftl": [
     "places-error-title",
@@ -4486,6 +4489,8 @@
     "collection-health-report-disabled2",
     "collection-backlogged-crash-reports2",
     "collection-backlogged-crash-reports-description",
+    "settings-redesign-promo",
+    "settings-redesign-promo-dismiss-button",
     "privacy-segmentation-section-header",
     "privacy-segmentation-section-description",
     "privacy-segmentation-radio-off",
@@ -5509,7 +5514,8 @@
     "tab-context-send-to-mobile",
     "tab-context-send-to-mobile-enable-sync",
     "tab-context-send-to-mobile-connect-phone",
-    "tab-context-send-to-mobile-device-missing"
+    "tab-context-send-to-mobile-device-missing",
+    "tab-context-share-selected-tabs"
   ],
   "browser/browser/tabbrowser.ftl": [
     "tabbrowser-empty-tab-title",
@@ -5600,6 +5606,7 @@
     "tab-group-editor-action-ungroup",
     "tab-group-editor-action-delete",
     "tab-group-editor-done",
+    "tab-group-editor-action-share-tab-group",
     "tab-context-reopen-tab-group",
     "tab-context-ungroup-tab",
     "tab-group-context-move-to-new-window",

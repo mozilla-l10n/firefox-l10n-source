@@ -326,6 +326,9 @@ tab-group-editor-action-delete =
 tab-group-editor-done =
     .label = Done
     .accessKey = D
+# Share is a verb here. Meaning to "Share" the "tab group"
+tab-group-editor-action-share-tab-group =
+    .label = Share tab group
 tab-context-reopen-tab-group =
     .label = Reopen tab group
 # Variables:
