@@ -1096,6 +1096,7 @@ search-edit-engine =
     .label = Edit
     .accesskey = E
 search-find-more-link = Find more search engines
+search-filtering-for-add-engine = Add Engine
 # This warning is displayed when the chosen keyword is already in use
 # ('Duplicate' is an adjective)
 search-keyword-warning-title = Duplicate Keyword
