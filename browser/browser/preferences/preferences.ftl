@@ -68,6 +68,8 @@ category-sync3 =
 pane-ai-controls-title = AI controls
 category-ai-controls =
     .tooltiptext = { pane-ai-controls-title }
+pane-accessibility-title = Accessibility
+    .title = { pane-accessibility-title }
 pane-experimental-title = { -brand-short-name } Experiments
 category-experimental =
     .tooltiptext = { -brand-short-name } Experiments
@@ -411,7 +413,6 @@ preferences-zoom-header2 =
     .label = Zoom
 preferences-default-zoom-label =
     .label = Default zoom
-    .accesskey = z
 # Zoom is a noun, and the message is used as header for a group of options
 preferences-zoom-header = Zoom
 preferences-default-zoom = Default zoom
@@ -743,7 +744,7 @@ performance-default-content-process-count =
 performance-group =
     .label = Performance
 
-## General Section - Browsing
+## Accessibility page
 
 browsing-title = Browsing
 browsing-group-label =
@@ -751,6 +752,10 @@ browsing-group-label =
 browsing-use-autoscroll =
     .label = Use autoscrolling
     .accesskey = a
+keyboard-and-scrolling-group =
+    .label = Keyboard navigation and scrolling
+motion-and-link-group =
+    .label = Motion and link styling
 browsing-use-smooth-scrolling =
     .label = Use smooth scrolling
     .accesskey = m
@@ -792,6 +797,22 @@ browsing-cfr-features =
 browsing-cfr-recommendations-learn-more = Learn more
 browsing-group =
     .label = Browsing
+
+## Accessibility page
+
+preferences-accessibility-header =
+    .heading = Accessibility
+preferences-default-zoom-select =
+    .aria-label = Default zoom
+preferences-fonts-family =
+    .label = Font family
+    .accesskey = D
+preferences-fonts-size =
+    .label = Font size
+    .accesskey = s
+preferences-fonts-advanced-settings =
+    .label = Advanced settings
+    .accesskey = A
 
 ## General Section - Proxy
 

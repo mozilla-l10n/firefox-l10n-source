@@ -589,8 +589,16 @@ newtab-topic-selection-button-pick-interests = Pick your interests
 ## e.g. Following the travel section of stories.
 
 newtab-section-follow-button = Follow
+# Variables:
+#   $topic (string) - Topic that the user can follow
+newtab-section-follow-button-label =
+    .aria-label = Follow { $topic }
 newtab-section-following-button = Following
 newtab-section-unfollow-button = Unfollow
+# Variables:
+#   $topic (string) - Topic that the user is following and can unfollow
+newtab-section-unfollow-button-label =
+    .aria-label = Following: Unfollow { $topic }
 # A modal may appear next to the Follow button, directing users to try out the feature
 newtab-section-follow-highlight-title = Fine-tune your feed
 newtab-section-follow-highlight-subtitle = Follow your interests to see more of what you like.

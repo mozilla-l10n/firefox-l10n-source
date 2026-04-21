@@ -1263,6 +1263,9 @@ toolbar-button-new-private-window =
 toolbar-button-share-tab =
     .label = Share
     .tooltiptext = Share this page
+toolbar-button-tab-groups =
+    .label = Tab groups
+    .tooltiptext = Show your tab groups
 
 ## EME notification panel
 
@@ -1706,6 +1709,11 @@ trustpanel-cryptominer-not-blocking-tab-header =
        *[other] { -brand-product-name } allowed { $count } cryptominers
     }
 trustpanel-cryptominer-tab-list-header = These sites are trying to cryptomine:
+# "account on this site" refers to the (breached) site the user is currently visiting, not a Mozilla Monitor account.
+trustpanel-breachalerts-anonymous-breached-header = Have an account on this site?
+trustpanel-breachalerts-anonymous-breached-description = { -brand-product-name } found that this site had a data breach in the last 12 months. Find out if you were affected.
+trustpanel-breachalerts-anonymous-breached-button-dismiss = Dismiss
+trustpanel-breachalerts-anonymous-breached-button-check-monitor = Start free scan
 trustpanel-blocker-section-header2 =
     { $count ->
         [one] <span data-l10n-name="count">{ $count }</span> Tracker blocked on this site
