@@ -8,9 +8,13 @@
 newtab-page-title = New Tab
 newtab-settings-button =
     .title = Customize your New Tab page
+#  (developer note): @nova-cleanup(remove-string): Remove newtab-customize-panel-icon-button once Nova lands, will be using newtab-customize-panel-label instead
 newtab-customize-panel-icon-button =
     .title = Customize this page
+#  (developer note): @nova-cleanup(remove-string): Remove newtab-customize-panel-icon-button-label once Nova lands, will be using newtab-customize-panel-label instead
 newtab-customize-panel-icon-button-label = Customize
+newtab-customize-panel-label =
+    .label = Customize
 newtab-personalize-settings-icon-label =
     .title = Personalize New Tab
     .aria-label = Settings
@@ -501,6 +505,9 @@ newtab-weather-menu-change-location = Change location
 newtab-weather-change-location-search-input-placeholder =
     .placeholder = Search location
     .aria-label = Search location
+# "Current" refers to the user's physical/geographic location detected via geolocation.
+newtab-weather-change-location-search-use-current =
+    .label = Use current location
 newtab-weather-menu-weather-display = Weather display
 newtab-weather-todays-forecast = Today’s forecast
 newtab-weather-see-full-forecast = See full forecast
@@ -610,6 +617,22 @@ newtab-section-follow-highlight-subtitle = Follow your interests to see more of 
 newtab-section-block-button = Block
 newtab-section-blocked-button = Blocked
 newtab-section-unblock-button = Unblock
+# Variables:
+#   $topic (string) - Name of topic that user is following
+newtab-section-follow-topic =
+    .aria-label = Follow { $topic }
+# Variables:
+#   $topic (string) - Name of topic that user is unfollowing
+newtab-section-unfollow-topic =
+    .aria-label = Unfollow { $topic }
+# Variables:
+#   $topic (string) - Name of topic that user is blocking
+newtab-section-block-topic =
+    .aria-label = Block { $topic }
+# Variables:
+#   $topic (string) - Name of topic that user is unblocking
+newtab-section-unblock-topic =
+    .aria-label = Unblock { $topic }
 
 ## Confirmation modal for blocking a section
 
