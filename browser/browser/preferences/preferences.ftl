@@ -653,7 +653,7 @@ applications-use-other-label =
 applications-use-os-default-label =
     .value = { applications-use-os-default.label }
 
-##
+## Firefox updates
 
 applications-handle-new-file-types-description = What should { -brand-short-name } do with other files?
 applications-save-for-new-types =
@@ -674,6 +674,11 @@ update-application-description = Keep { -brand-short-name } up to date for the b
 # Variables:
 # $version (string) - Firefox version
 update-application-version = Version { $version } <a data-l10n-name="learn-more">What’s new</a>
+update-history-2 =
+    .label = Show update history
+    .accesskey = p
+update-application-installation =
+    .label = Installation
 update-history =
     .label = Show Update History…
     .accesskey = p
@@ -690,6 +695,8 @@ update-application-manual =
 update-application-background-enabled =
     .label = When { -brand-short-name } is not running
     .accesskey = W
+update-application-warning-cross-user-setting-2 =
+    .message = This setting will apply to all Windows accounts and { -brand-short-name } profiles using this installation of { -brand-short-name }.
 update-application-warning-cross-user-setting = This setting will apply to all Windows accounts and { -brand-short-name } profiles using this installation of { -brand-short-name }.
 update-application-use-service =
     .label = Use a background service to install updates
@@ -712,6 +719,16 @@ update-in-progress-ok-button = &Discard
 # Continue is the cancel button so pressing escape or using a platform standard
 # method of closing the UI will not discard the update.
 update-in-progress-cancel-button = &Continue
+
+## Firefox updates
+
+update-application-heading =
+    .label = { -brand-short-name } updates
+    .description = Updates improve { -brand-short-name }’s speed, stability, and security.
+update-application-suppress-prompts-heading =
+    .label = Notifications
+update-application-updates-managed-by-os =
+    .message = Updates are managed by your operating system
 
 ## Firefox support
 
