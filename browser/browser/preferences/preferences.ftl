@@ -70,6 +70,11 @@ category-ai-controls =
     .tooltiptext = { pane-ai-controls-title }
 pane-accessibility-title = Accessibility
     .title = { pane-accessibility-title }
+pane-languages-title = Languages
+category-languages =
+    .tooltiptext = { pane-languages-title }
+preferences-languages-header =
+    .heading = { pane-languages-title }
 pane-experimental-title = { -brand-short-name } Experiments
 category-experimental =
     .tooltiptext = { -brand-short-name } Experiments
@@ -462,6 +467,16 @@ manage-browser-languages-button =
     .accesskey = l
 confirm-browser-language-change-description = Restart { -brand-short-name } to apply these changes
 confirm-browser-language-change-button = Apply and Restart
+browser-language-heading =
+    .label = Browser language
+    .description = Choose the language used to display menus, messages, and notifications from { -brand-short-name }.
+browser-language-preferred-label =
+    .label = Preferred language
+browser-language-fallback-label =
+    .label = Fallback language
+    .description = Used when preferred language localization is incomplete.
+browser-language-install-error =
+    .message = { -brand-short-name } can’t update your languages right now. Check that you are connected to the internet or try again.
 translate-web-pages =
     .label = Translate web content
     .accesskey = T
@@ -1450,7 +1465,7 @@ forms-ask-to-save-logins =
     .label = Ask to save logins and passwords for websites
     .accesskey = r
 
-## Privacy Section - Passwords
+## Privacy Panel Settings
 
 # "Logins" is the former term for "Passwords". Users should find password settings
 # by searching for the former term "logins". It's not displayed in the UI.
@@ -1551,6 +1566,17 @@ forms-windows-sso =
 forms-windows-sso-learn-more-link = Learn more
 forms-windows-sso-desc = Manage accounts in your device settings
 windows-passkey-settings-label = Manage passkeys in system settings
+
+## Privacy Panel Settings
+
+privacy-panel-settings-header =
+    .label = Privacy panel settings
+    .description = Get help protecting your info online in { -brand-short-name }.
+# By “breach message” we mean the UI messaging shown when Firefox detects that a
+# site the user has interacted with has been involved in a known data breach
+privacy-panel-breach-alerts =
+    .label = Show breach messages
+    .accesskey = s
 
 ## OS Authentication dialog
 
