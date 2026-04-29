@@ -1039,6 +1039,11 @@ home-prefs-manage-topics-link2 =
 home-prefs-choose-wallpaper-link = Choose a wallpaper
 home-prefs-choose-wallpaper-link2 =
     .label = Choose a wallpaper
+# Informational message bar that appears in the Firefox Home section when the options are disabled.
+# The user must select Firefox Home as their homepage for either new tabs or new windows to enable
+# the features in settings.
+home-prefs-firefox-home-disabled-notice =
+    .message = To use these features, set new tabs or new windows to { -firefox-home-brand-name }.
 # Variables:
 #   $num (number) - Number of rows displayed
 home-prefs-sections-rows-option =

@@ -1179,7 +1179,8 @@
     "trustpanel-breachalerts-anonymous-breached-button-dismiss",
     "trustpanel-breachalerts-anonymous-breached-button-check-monitor",
     "reduced-protection-infobar-message",
-    "reduced-protection-infobar-reload-button"
+    "reduced-protection-infobar-reload-button",
+    "reduced-protection-infobar-never-show-button"
   ],
   "browser/browser/browserContext.ftl": [
     "navbar-tooltip-instruction",
@@ -4245,6 +4246,7 @@
     "home-prefs-manage-topics-link2",
     "home-prefs-choose-wallpaper-link",
     "home-prefs-choose-wallpaper-link2",
+    "home-prefs-firefox-home-disabled-notice",
     "home-prefs-sections-rows-option",
     "search-section",
     "search-engine-group",

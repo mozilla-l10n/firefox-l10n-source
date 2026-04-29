@@ -1747,3 +1747,5 @@ trustpanel-blocker-section-header2 =
 reduced-protection-infobar-message = <strong>Site looks broken?</strong> Reload the page to temporarily lower your tracking protection.
 reduced-protection-infobar-reload-button = Reload
     .accesskey = R
+reduced-protection-infobar-never-show-button = Don’t show again
+    .accesskey = D
