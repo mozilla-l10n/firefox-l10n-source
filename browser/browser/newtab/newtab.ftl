@@ -887,6 +887,8 @@ newtab-sports-widget-information = Information about the match
 newtab-sports-widget-no-live-data = Live match data isn’t updating right now
 newtab-sports-widget-view-results-link = View results
 newtab-sports-widget-third-place = Third place
+# Runner-up is the team in 2nd place.
+newtab-sports-widget-runner-up = Runner-up
 newtab-sports-widget-champions = Champions
 newtab-sports-widget-world-cup-champions = 2026 World Cup Champions
 
