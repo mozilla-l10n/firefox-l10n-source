@@ -70,6 +70,8 @@ category-ai-controls =
     .tooltiptext = { pane-ai-controls-title }
 pane-about-firefox-title = About { -brand-short-name }
     .title = { pane-about-firefox-title }
+pane-appearance-title = Appearance
+    .title = { pane-appearance-title }
 pane-accessibility-title = Accessibility
     .title = { pane-accessibility-title }
 pane-languages-title = Languages
@@ -337,6 +339,12 @@ browser-layout-show-sidebar-desc = Quickly access bookmarks, tabs from your phon
 ## General Section - Language & Appearance
 
 language-and-appearance-header = Language and Appearance
+appearance-group2 =
+    .label = Website appearance
+    .description = Some websites change their colors to match your preferences. Choose your color scheme.
+preferences-web-appearance-choice-auto3 =
+    .label = System
+    .title = Automatically change website backgrounds and content based on your system settings and { -brand-short-name } theme.
 appearance-group =
     .label = Website appearance
     .description = Some websites adapt their color scheme based on your preferences. Choose which color scheme you’d like to use for those sites.
@@ -2161,6 +2169,9 @@ permissions-notification2 =
 permissions-header3 =
     .label = Permissions
     .description = Manage what websites can access, control, or trigger.
+permissions-data-section =
+    .heading = Permissions and data
+pane-permissions-data-title = Permissions and data
 
 ## Privacy Section - Data Collection
 
@@ -2491,6 +2502,22 @@ preferences-connection-link-button =
 desktop-folder-name = Desktop
 downloads-folder-name = Downloads
 choose-download-folder-title = Choose Download Folder:
+
+## Appearance page
+
+preferences-appearance-header =
+    .heading = Appearance
+browser-theme-group =
+    .label = Browser theme
+    .description = Style { -brand-short-name } your way. Theme colors apply to toolbars, menus, and messages.
+browser-theme-manage-link =
+    .label = Manage { -brand-short-name } themes
+related-settings-group =
+    .label = Related settings
+related-settings-accessibility-link =
+    .label = Customize zoom and font settings in Accessibility
+related-settings-home-link =
+    .label = Customize { -firefox-home-brand-name }
 
 ## AI controls page
 
