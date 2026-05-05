@@ -897,6 +897,8 @@ newtab-sports-widget-menu-follow-teams = Follow teams
 newtab-sports-widget-menu-view-upcoming = View upcoming
 newtab-sports-widget-menu-view-results = View results
 newtab-sports-widget-menu-learn-more = Learn more
+# “Keep tabs on” is an informal expression meaning to stay updated on, stay informed on, or regularly follow something (in this case, World Cup matches and updates).
+newtab-sports-widget-keep-tabs = Keep tabs on the World Cup
 newtab-sports-widget-countdown-title = Countdown to the World Cup
 # Abbreviated label for days in the sport widget countdown. D is short for Days.
 # The layout only allows for 1–2 characters: if there is an equivalent single
