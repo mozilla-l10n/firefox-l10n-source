@@ -919,9 +919,6 @@ newtab-sports-widget-search-country =
     .placeholder = Search country
     .aria-label = Search country
 newtab-sports-widget-cancel = Cancel
-newtab-sports-widget-search-teams =
-    .placeholder = Search teams
-    .aria-label = Search teams
 newtab-sports-widget-done-button =
     .label = Done
 newtab-sports-widget-group-stage = Group Stage
@@ -991,7 +988,6 @@ newtab-clock-widget-input-nickname =
     .label = Nickname (optional)
     .placeholder = Add a nickname
     .aria-label = Nickname (optional)
-newtab-clock-widget-label-search-location = Search location
 # "Add new clock" is an icon-only button in the widget toolbar — the
 # attributes are consumed as tooltip/screen-reader label only. The button
 # never renders visible text.
@@ -1027,8 +1023,3 @@ newtab-clock-widget-menu-button =
     .aria-label = Open menu for clock
 # $nickname (String) - The user-defined nickname for a saved clock location (e.g., "Home", "Office").
 newtab-clock-widget-label-nickname-with-value = Nickname: { $nickname }
-# "Nickname" refers to a custom, user-defined label for a saved location
-# (e.g., "Home", "Office", or "School") to make it easier to recognize.
-# Not to be translated as a legal name, username, or alias used for identity verification.
-newtab-clock-widget-label-nickname =
-    .label = Nickname
