@@ -369,6 +369,8 @@ newtab-custom-widget-timer-toggle =
     .label = Timer
 newtab-custom-widget-sports-toggle =
     .label = World Cup
+newtab-custom-widget-clock-toggle =
+    .label = Clock
 newtab-custom-widget-section-title = Widgets
 newtab-custom-widget-section-toggle =
     .label = Widgets
@@ -958,3 +960,34 @@ newtab-activation-window-message-customization-focus-primary-button =
 # the existing widgetry that appears on it.
 newtab-activation-window-message-values-focus-header = This space plays by your rules
 newtab-activation-window-message-values-focus-message = { -brand-product-name } lets you browse the way you like, with a more personal way to start your day online. Make { -brand-product-name } your own.
+
+## Strings for the Clock widget
+
+# Context menu item: toggle the clock card off.
+newtab-clock-widget-menu-hide = Hide clock
+newtab-clock-widget-menu-learn-more = Learn more
+# Scaffolded strings for upcoming edit/add-clocks flows (not yet shown in the
+# UI — landed early so translation can begin before the edit patch ships).
+newtab-clock-widget-menu-edit = Edit clocks
+newtab-clock-widget-menu-switch-to-12h = Switch to 12-hour format
+newtab-clock-widget-menu-switch-to-24h = Switch to 24-hour format
+newtab-clock-widget-label-your-clocks = Your clocks
+newtab-clock-widget-label-search-location = Search location
+# "Add new clock" is an icon-only button in the widget toolbar — the
+# attributes are consumed as tooltip/screen-reader label only. The button
+# never renders visible text.
+newtab-clock-widget-button-add =
+    .title = Add new clock
+    .aria-label = Add new clock
+newtab-clock-widget-button-cancel = Cancel
+# "Open menu for clock" is an icon-only button in the widget toolbar — the
+# attributes are consumed as tooltip/screen-reader label only. The button
+# never renders visible text.
+newtab-clock-widget-menu-button =
+    .title = Open menu for clock
+    .aria-label = Open menu for clock
+# "Nickname" refers to a custom, user-defined label for a saved location
+# (e.g., "Home", "Office", or "School") to make it easier to recognize.
+# Not to be translated as a legal name, username, or alias used for identity verification.
+newtab-clock-widget-label-nickname =
+    .label = Nickname

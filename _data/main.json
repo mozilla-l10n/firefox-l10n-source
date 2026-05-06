@@ -2711,6 +2711,7 @@
     "newtab-custom-widget-lists-toggle",
     "newtab-custom-widget-timer-toggle",
     "newtab-custom-widget-sports-toggle",
+    "newtab-custom-widget-clock-toggle",
     "newtab-custom-widget-section-title",
     "newtab-custom-widget-section-toggle",
     "newtab-widget-manage-title",
@@ -3020,6 +3021,17 @@
     "newtab-activation-window-message-customization-focus-primary-button",
     "newtab-activation-window-message-values-focus-header",
     "newtab-activation-window-message-values-focus-message",
+    "newtab-clock-widget-menu-hide",
+    "newtab-clock-widget-menu-learn-more",
+    "newtab-clock-widget-menu-edit",
+    "newtab-clock-widget-menu-switch-to-12h",
+    "newtab-clock-widget-menu-switch-to-24h",
+    "newtab-clock-widget-label-your-clocks",
+    "newtab-clock-widget-label-search-location",
+    "newtab-clock-widget-button-add",
+    "newtab-clock-widget-button-cancel",
+    "newtab-clock-widget-menu-button",
+    "newtab-clock-widget-label-nickname",
     "newtab-card-dismiss-button"
   ],
   "browser/browser/newtab/onboarding.ftl": [
@@ -4321,6 +4333,7 @@
     "home-prefs-lists-header",
     "home-prefs-timer-header",
     "home-prefs-sports-widget-header",
+    "home-prefs-clocks-header",
     "home-prefs-support-firefox-header",
     "home-prefs-mission-message",
     "home-prefs-mission-message-learn-more-link",
@@ -10596,7 +10609,7 @@
     "MOZILLA_PKIX_ERROR_ISSUER_NO_LONGER_TRUSTED"
   ],
   "security/manager/chrome/pipnss/pipnss.properties": [
-    "CertPasswordPrompt",
+    "CertSecurityDeviceAuthenticationPrompt",
     "CertPasswordPromptDefault",
     "RootCertModuleName",
     "ManufacturerID",
@@ -10855,7 +10868,8 @@
     "set-password-backup-pw",
     "set-password-repeat-backup-pw",
     "set-password-reminder",
-    "protected-auth-alert"
+    "protected-auth-window",
+    "protected-auth-prompt"
   ],
   "toolkit/chrome/alerts/alert.properties": [
     "webActions.disableForOrigin.label",
@@ -11629,10 +11643,7 @@
     "about-glean-button-unwatch",
     "about-glean-no-data-to-display",
     "about-glean-dual-labeled-metric-warning",
-    "about-glean-unknown-metric-type-warning",
-    "about-glean-enable-new-features-promo",
-    "about-glean-enable-new-features-button",
-    "about-glean-disable-new-features-button"
+    "about-glean-unknown-metric-type-warning"
   ],
   "toolkit/toolkit/about/aboutHttpsOnlyError.ftl": [
     "about-httpsonly-title-alert",
