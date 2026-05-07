@@ -898,6 +898,8 @@ newtab-widget-timer-celebration-message-break = Ready to focus?
 newtab-sports-widget-menu-follow-teams = Follow teams
 newtab-sports-widget-menu-view-upcoming = View upcoming
 newtab-sports-widget-menu-view-results = View results
+# Milestone dates (e.g. group stage, semifinals, etc.). Refers to calendar dates.
+newtab-sports-widget-menu-key-dates = Key dates
 newtab-sports-widget-menu-learn-more = Learn more
 # “Keep tabs on” is an informal expression meaning to stay updated on, stay informed on, or regularly follow something (in this case, World Cup matches and updates).
 newtab-sports-widget-keep-tabs = Keep tabs on the World Cup
@@ -922,17 +924,29 @@ newtab-sports-widget-cancel = Cancel
 newtab-sports-widget-done-button =
     .label = Done
 newtab-sports-widget-group-stage = Group Stage
+newtab-sports-widget-round-32 = Round of 32
+newtab-sports-widget-round-16 = Round of 16
+newtab-sports-widget-quarter-finals = Quarter-finals
 # The "LIVE" string is meant to be uppercase in English, but other languages and locales may vary in how they handle this.
 newtab-sports-widget-live = LIVE
 newtab-custom-widget-live-refresh =
     .title = Refresh scores
     .aria-label = Refresh scores
+# Milestone dates (e.g. group stage, semifinals, etc.). Refers to calendar dates.
+newtab-sports-widget-key-dates = Key dates
 newtab-sports-widget-upcoming = Upcoming
 newtab-sports-widget-results = Results
 newtab-sports-widget-semi-finals = Semi-finals
 newtab-sports-widget-bronze-finals = Bronze Final
 # Final is the final match for 1st place.
 newtab-sports-widget-final = Final
+# Variables:
+#   $start (Date) - Start date of a tournament stage
+#   $end (Date) - End date of a tournament stage
+newtab-sports-widget-key-date-range = { DATETIME($start, month: "short", day: "numeric") } --– { DATETIME($end, month: "short", day: "numeric") }
+# Variables:
+#   $date (Date) - Date of a single tournament event
+newtab-sports-widget-key-date = { DATETIME($date, month: "short", day: "numeric") }
 newtab-sports-widget-delayed = Delayed
 newtab-sports-widget-postponed = Postponed
 newtab-sports-widget-suspended = Suspended
