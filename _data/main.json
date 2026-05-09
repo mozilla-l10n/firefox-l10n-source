@@ -6110,7 +6110,10 @@
     "webauthn-already-registered-prompt",
     "webauthn-cancel",
     "webauthn-allow",
-    "webauthn-block"
+    "webauthn-block",
+    "webauthn-continue",
+    "webauthn-related-origin-create-header",
+    "webauthn-related-origin-use-header"
   ],
   "browser/browser/webrtc-preview.ftl": [
     "webrtc-share-preview-button-show",
@@ -11577,6 +11580,7 @@
     "mlmodel-pdfjs",
     "mlmodel-smart-tab-topic-engine",
     "mlmodel-smart-tab-embedding-engine",
+    "mlmodel-formfill-engine",
     "addon-category-mlmodel",
     "addon-category-mlmodel-title",
     "mlmodel-heading",
