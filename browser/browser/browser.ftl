@@ -1493,6 +1493,9 @@ reset-pbm-panel-confirm-button =
     .label = Delete session data
     .accesskey = D
 reset-pbm-panel-complete = Private session data deleted
+reset-pbm-toolbar-button2 =
+    .label = Clear Private Session
+    .tooltiptext = Clear Private Session
 
 ## Autorefresh blocker
 
