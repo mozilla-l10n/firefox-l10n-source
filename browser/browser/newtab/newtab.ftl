@@ -818,6 +818,7 @@ newtab-widget-section-menu-button =
 newtab-widget-add-widgets-button =
     .aria-label = Add widget
     .title = Add widget
+newtab-widget-section-menu-manage = Manage widgets
 newtab-widget-section-menu-hide-all = Hide widgets
 newtab-widget-section-menu-learn-more = Learn more
 newtab-widget-section-feedback = Tell us what you think
