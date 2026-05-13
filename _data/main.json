@@ -4177,7 +4177,7 @@
     "preferences-default-zoom-label",
     "preferences-default-zoom-value",
     "preferences-zoom-text-only",
-    "preferences-text-zoom-override-warning",
+    "preferences-text-zoom-override-warning2",
     "language-header",
     "choose-language-description",
     "website-language-heading",
@@ -4921,19 +4921,6 @@
     "site-data-removing-desc",
     "site-data-removing-single-desc",
     "site-data-removing-table"
-  ],
-  "browser/browser/preferences/translation.ftl": [
-    "translation-window2",
-    "translation-close-key",
-    "translation-languages-disabled-desc",
-    "translation-languages-column",
-    "translation-languages-button-remove",
-    "translation-languages-button-remove-all",
-    "translation-sites-disabled-desc",
-    "translation-sites-column",
-    "translation-sites-button-remove",
-    "translation-sites-button-remove-all",
-    "translation-dialog"
   ],
   "browser/browser/preonboarding.ftl": [
     "preonboarding-title",
