@@ -53,6 +53,7 @@ category-general =
 pane-home-title = Home
 category-home =
     .tooltiptext = { pane-home-title }
+pane-home-startup-title = Home and startup
 pane-search-title = Search
 category-search =
     .tooltiptext = { pane-search-title }
@@ -156,7 +157,7 @@ extension-controlling-homepage = { $name } controls some of your homepage settin
 
 ## Preferences UI Search Results
 
-search-results-header = Search Results
+search-results-header = Search results
 # `<span data-l10n-name="query"></span>` will be replaced by the search term.
 search-results-empty-message2 = Sorry! There are no results in Settings for “<span data-l10n-name="query"></span>”.
 search-results-help-link = Need help? Visit <a data-l10n-name="url">{ -brand-short-name } Support</a>
@@ -329,7 +330,7 @@ settings-tabs-show-image-in-preview =
 settings-tabs-drag-to-create-tab-groups =
     .label = Drag tabs together to create tab groups
 browser-layout-header2 =
-    .label = Browser Layout
+    .label = Browser layout
 browser-layout-horizontal-tabs2 =
     .label = Horizontal tabs
     .title = Tabs at the top
@@ -2569,6 +2570,8 @@ related-settings-accessibility-link =
     .label = Customize zoom and font settings in Accessibility
 related-settings-home-link =
     .label = Customize { -firefox-home-brand-name }
+related-settings-tabs-browsing-link =
+    .label = Customize browser layout
 
 ## AI controls page
 
