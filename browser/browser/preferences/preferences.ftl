@@ -330,7 +330,7 @@ settings-tabs-show-image-in-preview =
 settings-tabs-drag-to-create-tab-groups =
     .label = Drag tabs together to create tab groups
 browser-layout-header2 =
-    .label = Browser Layout
+    .label = Browser layout
 browser-layout-horizontal-tabs2 =
     .label = Horizontal tabs
     .title = Tabs at the top
@@ -2570,6 +2570,8 @@ related-settings-accessibility-link =
     .label = Customize zoom and font settings in Accessibility
 related-settings-home-link =
     .label = Customize { -firefox-home-brand-name }
+related-settings-tabs-browsing-link =
+    .label = Customize browser layout
 
 ## AI controls page
 
