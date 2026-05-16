@@ -59,7 +59,6 @@ pane-privacy-title3 = Privacy and security
     .title = Privacy and security
 category-home =
     .tooltiptext = { pane-home-title }
-pane-home-startup-title = Home and startup
 pane-search-title = Search
 category-search =
     .tooltiptext = { pane-search-title }
@@ -85,9 +84,6 @@ pane-downloads-title2 = Downloads
     .title = Downloads
 pane-downloads2 =
     .heading = { pane-downloads-title2 }
-pane-downloads-title = Downloads
-pane-downloads =
-    .heading = { pane-downloads-title }
 pane-accessibility-title = Accessibility
     .title = { pane-accessibility-title }
 pane-languages-title2 = Languages
@@ -96,11 +92,6 @@ preferences-languages-header2 =
     .heading = { pane-languages-title2 }
 settings-pane-labs-title2 = { -firefoxlabs-brand-name }
     .title = { -firefoxlabs-brand-name }
-pane-languages-title = Languages
-category-languages =
-    .tooltiptext = { pane-languages-title }
-preferences-languages-header =
-    .heading = { pane-languages-title }
 pane-experimental-title = { -brand-short-name } Experiments
 category-experimental =
     .tooltiptext = { -brand-short-name } Experiments
@@ -249,8 +240,6 @@ tabs-browsing-section =
     .heading = Tabs and browsing
 pane-tabs-browsing-title2 = Tabs and browsing
     .title = Tabs and browsing
-pane-tabs-browsing-title = Tabs and browsing
-    .title = { pane-tabs-browsing-title }
 tabs-group-header2 =
     .label = Tabs
 tabs-opening-heading =
@@ -1321,7 +1310,6 @@ account-sync-section =
     .heading = Account and sync
 pane-account-sync-title2 = Account and sync
     .title = Account and sync
-pane-account-sync-title = Account and sync
 
 ## Firefox account - Signed out. Note that "Sync" and "Firefox account" are now
 ## more discrete ("signed in" no longer means "and sync is connected").
@@ -1779,9 +1767,6 @@ address-moz-box-item =
     .description = { $address }
 pane-passwords-autofill-title2 = Passwords and autofill
     .title = Passwords and autofill
-category-passwords-autofill =
-    .tooltiptext = Passwords and autofill settings
-pane-passwords-autofill-title = Passwords and autofill
 preferences-passwords-autofill-header =
     .heading = Passwords and autofill
 # These values are displayed for each credit card record listed on the Manage Payment methods
@@ -2261,7 +2246,6 @@ permissions-data-section =
     .heading = Permissions and data
 pane-permissions-data-title2 = Permissions and data
     .title = Permissions and data
-pane-permissions-data-title = Permissions and data
 
 ## Privacy Section - Data Collection
 
