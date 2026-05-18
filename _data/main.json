@@ -1411,7 +1411,10 @@
     "content-sharing-modal-link-copied",
     "content-sharing-modal-sign-in",
     "content-sharing-modal-title",
-    "content-sharing-modal-description"
+    "content-sharing-modal-description",
+    "content-sharing-modal-policy",
+    "content-sharing-modal-too-many-links",
+    "content-sharing-modal-generic-error"
   ],
   "browser/browser/contextual-manager.ftl": [
     "contextual-manager-filter-input",
