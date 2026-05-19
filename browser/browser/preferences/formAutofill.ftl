@@ -43,6 +43,8 @@ address-capture-learn-more-button =
     .label = Learn more
 address-capture-open-menu-button =
     .aria-label = Open menu
+address-capture-edit-address-link = Edit address
+    .aria-label = Edit address
 address-capture-edit-address-button =
     .aria-label = Edit address
 # The dialog title for creating addresses in browser preferences.
@@ -54,7 +56,7 @@ autofill-address-additional-name = Middle Name
 autofill-address-family-name = Last Name
 autofill-address-name = Name
 autofill-address-organization = Organization
-autofill-address-street-address = Street Address
+autofill-address-street-address = Street address
 autofill-address-street = Street Address
 
 ## Labels for address fields (e.g. for a mailing address) used as part of the form
@@ -113,7 +115,7 @@ autofill-address-oblast = Oblast
 autofill-address-pin = Pin
 autofill-address-postal-code = Postal Code
 # Postal code field.
-autofill-address-zip = ZIP Code
+autofill-address-zip = ZIP code
 # Postal code field used in Ireland (IE).
 autofill-address-eircode = Eircode
 
