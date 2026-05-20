@@ -906,7 +906,7 @@ newtab-widget-timer-celebration-message-focus = Need a break?
 # Message shown inside the Timer widget after a break session ends.
 newtab-widget-timer-celebration-message-break = Ready to focus?
 
-## Sports widget
+##
 
 newtab-sports-widget-menu-follow-teams = Follow teams
 newtab-sports-widget-menu-view-schedule = View schedule
@@ -954,6 +954,18 @@ newtab-sports-widget-watch-icon =
     .aria-label = Watch live
     .title = Watch live
 newtab-sports-widget-group-stage = Group Stage
+newtab-sports-widget-group-a = Group A
+newtab-sports-widget-group-b = Group B
+newtab-sports-widget-group-c = Group C
+newtab-sports-widget-group-d = Group D
+newtab-sports-widget-group-e = Group E
+newtab-sports-widget-group-f = Group F
+newtab-sports-widget-group-g = Group G
+newtab-sports-widget-group-h = Group H
+newtab-sports-widget-group-i = Group I
+newtab-sports-widget-group-j = Group J
+newtab-sports-widget-group-k = Group K
+newtab-sports-widget-group-l = Group L
 newtab-sports-widget-round-32 = Round of 32
 newtab-sports-widget-round-16 = Round of 16
 newtab-sports-widget-quarter-finals = Quarter-finals
@@ -1041,6 +1053,21 @@ newtab-sports-widget-match-aria-label-upcoming-suspended =
 # An upcoming match row whose status is "cancelled".
 newtab-sports-widget-match-aria-label-upcoming-cancelled =
     .aria-label = { $homeTeam } vs. { $awayTeam }, cancelled
+
+## Sports widget — team names (FIFA country codes)
+## Only includes names not adequately covered by standard country-code
+## internationalization tooling.
+
+newtab-sports-widget-team-name-label-bih =
+    .label = Bosnia and Herzegovina
+newtab-sports-widget-team-name-label-civ =
+    .label = Ivory Coast
+newtab-sports-widget-team-name-label-cod =
+    .label = DR Congo
+newtab-sports-widget-team-name-label-eng =
+    .label = England
+newtab-sports-widget-team-name-label-sco =
+    .label = Scotland
 
 ## Strings for activation window message variants. In certain experiment configurations,
 ## the strings from these variants may be displayed in a message below the search input
