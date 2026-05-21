@@ -2007,7 +2007,9 @@
     "fxviewtabrow-send-to-mobile-sign-in",
     "fxviewtabrow-send-to-mobile-turn-on-sync",
     "fxviewtabrow-send-to-mobile-connect-device",
-    "fxviewtabrow-send-to-mobile-device-missing2"
+    "fxviewtabrow-send-to-mobile-device-missing2",
+    "fxviewtabrow-send-to-mobile-not-verified",
+    "fxviewtabrow-send-to-mobile-verify-account"
   ],
   "browser/browser/genai.ftl": [
     "genai-settings-chat-chatgpt-links",
@@ -5673,6 +5675,8 @@
     "fxa-menu-send-to-mobile-turn-on-sync",
     "fxa-menu-send-to-mobile-connect-device",
     "fxa-menu-send-to-mobile-device-missing2",
+    "fxviewtabrow-send-to-mobile-not-verified",
+    "fxviewtabrow-send-to-mobile-verify-account",
     "fxa-menu-send-tab-to-device-syncnotready",
     "fxa-menu-send-tab-to-device-description",
     "fxa-menu-sign-out",
