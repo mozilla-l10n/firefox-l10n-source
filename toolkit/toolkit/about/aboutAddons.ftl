@@ -124,6 +124,8 @@ private-browsing-description2 =
     extension won’t work while private browsing, and won’t have access to your online activities
     there. We’ve made this change to keep your private browsing private.
     <label data-l10n-name="private-browsing-learn-more">Learn how to manage extension settings</label>
+aboutaddons-sidebar =
+    .heading = Add-ons
 addon-category-discover = Recommendations
 addon-category-discover-title =
     .title = Recommendations
