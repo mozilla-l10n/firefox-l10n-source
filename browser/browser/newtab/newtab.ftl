@@ -827,6 +827,14 @@ newtab-widget-section-menu-manage = Manage widgets
 newtab-widget-section-menu-hide-all = Hide widgets
 newtab-widget-section-menu-learn-more = Learn more
 newtab-widget-section-feedback = Tell us what you think
+# Button shown when additional widgets are hidden beyond the
+# first row, allowing users to show them.
+newtab-widget-section-show-more =
+    .label = Show more widgets
+# Button shown when the widgets row is expanded to multiple rows,
+# allowing users to collapse it back to one row.
+newtab-widget-section-show-less =
+    .label = Show less widgets
 newtab-widget-lists-name-default = Checklist
 
 ## Strings introduced by the Nova redesign of the Timer widget
