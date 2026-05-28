@@ -1563,9 +1563,11 @@
     "customkeys-conflict-confirm",
     "customkeys-reset-all-confirm",
     "customkeys-file-duplicate-tab",
+    "customkeys-file-focus-search",
     "customkeys-history-reopen-tab",
     "customkeys-history-reopen-window",
     "customkeys-sidebar-toggle",
+    "customkeys-view-bookmarks-toolbar",
     "customkeys-view-picture-in-picture",
     "customkeys-dev-tools",
     "customkeys-dev-inspector",
@@ -1586,6 +1588,18 @@
     "customkeys-nav-reload",
     "customkeys-nav-reload-skip-cache",
     "customkeys-nav-stop",
+    "customkeys-nav-select-tab-1",
+    "customkeys-nav-select-tab-2",
+    "customkeys-nav-select-tab-3",
+    "customkeys-nav-select-tab-4",
+    "customkeys-nav-select-tab-5",
+    "customkeys-nav-select-tab-6",
+    "customkeys-nav-select-tab-7",
+    "customkeys-nav-select-tab-8",
+    "customkeys-nav-select-last-tab",
+    "customkeys-nav-toggle-mute",
+    "customkeys-edit-find-previous",
+    "customkeys-tools-screenshot",
     "customkeys-caution-message",
     "customkeys-key-invalid"
   ],
@@ -3617,7 +3631,7 @@
     "places-search-history",
     "places-search-downloads",
     "places-locked-prompt",
-    "places-share-folder"
+    "places-share-folder2"
   ],
   "browser/browser/placesPrompts.ftl": [
     "places-error-title",
@@ -13469,6 +13483,7 @@
     "prompt-to-launch-existing-app-no-button"
   ],
   "toolkit/toolkit/global/textActions.ftl": [
+    "profile-window-menu-edit",
     "text-action-undo",
     "text-action-undo-shortcut",
     "text-action-redo",
