@@ -3554,7 +3554,7 @@
     "places-search-history",
     "places-search-downloads",
     "places-locked-prompt",
-    "places-share-folder"
+    "places-share-folder2"
   ],
   "browser/browser/placesPrompts.ftl": [
     "places-error-title",
