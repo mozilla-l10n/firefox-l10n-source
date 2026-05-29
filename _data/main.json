@@ -3485,6 +3485,7 @@
     "security-view-identity-verifier",
     "security-view-identity-validity",
     "security-view-privacy",
+    "security-view-qwac",
     "security-view-privacy-history-value",
     "security-view-privacy-sitedata-value",
     "security-view-privacy-clearsitedata",
