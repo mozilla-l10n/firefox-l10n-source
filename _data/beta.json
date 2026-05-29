@@ -5243,7 +5243,15 @@
     "privacy-metrics-empty",
     "privacy-metrics-loading",
     "privacy-metrics-error",
-    "privacy-metrics-private-window"
+    "privacy-metrics-private-window",
+    "protections-vpn-title",
+    "protections-vpn-header-content",
+    "protections-get-vpn-link",
+    "protections-vpn-title-subscribed",
+    "protections-vpn-header-content-subscribed",
+    "protections-vpn-banner-header",
+    "protections-vpn-banner-content",
+    "protections-vpn-banner-link"
   ],
   "browser/browser/protectionsPanel.ftl": [
     "protections-popup-footer-protection-label-strict",
