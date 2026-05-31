@@ -1406,16 +1406,21 @@
   "browser/browser/contentSharing.ftl": [
     "content-sharing-modal-more-tabs",
     "content-sharing-tabs-title",
-    "content-sharing-modal-view-page",
+    "content-sharing-modal-view-page-2",
     "content-sharing-modal-copy-link",
     "content-sharing-modal-generating-page",
     "content-sharing-modal-link-copied",
-    "content-sharing-modal-sign-in",
-    "content-sharing-modal-title",
-    "content-sharing-modal-description",
+    "content-sharing-modal-sign-in-2",
+    "content-sharing-modal-title-2",
+    "content-sharing-modal-title-signed-in",
+    "content-sharing-modal-description-2",
+    "content-sharing-modal-description-signed-in",
     "content-sharing-modal-policy",
-    "content-sharing-modal-too-many-links",
-    "content-sharing-modal-generic-error"
+    "content-sharing-modal-too-many-links-2",
+    "content-sharing-modal-no-shareable-links",
+    "content-sharing-modal-too-many-pages",
+    "content-sharing-modal-some-invalid-links",
+    "content-sharing-modal-generic-error-2"
   ],
   "browser/browser/contextual-manager.ftl": [
     "contextual-manager-filter-input",
