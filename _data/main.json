@@ -1873,7 +1873,10 @@
     "windows-10-eos-sync-dismiss-button-label",
     "windows-10-eos-sync-callout-primary-advance-button-label",
     "link-preview-onboarding-callout-title",
-    "link-preview-onboarding-callout-description"
+    "link-preview-onboarding-callout-description",
+    "tab-groups-2026-onboarding-callout-title",
+    "tab-groups-2026-onboarding-callout-subtitle",
+    "tab-groups-2026-onboarding-cta-button"
   ],
   "browser/browser/firefoxRelay.ftl": [
     "firefox-relay-mask-generation-failed",
@@ -5407,6 +5410,7 @@
     "report-broken-site-panel-header",
     "report-broken-site-panel-intro-text",
     "report-broken-site-panel-learn-more-link",
+    "report-broken-site-panel-url-label",
     "report-broken-site-panel-reason-intro-text",
     "report-broken-site-panel-reason-load-moz-box-button",
     "report-broken-site-panel-reason-checkout-moz-box-button",
@@ -8220,6 +8224,10 @@
     "netmonitor.security.signatureScheme",
     "netmonitor.security.signatureScheme.none",
     "netmonitor.security.signatureScheme.unknown",
+    "netmonitor.security.usedEch",
+    "netmonitor.security.usedDelegatedCredentials",
+    "netmonitor.security.usedOcsp",
+    "netmonitor.security.usedPrivateDns",
     "netmonitor.security.hsts",
     "netmonitor.security.hpkp",
     "netmonitor.security.connection",
