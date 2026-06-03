@@ -4461,6 +4461,7 @@
     "home-prefs-search-header2",
     "home-prefs-shortcuts-header",
     "home-prefs-shortcuts-description",
+    "home-prefs-shortcuts-select",
     "home-prefs-shortcuts-by-option-sponsored",
     "home-prefs-recommended-by-header-generic",
     "home-prefs-recommended-by-description-generic",
@@ -4474,6 +4475,7 @@
     "home-prefs-highlights-option-most-recent-download",
     "home-prefs-recent-activity-header",
     "home-prefs-recent-activity-description",
+    "home-prefs-recent-activity-select",
     "home-prefs-weather-header",
     "home-prefs-weather-description",
     "home-prefs-weather-learn-more-link",
@@ -13211,7 +13213,8 @@
     "datetime-second",
     "datetime-millisecond",
     "datetime-dayperiod",
-    "datetime-calendar"
+    "datetime-calendar",
+    "datetime-time"
   ],
   "toolkit/toolkit/global/datetimepicker.ftl": [
     "datetime-picker-label",
