@@ -7,6 +7,8 @@ menu-view-genai-chat =
 menu-view-contextual-password-manager =
     .label = Passwords
 # Label for the Open Tabs entry in the View > Sidebars menu bar menu.
+# "Open Tabs" is a noun phrase referring to the tabs currently open in
+# the browser, not an instruction to open tabs.
 menu-view-open-tabs =
     .label = Open Tabs
 sidebar-options-menu-button =
@@ -221,6 +223,10 @@ sidebar-syncedtabs-title = Tabs from other devices
 # Title of the Open Tabs sidebar panel. "Open tabs" refers to the tabs
 # currently open in the browser.
 sidebar-opentabs-title = Open tabs
+# Title attribute for the pinned tabs section in the Open Tabs sidebar
+# panel.
+sidebar-opentabs-pinned-tabs =
+    .title = Pinned tabs
 
 ## Context for closing synced tabs when hovering over the items
 
