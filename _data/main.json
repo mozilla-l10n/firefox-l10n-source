@@ -7435,7 +7435,7 @@
     "sourceFooter.prettyPrint.isOriginalMessage",
     "sourceFooter.prettyPrint.hasSourceMapMessage",
     "sourceFooter.prettyPrint.noContentMessage",
-    "sourceFooter.prettyPrint.isNotPrettyPrintableSourceMessage",
+    "sourceFooter.prettyPrint.isNotJavascriptMessage",
     "sourceFooter.ignore",
     "sourceFooter.unignore",
     "sourceFooter.ignoreList",
