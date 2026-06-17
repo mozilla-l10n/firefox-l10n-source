@@ -7007,7 +7007,6 @@
     "about-debugging-message-details-label"
   ],
   "devtools/client/accessibility.ftl": [
-    "accessibility-learn-more",
     "accessibility-text-label-header",
     "accessibility-keyboard-header",
     "accessibility-progress-initializing",
@@ -11354,6 +11353,10 @@
     "profileMissingTitle",
     "profileDeletionFailed",
     "profileDeletionFailedTitle",
+    "profileEncryptedButPrefOff",
+    "profileEncryptedButPrefOffTitle",
+    "profileNotEncryptedButPrefOn",
+    "profileNotEncryptedButPrefOnTitle",
     "resetBackupDirectory",
     "flushFailTitle",
     "flushFailMessage",
