@@ -253,7 +253,10 @@
     "about-private-browsing-felt-privacy-v1-info-header",
     "about-private-browsing-felt-privacy-v1-info-body",
     "about-private-browsing-felt-privacy-v1-info-link",
-    "about-private-browsing-nova-info-body"
+    "about-private-browsing-nova-info-header",
+    "about-private-browsing-nova-info-subheader",
+    "about-private-browsing-nova-info-body",
+    "about-private-browsing-nova-info-link"
   ],
   "browser/browser/aboutRestartRequired.ftl": [
     "restart-required-title",
@@ -809,6 +812,8 @@
     "quickactions-cmd-print",
     "quickactions-savepdf",
     "quickactions-cmd-savepdf2",
+    "quickactions-editpdf",
+    "quickactions-cmd-editpdf",
     "quickactions-private2",
     "quickactions-cmd-private",
     "quickactions-refresh",
@@ -10358,7 +10363,8 @@
     "AttributeParseWarning"
   ],
   "dom/dom/XMLPrettyPrint.ftl": [
-    "xml-nostylesheet"
+    "xml-nostylesheet",
+    "xml-nostylesheet-xslt-disabled"
   ],
   "dom/dom/media.ftl": [
     "default-audio-output-device-label",
