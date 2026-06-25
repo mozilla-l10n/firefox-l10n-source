@@ -2807,6 +2807,7 @@
     "newtab-custom-widget-timer-toggle",
     "newtab-custom-widget-clock-toggle",
     "newtab-custom-widget-sports-toggle2",
+    "newtab-custom-widget-privacy-toggle",
     "newtab-custom-widget-section-title",
     "newtab-custom-widget-section-toggle",
     "newtab-widget-manage-title",
@@ -3162,6 +3163,8 @@
     "newtab-sports-widget-message-wallpapers-title",
     "newtab-sports-widget-message-wallpapers-body",
     "newtab-sports-widget-message-wallpapers-cta",
+    "newtab-sports-widget-message-wallpapers-semifinals-title",
+    "newtab-sports-widget-message-wallpapers-semifinals-body",
     "newtab-sports-widget-message-add-widgets-cta",
     "newtab-sports-widget-message-day-in-play-title",
     "newtab-sports-widget-message-day-in-play-body",
@@ -3243,6 +3246,7 @@
     "home-prefs-timer-header",
     "home-prefs-sports-widget-header",
     "home-prefs-clocks-header",
+    "home-prefs-privacy-header",
     "home-prefs-mission-message2",
     "home-prefs-manage-topics-link2",
     "home-prefs-choose-wallpaper-link2",
@@ -3265,7 +3269,8 @@
     "home-prefs-recent-activity-select",
     "home-prefs-weather-header-srd",
     "home-prefs-support-firefox-header-srd",
-    "home-prefs-mission-message-learn-more-link-srd"
+    "home-prefs-mission-message-learn-more-link-srd",
+    "newtab-privacy-menu-learn-more"
   ],
   "browser/browser/newtab/onboarding.ftl": [
     "onboarding-welcome-header",
@@ -8826,7 +8831,12 @@
     "toolbox-mode-parent-process-sub-label",
     "toolbox-mode-parent-process-container",
     "toolbox-always-on-top-enabled2",
-    "toolbox-always-on-top-disabled2"
+    "toolbox-always-on-top-disabled2",
+    "toolbox-local-mode-notice",
+    "toolbox-local-mode-notice-add-to-settings-button",
+    "toolbox-local-mode-notice-try-it-button",
+    "toolbox-local-mode-notice-navigate-to-existing-mapping",
+    "toolbox-local-mode-notice-always-hide"
   ],
   "devtools/client/toolbox.properties": [
     "toolbox.titleTemplate1",
@@ -13551,7 +13561,7 @@
     "moz-message-bar-close-button"
   ],
   "toolkit/toolkit/global/mozPageHeader.ftl": [
-    "back-nav-button-title"
+    "back-nav-button-title2"
   ],
   "toolkit/toolkit/global/mozSupportLink.ftl": [
     "moz-support-link-text"
