@@ -76,7 +76,7 @@ aiwindow-jump-to-bottom =
 smartwindow-nl-retry-tool-button =
     .label = Retry
 smartwindow-nl-retry-message = If you still want to close tabs, choose <strong>Retry</strong> and make your selection in the card that opens.
-smartwindow-nl-retry-group-tabs-message = If you still want to group tabs, choose <strong>Retry</strong> and select which ones in the card that opens.
+smartwindow-nl-retry-group-tabs-message = If you still want to group tabs, choose Retry and select which ones in the card that opens.
 smartwindow-nl-thinking = Looking for matching tabs…
 smartwindow-loading-assistant-response =
     .aria-label = Loading assistant response
@@ -156,7 +156,6 @@ action-log-searched-open-tabs = Searched open tabs
 action-log-searching-history = Searching history
 action-log-searched-history = Searched history
 action-log-reading-page = Reading page
-# Read is past tense, to indicate that the action has been completed.
 action-log-read-page = Read page content
 action-log-searching-web = Searching the web
 action-log-searched-web = Searched the web
