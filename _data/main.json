@@ -645,6 +645,7 @@
     "action-log-read-page",
     "action-log-searching-web",
     "action-log-searched-web",
+    "action-log-searched-web-exa",
     "action-log-checking-memories",
     "action-log-checked-memories",
     "action-log-searching-settings",
@@ -4760,6 +4761,8 @@
     "browsing-use-cursor-navigation",
     "browsing-use-full-keyboard-navigation",
     "browsing-search-on-start-typing",
+    "settings-keyboard-shortcuts-group",
+    "settings-keyboard-shortcuts-customkeys-link",
     "settings-media-group",
     "browsing-picture-in-picture-toggle-enabled-2",
     "browsing-picture-in-picture-enable-when-switching-tabs",
@@ -4872,7 +4875,7 @@
     "containers-add-button2",
     "containers-new-tab-check3",
     "containers-settings-button2",
-    "containers-remove-button2",
+    "containers-remove-button3",
     "account-sync-section",
     "pane-account-sync-title2",
     "sync-group-label",
@@ -6011,6 +6014,7 @@
     "sidebar-bookmarks-folder-toolbar",
     "sidebar-bookmarks-folder-other",
     "sidebar-bookmarks-folder-mobile",
+    "sidebar-bookmarks-title",
     "sidebar-customize-title",
     "sidebar-history-title",
     "sidebar-syncedtabs-title",
@@ -13920,6 +13924,10 @@
   ],
   "toolkit/toolkit/global/resistFingerPrinting.ftl": [
     "privacy-spoof-english"
+  ],
+  "toolkit/toolkit/global/rosettaNotification.ftl": [
+    "rosetta-translated-message",
+    "rosetta-translated-launch-without-rosetta"
   ],
   "toolkit/toolkit/global/run-from-dmg.ftl": [
     "prompt-to-install-title",
