@@ -4221,7 +4221,10 @@
     "containers-name-label2",
     "containers-icon-label2",
     "containers-color-label2",
-    "containers-dialog"
+    "containers-dialog",
+    "containers-panel-title",
+    "containers-panel-create-button",
+    "containers-panel-cancel-button"
   ],
   "browser/browser/preferences/fonts.ftl": [
     "fonts-window",
@@ -9024,6 +9027,13 @@
     "options-webconsole-label",
     "options-webconsole-split-console-label",
     "options-webconsole-split-console-tooltip",
+    "options-netmonitor-label",
+    "options-netmonitor-body-limit-label",
+    "options-netmonitor-body-limit-tooltip",
+    "options-netmonitor-body-limit-unlimited-label",
+    "options-netmonitor-body-limit-button",
+    "options-netmonitor-body-limit-restore-default",
+    "options-netmonitor-body-limit-set",
     "options-styleeditor-label",
     "options-stylesheet-autocompletion-label",
     "options-stylesheet-autocompletion-tooltip",
@@ -13564,6 +13574,7 @@
     "user-context-banking",
     "user-context-shopping",
     "user-context-new-tab",
+    "user-context-add-container",
     "user-context-manage-containers",
     "user-context-color-blue",
     "user-context-color-cyan",
