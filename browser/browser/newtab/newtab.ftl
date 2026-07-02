@@ -99,6 +99,9 @@ home-prefs-privacy-header =
 # Stocks is a widget on New Tab that shows stock ticker prices.
 home-prefs-stocks-header =
     .label = Stocks
+# Picture of the day is a widget on New Tab that shows a daily Wikimedia Commons image.
+home-prefs-picture-header =
+    .label = Picture of the day
 home-prefs-mission-message2 =
     .message = Our sponsors support our mission to build a better web.
 home-prefs-manage-topics-link2 =
@@ -171,6 +174,36 @@ newtab-stocks-menu-search = Search ticker symbols
 newtab-stocks-menu-hide = Hide stocks
 # Context menu item linking to more information about the Stocks widget.
 newtab-stocks-menu-learn-more = Learn more
+
+## Strings for the Picture of the Day widget
+
+# Eyebrow shown at the top of the widget. Wikimedia Commons is a brand name and
+# should not be translated.
+newtab-picture-header = Picture of the day · Wikimedia Commons
+# Button that sets the current picture as the New Tab background wallpaper. The
+# button collapses to an icon when not hovered/focused, so .title is its tooltip.
+newtab-picture-set-wallpaper =
+    .label = Set wallpaper
+    .title = Set wallpaper
+    .aria-label = Set today’s picture as your wallpaper
+# Context menu item that opens the New Tab customization panel.
+newtab-picture-menu-manage-wallpaper = Manage wallpaper
+# Context menu item that hides today’s picture, replacing it with an existing
+# wallpaper.
+newtab-picture-menu-hide-photo = Hide today’s picture
+# Context menu item that restores today’s picture after it has been hidden.
+newtab-picture-menu-show-photo = Show today’s picture
+# Context menu item linking to more information about the widget.
+newtab-picture-menu-learn-more = Learn more
+# Icon button shown on the widget once the picture is hidden; restores it.
+newtab-picture-show-button =
+    .title = Show today’s picture
+    .aria-label = Show today’s picture
+# Shown when there is no new picture to display yet.
+newtab-picture-check-back = Check back tomorrow for a new picture
+# Screen-reader text alternative for the picture; fallback used when the source
+# provides no localized description.
+newtab-picture-image-alt = Wikimedia Commons picture of the day
 
 ## Search box component.
 
@@ -521,6 +554,8 @@ newtab-custom-widget-privacy-toggle =
     .label = Privacy
 newtab-custom-widget-stocks-toggle =
     .label = Stocks
+newtab-custom-widget-picture-toggle =
+    .label = Picture of the day
 newtab-custom-widget-section-title = Widgets
 newtab-custom-widget-section-toggle =
     .label = Widgets
