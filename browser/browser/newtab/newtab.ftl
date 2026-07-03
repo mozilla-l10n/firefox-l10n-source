@@ -1337,6 +1337,15 @@ newtab-sports-widget-message-day-in-play-body = Follow the World Cup, stay on ta
 newtab-sports-widget-message-explore-widgets-cta =
     .label = Explore widgets
 
+## Survey prompts shown after the World Cup to gather feedback on the widgets experience.
+
+newtab-sports-widget-message-survey-title = Help us make widgets better
+newtab-sports-widget-message-survey-body = That’s a wrap on the World Cup. Share your feedback on the experience.
+newtab-sports-widget-message-survey-widget-title = How was the World Cup widget?
+newtab-sports-widget-message-survey-widget-body = Share your feedback to help us improve future widgets. Then, try the new one in your lineup.
+newtab-sports-widget-message-survey-cta =
+    .label = Take survey
+
 ## Strings for activation window message variants. In certain experiment configurations,
 ## the strings from these variants may be displayed in a message below the search input
 ## for the first 48 hours of a new profile's lifetime. Some messages include buttons with
