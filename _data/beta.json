@@ -14346,6 +14346,8 @@
     "neterror-dns-not-found-hint-try-again",
     "neterror-dns-not-found-hint-check-network",
     "neterror-dns-not-found-hint-firewall",
+    "neterror-dns-not-found-hint-check-network-2",
+    "neterror-dns-not-found-hint-firewall-2",
     "neterror-dns-not-found-offline-hint-header",
     "neterror-dns-not-found-offline-hint-different-device",
     "neterror-dns-not-found-offline-hint-modem",
