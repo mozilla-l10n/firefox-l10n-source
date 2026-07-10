@@ -3617,6 +3617,8 @@
     "newtab-stocks-menu-learn-more",
     "newtab-picture-header",
     "newtab-picture-header-main",
+    "newtab-picture-attribution-author",
+    "newtab-picture-attribution-source-link",
     "newtab-picture-attribution-license",
     "newtab-picture-widget-menu-button",
     "newtab-picture-set-wallpaper",
@@ -7332,11 +7334,14 @@
     "Strings.MozillaMaintenanceDescription"
   ],
   "devtools/client/aboutdebugging.ftl": [
+    "about-debugging-sidebar",
     "about-debugging-page-title-setup-page",
     "about-debugging-page-title-runtime-page",
     "about-debugging-this-firefox-runtime-name",
-    "about-debugging-sidebar-this-firefox",
-    "about-debugging-sidebar-setup",
+    "about-debugging-sidebar-this-firefox2",
+    "about-debugging-sidebar-this-firefox-title",
+    "about-debugging-sidebar-setup2",
+    "about-debugging-sidebar-setup-title",
     "about-debugging-sidebar-usb-enabled",
     "about-debugging-sidebar-usb-disabled",
     "aboutdebugging-sidebar-runtime-connection-status-connected",
@@ -13620,7 +13625,9 @@
     "experimental-features-semantic-history-search",
     "experimental-features-semantic-history-search-description",
     "experimental-features-tab-notes",
-    "experimental-features-tab-notes-description"
+    "experimental-features-tab-notes-description",
+    "experimental-features-tab-context-menu",
+    "experimental-features-tab-context-menu-description"
   ],
   "toolkit/toolkit/formautofill/formAutofill.ftl": [
     "autofill-use-payment-method-os-prompt-macos",
