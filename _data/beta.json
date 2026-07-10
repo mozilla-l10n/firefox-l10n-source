@@ -8786,7 +8786,12 @@
     "toolbox-mode-parent-process-sub-label",
     "toolbox-mode-parent-process-container",
     "toolbox-always-on-top-enabled2",
-    "toolbox-always-on-top-disabled2"
+    "toolbox-always-on-top-disabled2",
+    "toolbox-local-mode-notice",
+    "toolbox-local-mode-notice-add-to-settings-button",
+    "toolbox-local-mode-notice-try-it-button",
+    "toolbox-local-mode-notice-navigate-to-existing-mapping",
+    "toolbox-local-mode-notice-always-hide"
   ],
   "devtools/client/toolbox.properties": [
     "toolbox.titleTemplate1",
