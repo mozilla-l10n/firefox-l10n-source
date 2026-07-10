@@ -312,8 +312,6 @@ newtab-privacy-message-first-protection-cta = View protections
 
 # Context menu item for searching stock ticker symbols.
 newtab-stocks-menu-search = Search ticker symbols
-# Context menu item that hides the Stocks widget.
-newtab-stocks-menu-hide = Hide stocks
 # Context menu item linking to more information about the Stocks widget.
 newtab-stocks-menu-learn-more = Learn more
 # "Stocks widget options" is an icon-only button in the widget toolbar — the
