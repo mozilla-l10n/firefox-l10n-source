@@ -1103,6 +1103,14 @@ urlbar-searchmode-no-keyword2 =
     .title = Keyword search is disabled
 urlbar-searchmode-dropmarker2 =
     .title = Pick a Search Engine
+urlbar-searchmode-bookmarks3 = Bookmarks
+    .accesskey = B
+urlbar-searchmode-tabs3 = Tabs
+    .accesskey = T
+urlbar-searchmode-history3 = History
+    .accesskey = H
+urlbar-searchmode-actions3 = Actions
+    .accesskey = A
 urlbar-searchmode-bookmarks2 = Bookmarks
 urlbar-searchmode-tabs2 = Tabs
 urlbar-searchmode-history2 = History
@@ -1122,6 +1130,10 @@ urlbar-searchmode-popup-one-off-header = This time search with:
 # Label shown on the top of Searchmode Switcher popup when the search engine won't automatically
 # reset after submitting.
 urlbar-searchmode-popup-header = Search with:
+urlbar-searchmode-popup-search-settings = Search Settings
+    .accesskey = S
+urlbar-searchmode-popup-settings = Settings
+    .accesskey = S
 urlbar-searchmode-popup-search-settings-panelitem = Search Settings
 urlbar-searchmode-popup-settings-panelitem = Settings
 
