@@ -308,3 +308,19 @@ aiwindow-ai-chat-grid-list-view =
 aiwindow-ai-chat-grid-grid-view =
     .aria-label = Switch mode: Grid View
     .tooltiptext = Grid View
+
+## Smart Window new-tab conversation starters
+## These are short suggested user queries used to prompt the AI assistant when clicked on.
+## They then become the first message in the conversation.
+## When localizing, please write them as short instructions a user would give to an assistant.
+## They should also be concise and direct, but not at the expense of losing meaning.
+
+aiwindow-starter-writing-first-draft = Write a first draft
+aiwindow-starter-writing-improve = Improve writing
+aiwindow-starter-writing-proofread = Proofread a message
+aiwindow-starter-planning-simplify = Simplify a topic
+aiwindow-starter-planning-brainstorm = Brainstorm ideas
+aiwindow-starter-planning-plan = Help make a plan
+aiwindow-starter-browsing-history = Find tabs in history
+aiwindow-starter-browsing-summarize = Summarize tabs
+aiwindow-starter-browsing-compare = Compare tabs

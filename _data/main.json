@@ -585,7 +585,16 @@
     "aiwindow-feedback-include-page-content",
     "aiwindow-ai-chat-grid-view-controls",
     "aiwindow-ai-chat-grid-list-view",
-    "aiwindow-ai-chat-grid-grid-view"
+    "aiwindow-ai-chat-grid-grid-view",
+    "aiwindow-starter-writing-first-draft",
+    "aiwindow-starter-writing-improve",
+    "aiwindow-starter-writing-proofread",
+    "aiwindow-starter-planning-simplify",
+    "aiwindow-starter-planning-brainstorm",
+    "aiwindow-starter-planning-plan",
+    "aiwindow-starter-browsing-history",
+    "aiwindow-starter-browsing-summarize",
+    "aiwindow-starter-browsing-compare"
   ],
   "browser/browser/aiWindowContent.ftl": [
     "smartwindow-messages-document-title",
@@ -826,17 +835,12 @@
     "appmenuitem-vpn-description3",
     "appmenu-services-header",
     "appmenu-other-protection-header3",
-    "appmenu-profiles-header",
-    "appmenu-all-profiles",
-    "appmenu-secure-sync-header",
     "appmenu-profiles-2",
     "appmenu-other-profiles",
     "appmenu-manage-profiles",
     "appmenu-copy-profile",
-    "appmenu-create-profile2",
-    "appmenu-edit-profile",
-    "appmenu-edit-this-profile",
-    "appmenu-profile-current-in-use"
+    "appmenu-create-profile",
+    "appmenu-edit-profile"
   ],
   "browser/browser/backgroundtasks/defaultagent.ftl": [
     "default-browser-agent-task-description",
@@ -997,6 +1001,8 @@
     "urlbar-result-menu-report-inaccurate-location2",
     "urlbar-result-menu-show-less-frequently2",
     "urlbar-result-menu-dont-show-weather-suggestions2",
+    "urlbar-input-dismiss-autofill",
+    "urlbar-input-remove-from-history",
     "urlbar-splitbutton-dropmarker",
     "urlbar-feedback-acknowledgment",
     "urlbar-dismissal-acknowledgment-weather",
@@ -1828,7 +1834,8 @@
     "customize-mode-uidensity-menu-normal",
     "customize-mode-uidensity-menu-compact-unsupported",
     "customize-mode-undo-cmd",
-    "customize-mode-lwthemes-link",
+    "customize-mode-uidensity-link",
+    "customize-mode-lwthemes-link-2",
     "customize-mode-touchbar-cmd",
     "customize-mode-downloads-button-autohide"
   ],
@@ -13945,7 +13952,12 @@
     "choose-other-app-description",
     "choose-app-btn",
     "choose-other-app-window-title",
-    "choose-dialog-privatebrowsing-disabled"
+    "choose-dialog-privatebrowsing-disabled",
+    "mailto-handler-picker-window",
+    "mailto-handler-picker-subtitle",
+    "mailto-handler-picker-always-ask",
+    "mailto-handler-picker-set-default",
+    "mailto-handler-picker-not-now"
   ],
   "toolkit/toolkit/global/htmlForm.ftl": [
     "input-file-and-more-files",

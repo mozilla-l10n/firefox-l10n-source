@@ -335,9 +335,9 @@ appmenu-other-protection-header = Try other protection tools from { -vendor-shor
 
 appmenu-other-profiles = Other profiles
 appmenu-manage-profiles =
-    .label = Manage Profiles
+    .label = Manage profiles
 appmenu-copy-profile =
-    .label = Copy This Profile
+    .label = Copy this profile
 appmenu-create-profile2 =
     .label = Create a New Profile
 appmenu-create-profile =
