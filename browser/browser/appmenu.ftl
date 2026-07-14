@@ -17,10 +17,6 @@ appmenuitem-banner-update-restart =
     .label = Update available — restart now
 appmenu-nova-update-title = Restart to update { -brand-short-name }
 appmenu-nova-update-description = Your tabs will reopen.
-# Fresh Firefox refers to the new updated UI
-appmenu-nova-update-promo =
-    .message = Get a fresh { -brand-short-name }. Keep all your tabs.
-appmenu-nova-update-link = Restart to update
 appmenu-nova-fxa-sign-in = Sign in
 appmenu-nova-switch-device-promo =
     .message = Getting a new device soon? Take { -brand-short-name } with you!
