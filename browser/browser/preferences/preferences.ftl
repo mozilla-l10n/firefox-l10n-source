@@ -191,6 +191,7 @@ windows-launch-on-login =
     .label = Open { -brand-short-name } automatically when your computer starts up
     .accesskey = O
 windows-launch-on-login-disabled = This preference has been disabled in Windows. To change, visit <a data-l10n-name="startup-link">Startup Apps</a> in System settings.
+# Option to also opens a new tab, in addition to restoring previous tabs and windows
 windows-launch-on-login-open-new-tab =
     .label = Also open a new tab
     .accesskey = n
@@ -775,7 +776,7 @@ update-setting-write-failure-title2 = Error saving Update settings
 # The newlines between the main text and the line containing the path is
 # intentional so the path is easier to identify.
 update-setting-write-failure-message2 =
-    { -brand-short-name } encountered an error and didn’t save this change. Note that changing this update setting requires permission to write to the file below. You or a system administrator may be able resolve the error by granting the Users group full control to this file.
+    { -brand-short-name } encountered an error and didn’t save this change. Note that changing this update setting requires permission to write to the file below. You or a system administrator may be able to resolve the error by granting the Users group full control to this file.
     
     Could not write to file: { $path }
 update-in-progress-title = Update In Progress
