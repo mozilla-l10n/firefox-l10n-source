@@ -516,6 +516,7 @@
     "aiwindow-firstrun-model-allpurpose-body",
     "aiwindow-firstrun-model-flexible-label",
     "aiwindow-firstrun-model-flexible-body",
+    "aiwindow-firstrun-model-recommended",
     "aiwindow-firstrun-button",
     "aiwindow-firstrun-back-button",
     "aiwindow-firstrun-next-button",
@@ -2997,7 +2998,11 @@
     "relay-50-masks-announcement-secondary-button",
     "nova-early-access-infobar-title",
     "nova-early-access-share-feedback-link",
-    "nova-early-access-infobar-primary-button"
+    "nova-early-access-infobar-primary-button",
+    "app-exit-spotlight-title",
+    "app-exit-spotlight-checkbox-launch-on-login",
+    "app-exit-spotlight-checkbox-pin-to-taskbar",
+    "app-exit-spotlight-primary-button"
   ],
   "browser/browser/newtab/newtab.ftl": [
     "newtab-page-title",
@@ -3545,6 +3550,7 @@
     "home-prefs-sports-widget-header",
     "home-prefs-clocks-header",
     "home-prefs-privacy-header",
+    "home-prefs-crossword-widget-header",
     "home-prefs-stocks-header",
     "home-prefs-picture-header",
     "home-prefs-mission-message2",
@@ -4187,6 +4193,7 @@
     "policy-Containers",
     "policy-DisableAccounts",
     "policy-DisabledCiphers",
+    "policy-DefaultBrowserSettingEnabled",
     "policy-DefaultDownloadDirectory",
     "policy-DefaultSerialGuardSetting",
     "policy-DisableAppUpdate",
@@ -4296,6 +4303,24 @@
     "app-manager-handle-file",
     "app-manager-web-app-info",
     "app-manager-local-app-info"
+  ],
+  "browser/browser/preferences/browserIcon.ftl": [
+    "appearance-browser-icon-entry-group",
+    "appearance-browser-icon-button",
+    "appearance-browser-icon-subpage-title",
+    "appearance-browser-icon-basic-group",
+    "appearance-browser-icon-bonus-group",
+    "appearance-browser-icon-requirement",
+    "appearance-browser-icon-set-default-button",
+    "appearance-browser-icon-pin-button",
+    "appearance-browser-icon-default",
+    "appearance-browser-icon-retro2004",
+    "appearance-browser-icon-retro2017",
+    "appearance-browser-icon-pride",
+    "appearance-browser-icon-minimal",
+    "appearance-browser-icon-kit",
+    "appearance-browser-icon-pixelated",
+    "appearance-browser-icon-momo"
   ],
   "browser/browser/preferences/clearSiteData.ftl": [
     "clear-site-data-window2",

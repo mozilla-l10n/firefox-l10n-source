@@ -115,6 +115,8 @@ aiwindow-firstrun-model-allpurpose-body = Solid fit for most needs
 # $shortName (string) - The short name of the model version
 aiwindow-firstrun-model-flexible-label = Flexible: { $shortName }
 aiwindow-firstrun-model-flexible-body = Ready for a variety of tasks
+# Recommended represents the chat brand and model we recommend for users. Only affects European users.
+aiwindow-firstrun-model-recommended = Recommended
 aiwindow-firstrun-model-personal-label = Personal
 aiwindow-firstrun-model-personal-body = Most tailored answers
 # $shortName (string) - The short name of the model version
