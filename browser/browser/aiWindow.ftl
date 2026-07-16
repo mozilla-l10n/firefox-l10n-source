@@ -47,6 +47,9 @@ ai-window-toggleview-open-private =
     .label = Open New Private Window
 ai-window-toggleview-status-label-active = { -smart-window-brand-name }
 ai-window-toggleview-status-label-inactive = Classic Window
+toolbar-switcher-customizable-label =
+    .label = { -smart-window-brand-name } switcher
+    .tooltiptext = Switch between Smart and Classic windows.
 
 ## Input CTA
 
