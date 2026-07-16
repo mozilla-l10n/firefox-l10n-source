@@ -2058,6 +2058,7 @@
     "genai-prompts-quiz",
     "genai-prompts-explain",
     "genai-prompts-proofread",
+    "genai-menu-ask-smart-window",
     "genai-menu-no-provider-2",
     "genai-menu-choose-chatbot",
     "genai-menu-ask-generic-2",
@@ -2070,6 +2071,7 @@
     "genai-shortcut-button",
     "genai-menu-new-badge",
     "genai-menu-summarize-page",
+    "genai-input-ask-smart-window",
     "genai-input-ask-generic",
     "genai-input-ask-provider",
     "genai-shortcuts-selected-warning-generic",
@@ -8786,7 +8788,12 @@
     "toolbox-mode-parent-process-sub-label",
     "toolbox-mode-parent-process-container",
     "toolbox-always-on-top-enabled2",
-    "toolbox-always-on-top-disabled2"
+    "toolbox-always-on-top-disabled2",
+    "toolbox-local-mode-notice",
+    "toolbox-local-mode-notice-add-to-settings-button",
+    "toolbox-local-mode-notice-try-it-button",
+    "toolbox-local-mode-notice-navigate-to-existing-mapping",
+    "toolbox-local-mode-notice-always-hide"
   ],
   "devtools/client/toolbox.properties": [
     "toolbox.titleTemplate1",
