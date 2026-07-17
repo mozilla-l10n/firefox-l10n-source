@@ -317,6 +317,8 @@ newtab-privacy-message-first-protection-cta = View protections
 newtab-stocks-menu-search = Search ticker symbols
 # Context menu item linking to more information about the Stocks widget.
 newtab-stocks-menu-learn-more = Learn more
+# Shown in the Stocks widget when its data could not be loaded.
+newtab-stocks-error-not-available = Stock data is not available.
 # "Stocks widget options" is an icon-only button in the widget toolbar — the
 # attributes are consumed as tooltip/screen-reader label only. The button
 # never renders visible text.
@@ -731,8 +733,6 @@ newtab-custom-widget-lists-toggle =
     .label = Lists
 newtab-custom-widget-timer-toggle =
     .label = Timer
-newtab-custom-widget-sports-toggle =
-    .label = World Cup
 newtab-custom-widget-clock-toggle =
     .label = Clock
 newtab-custom-widget-sports-toggle2 =
@@ -1302,8 +1302,6 @@ newtab-sports-widget-menu-learn-more = Learn more
 # “Keep tabs on” is an informal expression meaning to stay updated on, stay informed on, or regularly follow something (in this case, World Cup matches and updates).
 newtab-sports-widget-keep-tabs = Keep tabs on the World Cup
 newtab-sports-widget-get-updates = Get live match updates and more.
-newtab-sports-widget-view-schedule =
-    .label = View schedule
 newtab-sports-widget-follow-teams =
     .label = Follow teams
 newtab-sports-widget-view-matches =

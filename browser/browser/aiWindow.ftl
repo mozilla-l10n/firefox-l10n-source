@@ -26,9 +26,6 @@ smartwindow-document-title = New Tab
 
 ## Smart Window Toggle Button
 
-toolbar-button-ai-window-toggle =
-    .label = Window Type
-    .tooltiptext = Switch between Smart and Classic windows.
 ai-window-toggleview-switch-classic =
     .label = Classic Window
     .value = Classic Window
@@ -47,6 +44,9 @@ ai-window-toggleview-open-private =
     .label = Open New Private Window
 ai-window-toggleview-status-label-active = { -smart-window-brand-name }
 ai-window-toggleview-status-label-inactive = Classic Window
+toolbar-switcher-customizable-label =
+    .label = { -smart-window-brand-name } switcher
+    .tooltiptext = Switch between Smart and Classic windows.
 
 ## Input CTA
 
@@ -170,6 +170,12 @@ aiwindow-firstrun-default-checkbox-description = Switch in settings anytime
 
 smartwindow-ask-button =
     .label = Ask
+
+## Group My Tabs Toolbar Button
+
+smartwindow-group-tabs-button =
+    .label = Group my tabs
+    .tooltiptext = Group my tabs
 
 ## Memories toggle button
 
