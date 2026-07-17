@@ -4235,6 +4235,7 @@
     "policy-Bookmarks",
     "policy-CaptivePortal",
     "policy-CertificatesDescription",
+    "policy-CNSA2KeyAgreementEnabled",
     "policy-ContentAnalysis",
     "policy-Cookies",
     "policy-Containers",
