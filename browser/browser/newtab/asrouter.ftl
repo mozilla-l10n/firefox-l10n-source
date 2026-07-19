@@ -525,10 +525,3 @@ launch-options-spotlight-checkbox-restore-previous = Reopen previous windows and
 launch-options-spotlight-primary-button-close = Save and close { -brand-short-name }
 # Primary button on the browser-launch prompt
 launch-options-spotlight-primary-button-launch = Save and continue
-
-## App Exit Spotlight dialog
-
-app-exit-spotlight-title = Start { -brand-short-name } every time you sign in to Windows?
-app-exit-spotlight-checkbox-launch-on-login = Open { -brand-short-name } at startup
-app-exit-spotlight-checkbox-pin-to-taskbar = Pin to your taskbar
-app-exit-spotlight-primary-button = Save and close { -brand-short-name }
