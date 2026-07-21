@@ -958,6 +958,13 @@ urlbar-result-explanation-bookmarked = Bookmarked { $date }
 # Variables:
 #   $date (string) - A localized relative date string
 urlbar-result-explanation-last-visited-relative-2 = Last visited { $date }
+# This explanation is used when the last-visited date is a small number of days,
+# weeks, or months in the past.
+# Variables:
+#   $date (string) - A localized relative date string like one of the following:
+#                    "6 days ago", "1 week ago", "4 weeks ago", "1 month ago",
+#                    "11 months ago"
+urlbar-result-explanation-last-visited-days-weeks-months-ago = Last visited { $date }
 # This explanation is used when the last-visited date is a small number of days
 # in the past.
 # Variables:
@@ -1629,8 +1636,8 @@ reset-pbm-panel-confirm-button =
     .accesskey = D
 reset-pbm-panel-complete = Private session data deleted
 reset-pbm-toolbar-button2 =
-    .label = Clear Private Session
-    .tooltiptext = Clear Private Session
+    .label = Clear private session
+    .tooltiptext = Clear private session
 
 ## Autorefresh blocker
 
