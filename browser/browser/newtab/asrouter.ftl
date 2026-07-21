@@ -295,6 +295,20 @@ launch-on-login-infobar-final-message = <strong>Open { -brand-short-name } every
 launch-on-login-infobar-final-reject-button = No thanks
     .accesskey = N
 
+## Launch on login "show and tell" infobar notification
+##
+## Shown after Firefox has automatically launched at Windows sign-in (an
+## experiment enabled launch-on-login for the user), informing them that this
+## happened and letting them keep it on or turn it off.
+
+# "settings" refers to the Firefox settings (about:preferences), where
+# launch-on-login can be toggled, not the Windows system settings.
+launch-on-login-autostart-infobar-message = { -brand-short-name } now starts up when you sign in to Windows. You can always change this later in settings.
+launch-on-login-autostart-infobar-keep-button = Keep on
+    .accesskey = K
+launch-on-login-autostart-infobar-turn-off-button = Turn off
+    .accesskey = T
+
 ## Launch on login spotlight
 ##
 ## Shown as a spotlight message when the user closes the browser, offering to set
@@ -494,9 +508,20 @@ nova-early-access-share-feedback-link = Share feedback
 nova-early-access-infobar-primary-button = Got it
     .accesskey = G
 
-## App Exit Spotlight dialog
+## Firefox launch options spotlight
+##
+## Shown as a spotlight prompt on browser close or launch, offering
+## launch-on-login, taskbar pinning, and session restore.
 
-app-exit-spotlight-title = Start { -brand-short-name } every time you sign in to Windows?
-app-exit-spotlight-checkbox-launch-on-login = Open { -brand-short-name } at startup
-app-exit-spotlight-checkbox-pin-to-taskbar = Pin to your taskbar
-app-exit-spotlight-primary-button = Save and close { -brand-short-name }
+launch-options-spotlight-title-launch-on-login = Start { -brand-short-name } every time you sign in to Windows?
+launch-options-spotlight-title-session-restore = Reopen your session when { -brand-short-name } restarts?
+launch-options-spotlight-checkbox-launch-on-login = Open { -brand-short-name } at startup
+launch-options-spotlight-checkbox-pin-to-taskbar = Pin to your taskbar
+# Shown on the browser-close prompt only
+launch-options-spotlight-checkbox-restore-current = Reopen current windows and tabs
+# Shown on the browser-launch prompt only
+launch-options-spotlight-checkbox-restore-previous = Reopen previous windows and tabs
+# Primary button on the browser-close prompt
+launch-options-spotlight-primary-button-close = Save and close { -brand-short-name }
+# Primary button on the browser-launch prompt
+launch-options-spotlight-primary-button-launch = Save and continue
