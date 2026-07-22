@@ -171,6 +171,37 @@ autofill-card-network = Card Type
 # methods in their region.
 autofill-card-search-term-credit-cards = credit cards, credit, cards, debit cards, debit, wallet, checkout
 
+## The passport autofill management dialog in browser preferences
+
+# The dialog title for creating a passport in browser preferences.
+autofill-add-passport-title = Add passport
+# The dialog title for editing a passport in browser preferences.
+autofill-edit-passport-title = Edit passport
+
+## Passport field labels shared by the passport capture doorhanger and the
+## passport management dialog. The labels are exposed as a .label attribute so
+## they can be assigned directly to moz-input-text and moz-select fields.
+
+autofill-passport-name =
+    .label = Name
+autofill-passport-country =
+    .label = Country
+autofill-passport-number =
+    .label = Number
+# Heading shown above the passport issue date fields.
+autofill-passport-issue-date = Issue date
+# Heading shown above the passport expiration date fields.
+autofill-passport-expiry-date = Expiration date
+# Month dropdown label for passport dates.
+autofill-passport-date-month =
+    .label = MM
+# Day dropdown label for passport dates.
+autofill-passport-date-day =
+    .label = DD
+# Year dropdown label for passport dates.
+autofill-passport-date-year =
+    .label = YYYY
+
 ## These are brand names and should only be translated when a locale-specific name for that brand is in common use
 
 autofill-card-network-amex = American Express
