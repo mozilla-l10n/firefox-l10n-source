@@ -1704,6 +1704,8 @@
     "confirmation-hint-address-updated",
     "confirmation-hint-credit-card-created",
     "confirmation-hint-credit-card-updated",
+    "confirmation-hint-passport-created",
+    "confirmation-hint-passport-updated",
     "confirmation-hint-pin-tab",
     "confirmation-hint-pin-tab-description",
     "confirmation-hint-send-to-device",
@@ -4559,7 +4561,13 @@
     "autofill-passport-expiry-date",
     "autofill-passport-date-month",
     "autofill-passport-date-day",
-    "autofill-passport-date-year"
+    "autofill-passport-date-year",
+    "passport-capture-save-doorhanger-header",
+    "passport-capture-save-doorhanger-description",
+    "passport-capture-date-part-aria-label",
+    "passport-capture-save-button",
+    "passport-capture-not-now-button",
+    "passport-capture-never-save-button"
   ],
   "browser/browser/preferences/fxaPairDevice.ftl": [
     "fxa-pair-device-dialog-sync2",
