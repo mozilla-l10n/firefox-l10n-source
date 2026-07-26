@@ -638,5 +638,5 @@ smartwindow-sidebar-auto-open-callout-rejected-subtitle = If you change your min
 ## Theme Picker screen strings
 
 onboarding-theme-picker-title = Pick a theme
-onboarding-theme-picker-subtitle = Bring a little more color in to { -brand-short-name }.
+onboarding-theme-picker-subtitle = Bring a little more color into { -brand-short-name }.
 onboarding-theme-picker-button-label = Save and continue
