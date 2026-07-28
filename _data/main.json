@@ -888,7 +888,9 @@
     "fxa-menu-create-profile-heading",
     "fxa-menu-create-profile-description",
     "fxa-menu-create-profile-confirm",
-    "fxa-menu-create-profile-learn-more"
+    "fxa-menu-create-profile-learn-more",
+    "appmenuitem-share-firefox-title",
+    "appmenuitem-share-firefox-description"
   ],
   "browser/browser/backgroundtasks/defaultagent.ftl": [
     "default-browser-agent-task-description",
