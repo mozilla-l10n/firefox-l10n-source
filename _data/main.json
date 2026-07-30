@@ -250,7 +250,7 @@
     "about-private-browsing-felt-privacy-v1-info-body",
     "about-private-browsing-felt-privacy-v1-info-link",
     "about-private-browsing-nova-info-header",
-    "about-private-browsing-nova-info-subheader",
+    "about-private-browsing-nova-info-subheader2",
     "about-private-browsing-nova-info-body",
     "about-private-browsing-nova-info-link"
   ],
@@ -845,6 +845,7 @@
     "appmenu-search-history",
     "appmenu-help-and-report-header",
     "appmenu-about",
+    "appmenu-referrals",
     "appmenu-get-help",
     "appmenu-help-more-troubleshooting-info",
     "appmenu-help-share-ideas",
@@ -888,7 +889,9 @@
     "fxa-menu-create-profile-heading",
     "fxa-menu-create-profile-description",
     "fxa-menu-create-profile-confirm",
-    "fxa-menu-create-profile-learn-more"
+    "fxa-menu-create-profile-learn-more",
+    "appmenuitem-share-firefox-title",
+    "appmenuitem-share-firefox-description"
   ],
   "browser/browser/backgroundtasks/defaultagent.ftl": [
     "default-browser-agent-task-description",
@@ -2667,6 +2670,7 @@
     "menu-application-preferences",
     "menu-application-settings",
     "menu-application-set-as-default",
+    "menu-application-referrals",
     "menu-application-services",
     "menu-application-hide-this",
     "menu-application-hide-other",
@@ -2768,7 +2772,8 @@
     "menu-help-switch-device",
     "menu-help-report-deceptive-site",
     "menu-help-not-deceptive",
-    "menu-report-broken-site"
+    "menu-report-broken-site",
+    "menu-referrals"
   ],
   "browser/browser/migrationWizard.ftl": [
     "migration-wizard-selection-header",
@@ -14334,6 +14339,36 @@
     "text-action-copy-link-to-highlight",
     "text-action-copy-clean-link-to-highlight",
     "text-action-remove-highlight"
+  ],
+  "toolkit/toolkit/global/theme-picker.ftl": [
+    "theme-picker-mode-light",
+    "theme-picker-mode-dark",
+    "theme-picker-mode-device",
+    "theme-picker-use-linux-theme",
+    "theme-picker-default",
+    "theme-picker-sun",
+    "theme-picker-spark",
+    "theme-picker-flame",
+    "theme-picker-flare",
+    "theme-picker-lavender",
+    "theme-picker-dusk",
+    "theme-picker-lagoon",
+    "theme-picker-pine",
+    "theme-picker-tide",
+    "theme-picker-ash",
+    "theme-picker-smoke",
+    "theme-picker-default-aria-label",
+    "theme-picker-sun-aria-label",
+    "theme-picker-spark-aria-label",
+    "theme-picker-flame-aria-label",
+    "theme-picker-flare-aria-label",
+    "theme-picker-lavender-aria-label",
+    "theme-picker-dusk-aria-label",
+    "theme-picker-lagoon-aria-label",
+    "theme-picker-pine-aria-label",
+    "theme-picker-tide-aria-label",
+    "theme-picker-ash-aria-label",
+    "theme-picker-smoke-aria-label"
   ],
   "toolkit/toolkit/global/tree.ftl": [
     "tree-columnpicker-restore-order"
