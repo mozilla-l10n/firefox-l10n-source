@@ -6280,6 +6280,9 @@
     "sidebar-bookmarks-context-menu-delete-bookmark",
     "sidebar-bookmarks-context-menu-delete-separator",
     "sidebar-opentabs-context-close-tab",
+    "sidebar-opentabs-sort-by-heading",
+    "sidebar-opentabs-sort-option-order",
+    "sidebar-opentabs-sort-option-recency",
     "sidebar-menu-genai-chat-label",
     "sidebar-menu-history-label",
     "sidebar-menu-synced-tabs-label",
@@ -8269,7 +8272,10 @@
     "inspector-emulation-panel-print",
     "inspector-emulation-panel-color-scheme-light",
     "inspector-emulation-panel-color-scheme-dark",
-    "inspector-emulation-panel-color-scheme-none"
+    "inspector-emulation-panel-color-scheme-none",
+    "inspector-emulation-panel-reduced-motion-reduce",
+    "inspector-emulation-panel-reduced-motion-no-preference",
+    "inspector-emulation-panel-reduced-motion-none"
   ],
   "devtools/client/inspector.properties": [
     "inspector.panelLabel.markupView",
