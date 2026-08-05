@@ -11973,6 +11973,7 @@
     "loginHostAge",
     "noUsername",
     "displaySameOrigin",
+    "autocompleteEditLogin",
     "insecureFieldWarningDescription2",
     "insecureFieldWarningLearnMore",
     "managePasswords.label"

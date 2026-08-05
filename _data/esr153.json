@@ -3752,6 +3752,7 @@
     "policy-Containers",
     "policy-DisableAccounts",
     "policy-DisabledCiphers",
+    "policy-DefaultBrowserSettingEnabled",
     "policy-DefaultDownloadDirectory",
     "policy-DefaultSerialGuardSetting",
     "policy-DisableAppUpdate",
