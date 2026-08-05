@@ -839,6 +839,14 @@
     "profiler-popup-presets-web-compat-label",
     "profiler-popup-presets-custom-label",
     "appmenu-manage-history",
+    "appmenu-sync-promo-signin",
+    "appmenu-sync-promo-signin-cta",
+    "appmenu-sync-promo-turnonsync",
+    "appmenu-sync-promo-turnonsync-cta",
+    "appmenu-sync-promo-connectdevice",
+    "appmenu-sync-promo-connectdevice-cta",
+    "appmenu-bookmarks-sync-promo-turnonsync",
+    "appmenu-bookmarks-sync-promo-connectdevice",
     "appmenu-restore-session",
     "appmenu-clear-history",
     "appmenu-recent-history-subheader",
@@ -3136,6 +3144,11 @@
     "newtab-confirm-delete-history-p2",
     "newtab-topsite-sponsored",
     "topsite-label-pinned",
+    "newtab-topsites-hover-card-header",
+    "newtab-topsites-hover-card-just-now",
+    "newtab-topsites-hover-card-mark-all-read",
+    "newtab-topsites-hover-card-settings",
+    "newtab-topsites-hover-card-dismiss",
     "newtab-menu-section-tooltip",
     "newtab-menu-content-tooltip",
     "newtab-menu-edit-topsites",
@@ -3187,6 +3200,7 @@
     "newtab-error-fallback-refresh-link",
     "newtab-custom-shortcuts-toggle",
     "newtab-custom-shortcuts-nova",
+    "newtab-custom-web-notifications-toggle",
     "newtab-custom-row-description",
     "newtab-custom-row-selector2",
     "newtab-custom-stories-toggle",
@@ -14343,6 +14357,9 @@
   ],
   "toolkit/toolkit/global/mozPageHeader.ftl": [
     "back-nav-button-title2"
+  ],
+  "toolkit/toolkit/global/mozPromo.ftl": [
+    "moz-promo-close-button"
   ],
   "toolkit/toolkit/global/mozSupportLink.ftl": [
     "moz-support-link-text"
