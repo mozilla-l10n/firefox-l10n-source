@@ -4694,6 +4694,7 @@
     "address-capture-edit-doorhanger-header",
     "address-capture-save-button",
     "address-capture-not-now-button",
+    "address-capture-never-save-button",
     "address-capture-cancel-button",
     "address-capture-update-button",
     "address-capture-manage-address-button",
