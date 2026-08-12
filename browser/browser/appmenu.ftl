@@ -118,6 +118,9 @@ appmenuitem-fxa-sign-in = Sign in to { -brand-product-name }
 appmenuitem-fxa-manage-account = Manage account
 fxa-menu-sync-status-on = Sync is On
 fxa-menu-sync-status-off = Sync is Off
+# Shown in place of "Sync is Off" on the sync status button when the user has
+# never signed in. Sync is a verb, short for synchronize.
+fxa-menu-sync-your-data = Sync Your Data
 # Shown as a secondary label under "Sync is Off" when the user is signed in but
 # sync is turned off.
 fxa-menu-sync-off-data-description = Your data isn’t syncing
@@ -131,13 +134,13 @@ fxa-menu-sync-off-signin-description = Sign in to sync
 # Sync is a verb, short for synchronize.
 # Variables:
 #   $deviceName (String): The name of the local device.
-fxa-menu-sync-device-now = Sync { $deviceName } now
+fxa-menu-sync-device-now = Sync { $deviceName } Now
 fxa-menu-manage-sync-settings =
-    .label = Manage sync settings
+    .label = Manage Sync Settings
 fxa-menu-add-device =
-    .label = Add a device
+    .label = Add a Device
 fxa-menu-manage-devices =
-    .label = Manage your devices
+    .label = Manage Your Devices
 fxa-menu-device-missing =
     .label = Don’t See Your Device?
 # Mozilla account menu item when selected opens a panel with all devices synced to the user's account
@@ -433,7 +436,7 @@ fxa-menu-create-profile-subpanel =
 fxa-menu-create-profile-heading = Level up your browsing with a new profile
 fxa-menu-create-profile-description = Keep your bookmarks, passwords, and history separate for work and personal browsing.
 fxa-menu-create-profile-confirm =
-    .label = Create New profile
+    .label = Create new profile
 fxa-menu-create-profile-learn-more =
     .label = What Are Profiles?
 # Button in the account menu that links to the Referrals page
