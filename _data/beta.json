@@ -688,7 +688,8 @@
     "action-log-checking-world-cup-live",
     "action-log-checked-world-cup-live",
     "action-log-completed-steps",
-    "smartwindow-search-loader-text"
+    "smartwindow-search-loader-text",
+    "smartwindow-assistant-citations-more-label"
   ],
   "browser/browser/allTabsMenu.ftl": [
     "all-tabs-menu-search-all-tabs",
