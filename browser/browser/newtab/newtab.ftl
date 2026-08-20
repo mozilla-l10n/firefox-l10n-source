@@ -413,7 +413,11 @@ newtab-stocks-search-error = Couldn’t search right now. Try again later.
 # Shown below successful search results when the watchlist is already full.
 # Variables:
 #   $limit (Number) - the maximum number of stocks the watchlist can hold.
-newtab-stocks-watchlist-full = You can add up to { $limit } stocks. Remove one to add another.
+newtab-stocks-watchlist-full =
+    { $limit ->
+        [one] You can add up to { $limit } stock. Remove one to add another.
+       *[other] You can add up to { $limit } stocks. Remove one to add another.
+    }
 
 ## Strings for the Picture of the Day widget
 
