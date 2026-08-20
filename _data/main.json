@@ -3903,6 +3903,7 @@
     "newtab-stocks-search-no-results",
     "newtab-stocks-search-loading",
     "newtab-stocks-search-error",
+    "newtab-stocks-watchlist-full",
     "newtab-picture-header",
     "newtab-picture-header-main",
     "newtab-picture-attribution-author",
@@ -14416,6 +14417,7 @@
   ],
   "toolkit/toolkit/global/mozBoxBase.ftl": [
     "moz-box-link-anchor",
+    "moz-box-link-opens-in-new-tab",
     "moz-box-item-reorder-handle",
     "moz-box-item-reorder-handle-named"
   ],
