@@ -168,6 +168,10 @@ home-prefs-mission-message-learn-more-link-srd = Find out how
 
 # Context menu item linking to more information about the Privacy widget.
 newtab-privacy-menu-learn-more = Learn more
+# Accessible name for the Privacy widget container. The widget shows no visible
+# title, so screen readers rely on this label to identify it.
+newtab-privacy-widget-label =
+    .aria-label = Privacy
 
 ## Privacy widget — count readout
 
