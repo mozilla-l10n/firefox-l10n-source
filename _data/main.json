@@ -49,7 +49,7 @@
     "community-exp",
     "community-2",
     "helpus",
-    "helpus-referrals",
+    "helpus-referrals2",
     "bottomLinks-license",
     "bottom-links-terms",
     "bottom-links-privacy",
@@ -688,10 +688,6 @@
     "action-log-checked-memories",
     "action-log-searching-settings",
     "action-log-searched-settings",
-    "action-log-searching-world-cup-matches",
-    "action-log-searched-world-cup-matches",
-    "action-log-checking-world-cup-live",
-    "action-log-checked-world-cup-live",
     "action-log-completed-steps",
     "smartwindow-search-loader-text",
     "smartwindow-assistant-citations-more-label"
@@ -879,7 +875,7 @@
     "appmenu-search-history",
     "appmenu-help-and-report-header",
     "appmenu-about",
-    "appmenu-referrals",
+    "appmenu-referrals2",
     "appmenu-get-help",
     "appmenu-help-more-troubleshooting-info",
     "appmenu-help-share-ideas",
@@ -924,7 +920,7 @@
     "fxa-menu-create-profile-description",
     "fxa-menu-create-profile-confirm",
     "fxa-menu-create-profile-learn-more",
-    "appmenuitem-share-firefox-title",
+    "appmenuitem-share-firefox-title2",
     "appmenuitem-share-firefox-description"
   ],
   "browser/browser/backgroundtasks/defaultagent.ftl": [
@@ -2721,7 +2717,7 @@
     "menu-application-preferences",
     "menu-application-settings",
     "menu-application-set-as-default",
-    "menu-application-referrals",
+    "menu-application-referrals2",
     "menu-application-services",
     "menu-application-hide-this",
     "menu-application-hide-other",
@@ -2824,7 +2820,7 @@
     "menu-help-report-deceptive-site",
     "menu-help-not-deceptive",
     "menu-report-broken-site",
-    "menu-referrals"
+    "menu-referrals2"
   ],
   "browser/browser/migrationWizard.ftl": [
     "migration-wizard-selection-header",
@@ -3032,12 +3028,6 @@
     "pdf-default-notification-message",
     "pdf-default-notification-set-default-button",
     "pdf-default-notification-decline-button",
-    "launch-on-login-infobar-message",
-    "launch-on-login-learnmore",
-    "launch-on-login-infobar-confirm-button",
-    "launch-on-login-infobar-reject-button",
-    "launch-on-login-infobar-final-message",
-    "launch-on-login-infobar-final-reject-button",
     "launch-on-login-autostart-infobar-message",
     "launch-on-login-autostart-infobar-keep-button",
     "launch-on-login-autostart-infobar-turn-off-button",
@@ -3254,6 +3244,7 @@
     "newtab-custom-widget-privacy-toggle",
     "newtab-custom-widget-stocks-toggle",
     "newtab-custom-widget-picture-toggle",
+    "newtab-custom-widget-recent-searches-toggle",
     "newtab-custom-widget-section-title",
     "newtab-custom-widget-section-toggle",
     "newtab-widget-manage-title",
@@ -3796,6 +3787,7 @@
     "home-prefs-crossword-widget-header",
     "home-prefs-stocks-header",
     "home-prefs-picture-header",
+    "home-prefs-recent-searches-header",
     "home-prefs-mission-message2",
     "home-prefs-manage-topics-link2",
     "home-prefs-choose-wallpaper-link2",
@@ -3818,6 +3810,7 @@
     "home-prefs-weather-header-srd",
     "home-prefs-support-firefox-header-srd",
     "home-prefs-mission-message-learn-more-link-srd",
+    "newtab-privacy-widget-label",
     "newtab-privacy-menu-learn-more",
     "newtab-privacy-trackers-blocked-today",
     "newtab-privacy-across-sites",
@@ -3903,6 +3896,7 @@
     "newtab-stocks-search-no-results",
     "newtab-stocks-search-loading",
     "newtab-stocks-search-error",
+    "newtab-stocks-watchlist-full",
     "newtab-picture-header",
     "newtab-picture-header-main",
     "newtab-picture-attribution-author",
@@ -3916,7 +3910,10 @@
     "newtab-picture-menu-learn-more",
     "newtab-picture-show-button",
     "newtab-picture-check-back",
-    "newtab-picture-image-alt"
+    "newtab-picture-image-alt",
+    "newtab-recent-searches-widget-title",
+    "newtab-recent-searches-widget-menu-button",
+    "newtab-recent-searches-menu-learn-more"
   ],
   "browser/browser/newtab/onboarding.ftl": [
     "onboarding-welcome-header",
@@ -4717,7 +4714,7 @@
     "address-capture-edit-doorhanger-header",
     "address-capture-save-button",
     "address-capture-not-now-button",
-    "address-capture-never-save-button",
+    "address-capture-never-save-addresses-button",
     "address-capture-cancel-button",
     "address-capture-update-button",
     "address-capture-manage-address-button",
@@ -5814,8 +5811,8 @@
     "security-privacy-issue-warning-doh2",
     "security-privacy-issue-warning-ech2",
     "security-privacy-issue-warning-proxy-autodetection",
-    "referrals-section-header",
-    "referrals-link"
+    "referrals-section-header2",
+    "referrals-link2"
   ],
   "browser/browser/preferences/selectBookmark.ftl": [
     "select-bookmark-window2",
@@ -6409,6 +6406,8 @@
     "share-panel-send-to-device",
     "share-panel-send-to-mobile",
     "share-panel-device-subview",
+    "share-panel-connect-device",
+    "share-panel-missing-device",
     "share-panel-os-share-subview"
   ],
   "browser/browser/sidebar.ftl": [
@@ -10244,7 +10243,8 @@
     "navigation",
     "search",
     "region",
-    "stateRequired"
+    "stateRequired",
+    "statePartiallyChecked"
   ],
   "dom/chrome/accessibility/mac/accessible.properties": [
     "jump",
@@ -14416,6 +14416,7 @@
   ],
   "toolkit/toolkit/global/mozBoxBase.ftl": [
     "moz-box-link-anchor",
+    "moz-box-link-opens-in-new-tab",
     "moz-box-item-reorder-handle",
     "moz-box-item-reorder-handle-named"
   ],
@@ -16100,12 +16101,6 @@
     "pdfjs-views-manager-status-undo-cut-label",
     "pdfjs-views-manager-pages-status-undo-copy-label",
     "pdfjs-views-manager-pages-status-undo-delete-label",
-    "pdfjs-views-manager-pages-status-waiting-ready-label",
-    "pdfjs-views-manager-pages-status-waiting-uploading-label",
-    "pdfjs-views-manager-status-warning-cut-label",
-    "pdfjs-views-manager-status-warning-copy-label",
-    "pdfjs-views-manager-status-warning-delete-label",
-    "pdfjs-views-manager-status-warning-save-label",
     "pdfjs-views-manager-status-undo-button-label",
     "pdfjs-views-manager-status-done-button-label",
     "pdfjs-views-manager-status-close-button",
