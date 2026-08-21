@@ -49,7 +49,7 @@
     "community-exp",
     "community-2",
     "helpus",
-    "helpus-referrals",
+    "helpus-referrals2",
     "bottomLinks-license",
     "bottom-links-terms",
     "bottom-links-privacy",
@@ -879,7 +879,7 @@
     "appmenu-search-history",
     "appmenu-help-and-report-header",
     "appmenu-about",
-    "appmenu-referrals",
+    "appmenu-referrals2",
     "appmenu-get-help",
     "appmenu-help-more-troubleshooting-info",
     "appmenu-help-share-ideas",
@@ -924,7 +924,7 @@
     "fxa-menu-create-profile-description",
     "fxa-menu-create-profile-confirm",
     "fxa-menu-create-profile-learn-more",
-    "appmenuitem-share-firefox-title",
+    "appmenuitem-share-firefox-title2",
     "appmenuitem-share-firefox-description"
   ],
   "browser/browser/backgroundtasks/defaultagent.ftl": [
@@ -2721,7 +2721,7 @@
     "menu-application-preferences",
     "menu-application-settings",
     "menu-application-set-as-default",
-    "menu-application-referrals",
+    "menu-application-referrals2",
     "menu-application-services",
     "menu-application-hide-this",
     "menu-application-hide-other",
@@ -2824,7 +2824,7 @@
     "menu-help-report-deceptive-site",
     "menu-help-not-deceptive",
     "menu-report-broken-site",
-    "menu-referrals"
+    "menu-referrals2"
   ],
   "browser/browser/migrationWizard.ftl": [
     "migration-wizard-selection-header",
@@ -4713,7 +4713,7 @@
     "address-capture-edit-doorhanger-header",
     "address-capture-save-button",
     "address-capture-not-now-button",
-    "address-capture-never-save-button",
+    "address-capture-never-save-addresses-button",
     "address-capture-cancel-button",
     "address-capture-update-button",
     "address-capture-manage-address-button",
@@ -5810,8 +5810,8 @@
     "security-privacy-issue-warning-doh2",
     "security-privacy-issue-warning-ech2",
     "security-privacy-issue-warning-proxy-autodetection",
-    "referrals-section-header",
-    "referrals-link"
+    "referrals-section-header2",
+    "referrals-link2"
   ],
   "browser/browser/preferences/selectBookmark.ftl": [
     "select-bookmark-window2",
@@ -10240,7 +10240,8 @@
     "navigation",
     "search",
     "region",
-    "stateRequired"
+    "stateRequired",
+    "statePartiallyChecked"
   ],
   "dom/chrome/accessibility/mac/accessible.properties": [
     "jump",
