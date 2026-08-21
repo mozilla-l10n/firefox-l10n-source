@@ -3248,6 +3248,7 @@
     "newtab-custom-widget-privacy-toggle",
     "newtab-custom-widget-stocks-toggle",
     "newtab-custom-widget-picture-toggle",
+    "newtab-custom-widget-recent-searches-toggle",
     "newtab-custom-widget-section-title",
     "newtab-custom-widget-section-toggle",
     "newtab-widget-manage-title",
@@ -3790,6 +3791,7 @@
     "home-prefs-crossword-widget-header",
     "home-prefs-stocks-header",
     "home-prefs-picture-header",
+    "home-prefs-recent-searches-header",
     "home-prefs-mission-message2",
     "home-prefs-manage-topics-link2",
     "home-prefs-choose-wallpaper-link2",
@@ -3912,7 +3914,10 @@
     "newtab-picture-menu-learn-more",
     "newtab-picture-show-button",
     "newtab-picture-check-back",
-    "newtab-picture-image-alt"
+    "newtab-picture-image-alt",
+    "newtab-recent-searches-widget-title",
+    "newtab-recent-searches-widget-menu-button",
+    "newtab-recent-searches-menu-learn-more"
   ],
   "browser/browser/newtab/onboarding.ftl": [
     "onboarding-welcome-header",
@@ -6405,6 +6410,8 @@
     "share-panel-send-to-device",
     "share-panel-send-to-mobile",
     "share-panel-device-subview",
+    "share-panel-connect-device",
+    "share-panel-missing-device",
     "share-panel-os-share-subview"
   ],
   "browser/browser/sidebar.ftl": [
