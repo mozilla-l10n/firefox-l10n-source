@@ -3224,6 +3224,11 @@
     "newtab-discovery-empty-section-topstories-try-again-button",
     "newtab-discovery-empty-section-topstories-loading",
     "newtab-discovery-empty-section-topstories-timed-out",
+    "newtab-carousel-slide",
+    "newtab-carousel-previous",
+    "newtab-carousel-next",
+    "newtab-carousel-pause",
+    "newtab-carousel-play",
     "newtab-error-fallback-info",
     "newtab-error-fallback-refresh-link",
     "newtab-custom-shortcuts-toggle",
@@ -15779,6 +15784,10 @@
     "credit-card-label-number-name-2",
     "credit-card-label-number-expiration-2",
     "credit-card-label-number-name-expiration-2"
+  ],
+  "toolkit/toolkit/pdfviewer/embedFallback.ftl": [
+    "pdfjs-embed-fallback-message",
+    "pdfjs-embed-fallback-open-button"
   ],
   "toolkit/toolkit/pdfviewer/viewer.ftl": [
     "pdfjs-previous-button",
