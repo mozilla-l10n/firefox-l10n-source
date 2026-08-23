@@ -1143,10 +1143,6 @@ urlbar-searchmode-history3 = History
     .accesskey = H
 urlbar-searchmode-actions3 = Actions
     .accesskey = A
-urlbar-searchmode-bookmarks2 = Bookmarks
-urlbar-searchmode-tabs2 = Tabs
-urlbar-searchmode-history2 = History
-urlbar-searchmode-actions2 = Actions
 urlbar-searchmode-exit-button2 =
     .title = Close
 urlbar-searchmode-default2 =
@@ -1166,8 +1162,6 @@ urlbar-searchmode-popup-search-settings = Search Settings
     .accesskey = S
 urlbar-searchmode-popup-settings = Settings
     .accesskey = S
-urlbar-searchmode-popup-search-settings-panelitem = Search Settings
-urlbar-searchmode-popup-settings-panelitem = Settings
 
 ## Action text shown in urlbar results, usually appended after the search
 ## string or the url, like "result value - action text".
