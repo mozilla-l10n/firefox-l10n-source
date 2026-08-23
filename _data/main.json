@@ -3918,7 +3918,10 @@
     "newtab-picture-image-alt",
     "newtab-recent-searches-widget-title",
     "newtab-recent-searches-widget-menu-button",
-    "newtab-recent-searches-menu-learn-more"
+    "newtab-recent-searches-menu-learn-more",
+    "newtab-spaces-tab-stories",
+    "newtab-spaces-tab-widgets",
+    "newtab-spaces-tab-activity"
   ],
   "browser/browser/newtab/onboarding.ftl": [
     "onboarding-welcome-header",
@@ -12341,6 +12344,34 @@
     "crashreporter-error-moving-path",
     "crashreporter-error-version-eol",
     "crashreporter-error-failed-to-generate-minidump"
+  ],
+  "toolkit/services/aboutSyncLog.ftl": [
+    "about-sync-log-title",
+    "about-sync-log-page-header",
+    "about-sync-log-filter-type",
+    "about-sync-log-filter-type-all",
+    "about-sync-log-filter-type-success",
+    "about-sync-log-filter-type-error",
+    "about-sync-log-filter-date",
+    "about-sync-log-filter-date-all",
+    "about-sync-log-filter-date-today",
+    "about-sync-log-filter-date-7days",
+    "about-sync-log-filter-date-30days",
+    "about-sync-log-search-input",
+    "about-sync-log-refresh-button",
+    "about-sync-log-download-button",
+    "about-sync-log-clear-button",
+    "about-sync-log-count",
+    "about-sync-log-badge-success",
+    "about-sync-log-badge-error",
+    "about-sync-log-row-size",
+    "about-sync-log-empty",
+    "about-sync-log-empty-filtered",
+    "about-sync-log-view-error",
+    "about-sync-log-open-raw",
+    "about-sync-log-clear-confirm-title",
+    "about-sync-log-clear-confirm-message",
+    "about-sync-log-clear-confirm-accept"
   ],
   "toolkit/services/accounts.ftl": [
     "account-client-name"
