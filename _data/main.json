@@ -3224,6 +3224,11 @@
     "newtab-discovery-empty-section-topstories-try-again-button",
     "newtab-discovery-empty-section-topstories-loading",
     "newtab-discovery-empty-section-topstories-timed-out",
+    "newtab-carousel-slide",
+    "newtab-carousel-previous",
+    "newtab-carousel-next",
+    "newtab-carousel-pause",
+    "newtab-carousel-play",
     "newtab-error-fallback-info",
     "newtab-error-fallback-refresh-link",
     "newtab-custom-shortcuts-toggle",
@@ -3913,7 +3918,10 @@
     "newtab-picture-image-alt",
     "newtab-recent-searches-widget-title",
     "newtab-recent-searches-widget-menu-button",
-    "newtab-recent-searches-menu-learn-more"
+    "newtab-recent-searches-menu-learn-more",
+    "newtab-spaces-tab-stories",
+    "newtab-spaces-tab-widgets",
+    "newtab-spaces-tab-activity"
   ],
   "browser/browser/newtab/onboarding.ftl": [
     "onboarding-welcome-header",
@@ -12337,6 +12345,34 @@
     "crashreporter-error-version-eol",
     "crashreporter-error-failed-to-generate-minidump"
   ],
+  "toolkit/services/aboutSyncLog.ftl": [
+    "about-sync-log-title",
+    "about-sync-log-page-header",
+    "about-sync-log-filter-type",
+    "about-sync-log-filter-type-all",
+    "about-sync-log-filter-type-success",
+    "about-sync-log-filter-type-error",
+    "about-sync-log-filter-date",
+    "about-sync-log-filter-date-all",
+    "about-sync-log-filter-date-today",
+    "about-sync-log-filter-date-7days",
+    "about-sync-log-filter-date-30days",
+    "about-sync-log-search-input",
+    "about-sync-log-refresh-button",
+    "about-sync-log-download-button",
+    "about-sync-log-clear-button",
+    "about-sync-log-count",
+    "about-sync-log-badge-success",
+    "about-sync-log-badge-error",
+    "about-sync-log-row-size",
+    "about-sync-log-empty",
+    "about-sync-log-empty-filtered",
+    "about-sync-log-view-error",
+    "about-sync-log-open-raw",
+    "about-sync-log-clear-confirm-title",
+    "about-sync-log-clear-confirm-message",
+    "about-sync-log-clear-confirm-accept"
+  ],
   "toolkit/services/accounts.ftl": [
     "account-client-name"
   ],
@@ -15779,6 +15815,10 @@
     "credit-card-label-number-name-2",
     "credit-card-label-number-expiration-2",
     "credit-card-label-number-name-expiration-2"
+  ],
+  "toolkit/toolkit/pdfviewer/embedFallback.ftl": [
+    "pdfjs-embed-fallback-message",
+    "pdfjs-embed-fallback-open-button"
   ],
   "toolkit/toolkit/pdfviewer/viewer.ftl": [
     "pdfjs-previous-button",
