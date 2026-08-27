@@ -128,6 +128,7 @@ fxa-menu-sync-off-data-description = Your data isn’t syncing
 # turned off. Turns syncing on by opening sync preferences.
 fxa-menu-sync-status-turn-on-button =
     .label = Turn on
+fxa-menu-sync-status-turn-on-button-aria-label = Turn on
 # Shown as a secondary label under "Sync is Off" when the user needs to sign in
 # (again) for sync to work.
 fxa-menu-sync-off-signin-description = Sign in to sync
@@ -405,7 +406,6 @@ appmenuitem-vpn-title2 = Hide Your Location with { -mozilla-vpn-brand-name }
 appmenuitem-vpn-description5 = Get extra protection across devices
 # Shown in place of appmenuitem-vpn-title2 when the user has signed up for VPN.
 appmenuitem-vpn-title-signed-in1 = Download { -mozilla-vpn-brand-name }
-appmenuitem-vpn-description3 = Make your browsing harder to trace
 appmenuitem-vpn-title = { -mozilla-vpn-brand-name }
 appmenuitem-vpn-description-2 = Get whole-device protection
 appmenuitem-vpn-description = Protect your online activity
