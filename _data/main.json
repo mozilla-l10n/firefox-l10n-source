@@ -612,7 +612,9 @@
     "aiwindow-starter-planning-plan",
     "aiwindow-starter-browsing-history",
     "aiwindow-starter-browsing-summarize",
-    "aiwindow-starter-browsing-compare"
+    "aiwindow-starter-browsing-compare",
+    "aiwindow-starter-scroll-start",
+    "aiwindow-starter-scroll-end"
   ],
   "browser/browser/aiWindowContent.ftl": [
     "smartwindow-messages-document-title",
@@ -3402,6 +3404,8 @@
     "newtab-section-unfollow-button-label",
     "newtab-section-follow-highlight-title",
     "newtab-section-follow-highlight-subtitle",
+    "newtab-topic-navigation-label",
+    "newtab-topic-navigation-more-button",
     "newtab-section-block-button",
     "newtab-section-blocked-button",
     "newtab-section-unblock-button",
@@ -3462,6 +3466,7 @@
     "newtab-widget-section-hide-all-button",
     "newtab-widget-section-maximize",
     "newtab-widget-section-minimize",
+    "newtab-widget-section-show-widgets",
     "newtab-widget-section-menu-button",
     "newtab-widget-add-widgets-button",
     "newtab-widget-section-menu-manage",
@@ -6425,6 +6430,7 @@
   "browser/browser/sidebar.ftl": [
     "menu-view-genai-chat",
     "menu-view-contextual-password-manager",
+    "menu-view-resource-monitor",
     "menu-view-open-tabs",
     "sidebar-options-menu-button",
     "sidebar-resize-splitter",
@@ -6489,6 +6495,7 @@
     "sidebar-menu-bookmarks-label",
     "sidebar-menu-customize-label",
     "sidebar-menu-contextual-password-manager-label",
+    "sidebar-menu-resource-monitor-label",
     "sidebar-menu-more-tools-label",
     "sidebar-menu-open-history-tooltip",
     "sidebar-menu-close-history-tooltip",
