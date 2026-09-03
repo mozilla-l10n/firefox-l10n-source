@@ -4343,7 +4343,17 @@
     "panic-button-delete-tabs-and-windows"
   ],
   "browser/browser/permissions.ftl": [
-    "perm-persistent-storage-remember"
+    "perm-persistent-storage-remember",
+    "speech-recognition-model-download-header",
+    "speech-recognition-model-download-message",
+    "speech-recognition-model-download-allow",
+    "speech-recognition-model-download-not-now",
+    "speech-recognition-model-download-progress-message",
+    "speech-recognition-model-download-progressbar",
+    "speech-recognition-model-download-cancel",
+    "speech-recognition-model-download-complete-message",
+    "speech-recognition-model-download-failed-message",
+    "speech-recognition-model-download-ok"
   ],
   "browser/browser/places.ftl": [
     "places-open",
@@ -5750,6 +5760,7 @@
     "preferences-ai-controls-pdfjs-control",
     "preferences-ai-controls-tab-group-suggestions-control",
     "preferences-ai-controls-key-points-control",
+    "preferences-ai-controls-speech-recognition-control",
     "preferences-ai-controls-sidebar-chatbot-group-3",
     "preferences-ai-controls-sidebar-chatbot-control",
     "preferences-ai-controls-state-available",
@@ -5767,6 +5778,7 @@
     "preferences-ai-controls-block-confirmation-tab-group-suggestions",
     "preferences-ai-controls-block-confirmation-key-points",
     "preferences-ai-controls-block-confirmation-sidebar-chatbot",
+    "preferences-ai-controls-block-confirmation-speech-recognition",
     "preferences-ai-controls-block-confirmation-features-after",
     "preferences-ai-controls-block-confirmation-cancel",
     "preferences-ai-controls-block-confirmation-confirm",
@@ -8847,6 +8859,7 @@
     "netmonitor.response.html",
     "jsonFilterText",
     "jsonScopeName",
+    "jsonlScopeName",
     "jsonpScopeName",
     "jsonXssiStripped",
     "responseTruncated",
@@ -10707,7 +10720,8 @@
     "MozlockorientationDeprecatedWarning",
     "MozunlockorientationDeprecatedWarning",
     "CSSContainerRuleSingleConditionWarning",
-    "EditContextCharacterBoundsWarning"
+    "EditContextCharacterBoundsWarning",
+    "SpeechRecognitionBlockedByAIControlsWarning"
   ],
   "dom/chrome/layout/HtmlForm.properties": [
     "Reset",
@@ -12632,6 +12646,7 @@
     "mlmodel-smart-tab-topic-engine",
     "mlmodel-smart-tab-embedding-engine",
     "mlmodel-formfill-engine",
+    "mlmodel-speech-recognition",
     "addon-category-mlmodel",
     "addon-category-mlmodel-title",
     "mlmodel-heading",
