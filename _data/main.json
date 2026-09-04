@@ -222,7 +222,8 @@
     "inactive-message",
     "policy-name",
     "policy-value",
-    "policy-errors"
+    "policy-errors",
+    "policy-not-fully-applied"
   ],
   "browser/browser/aboutPrivateBrowsing.ftl": [
     "privatebrowsingpage-open-private-window-label",
@@ -615,7 +616,8 @@
     "aiwindow-starter-browsing-summarize",
     "aiwindow-starter-browsing-compare",
     "aiwindow-starter-scroll-start",
-    "aiwindow-starter-scroll-end"
+    "aiwindow-starter-scroll-end",
+    "aiwindow-starter-dismiss"
   ],
   "browser/browser/aiWindowContent.ftl": [
     "smartwindow-messages-document-title",
@@ -3290,6 +3292,17 @@
     "newtab-wallpaper-dark-city",
     "newtab-wallpaper-dark-fox-anniversary",
     "newtab-wallpaper-light-fox-anniversary",
+    "newtab-wallpaper-category-back",
+    "newtab-wallpaper-your-images",
+    "newtab-wallpaper-your-images-folder",
+    "newtab-wallpaper-your-images-item",
+    "newtab-wallpaper-your-images-item-numbered",
+    "newtab-wallpaper-remove-image",
+    "newtab-wallpaper-remove-image-numbered",
+    "newtab-wallpaper-remove-image-title",
+    "newtab-wallpaper-remove-image-body",
+    "newtab-wallpaper-remove-image-confirm",
+    "newtab-wallpaper-remove-image-cancel",
     "newtab-wallpaper-category-title-colors",
     "newtab-wallpaper-colors",
     "newtab-wallpaper-blue",
@@ -3349,6 +3362,7 @@
     "newtab-weather-sponsored",
     "newtab-weather-menu-change-location",
     "newtab-weather-change-location-search-input-placeholder",
+    "newtab-weather-cancel-input",
     "newtab-weather-change-location-search-use-current",
     "newtab-weather-menu-weather-display",
     "newtab-weather-todays-forecast",
@@ -3495,6 +3509,7 @@
     "newtab-widget-lists-menu-delete",
     "newtab-widget-lists-menu-copy",
     "newtab-widget-lists-menu-learn-more",
+    "newtab-widget-lists-change-list",
     "newtab-widget-lists-button-add-item",
     "newtab-widget-lists-input-add-an-item2",
     "newtab-widget-lists-input-error",
@@ -3806,10 +3821,6 @@
     "home-prefs-firefox-logo-header",
     "home-prefs-firefox-home-disabled-notice",
     "home-prefs-sections-rows-option-srd",
-    "home-restore-defaults-srd",
-    "home-mode-choice-default-fx-srd",
-    "home-mode-choice-custom-srd",
-    "home-mode-choice-blank-srd",
     "home-prefs-shortcuts-header-srd",
     "home-prefs-shortcuts-select",
     "home-prefs-shortcuts-by-option-sponsored-srd",
@@ -3826,7 +3837,8 @@
     "newtab-privacy-menu-learn-more",
     "newtab-privacy-trackers-blocked-today",
     "newtab-privacy-across-sites",
-    "newtab-privacy-empty",
+    "newtab-privacy-empty-state",
+    "newtab-privacy-empty-state-tally",
     "newtab-privacy-etp-off-faster-browsing",
     "newtab-privacy-etp-off-turn-on-tracking",
     "newtab-privacy-message-info-1",
@@ -4343,7 +4355,17 @@
     "panic-button-delete-tabs-and-windows"
   ],
   "browser/browser/permissions.ftl": [
-    "perm-persistent-storage-remember"
+    "perm-persistent-storage-remember",
+    "speech-recognition-model-download-header",
+    "speech-recognition-model-download-message",
+    "speech-recognition-model-download-allow",
+    "speech-recognition-model-download-not-now",
+    "speech-recognition-model-download-progress-message",
+    "speech-recognition-model-download-progressbar",
+    "speech-recognition-model-download-cancel",
+    "speech-recognition-model-download-complete-message",
+    "speech-recognition-model-download-failed-message",
+    "speech-recognition-model-download-ok"
   ],
   "browser/browser/places.ftl": [
     "places-open",
@@ -5750,6 +5772,7 @@
     "preferences-ai-controls-pdfjs-control",
     "preferences-ai-controls-tab-group-suggestions-control",
     "preferences-ai-controls-key-points-control",
+    "preferences-ai-controls-speech-recognition-control",
     "preferences-ai-controls-sidebar-chatbot-group-3",
     "preferences-ai-controls-sidebar-chatbot-control",
     "preferences-ai-controls-state-available",
@@ -5767,6 +5790,7 @@
     "preferences-ai-controls-block-confirmation-tab-group-suggestions",
     "preferences-ai-controls-block-confirmation-key-points",
     "preferences-ai-controls-block-confirmation-sidebar-chatbot",
+    "preferences-ai-controls-block-confirmation-speech-recognition",
     "preferences-ai-controls-block-confirmation-features-after",
     "preferences-ai-controls-block-confirmation-cancel",
     "preferences-ai-controls-block-confirmation-confirm",
@@ -8847,6 +8871,7 @@
     "netmonitor.response.html",
     "jsonFilterText",
     "jsonScopeName",
+    "jsonlScopeName",
     "jsonpScopeName",
     "jsonXssiStripped",
     "responseTruncated",
@@ -10238,6 +10263,7 @@
     "definitionlist",
     "term",
     "definition",
+    "summary",
     "mathmltable",
     "mathmlcell",
     "mathmlenclosed",
@@ -10707,7 +10733,8 @@
     "MozlockorientationDeprecatedWarning",
     "MozunlockorientationDeprecatedWarning",
     "CSSContainerRuleSingleConditionWarning",
-    "EditContextCharacterBoundsWarning"
+    "EditContextCharacterBoundsWarning",
+    "SpeechRecognitionBlockedByAIControlsWarning"
   ],
   "dom/chrome/layout/HtmlForm.properties": [
     "Reset",
@@ -12632,6 +12659,7 @@
     "mlmodel-smart-tab-topic-engine",
     "mlmodel-smart-tab-embedding-engine",
     "mlmodel-formfill-engine",
+    "mlmodel-speech-recognition",
     "addon-category-mlmodel",
     "addon-category-mlmodel-title",
     "mlmodel-heading",
