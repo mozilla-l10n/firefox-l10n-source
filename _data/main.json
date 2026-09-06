@@ -3139,7 +3139,11 @@
     "launch-options-spotlight-checkbox-restore-current",
     "launch-options-spotlight-checkbox-restore-previous",
     "launch-options-spotlight-primary-button-close",
-    "launch-options-spotlight-primary-button-launch"
+    "launch-options-spotlight-primary-button-launch",
+    "lapsed-user-toast-title",
+    "lapsed-user-toast-subtitle",
+    "lapsed-user-toast-whats-new-button",
+    "lapsed-user-toast-dismiss-button"
   ],
   "browser/browser/newtab/newtab.ftl": [
     "newtab-page-title",
