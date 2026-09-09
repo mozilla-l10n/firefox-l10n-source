@@ -8530,6 +8530,10 @@
     "colorpicker-tooltip-hue-slider-title",
     "colorpicker-tooltip-alpha-slider-title",
     "inspector-element-specific-pseudo-classes-heading",
+    "inspector-split-orientation-button-title",
+    "inspector-split-orientation-auto",
+    "inspector-split-orientation-side-by-side",
+    "inspector-split-orientation-stacked",
     "inspector-color-scheme-emulation-light",
     "inspector-color-scheme-emulation-dark",
     "inspector-emulation-panel-toggle",
@@ -10754,7 +10758,8 @@
     "MozunlockorientationDeprecatedWarning",
     "CSSContainerRuleSingleConditionWarning",
     "EditContextCharacterBoundsWarning",
-    "SpeechRecognitionBlockedByAIControlsWarning"
+    "SpeechRecognitionBlockedByAIControlsWarning",
+    "SpeechRecognitionLangDefaultedToUserLanguageWarning"
   ],
   "dom/chrome/layout/HtmlForm.properties": [
     "Reset",
