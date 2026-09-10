@@ -195,13 +195,6 @@ tab-context-send-to-mobile =
 tab-context-share-selected-tabs =
     .label = Create Shareable Link
     .accesskey = a
-tab-context-send-tabs-to-device =
-    .label =
-        { $tabCount ->
-            [1] Send Tab to Device
-           *[other] Send { $tabCount } Tabs to Device
-        }
-    .accesskey = n
 tab-context-unload-n-tabs =
     .label =
         { $tabCount ->

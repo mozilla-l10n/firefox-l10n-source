@@ -142,9 +142,6 @@ main-context-menu-bookmark-link-2 =
 main-context-menu-save-link =
     .label = Save Link As…
     .accesskey = k
-main-context-menu-save-link-to-pocket =
-    .label = Save Link to { -pocket-brand-name }
-    .accesskey = o
 
 ##
 
@@ -305,12 +302,6 @@ main-context-menu-send-to-mobile-enable-sync-from-page = Turn on Sync to Send a 
 main-context-menu-send-to-mobile-connect-phone3 = Connect a Device to Send Tabs
 main-context-menu-send-to-mobile-connect-phone-from-link = Connect a Device to Send a Link
 main-context-menu-send-to-mobile-connect-phone-from-page = Connect a Device to Send a Page
-main-context-menu-save-to-pocket =
-    .label = Save Page to { -pocket-brand-name }
-    .accesskey = k
-main-context-menu-send-to-device =
-    .label = Send Page to Device
-    .accesskey = n
 
 ##
 
@@ -330,9 +321,6 @@ main-context-menu-suggest-strong-password =
 main-context-menu-manage-passwords =
     .label = Manage Passwords
     .accesskey = M
-main-context-menu-keyword =
-    .label = Add a Keyword for this Search…
-    .accesskey = K
 main-context-menu-add-engine =
     .label = Add Search Engine
     .accesskey = S
@@ -381,9 +369,6 @@ main-context-menu-view-selection-source =
 main-context-menu-take-screenshot =
     .label = Take Screenshot
     .accesskey = T
-main-context-menu-take-frame-screenshot =
-    .label = Take Screenshot
-    .accesskey = o
 main-context-menu-view-page-source =
     .label = View Page Source
     .accesskey = V

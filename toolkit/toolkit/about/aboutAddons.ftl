@@ -160,8 +160,6 @@ addon-sitepermission-host = Site Permissions for { $host }
 
 ## These are global warnings
 
-extensions-warning-safe-mode2 =
-    .message = All add-ons have been disabled by safe mode.
 extensions-warning-check-compatibility2 =
     .message = Add-on compatibility checking is disabled. You may have incompatible add-ons.
 extensions-warning-check-compatibility-button = Enable
@@ -444,8 +442,6 @@ addon-permissions-heading = Permissions
 addon-permissions-empty2 = This extension doesn’t require any permissions.
 addon-permissions-required-label = Required:
 addon-permissions-optional-label = Optional:
-addon-permissions-required = Required permissions for core functionality:
-addon-permissions-optional = Optional permissions for added functionality:
 addon-permissions-learnmore = Learn more about permissions
 # Shown above the permissions list when one or more permissions for this
 # extension are controlled by an enterprise policy and cannot be changed by
@@ -505,14 +501,6 @@ details-notification-soft-blocked-other-disabled2 =
     .message = This add-on is restricted and has been disabled. You can enable it, but this may be risky.
 details-notification-soft-blocked-other-enabled2 =
     .message = This add-on is restricted. Using it may be risky.
-details-notification-soft-blocked-extension-disabled =
-    .message = This extension is restricted for violating Mozilla’s policies and has been disabled. You can enable it, but this may be risky.
-details-notification-soft-blocked-extension-enabled =
-    .message = This extension violates Mozilla’s policies. Using it may be risky.
-details-notification-soft-blocked-other-disabled =
-    .message = This add-on is restricted for violating Mozilla’s policies and has been disabled. You can enable it, but this may be risky.
-details-notification-soft-blocked-other-enabled =
-    .message = This add-on violates Mozilla’s policies. Using it may be risky.
 details-notification-softblocked-link2 = See Details
 details-notification-gmp-pending2 =
     .message = { $name } will be installed shortly.
@@ -529,8 +517,6 @@ plugins-widevine-description = This plugin enables playback of encrypted media i
 ## Headings for the Permissions tab in `about:addons` when the data collection
 ## feature is enabled.
 
-addon-permissions-required-data-collection = Required data collection:
-addon-permissions-optional-data-collection = Optional data collection:
 # Name of the Permissions tab in `about:addons` when the data collection feature is enabled.
 permissions-data-addon-button = Permissions and data
 # This is a description for extension that use this AI model

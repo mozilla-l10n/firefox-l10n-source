@@ -112,13 +112,6 @@ permissions-exceptions-popup-window3 =
     .style = { permissions-window2.style }
 permissions-exceptions-popup-desc2 = You can specify which websites are allowed to open pop-up windows and be redirected by third-party frames.
 
-## Exceptions - Pop-ups
-
-permissions-exceptions-popup-window2 =
-    .title = Allowed Websites - Pop-ups
-    .style = { permissions-window2.style }
-permissions-exceptions-popup-desc = You can specify which websites are allowed to open pop-up windows. Type the exact address of the site you want to allow and then click Allow.
-
 ## Exceptions - Saved Passwords
 
 permissions-exceptions-saved-passwords-window =

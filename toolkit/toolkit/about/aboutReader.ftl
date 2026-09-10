@@ -16,16 +16,6 @@ about-reader-color-gray-theme = Gray
     .title = Gray theme
 about-reader-color-contrast-theme = Contrast
     .title = Contrast theme
-# An estimate for how long it takes to read an article,
-# expressed as a range covering both slow and fast readers.
-# Variables:
-#   $rangePlural (String): The plural category of the range, using the same set as for numbers.
-#   $range (String): The range of minutes as a localised string. Examples: "3-7", "~1".
-about-reader-estimated-read-time =
-    { $rangePlural ->
-        [one] { $range } minute
-       *[other] { $range } minutes
-    }
 
 ## Reader View text and layout menu
 

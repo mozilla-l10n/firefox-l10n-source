@@ -18,7 +18,6 @@ settings-update-checking-for-updates =
 ## Variables:
 ##   $transfer (string) - Transfer progress.
 
-settings-update-downloading = <img data-l10n-name="icon"/>Downloading update — <label data-l10n-name="download-status">{ $transfer }</label>
 aboutdialog-update-downloading = Downloading update — <label data-l10n-name="download-status">{ $transfer }</label>
 settings-update-downloading-2 =
     .label = Downloading update — { $transfer }

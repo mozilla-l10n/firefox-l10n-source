@@ -6,8 +6,6 @@
 ### Firefox Home / New Tab strings for about:home / about:newtab.
 
 newtab-page-title = New Tab
-newtab-settings-button =
-    .title = Customize your New Tab page
 #  (developer note): @nova-cleanup(remove-string): Remove newtab-customize-panel-icon-button once Nova lands, will be using newtab-customize-panel-label instead
 newtab-customize-panel-icon-button =
     .title = Customize this page
@@ -15,9 +13,6 @@ newtab-customize-panel-icon-button =
 newtab-customize-panel-icon-button-label = Customize
 newtab-customize-panel-label =
     .label = Customize
-newtab-personalize-settings-icon-label =
-    .title = Personalize New Tab
-    .aria-label = Settings
 newtab-settings-dialog-label =
     .aria-label = Settings
 newtab-logo-and-wordmark =
@@ -595,10 +590,6 @@ newtab-topsites-hover-card-dismiss =
 newtab-menu-section-tooltip =
     .title = Open menu
     .aria-label = Open menu
-# Tooltip for dismiss button
-newtab-dismiss-button-tooltip =
-    .title = Remove
-    .aria-label = Remove
 # This tooltip is for the context menu of Pocket cards or Topsites
 # Variables:
 #   $title (string) - The label or hostname of the site. This is for screen readers when the context menu button is focused/active.
@@ -616,11 +607,7 @@ newtab-menu-dismiss = Dismiss
 newtab-menu-pin = Pin
 newtab-menu-unpin = Unpin
 newtab-menu-delete-history = Delete from History
-newtab-menu-save-to-pocket = Save to { -pocket-brand-name }
-newtab-menu-delete-pocket = Delete from { -pocket-brand-name }
-newtab-menu-archive-pocket = Archive in { -pocket-brand-name }
 newtab-menu-show-privacy-info = Our sponsors & your privacy
-newtab-menu-about-fakespot = About { -fakespot-brand-name }
 # Report is a verb (i.e. report issue with the content).
 newtab-menu-report = Report
 # Context menu option to personalize New Tab recommended stories by blocking a section of stories,
@@ -631,27 +618,12 @@ newtab-menu-section-block = Block
 newtab-menu-section-unfollow-topic = Unfollow
 # Context menu option to open a support page explaining the New Tab personalization features and privacy controls.
 newtab-menu-section-learn-more = Learn more
-# "Follow", "unfollow", and "following" are social media terms that refer to subscribing to or unsubscribing from a section of stories.
-# e.g. Following the travel section of stories.
-newtab-menu-section-unfollow = Unfollow topic
 
 ## Context menu options for sponsored stories and new ad formats on New Tab.
 
 newtab-menu-manage-sponsored-content = Manage sponsored content
 newtab-menu-our-sponsors-and-your-privacy = Our sponsors and your privacy
 newtab-menu-report-this-ad = Report this ad
-
-## Message displayed in a modal window to explain privacy and provide context for sponsored content.
-
-newtab-privacy-modal-button-done = Done
-newtab-privacy-modal-button-manage = Manage sponsored content settings
-newtab-privacy-modal-header = Your privacy matters.
-newtab-privacy-modal-paragraph-2 =
-    In addition to dishing up captivating stories, we also show you relevant,
-    highly-vetted content from select sponsors. Rest assured, <strong>your browsing
-    data never leaves your personal copy of { -brand-product-name }</strong> — we don’t see it, and our
-    sponsors don’t either.
-newtab-privacy-modal-link = Learn how privacy works on the new tab
 
 ##
 
@@ -753,26 +725,6 @@ newtab-carousel-pause =
 newtab-carousel-play =
     .aria-label = Resume autoplay
 
-## Thumbs up and down buttons that shows over a newtab stories card thumbnail on hover.
-
-# Clicking the thumbs up button for this story will result in more stories like this one being recommended
-newtab-pocket-thumbs-up-tooltip =
-    .title = More like this
-# Clicking the thumbs down button for this story informs us that the user does not feel like the story is interesting for them
-newtab-pocket-thumbs-down-tooltip =
-    .title = Not for me
-# Used to show the user a message upon clicking the thumbs up or down buttons
-newtab-toast-thumbs-up-or-down2 =
-    .message = Thanks. Your feedback will help us improve your feed.
-newtab-toast-dismiss-button =
-    .title = Dismiss
-    .aria-label = Dismiss
-
-## Pocket content onboarding experience dialog and modal for new users seeing the Pocket section for the first time, shown as the first item in the Pocket section.
-
-newtab-pocket-onboarding-discover = Discover the best of the web
-newtab-pocket-onboarding-cta = { -pocket-brand-name } explores a diverse range of publications to bring the most informative, inspirational, and trustworthy content right to your { -brand-product-name } browser.
-
 ## Error Fallback Content.
 ## This message and suggested action link are shown in each section of UI that fails to render.
 
@@ -801,13 +753,6 @@ newtab-custom-row-selector2 =
             [one] { $num } row
            *[other] { $num } rows
         }
-# Variables
-#   $num (number) - Number of rows to display
-newtab-custom-row-selector =
-    { $num ->
-        [one] { $num } row
-       *[other] { $num } rows
-    }
 #  (developer note): @nova-cleanup(remove-string): Remove string once Nova lands. We won't be having a description under "Recommended stories" anymore
 newtab-custom-stories-toggle =
     .label = Recommended stories
@@ -819,7 +764,6 @@ newtab-custom-stories-personalized-toggle =
 newtab-custom-stories-personalized-checkbox =
     .label = Personalized stories based on your activity
 newtab-custom-stories-personalized-checkbox-label = Personalized stories based on your activity
-newtab-custom-pocket-show-recent-saves = Show recent saves
 newtab-custom-weather-toggle =
     .label = Weather
     .description = Today’s forecast at a glance
@@ -851,7 +795,6 @@ newtab-widget-manage-widget-button =
 newtab-custom-close-menu-button =
     .title = Close
     .aria-label = Close menu
-newtab-custom-close-button = Close
 newtab-custom-settings = Manage more settings
 
 ## Customization Menu
@@ -900,7 +843,6 @@ newtab-wallpaper-toggle-title =
 #   $file_size (number) - The number of the maximum image file size (in MB) that may be uploaded
 newtab-wallpaper-error-max-file-size = The image exceeded the file size limit of { $file_size }MB. Please try uploading a smaller file.
 newtab-wallpaper-error-upload-file-type = We couldn’t upload your file. Please try again with an image file.
-newtab-wallpaper-error-file-type = We couldn’t upload your file. Please try again with different file type.
 newtab-wallpaper-light-red-panda = Red panda
 newtab-wallpaper-light-mountain = White mountain
 newtab-wallpaper-light-sky = Sky with purple and pink clouds
@@ -1063,10 +1005,6 @@ newtab-wallpaper-celestial-river = Satellite image of river
 
 # Variables:
 #   $provider (string) - Service provider for weather data
-newtab-weather-see-forecast =
-    .title = See forecast in { $provider }
-# Variables:
-#   $provider (string) - Service provider for weather data
 newtab-weather-sponsored = { $provider } ∙ Sponsored
 newtab-weather-menu-change-location = Change location
 newtab-weather-change-location-search-input-placeholder =
@@ -1093,7 +1031,6 @@ newtab-weather-menu-temperature-option-fahrenheit = Fahrenheit
 newtab-weather-menu-temperature-option-celsius = Celsius
 newtab-weather-menu-change-temperature-units-fahrenheit = Switch to Fahrenheit
 newtab-weather-menu-change-temperature-units-celsius = Switch to Celsius
-newtab-weather-menu-hide-weather = Hide weather on New Tab
 newtab-weather-menu-learn-more = Learn more
 newtab-weather-menu-detect-my-location = Detect my location
 # This message is shown if user is working offline
@@ -1214,7 +1151,6 @@ newtab-section-unblock-topic =
 
 ## Confirmation modal for blocking a section
 
-newtab-section-cancel-button = Not now
 newtab-section-confirm-block-topic-p1 = Are you sure you want to block this topic?
 newtab-section-confirm-block-topic-p2 = Blocked topics will no longer appear in your feed.
 # Variables:

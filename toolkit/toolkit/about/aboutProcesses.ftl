@@ -73,17 +73,6 @@ about-processes-web-isolated-property-with-coop-coep = cross-origin isolated
 
 about-processes-web-isolated-process2 = { $origin } ({ $properties })
 
-## Isolated process names
-## Variables:
-##    $pid (String) The process id of this process, assigned by the OS.
-##    $origin (String) The domain name for this process.
-
-about-processes-web-isolated-process = { $origin } ({ $pid })
-about-processes-web-serviceworker = { $origin } ({ $pid }, serviceworker)
-about-processes-with-coop-coep-process = { $origin } ({ $pid }, cross-origin isolated)
-about-processes-web-isolated-process-private = { $origin } — Private ({ $pid })
-about-processes-with-coop-coep-process-private = { $origin } — Private ({ $pid }, cross-origin isolated)
-
 ## Details within processes
 
 # Single-line summary of threads (non-idle process)

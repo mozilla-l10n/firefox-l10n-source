@@ -82,14 +82,6 @@ translations-panel-error-change-button =
 #   $language (string) - The language of the document.
 translations-panel-error-unsupported-hint-known-2 = Sorry, we don’t support translations from { $language } yet.
 translations-panel-error-unsupported-hint-unknown-2 = Sorry, we don’t support translations from this language yet.
-# If your language requires declining the language name, a possible solution
-# is to adapt the structure of the phrase, or use a support noun, e.g.
-# `Sorry, we don't support the language yet: { $language }
-#
-# Variables:
-#   $language (string) - The language of the document.
-translations-panel-error-unsupported-hint-known = Sorry, we don’t support { $language } yet.
-translations-panel-error-unsupported-hint-unknown = Sorry, we don’t support this language yet.
 
 ## Each label is followed, on a new line, by a dropdown list of language names.
 ## If this structure is problematic for your locale, an alternative way is to
@@ -232,16 +224,6 @@ select-translations-panel-unsupported-language-message-known-2 =
     .message = Sorry, we don’t support translations from { $language } yet.
 select-translations-panel-unsupported-language-message-unknown-2 =
     .message = Sorry, we don’t support translations from this language yet.
-# If your language requires declining the language name, a possible solution
-# is to adapt the structure of the phrase, or use a support noun, e.g.
-# `Sorry, we don't support the language yet: { $language }
-#
-# Variables:
-#   $language (string) - The language of the document.
-select-translations-panel-unsupported-language-message-known =
-    .message = Sorry, we don’t support { $language } yet.
-select-translations-panel-unsupported-language-message-unknown =
-    .message = Sorry, we don’t support this language yet.
 # Text displayed on the menuitem that opens the Translation Settings page.
 select-translations-panel-open-translations-settings-menuitem =
     .label = Translation settings

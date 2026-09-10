@@ -273,8 +273,6 @@ menu-bookmarks-mobile =
 
 ## Profiles Menu
 
-menu-profiles =
-    .label = Profiles
 menu-profiles-manage-profiles =
     .label = Manage Profiles
 menu-profiles-new-profile =
