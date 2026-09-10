@@ -52,8 +52,6 @@ download-cert-view-text = Examine CA certificate
 
 client-auth-window =
     .title = User Identification Request
-client-auth-site-description = This site has requested that you identify yourself with a certificate:
-client-auth-choose-cert = Choose a certificate to present as identification:
 client-auth-send-no-certificate =
     .label = Don’t send a certificate
 # Variables:
@@ -108,9 +106,3 @@ protected-auth-window =
 # Variables:
 # $tokenName (String) - The name of the token to authenticate to (for example, “OS Client Cert Token (Modern)”)
 protected-auth-prompt = Please authenticate to the security device ({ $tokenName }). How to do so depends on the device (for example, using a fingerprint reader or entering a code with a keypad).
-
-## Protected authentication alert
-
-# Variables:
-# $tokenName (String) - The name of the token to authenticate to (for example, "OS Client Cert Token (Modern)")
-protected-auth-alert = Please authenticate to the token “{ $tokenName }”. How to do so depends on the token (for example, using a fingerprint reader or entering a code with a keypad).
