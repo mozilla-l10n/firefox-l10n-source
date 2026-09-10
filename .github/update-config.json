@@ -4,8 +4,7 @@
     "beta",
     "release",
     "esr153",
-    "esr140",
-    "esr115"
+    "esr140"
   ],
   "head": "main",
   "paths": [
