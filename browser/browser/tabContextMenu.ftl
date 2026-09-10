@@ -6,9 +6,6 @@
 ## Variables:
 ##  $tabCount (Number): the number of tabs that are affected by the action.
 
-tab-context-new-tab =
-    .label = New Tab
-    .accesskey = w
 reload-tab =
     .label = Reload Tab
     .accesskey = R

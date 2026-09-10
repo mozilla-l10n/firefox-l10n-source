@@ -67,7 +67,6 @@ cert-error-details-hsts-label = HTTP Strict Transport Security: { $hasHSTS }
 #   $hasHPKP (Boolean) - Indicates whether HPKP header is present.
 cert-error-details-key-pinning-label = HTTP Public Key Pinning: { $hasHPKP }
 cert-error-details-cert-chain-label = Certificate chain:
-open-in-new-window-for-csp-or-xfo-error = Open Site in New Window
 # Variables:
 #   $hostname (string) - Hostname of the website blocked by csp or xfo error.
 csp-xfo-blocked-long-desc = To protect your security, { $hostname } will not allow { -brand-short-name } to display the page if another site has embedded it. To see this page, you need to open it in a new window.
@@ -179,8 +178,6 @@ deniedPortAccess-title = This address is restricted
 # You don't have to include it in your translation if your language does not have a written word like this.
 dnsNotFound-title = Hmm. We’re having trouble finding that site.
 internet-connection-offline-title = Looks like there’s a problem with your internet connection.
-dns-not-found-trr-only-title2 = Possible security risk looking up this domain
-dns-not-found-native-fallback-title2 = Possible security risk looking up this domain
 fileNotFound-title = File not found
 fileAccessDenied-title = Access to the file was denied
 generic-title = Oops.
@@ -205,7 +202,6 @@ unknownSocketType-title = Unexpected response from server
 nssFailure2-title = Secure Connection Failed
 csp-xfo-error-title = { -brand-short-name } Can’t Open This Page
 corruptedContentErrorv2-title = Corrupted Content Error
-corruptedContentError-title = Corrupted Content Error
 sslv3Used-title = Unable to Connect Securely
 inadequateSecurityError-title = Your connection is not secure
 blockedByPolicy-title = Blocked Page

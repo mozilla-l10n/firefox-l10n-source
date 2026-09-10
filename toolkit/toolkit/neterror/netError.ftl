@@ -31,8 +31,6 @@ neterror-try-again-button = Try Again
 neterror-add-exception-button = Always continue for this site
 neterror-settings-button = Change DNS settings
 neterror-view-certificate-link = View Certificate
-neterror-trr-continue-this-time = Continue this time
-neterror-disable-native-feedback-warning = Always continue
 
 ## Search call-to-action shown on the online dnsNotFound error page when
 ## browser.netError.searchCTA.enabled is true. Offers a one-click web search
@@ -77,7 +75,6 @@ neterror-search-cta-learn-more = Learn more
 ##
 
 neterror-pref-reset = It looks like your network security settings might be causing this. Do you want the default settings to be restored?
-neterror-error-reporting-automatic = Report errors like this to help { -vendor-short-name } identify and block malicious sites
 
 ## Shown on about:neterror and about:certerror when the SSLKEYLOGFILE
 ## environment variable is set, which causes { -brand-short-name } to log TLS
@@ -120,25 +117,15 @@ neterror-dns-not-found-offline-hint-reconnect = Disconnect and reconnect to Wi-F
 ##   $hostname (String) - Hostname of the website to which the user was trying to connect.
 ##   $trrDomain (String) - Hostname of the DNS over HTTPS server that is currently in use.
 
-neterror-dns-not-found-trr-only-reason = { -brand-short-name } can’t protect your request for this site’s address through our trusted DNS resolver. Here’s why:
 neterror-dns-not-found-trr-only-reason2 = { -brand-short-name } can’t protect your request for this site’s address through our secure DNS provider. Here’s why:
 neterror-dns-not-found-trr-third-party-warning2 = You can continue with your default DNS resolver. However, a third-party might be able to see what websites you visit.
 neterror-dns-not-found-trr-only-could-not-connect = { -brand-short-name } wasn’t able to connect to { $trrDomain }.
 neterror-dns-not-found-trr-only-timeout = The connection to { $trrDomain } took longer than expected.
-neterror-dns-not-found-trr-offline = You are not connected to the internet.
 neterror-dns-not-found-trr-unknown-host2 = This website wasn’t found by { $trrDomain }.
 neterror-dns-not-found-trr-server-problem = There was a problem with { $trrDomain }.
 neterror-dns-not-found-bad-trr-url = Invalid URL.
 neterror-dns-not-found-system-sleep = System is in sleep mode.
 neterror-dns-not-found-trr-unknown-problem = Unexpected problem.
-
-## Native fallback specific messages
-## Variables:
-##   $trrDomain (String) - Hostname of the DNS over HTTPS server that is currently in use.
-
-neterror-dns-not-found-native-fallback-reason = { -brand-short-name } can’t protect your request for this site’s address through our trusted DNS resolver. Here’s why:
-neterror-dns-not-found-native-fallback-heuristic = DNS over HTTPS has been disabled on your network.
-neterror-dns-not-found-native-fallback-not-confirmed2 = { -brand-short-name } wasn’t able to connect to { $trrDomain }.
 
 ##
 

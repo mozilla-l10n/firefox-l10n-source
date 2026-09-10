@@ -2,49 +2,6 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-# These are the default window titles everywhere except macOS.
-# .data-title-default and .data-title-private are used when the web content
-# opened has no title:
-#
-# default - "Mozilla Firefox"
-# private - "Mozilla Firefox (Private Browsing)"
-#
-# .data-content-title-default and .data-content-title-private are for use when
-# there *is* a content title.
-# Variables:
-#  $content-title (String): the title of the web content.
-browser-main-window-window-titles =
-    .data-title-default = { -brand-full-name }
-    .data-title-private = { -brand-full-name } Private Browsing
-    .data-content-title-default = { $content-title } — { -brand-full-name }
-    .data-content-title-private = { $content-title } — { -brand-full-name } Private Browsing
-# These are the default window titles on macOS.
-# .data-title-default and .data-title-private are used when the web content
-# opened has no title:
-#
-#
-# "default" - "Mozilla Firefox"
-# "private" - "Mozilla Firefox — (Private Browsing)"
-#
-# .data-content-title-default and .data-content-title-private are for use when
-# there *is* a content title.
-# Do not use the brand name in these, as we do on non-macOS.
-#
-# Also note the other subtle difference here: we use a `-` to separate the
-# brand name from `(Private Browsing)`, which does not happen on other OSes.
-#
-# Variables:
-#  $content-title (String): the title of the web content.
-browser-main-window-mac-window-titles =
-    .data-title-default = { -brand-full-name }
-    .data-title-private = { -brand-full-name } — Private Browsing
-    .data-content-title-default = { $content-title }
-    .data-content-title-private = { $content-title } — Private Browsing
-# This gets set as the initial title, and is overridden as soon as we start
-# updating the titlebar based on loaded tabs or private browsing state.
-# This should match the `data-title-default` attribute in both
-# `browser-main-window` and `browser-main-window-mac`.
-browser-main-window-title = { -brand-full-name }
 # The non-variable portion of this MUST match the translation of
 # "PRIVATE_BROWSING_SHORTCUT_TITLE" in custom.properties
 private-browsing-shortcut-text-2 = { -brand-shortcut-name } Private Browsing
@@ -179,8 +136,6 @@ urlbar-indexed-db-notification-anchor =
     .tooltiptext = Open offline storage message panel
 urlbar-password-notification-anchor =
     .tooltiptext = Open save password message panel
-urlbar-plugins-notification-anchor =
-    .tooltiptext = Manage plug-in use
 urlbar-web-rtc-share-devices-notification-anchor =
     .tooltiptext = Manage sharing your camera and/or microphone with the site
 # "Speakers" is used in a general sense that might include headphones or
@@ -193,15 +148,8 @@ urlbar-persistent-storage-notification-anchor =
     .tooltiptext = Store data in Persistent Storage
 urlbar-addons-notification-anchor =
     .tooltiptext = Open add-on installation message panel
-urlbar-tip-help-icon =
-    .title = Get help
 urlbar-search-tips-confirm = Okay, Got It
 urlbar-search-tips-confirm-short = Got it
-# Read out before Urlbar Tip text content so screenreader users know the
-# subsequent text is a tip offered by the browser. It should end in a colon or
-# localized equivalent.
-urlbar-tip-icon-description =
-    .alt = Tip:
 urlbar-result-menu-button =
     .title = Open menu
 urlbar-result-menu-button-feedback = Feedback
@@ -280,8 +228,6 @@ urlbar-dismissal-acknowledgment-weather = Thanks for your feedback. You won’t 
 
 urlbar-search-tips-onboard = Type less, find more: Search { $engineName } right from your address bar.
 urlbar-search-tips-redirect-2 = Start your search in the address bar to see suggestions from { $engineName } and your browsing history.
-# Make sure to match the name of the Search panel in settings.
-urlbar-search-tips-persist = Searching just got simpler. Try making your search more specific here in the address bar. To show the URL instead, visit Search, in settings.
 # Prompts users to use the Urlbar when they are typing in the domain of a
 # search engine, e.g. google.com or amazon.com.
 urlbar-tabtosearch-onboard = Select this shortcut to find what you need faster.
@@ -427,7 +373,6 @@ quickactions-cmd-addons3 = extensions, themes, addons, add-ons
 # Opens preferences page at AI controls
 quickactions-manageai = Manage AI controls
 quickactions-cmd-manageai = disable ai, off ai, manage ai
-quickactions-cmd-addons2 = add-ons
 # Opens the bookmarks library window
 quickactions-bookmarks2 = Manage bookmarks
 quickactions-cmd-bookmarks = bookmarks
@@ -435,9 +380,6 @@ quickactions-cmd-bookmarks = bookmarks
 quickactions-clearrecenthistory = Clear recent history
 quickactions-cmd-clearrecenthistory2 = cookies, clear cookies, cache, clear cache, browsing data, clear browsing data, history, clear recent history
 quickactions-cmd-clearrecenthistory = clear recent history, history
-# Opens a SUMO article explaining how to clear history
-quickactions-clearhistory = Clear History
-quickactions-cmd-clearhistory = clear history
 # Opens about:downloads page
 quickactions-downloads2 = View downloads
 quickactions-cmd-downloads = downloads
@@ -463,7 +405,6 @@ quickactions-cmd-colorpicker = color picker, eyedropper, pick color
 # Opens Firefox Library
 quickactions-cmd-library = library
 quickactions-library = Open Library
-quickactions-cmd-inspector = inspector, devtools
 # Opens about:logins
 quickactions-logins2 = Manage passwords
 quickactions-cmd-logins = logins, passwords
@@ -473,9 +414,6 @@ quickactions-mute = Mute tabs playing audio
 # Replace with idiomatic expressions in your language to silence something or
 # someone.
 quickactions-cmd-mute = mute, shush, sssssh
-# Opens about:addons page in the plugins section
-quickactions-plugins = Manage plugins
-quickactions-cmd-plugins = plugins
 # Opens the print dialog
 quickactions-print2 = Print page
 quickactions-cmd-print = print
@@ -500,12 +438,10 @@ quickactions-cmd-screenshot2 = screenshot, take a screenshot
 # Opens about:translations
 quickactions-translate = Translate
 quickactions-cmd-translate = translate
-quickactions-cmd-screenshot = screenshot
 # Opens about:preferences
 quickactions-settings2 = Manage settings
 # "manage" should match the corresponding command, which is “Manage settings” in English.
 quickactions-cmd-settings2 = settings, preferences, options, manage
-quickactions-cmd-settings = settings, preferences, options
 # Opens about:addons page in the themes section
 quickactions-themes = Manage themes
 # In English we provide multiple spellings for "add-ons". If that's not
@@ -522,7 +458,6 @@ quickactions-cmd-viewsource2 = view source, source, page source
 # Opens about:preferences:experimental (Firefox Labs)
 quickactions-labs = Open { -firefoxlabs-brand-name }
 quickactions-cmd-labs = labs, experiment
-quickactions-cmd-viewsource = view source, source
 # Tooltip text for the help button shown in the result.
 quickactions-learn-more =
     .title = Learn more about Quick actions
@@ -579,9 +514,7 @@ identity-custom-root = Connection verified by a certificate issuer that is not r
 identity-passive-loaded = Parts of this page are not secure (such as images).
 identity-active-loaded = You have disabled protection on this page.
 identity-weak-encryption = This page uses weak encryption.
-identity-insecure-login-forms = Logins entered on this page could be compromised.
 identity-https-only-connection-upgraded = (upgraded to HTTPS)
-identity-https-only-label = HTTPS-Only Mode
 identity-https-only-label2 = Automatically upgrade this site to a secure connection
 identity-https-only-dropdown-on =
     .label = On
@@ -589,8 +522,6 @@ identity-https-only-dropdown-off =
     .label = Off
 identity-https-only-dropdown-off-temporarily =
     .label = Off temporarily
-identity-https-only-info-turn-on2 = Turn on HTTPS-Only Mode for this site if you want { -brand-short-name } to upgrade the connection when possible.
-identity-https-only-info-turn-off2 = If the page seems broken, you may want to turn off HTTPS-Only Mode for this site to reload using insecure HTTP.
 identity-https-only-info-turn-on3 = Turn on HTTPS upgrades for this site if you want { -brand-short-name } to upgrade the connection when possible.
 identity-https-only-info-turn-off3 = If the page seems broken, you may want to turn off HTTPS upgrades for this site to reload using insecure HTTP.
 identity-https-only-info-no-upgrade = Unable to upgrade connection from HTTP.
@@ -614,7 +545,6 @@ identity-remove-cert-exception =
     .label = Remove Exception
     .accesskey = R
 identity-description-insecure = Your connection to this site is not private. Information you submit could be viewed by others (like passwords, messages, credit cards, etc.).
-identity-description-insecure-login-forms = The login information you enter on this page is not secure and could be compromised.
 identity-description-weak-cipher-intro = Your connection to this website uses weak encryption and is not private.
 identity-description-weak-cipher-risk = Other people can view your information or modify the website’s behavior.
 identity-description-active-blocked2 = { -brand-short-name } has blocked parts of this page that are not secure.
@@ -625,12 +555,6 @@ identity-description-active-loaded = This website contains content that is not s
 identity-description-active-loaded-insecure = Information you share with this site could be viewed by others (like passwords, messages, credit cards, etc.).
 identity-description-tls-key-logging-heading = Your connection may not be private
 identity-description-tls-key-logging-message = An app or service may see your encrypted traffic from this site.
-identity-disable-mixed-content-blocking =
-    .label = Disable protection for now
-    .accesskey = D
-identity-enable-mixed-content-blocking =
-    .label = Enable protection
-    .accesskey = E
 identity-more-info-link-text =
     .label = More information
 
@@ -651,33 +575,7 @@ browser-window-return-to-opener =
 ## Tab actions
 
 # This label should be written in all capital letters if your locale supports them.
-browser-tab-audio-playing2 = PLAYING
-# This label should be written in all capital letters if your locale supports them.
-browser-tab-audio-muted2 = MUTED
-# This label should be written in all capital letters if your locale supports them.
-browser-tab-audio-blocked = AUTOPLAY BLOCKED
-# This label should be written in all capital letters if your locale supports them.
 browser-tab-audio-pip = PICTURE-IN-PICTURE
-
-## These labels should be written in all capital letters if your locale supports them.
-## Variables:
-##  $count (number): number of affected tabs
-
-browser-tab-mute =
-    { $count ->
-        [1] MUTE TAB
-       *[other] MUTE { $count } TABS
-    }
-browser-tab-unmute =
-    { $count ->
-        [1] UNMUTE TAB
-       *[other] UNMUTE { $count } TABS
-    }
-browser-tab-unblock =
-    { $count ->
-        [1] PLAY TAB
-       *[other] PLAY { $count } TABS
-    }
 
 ## Bookmarks toolbar items
 
@@ -718,10 +616,6 @@ sharing-warning-disable-for-session =
 
 webserial-select-port-label = Select a serial port:
 webserial-no-ports-available = No serial ports available
-
-## DevTools F12 popup
-
-enable-devtools-popup-description2 = To use the F12 shortcut, first open DevTools via the Browser Tools menu.
 
 ## URL Bar
 
@@ -1296,12 +1190,6 @@ bookmarks-tools-toolbar-visibility-panel =
             [true] Hide bookmarks toolbar
            *[other] Show bookmarks toolbar
         }
-bookmarks-tools-menu-button-visibility =
-    .label =
-        { $isVisible ->
-            [true] Remove bookmarks menu from toolbar
-           *[other] Add bookmarks menu to toolbar
-        }
 
 ##
 
@@ -1332,8 +1220,6 @@ bookmarks-subview-bookmark-tab =
 
 library-bookmarks-menu =
     .label = Bookmarks
-library-recent-activity-title =
-    .value = Recent Activity
 
 ## Pocket toolbar button
 

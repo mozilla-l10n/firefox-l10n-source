@@ -52,8 +52,6 @@ download-cert-view-text = Examine CA certificate
 
 client-auth-window =
     .title = User Identification Request
-client-auth-site-description = This site has requested that you identify yourself with a certificate:
-client-auth-choose-cert = Choose a certificate to present as identification:
 client-auth-send-no-certificate =
     .label = Don’t send a certificate
 # Variables:

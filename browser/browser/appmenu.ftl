@@ -39,8 +39,6 @@ appmenuitem-extensions-and-themes =
     .label = Extensions and Themes
 appmenuitem-extensions =
     .label = Extensions
-appmenuitem-addons-and-themes =
-    .label = Add-ons and themes
 appmenuitem-print =
     .label = Print…
 appmenuitem-find-in-page =
@@ -154,7 +152,6 @@ fxa-menu-get-firefox-mobile =
     .label = Get { -brand-product-name } for Android or iOS
 fxa-menu-secure-sync-subpanel =
     .title = Secure sync
-appmenu-fxa-header2 = { -fxaccount-brand-name(capitalization: "sentence") }
 appmenu-account-header = Account
 # Variables
 # $time (string) - Localized relative time since last sync (e.g. 1 second ago,
@@ -176,15 +173,6 @@ appmenuitem-save-page =
     .label = Save Page As…
 appmenuitem-fxa-sync-off-title = Sync is off
 appmenuitem-fxa-sync-off-description = Protect and access your bookmarks, passwords, and more anywhere.
-
-## What's New panel in App menu.
-
-whatsnew-panel-header = What’s New
-# Checkbox displayed at the bottom of the What's New panel, allowing users to
-# enable/disable What's New notifications.
-whatsnew-panel-footer-checkbox =
-    .label = Notify about new features
-    .accesskey = f
 
 ## The Firefox Profiler – The popup is the UI to turn on the profiler, and record
 ## performance profiles. To enable it go to profiler.firefox.com and click
@@ -336,8 +324,6 @@ appmenu-get-help =
 appmenu-help-more-troubleshooting-info =
     .label = More troubleshooting information
     .accesskey = t
-appmenu-help-report-site-issue =
-    .label = Report site issue…
 appmenu-help-share-ideas =
     .label = Share ideas and feedback…
     .accesskey = S

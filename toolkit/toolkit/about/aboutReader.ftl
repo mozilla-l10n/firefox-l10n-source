@@ -4,14 +4,6 @@
 
 about-reader-loading = Loading…
 about-reader-load-error = Failed to load article from page
-about-reader-color-scheme-light = Light
-    .title = Color Scheme Light
-about-reader-color-scheme-dark = Dark
-    .title = Color Scheme Dark
-about-reader-color-scheme-sepia = Sepia
-    .title = Color Scheme Sepia
-about-reader-color-scheme-auto = Auto
-    .title = Color Scheme Auto
 about-reader-color-light-theme = Light
     .title = Light theme
 about-reader-color-dark-theme = Dark
@@ -41,14 +33,6 @@ about-reader-toolbar-minus =
     .title = Decrease font size
 about-reader-toolbar-plus =
     .title = Increase font size
-about-reader-toolbar-contentwidthminus =
-    .title = Decrease Content Width
-about-reader-toolbar-contentwidthplus =
-    .title = Increase Content Width
-about-reader-toolbar-lineheightminus =
-    .title = Decrease Line Height
-about-reader-toolbar-lineheightplus =
-    .title = Increase Line Height
 
 ## These are the styles of typeface that are options in the reader view controls.
 
@@ -59,7 +43,6 @@ about-reader-font-type-monospace = Monospace
 ## Reader View toolbar buttons
 
 about-reader-toolbar-close = Close Reader View
-about-reader-toolbar-type-controls = Type controls
 about-reader-toolbar-text-layout-controls = Text and layout
 about-reader-toolbar-theme-controls = Theme
 about-reader-toolbar-savetopocket = Save to { -pocket-brand-name }

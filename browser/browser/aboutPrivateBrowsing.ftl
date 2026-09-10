@@ -32,8 +32,6 @@ about-private-browsing-focus-promo-text = Our dedicated private browsing mobile 
 
 ##
 
-about-private-browsing-focus-promo-header-b = Take private browsing to your phone
-about-private-browsing-focus-promo-text-b = Use { -focus-brand-name } for those private searches you don’t want your main mobile browser to see.
 about-private-browsing-focus-promo-header-c = Next-level privacy on mobile
 about-private-browsing-focus-promo-text-c = { -focus-brand-name } clears your history every time while blocking ads and trackers.
 # This string is the title for the banner for search engine selection
@@ -69,11 +67,6 @@ about-private-browsing-relay-promo-link-text = Try email masks
 
 ## Strings used in a promotion message for cookie banner reduction
 
-# Simplified version of the headline if the original text doesn't work
-# in your language: `See fewer cookie requests`.
-about-private-browsing-cookie-banners-promo-header = Cookie banners begone!
-about-private-browsing-cookie-banners-promo-button = Reduce Cookie Banners
-about-private-browsing-cookie-banners-promo-message = Let { -brand-short-name } automatically answer cookie pop-ups for you so you can get back to distraction-free browsing. { -brand-short-name } will reject all requests if possible.
 # Simplified version of the headline if the original text doesn't work
 # in your language: `{ -brand-short-name } will show fewer cookie requests`
 about-private-browsing-cookie-banners-promo-heading = { -brand-short-name } takes care of cookie banners for you

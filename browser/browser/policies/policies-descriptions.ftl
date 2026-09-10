@@ -49,7 +49,6 @@ policy-DisableDefaultBrowserAgent = Prevent the default browser agent from takin
 policy-DisableDeveloperTools = Block access to the developer tools.
 policy-DisableEncryptedClientHello = Disable use of the TLS feature Encrypted Client Hello (ECH).
 policy-DisableFeedbackCommands = Disable commands to send feedback from the Help menu (Submit Feedback and Report Deceptive Site).
-policy-DisableFirefoxAccounts = Disable { -fxaccount-brand-name } based services, including Sync.
 # This string is in the process of being deprecated in favor of policy-DisableAccounts.
 policy-DisableFirefoxAccounts1 = Disable account-based services, including sync.
 # Firefox Screenshots is the name of the feature, and should not be translated.
@@ -60,7 +59,6 @@ policy-DisableFormHistory = Don’t remember search and form history.
 policy-DisableLaunchOnLogin = Prevent { -brand-short-name } from launching automatically when the user logs in.
 policy-DisablePrimaryPasswordCreation = If true, a Primary Password can’t be created.
 policy-DisablePasswordReveal = Do not allow passwords to be revealed in saved logins.
-policy-DisablePocket2 = Disable the feature to save webpages to { -pocket-brand-name }.
 policy-DisablePrivateBrowsing = Disable Private Browsing.
 policy-DisableProfileImport = Disable the menu command to Import data from another browser.
 policy-DisableProfileRefresh = Disable the Refresh { -brand-short-name } button in the about:support page.

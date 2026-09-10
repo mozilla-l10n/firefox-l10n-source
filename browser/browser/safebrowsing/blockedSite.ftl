@@ -61,9 +61,6 @@ safeb-blocked-harmful-page-error-desc-no-override = <span data-l10n-name='sitena
 ##  $sitename (string) - Domain name for the blocked page
 
 safeb-blocked-harmful-page-learn-more = Learn more about { -brand-short-name }’s Phishing and Malware Protection at <a data-l10n-name='firefox_support'>support.mozilla.org</a>.
-safeb-palm-notdeceptive =
-    .label = This isn’t a deceptive site…
-    .accesskey = d
 
 ## Variables:
 ##  $addonName (string) - the name of the harmful add-on

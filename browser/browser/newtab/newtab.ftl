@@ -20,11 +20,6 @@ newtab-personalize-settings-icon-label =
     .aria-label = Settings
 newtab-settings-dialog-label =
     .aria-label = Settings
-newtab-personalize-icon-label =
-    .title = Personalize new tab
-    .aria-label = Personalize new tab
-newtab-personalize-dialog-label =
-    .aria-label = Personalize
 newtab-logo-and-wordmark =
     .aria-label = { -brand-full-name }
 newtab-card-dismiss-button =
@@ -528,7 +523,6 @@ newtab-search-box-input =
 
 newtab-topsites-add-search-engine-header = Add Search Engine
 newtab-topsites-add-shortcut-header = New Shortcut
-newtab-topsites-edit-topsites-header = Edit Top Site
 newtab-topsites-edit-shortcut-header = Edit Shortcut
 newtab-topsites-add-shortcut-label = Add Shortcut
 newtab-topsites-add-shortcut-title =
@@ -611,10 +605,6 @@ newtab-dismiss-button-tooltip =
 newtab-menu-content-tooltip =
     .title = Open menu
     .aria-label = Open context menu for { $title }
-# Tooltip on an empty topsite box to open the New Top Site dialog.
-newtab-menu-topsites-placeholder-tooltip =
-    .title = Edit this site
-    .aria-label = Edit this site
 
 ## Context Menu: These strings are displayed in a context menu and are meant as a call to action for a given page.
 
@@ -717,31 +707,12 @@ newtab-label-sponsored-fixed = Sponsored
 ## Section Menu: These strings are displayed in the section context menu and are
 ## meant as a call to action for the given section.
 
-newtab-section-menu-remove-section = Remove Section
-newtab-section-menu-collapse-section = Collapse Section
-newtab-section-menu-expand-section = Expand Section
-newtab-section-menu-manage-section = Manage Section
-newtab-section-menu-manage-webext = Manage Extension
-newtab-section-menu-add-topsite = Add Top Site
-newtab-section-menu-add-search-engine = Add Search Engine
-newtab-section-menu-move-up = Move Up
-newtab-section-menu-move-down = Move Down
 newtab-section-menu-privacy-notice = Privacy Notice
-
-## Section aria-labels
-
-newtab-section-collapse-section-label =
-    .aria-label = Collapse Section
-newtab-section-expand-section-label =
-    .aria-label = Expand Section
 
 ## Section Headers.
 
 newtab-section-header-topsites = Top Sites
 newtab-section-header-recent-activity = Recent activity
-# Variables:
-#   $provider (string) - Name of the corresponding content provider.
-newtab-section-header-pocket = Recommended by { $provider }
 newtab-section-header-stories = Thought-provoking stories
 # "picks" refers to recommended articles
 newtab-section-header-todays-picks = Today’s picks for you
@@ -749,10 +720,6 @@ newtab-section-header-todays-picks = Today’s picks for you
 ## Empty Section States: These show when there are no more items in a section. Ex. When there are no more Pocket story recommendations, in the space where there would have been stories, this is shown instead.
 
 newtab-empty-section-highlights = Start browsing, and we’ll show some of the great articles, videos, and other pages you’ve recently visited or bookmarked here.
-# Ex. When there are no more Pocket story recommendations, in the space where there would have been stories, this is shown instead.
-# Variables:
-#   $provider (string) - Name of the content provider for this section, e.g "Pocket".
-newtab-empty-section-topstories = You’ve caught up. Check back later for more top stories from { $provider }. Can’t wait? Select a popular topic to find more great stories from around the web.
 # Ex. When there are no more story recommendations, in the space where there would have been stories, this is shown instead.
 newtab-empty-section-topstories-generic = You’ve caught up. Check back later for more stories. Can’t wait? Select a popular topic to find more great stories from around the web.
 
@@ -786,19 +753,6 @@ newtab-carousel-pause =
 newtab-carousel-play =
     .aria-label = Resume autoplay
 
-## Pocket Content Section.
-
-# This is shown at the bottom of the trending stories section and precedes a list of links to popular topics.
-newtab-pocket-read-more = Popular Topics:
-newtab-pocket-new-topics-title = Want even more stories? See these popular topics from { -pocket-brand-name }
-newtab-pocket-more-recommendations = More Recommendations
-newtab-pocket-learn-more = Learn more
-newtab-pocket-cta-button = Get { -pocket-brand-name }
-newtab-pocket-cta-text = Save the stories you love in { -pocket-brand-name }, and fuel your mind with fascinating reads.
-newtab-pocket-pocket-firefox-family = { -pocket-brand-name } is part of the { -brand-product-name } family
-newtab-pocket-save = Save
-newtab-pocket-saved = Saved
-
 ## Thumbs up and down buttons that shows over a newtab stories card thumbnail on hover.
 
 # Clicking the thumbs up button for this story will result in more stories like this one being recommended
@@ -827,8 +781,6 @@ newtab-error-fallback-refresh-link = Refresh page to try again.
 
 ## New Tab Appearance (browser theme picker)
 
-newtab-custom-shortcuts-title = Shortcuts
-newtab-custom-shortcuts-subtitle = Sites you save or visit
 #  (developer note): @nova-cleanup(remove-string): Remove old string once Nova lands. The newtab-custom-shortcuts-nova string will take over
 newtab-custom-shortcuts-toggle =
     .label = Shortcuts
@@ -856,9 +808,6 @@ newtab-custom-row-selector =
         [one] { $num } row
        *[other] { $num } rows
     }
-newtab-custom-sponsored-sites = Sponsored shortcuts
-newtab-custom-pocket-title = Recommended by { -pocket-brand-name }
-newtab-custom-pocket-subtitle = Exceptional content curated by { -pocket-brand-name }, part of the { -brand-product-name } family
 #  (developer note): @nova-cleanup(remove-string): Remove string once Nova lands. We won't be having a description under "Recommended stories" anymore
 newtab-custom-stories-toggle =
     .label = Recommended stories
@@ -870,10 +819,7 @@ newtab-custom-stories-personalized-toggle =
 newtab-custom-stories-personalized-checkbox =
     .label = Personalized stories based on your activity
 newtab-custom-stories-personalized-checkbox-label = Personalized stories based on your activity
-newtab-custom-pocket-sponsored = Sponsored stories
 newtab-custom-pocket-show-recent-saves = Show recent saves
-newtab-custom-recent-title = Recent activity
-newtab-custom-recent-subtitle = A selection of recent sites and content
 newtab-custom-weather-toggle =
     .label = Weather
     .description = Today’s forecast at a glance
