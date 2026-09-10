@@ -332,8 +332,6 @@ newtab-privacy-message-first-protection-cta = View protections
 
 ## Strings for the Stocks widget
 
-# Context menu item for searching stock ticker symbols.
-newtab-stocks-menu-search = Search ticker symbols
 # Context menu item linking to more information about the Stocks widget.
 newtab-stocks-menu-learn-more = Learn more
 # Shown in the Stocks widget when its data could not be loaded.
@@ -1049,7 +1047,7 @@ newtab-wallpaper-abstract-purple-green = Purple and green light gradient
 newtab-wallpaper-abstract-blue-purple-waves = Blue and purple wavy shapes
 newtab-wallpaper-abstract-black-waves = Black wavy shapes
 
-## Firefox
+## Firefox wallpaper descriptions used for screen readers
 
 newtab-wallpaper-category-title-photographs = Photographs
 newtab-wallpaper-beach-at-sunrise = Beach at sunrise
@@ -1078,6 +1076,25 @@ feature-highlight-dismiss-button =
 feature-highlight-wallpaper =
     .title = { -newtab-wallpaper-feature-highlight-header }
     .aria-label = { -newtab-wallpaper-feature-highlight-content }
+
+## Firefox wallpaper descriptions used for screen readers
+
+newtab-wallpaper-firefox-orange = A fox at the right edge on an orange background
+newtab-wallpaper-firefox-colorful-sky = Waves of orange across a purple night sky
+newtab-wallpaper-firefox-desert-dark = A fox sitting in a dark purple desert
+newtab-wallpaper-firefox-desert-light = A fox running across a light desert
+newtab-wallpaper-firefox-hills-dark = A fox running over dark hills
+newtab-wallpaper-firefox-hills-light = A fox running over light hills
+newtab-wallpaper-firefox-tail-dark = A fox’s tail on a dark background
+newtab-wallpaper-firefox-tail-light = A fox’s tail on a light background
+newtab-wallpaper-firefox-side-kit-dark = A fox on the left side, on a dark background
+newtab-wallpaper-firefox-side-kit-light = A fox on the left side, on a light background
+newtab-wallpaper-firefox-sitting-hill-dark = A fox sitting on dark purple hills
+newtab-wallpaper-firefox-sitting-hill-light = A fox sitting on light hills
+newtab-wallpaper-firefox-peak-dark = A fox’s face at the left edge, on a dark background
+newtab-wallpaper-firefox-peak-light = A fox’s face at the left edge, on a light background
+newtab-wallpaper-firefox-sky-dark = Dark purple hills under a night sky
+newtab-wallpaper-firefox-sky-light = Light hills under a soft sky
 
 ## Firefox
 

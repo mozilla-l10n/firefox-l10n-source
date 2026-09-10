@@ -28,10 +28,6 @@ menu-application-set-as-default =
 # use the browser. "Share" here means recommending or referring the browser
 menu-application-referrals2 =
     .label = Share { -brand-product-name }
-# This menu item opens the referral page, where the user can invite others to
-# use the browser. "Share" here means recommending or referring the browser
-menu-application-referrals =
-    .label = Share { -brand-shorter-name }
 menu-application-services =
     .label = Services
 menu-application-hide-this =
@@ -398,7 +394,3 @@ menu-report-broken-site =
 # use the browser. "Share" here means recommending or referring the browser
 menu-referrals2 =
     .label = Share { -brand-product-name }
-# This menu item opens the referral page, where the user can invite others to
-# use the browser. "Share" here means recommending or referring the browser
-menu-referrals =
-    .label = Share { -brand-shorter-name }
