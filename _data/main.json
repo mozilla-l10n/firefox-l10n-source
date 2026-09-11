@@ -3150,7 +3150,10 @@
     "lapsed-user-toast-title",
     "lapsed-user-toast-subtitle",
     "lapsed-user-toast-whats-new-button",
-    "lapsed-user-toast-dismiss-button"
+    "lapsed-user-toast-dismiss-button",
+    "refresh-unused-profile-infobar-message",
+    "refresh-reinstalled-profile-infobar-message",
+    "refresh-profile-infobar-button"
   ],
   "browser/browser/newtab/newtab.ftl": [
     "newtab-page-title",
@@ -3967,6 +3970,13 @@
     "newtab-recent-searches-widget-title",
     "newtab-recent-searches-widget-menu-button",
     "newtab-recent-searches-menu-learn-more",
+    "newtab-recent-searches-tab-recent",
+    "newtab-recent-searches-tab-trending",
+    "newtab-recent-searches-trending-attribution",
+    "newtab-recent-searches-just-now",
+    "newtab-recent-searches-row-remove",
+    "newtab-recent-searches-empty-recent",
+    "newtab-recent-searches-empty-trending",
     "newtab-spaces-tab-stories",
     "newtab-spaces-tab-widgets",
     "newtab-spaces-tab-activity"
@@ -12232,12 +12242,6 @@
     "summaryOnValue",
     "summaryOffValue"
   ],
-  "toolkit/chrome/global/resetProfile.properties": [
-    "resetUnusedProfile.message",
-    "resetUninstalled.message",
-    "refreshProfile.resetButton.label",
-    "refreshProfile.resetButton.accesskey"
-  ],
   "toolkit/chrome/global/viewSource.properties": [
     "goToLineTitle",
     "goToLineText",
@@ -12734,6 +12738,7 @@
     "themes-mode-light",
     "themes-mode-dark",
     "themes-mode-device",
+    "themes-mode",
     "aboutaddons-themes-picker-heading",
     "aboutaddons-themes-picker-see-more",
     "aboutaddons-themes-picker-see-less",
@@ -14000,6 +14005,10 @@
     "about-config-pref-accessible-value-default",
     "about-config-pref-accessible-value-custom"
   ],
+  "toolkit/toolkit/about/pdfFeaturesNotification.ftl": [
+    "pdf-features-notification",
+    "pdf-features-notification-message"
+  ],
   "toolkit/toolkit/about/url-classifier.ftl": [
     "url-classifier-title",
     "url-classifier-search-title",
@@ -14718,6 +14727,7 @@
     "theme-picker-mode-light",
     "theme-picker-mode-dark",
     "theme-picker-mode-device",
+    "theme-picker-mode",
     "theme-picker-use-linux-theme",
     "theme-picker-default",
     "theme-picker-sun",
