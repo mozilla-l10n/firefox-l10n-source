@@ -3150,7 +3150,10 @@
     "lapsed-user-toast-title",
     "lapsed-user-toast-subtitle",
     "lapsed-user-toast-whats-new-button",
-    "lapsed-user-toast-dismiss-button"
+    "lapsed-user-toast-dismiss-button",
+    "refresh-unused-profile-infobar-message",
+    "refresh-reinstalled-profile-infobar-message",
+    "refresh-profile-infobar-button"
   ],
   "browser/browser/newtab/newtab.ftl": [
     "newtab-page-title",
@@ -12238,12 +12241,6 @@
     "summaryNAValue",
     "summaryOnValue",
     "summaryOffValue"
-  ],
-  "toolkit/chrome/global/resetProfile.properties": [
-    "resetUnusedProfile.message",
-    "resetUninstalled.message",
-    "refreshProfile.resetButton.label",
-    "refreshProfile.resetButton.accesskey"
   ],
   "toolkit/chrome/global/viewSource.properties": [
     "goToLineTitle",
