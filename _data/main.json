@@ -3967,6 +3967,13 @@
     "newtab-recent-searches-widget-title",
     "newtab-recent-searches-widget-menu-button",
     "newtab-recent-searches-menu-learn-more",
+    "newtab-recent-searches-tab-recent",
+    "newtab-recent-searches-tab-trending",
+    "newtab-recent-searches-trending-attribution",
+    "newtab-recent-searches-just-now",
+    "newtab-recent-searches-row-remove",
+    "newtab-recent-searches-empty-recent",
+    "newtab-recent-searches-empty-trending",
     "newtab-spaces-tab-stories",
     "newtab-spaces-tab-widgets",
     "newtab-spaces-tab-activity"
@@ -12734,6 +12741,7 @@
     "themes-mode-light",
     "themes-mode-dark",
     "themes-mode-device",
+    "themes-mode",
     "aboutaddons-themes-picker-heading",
     "aboutaddons-themes-picker-see-more",
     "aboutaddons-themes-picker-see-less",
@@ -14000,6 +14008,10 @@
     "about-config-pref-accessible-value-default",
     "about-config-pref-accessible-value-custom"
   ],
+  "toolkit/toolkit/about/pdfFeaturesNotification.ftl": [
+    "pdf-features-notification",
+    "pdf-features-notification-message"
+  ],
   "toolkit/toolkit/about/url-classifier.ftl": [
     "url-classifier-title",
     "url-classifier-search-title",
@@ -14718,6 +14730,7 @@
     "theme-picker-mode-light",
     "theme-picker-mode-dark",
     "theme-picker-mode-device",
+    "theme-picker-mode",
     "theme-picker-use-linux-theme",
     "theme-picker-default",
     "theme-picker-sun",
