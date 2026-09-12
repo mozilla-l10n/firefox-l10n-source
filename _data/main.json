@@ -3704,6 +3704,9 @@
     "newtab-activation-window-message-customization-focus-primary-button",
     "newtab-activation-window-message-values-focus-header",
     "newtab-activation-window-message-values-focus-message",
+    "newtab-nova-customization-callout-header",
+    "newtab-nova-customization-callout-message",
+    "newtab-nova-customization-callout-primary-button",
     "newtab-clock-widget-menu-learn-more",
     "newtab-clock-widget-menu-edit",
     "newtab-clock-widget-menu-switch-to-12h",
@@ -8217,6 +8220,7 @@
     "domMutationTypes.attribute",
     "domMutationTypes.removal",
     "domMutationTypes.subtree",
+    "domMutation.remove.tooltip",
     "sources.search.key2",
     "sources.search.alt.key",
     "projectTextSearch.key",
@@ -8360,6 +8364,7 @@
     "xhrBreakpoints.placeholder",
     "xhrBreakpoints.label",
     "xhrBreakpoints.removeAll.tooltip",
+    "xhrBreakpoints.remove.tooltip",
     "xhrBreakpoints.item.label",
     "pauseOnAnyXHR",
     "watchpoints.submenu",
@@ -9468,7 +9473,8 @@
     "replaceAll.key",
     "replaceAllMac.key",
     "findNext.key",
-    "findPrev.key"
+    "findPrev.key",
+    "sourceEditor.label"
   ],
   "devtools/client/startup.properties": [
     "optionsButton.tooltip",
