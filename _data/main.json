@@ -8124,7 +8124,8 @@
     "editor.searchResults.close",
     "sourceSearch.resultsSummary2",
     "sourceSearch.search.placeholder2",
-    "sourceSearch.search.key2"
+    "sourceSearch.search.key2",
+    "splitter.label"
   ],
   "devtools/client/debugger.properties": [
     "collapseSources",
@@ -8257,6 +8258,7 @@
     "breakpointMenuItem.removeAllAtLine.label",
     "breakpointMenuItem.removeAllAtLine.accesskey",
     "breakpoints.header",
+    "columnBreakpoint.label",
     "breakpoints.removeBreakpointTooltip",
     "callStack.header",
     "callStack.notPaused",
