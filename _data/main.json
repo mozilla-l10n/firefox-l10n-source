@@ -4544,6 +4544,7 @@
     "policy-Bookmarks",
     "policy-CaptivePortal",
     "policy-CertificatesDescription",
+    "policy-ClearOnShutdown",
     "policy-CNSA2KeyAgreementEnabled",
     "policy-ContentAnalysis",
     "policy-Cookies",
@@ -4913,7 +4914,8 @@
     "browser-languages-select-language",
     "browser-languages-installed-label",
     "browser-languages-available-label",
-    "browser-languages-error"
+    "browser-languages-error",
+    "browser-languages-update-error"
   ],
   "browser/browser/preferences/moreFromMozilla.ftl": [
     "more-from-moz-title2",
@@ -9345,7 +9347,7 @@
     "perftools-thread-style-thread",
     "pref-thread-stream-trans",
     "perftools-thread-socket-thread",
-    "perftools-thread-img-decoder",
+    "perftools-thread-jxl-img-decode",
     "perftools-thread-dns-resolver",
     "perftools-thread-task-controller",
     "perftools-thread-jvm-gecko",
