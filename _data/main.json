@@ -254,7 +254,20 @@
     "about-private-browsing-nova-info-header",
     "about-private-browsing-nova-info-subheader2",
     "about-private-browsing-nova-info-body",
-    "about-private-browsing-nova-info-link"
+    "about-private-browsing-nova-info-link",
+    "about-private-browsing-private-window-basics-link",
+    "about-private-browsing-private-window-redesign-subheader",
+    "about-private-browsing-spotlight-basics-title",
+    "about-private-browsing-spotlight-basics-subtitle",
+    "about-private-browsing-spotlight-basics-what-to-know",
+    "about-private-browsing-spotlight-basics-activity-seen",
+    "about-private-browsing-spotlight-basics-bookmarks-downloads",
+    "about-private-browsing-spotlight-basics-more-privacy",
+    "about-private-browsing-spotlight-basics-malware-alerts",
+    "about-private-browsing-spotlight-basics-no-sell-data",
+    "about-private-browsing-spotlight-basics-vpn",
+    "about-private-browsing-spotlight-basics-strict-tracking",
+    "about-private-browsing-spotlight-basics-learn-more"
   ],
   "browser/browser/aboutRestartRequired.ftl": [
     "restart-required-title",
