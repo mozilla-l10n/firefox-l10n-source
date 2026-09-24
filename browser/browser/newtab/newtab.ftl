@@ -205,8 +205,6 @@ newtab-privacy-across-sites =
 ## Privacy widget — empty state
 
 # Shown when no trackers have been blocked yet today.
-newtab-privacy-empty = { -brand-short-name } blocks trackers as you browse. You’ll see them here.
-# Shown when no trackers have been blocked yet today.
 newtab-privacy-empty-state = { -brand-short-name } automatically blocks trackers, keeping more of your activity private.
 # "A running tally" is an informal way to say a total that keeps updating as it goes.
 # Here we are referring to the number of trackers blocked, which increases as the user browses.
