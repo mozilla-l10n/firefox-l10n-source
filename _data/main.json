@@ -5565,6 +5565,8 @@
     "payments-edit-payment-button-label",
     "payments-no-payments-stored-message",
     "payment-moz-box-item",
+    "payment-moz-box-item-with-security-code",
+    "payment-moz-box-item-security-code-only",
     "addresses-group",
     "autofill-addresses-checkbox-message",
     "autofill-addresses-manage-addresses-button",
@@ -15982,7 +15984,8 @@
     "credit-card-label-number-2",
     "credit-card-label-number-name-2",
     "credit-card-label-number-expiration-2",
-    "credit-card-label-number-name-expiration-2"
+    "credit-card-label-number-name-expiration-2",
+    "credit-card-label-with-security-code"
   ],
   "toolkit/toolkit/pdfviewer/embedFallback.ftl": [
     "pdfjs-embed-fallback-message",
