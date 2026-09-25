@@ -3753,6 +3753,7 @@
     "policy-Bookmarks",
     "policy-CaptivePortal",
     "policy-CertificatesDescription",
+    "policy-ClearOnShutdown",
     "policy-ContentAnalysis",
     "policy-Cookies",
     "policy-Containers",
