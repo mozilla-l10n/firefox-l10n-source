@@ -221,7 +221,8 @@
     "inactive-message",
     "policy-name",
     "policy-value",
-    "policy-errors"
+    "policy-errors",
+    "policy-not-fully-applied"
   ],
   "browser/browser/aboutPrivateBrowsing.ftl": [
     "privatebrowsingpage-open-private-window-label",
@@ -3752,6 +3753,7 @@
     "policy-Bookmarks",
     "policy-CaptivePortal",
     "policy-CertificatesDescription",
+    "policy-ClearOnShutdown",
     "policy-ContentAnalysis",
     "policy-Cookies",
     "policy-Containers",

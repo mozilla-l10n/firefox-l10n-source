@@ -22,12 +22,16 @@ appearance-browser-icon-button =
 appearance-browser-icon-subpage-title =
     .heading = More icons
 
-## Icons are organized into two groups: "Standard" and "Special". The icons in
-## the "Special" group only become available when the user has set the browser
+## Icons are organized into two groups: "Standard" and "Bonus". The icons in
+## the "Bonus" group only become available when the user has set the browser
 ## as the default and pinned its launcher to the taskbar.
 
 appearance-browser-icon-basic-group =
     .label = Standard
+# “Bonus” rather than “Special” as these are additional icons unlocked by an
+# action.
+appearance-browser-icon-bonus-group2 =
+    .label = Bonus
 appearance-browser-icon-bonus-group =
     .label = Special
 
