@@ -1738,8 +1738,8 @@ newtab-sports-widget-team-name-label-sco =
 # Placeholder used in a match row's aria-label for an undecided team (shown visually as "--").
 newtab-sports-widget-team-tbd = To be determined
 
-## Sports widget OMC messages
-## Shown as on-screen messages promoting the Sports widget and World Cup wallpapers.
+## World Cup wallpaper OMC messages
+## Shown as on-screen messages promoting the World Cup wallpapers.
 
 newtab-sports-widget-message-wallpapers-title = Kick off the World Cup with new wallpapers
 newtab-sports-widget-message-wallpapers-body = Bring some match-day energy to your browser for the tournament.
