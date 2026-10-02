@@ -12761,7 +12761,9 @@
     "about-glean-button-unwatch",
     "about-glean-no-data-to-display",
     "about-glean-dual-labeled-metric-warning",
-    "about-glean-unknown-metric-type-warning"
+    "about-glean-unknown-metric-type-warning",
+    "about-glean-store-submitted-pings-select-label",
+    "about-glean-store-submitted-pings"
   ],
   "toolkit/toolkit/about/aboutHttpsOnlyError.ftl": [
     "about-httpsonly-title-alert",
