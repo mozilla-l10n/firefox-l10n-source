@@ -1154,6 +1154,10 @@ prefs-syncing-off = Syncing: OFF
 prefs-syncing-off-2 =
     .label = Syncing is OFF
     .description = Turn on sync to get your bookmarks, passwords, history, and more on any device.
+# This string is shown when the user's device has per-device syncing enabled but sync is disabled on the device.
+prefs-syncing-off-3 =
+    .label = Syncing is OFF
+    .description = Turn on sync to get your bookmarks, passwords, history, and more on this device.
 prefs-sync-turn-on-syncing =
     .label = Turn on syncing…
     .accesskey = s
