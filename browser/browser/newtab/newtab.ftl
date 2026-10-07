@@ -350,23 +350,12 @@ newtab-stocks-error-not-available = Stock data is not available.
 newtab-stocks-widget-open-menu-button2 =
     .title = Open finance menu
     .aria-label = Open finance menu
-# "Finance options" is an icon-only button in the widget toolbar — the
-# attributes are consumed as tooltip/screen-reader label only. The button
-# never renders visible text.
-newtab-stocks-widget-menu-button2 =
-    .title = Finance options
-    .aria-label = Finance options
 # "Stocks widget options" is an icon-only button in the widget toolbar — the
 # attributes are consumed as tooltip/screen-reader label only. The button
 # never renders visible text.
 newtab-stocks-widget-menu-button =
     .title = Stocks widget options
     .aria-label = Stocks widget options
-# Tooltip and screen reader label for the icon-only button that opens the
-# widget's menu.
-newtab-stocks-widget-open-menu-button =
-    .title = Open stocks menu
-    .aria-label = Open stocks menu
 # Toolbar button that opens the stock search. It shows only the icon until it is
 # hovered or focused, then the .label as well; "Search" is a verb. .title and
 # .aria-label name it for tooltips and screen readers.
