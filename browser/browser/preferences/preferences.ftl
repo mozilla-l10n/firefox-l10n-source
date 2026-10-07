@@ -1243,6 +1243,13 @@ sync-choose-what-to-sync-dialog4 =
     .buttonaccesskeyaccept = S
     .buttonlabelextra2 = Disconnect…
     .buttonaccesskeyextra2 = D
+sync-choose-what-to-sync-dialog5 =
+    .title = Manage what syncs on this device
+    .style = min-width: 36em;
+    .buttonlabelaccept = Save
+    .buttonaccesskeyaccept = S
+    .buttonlabelextra2 = Disconnect…
+    .buttonaccesskeyextra2 = D
 
 ## The device name controls.
 
