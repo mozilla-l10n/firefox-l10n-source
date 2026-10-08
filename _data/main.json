@@ -11223,6 +11223,7 @@
     "HTTPSOnlyFailedRequest",
     "HTTPSOnlyFailedDowngradeAgain",
     "HTTPSOnlyUpgradeSpeculativeConnection",
+    "SecureUpgradeRequest",
     "HTTPSFirstSchemeless",
     "HTTPSFirstAddingException",
     "IframeSandboxBlockedDownload",
