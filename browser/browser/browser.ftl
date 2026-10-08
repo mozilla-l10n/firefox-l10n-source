@@ -1327,9 +1327,9 @@ filepicker-blocked-infobar = Your organization has blocked access to local files
 ##   $searchTabsShortcut (String) - The Search Tabs keyboard shortcut, e.g. "Ctrl+Shift+A".
 ##   $addonsShortcut (String) - The Extensions and Themes keyboard shortcut, e.g. "Ctrl+Shift+F".
 
-urlbar-addons-shortcut-moved-title = { $searchTabsShortcut } now searches your tabs
-urlbar-addons-shortcut-moved-description = To open Extensions and Themes, use { $addonsShortcut }.
-urlbar-addons-shortcut-moved-change-shortcuts = Change shortcuts
+urlbar-addons-shortcut-moved-title = { $searchTabsShortcut } now searches tabs
+urlbar-addons-shortcut-moved-description = To open extensions and themes, use { $addonsShortcut }.
+urlbar-addons-shortcut-moved-change-shortcuts = Manage shortcuts
 urlbar-addons-shortcut-moved-dismiss = Got it
 
 ## Mozilla data reporting notification (Telemetry, Firefox Health Report, etc)

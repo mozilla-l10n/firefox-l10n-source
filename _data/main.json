@@ -2058,7 +2058,9 @@
     "default-browser-guidance-notification-dismiss",
     "default-browser-guidance-notification-v2-title",
     "default-browser-guidance-notification-v2-body",
-    "default-browser-guidance-notification-v2-title-only"
+    "default-browser-guidance-notification-v2-title-only",
+    "default-browser-guidance-notification-auto-trigger-title",
+    "default-browser-guidance-notification-auto-trigger-body"
   ],
   "browser/browser/downloads.ftl": [
     "downloads-window",
@@ -4235,7 +4237,17 @@
     "onboarding-theme-picker-title",
     "onboarding-theme-picker-subtitle",
     "onboarding-theme-picker-button-label",
-    "onboarding-carousel-nav"
+    "onboarding-carousel-nav",
+    "welcome-back-onboarding-title",
+    "welcome-back-onboarding-primary-button-label",
+    "welcome-back-onboarding-secondary-button-label",
+    "welcome-back-onboarding-pill-label-tabs",
+    "welcome-back-onboarding-pill-label-vpn",
+    "welcome-back-onboarding-pill-label-pdf",
+    "welcome-back-onboarding-card-label-tabs",
+    "welcome-back-onboarding-card-label-vpn",
+    "welcome-back-onboarding-card-label-pdf",
+    "welcome-back-onboarding-card-tilebutton-label"
   ],
   "browser/browser/openTabs.ftl": [
     "opentabs-page-title",
@@ -16300,15 +16312,15 @@
     "pictureinpicture-seekforward-btn",
     "pictureinpicture-playback-rate-btn",
     "pictureinpicture-subtitles-panel-accessible",
-    "pictureinpicture-subtitles-label",
+    "pictureinpicture-subtitles-toggle",
     "pictureinpicture-playback-rate-panel-accessible",
     "pictureinpicture-playback-rate-label",
     "pictureinpicture-playback-rate-value",
     "pictureinpicture-playback-rate-preset",
-    "pictureinpicture-font-size-label",
-    "pictureinpicture-font-size-small",
-    "pictureinpicture-font-size-medium",
-    "pictureinpicture-font-size-large"
+    "pictureinpicture-font-size-group",
+    "pictureinpicture-font-size-small-radio",
+    "pictureinpicture-font-size-medium-radio",
+    "pictureinpicture-font-size-large-radio"
   ],
   "toolkit/toolkit/preferences/preferences.ftl": [
     "set-password-not-set",
