@@ -105,9 +105,6 @@ home-prefs-search-widget-header =
 # Horoscopes is a widget on New Tab that shows daily horoscopes.
 home-prefs-horoscopes-header =
     .label = Horoscopes
-# Recent searches is a widget on New Tab that shows the user's recent searches.
-home-prefs-recent-searches-header =
-    .label = Recent searches
 home-prefs-mission-message2 =
     .message = Our sponsors support our mission to build a better web.
 home-prefs-manage-topics-link2 =
@@ -529,11 +526,6 @@ newtab-picture-image-alt = Wikimedia Commons picture of the day
 
 ## Strings for the Search widget
 
-# Widget heading; also the widget's accessible name.
-newtab-recent-searches-widget-title = Recent searches
-# Screen reader label for the widget's icon-only menu button.
-newtab-recent-searches-widget-menu-button =
-    .aria-label = Recent searches options
 # Context menu item linking to more information about the widget.
 newtab-recent-searches-menu-learn-more = Learn more
 # Tab listing the searches the user has made recently.
@@ -893,8 +885,6 @@ newtab-custom-widget-search-toggle =
     .label = Search
 newtab-custom-widget-horoscopes-toggle =
     .label = Horoscopes
-newtab-custom-widget-recent-searches-toggle =
-    .label = Recent searches
 newtab-custom-widget-section-title = Widgets
 newtab-custom-widget-section-toggle =
     .label = Widgets
