@@ -954,6 +954,23 @@
     "appmenuitem-share-firefox-title2",
     "appmenuitem-share-firefox-description"
   ],
+  "browser/browser/autoTabGrouping.ftl": [
+    "smartwindow-organize-tabs-button",
+    "smartwindow-group-tabs-panel-heading",
+    "smartwindow-group-tabs-loading",
+    "smartwindow-group-tabs-empty",
+    "smartwindow-group-tabs-all-sorted",
+    "smartwindow-group-tabs-create-all",
+    "smartwindow-group-tabs-suggested-heading",
+    "smartwindow-group-tabs-flyout-list",
+    "smartwindow-group-tabs-suggestion",
+    "smartwindow-group-tabs-just-created-heading",
+    "smartwindow-group-tabs-ungroup",
+    "smartwindow-group-tabs-view-tab-groups",
+    "smartwindow-group-tabs-groups-list",
+    "smartwindow-group-tabs-close-duplicates",
+    "smartwindow-group-tabs-duplicates-list"
+  ],
   "browser/browser/backgroundtasks/defaultagent.ftl": [
     "default-browser-agent-task-description",
     "default-browser-notification-privacy-header-text",
@@ -5419,6 +5436,7 @@
     "prefs-syncing-button-2",
     "sync-syncing-across-devices-heading",
     "sync-syncing-across-devices-heading-2",
+    "sync-syncing-across-devices-heading-3",
     "sync-syncing-across-devices-empty-state2",
     "sync-syncing-across-devices-empty-state3",
     "sync-currently-syncing-bookmarks",
