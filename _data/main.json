@@ -1238,7 +1238,7 @@
     "bookmark-panel-cancel",
     "bookmark-panel-remove",
     "bookmark-panel-show-editor-checkbox",
-    "bookmark-panel-save-button",
+    "bookmark-panel-save-button2",
     "bookmark-panel",
     "identity-site-information",
     "identity-header-security-with-host",
@@ -7111,6 +7111,8 @@
     "unified-extensions-mb-blocklist-error-multiple"
   ],
   "browser/browser/webProtocolHandler.ftl": [
+    "protocolhandler-add-handler-message",
+    "protocolhandler-add-handler-button",
     "protocolhandler-mailto-os-handler-yes-button",
     "protocolhandler-mailto-os-handler-no-button",
     "protocolhandler-mailto-handler-set",
@@ -7457,11 +7459,6 @@
     "sizeUnknown",
     "statusSeparator",
     "statusSeparatorBeforeNumber"
-  ],
-  "browser/chrome/browser/feeds/subscribe.properties": [
-    "addProtocolHandlerMessage",
-    "addProtocolHandlerAddButton",
-    "addProtocolHandlerAddButtonAccesskey"
   ],
   "browser/chrome/browser/places/bookmarkProperties.properties": [
     "dialogAcceptLabelSaveItem",
