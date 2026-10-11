@@ -6368,7 +6368,9 @@
     "safeb-blocked-addon-page-error-desc2-override",
     "safeb-blocked-addon-page-error-desc3-override",
     "safeb-blocked-addon-page-error-desc4-override",
-    "safeb-blocked-addon-page-learn-more3"
+    "safeb-blocked-addon-page-learn-more3",
+    "safeb-report-false-deceptive-error-title",
+    "safeb-report-false-deceptive-error-message"
   ],
   "browser/browser/sanitize.ftl": [
     "sanitize-prefs2",
@@ -7500,10 +7502,6 @@
     "bookmarkAllTabsDefault",
     "newFolderDefault",
     "newBookmarkDefault"
-  ],
-  "browser/chrome/browser/safebrowsing/safebrowsing.properties": [
-    "errorReportFalseDeceptiveTitle",
-    "errorReportFalseDeceptiveMessage"
   ],
   "browser/chrome/browser/search.properties": [
     "searchtip",
