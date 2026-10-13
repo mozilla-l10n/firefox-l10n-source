@@ -109,6 +109,8 @@ home-prefs-mission-message2 =
     .message = Our sponsors support our mission to build a better web.
 home-prefs-manage-topics-link2 =
     .label = Manage topics
+home-prefs-manage-widgets-link =
+    .label = Manage widgets
 home-prefs-choose-wallpaper-link2 =
     .label = Choose a wallpaper
 home-prefs-firefox-logo-header =
@@ -568,6 +570,11 @@ newtab-recent-searches-empty-trending = Trending searches are not available righ
 
 # Widget heading; also the widget's accessible name.
 newtab-horoscopes-widget-title = Horoscopes
+# Tooltip and screen reader label for the icon-only button that opens the
+# widget's menu.
+newtab-horoscopes-widget-open-menu-button =
+    .title = Open horoscopes menu
+    .aria-label = Open horoscopes menu
 # Screen reader label for the widget's icon-only menu button.
 newtab-horoscopes-widget-menu-button =
     .aria-label = Horoscopes options
