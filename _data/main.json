@@ -1493,8 +1493,6 @@
     "tabs-toolbar-new-tab",
     "tabs-toolbar-list-all-tabs-2",
     "pinned-tabs-drop-indicator",
-    "restore-session-startup-suggestion-message",
-    "restore-session-startup-suggestion-button",
     "filepicker-blocked-infobar",
     "urlbar-addons-shortcut-moved-title",
     "urlbar-addons-shortcut-moved-description",
@@ -1819,6 +1817,7 @@
     "confirmation-hint-firefox-relay-mask-created",
     "confirmation-hint-firefox-relay-mask-reused",
     "confirmation-hint-screenshot-copied",
+    "confirmation-hint-tab-group-saved",
     "confirmation-hint-duplicate-tabs-closed"
   ],
   "browser/browser/contentCrash.ftl": [
@@ -2712,7 +2711,6 @@
     "ipprotection-button-connecting",
     "ipprotection-recommended-location-button",
     "ipprotection-recommended-location-description",
-    "ipprotection-recommended-location-badge",
     "ipprotection-location-country-button",
     "ipprotection-locations-subview",
     "ipprotection-locations-subview-description",
@@ -3250,7 +3248,9 @@
     "lapsed-user-toast-import-subtitle",
     "refresh-unused-profile-infobar-message",
     "refresh-reinstalled-profile-infobar-message",
-    "refresh-profile-infobar-button"
+    "refresh-profile-infobar-button",
+    "restore-session-startup-suggestion-message",
+    "restore-session-startup-suggestion-button"
   ],
   "browser/browser/newtab/newtab.ftl": [
     "newtab-page-title",
@@ -12200,19 +12200,6 @@
     "summaryOnValue",
     "summaryOffValue"
   ],
-  "toolkit/chrome/global/viewSource.properties": [
-    "goToLineTitle",
-    "goToLineText",
-    "invalidInputTitle",
-    "invalidInputText",
-    "outOfRangeTitle",
-    "outOfRangeText",
-    "viewSelectionSourceTitle",
-    "context_goToLine_label",
-    "context_goToLine_accesskey",
-    "context_wrapLongLines_label",
-    "context_highlightSyntax_label"
-  ],
   "toolkit/chrome/global/wizard.properties": [
     "default-first-title",
     "default-last-title",
@@ -12798,7 +12785,9 @@
     "about-glean-dual-labeled-metric-warning",
     "about-glean-unknown-metric-type-warning",
     "about-glean-store-submitted-pings-select-label",
-    "about-glean-store-submitted-pings"
+    "about-glean-store-submitted-pings",
+    "about-glean-submitted-ping-client-info-title",
+    "about-glean-submitted-ping-ping-info-title"
   ],
   "toolkit/toolkit/about/aboutHttpsOnlyError.ftl": [
     "about-httpsonly-title-alert",
@@ -14792,6 +14781,18 @@
     "videocontrols-status-picture-in-picture",
     "videocontrols-position-and-duration-labels",
     "videocontrols-scrubber-position-and-duration"
+  ],
+  "toolkit/toolkit/global/viewSource.ftl": [
+    "view-source-go-to-line-title",
+    "view-source-go-to-line-text",
+    "view-source-invalid-input-title",
+    "view-source-invalid-input-text",
+    "view-source-out-of-range-title",
+    "view-source-out-of-range-text",
+    "view-source-selection-title",
+    "view-source-context-go-to-line",
+    "view-source-context-wrap-long-lines",
+    "view-source-context-highlight-syntax"
   ],
   "toolkit/toolkit/global/wizard.ftl": [
     "wizard-macos-button-back",
