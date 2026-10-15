@@ -27,6 +27,7 @@ ipprotection-feature-introduction-title = Introducing VPN, now right inside your
 ipprotection-feature-introduction-title-1 = Try { -brand-product-name }’s built-in VPN
 ipprotection-feature-introduction-link-text-2 = Use our new <a data-l10n-name="learn-more-vpn">built-in VPN</a> to hide your location and protect your data.
 ipprotection-feature-introduction-title-privacy = Add another layer of privacy
+ipprotection-feature-introduction-title-privacy-1 = Add another layer of privacy with built-in VPN
 ipprotection-feature-introduction-link-text-privacy-1 = <a data-l10n-name="learn-more-vpn">{ -brand-product-name }’s built-in VPN</a> helps protect your browsing. Choose from several locations to keep where you browse more private.
 ipprotection-feature-introduction-link-text-privacy-2 = <a data-l10n-name="learn-more-vpn">{ -brand-product-name }’s built-in VPN</a> helps protect your browsing. Choose from multiple locations to keep where you browse more private.
 ipprotection-feature-introduction-link-text-privacy-3 = Get <a data-l10n-name="learn-more-vpn">extra privacy</a> by choosing from multiple locations to hide where you browse.
@@ -37,6 +38,8 @@ ipprotection-feature-introduction-title-summer-promo = Got travel plans? Take pr
 ipprotection-feature-introduction-description-summer-promo = Go farther with { -brand-product-name }’s built-in VPN: more locations, unlimited bandwidth. Now until August 31.
 ipprotection-feature-introduction-link-text-private-browsing-2 = Use our new <a data-l10n-name="learn-more-vpn">built-in VPN</a> to hide your location and protect your data, even when you’re in a Private Window.
 ipprotection-feature-introduction-description-private-browsing = Browse with extra protection by hiding your location, even when you’re in a Private Window.
+# Alternate version of the feature discovery callout copy used after we've released site inclusions for the VPN. Users have the option to turn the VPN on for specific sites only
+ipprotection-feature-introduction-description-private-browsing-2 = Help hide your location as you browse. Set rules to turn on VPN for <a data-l10n-name="learn-more-vpn">extra privacy</a> or location-based browsing, and off where you don’t.
 # Alternate version of the feature discovery callout copy used after we've released site inclusions for the VPN. Users have the option to turn the VPN on for specific sites only
 ipprotection-feature-introduction-description-private-browsing-1 = Help hide your location for <a data-l10n-name="learn-more-vpn">extra privacy</a> as you browse. Set rules to turn on the VPN for extra privacy or location-based browsing, and off where you don’t.
 ipprotection-feature-introduction-title-captive-portal = On public Wi-Fi? Try { -brand-product-name }’s built-in VPN.
@@ -114,6 +117,7 @@ ipprotection-android-promo-callout-primary-button = Got it
 # Here 'browse on' means continue browsing
 ipprotection-site-inclusions-callout-title-existing-users = Set built-in VPN rules, then browse on
 ipprotection-site-inclusions-callout-title-lapsed-users = Try built-in VPN, now site by site
+ipprotection-site-inclusions-callout-description-1 = Turn on VPN when you want extra privacy or location-based browsing, and off where you don’t.
 ipprotection-site-inclusions-callout-description = Turn it on when you want extra privacy or location-based browsing, and off where you don’t.
 ipprotection-site-inclusions-callout-primary-button = Set rules
 ipprotection-site-inclusions-callout-secondary-button-existing-users = Not now
@@ -265,11 +269,14 @@ ip-protection-description-1 =
     .label = Built-in VPN
     .description = Get extra privacy by hiding your location while browsing.
 ip-protection-learn-more = Learn more
-# Variables
-#   $maxUsage (number) - The maximum amount of data a user can use in a month (in GB)
 ip-protection-not-opted-in-4 =
     .heading = Try { -brand-short-name }’s built-in VPN
     .message = Browse with extra protection by hiding your location.
+# Variables
+#   $maxUsage (number) - The maximum amount of data a user can use in a month (in GB)
+ip-protection-not-opted-in-inclusions-enabled =
+    .heading = Ready to try it?
+    .message = Get { $maxUsage } GB free each month and choose which sites use VPN.
 ip-protection-not-opted-in-button = Get started
 # Variables:
 #   $count (number) - The number of sites saved as VPN exclusions.
@@ -285,6 +292,9 @@ ip-protection-site-rules-header-1 =
 ip-protection-site-rules-button-1 =
     .label = Manage VPN rules
     .description = Set rules for sites that need extra privacy or VPN turned off.
+ip-protection-site-rules-list-section-1 =
+    .label = Website rules
+    .description = Set rules to turn VPN on or off automatically.
 ip-protection-site-rules-list-section =
     .label = Website rules
     .description = Choose how VPN works for sites that need extra privacy or VPN turned off.
