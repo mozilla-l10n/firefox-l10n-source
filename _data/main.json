@@ -5118,7 +5118,6 @@
     "startup-group",
     "always-check-default",
     "startup-restore-windows-and-tabs",
-    "startup-windows-launch-on-login-profile-disabled",
     "windows-launch-on-login",
     "windows-launch-on-login-disabled",
     "windows-launch-on-login-open-new-tab",
