@@ -478,6 +478,10 @@ newtab-stocks-watchlist-full =
 newtab-picture-header = Picture of the day · Wikimedia Commons
 # Shorter title shown at the top of the widget, without the source name.
 newtab-picture-header-main = Picture of the day
+# Title shown at the top of the widget, with the date of the picture shown.
+# $date (Date) - the day Wikimedia Commons featured the picture as its picture
+# of the day, shown in numbers (for example 10/8/2026).
+newtab-picture-header-date = Picture of the day: { DATETIME($date, year: "numeric", month: "numeric", day: "numeric") }
 # Attribution line shown under the title once a picture loads: an author
 # credit, a link to the picture's source page, and a link to its license.
 # "©" is the copyright symbol.
@@ -501,6 +505,13 @@ newtab-picture-widget-menu-button =
 newtab-picture-widget-open-menu-button =
     .title = Open picture of the day menu
     .aria-label = Open picture of the day menu
+# Button that sets the picture shown in the widget, which may be today’s or the
+# previous day’s, as the New Tab background wallpaper. The button collapses to an
+# icon when not hovered/focused, so .title is its tooltip.
+newtab-picture-set-wallpaper2 =
+    .label = Set wallpaper
+    .title = Set wallpaper
+    .aria-label = Set this picture as your wallpaper
 # Button that sets the current picture as the New Tab background wallpaper. The
 # button collapses to an icon when not hovered/focused, so .title is its tooltip.
 newtab-picture-set-wallpaper =
@@ -509,6 +520,10 @@ newtab-picture-set-wallpaper =
     .aria-label = Set today’s picture as your wallpaper
 # Context menu item that opens the New Tab customization panel.
 newtab-picture-menu-manage-wallpaper = Manage wallpaper
+# Context menu item that hides the picture shown in the widget.
+newtab-picture-menu-hide-photo2 = Hide this picture
+# Context menu item that restores the picture after it has been hidden.
+newtab-picture-menu-show-photo2 = Show picture
 # Context menu item that hides today’s picture, replacing it with an existing
 # wallpaper.
 newtab-picture-menu-hide-photo = Hide today’s picture
@@ -516,6 +531,10 @@ newtab-picture-menu-hide-photo = Hide today’s picture
 newtab-picture-menu-show-photo = Show today’s picture
 # Context menu item linking to more information about the widget.
 newtab-picture-menu-learn-more = Learn more
+# Icon button shown on the widget once the picture is hidden; restores it.
+newtab-picture-show-button2 =
+    .title = Show picture
+    .aria-label = Show picture
 # Icon button shown on the widget once the picture is hidden; restores it.
 newtab-picture-show-button =
     .title = Show today’s picture
