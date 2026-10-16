@@ -148,6 +148,12 @@ site-rules-status-heading = Your rule
 site-rules-description-exclusion = VPN is off for this site
 # Used in the panel when a user navigates to a site where the VPN is on due to a site inclusion
 site-rules-description-inclusion = VPN is on for this site
+# Message shown in the panel the first time a user turns on the VPN, offering to always turn on VPN for the current website
+# Variables
+#   $website (string) - The host of the current website (e.g. "example.com")
+site-rules-inclusion-prompt =
+    .heading = Always turn on VPN for { $website }?
+    .message = Update your rules anytime in settings.
 ipprotection-settings-link =
     .label = Settings
 
@@ -377,6 +383,12 @@ ip-protection-delete-site-rule-confirm =
 ip-protection-delete-all-site-rules-message = Delete all website rules?
 ip-protection-delete-all-site-rules-confirm =
     .label = Delete all rules
+# Shown in place of the delete confirmation when deleting a rule fails.
+ip-protection-delete-site-rule-error = Couldn’t delete rule
+# Shown in place of the delete confirmation when deleting all rules fails.
+ip-protection-delete-all-site-rules-error = Couldn’t delete rules
+ip-protection-delete-site-rule-retry =
+    .label = Try again
 
 ## IP Protection Bandwidth
 
