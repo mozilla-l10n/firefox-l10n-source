@@ -172,6 +172,8 @@ ipprotection-button-turn-vpn-off = Turn off VPN
 # a page from an excluded site.
 ipprotection-button-turn-vpn-off-excluded-site = Turn off VPN everywhere
 # Button to turn on the VPN
+ipprotection-button-turn-vpn-on-1 = Turn on
+# Button to turn on the VPN
 ipprotection-button-turn-vpn-on = Turn on VPN
 # Button while VPN is connecting
 ipprotection-button-connecting = Turning on…
@@ -183,6 +185,8 @@ ipprotection-connection-status-excluded-1 = VPN is off for this site
     .aria-label = VPN is off for this site
 ipprotection-connection-status-connecting-1 = VPN is connecting…
     .aria-label = VPN is connecting…
+# Button to turn off the VPN
+ipprotection-button-turn-vpn-off-1 = Turn off
 
 ## Location controls
 

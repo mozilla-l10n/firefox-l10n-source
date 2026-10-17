@@ -250,6 +250,15 @@ urlbar-split-view-button =
     .tooltiptext = Split view
     .aria-label = Split view
 
+## URLbar context menu
+
+urlbar-menuitem-paste-and-go =
+    .label = Paste and Go
+    .accesskey = G
+urlbar-menuitem-paste-and-search =
+    .label = Paste and Search
+    .accesskey = S
+
 ## Searchbar context menu
 
 clear-search-history =
