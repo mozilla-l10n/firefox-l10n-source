@@ -3416,6 +3416,7 @@
     "newtab-custom-widget-search-toggle",
     "newtab-custom-widget-horoscopes-toggle",
     "newtab-custom-widget-travel-toggle",
+    "newtab-custom-widget-solitaire-toggle",
     "newtab-custom-widget-section-title",
     "newtab-custom-widget-section-toggle",
     "newtab-widget-manage-title",
@@ -4027,6 +4028,9 @@
     "newtab-travel-widget-title",
     "newtab-travel-widget-open-menu-button",
     "newtab-travel-menu-learn-more",
+    "newtab-solitaire-widget-title",
+    "newtab-solitaire-widget-open-menu-button",
+    "newtab-solitaire-menu-learn-more",
     "newtab-spaces-tab-stories",
     "newtab-spaces-tab-widgets",
     "newtab-spaces-tab-activity"
