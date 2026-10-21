@@ -28,7 +28,3 @@ view-source-context-wrap-long-lines-2 =
 view-source-context-highlight-syntax-2 =
     .label = Syntax Highlighting
     .accesskey = x
-view-source-context-wrap-long-lines =
-    .label = Wrap Long Lines
-view-source-context-highlight-syntax =
-    .label = Syntax Highlighting
