@@ -12199,21 +12199,6 @@
     "VK_ESCAPE",
     "VK_INSERT"
   ],
-  "toolkit/chrome/global/narrate.properties": [
-    "read-aloud-header",
-    "read-aloud-label",
-    "previous-label",
-    "start-label",
-    "stop-label",
-    "narrate-key-shortcut",
-    "next-label",
-    "speed",
-    "slow-speed-label",
-    "fast-speed-label",
-    "select-voice-header",
-    "defaultvoice",
-    "voiceLabel"
-  ],
   "toolkit/chrome/global/printdialog.properties": [
     "printTitleGTK",
     "optionsTabLabelGTK",
@@ -14639,6 +14624,20 @@
   ],
   "toolkit/toolkit/global/mozSupportLink.ftl": [
     "moz-support-link-text"
+  ],
+  "toolkit/toolkit/global/narrate.ftl": [
+    "narrate-toggle-label",
+    "narrate-skip-previous",
+    "narrate-start",
+    "narrate-stop",
+    "narrate-skip-next",
+    "narrate-header",
+    "narrate-rate-input",
+    "narrate-rate-slow",
+    "narrate-rate-fast",
+    "narrate-voice-header",
+    "narrate-voice-default",
+    "narrate-voice-label"
   ],
   "toolkit/toolkit/global/notification.ftl": [
     "notification-learnmore-default-label",
