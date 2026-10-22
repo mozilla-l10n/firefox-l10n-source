@@ -2792,6 +2792,7 @@
     "ipprotection-message-continuous-onboarding-autostart",
     "ipprotection-message-continuous-onboarding-site-settings",
     "confirmation-hint-ipprotection-navigated-to-excluded-site",
+    "confirmation-hint-ipprotection-navigated-to-included-site",
     "ipprotection-open-button",
     "ipprotection-come-back-title",
     "ipprotection-message-body-hide-location",
