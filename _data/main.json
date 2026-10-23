@@ -2052,6 +2052,7 @@
     "customkeys-reset-all-confirm-button-confirm",
     "customkeys-reset-all-confirm-button-cancel",
     "customkeys-file-duplicate-tab",
+    "customkeys-file-copy-tab-url",
     "customkeys-file-focus-search",
     "customkeys-history-reopen-tab",
     "customkeys-history-reopen-window",
@@ -2594,7 +2595,14 @@
     "genai-shortcut-button-3",
     "genai-shortcut-search-button",
     "genai-shortcut-copy-button",
+    "genai-shortcut-copy-confirmation",
     "genai-shortcut-more-actions-button",
+    "genai-more-actions-panel",
+    "genai-more-actions-ai-provider",
+    "genai-more-actions-ai-generic",
+    "genai-more-actions-search",
+    "genai-more-actions-copy",
+    "genai-more-actions-manage-settings",
     "genai-menu-new-badge",
     "genai-menu-summarize-page",
     "genai-input-ask-smart-window",
@@ -2651,6 +2659,7 @@
     "highlight-to-search-settings-ask-provider",
     "highlight-to-search-settings-ask-generic",
     "highlight-to-search-settings-search",
+    "highlight-to-search-settings-copy",
     "link-preview-optin-title",
     "link-preview-optin-message",
     "link-preview-onboarding-title-long-press",
@@ -3327,7 +3336,12 @@
     "refresh-reinstalled-profile-infobar-message",
     "refresh-profile-infobar-button",
     "restore-session-startup-suggestion-message",
-    "restore-session-startup-suggestion-button"
+    "restore-session-startup-suggestion-button",
+    "taskbar-tabs-spotlight-title",
+    "taskbar-tabs-spotlight-subtitle",
+    "taskbar-tabs-spotlight-sites-heading",
+    "taskbar-tabs-spotlight-add-button",
+    "taskbar-tabs-spotlight-done-button"
   ],
   "browser/browser/newtab/newtab.ftl": [
     "newtab-page-title",
@@ -4056,6 +4070,7 @@
     "newtab-horoscopes-widget-title",
     "newtab-horoscopes-widget-open-menu-button",
     "newtab-horoscopes-menu-learn-more",
+    "newtab-horoscopes-menu-powered-by-yahoo",
     "newtab-travel-widget-title",
     "newtab-travel-widget-open-menu-button",
     "newtab-travel-menu-learn-more",
@@ -14594,7 +14609,8 @@
     "moz-box-link-anchor",
     "moz-box-link-opens-in-new-tab",
     "moz-box-item-reorder-handle",
-    "moz-box-item-reorder-handle-named"
+    "moz-box-item-reorder-handle-named",
+    "moz-box-group-reorder-announcement"
   ],
   "toolkit/toolkit/global/mozBreadcrumbGroup.ftl": [
     "moz-breadcrumb-group-nav"
@@ -15564,6 +15580,9 @@
     "neterror-dns-not-found-offline-hint-different-device",
     "neterror-dns-not-found-offline-hint-modem",
     "neterror-dns-not-found-offline-hint-reconnect",
+    "neterror-loopback-refused-not-running",
+    "neterror-loopback-refused-wrong-port",
+    "neterror-loopback-refused-address",
     "neterror-dns-not-found-trr-only-reason2",
     "neterror-dns-not-found-trr-third-party-warning2",
     "neterror-dns-not-found-trr-only-could-not-connect",
