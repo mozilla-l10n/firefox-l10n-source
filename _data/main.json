@@ -14609,7 +14609,8 @@
     "moz-box-link-anchor",
     "moz-box-link-opens-in-new-tab",
     "moz-box-item-reorder-handle",
-    "moz-box-item-reorder-handle-named"
+    "moz-box-item-reorder-handle-named",
+    "moz-box-group-reorder-announcement"
   ],
   "toolkit/toolkit/global/mozBreadcrumbGroup.ftl": [
     "moz-breadcrumb-group-nav"
