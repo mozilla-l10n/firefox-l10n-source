@@ -589,6 +589,9 @@ newtab-travel-widget-open-menu-button =
     .aria-label = Open travel menu
 # Context menu item linking to more information about the widget.
 newtab-travel-menu-learn-more = Learn more
+# Context menu item linking to the Kayak website, the provider of the
+# travel search. “Kayak” is a brand name and should not be translated.
+newtab-travel-menu-powered-by-kayak = Powered by Kayak
 
 ## Strings for the Solitaire widget. Solitaire is a widget on New Tab where you
 ## can play solitaire, a card game for one player, also known as patience.
