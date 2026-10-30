@@ -1129,6 +1129,9 @@ newtab-wallpaper-firefox-peak-dark = A fox’s face at the left edge, on a dark 
 newtab-wallpaper-firefox-peak-light = A fox’s face at the left edge, on a light background
 newtab-wallpaper-firefox-sky-dark = Dark purple hills under a night sky
 newtab-wallpaper-firefox-sky-light = Light hills under a soft sky
+# “Wrexham AFC” is the name of a football club and should not be translated.
+# "crest" refers to the football club's logo (team badge).
+newtab-wallpaper-firefox-wrexham = The Wrexham AFC crest on a red background
 
 ## Firefox
 
