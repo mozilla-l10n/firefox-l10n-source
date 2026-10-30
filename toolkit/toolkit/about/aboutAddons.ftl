@@ -333,6 +333,10 @@ release-notes-addon-button = Release Notes
 permissions-addon-button = Permissions
 extension-enabled-heading = Enabled
 extension-disabled-heading = Disabled
+theme-enabled-heading2 =
+    .heading = Active Theme
+theme-disabled-heading3 =
+    .heading = Saved Themes
 theme-enabled-heading = Enabled
 theme-disabled-heading2 = Saved Themes
 plugin-enabled-heading = Enabled
@@ -448,6 +452,8 @@ addon-permissions-learnmore = Learn more about permissions
 # the user.
 addon-permissions-managed-by-policy = Some permissions are managed by your organization.
 recommended-extensions-heading = Recommended Extensions
+recommended-themes-card-heading =
+    .heading = Recommended Themes
 recommended-themes-heading = Recommended Themes
 # Variables:
 #   $hostname (string) - Host where the permissions are granted
