@@ -766,7 +766,18 @@
     "extension-nova-pine-name",
     "extension-nova-tide-name",
     "extension-nova-ash-name",
-    "extension-nova-smoke-name"
+    "extension-nova-smoke-name",
+    "extension-classic-proton-name",
+    "extension-classic-blue-name",
+    "extension-classic-cyan-name",
+    "extension-classic-violet-name",
+    "extension-classic-green-name",
+    "extension-classic-purple-name",
+    "extension-classic-pink-name",
+    "extension-classic-yellow-name",
+    "extension-classic-red-name",
+    "extension-classic-orange-name",
+    "extension-classic-oled-name"
   ],
   "browser/browser/appMenuNotifications.ftl": [
     "appmenu-update-available2",
@@ -12776,6 +12787,7 @@
     "themes-mode-device",
     "themes-mode",
     "aboutaddons-themes-picker-heading",
+    "aboutaddons-classic-themes-heading",
     "aboutaddons-themes-picker-see-more",
     "aboutaddons-themes-picker-see-less",
     "aboutaddons-themes-picker-enable-button",
