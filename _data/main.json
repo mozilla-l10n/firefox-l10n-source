@@ -2687,6 +2687,7 @@
     "genai-menu-summarize-with-ai",
     "genai-input-ask-smart-window",
     "genai-input-ask-generic",
+    "genai-input-ask-ai",
     "genai-input-ask-provider",
     "genai-shortcuts-selected-warning-generic",
     "genai-shortcuts-selected-warning",
