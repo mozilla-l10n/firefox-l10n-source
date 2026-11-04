@@ -424,6 +424,8 @@ tab-groups-onboarding-session-restore-title-3 = Reopen your tab groups from the 
 # The text "list all tabs" refers to the string tabs-toolbar-list-all-tabs
 tab-groups-onboarding-session-restore-title-2 = Reopen your tab groups from the List All Tabs menu anytime.
 tab-groups-onboarding-dismiss = OK
+# "here" refers to the application menu button
+tab-groups-onboarding-auto-saved-title = Tab groups are auto-saved. Find them here.
 
 ## Multi Profiles feature onboarding messages
 
