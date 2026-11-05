@@ -2,10 +2,6 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-
-## Variables:
-##  $tabCount (Number): the number of tabs that are affected by the action.
-
 reload-tab =
     .label = Reload Tab
     .accesskey = R
@@ -117,6 +113,7 @@ tab-context-open-in-container =
 move-to-start =
     .label = Move to Start
     .accesskey = S
+# Context menu sub-item that appears as an option for "Move to" for moving tab to start of the tab strip.
 move-to-start-alt =
     .label = Start
     .accesskey = S
@@ -249,6 +246,8 @@ tab-context-send-to-mobile =
 tab-context-share-selected-tabs =
     .label = Create Shareable Link
     .accesskey = a
+# Variables:
+#  $tabCount (Number): the number of tabs that are affected by the action.
 tab-context-unload-n-tabs =
     .label =
         { $tabCount ->
