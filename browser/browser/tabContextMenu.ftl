@@ -117,6 +117,7 @@ tab-context-open-in-container =
 move-to-start =
     .label = Move to Start
     .accesskey = S
+# Context menu sub-item that appears as an option for "Move to" for moving tab to start of the tab strip.
 move-to-start-alt =
     .label = Start
     .accesskey = S
