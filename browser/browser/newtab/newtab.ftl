@@ -1357,6 +1357,7 @@ newtab-shortcuts-highlight-title = Your favorites at your fingertips
 newtab-shortcuts-highlight-subtitle = Add a shortcut to keep your favorite sites one click away.
 
 ## Strings for reporting issues with ads and content
+## Preceded by "Why are you reporting this?"
 
 newtab-report-content-why-reporting-this =
     .label = Why are you reporting this?
@@ -1366,6 +1367,12 @@ newtab-report-ads-reason-inappropriate =
     .label = It’s inappropriate
 newtab-report-ads-reason-seen-it-too-many-times =
     .label = I’ve seen it too many times
+newtab-report-ads-reason-scam =
+    .label = Scam or fraudulent
+newtab-report-ads-reason-misleading =
+    .label = Misleading or false claims
+newtab-report-ads-reason-offensive =
+    .label = Offensive or inappropriate
 newtab-report-content-wrong-category =
     .label = Wrong category
 newtab-report-content-outdated =
@@ -1899,6 +1906,21 @@ newtab-clock-widget-search-back-button =
 newtab-clock-widget-search-location-input2 =
     .placeholder = Search for a city
     .aria-label = Search for a city
+# "Nickname (optional)" refers to a custom, user-defined label for a saved location
+# (e.g., "Home", "Office", or "School") to make it easier to recognize.
+# Not to be translated as a legal name, username, or alias used for identity verification.
+# The description counts down as the user types.
+# Variables:
+#   $count (number) - How many more characters the nickname can have.
+newtab-clock-widget-input-nickname2 =
+    .label = Nickname (optional)
+    .placeholder = Add a nickname
+    .aria-label = Nickname (optional)
+    .description =
+        { $count ->
+            [one] { $count } character left
+           *[other] { $count } characters left
+        }
 newtab-clock-widget-search-location-input =
     .label = Location
     .placeholder = Search for a city
