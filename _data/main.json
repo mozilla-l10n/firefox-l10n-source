@@ -3210,8 +3210,8 @@
     "mini-window-overlay-header",
     "mini-window-overlay-instructions",
     "mini-window-panel-header",
-    "mini-window-panel-move-selection",
-    "mini-window-panel-move-full-tab"
+    "mini-window-panel-part-of-page",
+    "mini-window-panel-full-page"
   ],
   "browser/browser/newtab/asrouter.ftl": [
     "cfr-doorhanger-extension-heading",
