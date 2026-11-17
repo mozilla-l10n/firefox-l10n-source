@@ -14361,7 +14361,8 @@
     "user-context-icon-tree",
     "user-context-icon-chill",
     "user-context-icon-circle",
-    "user-context-icon-fence"
+    "user-context-icon-fence",
+    "user-context-icon-robot"
   ],
   "toolkit/toolkit/global/createProfileWizard.ftl": [
     "create-profile-window2",
