@@ -1557,9 +1557,6 @@ reset-pbm-toolbar-button2 =
 ## Fire button. Clears the whole browsing session, then closes every window and
 ## opens a new one.
 
-fire-button-toolbar-button =
-    .label = Delete some or all of your browsing data
-    .tooltiptext = Delete some or all of your browsing data
 fire-button-panel-heading = Delete all browsing data?
 fire-button-panel-description = This deletes history, cookies, and site data. You’ll be signed out of sites. This window will close, and { -brand-short-name } will open a new one.
 fire-button-panel-choose-description = If you don’t want to delete everything, choose specific data instead.
