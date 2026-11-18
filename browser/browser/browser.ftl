@@ -139,6 +139,17 @@ urlbar-result-menu-manage-firefox-suggest2 = Manage { -firefox-suggest-brand-nam
 # user tell Firefox that the location is not accurate. Typically the location
 # will be a city name, or a city name combined with the name of its parent
 # administrative division (e.g., a province, prefecture, or state).
+urlbar-result-menu-report-inaccurate-location3 = Report inaccurate location
+    .accesskey = R
+urlbar-result-menu-show-less-frequently3 = Show less frequently
+    .accesskey = f
+urlbar-result-menu-dont-show-weather-suggestions3 = Don’t show weather suggestions
+    .accesskey = n
+# Some urlbar suggestions show the user's approximate location as automatically
+# detected by Firefox (e.g., weather suggestions), and this menu item lets the
+# user tell Firefox that the location is not accurate. Typically the location
+# will be a city name, or a city name combined with the name of its parent
+# administrative division (e.g., a province, prefecture, or state).
 urlbar-result-menu-report-inaccurate-location2 = Report inaccurate location
 urlbar-result-menu-show-less-frequently2 = Show less frequently
 urlbar-result-menu-dont-show-weather-suggestions2 = Don’t show weather suggestions
@@ -313,6 +324,11 @@ search-one-offs-add-engine =
     .label = Add “{ $engineName }”
     .tooltiptext = Add search engine “{ $engineName }”
     .aria-label = Add search engine “{ $engineName }”
+# When more than 5 engines are offered by a web page, they are grouped in a
+# submenu using this as its label.
+search-one-offs-add-engine-menu2 =
+    .label = Add search engine
+    .accesskey = h
 # When more than 5 engines are offered by a web page, they are grouped in a
 # submenu using this as its label.
 search-one-offs-add-engine-menu =
@@ -837,6 +853,9 @@ urlbar-result-realtime-opt-in-not-now = Not now
 urlbar-result-realtime-opt-in-dismiss = Dismiss
 urlbar-result-realtime-opt-in-dismiss-all2 = Don’t show these suggestions
 # This string is shown in the result menu.
+urlbar-result-menu-dont-show-market3 = Don’t show market suggestions
+    .accesskey = n
+# This string is shown in the result menu.
 urlbar-result-menu-dont-show-market2 = Don’t show market suggestions
 urlbar-result-realtime-opt-in-dismiss-all =
     .label = Don’t show these suggestions
@@ -1032,6 +1051,9 @@ urlbar-group-recent-searches =
 #  $engine (String): the name of the search engine providing the trending suggestions
 urlbar-group-trending =
     .label = Trending on { $engine }
+# The result menu labels shown next to trending results.
+urlbar-result-menu-trending-dont-show3 = Don’t show trending searches
+    .accesskey = n
 # The result menu labels shown next to trending results.
 urlbar-result-menu-trending-dont-show2 = Don’t show trending searches
     .accesskey = D
