@@ -3773,6 +3773,7 @@
     "policy-DisableFirefoxStudies",
     "policy-DisableForgetButton",
     "policy-DisableFormHistory",
+    "policy-DisableMacOSUserPolicies",
     "policy-DisablePrimaryPasswordCreation",
     "policy-DisablePasswordReveal2",
     "policy-DisablePrivateBrowsing",
