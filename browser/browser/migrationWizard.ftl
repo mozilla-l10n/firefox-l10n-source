@@ -19,7 +19,6 @@ migration-wizard-selection-option-without-profile = { $sourceBrowser }
 #  $sourceBrowser (String): the name of the browser to import from.
 #  $profileName (String): the name of the user profile to import from.
 migration-wizard-selection-option-with-profile = { $sourceBrowser } — { $profileName }
-# Name for the Arc browser - this should not be localized
 migration-wizard-migrator-display-name-arc = Arc
 
 # Each migrator is expected to include a display name string, and that display
@@ -296,7 +295,7 @@ migration-wizard-progress-success-passwords =
 # browser has completed.
 #
 # Variables:
-#  $maxAgeInDays (Number): the maximum number of days of history that might be imported.
+#  $maxAgeInDays (Number): the number of days of history imported.
 migration-wizard-progress-success-history =
     { $maxAgeInDays ->
         [one] From the last day

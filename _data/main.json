@@ -2923,6 +2923,7 @@
     "ipprotection-connection-status-blocked-error-description-1",
     "ipprotection-message-bandwidth-warning",
     "ipprotection-message-bandwidth-warning-mb",
+    "ipprotection-message-default-browser-confirmation",
     "ipprotection-message-continuous-onboarding-intro",
     "ipprotection-message-continuous-onboarding-autostart",
     "ipprotection-message-continuous-onboarding-site-settings",
@@ -5746,8 +5747,8 @@
     "payments-edit-payment-button-label",
     "payments-no-payments-stored-message",
     "payment-moz-box-item",
-    "payment-moz-box-item-with-security-code-2",
-    "payment-moz-box-item-security-code-only-2",
+    "payment-moz-box-item-with-security-code-3",
+    "payment-moz-box-item-security-code-only-3",
     "addresses-group",
     "autofill-addresses-checkbox-message",
     "autofill-addresses-manage-addresses-button",
@@ -10387,6 +10388,8 @@
     "highlight",
     "details",
     "summary",
+    "sectionfooter",
+    "sectionheader",
     "inputColorValue"
   ],
   "dom/chrome/accessibility/unix/accessible.properties": [
@@ -10425,6 +10428,8 @@
     "complementary",
     "contentinfo",
     "region",
+    "sectionfooter",
+    "sectionheader",
     "inputColorValue"
   ],
   "dom/chrome/appstrings.properties": [
@@ -16011,7 +16016,7 @@
     "credit-card-label-number-name-2",
     "credit-card-label-number-expiration-2",
     "credit-card-label-number-name-expiration-2",
-    "credit-card-label-with-security-code-2"
+    "credit-card-label-with-security-code-3"
   ],
   "toolkit/toolkit/pdfviewer/embedFallback.ftl": [
     "pdfjs-embed-fallback-message",
