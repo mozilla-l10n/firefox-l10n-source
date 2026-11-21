@@ -1500,6 +1500,7 @@
     "qrcode-save-filename-with-domain-base",
     "qrcode-window-title",
     "qrcode-dialog-title",
+    "qrcode-dialog-title-download-mobile",
     "qrcode-image",
     "qrcode-close-button",
     "toolbar-button-save-page",
@@ -2511,7 +2512,12 @@
     "link-preview-onboarding-callout-description",
     "tab-groups-2026-onboarding-callout-title",
     "tab-groups-2026-onboarding-callout-subtitle",
-    "tab-groups-2026-onboarding-cta-button"
+    "tab-groups-2026-onboarding-cta-button",
+    "closed-browser-notifications-callout-title",
+    "closed-browser-notifications-callout-body",
+    "closed-browser-notifications-callout-manage-button",
+    "closed-browser-notifications-callout-turn-off-button",
+    "closed-browser-notifications-callout-keep-on-button"
   ],
   "browser/browser/firefoxRelay.ftl": [
     "firefox-relay-mask-generation-failed",
@@ -2927,9 +2933,9 @@
     "upgrade-vpn-title",
     "upgrade-vpn-description",
     "upgrade-vpn-button",
-    "ipprotection-connection-status-generic-error-title-1",
-    "ipprotection-connection-status-generic-error-description",
-    "ipprotection-connection-status-generic-error-try-again",
+    "ipprotection-connection-status-try-again-button",
+    "ipprotection-connection-error-continue-without-vpn",
+    "ipprotection-connection-status-trying-again-title",
     "ipprotection-connection-status-network-error-title-1",
     "ipprotection-connection-status-network-error-description",
     "ipprotection-connection-status-blocked-error-title-1",
@@ -3013,9 +3019,7 @@
     "vpn-error-page-keep-browsing",
     "vpn-error-page-new-session",
     "vpn-paused-alert-close-tabs-button",
-    "vpn-paused-alert-continue-wo-vpn-button",
-    "vpn-error-alert-title-1",
-    "vpn-error-alert-body-1"
+    "vpn-paused-alert-continue-wo-vpn-button"
   ],
   "browser/browser/linuxDesktopEntry.ftl": [
     "desktop-entry-name",
@@ -15678,6 +15682,7 @@
     "fp-learn-more-about-https-connections",
     "fp-neterror-vpn-error-title",
     "fp-neterror-vpn-error-description",
+    "fp-neterror-vpn-error-continue-button",
     "fp-neterror-denied-port-access"
   ],
   "toolkit/toolkit/neterror/nsserrors.ftl": [

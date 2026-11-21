@@ -1215,6 +1215,7 @@ qrcode-save-button =
     .label = Save
 qrcode-window-title = QR Code
 qrcode-dialog-title = QR Code
+qrcode-dialog-title-download-mobile = Download { -brand-product-name } for mobile
 qrcode-image =
     .aria-label = QR code
 qrcode-close-button =
