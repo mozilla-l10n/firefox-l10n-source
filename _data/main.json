@@ -1748,6 +1748,7 @@
     "main-context-menu-open-link-split-view-2",
     "main-context-menu-open-link-container-tab-2",
     "main-context-menu-open-link-new-window-2",
+    "main-context-menu-open-link-mini-window",
     "main-context-menu-open-link-new-private-window-2",
     "main-context-menu-bookmark-link-3",
     "main-context-menu-save-link",
@@ -3262,6 +3263,7 @@
   "browser/browser/miniWindow.ftl": [
     "mini-window-close-button",
     "mini-window-restore-button",
+    "mini-window-link-restore-button",
     "mini-window-audio-mute",
     "mini-window-audio-unmute",
     "screenshots-component-mini-window-button",
