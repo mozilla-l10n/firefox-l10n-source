@@ -819,7 +819,10 @@
     "appmenu-addon-post-install-pin-toolbarbutton-checkbox",
     "appmenu-new-tab-controlled-changes",
     "appmenu-homepage-controlled-changes",
-    "appmenu-tab-hide-controlled"
+    "appmenu-tab-hide-controlled",
+    "appmenu-new-tab-controlled-message",
+    "appmenu-homepage-controlled-message",
+    "appmenu-tab-hide-controlled-message"
   ],
   "browser/browser/appmenu.ftl": [
     "appmenuitem-banner-update-downloading",
@@ -12130,16 +12133,6 @@
     "WebPageXMLOnlyFilter",
     "UntitledSaveFileName"
   ],
-  "toolkit/chrome/global/extensions.properties": [
-    "uninstall.confirmation.title",
-    "uninstall.confirmation.message",
-    "uninstall.confirmation.button-0.label",
-    "uninstall.confirmation.button-1.label",
-    "saveaspdf.saveasdialog.title",
-    "newTabControlled.message2",
-    "homepageControlled.message",
-    "tabHideControlled.message"
-  ],
   "toolkit/chrome/global/fallbackMenubar.properties": [
     "quitMenuitem.label",
     "quitMenuitem.key"
@@ -14569,7 +14562,12 @@
     "webext-site-perms-header-unsigned-with-perms",
     "webext-site-perms-midi",
     "webext-site-perms-midi-sysex",
-    "webext-site-perms-serial"
+    "webext-site-perms-serial",
+    "webext-uninstall-confirmation-title",
+    "webext-uninstall-confirmation-message",
+    "webext-uninstall-confirmation-button-uninstall",
+    "webext-uninstall-confirmation-button-keep",
+    "webext-save-as-pdf-dialog-title"
   ],
   "toolkit/toolkit/global/handlerDialog.ftl": [
     "permission-dialog-description",
