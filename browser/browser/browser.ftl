@@ -1854,6 +1854,15 @@ urlbar-trust-icon-trackers-blocked-longform-label =
         [one] { $count } tracker blocked
        *[other] { $count } trackers blocked
     }
+# Variables:
+#   $count (Number) - Number of trackers blocked on the current site.
+urlbar-trust-icon-trackers-blocked-tooltip =
+    { $count ->
+        [one] { $count } tracker blocked on this site
+       *[other] { $count } trackers blocked on this site
+    }
+urlbar-trust-icon-no-trackers-found-tooltip = No trackers found on this site
+urlbar-trust-icon-tracking-protection-off-tooltip = Tracking protection is off for this site
 
 ## Variables
 ##  $count (String): the number of trackers blocked.
