@@ -5515,8 +5515,6 @@
     "browser-language-preferred-label",
     "browser-language-fallback-label",
     "browser-language-install-error",
-    "fx-translate-web-pages",
-    "translate-exceptions",
     "settings-translations-header",
     "settings-translations-offer-to-translate-label",
     "settings-translations-more-settings-button",
@@ -7236,8 +7234,8 @@
     "search-tags"
   ],
   "browser/browser/translations.ftl": [
-    "urlbar-translations-button2",
-    "urlbar-translations-button-intro",
+    "urlbar-translations-button3",
+    "urlbar-translations-button-intro-2",
     "urlbar-translations-button-translated",
     "urlbar-translations-button-loading",
     "translations-panel-settings-button",
@@ -14146,7 +14144,6 @@
     "-screenshots-brand-name",
     "-mozilla-vpn-brand-name",
     "-profiler-brand-name",
-    "-translations-brand-name",
     "-relay-brand-name",
     "-relay-brand-short-name",
     "-fakespot-brand-name",
