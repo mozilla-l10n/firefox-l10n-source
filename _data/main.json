@@ -1575,7 +1575,7 @@
     "menu-share-mac-picker-multiple",
     "urlbar-share-url",
     "menu-share-copy-links",
-    "menu-share-windows",
+    "menu-share-windows2",
     "ui-tour-info-panel-close",
     "popups-infobar-allow2",
     "popups-infobar-dont-show-message2",
@@ -8143,30 +8143,29 @@
     "icon-warning",
     "icon-error"
   ],
-  "devtools/client/boxmodel.properties": [
-    "boxmodel.title",
-    "boxmodel.geometryButton.tooltip",
-    "boxmodel.propertiesLabel",
-    "boxmodel.propertiesHideLabel",
-    "boxmodel.propertiesShowLabel",
-    "boxmodel.offsetParent",
-    "boxmodel.offsetParent.title"
+  "devtools/client/boxmodel.ftl": [
+    "boxmodel-title",
+    "boxmodel-geometry-button-title",
+    "boxmodel-properties-label",
+    "boxmodel-properties-hide-label",
+    "boxmodel-properties-show-label",
+    "boxmodel-offset-parent",
+    "boxmodel-offset-parent-title"
   ],
-  "devtools/client/changes.properties": [
-    "changes.noChanges",
-    "changes.noChangesDescription",
-    "changes.inlineStyleSheetLabel2",
-    "changes.elementStyleLabel",
-    "changes.iframeLabel",
-    "changes.contextmenu.copy",
-    "changes.contextmenu.copy.accessKey",
-    "changes.contextmenu.copyAllChanges",
-    "changes.contextmenu.copyAllChangesDescription",
-    "changes.contextmenu.copyDeclaration",
-    "changes.contextmenu.copyRule",
-    "changes.contextmenu.copyRuleDescription",
-    "changes.contextmenu.selectAll",
-    "changes.contextmenu.selectAll.accessKey"
+  "devtools/client/changes.ftl": [
+    "changes-no-changes",
+    "changes-no-changes-description",
+    "changes-inline-stylesheet-label",
+    "changes-element-style-label",
+    "changes-iframe-label",
+    "changes-copy-all-changes-button",
+    "changes-copy-all-changes-button-title",
+    "changes-copy-rule-button",
+    "changes-copy-rule-button-title",
+    "changes-context-menu-copy",
+    "changes-context-menu-copy-rule",
+    "changes-context-menu-copy-declaration",
+    "changes-context-menu-select-all"
   ],
   "devtools/client/compatibility.ftl": [
     "compatibility-selected-element-header",
@@ -8565,18 +8564,18 @@
     "serviceWorkerInfo.redundant",
     "serviceWorkerInfo.unknown"
   ],
-  "devtools/client/device.properties": [
-    "device.phones",
-    "device.tablets",
-    "device.laptops",
-    "device.televisions",
-    "device.consoles",
-    "device.watches",
-    "device.custom"
+  "devtools/client/device.ftl": [
+    "device-type-phones",
+    "device-type-tablets",
+    "device-type-laptops",
+    "device-type-televisions",
+    "device-type-consoles",
+    "device-type-watches",
+    "device-type-custom"
   ],
-  "devtools/client/dom.properties": [
-    "dom.filterDOMPanel",
-    "dom.refresh"
+  "devtools/client/dom.ftl": [
+    "dom-panel-filter-placeholder",
+    "dom-panel-refresh-button-title"
   ],
   "devtools/client/filterwidget.properties": [
     "emptyFilterList",
@@ -8591,30 +8590,30 @@
     "savePresetButton",
     "presetsToggleButton"
   ],
-  "devtools/client/font-inspector.properties": [
-    "fontinspector.system",
-    "fontinspector.noFontsUsedOnCurrentElement",
-    "fontinspector.copyURL",
-    "fontinspector.customInstanceName",
-    "fontinspector.fontInstanceLabel",
-    "fontinspector.fontSizeLabel",
-    "fontinspector.fontWeightLabel",
-    "fontinspector.fontItalicLabel",
-    "fontinspector.showMore",
-    "fontinspector.showLess",
-    "fontinspector.letterSpacingLabel",
-    "fontinspector.lineHeightLabelCapitalized",
-    "fontinspector.allFontsOnPageHeader",
-    "fontinspector.fontsUsedLabel",
-    "fontinspector.previewTextPlaceholder",
-    "fontinspector.fontVersion",
-    "fontinspector.fontDesigner",
-    "fontinspector.fontManufacturer",
-    "fontinspector.fontVendor",
-    "fontinspector.fontDescription",
-    "fontinspector.fontLicense",
-    "fontinspector.fontLicenseInfoUrl",
-    "fontinspector.showFullText"
+  "devtools/client/font-inspector.ftl": [
+    "font-inspector-system",
+    "font-inspector-no-fonts-used",
+    "font-inspector-copy-url-title",
+    "font-inspector-font-instance-label",
+    "font-inspector-custom-instance-name",
+    "font-inspector-font-size-label",
+    "font-inspector-font-weight-label",
+    "font-inspector-font-italic-label",
+    "font-inspector-letter-spacing-label",
+    "font-inspector-line-height-label",
+    "font-inspector-show-more",
+    "font-inspector-show-less",
+    "font-inspector-all-fonts-on-page-header",
+    "font-inspector-fonts-used-label",
+    "font-inspector-preview-text-placeholder",
+    "font-inspector-font-version",
+    "font-inspector-font-designer",
+    "font-inspector-font-manufacturer",
+    "font-inspector-font-vendor",
+    "font-inspector-font-description",
+    "font-inspector-font-license",
+    "font-inspector-font-license-info-url",
+    "font-inspector-show-full-text"
   ],
   "devtools/client/har.properties": [
     "har.responseBodyNotIncluded",
@@ -11223,7 +11222,8 @@
     "invalidNumberOfTrustedTypesForDirectiveValues",
     "invalidRequireTrustedTypesForDirectiveValue",
     "invalidTrustedTypesExpression",
-    "CSPMessagePrefix"
+    "CSPMessagePrefix",
+    "CSPReportOnlyMetaIgnored"
   ],
   "dom/chrome/security/security.properties": [
     "BlockMixedDisplayContent",
