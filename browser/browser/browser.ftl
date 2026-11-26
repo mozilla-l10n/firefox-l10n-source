@@ -1968,6 +1968,11 @@ trustpanel-blocker-section-header2 =
        *[other] <span data-l10n-name="count">{ $count }</span> Trackers blocked on this site
     }
 
+## Feature callout shown the first time the tracker count appears in the URL bar
+
+urlbar-trust-icon-tracker-count-callout-title = Privacy that works for you
+urlbar-trust-icon-tracker-count-callout-subtitle = { -brand-short-name } makes it harder for companies to keep tabs on you. Open the shield to see what trackers we blocked.
+
 ## Items of the bulleted list introduced by trustpanel-site-issue-steps-intro.
 ## Each one names a feature the user can turn off to check whether it causes
 ## the site issue.
