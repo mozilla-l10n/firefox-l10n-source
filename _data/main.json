@@ -12844,6 +12844,8 @@
     "about-logging-preset-gfx-description",
     "about-logging-preset-windows-label",
     "about-logging-preset-windows-description",
+    "about-logging-preset-ime-label",
+    "about-logging-preset-ime-description",
     "about-logging-preset-custom-label",
     "about-logging-preset-custom-description",
     "about-logging-error",
