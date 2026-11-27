@@ -669,6 +669,11 @@ urlbar-page-action-button =
     .tooltiptext = Page actions
 urlbar-revert-button =
     .tooltiptext = Show the address in the Location Bar
+# Title of address bar results for bookmark keyword searches.
+# Variables:
+#  $domain (String): The domain name of the bookmark.
+#  $searchTerms (String): The search terms the user is typing. Never empty.
+urlbar-result-bookmark-keyword-search = { $domain }: { $searchTerms }
 
 ## "Last visited" and "bookmarked" explanation strings. For bookmarks and urlbar
 ## results with last-visited dates like history and top sites, these strings
