@@ -127,6 +127,10 @@ reference = "dom/chrome/dom/dom.properties"
 l10n = "{l}dom/chrome/dom/dom.properties"
 
 [[paths]]
+reference = "dom/dom/*.ftl"
+l10n = "{l}dom/dom/*.ftl"
+
+[[paths]]
 reference = "toolkit/toolkit/about/*About.ftl"
 l10n = "{l}toolkit/toolkit/about/*About.ftl"
 

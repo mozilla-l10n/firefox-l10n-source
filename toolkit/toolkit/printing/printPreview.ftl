@@ -43,9 +43,7 @@ printpreview-page =
 # $sheetCount (integer) - The total number of sheets to print
 printpreview-sheet-of-sheets = { $sheetNum } of { $sheetCount }
 
-## Variables
-## $percent (integer) - menuitem percent label
-## $arrow (String) - UTF-8 arrow character for navigation buttons
+##
 
 printpreview-percentage-value =
     .label = { $percent }%
