@@ -14185,6 +14185,7 @@
     "experimental-features-group-customize-browsing",
     "experimental-features-group-productivity",
     "experimental-features-group-newtab-widgets",
+    "experimental-features-group-privacy",
     "experimental-features-custom-wallpaper",
     "experimental-features-custom-wallpaper-description",
     "experimental-features-link-previews",
@@ -14215,7 +14216,9 @@
     "experimental-features-tab-context-menu",
     "experimental-features-tab-context-menu-description",
     "experimental-features-resource-monitor",
-    "experimental-features-resource-monitor-description"
+    "experimental-features-resource-monitor-description",
+    "experimental-features-copy-clean-link",
+    "experimental-features-copy-clean-link-description"
   ],
   "toolkit/toolkit/formautofill/formAutofill.ftl": [
     "autofill-use-payment-method-os-prompt-macos",
