@@ -337,6 +337,9 @@ appmenu-help-switch-device =
 # Menu header for combination of "Help" menu and report broken site
 appmenu-help-and-report-header =
     .title = Help and Report
+# The header text of the app menu's Help panel.
+appmenu-help-header2 =
+    .title = Help
 
 ## appmenu-help-enter-troubleshoot-mode and appmenu-help-exit-troubleshoot-mode
 ## are mutually exclusive, so it's possible to use the same accesskey for both.
