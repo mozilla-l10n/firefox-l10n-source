@@ -242,6 +242,9 @@ profiler-popup-presets-web-developer-label =
 profiler-popup-presets-firefox-description = Recommended preset for profiling { -brand-shorter-name }.
 profiler-popup-presets-firefox-label =
     .label = { -brand-shorter-name }
+profiler-popup-presets-benchmark-description = Preset for investigating { -brand-shorter-name } performance on benchmarks such as Speedometer, with low overhead.
+profiler-popup-presets-benchmark-label =
+    .label = Benchmark
 profiler-popup-presets-graphics-description = Preset for investigating graphics bugs in { -brand-shorter-name }.
 profiler-popup-presets-graphics-label =
     .label = Graphics
@@ -334,6 +337,9 @@ appmenu-help-switch-device =
 # Menu header for combination of "Help" menu and report broken site
 appmenu-help-and-report-header =
     .title = Help and Report
+# The header text of the app menu's Help panel.
+appmenu-help-header2 =
+    .title = Help
 
 ## appmenu-help-enter-troubleshoot-mode and appmenu-help-exit-troubleshoot-mode
 ## are mutually exclusive, so it's possible to use the same accesskey for both.
